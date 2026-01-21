@@ -1,7 +1,7 @@
 ## **LANGUAGE:**  [English](Begin_en.md) | [日本語](Begin_jp.md) | [中文](Begin_zh.md) | [한국어](Begin_kr.md)
 
 1. [FModel](https://fmodel.app/)을 다운로드하여 설치하세요. (FModel은 Wine을 통해 Linux에서도 동작합니다.)
-2. Directory -> Selector를 클릭해 Octopath Traveler 0를 새 게임으로 추가합니다. DataBase 파일을 자동으로 디시리얼라이즈(deserialize)하려면 UE Version에서 `GAME_OctopathTraveler0`를 반드시 선택하세요. 마지막으로 Directory에서 Octopath 0의 `Paks/` 폴더를 지정합니다.  <img width="488" height="348" alt="FModel" src="https://github.com/user-attachments/assets/211ef83b-3427-4526-a75f-2029cd840b72" />
+2. Directory -> Selector를 클릭해 Octopath Traveler 0를 새 게임으로 추가합니다. DataBase 파일을 자동으로 디시리얼라이즈(deserialize)하려면 UE Version에서 `GAME_OctopathTraveler0`를 반드시 선택하세요. 마지막으로 Directory에서 Octopath 0의 `Paks/` 폴더를 지정합니다.  <img width="488" height="348" alt="image" src="https://github.com/user-attachments/assets/2499b686-2cf9-406d-96bc-03c32c8b0dfa" />
 3. Settings로 이동해 `Local Mapping File`을 활성화하고 Octopath Traveler 0의 mappings를 가져옵니다. mappings는 BravelyPath Modular Discord에서 구할 수 있으며, UE4SS로 수동 추출도 가능합니다.
 4. 모드 자체는 암호화되어 있지 않지만, Octopath 0의 메인 pak은 암호화되어 있습니다. Directory -> AES로 이동해 Octopath Traveler 0의 AES 키를 입력해야 합니다. 키는 BravelyPath Modular Discord에서 구할 수 있으며, IDA/Ghidra로 수동 추출할 수도 있습니다.
 5. Octopath 0의 pak 또는 모드 pak을 열고 수정하고 싶은 에셋으로 이동합니다. 수정할 항목을 추출하세요. DataBase 에셋의 경우 보통 에셋 프로퍼티와 raw data(`.uasset`)를 추출합니다.
