@@ -1,0 +1,143 @@
+{
+  "condition_id": 10899,
+  "total_uses": 2,
+  "uses_by_subsystem": {
+    "SkillConditionList": 2
+  },
+  "uses_by_table": {
+    "SkillConditionList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[1]": 2
+  },
+  "param_stats": {
+    "count": 2,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      110,
+      2
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "613046": {
+      "skill_id": 613046,
+      "use_count": 1,
+      "name_id": 104453,
+      "name_best": "魔封剑",
+      "detail_id": 104470,
+      "detail_best": "消耗BP1以上的回合结束时\n为自身赋予特殊效果“魔封剑的架势”\n(2次/最多4次/后卫时也会发动/无法行动时解除)<sidenote>\n魔封剑的架势:完全防御对我方的属性攻击(部分除外)的效果\n成功防御时，恢复自身的BP2\n并赋予SP储备(效果量为使用者最大SP的30%/不可叠加)与\n属攻提升30%的效果(3回合)\n※该效果优先于队友的反击、回避、无效化等效果发动\n　因此不会触发其他的“受到攻击时”效果",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        79281
+      ]
+    },
+    "613065": {
+      "skill_id": 613065,
+      "use_count": 1,
+      "name_id": 104453,
+      "name_best": "魔封剑",
+      "detail_id": 104471,
+      "detail_best": "消耗BP1以上的回合结束时\n为自身赋予特殊效果“魔封剑的架势”\n(3次/最多4次/后卫时也会发动/无法行动时解除)<sidenote>\n魔封剑的架势:完全防御对我方的属性攻击(部分除外)的效果\n成功防御时，恢复自身的BP3\n并赋予SP储备(效果量为使用者最大SP的30%/不可叠加)与\n属攻提升30%的效果(3回合)\n之后，为攻击的敌人附加物攻・属攻降低30%的效果(3回合)\n※该效果优先于队友的反击、回避、无效化等效果发动\n　因此不会触发其他的“受到攻击时”效果",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        79282
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10899,
+      "param": 0,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 922,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 613046,
+      "skill_index": -1,
+      "skill_avail_id": 79281,
+      "skill_condition_list_id": 922,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        110
+      ]
+    },
+    {
+      "condition_id": 10899,
+      "param": 0,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 922,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 613065,
+      "skill_index": -1,
+      "skill_avail_id": 79282,
+      "skill_condition_list_id": 922,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        110
+      ]
+    }
+  ]
+}

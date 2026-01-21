@@ -1,0 +1,224 @@
+{
+  "condition_id": 10813,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "SkillConditionList": 4
+  },
+  "uses_by_table": {
+    "SkillConditionList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 4
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "609193": {
+      "skill_id": 609193,
+      "use_count": 1,
+      "name_id": 100640,
+      "name_best": "奇迹之光",
+      "detail_id": 100655,
+      "detail_best": "自身使用战斗能力恢复体力时，\n若体力恢复效果超过恢复目标的最大体力，\n对恢复对象赋予超过量的体力护盾（上限1000／不可重复）\n※仅行动顺序中的体力恢复效果／自动恢复除外",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        173871
+      ]
+    },
+    "609215": {
+      "skill_id": 609215,
+      "use_count": 1,
+      "name_id": 100640,
+      "name_best": "奇迹之光",
+      "detail_id": 100761,
+      "detail_best": "自身使用战斗能力恢复体力时，\n若体力恢复效果超过恢复目标的最大体力，\n对恢复对象赋予超过量的体力护盾（上限2000／不可重复）\n※仅行动顺序中的体力恢复效果／自动恢复除外",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        173873
+      ]
+    },
+    "611284": {
+      "skill_id": 611284,
+      "use_count": 1,
+      "name_id": 102721,
+      "name_best": "精灵鲁比斯的加护(疗愈)",
+      "detail_id": 102737,
+      "detail_best": "自身使用战斗技能恢复HP时\n若哪怕有1人的HP恢复量超过了其最大HP\n则为我方前卫全体赋予特殊效果“传说”\n(2回合/作为支援技能赋予/效果不可叠加)\n※仅限行动顺序中的HP恢复效果/不包含自动恢复<sidenote>\n传说:物攻・物防・属攻・属防提升5%的效果",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        176604
+      ]
+    },
+    "608100": {
+      "skill_id": 608100,
+      "use_count": 1,
+      "name_id": 100668,
+      "name_best": "爱格妮雅的许愿",
+      "detail_id": 100670,
+      "detail_best": "当自身使用战斗能力恢复体力时，\n若体力恢复效果超过恢复目标的最大体力，\n对恢复目标赋予物攻、属攻、暴击提升<skl_ailment_value>％\n和伤害上限提升（效果量 <skl_ailment_value4>）的效果（2回合）\n※仅行动顺序中的体力恢复效果／自动恢复除外",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        173896
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10813,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 415,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 609193,
+      "skill_index": -1,
+      "skill_avail_id": 173871,
+      "skill_condition_list_id": 415,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10813,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 415,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 609215,
+      "skill_index": -1,
+      "skill_avail_id": 173873,
+      "skill_condition_list_id": 415,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10813,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 415,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611284,
+      "skill_index": -1,
+      "skill_avail_id": 176604,
+      "skill_condition_list_id": 415,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10813,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 415,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 608100,
+      "skill_index": -1,
+      "skill_avail_id": 173896,
+      "skill_condition_list_id": 415,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

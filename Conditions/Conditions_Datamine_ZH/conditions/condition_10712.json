@@ -1,0 +1,7235 @@
+{
+  "condition_id": 10712,
+  "total_uses": 3056,
+  "uses_by_subsystem": {
+    "TacticalList": 2004,
+    "TacticalActionList": 972,
+    "SkillConditionList": 16,
+    "BattleEventList": 49,
+    "BattleAbortConditions": 15
+  },
+  "uses_by_table": {
+    "TacticalList": 2004,
+    "TacticalActionList": 972,
+    "SkillConditionList": 16,
+    "BattleEventList": 49,
+    "BattleAbortConditions": 15
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[1]": 859,
+    "TacticalList[2]": 453,
+    "TacticalList[0]": 513,
+    "TacticalList[3]": 148,
+    "TacticalList[5]": 10,
+    "TacticalList[4]": 21,
+    "TacticalActionList[0]": 956,
+    "TacticalActionList[1]": 16,
+    "SkillConditionList[0]": 16,
+    "BattleEventList[1]": 44,
+    "BattleEventList[0]": 5,
+    "BattleAbortConditions[0]": 3,
+    "BattleAbortConditions[1]": 12
+  },
+  "param_stats": {
+    "count": 3056,
+    "min": 1,
+    "max": 99,
+    "mean": 9.482984293193716,
+    "median": 3.0,
+    "p10": 1,
+    "p25": 2,
+    "p75": 11,
+    "p90": 21,
+    "top10": [
+      [
+        3,
+        645
+      ],
+      [
+        1,
+        526
+      ],
+      [
+        2,
+        486
+      ],
+      [
+        4,
+        180
+      ],
+      [
+        11,
+        167
+      ],
+      [
+        10,
+        162
+      ],
+      [
+        9,
+        140
+      ],
+      [
+        5,
+        74
+      ],
+      [
+        12,
+        58
+      ],
+      [
+        14,
+        46
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10307,
+      369
+    ],
+    [
+      10302,
+      348
+    ],
+    [
+      1,
+      267
+    ],
+    [
+      10715,
+      227
+    ],
+    [
+      10713,
+      226
+    ],
+    [
+      10301,
+      210
+    ],
+    [
+      709,
+      144
+    ],
+    [
+      10002,
+      106
+    ],
+    [
+      10805,
+      102
+    ],
+    [
+      7,
+      96
+    ],
+    [
+      10705,
+      94
+    ],
+    [
+      500,
+      69
+    ],
+    [
+      10303,
+      63
+    ],
+    [
+      640,
+      58
+    ],
+    [
+      2,
+      45
+    ],
+    [
+      207,
+      44
+    ],
+    [
+      10810,
+      41
+    ],
+    [
+      10716,
+      40
+    ],
+    [
+      501,
+      35
+    ],
+    [
+      701,
+      35
+    ],
+    [
+      10809,
+      34
+    ],
+    [
+      10100,
+      33
+    ],
+    [
+      315,
+      30
+    ],
+    [
+      10706,
+      28
+    ],
+    [
+      801,
+      28
+    ],
+    [
+      600,
+      25
+    ],
+    [
+      10711,
+      22
+    ],
+    [
+      616,
+      22
+    ],
+    [
+      10202,
+      20
+    ],
+    [
+      10865,
+      18
+    ],
+    [
+      700,
+      17
+    ],
+    [
+      10200,
+      17
+    ],
+    [
+      10401,
+      16
+    ],
+    [
+      644,
+      16
+    ],
+    [
+      11,
+      16
+    ],
+    [
+      716,
+      14
+    ],
+    [
+      10803,
+      12
+    ],
+    [
+      648,
+      12
+    ],
+    [
+      502,
+      12
+    ],
+    [
+      301,
+      11
+    ],
+    [
+      32,
+      9
+    ],
+    [
+      10720,
+      9
+    ],
+    [
+      200,
+      7
+    ],
+    [
+      10808,
+      6
+    ],
+    [
+      10400,
+      6
+    ],
+    [
+      405,
+      5
+    ],
+    [
+      641,
+      4
+    ],
+    [
+      10103,
+      4
+    ],
+    [
+      400,
+      4
+    ],
+    [
+      604,
+      4
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 33483,
+      "use_count": 83,
+      "label": "QPSWdD11_side04_01_Enemy_01",
+      "name_best": "研究逢魔的老学者",
+      "type_id": 23190,
+      "tactical_assign_id": 30766,
+      "skills_id": 52565
+    },
+    {
+      "enemy_id": 5130,
+      "use_count": 72,
+      "label": "AGM_Boss_Chp5_02_01",
+      "name_best": "咒将泰坦斯",
+      "type_id": 21783,
+      "tactical_assign_id": 30268,
+      "skills_id": 51434
+    },
+    {
+      "enemy_id": 15130,
+      "use_count": 72,
+      "label": "AGM_Boss_Chp5_02_01__B5130",
+      "name_best": "咒将泰塔斯",
+      "type_id": 121783,
+      "tactical_assign_id": 130268,
+      "skills_id": 51434
+    },
+    {
+      "enemy_id": 32634,
+      "use_count": 72,
+      "label": "Rematch_Season24_Boss01_01",
+      "name_best": "咒将泰塔斯",
+      "type_id": 121783,
+      "tactical_assign_id": 130268,
+      "skills_id": 51434
+    },
+    {
+      "enemy_id": 33799,
+      "use_count": 72,
+      "label": "QPO_HandicapBattle_AnotherEX01_27_03_Enemy_01",
+      "name_best": "咒将泰塔斯",
+      "type_id": 23370,
+      "tactical_assign_id": 130268,
+      "skills_id": 51434
+    },
+    {
+      "enemy_id": 34009,
+      "use_count": 72,
+      "label": "QPO_HandicapBattle_AnotherEX02_34_04_Enemy_01",
+      "name_best": "咒将泰塔斯",
+      "type_id": 23559,
+      "tactical_assign_id": 130268,
+      "skills_id": 51434
+    },
+    {
+      "enemy_id": 5135,
+      "use_count": 63,
+      "label": "AGM_Boss_Chp7_01_01",
+      "name_best": "圣火神爱尔福林克",
+      "type_id": 21786,
+      "tactical_assign_id": 30368,
+      "skills_id": 51588
+    },
+    {
+      "enemy_id": 32127,
+      "use_count": 63,
+      "label": "AGM_Boss_Chp7_01_02",
+      "name_best": "圣火神爱尔福林克",
+      "type_id": 22304,
+      "tactical_assign_id": 30368,
+      "skills_id": 51588
+    },
+    {
+      "enemy_id": 32128,
+      "use_count": 63,
+      "label": "AGM_Boss_Chp7_01_03",
+      "name_best": "圣火神爱尔福林克",
+      "type_id": 22305,
+      "tactical_assign_id": 30368,
+      "skills_id": 51588
+    },
+    {
+      "enemy_id": 15135,
+      "use_count": 63,
+      "label": "AGM_Boss_Chp7_01_01__B5135",
+      "name_best": "星火神爱尔福林克",
+      "type_id": 121786,
+      "tactical_assign_id": 130368,
+      "skills_id": 51588
+    },
+    {
+      "enemy_id": 132127,
+      "use_count": 63,
+      "label": "AGM_Boss_Chp7_01_02__B32127",
+      "name_best": "星火神爱尔福林克",
+      "type_id": 122304,
+      "tactical_assign_id": 130368,
+      "skills_id": 51588
+    },
+    {
+      "enemy_id": 132128,
+      "use_count": 63,
+      "label": "AGM_Boss_Chp7_01_03__B32128",
+      "name_best": "星火神爱尔福林克",
+      "type_id": 122305,
+      "tactical_assign_id": 130368,
+      "skills_id": 51588
+    },
+    {
+      "enemy_id": 32744,
+      "use_count": 63,
+      "label": "Rematch_Season39_Boss01_01",
+      "name_best": "星火神爱尔福林克",
+      "type_id": 121786,
+      "tactical_assign_id": 130368,
+      "skills_id": 52621
+    },
+    {
+      "enemy_id": 33936,
+      "use_count": 63,
+      "label": "Rematch_Season39_Boss01_02",
+      "name_best": "星火神爱尔福林克",
+      "type_id": 122304,
+      "tactical_assign_id": 130368,
+      "skills_id": 52621
+    },
+    {
+      "enemy_id": 33937,
+      "use_count": 63,
+      "label": "Rematch_Season39_Boss01_03",
+      "name_best": "星火神爱尔福林克",
+      "type_id": 122305,
+      "tactical_assign_id": 130368,
+      "skills_id": 52621
+    },
+    {
+      "enemy_id": 33678,
+      "use_count": 57,
+      "label": "QPS_Boss_CP9_Enemy_08_02",
+      "name_best": "吕西安",
+      "type_id": 23289,
+      "tactical_assign_id": 30784,
+      "skills_id": 52578
+    },
+    {
+      "enemy_id": 33546,
+      "use_count": 56,
+      "label": "QPS_Under_AB02_04_Enemy_01",
+      "name_best": "影宗",
+      "type_id": 23232,
+      "tactical_assign_id": 30723,
+      "skills_id": 52459
+    },
+    {
+      "enemy_id": 33560,
+      "use_count": 56,
+      "label": "QPS_Rematch_UAB02_04_01_EX",
+      "name_best": "影宗",
+      "type_id": 23232,
+      "tactical_assign_id": 30723,
+      "skills_id": 52461
+    },
+    {
+      "enemy_id": 33669,
+      "use_count": 56,
+      "label": "QPS_Rematch_UAB02_04_01_EX3",
+      "name_best": "影宗",
+      "type_id": 23232,
+      "tactical_assign_id": 30723,
+      "skills_id": 52523
+    },
+    {
+      "enemy_id": 32192,
+      "use_count": 52,
+      "label": "AGM_Boss_Chp8_01_01",
+      "name_best": "圣者萨赞特斯",
+      "type_id": 21787,
+      "tactical_assign_id": 30398,
+      "skills_id": 51661
+    },
+    {
+      "enemy_id": 132192,
+      "use_count": 52,
+      "label": "AGM_Boss_Chp8_01_01__B32192",
+      "name_best": "赋予我方单体<skl_turn_count>\n异常状态无效的效果。",
+      "type_id": 121787,
+      "tactical_assign_id": 130398,
+      "skills_id": 51661
+    },
+    {
+      "enemy_id": 32635,
+      "use_count": 52,
+      "label": "Rematch_Season26_Boss01_01",
+      "name_best": "赋予我方单体<skl_turn_count>\n异常状态无效的效果。",
+      "type_id": 121787,
+      "tactical_assign_id": 130398,
+      "skills_id": 51661
+    },
+    {
+      "enemy_id": 33763,
+      "use_count": 46,
+      "label": "QPSWdD11_side04_01_Enemy_01_01",
+      "name_best": "逢夜的沙漠沃坦Ⅳ",
+      "type_id": 23332,
+      "tactical_assign_id": 30767,
+      "skills_id": 52566
+    },
+    {
+      "enemy_id": 33764,
+      "use_count": 46,
+      "label": "QPSWdD11_side04_01_Enemy_01_02",
+      "name_best": "逢夜的沙漠大沃坦Ⅰ",
+      "type_id": 23333,
+      "tactical_assign_id": 30768,
+      "skills_id": 52567
+    },
+    {
+      "enemy_id": 33765,
+      "use_count": 46,
+      "label": "QPSWdD11_side04_01_Enemy_01_03",
+      "name_best": "逢夜的山之沃坦",
+      "type_id": 23334,
+      "tactical_assign_id": 30769,
+      "skills_id": 52568
+    },
+    {
+      "enemy_id": 33766,
+      "use_count": 46,
+      "label": "QPSWdD11_side04_01_Enemy_01_04",
+      "name_best": "逢夜的山之大沃坦",
+      "type_id": 23335,
+      "tactical_assign_id": 30770,
+      "skills_id": 52569
+    },
+    {
+      "enemy_id": 33767,
+      "use_count": 46,
+      "label": "QPSWdD11_side04_01_Enemy_01_05",
+      "name_best": "逢夜的雪蛇鸟",
+      "type_id": 23336,
+      "tactical_assign_id": 30771,
+      "skills_id": 52570
+    },
+    {
+      "enemy_id": 33768,
+      "use_count": 46,
+      "label": "QPSWdD11_side04_01_Enemy_01_06",
+      "name_best": "逢夜的大绵羊",
+      "type_id": 23337,
+      "tactical_assign_id": 30772,
+      "skills_id": 52571
+    },
+    {
+      "enemy_id": 33769,
+      "use_count": 46,
+      "label": "QPSWdD11_side04_01_Enemy_01_07",
+      "name_best": "逢夜的食梦者",
+      "type_id": 23338,
+      "tactical_assign_id": 30773,
+      "skills_id": 52572
+    },
+    {
+      "enemy_id": 33679,
+      "use_count": 43,
+      "label": "QPS_Boss_CP9_Enemy_08_03",
+      "name_best": "里布拉克",
+      "type_id": 23290,
+      "tactical_assign_id": 30785,
+      "skills_id": 52579
+    },
+    {
+      "enemy_id": 33770,
+      "use_count": 28,
+      "label": "QPSWdD11_side04_01_Enemy_01_08",
+      "name_best": "逢虐的死鼹",
+      "type_id": 23339,
+      "tactical_assign_id": 30774,
+      "skills_id": 52573
+    },
+    {
+      "enemy_id": 33771,
+      "use_count": 28,
+      "label": "QPSWdD11_side04_01_Enemy_01_09",
+      "name_best": "逢夜的古代神兵",
+      "type_id": 23340,
+      "tactical_assign_id": 30775,
+      "skills_id": 52574
+    },
+    {
+      "enemy_id": 32939,
+      "use_count": 27,
+      "label": "QPS_Under_AB01_04_Enemy_01",
+      "name_best": "米迦尔迪",
+      "type_id": 22854,
+      "tactical_assign_id": 130546,
+      "skills_id": 52064
+    },
+    {
+      "enemy_id": 33057,
+      "use_count": 27,
+      "label": "QPS_Rematch_UAB01_04_EX",
+      "name_best": "米迦尔迪",
+      "type_id": 22854,
+      "tactical_assign_id": 130546,
+      "skills_id": 52127
+    },
+    {
+      "enemy_id": 33376,
+      "use_count": 24,
+      "label": "Enemy_JobTowerCle_f0005_r002EX_001",
+      "name_best": "试炼的大星官",
+      "type_id": 23125,
+      "tactical_assign_id": 130661,
+      "skills_id": 52362
+    },
+    {
+      "enemy_id": 32994,
+      "use_count": 20,
+      "label": "QPSDsF11_P001_Enemy_01",
+      "name_best": "追求强烈刺激的男子",
+      "type_id": 22856,
+      "tactical_assign_id": 130603,
+      "skills_id": 52194
+    },
+    {
+      "enemy_id": 15127,
+      "use_count": 19,
+      "label": "AGM_Boss_Chp4_02_01__B5127",
+      "name_best": "星火守指长松佐恩",
+      "type_id": 121781,
+      "tactical_assign_id": 30252,
+      "skills_id": 51363
+    },
+    {
+      "enemy_id": 32655,
+      "use_count": 19,
+      "label": "Rematch_Season20_Boss02_01",
+      "name_best": "星火守指长松佐恩",
+      "type_id": 121781,
+      "tactical_assign_id": 30252,
+      "skills_id": 51993
+    },
+    {
+      "enemy_id": 32637,
+      "use_count": 19,
+      "label": "QPSSeT11_P001_Enemy_01",
+      "name_best": "虔诚的星官",
+      "type_id": 22656,
+      "tactical_assign_id": 130526,
+      "skills_id": 52010
+    },
+    {
+      "enemy_id": 32846,
+      "use_count": 18,
+      "label": "QPSSnT11_P001_Enemy_01",
+      "name_best": "胆小的前佣兵",
+      "type_id": 22855,
+      "tactical_assign_id": 30573,
+      "skills_id": 52137
+    },
+    {
+      "enemy_id": 33095,
+      "use_count": 18,
+      "label": "KMQX_01_03_Enemy_03",
+      "name_best": "畏孵的死神・妒",
+      "type_id": 22888,
+      "tactical_assign_id": 130611,
+      "skills_id": 52233
+    },
+    {
+      "enemy_id": 33348,
+      "use_count": 18,
+      "label": "KMQX_02_03_Enemy_03",
+      "name_best": "畏孵的死神・承认",
+      "type_id": 23096,
+      "tactical_assign_id": 30721,
+      "skills_id": 52444
+    },
+    {
+      "enemy_id": 33755,
+      "use_count": 18,
+      "label": "KMQXZero_00_03_Enemy_01",
+      "name_best": "畏形死神",
+      "type_id": 23329,
+      "tactical_assign_id": 30796,
+      "skills_id": 52600
+    },
+    {
+      "enemy_id": 33829,
+      "use_count": 18,
+      "label": "KMQX_03_03_Enemy_02",
+      "name_best": "畏形死神",
+      "type_id": 23400,
+      "tactical_assign_id": 30828,
+      "skills_id": 52654
+    },
+    {
+      "enemy_id": 32528,
+      "use_count": 16,
+      "label": "QPSCtT11_P002_Enemy_01",
+      "name_best": "品格高尚的家庭教师",
+      "type_id": 22613,
+      "tactical_assign_id": 30487,
+      "skills_id": 51847
+    },
+    {
+      "enemy_id": 32533,
+      "use_count": 15,
+      "label": "QPSIsF12_P001_Enemy_01",
+      "name_best": "训练有素的兽人",
+      "type_id": 22655,
+      "tactical_assign_id": 130504,
+      "skills_id": 151915
+    },
+    {
+      "enemy_id": 33150,
+      "use_count": 13,
+      "label": "Enemy_JobTowerThi_f0005_r002EX_002",
+      "name_best": "试炼的大游侠的手下",
+      "type_id": 22971,
+      "tactical_assign_id": 130602,
+      "skills_id": 52193
+    },
+    {
+      "enemy_id": 32785,
+      "use_count": 12,
+      "label": "Other_Jangmi_Em02",
+      "name_best": "魔王艾娅莉",
+      "type_id": 22722,
+      "tactical_assign_id": 130534,
+      "skills_id": 52038
+    },
+    {
+      "enemy_id": 32890,
+      "use_count": 12,
+      "label": "Rematch_Other_Jangmi_Em02",
+      "name_best": "魔王艾娅莉",
+      "type_id": 22722,
+      "tactical_assign_id": 130534,
+      "skills_id": 52038
+    },
+    {
+      "enemy_id": 99826,
+      "use_count": 12,
+      "label": "HandicapBattle_RankEX02_05_04_Enemy",
+      "name_best": "魔王艾娅莉",
+      "type_id": 98026,
+      "tactical_assign_id": 130534,
+      "skills_id": 52038
+    },
+    {
+      "enemy_id": 33921,
+      "use_count": 12,
+      "label": "QPO_HandicapBattle_AnotherEX03_32_04_Enemy_01",
+      "name_best": "魔王艾娅莉",
+      "type_id": 23486,
+      "tactical_assign_id": 130534,
+      "skills_id": 52038
+    },
+    {
+      "enemy_id": 33547,
+      "use_count": 12,
+      "label": "QPS_Under_AB02_04_Enemy_02",
+      "name_best": "影宗",
+      "type_id": 23288,
+      "tactical_assign_id": 30724,
+      "skills_id": 52460
+    },
+    {
+      "enemy_id": 33571,
+      "use_count": 12,
+      "label": "QPS_Rematch_UAB02_04_02_EX",
+      "name_best": "影宗",
+      "type_id": 23288,
+      "tactical_assign_id": 30724,
+      "skills_id": 52462
+    },
+    {
+      "enemy_id": 33670,
+      "use_count": 12,
+      "label": "QPS_Rematch_UAB02_04_02_EX3",
+      "name_best": "影宗",
+      "type_id": 23288,
+      "tactical_assign_id": 30724,
+      "skills_id": 52462
+    },
+    {
+      "enemy_id": 33548,
+      "use_count": 12,
+      "label": "QPS_Under_AB02_04_Enemy_03",
+      "name_best": "影宗",
+      "type_id": 23288,
+      "tactical_assign_id": 30725,
+      "skills_id": 52460
+    },
+    {
+      "enemy_id": 33572,
+      "use_count": 12,
+      "label": "QPS_Rematch_UAB02_04_03_EX",
+      "name_best": "影宗",
+      "type_id": 23288,
+      "tactical_assign_id": 30725,
+      "skills_id": 52462
+    },
+    {
+      "enemy_id": 33671,
+      "use_count": 12,
+      "label": "QPS_Rematch_UAB02_04_03_EX3",
+      "name_best": "影宗",
+      "type_id": 23288,
+      "tactical_assign_id": 30725,
+      "skills_id": 52462
+    },
+    {
+      "enemy_id": 33549,
+      "use_count": 12,
+      "label": "QPS_Under_AB02_04_Enemy_04",
+      "name_best": "影宗",
+      "type_id": 23288,
+      "tactical_assign_id": 30726,
+      "skills_id": 52460
+    },
+    {
+      "enemy_id": 33573,
+      "use_count": 12,
+      "label": "QPS_Rematch_UAB02_04_04_EX",
+      "name_best": "影宗",
+      "type_id": 23288,
+      "tactical_assign_id": 30726,
+      "skills_id": 52462
+    },
+    {
+      "enemy_id": 33672,
+      "use_count": 12,
+      "label": "QPS_Rematch_UAB02_04_04_EX3",
+      "name_best": "影宗",
+      "type_id": 23288,
+      "tactical_assign_id": 30726,
+      "skills_id": 52462
+    },
+    {
+      "enemy_id": 33908,
+      "use_count": 12,
+      "label": "AutoDungeon_RiskEnemy_01",
+      "name_best": "斩灾",
+      "type_id": 23473,
+      "tactical_assign_id": 30808,
+      "skills_id": 52611
+    },
+    {
+      "enemy_id": 34178,
+      "use_count": 12,
+      "label": "AutoDungeon_RiskEnemy_02",
+      "name_best": "射灾",
+      "type_id": 23689,
+      "tactical_assign_id": 30808,
+      "skills_id": 52611
+    },
+    {
+      "enemy_id": 32148,
+      "use_count": 11,
+      "label": "AB09_04_01",
+      "name_best": "哈米",
+      "type_id": 22314,
+      "tactical_assign_id": 30365,
+      "skills_id": 51585
+    },
+    {
+      "enemy_id": 32213,
+      "use_count": 11,
+      "label": "Rematch_AB09_04_01_N",
+      "name_best": "哈米",
+      "type_id": 22314,
+      "tactical_assign_id": 30365,
+      "skills_id": 51585
+    },
+    {
+      "enemy_id": 32206,
+      "use_count": 11,
+      "label": "Rematch_AB09_04_01_EX",
+      "name_best": "哈米",
+      "type_id": 22314,
+      "tactical_assign_id": 30365,
+      "skills_id": 51585
+    },
+    {
+      "enemy_id": 33100,
+      "use_count": 11,
+      "label": "Enemy_JobTowerHun_f0005_r002EX_001",
+      "name_best": "试炼的大猎人",
+      "type_id": 22920,
+      "tactical_assign_id": 130566,
+      "skills_id": 52130
+    },
+    {
+      "enemy_id": 33906,
+      "use_count": 11,
+      "label": "QPO_HandicapBattle_AnotherEX03_31_03_Enemy_01",
+      "name_best": "试炼的大猎人",
+      "type_id": 23471,
+      "tactical_assign_id": 130566,
+      "skills_id": 52130
+    },
+    {
+      "enemy_id": 33375,
+      "use_count": 11,
+      "label": "Enemy_JobTowerSch_f0005_r002EX_001",
+      "name_best": "试炼的大学者",
+      "type_id": 23124,
+      "tactical_assign_id": 130660,
+      "skills_id": 52361
+    },
+    {
+      "enemy_id": 33180,
+      "use_count": 10,
+      "label": "QPSFsF12_side05_01_Enemy_01",
+      "name_best": "容易吸引魔物的女子",
+      "type_id": 22999,
+      "tactical_assign_id": 130642,
+      "skills_id": 52308
+    },
+    {
+      "enemy_id": 32908,
+      "use_count": 10,
+      "label": "QPS_AB01_04_Enemy_01",
+      "name_best": "米迦尔迪",
+      "type_id": 22794,
+      "tactical_assign_id": 130544,
+      "skills_id": 52062
+    },
+    {
+      "enemy_id": 32077,
+      "use_count": 10,
+      "label": "Enemy_RaidTower01_f0001_r001_001",
+      "name_best": "巨魁卡尼斯・帝尔司异种",
+      "type_id": 22259,
+      "tactical_assign_id": 30337,
+      "skills_id": 51554
+    },
+    {
+      "enemy_id": 32281,
+      "use_count": 10,
+      "label": "Enemy_RaidTower01_f0003_r001_001",
+      "name_best": "巨魁蠕动巨花亚种",
+      "type_id": 22429,
+      "tactical_assign_id": 30413,
+      "skills_id": 51688
+    },
+    {
+      "enemy_id": 32537,
+      "use_count": 10,
+      "label": "Enemy_RaidTower01_f0004_r001_001",
+      "name_best": "巨魁阿伊洛鸟亚种",
+      "type_id": 22608,
+      "tactical_assign_id": 30473,
+      "skills_id": 51819
+    },
+    {
+      "enemy_id": 32172,
+      "use_count": 10,
+      "label": "Enemy_RaidTower01_f0002_r001_001",
+      "name_best": "巨魁梅尔斯特罗姆异种",
+      "type_id": 22338,
+      "tactical_assign_id": 30371,
+      "skills_id": 51591
+    },
+    {
+      "enemy_id": 98887,
+      "use_count": 9,
+      "label": "9pcs_Arena_Boss_Capture_Second_02",
+      "name_best": "翼蜥蜴重型种",
+      "type_id": 98603,
+      "tactical_assign_id": 30689,
+      "skills_id": 55958
+    },
+    {
+      "enemy_id": 98888,
+      "use_count": 9,
+      "label": "9pcs_Arena_Boss_RE_Second_02",
+      "name_best": "翼蜥蜴重型种",
+      "type_id": 98603,
+      "tactical_assign_id": 30690,
+      "skills_id": 55959
+    },
+    {
+      "enemy_id": 33335,
+      "use_count": 9,
+      "label": "QPSMnT12A_side04_01_Enemy_01",
+      "name_best": "前辈骑士",
+      "type_id": 23086,
+      "tactical_assign_id": 130676,
+      "skills_id": 52395
+    },
+    {
+      "enemy_id": 33337,
+      "use_count": 9,
+      "label": "QPSMnT12A_side04_02_Enemy_01",
+      "name_best": "前辈骑士",
+      "type_id": 23086,
+      "tactical_assign_id": 130676,
+      "skills_id": 52395
+    },
+    {
+      "enemy_id": 33336,
+      "use_count": 9,
+      "label": "QPSMnT12A_side04_01_Enemy_02",
+      "name_best": "后辈骑士",
+      "type_id": 23087,
+      "tactical_assign_id": 130677,
+      "skills_id": 52396
+    },
+    {
+      "enemy_id": 33338,
+      "use_count": 9,
+      "label": "QPSMnT12A_side04_02_Enemy_02",
+      "name_best": "后辈骑士",
+      "type_id": 23087,
+      "tactical_assign_id": 130677,
+      "skills_id": 52396
+    },
+    {
+      "enemy_id": 33871,
+      "use_count": 9,
+      "label": "QPS_Under_AB03_04_Enemy_01",
+      "name_best": "葵",
+      "type_id": 23438,
+      "tactical_assign_id": 30804,
+      "skills_id": 52604
+    },
+    {
+      "enemy_id": 33872,
+      "use_count": 9,
+      "label": "QPS_Rematch_UAB03_04_01_EX",
+      "name_best": "葵",
+      "type_id": 23438,
+      "tactical_assign_id": 30805,
+      "skills_id": 52610
+    },
+    {
+      "enemy_id": 33873,
+      "use_count": 9,
+      "label": "QPS_Rematch_UAB03_04_01_EX3",
+      "name_best": "葵",
+      "type_id": 23438,
+      "tactical_assign_id": 30805,
+      "skills_id": 52610
+    },
+    {
+      "enemy_id": 98901,
+      "use_count": 8,
+      "label": "ExBoss_Dragon_GreenOrb_01",
+      "name_best": "龙翠玉",
+      "type_id": 98611,
+      "tactical_assign_id": 30709,
+      "skills_id": 56278
+    },
+    {
+      "enemy_id": 32216,
+      "use_count": 8,
+      "label": "Enemy_JobTowerCle_f0005_r001EX_001",
+      "name_best": "试炼的大星官",
+      "type_id": 22367,
+      "tactical_assign_id": 30378,
+      "skills_id": 51611
+    },
+    {
+      "enemy_id": 32247,
+      "use_count": 8,
+      "label": "Enemy_JobTowerCle_f0005_r001_001",
+      "name_best": "试炼的大星官",
+      "type_id": 22397,
+      "tactical_assign_id": 30378,
+      "skills_id": 51624
+    },
+    {
+      "enemy_id": 199061,
+      "use_count": 8,
+      "label": "RogueLike_Enemy_XGT05_1",
+      "name_best": "试炼的大星官",
+      "type_id": 91123,
+      "tactical_assign_id": 30378,
+      "skills_id": 51611
+    },
+    {
+      "enemy_id": 99217,
+      "use_count": 8,
+      "label": "RogueLike_Enemy_XGT05_1_easy",
+      "name_best": "试炼的大星官",
+      "type_id": 91123,
+      "tactical_assign_id": 30378,
+      "skills_id": 51611
+    },
+    {
+      "enemy_id": 99350,
+      "use_count": 8,
+      "label": "RogueLike_Enemy_XGT05_1_hard",
+      "name_best": "试炼的大星官",
+      "type_id": 91123,
+      "tactical_assign_id": 30378,
+      "skills_id": 51611
+    },
+    {
+      "enemy_id": 34058,
+      "use_count": 8,
+      "label": "Rematch_Other_Danas_Em06_01",
+      "name_best": "奥特罗斯",
+      "type_id": 23326,
+      "tactical_assign_id": 30825,
+      "skills_id": 52628
+    },
+    {
+      "enemy_id": 34113,
+      "use_count": 8,
+      "label": "QPO_HandicapBattle_RankEX01_38_01_Enemy_01",
+      "name_best": "奥特罗斯",
+      "type_id": 23326,
+      "tactical_assign_id": 30825,
+      "skills_id": 52628
+    },
+    {
+      "enemy_id": 33722,
+      "use_count": 8,
+      "label": "Other_Danas_Em06_01",
+      "name_best": "奥特罗斯",
+      "type_id": 23326,
+      "tactical_assign_id": 30825,
+      "skills_id": 52628
+    },
+    {
+      "enemy_id": 98851,
+      "use_count": 7,
+      "label": "9pcs_Arena_Boss_RE_Final_01",
+      "name_best": "苏尔特拉维",
+      "type_id": 98583,
+      "tactical_assign_id": 30665,
+      "skills_id": 55931
+    },
+    {
+      "enemy_id": 131550,
+      "use_count": 7,
+      "label": "Hell_Curse_01_02_01__B31550",
+      "name_best": "恢复我方单体HP。",
+      "type_id": 121761,
+      "tactical_assign_id": 30221,
+      "skills_id": 51251
+    },
+    {
+      "enemy_id": 34121,
+      "use_count": 7,
+      "label": "QPO_HandicapBattle_AnotherEX01_39_02_Enemy_01",
+      "name_best": "恢复我方单体HP。",
+      "type_id": 23651,
+      "tactical_assign_id": 30221,
+      "skills_id": 51251
+    },
+    {
+      "enemy_id": 33535,
+      "use_count": 7,
+      "label": "QPS_AB02_04_Enemy_01",
+      "name_best": "影宗",
+      "type_id": 23221,
+      "tactical_assign_id": 30722,
+      "skills_id": 52458
+    },
+    {
+      "enemy_id": 5131,
+      "use_count": 6,
+      "label": "AGM_Boss_Chp6_01_01",
+      "name_best": "咒将赫露弥娅",
+      "type_id": 21782,
+      "tactical_assign_id": 30303,
+      "skills_id": 51511
+    },
+    {
+      "enemy_id": 15131,
+      "use_count": 6,
+      "label": "AGM_Boss_Chp6_01_01__B5131",
+      "name_best": "咒将赫尔米尼亚",
+      "type_id": 121782,
+      "tactical_assign_id": 130303,
+      "skills_id": 51511
+    },
+    {
+      "enemy_id": 32630,
+      "use_count": 6,
+      "label": "Rematch_Season18_Boss01_01",
+      "name_best": "咒将赫尔米尼亚",
+      "type_id": 121782,
+      "tactical_assign_id": 130303,
+      "skills_id": 51511
+    },
+    {
+      "enemy_id": 33844,
+      "use_count": 6,
+      "label": "QPO_HandicapBattle_AnotherEX03_28_04_Enemy_01",
+      "name_best": "咒将赫尔米尼亚",
+      "type_id": 23413,
+      "tactical_assign_id": 130303,
+      "skills_id": 51511
+    },
+    {
+      "enemy_id": 98886,
+      "use_count": 6,
+      "label": "Boss_QuSQ070_02a",
+      "name_best": "豪武匠的幻影",
+      "type_id": 98602,
+      "tactical_assign_id": 30699,
+      "skills_id": 55960
+    },
+    {
+      "enemy_id": 33570,
+      "use_count": 6,
+      "label": "QPS_Boss_CP9_Enemy_08_01",
+      "name_best": "双界魔影",
+      "type_id": 23238,
+      "tactical_assign_id": 30783,
+      "skills_id": 52577
+    },
+    {
+      "enemy_id": 98898,
+      "use_count": 5,
+      "label": "ExBoss_Dragon_RedOrb_01",
+      "name_best": "龙红玉",
+      "type_id": 98608,
+      "tactical_assign_id": 30706,
+      "skills_id": 56275
+    },
+    {
+      "enemy_id": 98900,
+      "use_count": 5,
+      "label": "ExBoss_Dragon_YellowOrb_01",
+      "name_best": "龙黄玉",
+      "type_id": 98610,
+      "tactical_assign_id": 30708,
+      "skills_id": 56277
+    },
+    {
+      "enemy_id": 98326,
+      "use_count": 4,
+      "label": "SE_Enemy_064_01",
+      "name_best": "桑克·欧利番特",
+      "type_id": 22424,
+      "tactical_assign_id": 30562,
+      "skills_id": 55398
+    },
+    {
+      "enemy_id": 5122,
+      "use_count": 4,
+      "label": "AGM_Boss_Chp3_01_01",
+      "name_best": "亡者雷布兰特",
+      "type_id": 21779,
+      "tactical_assign_id": 30223,
+      "skills_id": 51277
+    },
+    {
+      "enemy_id": 15122,
+      "use_count": 4,
+      "label": "AGM_Boss_Chp3_01_01__B5122",
+      "name_best": "",
+      "type_id": 121779,
+      "tactical_assign_id": 130223,
+      "skills_id": 51277
+    },
+    {
+      "enemy_id": 32515,
+      "use_count": 4,
+      "label": "Rematch_Season13_Boss03_01",
+      "name_best": "",
+      "type_id": 121779,
+      "tactical_assign_id": 130223,
+      "skills_id": 51277
+    },
+    {
+      "enemy_id": 33842,
+      "use_count": 4,
+      "label": "QPO_HandicapBattle_AnotherEX03_28_02_Enemy_01",
+      "name_best": "",
+      "type_id": 23411,
+      "tactical_assign_id": 130223,
+      "skills_id": 51277
+    },
+    {
+      "enemy_id": 34088,
+      "use_count": 4,
+      "label": "QPO_HandicapBattle_AnotherEX03_37_2_04_Enemy_01",
+      "name_best": "",
+      "type_id": 23621,
+      "tactical_assign_id": 130223,
+      "skills_id": 51277
+    },
+    {
+      "enemy_id": 5132,
+      "use_count": 4,
+      "label": "AGM_Boss_Chp6_02_01",
+      "name_best": "咒将奥古斯特",
+      "type_id": 21784,
+      "tactical_assign_id": 30294,
+      "skills_id": 51496
+    },
+    {
+      "enemy_id": 15132,
+      "use_count": 4,
+      "label": "AGM_Boss_Chp6_02_01__B5132",
+      "name_best": "咒将亚久斯特",
+      "type_id": 121784,
+      "tactical_assign_id": 130294,
+      "skills_id": 51496
+    },
+    {
+      "enemy_id": 32631,
+      "use_count": 4,
+      "label": "Rematch_Season20_Boss01_01",
+      "name_best": "咒将亚久斯特",
+      "type_id": 121784,
+      "tactical_assign_id": 130294,
+      "skills_id": 51496
+    },
+    {
+      "enemy_id": 5134,
+      "use_count": 4,
+      "label": "AGM_Boss_Chp6_03_02",
+      "name_best": "黑巫女希格娜",
+      "type_id": 98414,
+      "tactical_assign_id": 30296,
+      "skills_id": 51498
+    },
+    {
+      "enemy_id": 32938,
+      "use_count": 4,
+      "label": "QPS_Under_AB01_03_Enemy_01",
+      "name_best": "泽利格",
+      "type_id": 22853,
+      "tactical_assign_id": 130545,
+      "skills_id": 52063
+    },
+    {
+      "enemy_id": 33545,
+      "use_count": 4,
+      "label": "QPS_Under_AB02_03_Enemy_01",
+      "name_best": "泽利格",
+      "type_id": 23231,
+      "tactical_assign_id": 30719,
+      "skills_id": 52455
+    },
+    {
+      "enemy_id": 33227,
+      "use_count": 4,
+      "label": "Seeds_Boss_14_01_Enemy_01",
+      "name_best": "神兽路提亚",
+      "type_id": 23035,
+      "tactical_assign_id": 130654,
+      "skills_id": 52319
+    },
+    {
+      "enemy_id": 33349,
+      "use_count": 4,
+      "label": "Rematch_Seeds_Boss_14_01_Enemy_01",
+      "name_best": "神兽路提亚",
+      "type_id": 23035,
+      "tactical_assign_id": 130654,
+      "skills_id": 52319
+    },
+    {
+      "enemy_id": 33093,
+      "use_count": 4,
+      "label": "KMQX_01_03_Enemy_01",
+      "name_best": "被畏孵侵蚀的舞者",
+      "type_id": 22887,
+      "tactical_assign_id": 130604,
+      "skills_id": 52231
+    },
+    {
+      "enemy_id": 33823,
+      "use_count": 4,
+      "label": "KMQX_03_01_Enemy_01_02",
+      "name_best": "理查尔",
+      "type_id": 23394,
+      "tactical_assign_id": 30830,
+      "skills_id": 52659
+    },
+    {
+      "enemy_id": 5126,
+      "use_count": 3,
+      "label": "AGM_Boss_Chp4_01_01",
+      "name_best": "圣火骑士隆德",
+      "type_id": 21780,
+      "tactical_assign_id": 30257,
+      "skills_id": 51390
+    },
+    {
+      "enemy_id": 15126,
+      "use_count": 3,
+      "label": "AGM_Boss_Chp4_01_01__B5126",
+      "name_best": "星火守卫隆德",
+      "type_id": 121780,
+      "tactical_assign_id": 130257,
+      "skills_id": 51390
+    },
+    {
+      "enemy_id": 98780,
+      "use_count": 3,
+      "label": "AGM_Boss_Chp8_05_02",
+      "name_best": "虚空分隔腕",
+      "type_id": 98542,
+      "tactical_assign_id": 30630,
+      "skills_id": 55864
+    },
+    {
+      "enemy_id": 5196,
+      "use_count": 3,
+      "label": "AGM_Boss_Chp8_03_01",
+      "name_best": "授予一切之人",
+      "type_id": 21789,
+      "tactical_assign_id": 30669,
+      "skills_id": 55934
+    },
+    {
+      "enemy_id": 98899,
+      "use_count": 3,
+      "label": "ExBoss_Dragon_BlueOrb_01",
+      "name_best": "龙碧玉",
+      "type_id": 98609,
+      "tactical_assign_id": 30707,
+      "skills_id": 56276
+    },
+    {
+      "enemy_id": 32274,
+      "use_count": 3,
+      "label": "GiveAll_Chap8_Enemy_03_01",
+      "name_best": "如若回合结束时\n装备者处于后卫，\n则赋予自身<skl_turn_count>\n提升属攻/属防的效果。",
+      "type_id": 122428,
+      "tactical_assign_id": 130401,
+      "skills_id": 51665
+    },
+    {
+      "enemy_id": 32747,
+      "use_count": 3,
+      "label": "Rematch_Season42_Boss01_01",
+      "name_best": "如若回合结束时\n装备者处于后卫，\n则赋予自身<skl_turn_count>\n提升属攻/属防的效果。",
+      "type_id": 122428,
+      "tactical_assign_id": 130401,
+      "skills_id": 51665
+    },
+    {
+      "enemy_id": 34129,
+      "use_count": 3,
+      "label": "Rematch_4_0_0__EX4_Em03_01",
+      "name_best": "如若回合结束时\n装备者处于后卫，\n则赋予自身<skl_turn_count>\n提升属攻/属防的效果。",
+      "type_id": 122428,
+      "tactical_assign_id": 130401,
+      "skills_id": 51665
+    },
+    {
+      "enemy_id": 34007,
+      "use_count": 3,
+      "label": "QPO_HandicapBattle_AnotherEX02_34_02_Enemy_01",
+      "name_best": "如若回合结束时\n装备者处于后卫，\n则赋予自身<skl_turn_count>\n提升属攻/属防的效果。",
+      "type_id": 23557,
+      "tactical_assign_id": 130401,
+      "skills_id": 51665
+    },
+    {
+      "enemy_id": 32729,
+      "use_count": 3,
+      "label": "QPS_Boss_CP3_Enemy_02_02",
+      "name_best": "奇饿之牙伊戈那提奥",
+      "type_id": 22707,
+      "tactical_assign_id": 130531,
+      "skills_id": 52015
+    },
+    {
+      "enemy_id": 33565,
+      "use_count": 3,
+      "label": "QPS_Boss_CP9_Enemy_03_01",
+      "name_best": "奇饿之牙伊戈那提奥",
+      "type_id": 22707,
+      "tactical_assign_id": 130531,
+      "skills_id": 52015
+    },
+    {
+      "enemy_id": 32762,
+      "use_count": 3,
+      "label": "QPS_Rematch_Boss_CP3_Enemy_02_02",
+      "name_best": "奇饿之牙伊戈那提奥",
+      "type_id": 22707,
+      "tactical_assign_id": 130531,
+      "skills_id": 52015
+    },
+    {
+      "enemy_id": 33568,
+      "use_count": 3,
+      "label": "QPS_Boss_CP9_Enemy_06_01",
+      "name_best": "黑咒帝塞伊尔",
+      "type_id": 23341,
+      "tactical_assign_id": 30780,
+      "skills_id": 52563
+    },
+    {
+      "enemy_id": 33559,
+      "use_count": 3,
+      "label": "QPS_Under_AB02_04_Enemy_05",
+      "name_best": "影宗",
+      "type_id": 23288,
+      "tactical_assign_id": 30727,
+      "skills_id": 52460
+    },
+    {
+      "enemy_id": 33574,
+      "use_count": 3,
+      "label": "QPS_Rematch_UAB02_04_05_EX",
+      "name_best": "影宗",
+      "type_id": 23288,
+      "tactical_assign_id": 30727,
+      "skills_id": 52462
+    },
+    {
+      "enemy_id": 33673,
+      "use_count": 3,
+      "label": "QPS_Rematch_UAB02_04_05_EX3",
+      "name_best": "影宗",
+      "type_id": 23288,
+      "tactical_assign_id": 30727,
+      "skills_id": 52462
+    },
+    {
+      "enemy_id": 33104,
+      "use_count": 3,
+      "label": "Enemy_JobTowerApo_f0005_r002EX_001",
+      "name_best": "试炼的大药师",
+      "type_id": 22924,
+      "tactical_assign_id": 30570,
+      "skills_id": 52134
+    },
+    {
+      "enemy_id": 32510,
+      "use_count": 3,
+      "label": "Seeds_Boss_04_10_002",
+      "name_best": "神兽月兔",
+      "type_id": 22596,
+      "tactical_assign_id": 30459,
+      "skills_id": 51800
+    },
+    {
+      "enemy_id": 32527,
+      "use_count": 3,
+      "label": "Rematch_Season15_Boss01_01",
+      "name_best": "神兽月兔",
+      "type_id": 22596,
+      "tactical_assign_id": 30459,
+      "skills_id": 51800
+    },
+    {
+      "enemy_id": 34005,
+      "use_count": 3,
+      "label": "QPO_HandicapBattle_Another03_34_04_Enemy_01",
+      "name_best": "神兽月兔",
+      "type_id": 23555,
+      "tactical_assign_id": 30459,
+      "skills_id": 51800
+    },
+    {
+      "enemy_id": 33228,
+      "use_count": 3,
+      "label": "Seeds_Boss_14_01_Enemy_02",
+      "name_best": "游侠猫梅洛",
+      "type_id": 23036,
+      "tactical_assign_id": 130655,
+      "skills_id": 52320
+    },
+    {
+      "enemy_id": 33350,
+      "use_count": 3,
+      "label": "Rematch_Seeds_Boss_14_01_Enemy_02",
+      "name_best": "游侠猫梅洛",
+      "type_id": 23036,
+      "tactical_assign_id": 130655,
+      "skills_id": 52323
+    },
+    {
+      "enemy_id": 31939,
+      "use_count": 2,
+      "label": "Hell_Hell_Enemy_02_009",
+      "name_best": "狰狞的边狱兽",
+      "type_id": 22134,
+      "tactical_assign_id": 30289,
+      "skills_id": 51487
+    },
+    {
+      "enemy_id": 98322,
+      "use_count": 2,
+      "label": "SE_Enemy_060_01",
+      "name_best": "狰狞的亡者真凶士",
+      "type_id": 22120,
+      "tactical_assign_id": 30558,
+      "skills_id": 55394
+    },
+    {
+      "enemy_id": 98328,
+      "use_count": 2,
+      "label": "SE_Enemy_066_01",
+      "name_best": "桑克·加尔穆",
+      "type_id": 22423,
+      "tactical_assign_id": 30563,
+      "skills_id": 55400
+    },
+    {
+      "enemy_id": 98330,
+      "use_count": 2,
+      "label": "SE_Enemy_068_01",
+      "name_best": "桑克·柯修玛尔",
+      "type_id": 22425,
+      "tactical_assign_id": 30564,
+      "skills_id": 55402
+    },
+    {
+      "enemy_id": 5123,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp3_02_01",
+      "name_best": "咒王艾丽卡",
+      "type_id": 21778,
+      "tactical_assign_id": 30233,
+      "skills_id": 51300
+    },
+    {
+      "enemy_id": 32129,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp7_01_04",
+      "name_best": "大圣火",
+      "type_id": 22306,
+      "tactical_assign_id": 30369,
+      "skills_id": 51589
+    },
+    {
+      "enemy_id": 132129,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp7_01_04__B32129",
+      "name_best": "大星火",
+      "type_id": 122306,
+      "tactical_assign_id": 130369,
+      "skills_id": 51589
+    },
+    {
+      "enemy_id": 33938,
+      "use_count": 2,
+      "label": "Rematch_Season39_Boss01_04",
+      "name_best": "大星火",
+      "type_id": 122306,
+      "tactical_assign_id": 130369,
+      "skills_id": 52622
+    },
+    {
+      "enemy_id": 5217,
+      "use_count": 2,
+      "label": "Hell_Curse_02_02_01",
+      "name_best": "唐·塔维亚尼",
+      "type_id": 21872,
+      "tactical_assign_id": 30250,
+      "skills_id": 51361
+    },
+    {
+      "enemy_id": 15217,
+      "use_count": 2,
+      "label": "Hell_Curse_02_02_01__B5217",
+      "name_best": "唐・达维雅尼",
+      "type_id": 121872,
+      "tactical_assign_id": 130250,
+      "skills_id": 51361
+    },
+    {
+      "enemy_id": 199048,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_DWYN01_1",
+      "name_best": "唐・达维雅尼",
+      "type_id": 91048,
+      "tactical_assign_id": 130250,
+      "skills_id": 51361
+    },
+    {
+      "enemy_id": 99196,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_DWYN01_1_easy",
+      "name_best": "唐・达维雅尼",
+      "type_id": 91048,
+      "tactical_assign_id": 130250,
+      "skills_id": 51361
+    },
+    {
+      "enemy_id": 99329,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_DWYN01_1_hard",
+      "name_best": "唐・达维雅尼",
+      "type_id": 91048,
+      "tactical_assign_id": 130250,
+      "skills_id": 51361
+    },
+    {
+      "enemy_id": 34122,
+      "use_count": 2,
+      "label": "QPO_HandicapBattle_AnotherEX01_39_03_Enemy_01",
+      "name_best": "唐・达维雅尼",
+      "type_id": 23652,
+      "tactical_assign_id": 130250,
+      "skills_id": 51361
+    },
+    {
+      "enemy_id": 98041,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp8_07_01",
+      "name_best": "枢机卿特拉格拉夫",
+      "type_id": 98109,
+      "tactical_assign_id": 30602,
+      "skills_id": 55529
+    },
+    {
+      "enemy_id": 98781,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp8_05_03",
+      "name_best": "血狱魔枪",
+      "type_id": 98543,
+      "tactical_assign_id": 30629,
+      "skills_id": 55863
+    },
+    {
+      "enemy_id": 98858,
+      "use_count": 2,
+      "label": "9pcs_Arena_Boss_RE_First_01",
+      "name_best": "基加提亚斯",
+      "type_id": 98599,
+      "tactical_assign_id": 30683,
+      "skills_id": 55954
+    },
+    {
+      "enemy_id": 98891,
+      "use_count": 2,
+      "label": "9pcs_Arena_Boss_Capture_Second_04",
+      "name_best": "阿武山座狼",
+      "type_id": 98605,
+      "tactical_assign_id": 30695,
+      "skills_id": 55963
+    },
+    {
+      "enemy_id": 98892,
+      "use_count": 2,
+      "label": "9pcs_Arena_Boss_RE_Second_04",
+      "name_best": "阿武山座狼",
+      "type_id": 98605,
+      "tactical_assign_id": 30696,
+      "skills_id": 55964
+    },
+    {
+      "enemy_id": 98893,
+      "use_count": 2,
+      "label": "9pcs_Arena_Boss_Capture_Second_05",
+      "name_best": "历战之鲛",
+      "type_id": 98606,
+      "tactical_assign_id": 30697,
+      "skills_id": 55965
+    },
+    {
+      "enemy_id": 98894,
+      "use_count": 2,
+      "label": "9pcs_Arena_Boss_RE_Second_05",
+      "name_best": "历战之鲛",
+      "type_id": 98618,
+      "tactical_assign_id": 30698,
+      "skills_id": 55966
+    },
+    {
+      "enemy_id": 98042,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp8_08_01",
+      "name_best": "祖龙天津神",
+      "type_id": 98111,
+      "tactical_assign_id": 230783,
+      "skills_id": 56274
+    },
+    {
+      "enemy_id": 100000,
+      "use_count": 2,
+      "label": "CUSTOM_Bargello",
+      "name_best": "巴鲁杰罗",
+      "type_id": 100000,
+      "tactical_assign_id": 100000,
+      "skills_id": 100000
+    },
+    {
+      "enemy_id": 98816,
+      "use_count": 2,
+      "label": "Enemy_EvQuSQ150_01_04_02",
+      "name_best": "黑绯（锤）",
+      "type_id": 10084,
+      "tactical_assign_id": 30715,
+      "skills_id": 56287
+    },
+    {
+      "enemy_id": 98605,
+      "use_count": 2,
+      "label": "FC_Enemy_062_01",
+      "name_best": "“沙猫”的舞娘",
+      "type_id": 98372,
+      "tactical_assign_id": 30702,
+      "skills_id": 55583
+    },
+    {
+      "enemy_id": 131939,
+      "use_count": 2,
+      "label": "Hell_Hell_Enemy_02_009__B31939",
+      "name_best": "凶猛的边狱兽",
+      "type_id": 122134,
+      "tactical_assign_id": 130289,
+      "skills_id": 51487
+    },
+    {
+      "enemy_id": 15123,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp3_02_01__B5123",
+      "name_best": "",
+      "type_id": 121778,
+      "tactical_assign_id": 130233,
+      "skills_id": 51300
+    },
+    {
+      "enemy_id": 132304,
+      "use_count": 2,
+      "label": "Rematch_Season10_Boss04_01",
+      "name_best": "",
+      "type_id": 121778,
+      "tactical_assign_id": 130233,
+      "skills_id": 51300
+    },
+    {
+      "enemy_id": 33271,
+      "use_count": 2,
+      "label": "Handicap_Season10_Boss04_01",
+      "name_best": "",
+      "type_id": 121778,
+      "tactical_assign_id": 130632,
+      "skills_id": 51300
+    },
+    {
+      "enemy_id": 32728,
+      "use_count": 2,
+      "label": "QPS_Boss_CP3_Enemy_02_01",
+      "name_best": "贪婪的伊戈那提奥",
+      "type_id": 22706,
+      "tactical_assign_id": 130530,
+      "skills_id": 52014
+    },
+    {
+      "enemy_id": 32761,
+      "use_count": 2,
+      "label": "QPS_Rematch_Boss_CP3_Enemy_02_01",
+      "name_best": "贪婪的伊戈那提奥",
+      "type_id": 22706,
+      "tactical_assign_id": 130530,
+      "skills_id": 52014
+    },
+    {
+      "enemy_id": 33311,
+      "use_count": 2,
+      "label": "QPS_Boss_CP6_Enemy_02_01",
+      "name_best": "征服的阿瓦尔",
+      "type_id": 23059,
+      "tactical_assign_id": 130639,
+      "skills_id": 52301
+    },
+    {
+      "enemy_id": 33312,
+      "use_count": 2,
+      "label": "QPS_Rematch_Boss_CP6_Enemy_02_01",
+      "name_best": "征服的阿瓦尔",
+      "type_id": 23059,
+      "tactical_assign_id": 130639,
+      "skills_id": 52301
+    },
+    {
+      "enemy_id": 32146,
+      "use_count": 2,
+      "label": "AB09_03_01",
+      "name_best": "妮基",
+      "type_id": 22312,
+      "tactical_assign_id": 30363,
+      "skills_id": 51583
+    },
+    {
+      "enemy_id": 33916,
+      "use_count": 2,
+      "label": "QPO_HandicapBattle_Another02_32_04_Enemy_01",
+      "name_best": "妮基",
+      "type_id": 23481,
+      "tactical_assign_id": 30363,
+      "skills_id": 51583
+    },
+    {
+      "enemy_id": 33811,
+      "use_count": 2,
+      "label": "QPSSeF14A3_D0001_Enemy_01",
+      "name_best": "妮基",
+      "type_id": 23382,
+      "tactical_assign_id": 30363,
+      "skills_id": 51583
+    },
+    {
+      "enemy_id": 32149,
+      "use_count": 2,
+      "label": "AB09_04_02",
+      "name_best": "妙剑皮奥特尔",
+      "type_id": 22315,
+      "tactical_assign_id": 30366,
+      "skills_id": 51586
+    },
+    {
+      "enemy_id": 32214,
+      "use_count": 2,
+      "label": "Rematch_AB09_04_02_N",
+      "name_best": "妙剑皮奥特尔",
+      "type_id": 22315,
+      "tactical_assign_id": 30366,
+      "skills_id": 51586
+    },
+    {
+      "enemy_id": 32207,
+      "use_count": 2,
+      "label": "Rematch_AB09_04_02_EX",
+      "name_best": "妙剑皮奥特尔",
+      "type_id": 22315,
+      "tactical_assign_id": 30366,
+      "skills_id": 51586
+    },
+    {
+      "enemy_id": 32150,
+      "use_count": 2,
+      "label": "AB09_04_03",
+      "name_best": "旋风米尔卡",
+      "type_id": 22316,
+      "tactical_assign_id": 30367,
+      "skills_id": 51587
+    },
+    {
+      "enemy_id": 32215,
+      "use_count": 2,
+      "label": "Rematch_AB09_04_03_N",
+      "name_best": "旋风米尔卡",
+      "type_id": 22316,
+      "tactical_assign_id": 30367,
+      "skills_id": 51587
+    },
+    {
+      "enemy_id": 32208,
+      "use_count": 2,
+      "label": "Rematch_AB09_04_03_EX",
+      "name_best": "旋风米尔卡",
+      "type_id": 22316,
+      "tactical_assign_id": 30367,
+      "skills_id": 51587
+    },
+    {
+      "enemy_id": 32907,
+      "use_count": 2,
+      "label": "QPS_AB01_03_Enemy_01",
+      "name_best": "泽利格",
+      "type_id": 22793,
+      "tactical_assign_id": 130543,
+      "skills_id": 52061
+    },
+    {
+      "enemy_id": 33534,
+      "use_count": 2,
+      "label": "QPS_AB02_03_Enemy_01",
+      "name_best": "泽利格",
+      "type_id": 23220,
+      "tactical_assign_id": 30718,
+      "skills_id": 52454
+    },
+    {
+      "enemy_id": 33092,
+      "use_count": 2,
+      "label": "KMQX_01_02_Enemy_02",
+      "name_best": "畏孵的魔人盖瑞",
+      "type_id": 22886,
+      "tactical_assign_id": 130587,
+      "skills_id": 52173
+    },
+    {
+      "enemy_id": 34059,
+      "use_count": 2,
+      "label": "Rematch_Other_Danas_Em06_02",
+      "name_best": "奥特罗斯",
+      "type_id": 23327,
+      "tactical_assign_id": 30826,
+      "skills_id": 52629
+    },
+    {
+      "enemy_id": 34114,
+      "use_count": 2,
+      "label": "QPO_HandicapBattle_RankEX01_38_02_Enemy_01",
+      "name_best": "奥特罗斯",
+      "type_id": 23327,
+      "tactical_assign_id": 30826,
+      "skills_id": 52629
+    },
+    {
+      "enemy_id": 33724,
+      "use_count": 2,
+      "label": "Other_Danas_Em06_02",
+      "name_best": "奥特罗斯",
+      "type_id": 23327,
+      "tactical_assign_id": 30826,
+      "skills_id": 52629
+    },
+    {
+      "enemy_id": 33878,
+      "use_count": 2,
+      "label": "QPS_AB03_03_Enemy_01",
+      "name_best": "泽里格",
+      "type_id": 23443,
+      "tactical_assign_id": 30809,
+      "skills_id": 52609
+    },
+    {
+      "enemy_id": 33870,
+      "use_count": 2,
+      "label": "QPS_AB03_04_Enemy_01",
+      "name_best": "葵",
+      "type_id": 23437,
+      "tactical_assign_id": 30803,
+      "skills_id": 52603
+    },
+    {
+      "enemy_id": 5216,
+      "use_count": 1,
+      "label": "Hell_Curse_02_01_01",
+      "name_best": "愤怒的娼妓",
+      "type_id": 21871,
+      "tactical_assign_id": 30235,
+      "skills_id": 51360
+    },
+    {
+      "enemy_id": 31706,
+      "use_count": 1,
+      "label": "BF_HellForest_Enemy_02_005",
+      "name_best": "凶猛的亡兽恐怖之牙",
+      "type_id": 121853,
+      "tactical_assign_id": 130235,
+      "skills_id": 787
+    },
+    {
+      "enemy_id": 15216,
+      "use_count": 1,
+      "label": "Hell_Curse_02_01_01__B5216",
+      "name_best": "愤怒的舞女",
+      "type_id": 121871,
+      "tactical_assign_id": 130235,
+      "skills_id": 51360
+    },
+    {
+      "enemy_id": 31781,
+      "use_count": 1,
+      "label": "HellMount_Enemy_02_005",
+      "name_best": "狰狞的亡者荷鲁布尔古骑士",
+      "type_id": 21983,
+      "tactical_assign_id": 30263,
+      "skills_id": 0
+    },
+    {
+      "enemy_id": 31801,
+      "use_count": 1,
+      "label": "HellMount_MH_Enemy_01_001",
+      "name_best": "狰狞的亡者荷鲁布尔古骑士",
+      "type_id": 22003,
+      "tactical_assign_id": 30263,
+      "skills_id": 51410
+    },
+    {
+      "enemy_id": 131781,
+      "use_count": 1,
+      "label": "HellMount_Enemy_02_005__B31781",
+      "name_best": "凶猛的亡者荷鲁布尔古守卫",
+      "type_id": 121983,
+      "tactical_assign_id": 130263,
+      "skills_id": 51404
+    },
+    {
+      "enemy_id": 131801,
+      "use_count": 1,
+      "label": "HellMount_MH_Enemy_01_001__B31801",
+      "name_best": "凶猛的亡者荷鲁布尔古守卫",
+      "type_id": 122003,
+      "tactical_assign_id": 130263,
+      "skills_id": 51410
+    },
+    {
+      "enemy_id": 31900,
+      "use_count": 1,
+      "label": "BF_HellMount_Enemy_02_005",
+      "name_best": "凶猛的亡者荷鲁布尔古守卫",
+      "type_id": 121983,
+      "tactical_assign_id": 130263,
+      "skills_id": 51404
+    }
+  ],
+  "top_skills": {
+    "604737": {
+      "skill_id": 604737,
+      "use_count": 90,
+      "name_id": 95556,
+      "name_best": "神威之光",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 9,
+      "enemies_that_can_use_skill_sample": [
+        5135,
+        15135,
+        32127,
+        32128,
+        32744,
+        33936,
+        33937,
+        132127,
+        132128
+      ],
+      "avails": [
+        65896,
+        65897,
+        65896,
+        65897,
+        65896,
+        65897
+      ]
+    },
+    "604729": {
+      "skill_id": 604729,
+      "use_count": 81,
+      "name_id": 95548,
+      "name_best": "大光明魔法",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 9,
+      "enemies_that_can_use_skill_sample": [
+        5135,
+        15135,
+        32127,
+        32128,
+        32744,
+        33936,
+        33937,
+        132127,
+        132128
+      ],
+      "avails": [
+        65886,
+        65886
+      ]
+    },
+    "604732": {
+      "skill_id": 604732,
+      "use_count": 54,
+      "name_id": 95551,
+      "name_best": "神圣磷光",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 9,
+      "enemies_that_can_use_skill_sample": [
+        5135,
+        15135,
+        32127,
+        32128,
+        32744,
+        33936,
+        33937,
+        132127,
+        132128
+      ],
+      "avails": [
+        65890,
+        65890,
+        65890
+      ]
+    },
+    "603729": {
+      "skill_id": 603729,
+      "use_count": 50,
+      "name_id": 94657,
+      "name_best": "断狱",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 5,
+      "enemies_that_can_use_skill_sample": [
+        5130,
+        15130,
+        32634,
+        33799,
+        34009
+      ],
+      "avails": [
+        64781,
+        64782
+      ]
+    },
+    "604730": {
+      "skill_id": 604730,
+      "use_count": 45,
+      "name_id": 95549,
+      "name_best": "特大光明魔法",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 9,
+      "enemies_that_can_use_skill_sample": [
+        5135,
+        15135,
+        32127,
+        32128,
+        32744,
+        33936,
+        33937,
+        132127,
+        132128
+      ],
+      "avails": [
+        65887,
+        65887,
+        65887
+      ]
+    },
+    "604735": {
+      "skill_id": 604735,
+      "use_count": 45,
+      "name_id": 95554,
+      "name_best": "圣裁击",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 9,
+      "enemies_that_can_use_skill_sample": [
+        5135,
+        15135,
+        32127,
+        32128,
+        32744,
+        33936,
+        33937,
+        132127,
+        132128
+      ],
+      "avails": [
+        65893
+      ]
+    },
+    "604726": {
+      "skill_id": 604726,
+      "use_count": 45,
+      "name_id": 95545,
+      "name_best": "光明魔法",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 9,
+      "enemies_that_can_use_skill_sample": [
+        5135,
+        15135,
+        32127,
+        32128,
+        32744,
+        33936,
+        33937,
+        132127,
+        132128
+      ],
+      "avails": [
+        65883
+      ]
+    },
+    "604727": {
+      "skill_id": 604727,
+      "use_count": 45,
+      "name_id": 95546,
+      "name_best": "审判之槌",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 9,
+      "enemies_that_can_use_skill_sample": [
+        5135,
+        15135,
+        32127,
+        32128,
+        32744,
+        33936,
+        33937,
+        132127,
+        132128
+      ],
+      "avails": [
+        65884
+      ]
+    },
+    "603737": {
+      "skill_id": 603737,
+      "use_count": 40,
+      "name_id": 94665,
+      "name_best": "黑咒·烈风雷鸣",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 5,
+      "enemies_that_can_use_skill_sample": [
+        5130,
+        15130,
+        32634,
+        33799,
+        34009
+      ],
+      "avails": [
+        64792,
+        64793,
+        64792,
+        64793,
+        64792,
+        64793,
+        64792,
+        64793,
+        64792,
+        64793
+      ]
+    },
+    "604736": {
+      "skill_id": 604736,
+      "use_count": 36,
+      "name_id": 95555,
+      "name_best": "特大破战光明魔法",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 9,
+      "enemies_that_can_use_skill_sample": [
+        5135,
+        15135,
+        32127,
+        32128,
+        32744,
+        33936,
+        33937,
+        132127,
+        132128
+      ],
+      "avails": [
+        65894,
+        65894,
+        65894,
+        65895
+      ]
+    },
+    "604739": {
+      "skill_id": 604739,
+      "use_count": 36,
+      "name_id": 95558,
+      "name_best": "三连回旋脚碎踢",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 9,
+      "enemies_that_can_use_skill_sample": [
+        5135,
+        15135,
+        32127,
+        32128,
+        32744,
+        33936,
+        33937,
+        132127,
+        132128
+      ],
+      "avails": [
+        65899,
+        65899,
+        65899,
+        65900
+      ]
+    },
+    "603741": {
+      "skill_id": 603741,
+      "use_count": 35,
+      "name_id": 94669,
+      "name_best": "黑咒·恐解之剑",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 5,
+      "enemies_that_can_use_skill_sample": [
+        5130,
+        15130,
+        32634,
+        33799,
+        34009
+      ],
+      "avails": [
+        64796,
+        64797,
+        64798
+      ]
+    },
+    "603736": {
+      "skill_id": 603736,
+      "use_count": 25,
+      "name_id": 94664,
+      "name_best": "烈风雷鸣",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 5,
+      "enemies_that_can_use_skill_sample": [
+        5130,
+        15130,
+        32634,
+        33799,
+        34009
+      ],
+      "avails": [
+        64792,
+        64792,
+        64792,
+        64792,
+        64792
+      ]
+    },
+    "603743": {
+      "skill_id": 603743,
+      "use_count": 25,
+      "name_id": 94671,
+      "name_best": "黑咒·抹消",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 5,
+      "enemies_that_can_use_skill_sample": [
+        5130,
+        15130,
+        32634,
+        33799,
+        34009
+      ],
+      "avails": [
+        64801,
+        64802
+      ]
+    },
+    "603730": {
+      "skill_id": 603730,
+      "use_count": 25,
+      "name_id": 94658,
+      "name_best": "大断狱",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 5,
+      "enemies_that_can_use_skill_sample": [
+        5130,
+        15130,
+        32634,
+        33799,
+        34009
+      ],
+      "avails": [
+        64783,
+        64782
+      ]
+    },
+    "603734": {
+      "skill_id": 603734,
+      "use_count": 20,
+      "name_id": 94662,
+      "name_best": "黑咒·雷兽",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 5,
+      "enemies_that_can_use_skill_sample": [
+        5130,
+        15130,
+        32634,
+        33799,
+        34009
+      ],
+      "avails": [
+        64788,
+        64789,
+        64790,
+        64788,
+        64789,
+        64790
+      ]
+    },
+    "603732": {
+      "skill_id": 603732,
+      "use_count": 20,
+      "name_id": 94660,
+      "name_best": "抹消",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 5,
+      "enemies_that_can_use_skill_sample": [
+        5130,
+        15130,
+        32634,
+        33799,
+        34009
+      ],
+      "avails": [
+        64785,
+        64786
+      ]
+    },
+    "604728": {
+      "skill_id": 604728,
+      "use_count": 18,
+      "name_id": 95547,
+      "name_best": "加护的神谕",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 9,
+      "enemies_that_can_use_skill_sample": [
+        5135,
+        15135,
+        32127,
+        32128,
+        32744,
+        33936,
+        33937,
+        132127,
+        132128
+      ],
+      "avails": [
+        65885
+      ]
+    },
+    "604734": {
+      "skill_id": 604734,
+      "use_count": 18,
+      "name_id": 95553,
+      "name_best": "光芒",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 9,
+      "enemies_that_can_use_skill_sample": [
+        5135,
+        15135,
+        32127,
+        32128,
+        32744,
+        33936,
+        33937,
+        132127,
+        132128
+      ],
+      "avails": [
+        65892
+      ]
+    },
+    "603742": {
+      "skill_id": 603742,
+      "use_count": 15,
+      "name_id": 94670,
+      "name_best": "恐惧之剑",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 5,
+      "enemies_that_can_use_skill_sample": [
+        5130,
+        15130,
+        32634,
+        33799,
+        34009
+      ],
+      "avails": [
+        64799,
+        64800
+      ]
+    },
+    "603738": {
+      "skill_id": 603738,
+      "use_count": 15,
+      "name_id": 94666,
+      "name_best": "雷公烈风",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 5,
+      "enemies_that_can_use_skill_sample": [
+        5130,
+        15130,
+        32634,
+        33799,
+        34009
+      ],
+      "avails": [
+        64794,
+        64794,
+        64779
+      ]
+    },
+    "603739": {
+      "skill_id": 603739,
+      "use_count": 15,
+      "name_id": 94667,
+      "name_best": "黑咒·雷公烈风",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 5,
+      "enemies_that_can_use_skill_sample": [
+        5130,
+        15130,
+        32634,
+        33799,
+        34009
+      ],
+      "avails": [
+        64794,
+        64794,
+        64779,
+        64795
+      ]
+    },
+    "605203": {
+      "skill_id": 605203,
+      "use_count": 15,
+      "name_id": 96107,
+      "name_best": "萨赞特斯周身的黑色咒炎熊熊燃烧！",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 3,
+      "enemies_that_can_use_skill_sample": [
+        32192,
+        32635,
+        132192
+      ],
+      "avails": [
+        66549,
+        66554
+      ]
+    },
+    "605202": {
+      "skill_id": 605202,
+      "use_count": 15,
+      "name_id": 96107,
+      "name_best": "萨赞特斯周身的黑色咒炎熊熊燃烧！",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 3,
+      "enemies_that_can_use_skill_sample": [
+        32192,
+        32635,
+        132192
+      ],
+      "avails": [
+        66549,
+        66553
+      ]
+    },
+    "605201": {
+      "skill_id": 605201,
+      "use_count": 15,
+      "name_id": 96107,
+      "name_best": "萨赞特斯周身的黑色咒炎熊熊燃烧！",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 3,
+      "enemies_that_can_use_skill_sample": [
+        32192,
+        32635,
+        132192
+      ],
+      "avails": [
+        66549,
+        66552
+      ]
+    },
+    "605200": {
+      "skill_id": 605200,
+      "use_count": 15,
+      "name_id": 96107,
+      "name_best": "萨赞特斯周身的黑色咒炎熊熊燃烧！",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 3,
+      "enemies_that_can_use_skill_sample": [
+        32192,
+        32635,
+        132192
+      ],
+      "avails": [
+        66549,
+        66551
+      ]
+    },
+    "611899": {
+      "skill_id": 611899,
+      "use_count": 12,
+      "name_id": 103335,
+      "name_best": "大火炎押退魔法(乱)Ⅲ",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33483
+      ],
+      "avails": [
+        68081,
+        174726,
+        68081,
+        174726
+      ]
+    },
+    "603731": {
+      "skill_id": 603731,
+      "use_count": 10,
+      "name_id": 94659,
+      "name_best": "抚斩",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 5,
+      "enemies_that_can_use_skill_sample": [
+        5130,
+        15130,
+        32634,
+        33799,
+        34009
+      ],
+      "avails": [
+        64784
+      ]
+    },
+    "611898": {
+      "skill_id": 611898,
+      "use_count": 10,
+      "name_id": 103334,
+      "name_best": "特大雷击精灭魔法(单体)Ⅲ",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33483
+      ],
+      "avails": [
+        70509,
+        177425
+      ]
+    },
+    "604738": {
+      "skill_id": 604738,
+      "use_count": 9,
+      "name_id": 95557,
+      "name_best": "大圣火轻纱",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 9,
+      "enemies_that_can_use_skill_sample": [
+        5135,
+        15135,
+        32127,
+        32128,
+        32744,
+        33936,
+        33937,
+        132127,
+        132128
+      ],
+      "avails": [
+        65898
+      ]
+    },
+    "605198": {
+      "skill_id": 605198,
+      "use_count": 6,
+      "name_id": 0,
+      "name_best": "无数据。",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 3,
+      "enemies_that_can_use_skill_sample": [
+        32192,
+        32635,
+        132192
+      ],
+      "avails": [
+        66531,
+        66532,
+        66533,
+        66535,
+        66536
+      ]
+    },
+    "611900": {
+      "skill_id": 611900,
+      "use_count": 6,
+      "name_id": 103336,
+      "name_best": "特大冰结睡眠魔法(全体)Ⅲ",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33483
+      ],
+      "avails": [
+        68040,
+        68040,
+        68040,
+        68134
+      ]
+    },
+    "611901": {
+      "skill_id": 611901,
+      "use_count": 6,
+      "name_id": 103337,
+      "name_best": "逢夜的疫雾",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33483
+      ],
+      "avails": [
+        177426
+      ]
+    },
+    "611902": {
+      "skill_id": 611902,
+      "use_count": 6,
+      "name_id": 103338,
+      "name_best": "特大暗闇昏睡魔法(全体)Ⅲ",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33483
+      ],
+      "avails": [
+        68040,
+        68040,
+        68040,
+        70741
+      ]
+    },
+    "611903": {
+      "skill_id": 611903,
+      "use_count": 4,
+      "name_id": 103339,
+      "name_best": "逢夜的腐毒雾",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33483
+      ],
+      "avails": [
+        177427,
+        68146
+      ]
+    },
+    "612085": {
+      "skill_id": 612085,
+      "use_count": 4,
+      "name_id": 103432,
+      "name_best": "遍地魂灵在颤抖",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33678
+      ],
+      "avails": [
+        177744,
+        177740,
+        177923,
+        177990,
+        177991,
+        177992,
+        177993
+      ]
+    },
+    "612086": {
+      "skill_id": 612086,
+      "use_count": 4,
+      "name_id": 103432,
+      "name_best": "遍地魂灵在颤抖",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33678
+      ],
+      "avails": [
+        177744,
+        177741,
+        177923,
+        177990,
+        177991,
+        177992,
+        177993
+      ]
+    },
+    "612087": {
+      "skill_id": 612087,
+      "use_count": 4,
+      "name_id": 103432,
+      "name_best": "遍地魂灵在颤抖",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33678
+      ],
+      "avails": [
+        177744,
+        177742,
+        177923,
+        177990,
+        177991,
+        177992,
+        177993
+      ]
+    },
+    "612088": {
+      "skill_id": 612088,
+      "use_count": 4,
+      "name_id": 103432,
+      "name_best": "遍地魂灵在颤抖",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33678
+      ],
+      "avails": [
+        177744,
+        177743,
+        177923,
+        177990,
+        177991,
+        177992,
+        177993
+      ]
+    },
+    "605199": {
+      "skill_id": 605199,
+      "use_count": 3,
+      "name_id": 96107,
+      "name_best": "萨赞特斯周身的黑色咒炎熊熊燃烧！",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 3,
+      "enemies_that_can_use_skill_sample": [
+        32192,
+        32635,
+        132192
+      ],
+      "avails": [
+        66549,
+        66550
+      ]
+    },
+    "605204": {
+      "skill_id": 605204,
+      "use_count": 3,
+      "name_id": 96107,
+      "name_best": "萨赞特斯周身的黑色咒炎熊熊燃烧！",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 3,
+      "enemies_that_can_use_skill_sample": [
+        32192,
+        32635,
+        132192
+      ],
+      "avails": [
+        66549,
+        66555
+      ]
+    },
+    "611904": {
+      "skill_id": 611904,
+      "use_count": 3,
+      "name_id": 103340,
+      "name_best": "特大光明技封魔法(乱)Ⅲ",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33483
+      ],
+      "avails": [
+        68079,
+        177428,
+        68079,
+        177428,
+        68079,
+        177428
+      ]
+    },
+    "611845": {
+      "skill_id": 611845,
+      "use_count": 1,
+      "name_id": 103288,
+      "name_best": "黑咒流剑",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33568
+      ],
+      "avails": [
+        177284,
+        177285
+      ]
+    },
+    "611896": {
+      "skill_id": 611896,
+      "use_count": 1,
+      "name_id": 103332,
+      "name_best": "消除它！",
+      "detail_id": 0,
+      "detail_best": "无数据。",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33483
+      ],
+      "avails": [
+        174166,
+        177417,
+        177823,
+        177824,
+        177825,
+        177826,
+        177827
+      ]
+    }
+  },
+  "enemy_groups": {
+    "173074": {
+      "enemy_group_id": 173074,
+      "use_count": 5,
+      "label": "Gr_QPSFsF12_side05_01_Enemy_01",
+      "formation": 185,
+      "bgm": 104271,
+      "event_indices": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "enemy_ids": [
+        33180,
+        33319
+      ],
+      "enemy_labels": [
+        "QPSFsF12_side05_01_Enemy_01",
+        "QPSFsF12_side05_01_Enemy_01_01"
+      ],
+      "enemy_names_best": [
+        "容易吸引魔物的女子",
+        "无名"
+      ]
+    },
+    "10030": {
+      "enemy_group_id": 10030,
+      "use_count": 4,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03",
+      "formation": 169,
+      "bgm": 88731,
+      "event_indices": [
+        114,
+        46,
+        47,
+        115,
+        41,
+        56
+      ],
+      "enemy_ids": [
+        5196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01"
+      ],
+      "enemy_names_best": [
+        "授予一切之人"
+      ]
+    },
+    "199262": {
+      "enemy_group_id": 199262,
+      "use_count": 4,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03",
+      "formation": 169,
+      "bgm": 88731,
+      "event_indices": [
+        114,
+        46,
+        47,
+        115,
+        41,
+        56
+      ],
+      "enemy_ids": [
+        5196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01"
+      ],
+      "enemy_names_best": [
+        "授予一切之人"
+      ]
+    },
+    "10019": {
+      "enemy_group_id": 10019,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap3_Boss_ENG04",
+      "formation": 157,
+      "bgm": 88696,
+      "event_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "enemy_ids": [
+        5123
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp3_02_01"
+      ],
+      "enemy_names_best": [
+        "咒王艾丽卡"
+      ]
+    },
+    "10020": {
+      "enemy_group_id": 10020,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap4_Boss_ENG01",
+      "formation": 158,
+      "bgm": 108,
+      "event_indices": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "enemy_ids": [
+        5126,
+        31766,
+        31715
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp4_01_01",
+        "AGM_Boss_Chp4_01_03",
+        "AGM_Boss_Chp4_01_02"
+      ],
+      "enemy_names_best": [
+        "圣火骑士隆德",
+        "圣火",
+        "圣火"
+      ]
+    },
+    "98210": {
+      "enemy_group_id": 98210,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap8_Boss_ENG07",
+      "formation": 197,
+      "bgm": 132266,
+      "event_indices": [
+        133,
+        134,
+        135,
+        136,
+        142,
+        143,
+        144
+      ],
+      "enemy_ids": [
+        98042
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_08_01"
+      ],
+      "enemy_names_best": [
+        "祖龙天津神"
+      ]
+    },
+    "110019": {
+      "enemy_group_id": 110019,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap3_Boss_ENG04__B10019",
+      "formation": 157,
+      "bgm": 95978,
+      "event_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "enemy_ids": [
+        15123
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp3_02_01__B5123"
+      ],
+      "enemy_names_best": [
+        ""
+      ]
+    },
+    "110020": {
+      "enemy_group_id": 110020,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap4_Boss_ENG01__B10020",
+      "formation": 158,
+      "bgm": 108,
+      "event_indices": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "enemy_ids": [
+        15126
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp4_01_01__B5126"
+      ],
+      "enemy_names_best": [
+        "星火守卫隆德"
+      ]
+    },
+    "110030": {
+      "enemy_group_id": 110030,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03__B10030",
+      "formation": 169,
+      "bgm": 101177,
+      "event_indices": [
+        45,
+        46,
+        47,
+        41,
+        56
+      ],
+      "enemy_ids": [
+        15196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01__B5196"
+      ],
+      "enemy_names_best": [
+        "赠予一切之人"
+      ]
+    },
+    "72065": {
+      "enemy_group_id": 72065,
+      "use_count": 3,
+      "label": "Rematch_Season10_BossGr04",
+      "formation": 157,
+      "bgm": 95978,
+      "event_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "enemy_ids": [
+        132304
+      ],
+      "enemy_labels": [
+        "Rematch_Season10_Boss04_01"
+      ],
+      "enemy_names_best": [
+        ""
+      ]
+    },
+    "199264": {
+      "enemy_group_id": 199264,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03__B10030",
+      "formation": 169,
+      "bgm": 101177,
+      "event_indices": [
+        45,
+        46,
+        47,
+        41,
+        56
+      ],
+      "enemy_ids": [
+        15196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01__B5196"
+      ],
+      "enemy_names_best": [
+        "赠予一切之人"
+      ]
+    },
+    "199401": {
+      "enemy_group_id": 199401,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap3_Boss_ENG04__Arena",
+      "formation": 157,
+      "bgm": 88696,
+      "event_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "enemy_ids": [
+        5123
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp3_02_01"
+      ],
+      "enemy_names_best": [
+        "咒王艾丽卡"
+      ]
+    },
+    "199402": {
+      "enemy_group_id": 199402,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap4_Boss_ENG01__Arena",
+      "formation": 158,
+      "bgm": 108,
+      "event_indices": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "enemy_ids": [
+        5126,
+        31766,
+        31715
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp4_01_01",
+        "AGM_Boss_Chp4_01_03",
+        "AGM_Boss_Chp4_01_02"
+      ],
+      "enemy_names_best": [
+        "圣火骑士隆德",
+        "圣火",
+        "圣火"
+      ]
+    },
+    "73486": {
+      "enemy_group_id": 73486,
+      "use_count": 2,
+      "label": "Gr_QPS_Boss_CP10_01",
+      "formation": 1195,
+      "bgm": 93,
+      "event_indices": [
+        116,
+        117,
+        138
+      ],
+      "enemy_ids": [
+        33570,
+        33678,
+        33679
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP9_Enemy_08_01",
+        "QPS_Boss_CP9_Enemy_08_02",
+        "QPS_Boss_CP9_Enemy_08_03"
+      ],
+      "enemy_names_best": [
+        "双界魔影",
+        "吕西安",
+        "里布拉克"
+      ]
+    },
+    "10026": {
+      "enemy_group_id": 10026,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap6_Boss_ENG03",
+      "formation": 161,
+      "bgm": 108,
+      "event_indices": [
+        129,
+        32,
+        130,
+        131,
+        33,
+        132
+      ],
+      "enemy_ids": [
+        5133,
+        5134
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp6_03_01",
+        "AGM_Boss_Chp6_03_02"
+      ],
+      "enemy_names_best": [
+        "萨赞特斯",
+        "黑巫女希格娜"
+      ]
+    },
+    "98050": {
+      "enemy_group_id": 98050,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG06",
+      "formation": 180,
+      "bgm": 107347,
+      "event_indices": [
+        116,
+        117,
+        138
+      ],
+      "enemy_ids": [
+        98031,
+        98780,
+        98781
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_05_01",
+        "AGM_Boss_Chp8_05_02",
+        "AGM_Boss_Chp8_05_03"
+      ],
+      "enemy_names_best": [
+        "奥露·加尔戴拉",
+        "虚空分隔腕",
+        "血狱魔枪"
+      ]
+    },
+    "110026": {
+      "enemy_group_id": 110026,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap6_Boss_ENG03__B10026",
+      "formation": 161,
+      "bgm": 108,
+      "event_indices": [
+        32,
+        33
+      ],
+      "enemy_ids": [
+        15133,
+        15134
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp6_03_01__B5133",
+        "AGM_Boss_Chp6_03_02__B5134"
+      ],
+      "enemy_names_best": [
+        "魔力的代价",
+        "黑御子希格娜"
+      ]
+    },
+    "72290": {
+      "enemy_group_id": 72290,
+      "use_count": 1,
+      "label": "Rematch_Season13_BossGr02",
+      "formation": 161,
+      "bgm": 108,
+      "event_indices": [
+        32,
+        33
+      ],
+      "enemy_ids": [
+        32513,
+        32514
+      ],
+      "enemy_labels": [
+        "Rematch_Season13_Boss02_01",
+        "Rematch_Season13_Boss02_02"
+      ],
+      "enemy_names_best": [
+        "魔力的代价",
+        "黑御子希格娜"
+      ]
+    },
+    "199408": {
+      "enemy_group_id": 199408,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap6_Boss_ENG03__Arena",
+      "formation": 161,
+      "bgm": 108,
+      "event_indices": [
+        129,
+        32,
+        130,
+        131,
+        33,
+        132
+      ],
+      "enemy_ids": [
+        5133,
+        5134
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp6_03_01",
+        "AGM_Boss_Chp6_03_02"
+      ],
+      "enemy_names_best": [
+        "萨赞特斯",
+        "黑巫女希格娜"
+      ]
+    },
+    "98001": {
+      "enemy_group_id": 98001,
+      "use_count": 1,
+      "label": "TOWN00_01_EnemyGroup_01",
+      "formation": 72,
+      "bgm": 36,
+      "event_indices": [
+        101
+      ],
+      "enemy_ids": [
+        98021
+      ],
+      "enemy_labels": [
+        "Town_00_01_Em01"
+      ],
+      "enemy_names_best": [
+        "警备团长弗利特"
+      ]
+    },
+    "110031": {
+      "enemy_group_id": 110031,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG04__B10031",
+      "formation": 170,
+      "bgm": 101185,
+      "event_indices": [
+        42,
+        43
+      ],
+      "enemy_ids": [
+        132193
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_04_01__B32193"
+      ],
+      "enemy_names_best": [
+        "赠予一切之人"
+      ]
+    },
+    "73284": {
+      "enemy_group_id": 73284,
+      "use_count": 1,
+      "label": "ENG_Seeds_16_01_001",
+      "formation": 1196,
+      "bgm": 93,
+      "event_indices": [
+        124
+      ],
+      "enemy_ids": [
+        33359,
+        33820,
+        33821
+      ],
+      "enemy_labels": [
+        "Seeds_Boss_16_01_Enemy_01",
+        "Seeds_Boss_16_01_Enemy_02",
+        "Seeds_Boss_16_01_Enemy_03"
+      ],
+      "enemy_names_best": [
+        "混沌神兽尤尔蒙冈",
+        "(Unlocalized)",
+        "(Unlocalized)"
+      ]
+    },
+    "72293": {
+      "enemy_group_id": 72293,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP01_01",
+      "formation": 67,
+      "bgm": 36,
+      "event_indices": [
+        60
+      ],
+      "enemy_ids": [
+        32521
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP1_Enemy_01_01"
+      ],
+      "enemy_names_best": [
+        "神秘男子"
+      ]
+    },
+    "73450": {
+      "enemy_group_id": 73450,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP08_02",
+      "formation": 59,
+      "bgm": 36,
+      "event_indices": [
+        102,
+        103,
+        104,
+        105
+      ],
+      "enemy_ids": [
+        33442
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP8_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "诺玛"
+      ]
+    },
+    "73480": {
+      "enemy_group_id": 73480,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP09_02",
+      "formation": 1182,
+      "bgm": 113754,
+      "event_indices": [],
+      "enemy_ids": [
+        33563
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP9_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "执貌的诅咒僧贾弗德"
+      ]
+    },
+    "73485": {
+      "enemy_group_id": 73485,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP09_07",
+      "formation": 1194,
+      "bgm": 113752,
+      "event_indices": [
+        113
+      ],
+      "enemy_ids": [
+        33569
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP9_Enemy_07_01"
+      ],
+      "enemy_names_best": [
+        "黑咒魔神"
+      ]
+    },
+    "199265": {
+      "enemy_group_id": 199265,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG04__B10031",
+      "formation": 170,
+      "bgm": 101185,
+      "event_indices": [
+        42,
+        43
+      ],
+      "enemy_ids": [
+        132193
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_04_01__B32193"
+      ],
+      "enemy_names_best": [
+        "赠予一切之人"
+      ]
+    },
+    "73657": {
+      "enemy_group_id": 73657,
+      "use_count": 1,
+      "label": "Gr_Other_Danas_Em05",
+      "formation": 72,
+      "bgm": 117538,
+      "event_indices": [
+        120
+      ],
+      "enemy_ids": [
+        33722
+      ],
+      "enemy_labels": [
+        "Other_Danas_Em06_01"
+      ],
+      "enemy_names_best": [
+        "奥特罗斯"
+      ]
+    },
+    "73658": {
+      "enemy_group_id": 73658,
+      "use_count": 1,
+      "label": "Gr_Other_Danas_Em06",
+      "formation": 72,
+      "bgm": 117522,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        33724
+      ],
+      "enemy_labels": [
+        "Other_Danas_Em06_02"
+      ],
+      "enemy_names_best": [
+        "奥特罗斯"
+      ]
+    },
+    "74164": {
+      "enemy_group_id": 74164,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em03",
+      "formation": 72,
+      "bgm": 117538,
+      "event_indices": [
+        120
+      ],
+      "enemy_ids": [
+        34058
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em06_01"
+      ],
+      "enemy_names_best": [
+        "奥特罗斯"
+      ]
+    },
+    "74165": {
+      "enemy_group_id": 74165,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em04",
+      "formation": 72,
+      "bgm": 117522,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        34059
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em06_02"
+      ],
+      "enemy_names_best": [
+        "奥特罗斯"
+      ]
+    },
+    "199514": {
+      "enemy_group_id": 199514,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em03__Arena",
+      "formation": 72,
+      "bgm": 117538,
+      "event_indices": [
+        120
+      ],
+      "enemy_ids": [
+        34058
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em06_01"
+      ],
+      "enemy_names_best": [
+        "奥特罗斯"
+      ]
+    },
+    "199515": {
+      "enemy_group_id": 199515,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em04__Arena",
+      "formation": 72,
+      "bgm": 117522,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        34059
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em06_02"
+      ],
+      "enemy_names_best": [
+        "奥特罗斯"
+      ]
+    }
+  },
+  "uses_sample": [
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21603,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21603,
+      "tactical_action_id": 0,
+      "enemy_id": 5216,
+      "enemy_label": "Hell_Curse_02_01_01",
+      "enemy_name_best": "愤怒的娼妓",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21603,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21603,
+      "tactical_action_id": 0,
+      "enemy_id": 31706,
+      "enemy_label": "BF_HellForest_Enemy_02_005",
+      "enemy_name_best": "凶猛的亡兽恐怖之牙",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21603,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21603,
+      "tactical_action_id": 0,
+      "enemy_id": 15216,
+      "enemy_label": "Hell_Curse_02_01_01__B5216",
+      "enemy_name_best": "愤怒的舞女",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21785,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21785,
+      "tactical_action_id": 0,
+      "enemy_id": 31781,
+      "enemy_label": "HellMount_Enemy_02_005",
+      "enemy_name_best": "狰狞的亡者荷鲁布尔古骑士",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21785,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21785,
+      "tactical_action_id": 0,
+      "enemy_id": 31801,
+      "enemy_label": "HellMount_MH_Enemy_01_001",
+      "enemy_name_best": "狰狞的亡者荷鲁布尔古骑士",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21785,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21785,
+      "tactical_action_id": 0,
+      "enemy_id": 131781,
+      "enemy_label": "HellMount_Enemy_02_005__B31781",
+      "enemy_name_best": "凶猛的亡者荷鲁布尔古守卫",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21785,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21785,
+      "tactical_action_id": 0,
+      "enemy_id": 131801,
+      "enemy_label": "HellMount_MH_Enemy_01_001__B31801",
+      "enemy_name_best": "凶猛的亡者荷鲁布尔古守卫",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21785,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21785,
+      "tactical_action_id": 0,
+      "enemy_id": 31900,
+      "enemy_label": "BF_HellMount_Enemy_02_005",
+      "enemy_name_best": "凶猛的亡者荷鲁布尔古守卫",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21945,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21945,
+      "tactical_action_id": 0,
+      "enemy_id": 31939,
+      "enemy_label": "Hell_Hell_Enemy_02_009",
+      "enemy_name_best": "狰狞的边狱兽",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21952,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21952,
+      "tactical_action_id": 0,
+      "enemy_id": 31939,
+      "enemy_label": "Hell_Hell_Enemy_02_009",
+      "enemy_name_best": "狰狞的边狱兽",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501,
+        10301
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23309,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23309,
+      "tactical_action_id": 0,
+      "enemy_id": 98313,
+      "enemy_label": "SE_Enemy_051_01",
+      "enemy_name_best": "狰狞的亡者艾德拉斯王国骑士Ⅰ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23315,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23315,
+      "tactical_action_id": 0,
+      "enemy_id": 98314,
+      "enemy_label": "SE_Enemy_052_01",
+      "enemy_name_best": "狰狞的亡兽惊惧之牙",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23320,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23320,
+      "tactical_action_id": 0,
+      "enemy_id": 98315,
+      "enemy_label": "SE_Enemy_053_01",
+      "enemy_name_best": "维护权势的亡者艾德拉斯士兵",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23326,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23326,
+      "tactical_action_id": 0,
+      "enemy_id": 98316,
+      "enemy_label": "SE_Enemy_054_01",
+      "enemy_name_best": "维护巨富的亡者艾德拉斯士兵",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23332,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23332,
+      "tactical_action_id": 0,
+      "enemy_id": 98317,
+      "enemy_label": "SE_Enemy_055_01",
+      "enemy_name_best": "维护名誉的亡者艾德拉斯士兵",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23339,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23339,
+      "tactical_action_id": 0,
+      "enemy_id": 98318,
+      "enemy_label": "SE_Enemy_056_01",
+      "enemy_name_best": "咒缚亡兽大游隼",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23344,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23344,
+      "tactical_action_id": 0,
+      "enemy_id": 98319,
+      "enemy_label": "SE_Enemy_057_01",
+      "enemy_name_best": "咒缚亡者大鼠人",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23350,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23350,
+      "tactical_action_id": 0,
+      "enemy_id": 98320,
+      "enemy_label": "SE_Enemy_058_01",
+      "enemy_name_best": "狰狞的亡者荷鲁布尔古骑士",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23357,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23357,
+      "tactical_action_id": 0,
+      "enemy_id": 98321,
+      "enemy_label": "SE_Enemy_059_01",
+      "enemy_name_best": "狰狞的魔导机兵（圣火）",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23363,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23363,
+      "tactical_action_id": 0,
+      "enemy_id": 98322,
+      "enemy_label": "SE_Enemy_060_01",
+      "enemy_name_best": "狰狞的亡者真凶士",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10302
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23364,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23364,
+      "tactical_action_id": 0,
+      "enemy_id": 98322,
+      "enemy_label": "SE_Enemy_060_01",
+      "enemy_name_best": "狰狞的亡者真凶士",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23370,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23370,
+      "tactical_action_id": 0,
+      "enemy_id": 98323,
+      "enemy_label": "SE_Enemy_061_01",
+      "enemy_name_best": "咒缚·亡者士兵",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23375,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23375,
+      "tactical_action_id": 0,
+      "enemy_id": 98324,
+      "enemy_label": "SE_Enemy_062_01",
+      "enemy_name_best": "狰狞的边狱沉滓·异种",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23382,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23382,
+      "tactical_action_id": 0,
+      "enemy_id": 98325,
+      "enemy_label": "SE_Enemy_063_01",
+      "enemy_name_best": "狰狞的异形亡者Ⅱ·异种",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23388,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23388,
+      "tactical_action_id": 0,
+      "enemy_id": 98326,
+      "enemy_label": "SE_Enemy_064_01",
+      "enemy_name_best": "桑克·欧利番特",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10301,
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 3,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23389,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23389,
+      "tactical_action_id": 0,
+      "enemy_id": 98326,
+      "enemy_label": "SE_Enemy_064_01",
+      "enemy_name_best": "桑克·欧利番特",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10100
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 3,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23961,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23961,
+      "tactical_action_id": 0,
+      "enemy_id": 98326,
+      "enemy_label": "SE_Enemy_064_01",
+      "enemy_name_best": "桑克·欧利番特",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10100,
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 24156,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 24156,
+      "tactical_action_id": 0,
+      "enemy_id": 98326,
+      "enemy_label": "SE_Enemy_064_01",
+      "enemy_name_best": "桑克·欧利番特",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10301
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23394,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23394,
+      "tactical_action_id": 0,
+      "enemy_id": 98328,
+      "enemy_label": "SE_Enemy_066_01",
+      "enemy_name_best": "桑克·加尔穆",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10100
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23976,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23976,
+      "tactical_action_id": 0,
+      "enemy_id": 98328,
+      "enemy_label": "SE_Enemy_066_01",
+      "enemy_name_best": "桑克·加尔穆",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10100,
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23399,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23399,
+      "tactical_action_id": 0,
+      "enemy_id": 98330,
+      "enemy_label": "SE_Enemy_068_01",
+      "enemy_name_best": "桑克·柯修玛尔",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10100
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23985,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23985,
+      "tactical_action_id": 0,
+      "enemy_id": 98330,
+      "enemy_label": "SE_Enemy_068_01",
+      "enemy_name_best": "桑克·柯修玛尔",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10100,
+        10705
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23423,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23423,
+      "tactical_action_id": 0,
+      "enemy_id": 98331,
+      "enemy_label": "SE_Enemy_069_01",
+      "enemy_name_best": "辉空的守护圣兽",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 5,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 2706,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 2706,
+      "tactical_action_id": 0,
+      "enemy_id": 5054,
+      "enemy_label": "AllMASTER_Boss_Chp8_03_01",
+      "enemy_name_best": "硕学王帕蒂斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        640,
+        10303
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10085,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10085,
+      "tactical_action_id": 0,
+      "enemy_id": 5074,
+      "enemy_label": "B06_04_Boss_01",
+      "enemy_name_best": "异国的使者（圆刃）",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        500
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21516,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21516,
+      "tactical_action_id": 0,
+      "enemy_id": 5122,
+      "enemy_label": "AGM_Boss_Chp3_01_01",
+      "enemy_name_best": "亡者雷布兰特",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21516,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21516,
+      "tactical_action_id": 0,
+      "enemy_id": 15122,
+      "enemy_label": "AGM_Boss_Chp3_01_01__B5122",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21516,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21516,
+      "tactical_action_id": 0,
+      "enemy_id": 32515,
+      "enemy_label": "Rematch_Season13_Boss03_01",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21516,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21516,
+      "tactical_action_id": 0,
+      "enemy_id": 33842,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_28_02_Enemy_01",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21516,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21516,
+      "tactical_action_id": 0,
+      "enemy_id": 34088,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_37_2_04_Enemy_01",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21517,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21517,
+      "tactical_action_id": 0,
+      "enemy_id": 5122,
+      "enemy_label": "AGM_Boss_Chp3_01_01",
+      "enemy_name_best": "亡者雷布兰特",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21517,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21517,
+      "tactical_action_id": 0,
+      "enemy_id": 15122,
+      "enemy_label": "AGM_Boss_Chp3_01_01__B5122",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21517,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21517,
+      "tactical_action_id": 0,
+      "enemy_id": 32515,
+      "enemy_label": "Rematch_Season13_Boss03_01",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21517,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21517,
+      "tactical_action_id": 0,
+      "enemy_id": 33842,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_28_02_Enemy_01",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21517,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21517,
+      "tactical_action_id": 0,
+      "enemy_id": 34088,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_37_2_04_Enemy_01",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21519,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21519,
+      "tactical_action_id": 0,
+      "enemy_id": 5122,
+      "enemy_label": "AGM_Boss_Chp3_01_01",
+      "enemy_name_best": "亡者雷布兰特",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002,
+        10100
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21519,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21519,
+      "tactical_action_id": 0,
+      "enemy_id": 15122,
+      "enemy_label": "AGM_Boss_Chp3_01_01__B5122",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002,
+        10100
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21519,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21519,
+      "tactical_action_id": 0,
+      "enemy_id": 32515,
+      "enemy_label": "Rematch_Season13_Boss03_01",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002,
+        10100
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21519,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21519,
+      "tactical_action_id": 0,
+      "enemy_id": 33842,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_28_02_Enemy_01",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002,
+        10100
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21519,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21519,
+      "tactical_action_id": 0,
+      "enemy_id": 34088,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_37_2_04_Enemy_01",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002,
+        10100
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21522,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21522,
+      "tactical_action_id": 0,
+      "enemy_id": 5122,
+      "enemy_label": "AGM_Boss_Chp3_01_01",
+      "enemy_name_best": "亡者雷布兰特",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002,
+        10302
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21522,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21522,
+      "tactical_action_id": 0,
+      "enemy_id": 15122,
+      "enemy_label": "AGM_Boss_Chp3_01_01__B5122",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002,
+        10302
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21522,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21522,
+      "tactical_action_id": 0,
+      "enemy_id": 32515,
+      "enemy_label": "Rematch_Season13_Boss03_01",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002,
+        10302
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21522,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21522,
+      "tactical_action_id": 0,
+      "enemy_id": 33842,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_28_02_Enemy_01",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002,
+        10302
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21522,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21522,
+      "tactical_action_id": 0,
+      "enemy_id": 34088,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_37_2_04_Enemy_01",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002,
+        10302
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 5,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21574,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21574,
+      "tactical_action_id": 0,
+      "enemy_id": 5123,
+      "enemy_label": "AGM_Boss_Chp3_02_01",
+      "enemy_name_best": "咒王艾丽卡",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        10002,
+        10301
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 3,
+      "slot": 3,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21583,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21583,
+      "tactical_action_id": 0,
+      "enemy_id": 5123,
+      "enemy_label": "AGM_Boss_Chp3_02_01",
+      "enemy_name_best": "咒王艾丽卡",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        405,
+        10002,
+        10715
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 4,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21813,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21813,
+      "tactical_action_id": 0,
+      "enemy_id": 5126,
+      "enemy_label": "AGM_Boss_Chp4_01_01",
+      "enemy_name_best": "圣火骑士隆德",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 4,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21813,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21813,
+      "tactical_action_id": 0,
+      "enemy_id": 15126,
+      "enemy_label": "AGM_Boss_Chp4_01_01__B5126",
+      "enemy_name_best": "星火守卫隆德",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 3,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21839,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21839,
+      "tactical_action_id": 0,
+      "enemy_id": 5126,
+      "enemy_label": "AGM_Boss_Chp4_01_01",
+      "enemy_name_best": "圣火骑士隆德",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501,
+        10202
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 3,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21839,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21839,
+      "tactical_action_id": 0,
+      "enemy_id": 15126,
+      "enemy_label": "AGM_Boss_Chp4_01_01__B5126",
+      "enemy_name_best": "星火守卫隆德",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501,
+        10202
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 3,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21840,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21840,
+      "tactical_action_id": 0,
+      "enemy_id": 5126,
+      "enemy_label": "AGM_Boss_Chp4_01_01",
+      "enemy_name_best": "圣火骑士隆德",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        500,
+        10302
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 3,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21840,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21840,
+      "tactical_action_id": 0,
+      "enemy_id": 15126,
+      "enemy_label": "AGM_Boss_Chp4_01_01__B5126",
+      "enemy_name_best": "星火守卫隆德",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        500,
+        10302
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 3,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21762,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21762,
+      "tactical_action_id": 0,
+      "enemy_id": 31715,
+      "enemy_label": "AGM_Boss_Chp4_01_02",
+      "enemy_name_best": "圣火",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 3,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21762,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21762,
+      "tactical_action_id": 0,
+      "enemy_id": 131715,
+      "enemy_label": "AGM_Boss_Chp4_01_02__B31715",
+      "enemy_name_best": "星火",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 3,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21765,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21765,
+      "tactical_action_id": 0,
+      "enemy_id": 31766,
+      "enemy_label": "AGM_Boss_Chp4_01_03",
+      "enemy_name_best": "圣火",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 3,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21765,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21765,
+      "tactical_action_id": 0,
+      "enemy_id": 131766,
+      "enemy_label": "AGM_Boss_Chp4_01_03__B31766",
+      "enemy_name_best": "星火",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21750,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21750,
+      "tactical_action_id": 0,
+      "enemy_id": 5129,
+      "enemy_label": "AGM_Boss_Chp5_01_02",
+      "enemy_name_best": "亡者凶士",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21750,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21750,
+      "tactical_action_id": 0,
+      "enemy_id": 15129,
+      "enemy_label": "AGM_Boss_Chp5_01_02__B5129",
+      "enemy_name_best": "亡者凶人",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 5,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21815,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21815,
+      "tactical_action_id": 0,
+      "enemy_id": 5130,
+      "enemy_label": "AGM_Boss_Chp5_02_01",
+      "enemy_name_best": "咒将泰坦斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        701,
+        709,
+        10002,
+        10711
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 5,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21815,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21815,
+      "tactical_action_id": 0,
+      "enemy_id": 15130,
+      "enemy_label": "AGM_Boss_Chp5_02_01__B5130",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        701,
+        709,
+        10002,
+        10711
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 5,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21815,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21815,
+      "tactical_action_id": 0,
+      "enemy_id": 32634,
+      "enemy_label": "Rematch_Season24_Boss01_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        701,
+        709,
+        10002,
+        10711
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 5,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21815,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21815,
+      "tactical_action_id": 0,
+      "enemy_id": 33799,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX01_27_03_Enemy_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        701,
+        709,
+        10002,
+        10711
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 5,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21815,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21815,
+      "tactical_action_id": 0,
+      "enemy_id": 34009,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX02_34_04_Enemy_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        701,
+        709,
+        10002,
+        10711
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 5,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21816,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21816,
+      "tactical_action_id": 0,
+      "enemy_id": 5130,
+      "enemy_label": "AGM_Boss_Chp5_02_01",
+      "enemy_name_best": "咒将泰坦斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        701,
+        709,
+        10002,
+        10711
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 5,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21816,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21816,
+      "tactical_action_id": 0,
+      "enemy_id": 15130,
+      "enemy_label": "AGM_Boss_Chp5_02_01__B5130",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        701,
+        709,
+        10002,
+        10711
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 5,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21816,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21816,
+      "tactical_action_id": 0,
+      "enemy_id": 32634,
+      "enemy_label": "Rematch_Season24_Boss01_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        701,
+        709,
+        10002,
+        10711
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 5,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21816,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21816,
+      "tactical_action_id": 0,
+      "enemy_id": 33799,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX01_27_03_Enemy_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        701,
+        709,
+        10002,
+        10711
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 5,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21816,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21816,
+      "tactical_action_id": 0,
+      "enemy_id": 34009,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX02_34_04_Enemy_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        701,
+        709,
+        10002,
+        10711
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21821,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21821,
+      "tactical_action_id": 0,
+      "enemy_id": 5130,
+      "enemy_label": "AGM_Boss_Chp5_02_01",
+      "enemy_name_best": "咒将泰坦斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        616,
+        10715
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21821,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21821,
+      "tactical_action_id": 0,
+      "enemy_id": 15130,
+      "enemy_label": "AGM_Boss_Chp5_02_01__B5130",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        616,
+        10715
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21821,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21821,
+      "tactical_action_id": 0,
+      "enemy_id": 32634,
+      "enemy_label": "Rematch_Season24_Boss01_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        616,
+        10715
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21821,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21821,
+      "tactical_action_id": 0,
+      "enemy_id": 33799,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX01_27_03_Enemy_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        616,
+        10715
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21821,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21821,
+      "tactical_action_id": 0,
+      "enemy_id": 34009,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX02_34_04_Enemy_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        616,
+        10715
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21822,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21822,
+      "tactical_action_id": 0,
+      "enemy_id": 5130,
+      "enemy_label": "AGM_Boss_Chp5_02_01",
+      "enemy_name_best": "咒将泰坦斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10715
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21822,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21822,
+      "tactical_action_id": 0,
+      "enemy_id": 15130,
+      "enemy_label": "AGM_Boss_Chp5_02_01__B5130",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10715
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21822,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21822,
+      "tactical_action_id": 0,
+      "enemy_id": 32634,
+      "enemy_label": "Rematch_Season24_Boss01_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10715
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21822,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21822,
+      "tactical_action_id": 0,
+      "enemy_id": 33799,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX01_27_03_Enemy_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10715
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21822,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21822,
+      "tactical_action_id": 0,
+      "enemy_id": 34009,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX02_34_04_Enemy_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10715
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21823,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21823,
+      "tactical_action_id": 0,
+      "enemy_id": 5130,
+      "enemy_label": "AGM_Boss_Chp5_02_01",
+      "enemy_name_best": "咒将泰坦斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        315,
+        616
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21823,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21823,
+      "tactical_action_id": 0,
+      "enemy_id": 15130,
+      "enemy_label": "AGM_Boss_Chp5_02_01__B5130",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        315,
+        616
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21823,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21823,
+      "tactical_action_id": 0,
+      "enemy_id": 32634,
+      "enemy_label": "Rematch_Season24_Boss01_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        315,
+        616
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21823,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21823,
+      "tactical_action_id": 0,
+      "enemy_id": 33799,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX01_27_03_Enemy_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        315,
+        616
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21823,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21823,
+      "tactical_action_id": 0,
+      "enemy_id": 34009,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX02_34_04_Enemy_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        315,
+        616
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21824,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21824,
+      "tactical_action_id": 0,
+      "enemy_id": 5130,
+      "enemy_label": "AGM_Boss_Chp5_02_01",
+      "enemy_name_best": "咒将泰坦斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        315
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21824,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21824,
+      "tactical_action_id": 0,
+      "enemy_id": 15130,
+      "enemy_label": "AGM_Boss_Chp5_02_01__B5130",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        315
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21824,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21824,
+      "tactical_action_id": 0,
+      "enemy_id": 32634,
+      "enemy_label": "Rematch_Season24_Boss01_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        315
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21824,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21824,
+      "tactical_action_id": 0,
+      "enemy_id": 33799,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX01_27_03_Enemy_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        315
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21824,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21824,
+      "tactical_action_id": 0,
+      "enemy_id": 34009,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX02_34_04_Enemy_01",
+      "enemy_name_best": "咒将泰塔斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        315
+      ]
+    },
+    {
+      "condition_id": 10712,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21825,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21825,
+      "tactical_action_id": 0,
+      "enemy_id": 5130,
+      "enemy_label": "AGM_Boss_Chp5_02_01",
+      "enemy_name_best": "咒将泰坦斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10715
+      ]
+    }
+  ]
+}
