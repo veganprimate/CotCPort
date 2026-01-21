@@ -38,7 +38,7 @@ These are OT0-exclusive and replace sounds/BGM depending on a quest condition be
 This looks like a mapping from a "voice symbol string" used by game scripts/data into a compact integer ID.
 
 ### `PartVoiceID`
-Voice categories/"subtypes"
+Voice categories/"subtypes"(?) Likely related asset: `GameTextPartVoice`
 
 ### `ConvPersonalityVoiceID`
 Likely referring to the 6 different voices you can choose for Zero
