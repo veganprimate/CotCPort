@@ -3,23 +3,23 @@
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="50%">
-      <img alt="1" src="https://github.com/user-attachments/assets/b6de0cba-9b16-4f60-9ca5-3c10dc31f15d" width="100%" />
+      <img alt="1" src="https://github.com/user-attachments/assets/e27eeffe-7827-4039-8ef1-088e96d75e48" width="100%" />
     </td>
     <td width="50%">
-      <img alt="2" src="https://github.com/user-attachments/assets/8f5578d1-b5d9-44c5-8e5b-58df320df724" width="100%" />
+      <img alt="2" src="https://github.com/user-attachments/assets/cdaecda7-2b2c-42a7-b980-7539948c64df" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img alt="3" src="https://github.com/user-attachments/assets/c8edbf0a-10e6-4e74-8392-201e6cb81923" width="100%" />
+      <img alt="3" src="https://github.com/user-attachments/assets/f52aab44-c6e9-41e2-8a5d-9e8ad82a9007" width="100%" />
     </td>
     <td width="50%">
-      <img alt="4" src="https://github.com/user-attachments/assets/a58a5700-3355-465f-bc73-c0a84d325e47" width="100%" />
+      <img alt="4" src="https://github.com/user-attachments/assets/6370561a-3653-4dcb-a0e5-2ab82f787b1e" width="100%" />
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <img alt="5" src="https://github.com/user-attachments/assets/60141fa8-a49c-4fc3-8f89-cd4ad5e410b1" width="100%" />
+      <img alt="5" src="https://github.com/user-attachments/assets/b0943896-d810-4fbd-bf78-f6a7568541e0" width="100%" />
     </td>
   </tr>
 </table>
@@ -36,7 +36,8 @@
 - 한국어
 - 중국어(간체)
 - 중국어(번체)
-![chargif](https://github.com/user-attachments/assets/4268cd2d-7ada-4643-9ee8-1017ecf9d816)
+
+![chargif](https://github.com/user-attachments/assets/00c35b82-3e9c-4810-8d8b-657f2c2a1151)
 
 ## 설치
 Releases에서 `notex` pak 중 하나와 `texture` pak, 그리고 `RecruitEvent_p.pak`를 다운로드하세요. `notex`에는 DataBase 파일이 들어 있으며, `texture`에는 대륙의 패자에서 이식한 텍스처와 모델이 포함되어 있습니다. `RecruitEvent_p.pak`는 모드로, 펜/메이시/반지 운반자 선정 사이의 첫 파티 잡담 이벤트(“상처 치료”)를 새로 추가된 260+ 유닛 전체를 영입할 수 있는 영입 이벤트로 교체합니다. 새 유닛을 모두 영입한 뒤에는 이 모드를 제거해도 됩니다.
@@ -59,7 +60,7 @@ Releases에서 `notex` pak 중 하나와 `texture` pak, 그리고 `RecruitEvent_
 `romfs/Octopath_Traveler0/Content/Paks` 구조로 모드를 만들고, 세 개의 pak를 Paks 폴더에 넣으세요.
 
 ## 새로 추가된 여행자(플레이어블 캐릭터) 영입 방법
-<img width="1286" height="726" alt="12" src="https://github.com/user-attachments/assets/c19ec965-b7b6-4914-8806-dc3b7aaebfed" />
+<img width="1286" height="726" alt="12" src="https://github.com/user-attachments/assets/f06205a2-5c30-4a8f-8718-5ee69d84db95" />
 
 1. `RecruitEvent_p.pak`가 Paks 폴더에 들어 있는지 확인하세요.
 2. 엠버글로우 에 있는 롱보우 마스터(위 이미지 참고)에게 말을 거세요. 이벤트가 발생하며, 이 모드에 추가된 모든 플레이어블 캐릭터가 영입됩니다.
