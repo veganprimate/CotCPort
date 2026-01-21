@@ -1,0 +1,968 @@
+{
+  "condition_id": 502,
+  "total_uses": 17,
+  "uses_by_subsystem": {
+    "TacticalActionList": 4,
+    "SkillConditionList": 1,
+    "BattleAbortConditions": 12
+  },
+  "uses_by_table": {
+    "TacticalActionList": 4,
+    "SkillConditionList": 1,
+    "BattleAbortConditions": 12
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalActionList[0]": 4,
+    "SkillConditionList[0]": 1,
+    "BattleAbortConditions[0]": 12
+  },
+  "param_stats": {
+    "count": 17,
+    "min": 1,
+    "max": 1,
+    "mean": 1.0,
+    "median": 1,
+    "p10": 1,
+    "p25": 1,
+    "p75": 1,
+    "p90": 1,
+    "top10": [
+      [
+        1,
+        17
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10712,
+      12
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 30779,
+      "use_count": 2,
+      "label": "PC0147_Chp4_Em01",
+      "name_best": "Nebla",
+      "type_id": 21037,
+      "tactical_assign_id": 309,
+      "skills_id": 50989
+    },
+    {
+      "enemy_id": 33988,
+      "use_count": 2,
+      "label": "QPO_HandicapBattle_AnotherEX03_35_03_Enemy_01",
+      "name_best": "Nebla",
+      "type_id": 23539,
+      "tactical_assign_id": 309,
+      "skills_id": 50989
+    }
+  ],
+  "top_skills": {
+    "10646": {
+      "skill_id": 10646,
+      "use_count": 2,
+      "name_id": 61698,
+      "name_best": "Wild Cut",
+      "detail_id": 0,
+      "detail_best": "No Data.",
+      "enemies_that_can_use_skill_count": 2,
+      "enemies_that_can_use_skill_sample": [
+        30779,
+        33988
+      ],
+      "avails": [
+        62881,
+        62881,
+        62881
+      ]
+    },
+    "10647": {
+      "skill_id": 10647,
+      "use_count": 2,
+      "name_id": 61699,
+      "name_best": "Soul Cleave",
+      "detail_id": 0,
+      "detail_best": "No Data.",
+      "enemies_that_can_use_skill_count": 2,
+      "enemies_that_can_use_skill_sample": [
+        30779,
+        33988
+      ],
+      "avails": [
+        62882,
+        62883
+      ]
+    },
+    "1610021": {
+      "skill_id": 1610021,
+      "use_count": 1,
+      "name_id": 101430,
+      "name_best": "Sacrificial Sunder",
+      "detail_id": 101448,
+      "detail_best": "Grant Self an HP Barrier (effect: <skl_avail_value>% of user's max HP/does not stack).\nAdditionally, deal Phys. <skl_attribute_name> damage to <skl_target_type3> (potency: <skl_avail_value3>).\nDmg. Limit of this skill is increased by 50,000.\nConsume 10% of own HP (up to 8 times) until HP falls below 10%.\nPotency increases based on the number of times HP is consumed,\nup to 2.6x (at 8 times).",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        74884,
+        74885,
+        74886
+      ]
+    }
+  },
+  "enemy_groups": {
+    "110031": {
+      "enemy_group_id": 110031,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG04__B10031",
+      "formation": 170,
+      "bgm": 101185,
+      "event_indices": [
+        42,
+        43
+      ],
+      "enemy_ids": [
+        132193
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_04_01__B32193"
+      ],
+      "enemy_names_best": [
+        "Bestower of All"
+      ]
+    },
+    "73284": {
+      "enemy_group_id": 73284,
+      "use_count": 1,
+      "label": "ENG_Seeds_16_01_001",
+      "formation": 1196,
+      "bgm": 93,
+      "event_indices": [
+        124
+      ],
+      "enemy_ids": [
+        33359,
+        33820,
+        33821
+      ],
+      "enemy_labels": [
+        "Seeds_Boss_16_01_Enemy_01",
+        "Seeds_Boss_16_01_Enemy_02",
+        "Seeds_Boss_16_01_Enemy_03"
+      ],
+      "enemy_names_best": [
+        "Divine Beast Jörmungandr",
+        "(Unlocalized)",
+        "(Unlocalized)"
+      ]
+    },
+    "73450": {
+      "enemy_group_id": 73450,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP08_02",
+      "formation": 59,
+      "bgm": 36,
+      "event_indices": [
+        102,
+        103,
+        104,
+        105
+      ],
+      "enemy_ids": [
+        33442
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP8_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "Noma"
+      ]
+    },
+    "73485": {
+      "enemy_group_id": 73485,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP09_07",
+      "formation": 1194,
+      "bgm": 113752,
+      "event_indices": [
+        113
+      ],
+      "enemy_ids": [
+        33569
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP9_Enemy_07_01"
+      ],
+      "enemy_names_best": [
+        "Dark God of Curses"
+      ]
+    },
+    "73486": {
+      "enemy_group_id": 73486,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP10_01",
+      "formation": 1195,
+      "bgm": 93,
+      "event_indices": [
+        116,
+        117,
+        138
+      ],
+      "enemy_ids": [
+        33570,
+        33678,
+        33679
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP9_Enemy_08_01",
+        "QPS_Boss_CP9_Enemy_08_02",
+        "QPS_Boss_CP9_Enemy_08_03"
+      ],
+      "enemy_names_best": [
+        "Shadow of Twin Worlds",
+        "Lucian",
+        "Lyblac"
+      ]
+    },
+    "199265": {
+      "enemy_group_id": 199265,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG04__B10031",
+      "formation": 170,
+      "bgm": 101185,
+      "event_indices": [
+        42,
+        43
+      ],
+      "enemy_ids": [
+        132193
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_04_01__B32193"
+      ],
+      "enemy_names_best": [
+        "Bestower of All"
+      ]
+    },
+    "73657": {
+      "enemy_group_id": 73657,
+      "use_count": 1,
+      "label": "Gr_Other_Danas_Em05",
+      "formation": 72,
+      "bgm": 117538,
+      "event_indices": [
+        120
+      ],
+      "enemy_ids": [
+        33722
+      ],
+      "enemy_labels": [
+        "Other_Danas_Em06_01"
+      ],
+      "enemy_names_best": [
+        "Orthros"
+      ]
+    },
+    "73658": {
+      "enemy_group_id": 73658,
+      "use_count": 1,
+      "label": "Gr_Other_Danas_Em06",
+      "formation": 72,
+      "bgm": 117522,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        33724
+      ],
+      "enemy_labels": [
+        "Other_Danas_Em06_02"
+      ],
+      "enemy_names_best": [
+        "Orthros"
+      ]
+    },
+    "74164": {
+      "enemy_group_id": 74164,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em03",
+      "formation": 72,
+      "bgm": 117538,
+      "event_indices": [
+        120
+      ],
+      "enemy_ids": [
+        34058
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em06_01"
+      ],
+      "enemy_names_best": [
+        "Orthros"
+      ]
+    },
+    "74165": {
+      "enemy_group_id": 74165,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em04",
+      "formation": 72,
+      "bgm": 117522,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        34059
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em06_02"
+      ],
+      "enemy_names_best": [
+        "Orthros"
+      ]
+    },
+    "199514": {
+      "enemy_group_id": 199514,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em03__Arena",
+      "formation": 72,
+      "bgm": 117538,
+      "event_indices": [
+        120
+      ],
+      "enemy_ids": [
+        34058
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em06_01"
+      ],
+      "enemy_names_best": [
+        "Orthros"
+      ]
+    },
+    "199515": {
+      "enemy_group_id": 199515,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em04__Arena",
+      "formation": 72,
+      "bgm": 117522,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        34059
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em06_02"
+      ],
+      "enemy_names_best": [
+        "Orthros"
+      ]
+    }
+  },
+  "uses_sample": [
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalActionList",
+      "owner_table": "TacticalActionList",
+      "owner_row_id": 42050,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20626,
+      "tactical_action_id": 42050,
+      "enemy_id": 30779,
+      "enemy_label": "PC0147_Chp4_Em01",
+      "enemy_name_best": "Nebla",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 10646,
+      "skill_index": 1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": 3,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -1,
+      "priority_skill": -1,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalActionList",
+      "owner_table": "TacticalActionList",
+      "owner_row_id": 42050,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20626,
+      "tactical_action_id": 42050,
+      "enemy_id": 33988,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_35_03_Enemy_01",
+      "enemy_name_best": "Nebla",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 10646,
+      "skill_index": 1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": 3,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -1,
+      "priority_skill": -1,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalActionList",
+      "owner_table": "TacticalActionList",
+      "owner_row_id": 42053,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20626,
+      "tactical_action_id": 42053,
+      "enemy_id": 30779,
+      "enemy_label": "PC0147_Chp4_Em01",
+      "enemy_name_best": "Nebla",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 10647,
+      "skill_index": 2,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": 3,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -1,
+      "priority_skill": -1,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalActionList",
+      "owner_table": "TacticalActionList",
+      "owner_row_id": 42053,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20626,
+      "tactical_action_id": 42053,
+      "enemy_id": 33988,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_35_03_Enemy_01",
+      "enemy_name_best": "Nebla",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 10647,
+      "skill_index": 2,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": 3,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -1,
+      "priority_skill": -1,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 171,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 1610021,
+      "skill_index": -1,
+      "skill_avail_id": 74886,
+      "skill_condition_list_id": 171,
+      "condition_ref_field": "m_SkillAvailMagnificationConditionArray|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 14,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 110031,
+      "enemy_group_label": "GM_GiveAll_Chap8_Boss_ENG04__B10031",
+      "enemy_group_enemies": [
+        132193
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10712
+      ]
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 14,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 73284,
+      "enemy_group_label": "ENG_Seeds_16_01_001",
+      "enemy_group_enemies": [
+        33359,
+        33820,
+        33821
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10712
+      ]
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 14,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 73450,
+      "enemy_group_label": "Gr_QPS_Boss_CP08_02",
+      "enemy_group_enemies": [
+        33442
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10712
+      ]
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 14,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 73485,
+      "enemy_group_label": "Gr_QPS_Boss_CP09_07",
+      "enemy_group_enemies": [
+        33569
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10712
+      ]
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 14,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 73486,
+      "enemy_group_label": "Gr_QPS_Boss_CP10_01",
+      "enemy_group_enemies": [
+        33570,
+        33678,
+        33679
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10712
+      ]
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 14,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199265,
+      "enemy_group_label": "GM_GiveAll_Chap8_Boss_ENG04__B10031",
+      "enemy_group_enemies": [
+        132193
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10712
+      ]
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 14,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 73657,
+      "enemy_group_label": "Gr_Other_Danas_Em05",
+      "enemy_group_enemies": [
+        33722
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10712
+      ]
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 14,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 73658,
+      "enemy_group_label": "Gr_Other_Danas_Em06",
+      "enemy_group_enemies": [
+        33724
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10712
+      ]
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 14,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 74164,
+      "enemy_group_label": "Gr_QPS_Rematch_Other_Danas_Em03",
+      "enemy_group_enemies": [
+        34058
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10712
+      ]
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 14,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 74165,
+      "enemy_group_label": "Gr_QPS_Rematch_Other_Danas_Em04",
+      "enemy_group_enemies": [
+        34059
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10712
+      ]
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 14,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199514,
+      "enemy_group_label": "Gr_QPS_Rematch_Other_Danas_Em03__Arena",
+      "enemy_group_enemies": [
+        34058
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10712
+      ]
+    },
+    {
+      "condition_id": 502,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 14,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199515,
+      "enemy_group_label": "Gr_QPS_Rematch_Other_Danas_Em04__Arena",
+      "enemy_group_enemies": [
+        34059
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10712
+      ]
+    }
+  ]
+}

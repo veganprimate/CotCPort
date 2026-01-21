@@ -1,0 +1,96 @@
+{
+  "condition_id": 10853,
+  "total_uses": 1,
+  "uses_by_subsystem": {
+    "SkillConditionList": 1
+  },
+  "uses_by_table": {
+    "SkillConditionList": 1
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 1
+  },
+  "param_stats": {
+    "count": 1,
+    "min": 25,
+    "max": 25,
+    "mean": 25.0,
+    "median": 25,
+    "p10": 25,
+    "p25": 25,
+    "p75": 25,
+    "p90": 25,
+    "top10": [
+      [
+        25,
+        1
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10848,
+      1
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "610774": {
+      "skill_id": 610774,
+      "use_count": 1,
+      "name_id": 102214,
+      "name_best": "Styleshift: Onslaught",
+      "detail_id": 102230,
+      "detail_best": "Switch between Conjurer and Onslaught forms while selecting this action.\nOnslaught form consumes 25% of max SP every turn to grant All Allies the Celestial Chorus effect and raise your own potency by 75% (does not stack with the effects of the same type), but is terminated if you are rendered unable to act or SP is depleted.<sidenote>\nCelestial Chorus: Raise Elem. Atk. and Light damage by 15%.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        75992
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10853,
+      "param": 25,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 636,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 610774,
+      "skill_index": -1,
+      "skill_avail_id": 75992,
+      "skill_condition_list_id": 636,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10848
+      ]
+    }
+  ]
+}

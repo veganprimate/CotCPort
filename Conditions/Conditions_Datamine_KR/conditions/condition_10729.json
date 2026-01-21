@@ -1,0 +1,203 @@
+{
+  "condition_id": 10729,
+  "total_uses": 3,
+  "uses_by_subsystem": {
+    "SkillConditionList": 3
+  },
+  "uses_by_table": {
+    "SkillConditionList": 3
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 3
+  },
+  "param_stats": {
+    "count": 3,
+    "min": 9,
+    "max": 9,
+    "mean": 9.0,
+    "median": 9,
+    "p10": 9,
+    "p25": 9,
+    "p75": 9,
+    "p90": 9,
+    "top10": [
+      [
+        9,
+        3
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [
+      [
+        753,
+        3
+      ]
+    ],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10724,
+      3
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "612296": {
+      "skill_id": 612296,
+      "use_count": 1,
+      "name_id": 103646,
+      "name_best": "상처를 파헤치기",
+      "detail_id": 103663,
+      "detail_best": "아군이 적을 브레이크 시켰을 때\n브레이크 시킨 적에게 \"열상pt\"를 1 추가\n그 후, 브레이크 시킨 적이 \"열상pt\" 9 이상이며 중상 상태가 아닐 때\n그 적에게 특수 효과 \"중상\"을 부여(배틀 어빌리티로서 부여)\n단, \"열상pt\"가 1이 된다<sidenote>\n열상pt: 베이직 어빌리티에 효과 기재\n중상: 출혈 효과로 받는 대미지가 20배가 되고\n받는 공격의 위력이 15% 증가(일부 제외/동계통 효과 중복 불가)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178005,
+        178006,
+        178007
+      ]
+    },
+    "612309": {
+      "skill_id": 612309,
+      "use_count": 1,
+      "name_id": 103646,
+      "name_best": "상처를 파헤치기",
+      "detail_id": 103912,
+      "detail_best": "아군이 적을 브레이크 시켰을 때\n브레이크된 적에게 \"열상pt\"를 1 추가하고\n에스메랄다의 BP를 3 회복\n그 후, 브레이크된 적이 \"열상pt\" 9 이상이며 중상 상태가 아닐 때\n해당 적에게 특수 효과 \"중상\"을 부여(배틀 어빌리티로서 부여)\n단, \"열상pt\"가 1이 됨\n※브레이크시킨 아군이 전투 불가 상태일 때는 회복 효과도 발동하지 않음<sidenote>\n열상pt: 베이직 어빌리티에 효과 기재\n중상: 출혈 효과로 받는 대미지가 20배가 되며\n받는 공격의 위력이 15% 증가(일부 제외/동계통 효과 중복 불가)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178009,
+        178011,
+        178012,
+        178010
+      ]
+    },
+    "612314": {
+      "skill_id": 612314,
+      "use_count": 1,
+      "name_id": 103679,
+      "name_best": "각형",
+      "detail_id": 103680,
+      "detail_best": "<skl_target_type>에게 <skl_attribute_name> <skl_calc_type> 공격(위력 <skl_avail_value>)\n또한, \"열상pt\"를 2 추가\n공격 대상이 출혈 상태일 때 위력이 1.2배\n그 후, 공격 대상이 \"열상pt\" 9 이상이고 중상 상태가 아닐 때\n특수 효과 \"중상\"을 부여\n단, \"열상pt\"가 1이 됨<sidenote>\n열상pt: 베이직 어빌리티에 효과 기재\n중상: 출혈의 효과로 받는 대미지가 20배가 되고\n받는 공격의 위력이 15% 증가(일부 제외/동일 계통의 효과 중복 불가)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178048,
+        178049,
+        178050,
+        178051
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10729,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 769,
+      "ailment_type": 753,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612296,
+      "skill_index": -1,
+      "skill_avail_id": 178006,
+      "skill_condition_list_id": 769,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10724
+      ]
+    },
+    {
+      "condition_id": 10729,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 769,
+      "ailment_type": 753,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612309,
+      "skill_index": -1,
+      "skill_avail_id": 178011,
+      "skill_condition_list_id": 769,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10724
+      ]
+    },
+    {
+      "condition_id": 10729,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 769,
+      "ailment_type": 753,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612314,
+      "skill_index": -1,
+      "skill_avail_id": 178050,
+      "skill_condition_list_id": 769,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10724
+      ]
+    }
+  ]
+}

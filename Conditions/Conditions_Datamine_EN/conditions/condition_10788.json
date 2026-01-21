@@ -1,0 +1,208 @@
+{
+  "condition_id": 10788,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "SkillConditionList": 4
+  },
+  "uses_by_table": {
+    "SkillConditionList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 2,
+    "SkillConditionList[1]": 2
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 1,
+    "max": 1,
+    "mean": 1.0,
+    "median": 1.0,
+    "p10": 1,
+    "p25": 1,
+    "p75": 1,
+    "p90": 1,
+    "top10": [
+      [
+        1,
+        4
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [
+      [
+        751,
+        2
+      ],
+      [
+        752,
+        2
+      ]
+    ],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "612291": {
+      "skill_id": 612291,
+      "use_count": 2,
+      "name_id": 103642,
+      "name_best": "Torturing Knife",
+      "detail_id": 103659,
+      "detail_best": "When Self uses \"Attack,\" increase the target's \"Laceration pt\" by 1\nIf there are Enemies with Severe Injury status,\nRaise Potency of Self by 30% (effects of the same type cannot stack)<sidenote>\nLaceration pt: Considered as being in the bleeding ailment state,\n(※Only judged, bleeding effect will not occur)\nWhen hit by attacks that inflict bleeding or attacks that double potency against bleeding targets,\nit will be treated as a Weakness hit with Special Effects\n※Additional effects from Support Skills or Equip performance are excluded\n※For Enemies without Laceration pt, if Laceration pt is added during the action,\nthe Weakness hit effect will not be triggered during that action",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        177996
+      ]
+    },
+    "611020": {
+      "skill_id": 611020,
+      "use_count": 2,
+      "name_id": 103676,
+      "name_best": "Relentless Pursuit",
+      "detail_id": 103678,
+      "detail_best": "If there are enemies in a heavily injured state,\ngrant Self the effect of activating the used attack ability twice\n(additional activation does not consume SP).\n※ If an attack defeats an enemy in a heavily injured state, the effect will still apply.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178047
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10788,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 794,
+      "ailment_type": 751,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612291,
+      "skill_index": -1,
+      "skill_avail_id": 177996,
+      "skill_condition_list_id": 794,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10788,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 794,
+      "ailment_type": 752,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612291,
+      "skill_index": -1,
+      "skill_avail_id": 177996,
+      "skill_condition_list_id": 794,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10788,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 794,
+      "ailment_type": 751,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611020,
+      "skill_index": -1,
+      "skill_avail_id": 178047,
+      "skill_condition_list_id": 794,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10788,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 794,
+      "ailment_type": 752,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611020,
+      "skill_index": -1,
+      "skill_avail_id": 178047,
+      "skill_condition_list_id": 794,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

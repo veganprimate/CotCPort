@@ -1,0 +1,243 @@
+{
+  "condition_id": 10733,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "SkillConditionList": 4
+  },
+  "uses_by_table": {
+    "SkillConditionList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[1]": 4
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 1,
+    "max": 1,
+    "mean": 1.0,
+    "median": 1.0,
+    "p10": 1,
+    "p25": 1,
+    "p75": 1,
+    "p90": 1,
+    "top10": [
+      [
+        1,
+        4
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      600,
+      4
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "901377": {
+      "skill_id": 901377,
+      "use_count": 1,
+      "name_id": 152876,
+      "name_best": "설욕의 세 화살",
+      "detail_id": 154039,
+      "detail_best": "적 하나에게 행동 순서 마지막에\n활로 특수한 대미지를 3회 준다.\n턴 중에 받은 공격 횟수가\n많을수록 위력이 상승한다.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        74947,
+        74947,
+        74947
+      ]
+    },
+    "902037": {
+      "skill_id": 902037,
+      "use_count": 1,
+      "name_id": 153245,
+      "name_best": "설욕의 세 화살",
+      "detail_id": 0,
+      "detail_best": "no data.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        74947,
+        74947,
+        74947
+      ]
+    },
+    "901771": {
+      "skill_id": 901771,
+      "use_count": 1,
+      "name_id": 153758,
+      "name_best": "",
+      "detail_id": 153911,
+      "detail_best": "어둠으로 막힌 길을 밝혀\n우리를 인도하라……",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        75145
+      ]
+    },
+    "903629": {
+      "skill_id": 903629,
+      "use_count": 1,
+      "name_id": 153245,
+      "name_best": "설욕의 세 화살",
+      "detail_id": 0,
+      "detail_best": "no data.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        78200,
+        78200,
+        78200
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10733,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 100,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 901377,
+      "skill_index": -1,
+      "skill_avail_id": 74947,
+      "skill_condition_list_id": 100,
+      "condition_ref_field": "m_SkillAvailMagnificationConditionArray|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600
+      ]
+    },
+    {
+      "condition_id": 10733,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 100,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 902037,
+      "skill_index": -1,
+      "skill_avail_id": 74947,
+      "skill_condition_list_id": 100,
+      "condition_ref_field": "m_SkillAvailMagnificationConditionArray|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600
+      ]
+    },
+    {
+      "condition_id": 10733,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 100,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 901771,
+      "skill_index": -1,
+      "skill_avail_id": 75145,
+      "skill_condition_list_id": 100,
+      "condition_ref_field": "m_SkillAvailMagnificationConditionArray|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600
+      ]
+    },
+    {
+      "condition_id": 10733,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 100,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 903629,
+      "skill_index": -1,
+      "skill_avail_id": 78200,
+      "skill_condition_list_id": 100,
+      "condition_ref_field": "m_SkillAvailMagnificationConditionArray|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600
+      ]
+    }
+  ]
+}

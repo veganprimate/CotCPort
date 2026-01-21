@@ -1,0 +1,203 @@
+{
+  "condition_id": 10729,
+  "total_uses": 3,
+  "uses_by_subsystem": {
+    "SkillConditionList": 3
+  },
+  "uses_by_table": {
+    "SkillConditionList": 3
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 3
+  },
+  "param_stats": {
+    "count": 3,
+    "min": 9,
+    "max": 9,
+    "mean": 9.0,
+    "median": 9,
+    "p10": 9,
+    "p25": 9,
+    "p75": 9,
+    "p90": 9,
+    "top10": [
+      [
+        9,
+        3
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [
+      [
+        753,
+        3
+      ]
+    ],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10724,
+      3
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "612296": {
+      "skill_id": 612296,
+      "use_count": 1,
+      "name_id": 103646,
+      "name_best": "傷口を抉る",
+      "detail_id": 103663,
+      "detail_best": "味方が敵をブレイクさせた時\nブレイクさせた敵に“裂傷pt”を1追加\nその後、ブレイクさせた敵が“裂傷pt”9以上かつ深手状態ではない時\nその敵に特殊効果“深手”を付与(バトルアビリティとして付与)\nただし、“裂傷pt”が1になる<sidenote>\n裂傷pt:ベーシックアビリティに効果記載\n深手:出血の効果で受けるダメージを20倍し\n受ける攻撃の威力が15％増加(一部除く/同系統の効果重複不可)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178005,
+        178006,
+        178007
+      ]
+    },
+    "612309": {
+      "skill_id": 612309,
+      "use_count": 1,
+      "name_id": 103646,
+      "name_best": "傷口を抉る",
+      "detail_id": 103912,
+      "detail_best": "味方が敵をブレイクさせた時\nブレイクさせた敵に“裂傷pt”を1追加し\nエスメラルダのBPを3回復\nその後、ブレイクさせた敵が“裂傷pt”9以上かつ深手状態ではない時\nその敵に特殊効果“深手”を付与(バトルアビリティとして付与)\nただし、“裂傷pt”が1になる\n※ブレイクさせた味方が戦闘不能時は回復効果も発揮しない<sidenote>\n裂傷pt:ベーシックアビリティに効果記載\n深手:出血の効果で受けるダメージを20倍し\n受ける攻撃の威力が15％増加(一部除く/同系統の効果重複不可)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178009,
+        178011,
+        178012,
+        178010
+      ]
+    },
+    "612314": {
+      "skill_id": 612314,
+      "use_count": 1,
+      "name_id": 103679,
+      "name_best": "刻刑",
+      "detail_id": 103680,
+      "detail_best": "<skl_target_type>に<skl_attribute_name><skl_calc_type>攻撃(威力 <skl_avail_value>)\nさらに、“裂傷pt”を2追加\n攻撃対象が出血状態の時威力が1.2倍\nその後、攻撃対象が“裂傷pt”9以上かつ深手状態ではない時\n特殊効果“深手”を付与\nただし、“裂傷pt”が1になる<sidenote>\n裂傷pt:ベーシックアビリティに効果記載\n深手:出血の効果で受けるダメージを20倍し\n受ける攻撃の威力が15％増加(一部除く/同系統の効果重複不可)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178048,
+        178049,
+        178050,
+        178051
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10729,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 769,
+      "ailment_type": 753,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612296,
+      "skill_index": -1,
+      "skill_avail_id": 178006,
+      "skill_condition_list_id": 769,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10724
+      ]
+    },
+    {
+      "condition_id": 10729,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 769,
+      "ailment_type": 753,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612309,
+      "skill_index": -1,
+      "skill_avail_id": 178011,
+      "skill_condition_list_id": 769,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10724
+      ]
+    },
+    {
+      "condition_id": 10729,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 769,
+      "ailment_type": 753,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612314,
+      "skill_index": -1,
+      "skill_avail_id": 178050,
+      "skill_condition_list_id": 769,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10724
+      ]
+    }
+  ]
+}

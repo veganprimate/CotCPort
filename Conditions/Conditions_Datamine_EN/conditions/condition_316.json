@@ -1,0 +1,221 @@
+{
+  "condition_id": 316,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "TacticalList": 4
+  },
+  "uses_by_table": {
+    "TacticalList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[0]": 4
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 32,
+    "max": 32,
+    "mean": 32.0,
+    "median": 32.0,
+    "p10": 32,
+    "p25": 32,
+    "p75": 32,
+    "p90": 32,
+    "top10": [
+      [
+        32,
+        4
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      700,
+      4
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 5115,
+      "use_count": 1,
+      "label": "B05_001_Boss_02_01",
+      "name_best": "Oskha the Have-Not",
+      "type_id": 10112,
+      "tactical_assign_id": 30053,
+      "skills_id": 50934
+    },
+    {
+      "enemy_id": 15115,
+      "use_count": 1,
+      "label": "B05_001_Boss_02_01__B5115",
+      "name_best": "Oskha the Have-not",
+      "type_id": 110112,
+      "tactical_assign_id": 130053,
+      "skills_id": 50934
+    },
+    {
+      "enemy_id": 32186,
+      "use_count": 1,
+      "label": "Rematch_Season02_Boss05_01",
+      "name_best": "Oskha the Have-not",
+      "type_id": 22352,
+      "tactical_assign_id": 130053,
+      "skills_id": 51608
+    },
+    {
+      "enemy_id": 33252,
+      "use_count": 1,
+      "label": "Handicap_Season02_Boss05_01",
+      "name_best": "Oskha the Have-not",
+      "type_id": 22352,
+      "tactical_assign_id": 130615,
+      "skills_id": 51608
+    }
+  ],
+  "top_skills": {},
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 316,
+      "param": 32,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20440,
+      "tactical_action_id": 0,
+      "enemy_id": 5115,
+      "enemy_label": "B05_001_Boss_02_01",
+      "enemy_name_best": "Oskha the Have-Not",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        700
+      ]
+    },
+    {
+      "condition_id": 316,
+      "param": 32,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20440,
+      "tactical_action_id": 0,
+      "enemy_id": 15115,
+      "enemy_label": "B05_001_Boss_02_01__B5115",
+      "enemy_name_best": "Oskha the Have-not",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        700
+      ]
+    },
+    {
+      "condition_id": 316,
+      "param": 32,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20440,
+      "tactical_action_id": 0,
+      "enemy_id": 32186,
+      "enemy_label": "Rematch_Season02_Boss05_01",
+      "enemy_name_best": "Oskha the Have-not",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        700
+      ]
+    },
+    {
+      "condition_id": 316,
+      "param": 32,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20440,
+      "tactical_action_id": 0,
+      "enemy_id": 33252,
+      "enemy_label": "Handicap_Season02_Boss05_01",
+      "enemy_name_best": "Oskha the Have-not",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        700
+      ]
+    }
+  ]
+}

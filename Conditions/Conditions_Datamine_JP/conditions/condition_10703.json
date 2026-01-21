@@ -1,0 +1,96 @@
+{
+  "condition_id": 10703,
+  "total_uses": 1,
+  "uses_by_subsystem": {
+    "SkillConditionList": 1
+  },
+  "uses_by_table": {
+    "SkillConditionList": 1
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[1]": 1
+  },
+  "param_stats": {
+    "count": 1,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      110,
+      1
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "612132": {
+      "skill_id": 612132,
+      "use_count": 1,
+      "name_id": 0,
+      "name_best": "no data.",
+      "detail_id": 103499,
+      "detail_best": "BP1以上消費して「たたかう」時\n自身にBP回復量1アップと\n威力アップ100％(同系統の効果重複不可)と\n回避無視とダメージ無効無視の効果を付与",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        177838
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10703,
+      "param": 0,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 747,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612132,
+      "skill_index": -1,
+      "skill_avail_id": 177838,
+      "skill_condition_list_id": 747,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        110
+      ]
+    }
+  ]
+}

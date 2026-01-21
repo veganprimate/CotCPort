@@ -1,0 +1,230 @@
+{
+  "condition_id": 10801,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "SkillConditionList": 4
+  },
+  "uses_by_table": {
+    "SkillConditionList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 2,
+    "SkillConditionList[1]": 2
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 0,
+    "max": 2,
+    "mean": 0.75,
+    "median": 0.5,
+    "p10": 0,
+    "p25": 0,
+    "p75": 1,
+    "p90": 2,
+    "top10": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10800,
+      2
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "608004": {
+      "skill_id": 608004,
+      "use_count": 2,
+      "name_id": 99284,
+      "name_best": "Brother in Arms",
+      "detail_id": 99315,
+      "detail_best": "Grant self Demonic Warrior if you have either Tenretsu or Sougetsu.\nGrant self Divine Warrior if you have both Tenretsu and Sougetsu.<sidenote>\nDemonic Warrior: Raise Phys. Atk. by 30%.\nDivine Warrior: Activate a skill twice. (Effective upon granting/the follow-up attack will not consume SP.)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        72422,
+        72423
+      ]
+    },
+    "901210": {
+      "skill_id": 901210,
+      "use_count": 1,
+      "name_id": 152844,
+      "name_best": "The Ring's Grace",
+      "detail_id": 154006,
+      "detail_best": "Raise Phys. Atk/Elem. Atk. when the equipped character is paired with <chara_name>.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        74789
+      ]
+    },
+    "902021": {
+      "skill_id": 902021,
+      "use_count": 1,
+      "name_id": 153230,
+      "name_best": "The Ring's Grace",
+      "detail_id": 153370,
+      "detail_best": "Raise Phys. Atk/Elem. Atk. when the equipped character is paired with <chara_name>.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        74789
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10801,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 300,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 901210,
+      "skill_index": -1,
+      "skill_avail_id": 74789,
+      "skill_condition_list_id": 300,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10801,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 300,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 902021,
+      "skill_index": -1,
+      "skill_avail_id": 74789,
+      "skill_condition_list_id": 300,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10801,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 396,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 608004,
+      "skill_index": -1,
+      "skill_avail_id": 72422,
+      "skill_condition_list_id": 396,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10800
+      ]
+    },
+    {
+      "condition_id": 10801,
+      "param": 2,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 397,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 608004,
+      "skill_index": -1,
+      "skill_avail_id": 72423,
+      "skill_condition_list_id": 397,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10800
+      ]
+    }
+  ]
+}

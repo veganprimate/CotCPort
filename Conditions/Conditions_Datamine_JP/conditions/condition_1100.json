@@ -1,0 +1,152 @@
+{
+  "condition_id": 1100,
+  "total_uses": 2,
+  "uses_by_subsystem": {
+    "BattleEventList": 2
+  },
+  "uses_by_table": {
+    "BattleEventList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "BattleEventList[0]": 2
+  },
+  "param_stats": {
+    "count": 2,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {},
+  "enemy_groups": {
+    "110031": {
+      "enemy_group_id": 110031,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG04__B10031",
+      "formation": 170,
+      "bgm": 101185,
+      "event_indices": [
+        42,
+        43
+      ],
+      "enemy_ids": [
+        132193
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_04_01__B32193"
+      ],
+      "enemy_names_best": [
+        "味方単体に回避アップの効果を\n<skl_turn_count>付与する"
+      ]
+    },
+    "199265": {
+      "enemy_group_id": 199265,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG04__B10031",
+      "formation": 170,
+      "bgm": 101185,
+      "event_indices": [
+        42,
+        43
+      ],
+      "enemy_ids": [
+        132193
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_04_01__B32193"
+      ],
+      "enemy_names_best": [
+        "味方単体に回避アップの効果を\n<skl_turn_count>付与する"
+      ]
+    }
+  },
+  "uses_sample": [
+    {
+      "condition_id": 1100,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "BattleEventList",
+      "owner_table": "BattleEventList",
+      "owner_row_id": 43,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 110031,
+      "enemy_group_label": "GM_GiveAll_Chap8_Boss_ENG04__B10031",
+      "enemy_group_enemies": [
+        132193
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 1100,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "BattleEventList",
+      "owner_table": "BattleEventList",
+      "owner_row_id": 43,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199265,
+      "enemy_group_label": "GM_GiveAll_Chap8_Boss_ENG04__B10031",
+      "enemy_group_enemies": [
+        132193
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

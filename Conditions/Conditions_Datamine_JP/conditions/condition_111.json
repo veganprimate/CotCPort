@@ -1,0 +1,443 @@
+{
+  "condition_id": 111,
+  "total_uses": 9,
+  "uses_by_subsystem": {
+    "SkillConditionList": 9
+  },
+  "uses_by_table": {
+    "SkillConditionList": 9
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[1]": 6,
+    "SkillConditionList[0]": 3
+  },
+  "param_stats": {
+    "count": 9,
+    "min": 0,
+    "max": 5,
+    "mean": 1.6666666666666667,
+    "median": 1,
+    "p10": 0,
+    "p25": 0,
+    "p75": 3,
+    "p90": 4,
+    "top10": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      110,
+      5
+    ],
+    [
+      309,
+      1
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "611665": {
+      "skill_id": 611665,
+      "use_count": 5,
+      "name_id": 103082,
+      "name_best": "どこかの部品",
+      "detail_id": 0,
+      "detail_best": "no data.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        177076,
+        177077,
+        177078,
+        177079,
+        177080
+      ]
+    },
+    "612125": {
+      "skill_id": 612125,
+      "use_count": 1,
+      "name_id": 0,
+      "name_best": "no data.",
+      "detail_id": 103494,
+      "detail_best": "攻撃開始時の自身のBPが5以上で\nBPを消費していない時(未行動含む)\nバディにSP自動回復(回復量 最大SPの5％)と\nBP回復量1アップの効果を付与<battle_hide>\n\n有り余る力を譲渡する魔道具。\n病弱な少年が豪傑で知られる戦士より\n力の一端を譲り受け、命を長らえた。\nそれが、闘争の宿命をも引き継ぐと知らずに――",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        177828
+      ]
+    },
+    "612126": {
+      "skill_id": 612126,
+      "use_count": 1,
+      "name_id": 0,
+      "name_best": "no data.",
+      "detail_id": 103495,
+      "detail_best": "自身にBP消費せず「剣物理」で攻撃時、追撃する効果を付与\n(行動順での攻撃のみ/攻撃回数によらず1回のみ発動)\n※対象は選択しているターゲット\n追撃:敵単体に剣物理攻撃(威力 50)\n自身のBPが5以上の時\nさらに、剣耐性ダウン10％の効果を付与(2ターン)<battle_hide>\n\n迅剣と称された東国剣士の剣技について記した書。\n『剣の奥義とは即ち迅さ\n早く、疾く、速く、迅く』\nその剣士は早世したとされている",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        177829
+      ]
+    },
+    "612529": {
+      "skill_id": 612529,
+      "use_count": 1,
+      "name_id": 0,
+      "name_best": "no data.",
+      "detail_id": 103835,
+      "detail_best": "自身にBP消費せず「短剣物理」で攻撃時、追撃する効果を付与\n(行動順での攻撃のみ/攻撃回数によらず1回のみ発動)\n※対象は選択しているターゲット\n追撃:敵単体に短剣物理攻撃(威力 50)\n自身のBPが5以上の時\nさらに、短剣耐性ダウン10％の効果を付与(2ターン)<battle_hide>\n\n東国の伝説のシノビについて記した書。\n『陰刃の極意は気取られぬこと。\nその極致なれば死したことにも気づかせぬ』\nしかし、その字名はおおいに知れ渡っている",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178373
+      ]
+    },
+    "613396": {
+      "skill_id": 613396,
+      "use_count": 1,
+      "name_id": 0,
+      "name_best": "no data.",
+      "detail_id": 104823,
+      "detail_best": "自身にBP消費せず「扇物理」で攻撃時、追撃する効果を付与\n(行動順での攻撃のみ/攻撃回数によらず1回のみ発動)\n※対象は選択しているターゲット\n追撃:敵単体に扇物理攻撃(威力 50)\n自身のBPが5以上の時\nさらに、同じ攻撃を繰り返す(1回)<battle_hide>\n\n疾風の如き速さで放たれる扇による打撃は\n破裂するような音を発することから“裂扇”と称される。\n相手の出方を見極めるタイミングの重要さ、\nともすれば大げさなほど大きく振りかぶるフォーム、\nインパクト時の手首のスナップ、的確な後頭部への殴打。\n東国では“ツッコミ”とも呼ばれている",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        79819
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 111,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 680,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611665,
+      "skill_index": -1,
+      "skill_avail_id": 177076,
+      "skill_condition_list_id": 680,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        110
+      ]
+    },
+    {
+      "condition_id": 111,
+      "param": 2,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 681,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611665,
+      "skill_index": -1,
+      "skill_avail_id": 177077,
+      "skill_condition_list_id": 681,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        110
+      ]
+    },
+    {
+      "condition_id": 111,
+      "param": 3,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 682,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611665,
+      "skill_index": -1,
+      "skill_avail_id": 177078,
+      "skill_condition_list_id": 682,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        110
+      ]
+    },
+    {
+      "condition_id": 111,
+      "param": 4,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 683,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611665,
+      "skill_index": -1,
+      "skill_avail_id": 177079,
+      "skill_condition_list_id": 683,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        110
+      ]
+    },
+    {
+      "condition_id": 111,
+      "param": 5,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 684,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611665,
+      "skill_index": -1,
+      "skill_avail_id": 177080,
+      "skill_condition_list_id": 684,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        110
+      ]
+    },
+    {
+      "condition_id": 111,
+      "param": 0,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 745,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612125,
+      "skill_index": -1,
+      "skill_avail_id": 177828,
+      "skill_condition_list_id": 745,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        309
+      ]
+    },
+    {
+      "condition_id": 111,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 746,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612126,
+      "skill_index": -1,
+      "skill_avail_id": 177829,
+      "skill_condition_list_id": 746,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 111,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 746,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612529,
+      "skill_index": -1,
+      "skill_avail_id": 178373,
+      "skill_condition_list_id": 746,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 111,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 746,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 613396,
+      "skill_index": -1,
+      "skill_avail_id": 79819,
+      "skill_condition_list_id": 746,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

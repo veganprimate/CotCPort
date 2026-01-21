@@ -1,0 +1,143 @@
+{
+  "condition_id": 10899,
+  "total_uses": 2,
+  "uses_by_subsystem": {
+    "SkillConditionList": 2
+  },
+  "uses_by_table": {
+    "SkillConditionList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[1]": 2
+  },
+  "param_stats": {
+    "count": 2,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      110,
+      2
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "613046": {
+      "skill_id": 613046,
+      "use_count": 1,
+      "name_id": 104453,
+      "name_best": "Runic Blade",
+      "detail_id": 104470,
+      "detail_best": "At turn end on turns where you spent 1 BP or more,\ngrants the user the special effect “Runic Stance”\n(2 times/Max 4 times/Triggers even in the back row/Removed if unable to act)<sidenote>\nRunic Stance: Completely blocks elemental attacks targeting allies (some excluded)\nAlso, when blocking an attack, restores the user's BP by 2 and grants\nSP Stock (Amount: 30% of the user's max SP/Does not stack) and\nE.Atk Up 30% (3 turns)\n*Since this effect triggers before counters, evasion, negation, etc. already on allies,\n other “when attacked” effects will not trigger",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        79281
+      ]
+    },
+    "613065": {
+      "skill_id": 613065,
+      "use_count": 1,
+      "name_id": 104453,
+      "name_best": "Runic Blade",
+      "detail_id": 104471,
+      "detail_best": "At turn end on turns where you spent 1 BP or more,\ngrants the user the special effect “Runic Stance”\n(3 times/Max 4 times/Triggers even in the back row/Removed if unable to act)<sidenote>\nRunic Stance: Completely blocks elemental attacks targeting allies (some excluded)\nAlso, when blocking an attack, restores the user's BP by 3 and grants\nSP Stock (Amount: 30% of the user's max SP/Does not stack) and\nE.Atk Up 30% (3 turns)\nThen, inflicts the attacking foe with P.Atk & E.Atk Down 30% (3 turns)\n*Since this effect triggers before counters, evasion, negation, etc. already on allies,\n other “when attacked” effects will not trigger",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        79282
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10899,
+      "param": 0,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 922,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 613046,
+      "skill_index": -1,
+      "skill_avail_id": 79281,
+      "skill_condition_list_id": 922,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        110
+      ]
+    },
+    {
+      "condition_id": 10899,
+      "param": 0,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 922,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 613065,
+      "skill_index": -1,
+      "skill_avail_id": 79282,
+      "skill_condition_list_id": 922,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        110
+      ]
+    }
+  ]
+}

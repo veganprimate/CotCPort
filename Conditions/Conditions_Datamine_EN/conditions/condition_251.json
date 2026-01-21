@@ -1,0 +1,180 @@
+{
+  "condition_id": 251,
+  "total_uses": 3,
+  "uses_by_subsystem": {
+    "SkillConditionList": 3
+  },
+  "uses_by_table": {
+    "SkillConditionList": 3
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 3
+  },
+  "param_stats": {
+    "count": 3,
+    "min": 1,
+    "max": 1,
+    "mean": 1.0,
+    "median": 1,
+    "p10": 1,
+    "p25": 1,
+    "p75": 1,
+    "p90": 1,
+    "top10": [
+      [
+        1,
+        3
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "608794": {
+      "skill_id": 608794,
+      "use_count": 1,
+      "name_id": 100161,
+      "name_best": "Shana's Instant Remedy",
+      "detail_id": 100176,
+      "detail_best": "When in front row and with SP Stock: \nGrant Entire Front Row an effect that recovers HP equal to 10% of damage taken. \n(With exceptions/Does not stack with effects of the same type.)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        73379
+      ]
+    },
+    "608094": {
+      "skill_id": 608094,
+      "use_count": 1,
+      "name_id": 100184,
+      "name_best": "Shana Style SP Healing",
+      "detail_id": 100186,
+      "detail_best": "Grant Self automatic SP recovery (amount: <skl_ailment_value>% of Max SP). \nWith SP Stock: Recovery amount doubles.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        73396,
+        73397
+      ]
+    },
+    "613041": {
+      "skill_id": 613041,
+      "use_count": 1,
+      "name_id": 104449,
+      "name_best": "Rune Knight",
+      "detail_id": 104466,
+      "detail_best": "At the start of an attack, if the user has SP Stock:\ngrants the user the special effect “Artificial Magus” (<skl_turn_count>)<sidenote>\nArtificial Magus: Enables critical hits with elemental attacks",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        79275
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 251,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 387,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 608794,
+      "skill_index": -1,
+      "skill_avail_id": 73379,
+      "skill_condition_list_id": 387,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 251,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 387,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 608094,
+      "skill_index": -1,
+      "skill_avail_id": 73397,
+      "skill_condition_list_id": 387,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 251,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 387,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 613041,
+      "skill_index": -1,
+      "skill_avail_id": 79275,
+      "skill_condition_list_id": 387,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

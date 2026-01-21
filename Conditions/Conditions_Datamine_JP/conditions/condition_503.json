@@ -1,0 +1,223 @@
+{
+  "condition_id": 503,
+  "total_uses": 3,
+  "uses_by_subsystem": {
+    "TacticalActionList": 1,
+    "SkillConditionList": 2
+  },
+  "uses_by_table": {
+    "TacticalActionList": 1,
+    "SkillConditionList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalActionList[0]": 1,
+    "SkillConditionList[0]": 2
+  },
+  "param_stats": {
+    "count": 3,
+    "min": 2,
+    "max": 5,
+    "mean": 3.0,
+    "median": 2,
+    "p10": 2,
+    "p25": 2,
+    "p75": 5,
+    "p90": 5,
+    "top10": [
+      [
+        2,
+        2
+      ],
+      [
+        5,
+        1
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [
+    {
+      "enemy_id": 33313,
+      "use_count": 1,
+      "label": "QPS_Boss_CP7_Enemy_01_01",
+      "name_best": "つけまわす男",
+      "type_id": 23065,
+      "tactical_assign_id": 130656,
+      "skills_id": 52321
+    }
+  ],
+  "top_skills": {
+    "610274": {
+      "skill_id": 610274,
+      "use_count": 1,
+      "name_id": 101645,
+      "name_best": "背後刺し",
+      "detail_id": 0,
+      "detail_best": "no data.",
+      "enemies_that_can_use_skill_count": 1,
+      "enemies_that_can_use_skill_sample": [
+        33313
+      ],
+      "avails": [
+        175274
+      ]
+    },
+    "611625": {
+      "skill_id": 611625,
+      "use_count": 1,
+      "name_id": 103038,
+      "name_best": "氷渦の円舞",
+      "detail_id": 103039,
+      "detail_best": "<skl_target_type>に1回の<skl_attribute_name><skl_calc_type>攻撃(威力 <skl_avail_value>)\n扇・風弱点を突ける(ダメージ計算は氷属性)\nBP3以上消費時:自身を除く味方前後衛全体のBPをそれぞれ1消耗し\n消耗した人数分、同じ攻撃を繰り返す(最大7回)\nBP5消費時:さらに\n自身を除く味方前後衛全体のBPをそれぞれ1消耗し\n消耗した人数分、同じ攻撃を繰り返す(最大7回)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        77005,
+        77004,
+        77006,
+        77007,
+        77008,
+        77009,
+        77010,
+        77011,
+        77012
+      ]
+    },
+    "611626": {
+      "skill_id": 611626,
+      "use_count": 1,
+      "name_id": 103038,
+      "name_best": "氷渦の円舞",
+      "detail_id": 103039,
+      "detail_best": "<skl_target_type>に1回の<skl_attribute_name><skl_calc_type>攻撃(威力 <skl_avail_value>)\n扇・風弱点を突ける(ダメージ計算は氷属性)\nBP3以上消費時:自身を除く味方前後衛全体のBPをそれぞれ1消耗し\n消耗した人数分、同じ攻撃を繰り返す(最大7回)\nBP5消費時:さらに\n自身を除く味方前後衛全体のBPをそれぞれ1消耗し\n消耗した人数分、同じ攻撃を繰り返す(最大7回)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        77005,
+        77004,
+        77006,
+        77007,
+        77008,
+        77009,
+        77010,
+        77011,
+        77012,
+        178060,
+        77005,
+        77006,
+        77007,
+        77008,
+        77009,
+        77010,
+        77011,
+        77012
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 503,
+      "param": 5,
+      "slot": 0,
+      "subsystem": "TacticalActionList",
+      "owner_table": "TacticalActionList",
+      "owner_row_id": 152926,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 24218,
+      "tactical_action_id": 152926,
+      "enemy_id": 33313,
+      "enemy_label": "QPS_Boss_CP7_Enemy_01_01",
+      "enemy_name_best": "つけまわす男",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 610274,
+      "skill_index": 3,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": 3,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -1,
+      "priority_skill": -1,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 503,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 800,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611625,
+      "skill_index": -1,
+      "skill_avail_id": 77005,
+      "skill_condition_list_id": 800,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 503,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 800,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611626,
+      "skill_index": -1,
+      "skill_avail_id": 77005,
+      "skill_condition_list_id": 800,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

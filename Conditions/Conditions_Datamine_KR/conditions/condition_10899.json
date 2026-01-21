@@ -1,0 +1,143 @@
+{
+  "condition_id": 10899,
+  "total_uses": 2,
+  "uses_by_subsystem": {
+    "SkillConditionList": 2
+  },
+  "uses_by_table": {
+    "SkillConditionList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[1]": 2
+  },
+  "param_stats": {
+    "count": 2,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      110,
+      2
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "613046": {
+      "skill_id": 613046,
+      "use_count": 1,
+      "name_id": 104453,
+      "name_best": "마봉검",
+      "detail_id": 104470,
+      "detail_best": "BP 1 이상 소비한 턴 종료 시\n자신에게 특수효과 “마봉검의 자세”를 부여\n(2회/최대 4회/후위에서도 발동/행동 불능 시 해제)<sidenote>\n마봉검의 자세: 아군에게 가해지는 속성 공격(일부 제외)을 완전히 막는 효과\n추가로 막았을 때, 자신의 BP를 2 회복하고\nSP 스톡(효과량: 사용자의 최대 SP의 30%/중복 불가)과\n속공 증가 30% 효과(3턴)를 부여\n※아군에게 부여되어 있는 반격, 회피, 무효화 등보다 먼저 효과를 발휘하기 때문에\n 다른 “공격을 받았을 때”의 효과는 발휘되지 않는다",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        79281
+      ]
+    },
+    "613065": {
+      "skill_id": 613065,
+      "use_count": 1,
+      "name_id": 104453,
+      "name_best": "마봉검",
+      "detail_id": 104471,
+      "detail_best": "BP 1 이상 소비한 턴 종료 시\n자신에게 특수효과 “마봉검의 자세”를 부여\n(3회/최대 4회/후위에서도 발동/행동 불능 시 해제)<sidenote>\n마봉검의 자세: 아군에게 가해지는 속성 공격(일부 제외)을 완전히 막는 효과\n추가로 막았을 때, 자신의 BP를 3 회복하고\nSP 스톡(효과량: 사용자의 최대 SP의 30%/중복 불가)과\n속공 증가 30% 효과(3턴)를 부여\n그 후, 공격해 온 적에게 물공·속공 감소 30% 효과를 부여(3턴)\n※아군에게 부여되어 있는 반격, 회피, 무효화 등보다 먼저 효과를 발휘하기 때문에\n 다른 “공격을 받았을 때”의 효과는 발휘되지 않는다",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        79282
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10899,
+      "param": 0,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 922,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 613046,
+      "skill_index": -1,
+      "skill_avail_id": 79281,
+      "skill_condition_list_id": 922,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        110
+      ]
+    },
+    {
+      "condition_id": 10899,
+      "param": 0,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 922,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 613065,
+      "skill_index": -1,
+      "skill_avail_id": 79282,
+      "skill_condition_list_id": 922,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        110
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "condition_id": 10839,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "SkillConditionList": 4
+  },
+  "uses_by_table": {
+    "SkillConditionList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[3]": 4
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 2,
+    "max": 5,
+    "mean": 3.5,
+    "median": 3.5,
+    "p10": 2,
+    "p25": 3,
+    "p75": 4,
+    "p90": 5,
+    "top10": [
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        1
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [
+      [
+        776,
+        4
+      ]
+    ],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      600,
+      4
+    ],
+    [
+      640,
+      4
+    ],
+    [
+      10838,
+      4
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "51355": {
+      "skill_id": 51355,
+      "use_count": 4,
+      "name_id": 81814,
+      "name_best": "At the End of Ages",
+      "detail_id": 85736,
+      "detail_best": "At turn end, while in Ryuten Form and the user has 10 or more status icons:\nrestores 1 BP to the user\nAt turn end, while in Sublimation Form and Divine Blade: Starfrost is not granted:\nextends the user's special effect “Sublimation Form” (1 turn) and\ngrants the special effect “Divine Blade: Starfrost”\n(for the same duration as the currently applied “Sublimation Form”)<sidenote>\nDivine Blade: Starfrost: Sublimation Form’s Potency Up becomes 100%",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        8718,
+        178115,
+        178150,
+        178156,
+        178157,
+        178158
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10839,
+      "param": 2,
+      "slot": 3,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 787,
+      "ailment_type": 776,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 51355,
+      "skill_index": -1,
+      "skill_avail_id": 178150,
+      "skill_condition_list_id": 787,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600,
+        640,
+        10838
+      ]
+    },
+    {
+      "condition_id": 10839,
+      "param": 3,
+      "slot": 3,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 788,
+      "ailment_type": 776,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 51355,
+      "skill_index": -1,
+      "skill_avail_id": 178156,
+      "skill_condition_list_id": 788,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600,
+        640,
+        10838
+      ]
+    },
+    {
+      "condition_id": 10839,
+      "param": 4,
+      "slot": 3,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 789,
+      "ailment_type": 776,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 51355,
+      "skill_index": -1,
+      "skill_avail_id": 178157,
+      "skill_condition_list_id": 789,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600,
+        640,
+        10838
+      ]
+    },
+    {
+      "condition_id": 10839,
+      "param": 5,
+      "slot": 3,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 790,
+      "ailment_type": 776,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 51355,
+      "skill_index": -1,
+      "skill_avail_id": 178158,
+      "skill_condition_list_id": 790,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600,
+        640,
+        10838
+      ]
+    }
+  ]
+}

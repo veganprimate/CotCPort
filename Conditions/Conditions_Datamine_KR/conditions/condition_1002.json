@@ -1,0 +1,180 @@
+{
+  "condition_id": 1002,
+  "total_uses": 3,
+  "uses_by_subsystem": {
+    "TacticalList": 3
+  },
+  "uses_by_table": {
+    "TacticalList": 3
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[2]": 1,
+    "TacticalList[0]": 2
+  },
+  "param_stats": {
+    "count": 3,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      1,
+      1
+    ],
+    [
+      10301,
+      1
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 32987,
+      "use_count": 1,
+      "label": "QPS_AB01_01_Enemy_02",
+      "name_best": "하장의 제자",
+      "type_id": 22850,
+      "tactical_assign_id": 130539,
+      "skills_id": 52057
+    },
+    {
+      "enemy_id": 33227,
+      "use_count": 1,
+      "label": "Seeds_Boss_14_01_Enemy_01",
+      "name_best": "신수 루티야",
+      "type_id": 23035,
+      "tactical_assign_id": 130654,
+      "skills_id": 52319
+    },
+    {
+      "enemy_id": 33349,
+      "use_count": 1,
+      "label": "Rematch_Seeds_Boss_14_01_Enemy_01",
+      "name_best": "신수 루티야",
+      "type_id": 23035,
+      "tactical_assign_id": 130654,
+      "skills_id": 52319
+    }
+  ],
+  "top_skills": {},
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 1002,
+      "param": 0,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23535,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23535,
+      "tactical_action_id": 0,
+      "enemy_id": 32987,
+      "enemy_label": "QPS_AB01_01_Enemy_02",
+      "enemy_name_best": "하장의 제자",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        10301
+      ]
+    },
+    {
+      "condition_id": 1002,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 124204,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 124204,
+      "tactical_action_id": 0,
+      "enemy_id": 33227,
+      "enemy_label": "Seeds_Boss_14_01_Enemy_01",
+      "enemy_name_best": "신수 루티야",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 1002,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 124204,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 124204,
+      "tactical_action_id": 0,
+      "enemy_id": 33349,
+      "enemy_label": "Rematch_Seeds_Boss_14_01_Enemy_01",
+      "enemy_name_best": "신수 루티야",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

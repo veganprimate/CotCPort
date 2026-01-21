@@ -1,0 +1,232 @@
+{
+  "condition_id": 10719,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "SkillConditionList": 4
+  },
+  "uses_by_table": {
+    "SkillConditionList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 4
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 5,
+    "max": 16,
+    "mean": 8.5,
+    "median": 6.5,
+    "p10": 5,
+    "p25": 5,
+    "p75": 8,
+    "p90": 16,
+    "top10": [
+      [
+        5,
+        2
+      ],
+      [
+        16,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "52059": {
+      "skill_id": 52059,
+      "use_count": 1,
+      "name_id": 96432,
+      "name_best": "Amber Flurry",
+      "detail_id": 96477,
+      "detail_best": "Deal <skl_calc_type> <skl_attribute_name> damage to <skl_target_type> (potency: <skl_avail_value>) and raise potency with every 2 Magic points (max additional 80%).",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        9943
+      ]
+    },
+    "52065": {
+      "skill_id": 52065,
+      "use_count": 1,
+      "name_id": 96432,
+      "name_best": "Amber Flurry",
+      "detail_id": 96477,
+      "detail_best": "Deal <skl_calc_type> <skl_attribute_name> damage to <skl_target_type> (potency: <skl_avail_value>) and raise potency with every 2 Magic points (max additional 80%).",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        9943
+      ]
+    },
+    "606158": {
+      "skill_id": 606158,
+      "use_count": 1,
+      "name_id": 97280,
+      "name_best": "Evening Calm Suppression",
+      "detail_id": 97758,
+      "detail_best": "When an enemy with 16+ statuses is present, activate skill twice (the follow-up attack will not consume SP).",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        73122
+      ]
+    },
+    "606382": {
+      "skill_id": 606382,
+      "use_count": 1,
+      "name_id": 97504,
+      "name_best": "Monophobia",
+      "detail_id": 97982,
+      "detail_best": "When an enemy with 16+ statuses is present, lower Sword, Fire, and Dark Res. of All Foes by <skl_ailment_value>%.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        174295
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10719,
+      "param": 5,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 50,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 52059,
+      "skill_index": -1,
+      "skill_avail_id": 9943,
+      "skill_condition_list_id": 50,
+      "condition_ref_field": "m_SkillAvailMagnificationConditionArray|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10719,
+      "param": 5,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 50,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 52065,
+      "skill_index": -1,
+      "skill_avail_id": 9943,
+      "skill_condition_list_id": 50,
+      "condition_ref_field": "m_SkillAvailMagnificationConditionArray|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10719,
+      "param": 16,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 383,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 606158,
+      "skill_index": -1,
+      "skill_avail_id": 73122,
+      "skill_condition_list_id": 383,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10719,
+      "param": 8,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 459,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 606382,
+      "skill_index": -1,
+      "skill_avail_id": 174295,
+      "skill_condition_list_id": 459,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

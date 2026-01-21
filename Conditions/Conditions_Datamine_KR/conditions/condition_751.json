@@ -1,0 +1,324 @@
+{
+  "condition_id": 751,
+  "total_uses": 6,
+  "uses_by_subsystem": {
+    "TacticalList": 4,
+    "SkillConditionList": 2
+  },
+  "uses_by_table": {
+    "TacticalList": 4,
+    "SkillConditionList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[3]": 4,
+    "SkillConditionList[0]": 2
+  },
+  "param_stats": {
+    "count": 6,
+    "min": 7,
+    "max": 12,
+    "mean": 8.666666666666666,
+    "median": 7.0,
+    "p10": 7,
+    "p25": 7,
+    "p75": 12,
+    "p90": 12,
+    "top10": [
+      [
+        7,
+        4
+      ],
+      [
+        12,
+        2
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10302,
+      4
+    ],
+    [
+      10712,
+      4
+    ],
+    [
+      10810,
+      4
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 33375,
+      "use_count": 4,
+      "label": "Enemy_JobTowerSch_f0005_r002EX_001",
+      "name_best": "시련의 대학자",
+      "type_id": 23124,
+      "tactical_assign_id": 130660,
+      "skills_id": 52361
+    }
+  ],
+  "top_skills": {
+    "612955": {
+      "skill_id": 612955,
+      "use_count": 1,
+      "name_id": 104332,
+      "name_best": "스케치: 드래곤",
+      "detail_id": 104352,
+      "detail_best": "<skl_target_type>에게 <skl_attribute_name><skl_calc_type> 공격(위력 <skl_avail_value>)\n자신의 남은 HP가 낮을수록 위력 증가\n최대 2배(HP 10% 이하 시)\n추가로, 자신의 “페인트” 종류 수에 따라 효과를 추가\n1 이상: 이 어빌리티의 데미지 상한이 50000 증가\n3 이상: 이 어빌리티의 데미지 상한이 200000 증가\n6 이상: 이 어빌리티의 데미지 상한이 400000 증가\n※증가량이 높은 쪽만 적용된다",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        79166,
+        79167,
+        79168,
+        79169
+      ]
+    },
+    "612962": {
+      "skill_id": 612962,
+      "use_count": 1,
+      "name_id": 104332,
+      "name_best": "스케치: 드래곤",
+      "detail_id": 104352,
+      "detail_best": "<skl_target_type>에게 <skl_attribute_name><skl_calc_type> 공격(위력 <skl_avail_value>)\n자신의 남은 HP가 낮을수록 위력 증가\n최대 2배(HP 10% 이하 시)\n추가로, 자신의 “페인트” 종류 수에 따라 효과를 추가\n1 이상: 이 어빌리티의 데미지 상한이 50000 증가\n3 이상: 이 어빌리티의 데미지 상한이 200000 증가\n6 이상: 이 어빌리티의 데미지 상한이 400000 증가\n※증가량이 높은 쪽만 적용된다",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        79166,
+        79167,
+        79168,
+        79169
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 751,
+      "param": 7,
+      "slot": 3,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 124288,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 124288,
+      "tactical_action_id": 0,
+      "enemy_id": 33375,
+      "enemy_label": "Enemy_JobTowerSch_f0005_r002EX_001",
+      "enemy_name_best": "시련의 대학자",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        10302,
+        10712,
+        10810
+      ]
+    },
+    {
+      "condition_id": 751,
+      "param": 7,
+      "slot": 3,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 124259,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 124259,
+      "tactical_action_id": 0,
+      "enemy_id": 33375,
+      "enemy_label": "Enemy_JobTowerSch_f0005_r002EX_001",
+      "enemy_name_best": "시련의 대학자",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        10302,
+        10712,
+        10810
+      ]
+    },
+    {
+      "condition_id": 751,
+      "param": 7,
+      "slot": 3,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 124260,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 124260,
+      "tactical_action_id": 0,
+      "enemy_id": 33375,
+      "enemy_label": "Enemy_JobTowerSch_f0005_r002EX_001",
+      "enemy_name_best": "시련의 대학자",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10302,
+        10712,
+        10810
+      ]
+    },
+    {
+      "condition_id": 751,
+      "param": 7,
+      "slot": 3,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 124261,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 124261,
+      "tactical_action_id": 0,
+      "enemy_id": 33375,
+      "enemy_label": "Enemy_JobTowerSch_f0005_r002EX_001",
+      "enemy_name_best": "시련의 대학자",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10302,
+        10712,
+        10810
+      ]
+    },
+    {
+      "condition_id": 751,
+      "param": 12,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 980,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612955,
+      "skill_index": -1,
+      "skill_avail_id": 79166,
+      "skill_condition_list_id": 980,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 751,
+      "param": 12,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 980,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612962,
+      "skill_index": -1,
+      "skill_avail_id": 79166,
+      "skill_condition_list_id": 980,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

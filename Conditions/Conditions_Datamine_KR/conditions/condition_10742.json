@@ -1,0 +1,273 @@
+{
+  "condition_id": 10742,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "SkillConditionList": 4
+  },
+  "uses_by_table": {
+    "SkillConditionList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 4
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 9,
+    "max": 9,
+    "mean": 9.0,
+    "median": 9.0,
+    "p10": 9,
+    "p25": 9,
+    "p75": 9,
+    "p90": 9,
+    "top10": [
+      [
+        9,
+        4
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      404,
+      4
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "612597": {
+      "skill_id": 612597,
+      "use_count": 1,
+      "name_id": 103918,
+      "name_best": "찰나 월영(대 무)",
+      "detail_id": 0,
+      "detail_best": "no data.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178333,
+        178334,
+        178335,
+        70930,
+        70931,
+        70932,
+        70933,
+        70934,
+        178352,
+        78668
+      ]
+    },
+    "612598": {
+      "skill_id": 612598,
+      "use_count": 1,
+      "name_id": 103919,
+      "name_best": "찰나 월영(대 주)",
+      "detail_id": 0,
+      "detail_best": "no data.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178333,
+        178334,
+        178335,
+        70930,
+        70931,
+        70932,
+        70933,
+        70934,
+        178353,
+        78667
+      ]
+    },
+    "612599": {
+      "skill_id": 612599,
+      "use_count": 1,
+      "name_id": 103914,
+      "name_best": "유천의 간파(대 무)",
+      "detail_id": 0,
+      "detail_best": "no data.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178333,
+        178334,
+        178335,
+        70930,
+        70931,
+        70932,
+        70933,
+        70934,
+        178336,
+        78666
+      ]
+    },
+    "612600": {
+      "skill_id": 612600,
+      "use_count": 1,
+      "name_id": 103915,
+      "name_best": "유천의 간파(대 주)",
+      "detail_id": 0,
+      "detail_best": "no data.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178333,
+        178334,
+        178335,
+        70930,
+        70931,
+        70932,
+        70933,
+        70934,
+        178337,
+        78665
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10742,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 818,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612597,
+      "skill_index": -1,
+      "skill_avail_id": 178334,
+      "skill_condition_list_id": 818,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        404
+      ]
+    },
+    {
+      "condition_id": 10742,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 818,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612598,
+      "skill_index": -1,
+      "skill_avail_id": 178334,
+      "skill_condition_list_id": 818,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        404
+      ]
+    },
+    {
+      "condition_id": 10742,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 818,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612599,
+      "skill_index": -1,
+      "skill_avail_id": 178334,
+      "skill_condition_list_id": 818,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        404
+      ]
+    },
+    {
+      "condition_id": 10742,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 818,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612600,
+      "skill_index": -1,
+      "skill_avail_id": 178334,
+      "skill_condition_list_id": 818,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        404
+      ]
+    }
+  ]
+}

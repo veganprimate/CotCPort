@@ -1,0 +1,134 @@
+{
+  "condition_id": 10854,
+  "total_uses": 2,
+  "uses_by_subsystem": {
+    "SkillConditionList": 2
+  },
+  "uses_by_table": {
+    "SkillConditionList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 2
+  },
+  "param_stats": {
+    "count": 2,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "611391": {
+      "skill_id": 611391,
+      "use_count": 1,
+      "name_id": 102791,
+      "name_best": "底力:凶乱",
+      "detail_id": 102807,
+      "detail_best": "(準備Turn:3/再使用Turn:6)\nコマンド選択時、自身に特殊効果“凶乱”を付与(2ターン)<sidenote>\n凶乱:自身のコマンド選択が不能(交代は可能)になり\nアビリティ枠1をブーストMAXで2回実行(SP・BP消費無し)\n※アビリティ枠1が「設定なし」の場合は使用できない\n※アビリティが使用できなくなる効果の影響を受けない",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        176734
+      ]
+    },
+    "611409": {
+      "skill_id": 611409,
+      "use_count": 1,
+      "name_id": 102791,
+      "name_best": "底力:凶乱",
+      "detail_id": 102808,
+      "detail_best": "(準備Turn:3/再使用Turn:6)\nコマンド選択時、自身に特殊効果“凶乱”を付与(3ターン)<sidenote>\n凶乱:自身のコマンド選択が不能(交代は可能)になり\nアビリティ枠1をブーストMAXで2回実行(SP・BP消費無し)\n※アビリティ枠1が「設定なし」の場合は使用できない\n※アビリティが使用できなくなる効果の影響を受けない",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        176771
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10854,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 669,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611391,
+      "skill_index": -1,
+      "skill_avail_id": 176734,
+      "skill_condition_list_id": 669,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10854,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 669,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611409,
+      "skill_index": -1,
+      "skill_avail_id": 176771,
+      "skill_condition_list_id": 669,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

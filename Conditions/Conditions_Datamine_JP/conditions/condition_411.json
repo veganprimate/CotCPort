@@ -1,0 +1,415 @@
+{
+  "condition_id": 411,
+  "total_uses": 8,
+  "uses_by_subsystem": {
+    "BattleEventList": 8
+  },
+  "uses_by_table": {
+    "BattleEventList": 8
+  },
+  "uses_by_subsystem_slot": {
+    "BattleEventList[2]": 6,
+    "BattleEventList[1]": 2
+  },
+  "param_stats": {
+    "count": 8,
+    "min": 1,
+    "max": 1,
+    "mean": 1.0,
+    "median": 1.0,
+    "p10": 1,
+    "p25": 1,
+    "p75": 1,
+    "p90": 1,
+    "top10": [
+      [
+        1,
+        8
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [
+      [
+        8,
+        8
+      ]
+    ],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      13,
+      8
+    ],
+    [
+      14,
+      6
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {},
+  "enemy_groups": {
+    "10026": {
+      "enemy_group_id": 10026,
+      "use_count": 4,
+      "label": "GM_GiveAll_Chap6_Boss_ENG03",
+      "formation": 161,
+      "bgm": 108,
+      "event_indices": [
+        129,
+        32,
+        130,
+        131,
+        33,
+        132
+      ],
+      "enemy_ids": [
+        5133,
+        5134
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp6_03_01",
+        "AGM_Boss_Chp6_03_02"
+      ],
+      "enemy_names_best": [
+        "サザントス",
+        "黒の巫女シグナ"
+      ]
+    },
+    "199408": {
+      "enemy_group_id": 199408,
+      "use_count": 4,
+      "label": "GM_GiveAll_Chap6_Boss_ENG03__Arena",
+      "formation": 161,
+      "bgm": 108,
+      "event_indices": [
+        129,
+        32,
+        130,
+        131,
+        33,
+        132
+      ],
+      "enemy_ids": [
+        5133,
+        5134
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp6_03_01",
+        "AGM_Boss_Chp6_03_02"
+      ],
+      "enemy_names_best": [
+        "サザントス",
+        "黒の巫女シグナ"
+      ]
+    }
+  },
+  "uses_sample": [
+    {
+      "condition_id": 411,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "BattleEventList",
+      "owner_table": "BattleEventList",
+      "owner_row_id": 129,
+      "ailment_type": 0,
+      "status_type": 8,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 10026,
+      "enemy_group_label": "GM_GiveAll_Chap6_Boss_ENG03",
+      "enemy_group_enemies": [
+        5133,
+        5134
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        13,
+        14
+      ]
+    },
+    {
+      "condition_id": 411,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "BattleEventList",
+      "owner_table": "BattleEventList",
+      "owner_row_id": 130,
+      "ailment_type": 0,
+      "status_type": 8,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 10026,
+      "enemy_group_label": "GM_GiveAll_Chap6_Boss_ENG03",
+      "enemy_group_enemies": [
+        5133,
+        5134
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        13,
+        14
+      ]
+    },
+    {
+      "condition_id": 411,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "BattleEventList",
+      "owner_table": "BattleEventList",
+      "owner_row_id": 131,
+      "ailment_type": 0,
+      "status_type": 8,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 10026,
+      "enemy_group_label": "GM_GiveAll_Chap6_Boss_ENG03",
+      "enemy_group_enemies": [
+        5133,
+        5134
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        13,
+        14
+      ]
+    },
+    {
+      "condition_id": 411,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "BattleEventList",
+      "owner_table": "BattleEventList",
+      "owner_row_id": 132,
+      "ailment_type": 0,
+      "status_type": 8,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 10026,
+      "enemy_group_label": "GM_GiveAll_Chap6_Boss_ENG03",
+      "enemy_group_enemies": [
+        5133,
+        5134
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        13
+      ]
+    },
+    {
+      "condition_id": 411,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "BattleEventList",
+      "owner_table": "BattleEventList",
+      "owner_row_id": 129,
+      "ailment_type": 0,
+      "status_type": 8,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199408,
+      "enemy_group_label": "GM_GiveAll_Chap6_Boss_ENG03__Arena",
+      "enemy_group_enemies": [
+        5133,
+        5134
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        13,
+        14
+      ]
+    },
+    {
+      "condition_id": 411,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "BattleEventList",
+      "owner_table": "BattleEventList",
+      "owner_row_id": 130,
+      "ailment_type": 0,
+      "status_type": 8,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199408,
+      "enemy_group_label": "GM_GiveAll_Chap6_Boss_ENG03__Arena",
+      "enemy_group_enemies": [
+        5133,
+        5134
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        13,
+        14
+      ]
+    },
+    {
+      "condition_id": 411,
+      "param": 1,
+      "slot": 2,
+      "subsystem": "BattleEventList",
+      "owner_table": "BattleEventList",
+      "owner_row_id": 131,
+      "ailment_type": 0,
+      "status_type": 8,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199408,
+      "enemy_group_label": "GM_GiveAll_Chap6_Boss_ENG03__Arena",
+      "enemy_group_enemies": [
+        5133,
+        5134
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        13,
+        14
+      ]
+    },
+    {
+      "condition_id": 411,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "BattleEventList",
+      "owner_table": "BattleEventList",
+      "owner_row_id": 132,
+      "ailment_type": 0,
+      "status_type": 8,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199408,
+      "enemy_group_label": "GM_GiveAll_Chap6_Boss_ENG03__Arena",
+      "enemy_group_enemies": [
+        5133,
+        5134
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        13
+      ]
+    }
+  ]
+}
