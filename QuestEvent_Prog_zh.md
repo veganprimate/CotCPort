@@ -1,5 +1,5 @@
 ### **LANGUAGE:**  [English](QuestEvent_Prog_en.md) | [日本語](QuestEvent_Prog_jp.md) | [中文](QuestEvent_Prog_zh.md) | [한국어](QuestEvent_Prog_kr.md)
-<img width="1920" height="1080" alt="pic-window-260119-1350-16" src="https://github.com/user-attachments/assets/9370d2ef-1087-4475-b040-7f1f2ac82368" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/226d0592-5823-490b-a37a-5684fdc9176b" />
 
 从这张很“凌乱”的图里也能看出来：把《歧路旅人：大陆的霸者》（下称“大陆的霸者”）的**任务（Quest）**移植过来，确实是可行的。真正的难点在于移植**事件（Event）**——事件负责过场动画、Boss 战的触发、战斗中的对话、地牢里的开关交互等等。没有事件，任务就只剩下任务标记和奖励，几乎等同于空壳。
 
@@ -29,7 +29,7 @@ https://github.com/UE4SS-RE/RE-UE4SS/tree/main/cppmods/KismetDebuggerMod
 我们必须找出的正是这个“后续”函数。一旦 hook 到该函数，我们就能安全地替换完整路径（或对象引用），从而真正支持自定义资产。
 
 如下图所示，直接从《大陆的霸者》移植过来的事件基本都能正常播放，因此当前真正的核心问题是如何支持**自定义的事件资产**。
-<img width="869" height="479" alt="image" src="https://github.com/user-attachments/assets/a7cbaf77-d0c2-44f2-81ec-d9a54d865f87" />
+<img width="869" height="479" alt="image" src="https://github.com/user-attachments/assets/3f78d13d-5a4d-4038-b414-37046a22bce5" />
 
 
 
