@@ -1,5 +1,5 @@
 ### **LANGUAGE:**  [English](QuestEvent_Prog_en.md) | [日本語](QuestEvent_Prog_jp.md) | [中文](QuestEvent_Prog_zh.md) | [한국어](QuestEvent_Prog_kr.md)
-<img width="1920" height="1080" alt="pic-window-260119-1350-16" src="https://github.com/user-attachments/assets/9370d2ef-1087-4475-b040-7f1f2ac82368" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/226d0592-5823-490b-a37a-5684fdc9176b" />
 
 この雑然とした画像からも分かる通り、『オクトパストラベラー 大陸の覇者』（以下「大陸覇者」）からクエストを移植すること自体は確実に可能です。問題はイベントの移植にあります。イベントは、カットシーン、ボス戦の開始、戦闘中の会話、ダンジョン内のスイッチなど、さらに多岐にわたる要素を担っています。イベントがなければ、クエストはクエストマーカーと報酬があるだけの「入れ物」に過ぎません。
 
@@ -29,7 +29,7 @@
 この「後段」の関数こそが探し当てるべき対象です。その関数をフックできれば、フルパス（もしくはオブジェクト参照）を安全に差し替えることができ、真にカスタムアセットをサポートできるようになります。
 
 下の画像が示す通り、大陸覇者から直接移植したイベントは概ね問題なく再生できるはずなので、ここでの主問題は「カスタムのイベントアセットをサポートすること」にあります。
-<img width="869" height="479" alt="image" src="https://github.com/user-attachments/assets/a7cbaf77-d0c2-44f2-81ec-d9a54d865f87" />
+<img width="869" height="479" alt="image" src="https://github.com/user-attachments/assets/3f78d13d-5a4d-4038-b414-37046a22bce5" />
 
 
 
