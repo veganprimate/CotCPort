@@ -151,7 +151,7 @@ Chronicles all enemy groups. An entry has to be added here for your battle to tr
 - `m_Camera`: Specifies the camera set to use (input: `BattleCameraSet.m_id`)
 - `m_Formation`: Specifies the formation of the enemy group (input: `EnemyFormations.m_id`)
 - `m_EnemyID`: Specifies the enemies on the field (inputs: `EnemyID.m_id`). Game does not immediately crash if you extend this array to more than 6 enemies but the new enemies will not show up on the timeline, lack a weakness/shield/status overlay, and the game will crash after they get a turn (error is related to corrupted allocator metadata/a corrupted pointer). Can maybe be bypassed via reinforcement calls.
-<img width="829" height="459" alt="image" src="https://github.com/user-attachments/assets/433a1c36-e857-4b4c-aaae-07399ddac40b" />
+<img width="729" height="403" alt="image" src="https://github.com/user-attachments/assets/4e563205-ffca-479a-9321-33dceb3f650f" />
 
 - `m_EventIndices`: (Battle) Events played at the beginning or during the fight (in-battle dialogue, etc.), possible values are likely `BattleEventList.m_id` and not `EventList.m_id`.
 - `m_AbortCondition`: Condition for aborting the battle. Viable IDs can likely be found under `BattleAbortConditions`.
