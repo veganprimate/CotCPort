@@ -1,5 +1,5 @@
 ### **LANGUAGE:**  [English](QuestEvent_Prog_en.md) | [日本語](QuestEvent_Prog_jp.md) | [中文](QuestEvent_Prog_zh.md) | [한국어](QuestEvent_Prog_kr.md)
-<img width="1920" height="1080" alt="pic-window-260119-1350-16" src="https://github.com/user-attachments/assets/9370d2ef-1087-4475-b040-7f1f2ac82368" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/226d0592-5823-490b-a37a-5684fdc9176b" />
 
 이 다소 어수선한 스크린샷에서 보이듯, 『옥토패스 트래블러: 대륙의 패자』(이하 “대륙의 패자”)의 **퀘스트**를 이식하는 것 자체는 분명 가능합니다. 문제는 **이벤트**의 이식에 있습니다. 이벤트는 컷신, 보스전 개시 트리거, 전투 중 대사, 던전 내 스위치 등 훨씬 더 많은 요소를 담당합니다. 이벤트가 없다면 퀘스트는 퀘스트 마커와 보상만 남는 셈입니다.
 
@@ -29,7 +29,7 @@ https://github.com/UE4SS-RE/RE-UE4SS/tree/main/cppmods/KismetDebuggerMod
 우리가 찾아야 하는 것은 바로 이 “이후” 단계의 함수입니다. 그 함수를 훅(hook)하면 전체 경로(또는 오브젝트 레퍼런스)를 안전하게 교체할 수 있고, 진정한 의미에서 커스텀 에셋을 지원할 수 있습니다.
 
 아래 이미지에서 보이듯, 대륙의 패자에서 직접 이식한 이벤트는 대부분 정상적으로 재생될 것으로 보입니다. 따라서 여기서의 핵심 문제는 커스텀 이벤트 에셋을 지원하는 것입니다.
-<img width="869" height="479" alt="image" src="https://github.com/user-attachments/assets/a7cbaf77-d0c2-44f2-81ec-d9a54d865f87" />
+<img width="869" height="479" alt="image" src="https://github.com/user-attachments/assets/3f78d13d-5a4d-4038-b414-37046a22bce5" />
 
 
 
