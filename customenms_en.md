@@ -493,9 +493,7 @@ OT0's enemy AI "rule clause" table: each entry defines a set of conditions that,
    - `m_StatusTypes` (possibly takes `CharaStatusID.m_id` as input)
    - `m_WeaponTypes` (takes `WeaponType.m_id` as input)
    - `m_MagicTypes` (takes `Magictype.m_id` as input)
-The meaning of each condition has yet to be rigorously worked out, some resources that may help with that:
-  - File tracking the parameter distribution of each condition
-  - File tracking what conditions are associated with what enemy skill (via `TacticalActionList`)
+The meaning of each condition has yet to be rigorously worked out, this resource may help you out with that: https://github.com/veganprimate/CotCPort/tree/main/Conditions/Conditions_Datamine_EN
 Misc.:
 - 28 is the only OT0-exclusive condition
 - Condition type IDs appear to be the same in OT0 and CotC, although CotC may have some OT0 lacks
