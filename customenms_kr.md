@@ -12,7 +12,7 @@ CotC에서는 적에게 특정 Flipbook 에셋을 가리키는 ID를 할당하�
 
 주의: CotC의 `EnemyType` 아래 `m_FlipbookID`는 이 배열의 추가 요소들을 OT0와 다르게 사용하는 것으로 보입니다. 인덱스 0이 대기 텍스처를 가리키는 점은 동일하지만, CotC는 일부 적에게 인덱스 1에 “보이지 않는(invisible)” 텍스처를 할당합니다(예: Shadow of Twin Worlds의 Shadow).
 
-NPC 텍스처를 사용하는 전투는 `EnemyBattleAnimSet`에 별도의 엔트리를 만들 필요가 **없습니다**. NPC는 보통 이미 전투용 스프라이트시트(대개 `_B` 접미사)를 가지고 있기 때문입니다. `EnemyType`(아래 참조)에서 NPC의 `CharaID`를 지정하기만 하면 됩니다(필요하면 [How to add custom characters](customchars_en.md)도 참고).
+NPC 텍스처를 사용하는 전투는 `EnemyBattleAnimSet`에 별도의 엔트리를 만들 필요가 **없습니다**. NPC는 보통 이미 전투용 스프라이트시트(대개 `_B` 접미사)를 가지고 있기 때문입니다. `EnemyType`(아래 참조)에서 NPC의 `CharaID`를 지정하기만 하면 됩니다(필요하면 [커스텀 캐릭터 추가 방법](customchars_kr.md) 도 참고).
 
 ### (**) `EnemyParts`
 커스텀 보스가 여러 파트로 구성되어 있다면(예: Or'Galdera, Amatsukami no Orochi) 각 파트를 이 파일에 지정해야 합니다. 다만 Shadow of Twin Worlds처럼 이 파일을 전혀 사용하지 않는 경우도 있습니다.
@@ -75,7 +75,7 @@ NPC 텍스처를 사용하는 전투는 `EnemyBattleAnimSet`에 별도의 엔트
 **주의:** OT0는 한 적에게 8개를 초과하는 약점을 표시할 수 없습니다.
 
 ### (**) `EnemyWeakChangeID`
-적의 약점이 어떻게 변하는지(약점 변화)를 추적합니다. `m_WeakIndices`는 `m_EnemyWeakID.m_id`를 입력으로 받으며, 이 약점 변화의 `m_id`는 예를 들어 avail에 할당할 수 있습니다([How to add custom skills and avails](customskls_en.md)도 참고).
+적의 약점이 어떻게 변하는지(약점 변화)를 추적합니다. `m_WeakIndices`는 `m_EnemyWeakID.m_id`를 입력으로 받으며, 이 약점 변화의 `m_id`는 예를 들어 avail에 할당할 수 있습니다([커스텀 스킬 및 avail 추가 방법](customskls_kr.md)도 참고).
 
 ### (**) `EnemyWeakLockID`
 적의 약점 잠금(weakness lock) 방식을 추적합니다. 무속성 마법 데미지 및 독 데미지를 잠그는 필드는 존재하지 않는 것으로 보입니다.
