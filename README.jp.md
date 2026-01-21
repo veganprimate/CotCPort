@@ -3,23 +3,23 @@
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="50%">
-      <img alt="1" src="https://github.com/user-attachments/assets/b6de0cba-9b16-4f60-9ca5-3c10dc31f15d" width="100%" />
+      <img alt="1" src="https://github.com/user-attachments/assets/e27eeffe-7827-4039-8ef1-088e96d75e48" width="100%" />
     </td>
     <td width="50%">
-      <img alt="2" src="https://github.com/user-attachments/assets/8f5578d1-b5d9-44c5-8e5b-58df320df724" width="100%" />
+      <img alt="2" src="https://github.com/user-attachments/assets/cdaecda7-2b2c-42a7-b980-7539948c64df" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img alt="3" src="https://github.com/user-attachments/assets/c8edbf0a-10e6-4e74-8392-201e6cb81923" width="100%" />
+      <img alt="3" src="https://github.com/user-attachments/assets/f52aab44-c6e9-41e2-8a5d-9e8ad82a9007" width="100%" />
     </td>
     <td width="50%">
-      <img alt="4" src="https://github.com/user-attachments/assets/a58a5700-3355-465f-bc73-c0a84d325e47" width="100%" />
+      <img alt="4" src="https://github.com/user-attachments/assets/6370561a-3653-4dcb-a0e5-2ab82f787b1e" width="100%" />
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <img alt="5" src="https://github.com/user-attachments/assets/60141fa8-a49c-4fc3-8f89-cd4ad5e410b1" width="100%" />
+      <img alt="5" src="https://github.com/user-attachments/assets/b0943896-d810-4fbd-bf78-f6a7568541e0" width="100%" />
     </td>
   </tr>
 </table>
@@ -36,7 +36,9 @@
 - 韓国語
 - 中国語（簡体字）
 - 中国語（繁体字）
-![chargif](https://github.com/user-attachments/assets/4268cd2d-7ada-4643-9ee8-1017ecf9d816)
+
+![chargif](https://github.com/user-attachments/assets/00c35b82-3e9c-4810-8d8b-657f2c2a1151)
+
 
 ## インストール
 Releases から `notex` pak のいずれかと `texture` pak、さらに `RecruitEvent_p.pak` をダウンロードしてください。`notex` には DataBase ファイルが含まれ、`texture` には大陸覇者から移植したテクスチャとモデルが含まれます。また `RecruitEvent_p.pak` は、フェン、メイシィ、えらばれしもの の最初のパーティ会話イベント（「怪我の治療」）を、追加された260体以上の全ユニットの加入イベントに置き換えるMODです。このMODは、新規ユニットを全て加入させた後は削除できます。
@@ -59,7 +61,7 @@ Releases から `notex` pak のいずれかと `texture` pak、さらに `Recrui
 `romfs/Octopath_Traveler0/Content/Paks` のフォルダ構成で MOD を作成し、3つの pak を Paks に配置してください。
 
 ## 新たに追加された旅人（キャラクター）の加入方法
-<img width="1286" height="726" alt="12" src="https://github.com/user-attachments/assets/c19ec965-b7b6-4914-8806-dc3b7aaebfed" />
+<img width="1286" height="726" alt="12" src="https://github.com/user-attachments/assets/f06205a2-5c30-4a8f-8718-5ee69d84db95" />
 
 1. `RecruitEvent_p.pak` が Paks フォルダに入っていることを確認してください。
 2. エンバーグロウにいるロングボウマスター（上の画像参照）に話しかけてください。イベントが発生し、本MODで追加されるプレイアブルキャラクターが全員加入します。
