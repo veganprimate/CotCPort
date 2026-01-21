@@ -12,7 +12,7 @@ CotC 会给敌人分配一个指向特定 Flipbook 资产的 ID；而 OT0 使用
 
 请注意：CotC 的 `EnemyType` 里的 `m_FlipbookID` 似乎会以不同方式使用这个数组的额外元素：虽然索引 0 仍对应待机贴图，但 CotC 会在索引 1 给某些敌人分配一张“不可见贴图”（例如 “Shadow of Twin Worlds” 战里的 Shadow）。
 
-使用 NPC 贴图的战斗 **不需要** 在 `EnemyBattleAnimSet` 下额外新增条目，因为 NPC 通常已经有自己的战斗用 spritesheet（经常以 `_B` 结尾）。你只需要在 `EnemyType`（见下方）里指定该 NPC 的 `CharaID` 即可（也可参见 [How to add custom characters](customchars_en.md)）。
+使用 NPC 贴图的战斗 **不需要** 在 `EnemyBattleAnimSet` 下额外新增条目，因为 NPC 通常已经有自己的战斗用 spritesheet（经常以 `_B` 结尾）。你只需要在 `EnemyType`（见下方）里指定该 NPC 的 `CharaID` 即可（也可参见 [如何添加自定义角色](customchars_zh.md)）。
 
 ### (**) `EnemyParts`
 如果你的自定义 Boss 由多个部位组成（例如 Or'Galdera、Amatsukami no Orochi），你需要在此文件中为每个部位分别指定。不过也有一些（例如 Shadow of Twin Worlds）完全不使用此文件的情况。
@@ -75,7 +75,7 @@ CotC 会给敌人分配一个指向特定 Flipbook 资产的 ID；而 OT0 使用
 **注意：** OT0 在同一个敌人身上最多只能显示 8 个弱点。
 
 ### (**) `EnemyWeakChangeID`
-用于管理敌人“弱点变化”的方式。`m_WeakIndices` 以 `m_EnemyWeakID.m_id` 作为输入；这些弱点变化的 `m_id` 可以被分配给例如某个 avail（也可参见 [How to add custom skills and avails](customskls_en.md)）。
+用于管理敌人“弱点变化”的方式。`m_WeakIndices` 以 `m_EnemyWeakID.m_id` 作为输入；这些弱点变化的 `m_id` 可以被分配给例如某个 avail（也可参见 [如何添加自定义技能与 avail](customskls_zh.md)）。
 
 ### (**) `EnemyWeakLockID`
 用于管理敌人“锁定弱点”的方式。看起来没有用于锁定无属性魔法伤害与毒伤害的字段。
@@ -141,7 +141,7 @@ CotC 会给敌人分配一个指向特定 Flipbook 资产的 ID；而 OT0 使用
 - `m_IgnoreDefeat`：决定被该敌人组击败时是否不出现 Game Over。仅用于 King Pardis III、Edoras Defenders of Fame/Power/Wealth、以及 Colossal Blightant。若敌人处于怪物竞技场中，看起来会被覆盖：失败后会把你送回竞技场
 - `m_SkipBgmResult`：决定是否播放胜利主题曲
 - `m_BanGodBeast`：禁止在战斗中使用 Divine Beast。OT0 未使用。在本 MOD 中如果你把 Divine Beast 技能加到某些角色的技能盘里，这个标志可能会阻止其使用（未测试）
-- `m_PlayerMemberSetID`：强制你的队伍由引用的 `PlayerMemberSetID` 中指定的角色组成（也可参见 [How to add custom characters](customchars_en.md)）
+- `m_PlayerMemberSetID`：强制你的队伍由引用的 `PlayerMemberSetID` 中指定的角色组成（也可参见 [如何添加自定义角色](customchars_zh.md))）
 - `m_Bgm`：设置战斗 BGM；可用项见 `Sound/` 下 `SoundList`
 - `m_NightBgm`：设置夜间战斗 BGM。OT0 未使用；是否有效未测试
 - `m_DarkBgm`：与 `m_NightBgm` 相同？CotC 的条目看起来这两个键总是相同值
