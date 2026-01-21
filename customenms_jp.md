@@ -12,7 +12,7 @@
 
 注意：CotC の `EnemyType` にある `m_FlipbookID` は、この配列の追加要素を OT0 とは異なる使い方をしているように見えます。インデックス 0 が待機テクスチャを指す点は同じですが、CotC ではインデックス 1 に不可視テクスチャを割り当てている敵がいます（例：「双世界の影（Shadow of Twin Worlds）」のシャドウ）。
 
-NPC テクスチャを使用する戦闘では、`EnemyBattleAnimSet` に追加エントリを作る必要は **ありません**。NPC は通常、戦闘用スプライトシート（多くは `_B` サフィックス付き）を既に持っているためです。`EnemyType`（下記）で NPC の `CharaID` を指定してください（必要に応じて [How to add custom characters](customchars_en.md) も参照）。
+NPC テクスチャを使用する戦闘では、`EnemyBattleAnimSet` に追加エントリを作る必要は **ありません**。NPC は通常、戦闘用スプライトシート（多くは `_B` サフィックス付き）を既に持っているためです。`EnemyType`（下記）で NPC の `CharaID` を指定してください（必要に応じて [カスタムキャラクターを追加する方法](customchars_jp.md) も参照）。
 
 ### (**) `EnemyParts`
 カスタムボスが複数パーツで構成される場合（例：オルガルデラ（Or'Galdera）、天津神のオロチ（Amatsukami no Orochi）など）、各パーツをこのファイルで指定する必要があります。ただし「双世界の影（Shadow of Twin Worlds）」のように、このファイルを全く使わないケースもあります。
