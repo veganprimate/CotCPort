@@ -154,7 +154,7 @@ NPC テクスチャを使用する戦闘では、`EnemyBattleAnimSet` に追加�
 - `m_Camera`：使用するカメラセットを指定（入力：`BattleCameraSet.m_id`）
 - `m_Formation`：敵グループのフォーメーションを指定（入力：`EnemyFormations.m_id`）
 - `m_EnemyID`：場に出す敵を指定（入力：`EnemyID.m_id`）。この配列を 6 体超に拡張しても即クラッシュはしませんが、新しい敵はタイムライン（行動順）に表示されず、弱点／シールド／状態表示オーバーレイもなく、ターンが回ってくるとクラッシュします（エラーは allocator メタデータ破損／ポインタ破損に関連）。増援の呼び出しで回避できる可能性があります
-<img width="829" height="459" alt="image" src="https://github.com/user-attachments/assets/433a1c36-e857-4b4c-aaae-07399ddac40b" />
+<img width="729" height="403" alt="image" src="https://github.com/user-attachments/assets/4e563205-ffca-479a-9321-33dceb3f650f" />
 
 - `m_EventIndices`：（戦闘）開始時または戦闘中に再生されるイベント（戦闘中会話等）。おそらく `EventList.m_id` ではなく `BattleEventList.m_id` が有効値です
 - `m_AbortCondition`：戦闘を中断する条件。有効 ID は `BattleAbortConditions` 配下にあるはずです
