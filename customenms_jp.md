@@ -78,7 +78,7 @@ NPC テクスチャを使用する戦闘では、`EnemyBattleAnimSet` に追加�
 **注意：** OT0 では 1 体の敵に対して 8 個を超える弱点を表示できません。
 
 ### (**) `EnemyWeakChangeID`
-敵が弱点を変化させる仕組みを管理します。`m_WeakIndices` は `m_EnemyWeakID.m_id` を入力として取り、ここで定義した弱点変化の `m_id` は、例えば avail に割り当てることができます（[How to add custom skills and avails](customskls_en.md) も参照）。
+敵が弱点を変化させる仕組みを管理します。`m_WeakIndices` は `m_EnemyWeakID.m_id` を入力として取り、ここで定義した弱点変化の `m_id` は、例えば avail に割り当てることができます（[カスタムスキルと avail を追加する方法](customskls_jp.md) も参照）。
 
 ### (**) `EnemyWeakLockID`
 敵が弱点をロックする仕組みを管理します。無属性魔法ダメージと毒ダメージをロックするためのフィールドは存在しないように見えます。
@@ -144,7 +144,7 @@ NPC テクスチャを使用する戦闘では、`EnemyBattleAnimSet` に追加�
 - `m_IgnoreDefeat`：敵グループに敗北してもゲームオーバー画面を出さないフラグ。OT0 では King Pardis III、Edoras Defenders of Fame/Power/Wealth、Colossal Blightant のみが使用。モンスターアリーナ内では上書きされるようで、敗北後はアリーナに戻されます
 - `m_SkipBgmResult`：勝利BGMを流すかどうか
 - `m_BanGodBeast`：戦闘で神獣の使用を禁止します。OT0 では未使用。本 MOD で一部キャラのスキルボードに神獣スキルを追加した場合、これがそれをブロックする可能性があります（未検証）
-- `m_PlayerMemberSetID`：参照先 `PlayerMemberSetID` に指定されたキャラクター構成へパーティを強制します（[How to add custom characters](customchars_en.md) も参照）
+- `m_PlayerMemberSetID`：参照先 `PlayerMemberSetID` に指定されたキャラクター構成へパーティを強制します（[カスタムキャラクターを追加する方法](customchars_jp.md) も参照）
 - `m_Bgm`：戦闘BGMを設定（有効な選択肢は `Sound/` 配下の `SoundList` を参照）
 - `m_NightBgm`：夜の戦闘BGMを設定。OT0 では未使用。機能するか未検証
 - `m_DarkBgm`：`m_NightBgm` と同じ？ CotC では両キーが常に同値に見えます
