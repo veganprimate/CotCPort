@@ -3,23 +3,23 @@
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="50%">
-      <img alt="1" src="https://github.com/user-attachments/assets/b6de0cba-9b16-4f60-9ca5-3c10dc31f15d" width="100%" />
+      <img alt="1" src="https://github.com/user-attachments/assets/e27eeffe-7827-4039-8ef1-088e96d75e48" width="100%" />
     </td>
     <td width="50%">
-      <img alt="2" src="https://github.com/user-attachments/assets/8f5578d1-b5d9-44c5-8e5b-58df320df724" width="100%" />
+      <img alt="2" src="https://github.com/user-attachments/assets/cdaecda7-2b2c-42a7-b980-7539948c64df" width="100%" />
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img alt="3" src="https://github.com/user-attachments/assets/c8edbf0a-10e6-4e74-8392-201e6cb81923" width="100%" />
+      <img alt="3" src="https://github.com/user-attachments/assets/f52aab44-c6e9-41e2-8a5d-9e8ad82a9007" width="100%" />
     </td>
     <td width="50%">
-      <img alt="4" src="https://github.com/user-attachments/assets/a58a5700-3355-465f-bc73-c0a84d325e47" width="100%" />
+      <img alt="4" src="https://github.com/user-attachments/assets/6370561a-3653-4dcb-a0e5-2ab82f787b1e" width="100%" />
     </td>
   </tr>
   <tr>
     <td colspan="2">
-      <img alt="5" src="https://github.com/user-attachments/assets/60141fa8-a49c-4fc3-8f89-cd4ad5e410b1" width="100%" />
+      <img alt="5" src="https://github.com/user-attachments/assets/b0943896-d810-4fbd-bf78-f6a7568541e0" width="100%" />
     </td>
   </tr>
 </table>
@@ -36,7 +36,8 @@
 - 韩语
 - 中文（简体）
 - 中文（繁体）
-![chargif](https://github.com/user-attachments/assets/4268cd2d-7ada-4643-9ee8-1017ecf9d816)
+
+![chargif](https://github.com/user-attachments/assets/00c35b82-3e9c-4810-8d8b-657f2c2a1151)
 
 ## 安装
 请在 Releases 中下载任意一个 `notex` pak、`texture` pak，以及 `RecruitEvent_p.pak`。`notex` 包含 DataBase 文件；`texture` 包含从《大陆的霸者》移植的贴图与模型；`RecruitEvent_p.pak` 则是一个替换 MOD：它会将 弗恩、梅西 与 被选中之人 的首次队伍闲聊事件（“疗伤”）替换为一个招募事件，用于招募所有新增的 260+ 名旅人。在你招募完所有新增角色后，可以移除该 MOD。
@@ -59,7 +60,7 @@
 按如下目录结构创建一个 MOD：`romfs/Octopath_Traveler0/Content/Paks`，并将三个 pak 放入 Paks 文件夹中。
 
 ## 如何招募新增的旅人（可操作角色）
-<img width="1286" height="726" alt="12" src="https://github.com/user-attachments/assets/c19ec965-b7b6-4914-8806-dc3b7aaebfed" />
+<img width="1286" height="726" alt="12" src="https://github.com/user-attachments/assets/f06205a2-5c30-4a8f-8718-5ee69d84db95" />
 
 1. 请确认 `RecruitEvent_p.pak` 已放入你的 Paks 文件夹中。
 2. 与恩波格洛的长弓大师对话（见上图）。对话后会触发一个事件，并招募本 MOD 中新增的所有可操作角色。
