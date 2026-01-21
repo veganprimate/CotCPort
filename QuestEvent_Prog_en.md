@@ -1,5 +1,6 @@
 ### **LANGUAGE:**  [English](QuestEvent_Prog_en.md) | [日本語](QuestEvent_Prog_jp.md) | [中文](QuestEvent_Prog_zh.md) | [한국어](QuestEvent_Prog_kr.md)
-<img width="1920" height="1080" alt="pic-window-260119-1350-42" src="https://github.com/user-attachments/assets/88acf65b-a65d-436b-bf1d-862956c80d66" />
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/83c68154-8a8e-48b7-822c-c486f53cd60d" />
+
 As can be seen in this messy picture, it is definitely possible to port quests from CotC. The problem lies in porting events, which account for cutscenes, boss fight initiations, dialogue during fights, switches in dungeons and much more besides. Without events, quests are nothing more than their quest markers and rewards.
 
 When looking at the EventList asset under `/Game/Content/Local/DataBase/Event/`, one may think once the game loads an event ID, the `m_Name` and `m_Version` keys will resolve into the path `/Game/Content/Local/DataBase/Event/V[m_Version]/[m_Name].[m_Name]` but that unfortunately is not true: Testing shows that the game does not care about these entries and appears to internally associate Event IDs to paths leading to Event assets.
@@ -25,7 +26,7 @@ Since only the short key is stored (likely because the game has several function
 That "later" function is what we must find. Once we hook that function, we can safely replace the full path (or the object reference) and truly support custom assets.
 
 As the picture below shows, events directly ported from CotC should play out mostly fine so the question of supporting custom event assets is the main problem at play here.
-<img width="869" height="479" alt="image" src="https://github.com/user-attachments/assets/a7cbaf77-d0c2-44f2-81ec-d9a54d865f87" />
+<img width="869" height="479" alt="image" src="https://github.com/user-attachments/assets/8c7f5483-c143-47fd-9922-88d9fa3093e6" />
 
 
 
