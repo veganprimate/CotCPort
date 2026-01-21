@@ -86,7 +86,7 @@ As mentioned above, you are free to use this mod as a basis for your own, but pl
 ### Tutorials and Resources
 Below is a list of tutorials and resources for this mod, to make it easier for you to create your own mod using the ported data from CotC.
 - [How to extract assets from this mod and/or OT0 and repak them](Begin_en.md)
-- [How to add custom characters](customchars_en.md)
+- [How to add custom characters (and jobs)](customchars_en.md)
 - [How to add custom enemies and battles](customenms_en.md)
 - [How to add custom quests and events](customqsts_en.md)
 - [How to add custom skills and avails](customskls_en.md)
