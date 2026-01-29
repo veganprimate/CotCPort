@@ -143,7 +143,7 @@ Chronicles all enemy groups. An entry has to be added here for your battle to tr
 - `m_BanGodBeast`: Disables the usage of Divine Beast in battles. Unused in OT0. May block Divine Beast skills in the mod when added to some character's skill board (untested).
 - `m_PlayerMemberSetID`: Forces your party to consist out of the characters specified in the referenced `PlayerMemberSetID` (see also [How to add custom characters](customchars_en.md))
 - `m_Bgm`: Sets the background music for the fight, see `SoundList` under `Sound/` for viable options
-- `m_NightBgm`: Sets the background music for the fight at night. Unused in OT0, untested is functional.
+- `m_NightBgm`: Sets the background music for the fight at night. Unused in OT0, untested if functional.
 - `m_DarkBgm`: The same as `m_NightBgm`? CotC's entries appear to always have the same values in both keys.
 - `m_BgmType`:
 - `m_ResultBgmWin`: Specifies a custom victory theme.
