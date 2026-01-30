@@ -5,12 +5,107 @@ The process of adding new enemies and battles to Octopath Traveler 0 primarily r
 ## Under `Enemy/`
 ### (***) `EnemyFormations`
 Allows you to specify new Enemy Formations on the field, `m_PositionID` takes `BattlePositions.m_id` as input (`BattlePositions` can be found under `Battle/`). For custom battles with many enemies, you may want to look at these files to find an appropriate formation with enough non-zero `m_PositionID` entries or make your own. Some `PositionID`s may produce wildly different enemy positions depending on the battle map.
+`Kingship_structs.hpp` assigns the following labels to OT0's formations
+```
+enum class EENEMY_FORMATION : uint8
+{
+	NONE                                     = 0,
+	MAXENEMYTEST                             = 1,
+	EnFr_Sx1_1                               = 72,
+	EnFr_Sx2_1                               = 73,
+	EnFr_Sx2_1_r                             = 160,
+	EnFr_Mx1_1                               = 69,
+	EnFr_Mx2_1                               = 70,
+	EnFr_Mx3_1                               = 71,
+	EnFr_Mx3_2                               = 105,
+	EnFr_MLx1_1                              = 102,
+	EnFr_MLx2_1                              = 103,
+	EnFr_MLx3_1                              = 104,
+	EnFr_MLx3_2                              = 106,
+	EnFr_Lx1_1                               = 67,
+	EnFr_Lx2_1                               = 68,
+	EnFr_BOSS_LL_solo                        = 63,
+	EnFr_BOSS_LL_duo1                        = 64,
+	EnFr_BOSS_LL_duo2                        = 76,
+	EnFr_BOSS_LL_duo3                        = 77,
+	EnFr_BOSS_LL_trio1                       = 65,
+	EnFr_BOSS_LL_trio2                       = 66,
+	EnFr_BOSS_LL_trio3                       = 80,
+	EnFr_BOSS_XL_solo                        = 59,
+	EnFr_BOSS_XL_duo1                        = 60,
+	EnFr_BOSS_XL_trio1                       = 61,
+	EnFr_BOSS_XL_trio2                       = 62,
+	EnFr_BOSS_SP                             = 58,
+	BT_PLT_010                               = 18,
+	BT_PLT_016                               = 24,
+	BT_PLT_020                               = 78,
+	BT_PLT_022                               = 30,
+	BT_PLT_024                               = 32,
+	BT_PLT_032                               = 40,
+	BT_PLT_042                               = 75,
+	BT_PLT_SE_001                            = 81,
+	BT_PLT_SE_002                            = 82,
+	BT_PLT_SE_003                            = 83,
+	BT_PLT_SE_004                            = 84,
+	BT_PLT_CEB_001                           = 85,
+	BT_PLT_CEB_002                           = 86,
+	BT_PLT_CEB_004                           = 88,
+	BT_PLT_BOSS_Tytos2                       = 89,
+	BT_PLT_BOSS_Auguste2                     = 90,
+	BT_PLT_AM_Chap8_Boss02                   = 95,
+	BT_PLT_AM_Chap8_Boss01_7                 = 96,
+	EnFr_P010_Cp4EG01                        = 97,
+	EnFr_P011_Cp4EG01                        = 98,
+	EnFr_P012_Cp4EG01                        = 99,
+	EnFr_P014_Cp3EG01                        = 100,
+	EnFr_P018_Cp3EG02                        = 101,
+	EnFr_P083_Cp4EG01                        = 109,
+	EnFr_P137_Cp4EG01                        = 110,
+	EnFr_P057_Cp4EG01                        = 111,
+	EnFr_P120_Cp4EG01                        = 112,
+	EnFr_P110_Cp4EG02                        = 113,
+	EnFr_P110_Cp3EG01                        = 114,
+	EnFr_P099_Cp4EG01                        = 115,
+	EnFr_AB03_BOSS_01                        = 116,
+	EnFr_P109_Cp4EG01                        = 118,
+	EnFr_P131_Cp4EG01                        = 120,
+	EnFr_P133_Cp4EG01                        = 130,
+	EnFr_PC068                               = 139,
+	EnFr_Mx2_1_r                             = 141,
+	EnFr_Mx3_1_r                             = 142,
+	EnFr_Mx3_2_r                             = 143,
+	EnFr_MLx2_1_r                            = 144,
+	EnFr_MLx3_1_r                            = 145,
+	EnFr_MLx3_2_r                            = 146,
+	EnFr_Lx2_1_r                             = 147,
+	EnFr_PC098                               = 148,
+	EnFr_BOSS_LL_selafina                    = 172,
+	EENEMY_MAX                               = 173,
+};
+```
 
 ### (***) `EnemyBattleAnimSet`
 Where CotC assigns to enemies an ID referring to a specific Flipbook asset, OT0 uses these sets of IDs, each referring to such an asset (`m_EnemyTextureIDs` taking the `m_id`s of `EnemyTexID` under `Textures` as input).
 `m_EnemyTextureIDs[0]` typically refers to the sprite's idle animation (suffix `Idl00`), whereas `m_EnemyTextureIDs[1]` to `m_EnemyTextureIDs[3]` would be the sprite's attack animations (suffixes `Atk00` to `Atk02`). You will have to add a flipbook asset for at least the idle animation (i.e. referencing a new path under `EnemyTexID` and using that new entry's `m_id` under `m_EnemyTextureIDs[0]` in your newly added entry there), everything else is optional.
 
 Please note that CotC's `m_FlipbookID` under `EnemyType` appears to use these extra array components differently: while index 0 still refers to the idle texture, CotC assigns to some enemies an invisible texture in index 1 (e.g. the Shadow from Shadow of Twin Worlds).
+
+Flipbook assets may assume the following scales (see `Kingship_structs.hpp`):
+
+```
+// Enum Kingship.ECV_FLIPBOOK_SCALE
+// NumValues: 0x0006
+enum class ECV_FLIPBOOK_SCALE : uint8
+{
+	Scale_x1                                 = 0,
+	Scale_x2                                 = 1,
+	Scale_x3                                 = 2,
+	Scale_x4                                 = 3,
+	MAX_NUM                                  = 4,
+	ECV_FLIPBOOK_MAX                         = 5,
+};
+```
+
 
 Fights which use NPC textures do **not** need an extra entry to be made under `EnemyBattleAnimSet`, as NPCs typically already have their own in-battle spritesheets (often ending with the `_B` suffix). Simply specify the NPC's `CharaID` under `EnemyType` (see below and possibly [How to add custom characters](customchars_en.md))
 
@@ -34,13 +129,41 @@ This asset is basically OT0's master "battle sprite presentation descriptor" for
   - `m_CueSheet` (likely indexes into `SoundSheetList` under `Sound/` and selects which cuesheet to use for this enemy's voice set)
 - which attach effects (VFX) should be spawned and where (`m_AttachEffect`,`m_BattleAttachEffectOffsetX`,`m_BattleAttachEffectOffsetY`,`m_FieldAttachEffect`,`m_FieldAttachEffectOffsetX`,`m_FieldAttachEffectOffsetY`)
 - which position of the referenced texture (usually first frame of the flipbook asset/character spritesheet) should be used for the turn order icons (`m_OrderTexUS`, `m_OrderTexVS`; for large icons, i.e. when the specified character is taking their action, `m_OrderTexUL` and `m_OrderTexVL` are used) and at what scale the referenced texture should render in the order icon (`m_OrderScaleS`; `m_OrderScaleL`). For example, the Shadow in the Shadow of Twin Worlds fight uses a very small order scale to ensure its entire body appears on the order icon.
-- Miscallaneous:
+#### Miscallaneous:
   - `m_OverrideOrderIconAnimSetID`: in case you want to use special texture assets for the order icon
   - `m_AttachEffectInGodbeastProduction`: unused in OT0 and CotC, related to divine beast effects
   - `m_AddStartUV`: a flag whether to add a start UV offset (position)
   - `m_LinkOwnerAnim`: if true, parts/attachments may follow the owner's animation timing
-  - `m_DefeatEffect`: Effect ID to be played on death (e.g. Bestower of All's special defeat effect)
-  - `m_ChangeColorID`: an ID into a color-change table, might be related to `CharaColorChangeParams` under `Character/`. Is only used in OT0 when Zero/the Ringbearer Chosen faces off against his shadow (`ChangeColorID` 6). CotC's `EnemyType` lacks that key entirely
+  - `m_DefeatEffect`: Effect ID to be played on death (e.g. Bestower of All's special defeat effect). `Kingship_structs.hpp` specifies them as follows:
+
+```
+enum class EENEMY_DEFEATEFFECT : uint8
+{
+	NONE                                     = 0,
+	EDE_AGM_CHP8_02                          = 1,
+	EDE_AGM_CHP8_03_RING                     = 2,
+	EENEMY_MAX                               = 3,
+};
+```
+
+       
+- `m_ChangeColorID`: an ID into a color-change table, might be related to `CharaColorChangeParams` under `Character/`. Is only used in OT0 when Zero/the Ringbearer Chosen faces off against his shadow (`ChangeColorID` 6). CotC's `EnemyType` lacks that key entirely. The SDK contains the following possibly related enum:
+
+```
+// Enum Kingship.ECHARA_COLOR_CHANGE_ID
+// NumValues: 0x0008
+enum class ECHARA_COLOR_CHANGE_ID : uint8
+{
+	eCOLOR_CHANGE_NONE                       = 0,
+	eCOLOR_CHANGE_LIMBO_AUTO                 = 1,
+	eCOLOR_CHANGE_LIMBO_DEFAULT              = 2,
+	eCOLOR_CHANGE_LIMBO_RED                  = 3,
+	eCOLOR_CHANGE_LIMBO_YELLOW               = 4,
+	eCOLOR_CHANGE_LIMBO_BLUE                 = 5,
+	eCOLOR_CHANGE_MIRROR_BATTLE              = 6,
+	eCOLOR_CHANGE_MAX                        = 7,
+};
+```
  
 ### (**) `EnemyWeakID`
 Tracks different kinds of weakness profiles which can be assigned to enemies. `m_ResistWeapon` and `m_ResistMagic` take the `m_id`s of `ResistType` under `Skill/` as input; `ResistType` 1 also adds the specified weapon/magic type as a weakness. The order of the specified weapon and magic types likely follow the order of the `m_id`s in the `WeaponType`/`MagicType` assets under `Skill/`, i.e.:
@@ -74,8 +197,58 @@ Tracks different kinds of weakness profiles which can be assigned to enemies. `m
 ```
 **Note:** OT0 can't display more than 8 weaknesses on one enemy. 
 
+`Kingship_structs.hpp` assigns the following labels to some of OT0's ResistTypes:
+
+```
+enum class ERESIST_TYPE : uint8
+{
+	NONE                                     = 0,
+	WEAK                                     = 1,
+	REDUCE                                   = 2,
+	INVALID                                  = 3,
+	ABSORB                                   = 4,
+	ERESIST_MAX                              = 5,
+};
+```
+
 ### (**) `EnemyWeakChangeID`
 Tracks how enemies change weaknesses. `m_WeakIndices` takes `m_EnemyWeakID.m_id` as inputs and the `m_id` of those weakness changes can be assigned to e.g. an avail (see also [How to add custom skills and avails](customskls_en.md)).
+
+`Kingship_structs.hpp` assigns the following labels to OT0's IDs:
+```
+enum class EENEMY_WEAKCHANGE_ID : uint8
+{
+	None                                     = 0,
+	Wch_Farme_Chap03_Boss02                  = 1,
+	Wch_AM_Chap0_Boss01_01                   = 2,
+	Wch_AM_Chap0_Boss01_02                   = 3,
+	Wch_AM_Chap0_Boss01_03                   = 4,
+	Wch_AM_Chap0_Boss01_04                   = 5,
+	Wch_AM_Chap0_Boss01_05                   = 6,
+	Wch_AM_Chap0_Boss01_06                   = 7,
+	Wch_AM_Chap0_Boss01_07                   = 8,
+	Wch_AM_Chap8_Boss02_01                   = 9,
+	Wch_AM_Chap8_Boss02_02                   = 10,
+	Wch_AM_Chap8_Boss02_03                   = 11,
+	Wch_AM_Chap8_Boss02_04                   = 12,
+	Wch_AM_Chap8_Boss03_01                   = 13,
+	Wch_AM_Chap8_Boss03_02                   = 14,
+	Wch_AM_Chap8_Boss03_03                   = 15,
+	Wch_AM_Chap8_Boss03_04                   = 24,
+	Wch_AM_Chap8_Boss04_01                   = 17,
+	Wch_AM_Chap8_Boss04_02                   = 25,
+	Wch_AM_Chap8_Boss04_03                   = 26,
+	Wch_AM_Chap8_Boss04_04                   = 27,
+	Wch_AM_Chap4_Boss01_01                   = 16,
+	Wch_Farme_Chap3_Boss02_01                = 18,
+	Wch_Farme_Chap3_Boss02_02                = 19,
+	Wch_Farme_Chap3_Boss02_03                = 20,
+	Wch_AM_Chap2_Boss01_01                   = 21,
+	Wch_AM_Boss_Chp5_03_01                   = 22,
+	Wch_AM_Boss_Chp7_01_01                   = 23,
+	EENEMY_WEAKCHANGE_MAX                    = 28,
+};
+```
 
 ### (**) `EnemyWeakLockID`
 Tracks how enemies lock weaknesses. There does not appear to be fields for locking non-elemental magic damage and poison damage.
@@ -145,7 +318,19 @@ Chronicles all enemy groups. An entry has to be added here for your battle to tr
 - `m_Bgm`: Sets the background music for the fight, see `SoundList` under `Sound/` for viable options
 - `m_NightBgm`: Sets the background music for the fight at night. Unused in OT0, untested if functional.
 - `m_DarkBgm`: The same as `m_NightBgm`? CotC's entries appear to always have the same values in both keys.
-- `m_BgmType`:
+- `m_BgmType`: Exact usage is unclear but `Kingship_structs.hpp` defines the following
+
+```
+enum class EBATTLE_BGM_TYPE : uint8
+{
+	Default                                  = 0,
+	EventBattle1                             = 1,
+	EventBattle2                             = 2,
+	Arena                                    = 3,
+	EBATTLE_BGM_MAX                          = 4,
+};
+```
+
 - `m_ResultBgmWin`: Specifies a custom victory theme.
 - `m_ResultBgmLose`: Specifies a custom Game Over theme.
 - `m_Camera`: Specifies the camera set to use (input: `BattleCameraSet.m_id`)
@@ -191,7 +376,7 @@ Miscallenous keys:
 - `m_FirstEncountStepRatio`: Likely a multiplier specifically for the first encounter after entering the map/zone, making it earlier or later than normal.
 
 ### (*) `EncountEffectTypeID`
-Keeps track of different encount effects, `m_SeId` likely sets the map on which this effect occurs.
+Keeps track of different encount effects, `m_SeId` likely specifies the sound effect to play.
 
 ### (*) `EnemyGroupsByCondition`
 Sets of enemy groups to spawn when certain conditions are met. Used to spawn the Accurst Flame alongside the Ringbearer in Bestower of All Chapter 7.
@@ -204,7 +389,7 @@ Specifies what overworld sprites or objects and enemy groups are assigned to sym
 - `m_ObjectId`: Overrides the symbol enemy overworld sprite with a specific object (e.g. Tatloch's ships in Bestower of Power Ch. 3)
 - `m_RepopCount`: Respawn/repopulation count, i.e., how often a symbol enemy respawns. 0 by default for OT0 enemies, not true for CotC enemies (enemies do not re-appear immediately after reloading the map)
 - `m_Redrawing`: Always set to 0 in both OT0 and CotC
-- `m_TargetLevel1` and `m_TargetLevel2`: possib2ly a level range for the symbol enemy
+- `m_TargetLevel1` and `m_TargetLevel2`: possibly a level range for the symbol enemy
 - `m_Scale`: Scale multiplier for the enemy symbol in the field (purely visual/collision size)
 
 ### (**) `SymbolEnemyGroupList`
@@ -226,6 +411,26 @@ IDs which correspond to battle camera presets/configurations, value `-1.0` appea
 ### (***) `BattleCameraSet`
 Sets of camera configurations which are assigned to enemy groups (`BattleCameraSet.m_id`=`EnemyGroups.m_Camera`), does not exist in CotC (CotC only uses one neutral camera configuration in battle).
 
+`Kingship_structs.hpp` gives the following labels to some camera sets in OT0:
+
+```
+// Enum Kingship.EBATTLE_CAMERA_SET
+// NumValues: 0x000A
+enum class EBATTLE_CAMERA_SET : uint8
+{
+	None                                     = 0,
+	DEFAULT                                  = 1,
+	BCP_BOSS_LL                              = 2,
+	BCP_BOSS_XL                              = 3,
+	BCP_BOSS_EX                              = 4,
+	BCP_BOSS_EX2                             = 5,
+	BCP_RAID                                 = 6,
+	BCP_RAID_ALL                             = 7,
+	BCP_RAID_PC_FOCUS_BASE                   = 8,
+	EBATTLE_CAMERA_MAX                       = 9,
+};
+```
+
 ### (***) `BattlePositions`
 Defines position IDs used in e.g. `EnemyFormations` or `EnemyReinforcements`. `m_Priority` may determine which sprite appears in front of the other in case of conflicting coordinates or the order in which enemies are selected.
 
@@ -237,6 +442,97 @@ Likely the events which can be assigned to enemy groups under `EnemyGroups.m_Eve
 - `m_EventParams`: Parameters for the conditions
 - `m_EventEnemies`: Optional filter to specify which enemy slot/which enemy index/which part the condition applies to (seemingly unused in both OT0 and CotC).
 
+Possibly related: in `Kingship_structs.hpp`:
+
+```
+// Enum Kingship.EBATTLE_EVENT_ID
+// NumValues: 0x0051
+enum class EBATTLE_EVENT_ID : uint8
+{
+	None                                     = 0,
+	BE_B01_03_EG03_OPN                       = 124,
+	BE_B02_03_EG04_OPN                       = 121,
+	BE_B03_03_EG02_OPN                       = 122,
+	BE_B04_05_EG08_OPN                       = 1,
+	BE_B04_08_EG12_OPN                       = 2,
+	BE_B04_08_EG13_OPN_1                     = 7,
+	BE_B04_08_EG13_OPN_2                     = 8,
+	BE_B04_08_EG13_OPN_3                     = 9,
+	BE_B04_08_EG13_OPN_4                     = 10,
+	BE_B04_08_EG13_OPN_5                     = 11,
+	BE_B04_08_EG13_OPN_6                     = 12,
+	BE_B04_08_EG13_OPN_7                     = 13,
+	BE_B04_08_EG14_OPN                       = 3,
+	BE_B04_08_EG14_ENHP_L25                  = 4,
+	BE_B05_03_EG02_010                       = 14,
+	BE_B05_03_EG03_010                       = 15,
+	BE_B05_03_EG03_020                       = 16,
+	BE_B06_03_EG03_010                       = 123,
+	BE_B07_03_EG03_010                       = 17,
+	BE_B07_03_EG03_020                       = 18,
+	BE_B07_03_EG03_030                       = 19,
+	BE_B08_03_EG04_010                       = 21,
+	BE_B08_03_EG04_020                       = 22,
+	BE_B08_03_EG04_030                       = 23,
+	BE_B08_03_EG04_040                       = 24,
+	BE_B08_03_EG04_050                       = 25,
+	BE_B08_04_EG01_010                       = 26,
+	BE_B08_04_EG01_020                       = 27,
+	BE_B08_04_EG01_030                       = 28,
+	BE_B08_04_EG01_040                       = 29,
+	BE_B08_06_EG03_030                       = 129,
+	BE_B08_06_EG03_010                       = 32,
+	BE_B08_06_EG03_040                       = 130,
+	BE_B08_06_EG03_050                       = 131,
+	BE_B08_06_EG03_020                       = 33,
+	BE_B08_06_EG03_060                       = 132,
+	BE_B08_08_EG02_000                       = 50,
+	BE_B08_08_EG02_010                       = 36,
+	BE_B08_08_EG02_020                       = 37,
+	BE_B08_08_EG02_030                       = 38,
+	BE_B08_08AEnd_010                        = 114,
+	BE_B08_08_EG03_Ring_020                  = 46,
+	BE_B08_08_EG03_Ring_030                  = 47,
+	BE_B08_08AEnd_020                        = 115,
+	BE_B08_08_EG03_010                       = 41,
+	BE_B08_08_EG03_020                       = 56,
+	BE_B08_08AEnd_030                        = 118,
+	BE_B08_08AEnd_040                        = 137,
+	BE_TEST_00                               = 20,
+	BE_T00_01_00_OPN                         = 100,
+	BE_T00_01_00_END                         = 101,
+	BE_SAZANTOS_SKILL_LEAN_01                = 102,
+	BE_SAZANTOS_SKILL_LEAN_02                = 103,
+	BE_SAZANTOS_SKILL_LEAN_03                = 104,
+	BE_SAZANTOS_SKILL_LEAN_04                = 105,
+	BE_SAZANTOS_SKILL_LEAN_05                = 106,
+	BE_SAZANTOS_SKILL_LEAN_06                = 107,
+	BE_T05_01_EG07_010                       = 108,
+	BE_T05_01_EG07_020                       = 119,
+	BE_T05_01_EG07_030                       = 120,
+	BE_B08_07_EG09_010                       = 109,
+	BE_B08_07_EG09_020                       = 110,
+	BE_B08_07_EG09_030                       = 111,
+	BE_B08_07_EG10_010                       = 112,
+	BE_B08_07_EG10_020                       = 128,
+	BE_B08_08_BEnd_010                       = 116,
+	BE_B08_08_BEnd_020                       = 117,
+	BE_B08_08_BEnd_030                       = 138,
+	BE_J10201_01_05_010                      = 125,
+	BE_OneOff_vsDragon_01_010                = 133,
+	BE_OneOff_vsDragon_02_010                = 134,
+	BE_OneOff_vsDragon_03_010                = 135,
+	BE_OneOff_vsDragon_04_010                = 136,
+	BE_EvQuSQ070_02a_01_010                  = 139,
+	BE_EvQuSQ070_02a_02_010                  = 140,
+	BE_EvQuSQ070_02a_03_010                  = 141,
+	BE_OneOff_vsDragon_05_010                = 142,
+	BE_OneOff_vsDragon_06_010                = 143,
+	BE_OneOff_vsDragon_07_010                = 144,
+	EBATTLE_EVENT_MAX                        = 145,
+};
+```
+
 ### (***) `BattleEventCommand`
 Contains scripted steps in a battle event sequence. Where `BattleEventList` describes what should run under what conditions, `BattleEventCommand` appears to execute the actual script steps (show dialogue, play animation, spawn effects, swap enemy textures, change BGM, etc.)
 
@@ -247,7 +543,24 @@ Contains scripted steps in a battle event sequence. Where `BattleEventList` desc
 - `m_PerformerID`: likely an index into party/guest/enemy performer lists, or a special ID
 - `m_PerformerIsLeader`: use party leader as performer
 - `m_PerformerEnemy`: : if non-zero, indicates the performer is an enemy (appears to use `EnemyID.m_id` as input)
-- `m_TargetID`: likely who to target for a forced action/skill
+- `m_TargetID`: likely who to target for a forced action/skill. Possibly related:
+
+```
+// Enum Kingship.EBATTLE_TARGET_TYPE
+// NumValues: 0x0008
+enum class EBATTLE_TARGET_TYPE : uint8
+{
+	eSELF                                    = 0,
+	ePARTY_SINGLE                            = 1,
+	ePARTY_ALL                               = 2,
+	eENEMY_SINGLE                            = 3,
+	eENEMY_ALL                               = 4,
+	eALL                                     = 5,
+	eALL_SINGLE                              = 6,
+	EBATTLE_TARGET_MAX                       = 7,
+};
+```
+
 - `m_EnableTarget`,`m_EnableAction`: toggles to enable player targeting/action during/after this command.
 - `m_NameID`: localization ID for the speaker name (found under `GameTextCharacter`)
 - `m_TextID`: localization ID for the dialogue line (found under `GameTextEvent`)
@@ -277,8 +590,39 @@ Contains scripted steps in a battle event sequence. Where `BattleEventList` desc
 - `m_EnemyPartsDisplay`: show/hide referenced enemy part during the event
 - `m_OnEventFlgIndex`/`m_OffEventFlgIndex`: Also exists in `TacticalList`. The battle engine likely advances scripts based on those flags (i.e. they are an implicit "next" to track what's occurred). Example: used in `TacticalList` by Shadow of Twin Worlds to track whether the tactic unlocking the Shadow's weaknesses upon break of Lucian and Lyblac has occured to re-lock them after Lucian and Lyblac recover from their break as there does not appear to exist a condition specifically for that situation.
 - `m_JoinTrigger`: likely tied to "unit joins battle now" events (e.g. guest joins mid-fight)
-- `m_UniqueProcess`, `m_OptCharacterID`, `m_OptSkillID`: special command types that do not fit the generic struct
+- `m_UniqueProcess`, `m_OptCharacterID`, `m_OptSkillID`: special command types that do not fit the generic struct. `m_UniqueProcess` likely takes the following values:
+```
+// Enum Kingship.EBATTLE_EVENT_COMMAND_UNIQUE_PROCESS
+// NumValues: 0x0006
+enum class EBATTLE_EVENT_COMMAND_UNIQUE_PROCESS : uint8
+{
+	NONE                                     = 0,
+	RAID_PARTY_MEMEBER_CHANGE                = 1,
+	SKILL_LEAN_TEMPORARY                     = 2,
+	RAID_SPECIAL_SKILL_ONLY                  = 3,
+	RAID_ALL_BUFF                            = 4,
+	EBATTLE_EVENT_COMMAND_UNIQUE_MAX         = 5,
+};
+```
 
+An enum that may be related to this asset:
+
+```
+// Enum Kingship.EBattleCommandStep
+// NumValues: 0x0009
+enum class EBattleCommandStep : uint8
+{
+	NO_COMMAND_CONTROL                       = 0,
+	COMMAND_CHARA_SELECT                     = 1,
+	BATTLE_COMMAND_SELECT                    = 2,
+	TARGET_SELECT                            = 3,
+	FINISH_COMMAND_DECIDE                    = 4,
+	ALL_ACTION_COMMAND_SELECT                = 5,
+	AILMENT_LIST_VIEW                        = 6,
+	VIEW_MODE                                = 7,
+	EBattleCommandStep_MAX                   = 8,
+};
+```
 
 ### (*) `BattlePlaybackData` and `BattlePlayback`
 Thees look like OT0's battle-preview/battle-demo configuration: a small database that tells the game "for playback preset X, have enemy Y perform skill Z, and optionally show/hide attack effects"
@@ -288,6 +632,36 @@ The structure is basically: `PlaybackID` → `SkillID` (+ performer slot overrid
 - `m_EnemySkillID`: the (enemy) skill to play (although all skills are stored in the same file: `SkillID`)
 - `m_SkillPlayEnemyIndex`: which enemy slot/index should perform the skill during the playback (`-1`="auto/default")
 - `m_VisibleAttackEffect`: likely whether to show the "attack effect" layer during playback (e.g. show/hide slash/impact overlays, hit flashes, or extra VFX so the animation can be previewed "clean" vs "full")
+
+Possibly related enum:
+
+```
+// Enum Kingship.EBATTLE_PLAYBACKS
+// NumValues: 0x0014
+enum class EBATTLE_PLAYBACKS : uint8
+{
+	NONE                                     = 0,
+	PLAY_BACK_1                              = 1,
+	PLAY_BACK_2                              = 2,
+	PLAY_BACK_3                              = 3,
+	PLAY_BACK_4                              = 4,
+	PLAY_BACK_5                              = 5,
+	PLAY_BACK_6                              = 6,
+	PLAY_BACK_7                              = 7,
+	PLAY_BACK_8                              = 8,
+	PLAY_BACK_9                              = 9,
+	PLAY_BACK_10                             = 10,
+	PLAY_BACK_11                             = 11,
+	PLAY_BACK_12                             = 12,
+	PLAY_BACK_13                             = 13,
+	PLAY_BACK_14                             = 14,
+	PLAY_BACK_15                             = 15,
+	PLAY_BACK_16                             = 16,
+	PLAY_BACK_17                             = 17,
+	PLAY_BACK_18                             = 18,
+	EBATTLE_MAX                              = 19,
+};
+```
 
 #### `BattlePlaybackData`
 This may not be real runtime data, appears to have a similar layout to `BattlePlaybacks` but with an odd line
@@ -310,6 +684,80 @@ Untested whether unused params beyond 2 exist.
 ### (**) `BattleVoiceList` and `BattleVoiceArenaList`
 Define a variety of voice lines to be played by party members or a narrator during battle (e.g. special voice lines during the Or'Galdera fight).
 
+Likely related:
+```
+// Enum Kingship.EBATTLE_VOICE_ARENA_ID
+// NumValues: 0x0003
+enum class EBATTLE_VOICE_ARENA_ID : uint8
+{
+	None                                     = 0,
+	Chairman_Monster_Arena                   = 1,
+	EBATTLE_VOICE_ARENA_MAX                  = 2,
+};
+
+// Enum Kingship.EBATTLE_VOICETYPE_ID
+// NumValues: 0x0038
+enum class EBATTLE_VOICETYPE_ID : uint8
+{
+	NONE                                     = 0,
+	BATTLE_1ST                               = 1,
+	BATTLE_1ST_TOUGH                         = 2,
+	BATTLE_1ST_BOSS                          = 3,
+	BATTLE_1ST_BOSS2                         = 4,
+	TURN_1ST                                 = 5,
+	TURN_1ST_PINCH                           = 6,
+	TURN_1ST_BREAK                           = 7,
+	VICTORY                                  = 8,
+	VICTORY_NARROW                           = 9,
+	VICTORY_BOSS1                            = 10,
+	VICTORY_BOSS2                            = 11,
+	BOOST_LV1                                = 12,
+	BOOST_LV2                                = 13,
+	BOOST_LV3                                = 14,
+	BOOST_LV3_EX1                            = 15,
+	BOOST_LV3_EX2                            = 16,
+	FINAL_BLOW                               = 17,
+	FINAL_BLOW_BOSS                          = 18,
+	WEAK_HIT                                 = 19,
+	SHIELD_BREAK                             = 20,
+	TO_BACK                                  = 21,
+	TO_FORWARD                               = 22,
+	TO_FORWARD_PINCH                         = 23,
+	TO_FORWARD_DEAD                          = 24,
+	AILMENTED                                = 25,
+	RECOVERED                                = 26,
+	AVOIDANCE                                = 27,
+	REVIVE                                   = 28,
+	DAMAGED_S                                = 29,
+	DAMAGED_M                                = 30,
+	DAMAGED_L                                = 31,
+	DEAD                                     = 32,
+	WIPEOUT                                  = 33,
+	ATTACK                                   = 34,
+	ATTACK_LV3                               = 35,
+	SKILL_01                                 = 36,
+	SKILL_02                                 = 37,
+	SKILL_03                                 = 38,
+	SKILL_04                                 = 39,
+	SKILL_05                                 = 40,
+	SKILL_06                                 = 41,
+	SKILL_07                                 = 42,
+	SKILL_08                                 = 43,
+	SKILL_09                                 = 44,
+	SPECIAL_SKILL_SET                        = 45,
+	SPECIAL_SKILL_START                      = 46,
+	ATTACK_MISS                              = 47,
+	AVOID_AILMENT                            = 48,
+	ENEMY_COUNTER                            = 49,
+	USE_ITEM_SELF                            = 50,
+	USE_ITEM_FRIEND                          = 51,
+	USE_ITEM_ENEMY                           = 52,
+	DEFENCE                                  = 53,
+	BUFFED                                   = 54,
+	EBATTLE_VOICETYPE_MAX                    = 55,
+};
+```
+
 ### (***) BattleAbortConditions
 OT0's battle termination/forced-outcome condition table: each entry defines a small bundle of predicates that, when satisfied during a fight, cause the battle to abort (end early) or be treated as a forced win/forced lose depending on which field references it in `EnemyGroups`.
 - `m_Conditions`: condition type IDs (likely the same as in `TacticalList`, `TacticalActionList`, `SkillConditionList`, and `BattleEventList`)
@@ -323,6 +771,42 @@ OT0's battle termination/forced-outcome condition table: each entry defines a sm
 
 ### (*) `BattleActionID`
 A small lookup table that maps an "action ID" (likely `SkillAilmentType.m_ActionID`) to a concrete battle animation/motion, with a flag that says whether that animation should be played using the NPC/field character rig instead of the standard battle rig. `m_UseNPC` may determine whether this action should be played using an NPC character animation set rather than the usual battle-sprite.
+Likely related: `Kingship_structs.hpp` assigns the following labels to some action IDs:
+```
+enum class EBATTLE_ACTION_ID : uint8
+{
+	NONE                                     = 0,
+	IDLE                                     = 1,
+	BOOST_IDLE                               = 2,
+	BATTLE_START                             = 3,
+	STEP_IN                                  = 4,
+	STEP_OUT                                 = 5,
+	BOOST_START                              = 6,
+	BOOST_LEVEL_UP                           = 7,
+	BOOST_CANCEL                             = 8,
+	KNOCKBACK                                = 9,
+	PINCH                                    = 10,
+	DEAD                                     = 11,
+	GUARD                                    = 12,
+	ESCAPE                                   = 13,
+	VICTORY                                  = 14,
+	LEVELUP                                  = 15,
+	USE_ITEM                                 = 16,
+	AILMENT                                  = 17,
+	ATTACK_SWORD                             = 18,
+	ATTACK_AXE                               = 19,
+	ATTACK_DAGGER                            = 20,
+	ATTACK_PAPERS                            = 21,
+	ATTACK_ROD                               = 22,
+	ATTACK_BOW                               = 23,
+	ATTACK_LANCE                             = 24,
+	ATTACK_FAN                               = 25,
+	PRE_ACTION                               = 74,
+	ATTACK_NORMAL                            = 75,
+	ATTACK_DEATHBLOW                         = 76,
+	EBATTLE_ACTION_MAX                       = 77,
+};
+```
 
 ### (*) BattleParams
 A variety of battle-related parameters whose meaning is as follows according to `Kingship_structs.hpp` from the Dumper-7 SDK (see #file-dump in the BravelyPath Modular Discord):
@@ -481,6 +965,21 @@ A lookup table for "Death Blow" (special attack) gauge gain. Each row essentiall
 ### (*) `BattleLayoutSet`
 Likely a small battle staging/layout preset table that ties together a camera preset and enemy-side positioning. It is unclear where in the game this is used (no formation or reinforcements appear to make use of `PositionID` 270, for instance).
 
+`Kingship_structs.hpp` assigns the following labels to some layout sets:
+
+```
+// Enum Kingship.EBATTLE_LAYOUT_SET
+// NumValues: 0x0005
+enum class EBATTLE_LAYOUT_SET : uint8
+{
+	None                                     = 0,
+	RAID_DEFAULT                             = 1,
+	RAID_PLAYER_ALL                          = 2,
+	RAID_AoE_ATTACK_OFFSET                   = 3,
+	EBATTLE_LAYOUT_MAX                       = 4,
+};
+```
+
 ## Under `AIBattle`
 These files are responsible for enemy AI behavior and the skills used by them (and how).
 ### (****) `TacticalList`, `TacticalAssignList`, and `TacticalSkillList`
@@ -505,9 +1004,24 @@ Misc.:
 ### (****) `TacticalActionList`
 Appears to tell the game what to actually do when a tactic applies: which skill to use (by index), who to target, how to select among possible targets, and additional conditions/priority rules.
 - `m_SkillIndex`: This is not a SkillID itself. It's an index into a skill list/array (from testing: `TacticalSkillList.m_UseSkills[]` for the enemy's `m_SkillsID`)
-- `m_SelectType`: Either a target selection mode enum or related to how indices like the skill index are selected. From my testing: `m_SelectType` had to be set to 3 for the associated skills to trigger (`SelectType` 1 had it default to its first(?) skill)
+- `m_SelectType`: A selection mode enum, `Kingship_structs.hpp` defines the following:
+
+```
+enum class EACTION_SELECT_TYPE : uint8
+{
+	None                                     = 0,
+	FixedTurn                                = 1,
+	MultipleTurn                             = 2,
+	Random                                   = 3,
+	Random_Recommend                         = 5,
+	Random_NoRecommend                       = 6,
+	Sequential                               = 4,
+	EACTION_SELECT_MAX                       = 7,
+};
+```
+
 - `m_FriendlyIndex`: who to target on the "friendly" side (from the enemy's perspective?). `-1` here would likely mean "no fixed friendly; maybe: pick based on `SelectType`(?)"
-- `m_PrioritySkill`: if set, it may override normal selection and force a specific skill index (or mark a skill index as preferred?)
-- `m_TurnCount`: repeats an action every `N` turns where `N` is the value given to this key, provided the specified tactics ID's conditions are met
+- `m_PrioritySkill`: (untested) if set, it may override normal selection and force a specific skill index (or mark a skill index as preferred?)
+- `m_TurnCount`: (untested) repeats an action every `N` turns where `N` is the value given to this key, provided the specified tactics ID's conditions are met. May have a different meaning depending on the SelectType.
 - `m_GroupIndex`: grouping key, likely used to separate actions by phase or restrict number of actions per group per turn or coordinate multi-enemy behavior in a group
 - Additional action-level conditions (like `TacticalList`, but specific to the specified action): `m_Conditions`, `m_Params`, `m_AilmentTypes`, `m_StatusTypes`, `m_WeaponTypes`, `m_MagicTypes`
