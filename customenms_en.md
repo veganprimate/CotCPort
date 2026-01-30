@@ -168,7 +168,7 @@ Chronicles all enemy groups. An entry has to be added here for your battle to tr
 -  `m_DisableBattleEndWipe`: Used by many final bosses (Bestower of All, Or'Galdera, Side Solistia's Galdera) and also the Magitek Armor.
 -  `m_DisableBattleEndTraining`: Prevents party members in the training grounds from gaining XP, JP, etc. Used in the Emerald Direwolf fight (only with Laurana on the field), the Bestower of All Ch. 7 fights during the Sazantos flashback, etc.
 -  `m_DisableSupporter`: Flag which determines whether you can summon helpers in battle
--  `m_EncountEffectTypeID`: Specifies special encounter effects (e.g. FF6 collab encounters). Arena battles need this set to 0 or else they'll soft-lock the game. Viable IDs can be found under `EncountEffectTypeID`.
+-  `m_EncountEffectTypeID`: Specifies special encounter effects (e.g. FF6 collab encounters). Arena battles need this set to 0 or else they'll soft-lock the game. Viable IDs can be found under `EncountEffectTypeID`. The SDK specifies the following effects: 0=None, 2=Whiteout, 3=Blackout.
 -  `m_EnablePlayerShield`: Always set to false in both OT0 and CotC. 
 -  `m_DisableGrade`: Always set to false in OT0, not in CotC. Likely a flag to ignore weapons' grades.
 -  `m_IsContainRareEnemy`: Likely a flag to tell the game which enemy groups are considered to contain rare enemies so accessories increasing the encounter rate of rare enemies increases.
