@@ -365,7 +365,7 @@ Tells the game which mode ID refers to which effect to be applied to the field o
 Keeps track of all the different drop IDs which can be assigned to enemies.
 
 ### (**) `EncountVolume`
-Determines danger levels, which enemy groups can be encountered, and the respective encounter probabilities. encount volumes are associated with maps in `EncountList`. Maps may change their danger level and therefore possible encount volumes
+Determines danger levels, which enemy groups can be encountered (`m_EnemyGroup` and `m_FirstEncount`, where the latter likely specifies an enemy group as the initial encounter), and the respective encounter probabilities. Encount Volumes are associated with maps in `EncountList`. Maps may change their danger level and therefore possibly encount volumes. There may be issues if the values in `m_EncountRatio` do not add up to 100.
 
 ### (**) `EncountList`
 OT0's random encounter rule table: Specifies which encount volumes can be encountered on which map (`m_EncountVolume` being `m_EncountVolume.m_id`), minimum number of steps until encounter (`m_EncountStepMin`), and conditions which have to be met for the encounter to occur. 
