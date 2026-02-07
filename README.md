@@ -66,7 +66,9 @@ Given that this mod changes the EnemyID asset among several others and would the
 <img width="1286" height="726" alt="12" src="https://github.com/user-attachments/assets/f06205a2-5c30-4a8f-8718-5ee69d84db95" />
 
 1. Make sure `RecruitEvent_p.pak` is in your Paks folder
-2. Talk to the Longbow Master in Emberglow (pictured above). An event will trigger which should recruit all the playable characters in this mod. 
+2. Talk to the Longbow Master in Emberglow (pictured above). An event will trigger which should recruit all the playable characters in this mod.
+
+It is currently only possible to recruit all new units at once, eventually, they'll all have their own recruitment quests or similar.
 
 ## Contributions
 Everyone is welcome to contribute to this project. Besides the pak, this repository contains extensive documentation on how the various aspects of the mod work, general modding documentation for Octopath Traveler 0, and a list of tasks yet to be completed, along with brief discussions on viable paths for progress.
