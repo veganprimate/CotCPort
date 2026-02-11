@@ -25,10 +25,11 @@
 </table>
 
 
-A mod for Octopath Traveler 0 that aims to port as much content as possible from Octopath Traveler: Champions of the Continent (Global, Japanese, and Chinese versions) and possibly the other Octopath games too.
-- Play all 270+ units from CotC with their complete skill boards, including 6 custom new units (Nomos the Scholar, Fra, Fried, Hugo, Gimel, Mattias, and Miguel from Octopath Traveler 1)
-- Fight against hundreds of bosses from CotC in the Monster Arena
-- Unlock dozens of new accessories from CotC by beating the new enemies in the Monster Arena
+A mod for **Octopath Traveler 0** that aims to port as much content as possible from **Octopath Traveler: Champions of the Continent** (Global, Japanese, and Chinese versions) and possibly the other Octopath games too.
+- Play all **270+ units** from CotC with their **complete skill boards**, including **7 custom new units** (Nomos the Scholar, Fra, Pierro, Fried, Hugo, Gimel, Mattias, and Miguel from Octopath Traveler 1)
+- Fight against hundreds of **new bosses** from CotC in the **Monster Arena**
+- Unlock dozens of **new accessories** and **equipment** from CotC by beating the new enemies in the Monster Arena
+- Play through several **new quests** from CotC including characters' **Traveler Stories**
 
 The mod currently supports the following languages:
 - English
@@ -40,8 +41,9 @@ The mod currently supports the following languages:
 ![chargif](https://github.com/user-attachments/assets/00c35b82-3e9c-4810-8d8b-657f2c2a1151)
 
 ## Installation
-Download one of the `notex` paks and the `texture` pak under Releases, as well as `RecruitEvent_p.pak`. `notex` contains DataBase files, `texture` ported textures and models from CotC, and `RecruitEvent_p.pak` is a mod that replaces the first party banter event between Phenn, Macy, and Zero ("Tending Wounds") with a recruitment event for all newly added 260+ units. This mod can be removed after recruiting all new units.
-These files are then to be put in the game's Paks folder, where this is depends on your Octopath Traveler 0 version and installation
+Download one of paks ending with `notex` and the `texture` pak under **Releases**, as well as `RecruitEvent_p.pak`. `notex` contains **DataBase files**, `texture` ported **textures and models** from CotC, and `RecruitEvent_p.pak` is a mod that adds a **recruitment event** for **all** newly added 270+ units (see [How to recruit the new travelers](https://github.com/veganprimate/CotCPort/tree/main?tab=readme-ov-file#how-to-recruit-the-new-travelers)). This mod can be removed after recruiting all new units.
+
+These files are then to be put in the game's **Paks** folder, where this is depends on your **Octopath Traveler 0** version and installation
 ### Steam
 Put the three paks under `steamapps\common\Octopath_Traveler0\Octopath_Traveler0\Content\Paks`.
 ### Microsoft Store
@@ -51,16 +53,48 @@ Put the three paks under `steamapps\common\Octopath_Traveler0\Octopath_Traveler0
 4. Click **Browse**
 5. Place the pak files under `<game install folder>\Octopath_Traveler0\Content\Paks\`
 ### Switch (real hardware/Atmosphère)
-Place the three paks under `<SD Card>\atmosphere\Contents\01005270232F2000\romfs\Octopath_Traveler0\Content\Paks`
+Place the paks under `<SD Card>\atmosphere\Contents\01005270232F2000\romfs\Octopath_Traveler0\Content\Paks`
 ### Switch (Emulator)
 Create a mod with the following folder structure `romfs/Octopath_Traveler0/Content/Paks` and place the three paks in Paks.
 
 ## (Optional) Hard Mode Version
-Given that this mod changes the EnemyID asset among several others and would therefore be incompatible with any mod that also edits these assets, a hard mode version of this mod was created for anyone wishing to combine these two, denoted with the `_hard` suffix. Changes are as follows:
-- Normal enemies now have 2x the HP, bosses 3x the HP
-- The stats of normal enemies (Phys. Atk., Phys. Def., Elem. Atk., Elem. Def., Speed, Accuracy, Crit. and Crit. Def. and max shield count) were increased by 25%, while those of bosses were increased by 50%. The XP, JP and money gained from defeating bosses has also increased by 20%.
-- Individual changes have been done to enemies to prevent soft-locks (Imposter Olberic, Wishvale Ch. 5 Emerald Direwolf, and Cardinal Teragraf)
-- Changes have been made to the stats, skills, and tactics of individual bosses (WIP, so far this largely affects only Bestower of All bosses)
+Given that this mod changes the `EnemyID` asset among several others and would therefore be incompatible with any mod that also edits these assets, a hard mode version of this mod was created for anyone wishing to combine these two, denoted with the `_hard` suffix. Changes are as follows (changes marked with **(WIP)** are not fully implemented):
+- **Normal enemies** now have **2x** the HP, **bosses** **3x** the HP
+- The stats of normal enemies (Phys. Atk., Phys. Def., Elem. Atk., Elem. Def., Speed, Accuracy, Crit. and Crit. Def. and max shield count) were increased by **25%**, while those of bosses were increased by **50%**
+- The XP, JP and money gained from defeating bosses has been increased by **20%**
+- Individual changes have been done to enemies to **prevent soft-locks** (Imposter Olberic, Wishvale Ch. 5 Emerald Direwolf, and Cardinal Teragraf)
+- Changes have been made to the **stats**, **skills**, and **tactics** of individual **enemies** and **bosses** (**WIP**, so far this largely affects only **Bestower of All** bosses and giving several encounters resource-draining skills)
+- **(WIP)** **Very rare mini-boss type encounters** to make hunting for caits more dangerous and give the accessories and support skills increasing rare enemy encounter rates a side effect
+- **(WIP)** Changes to **skills** and **skill sets** of **playable characters**: only affects the SP cost of some skills, the usage limit of `Parry`, and (strong) AoE healing skills being turned into delayed skills for the time being
+- **(WIP)** Changes to individual status effects (Evade Phys. Atk removed upon attacking physically, Evade Elem. Atk. removed upon attacking with magic to encourage more specialized playstyles)
+- **(WIP)** Item usage limit in battle (possibly down to 7 times per battle) to encourage smarter resource management and use of Skills and Helpers (whose count I may increase)
+- **(WIP)** New food for more **specialized pre-buffs** (e.g. weapon/magic type specific attack or resistance buffs, specific status effects)
+- To cope with the increased damage done by enemies and to encourage more frequently switching party members as well as using weapon/magic type resistance buffs, all playable characters (including ones added by this mod) have **weapon and magic type specific resistant rates** _(Note: the values specified in the referenced arrays specify how much damage is taken by the weapon/magic type in percent, so higher values→more damage, lower values→less damage)_. These are inspired by the **SaGa** series:
+  - **Physical resistance rates** (`m_ResistWeapon`): SaGa cares about **broad** physical pressures/attribute types (Slash/Pierce/Strike/Missile/...) more than individual weapon brands. Since OT0 splits weapons into 8 entries, the numbers were set by projecting 3 SaGa-like pressures onto OT0's weapons:
+    - _**Slash**-leaning pressure_: Sword / Axe / Fan / Dagger (slightly)
+    - _**Pierce**-leaning pressure_: Polearm / Dagger / Bow
+    - _**Blunt**-leaning pressure_: Staff / Tome / Axe (very slightly)
+
+     Then each unit's values were pushed based on their implied END/VIT vs AGI profile and Job (which accounts for weapon proficiencies):
+      - **High END/VIT "tanks"** → lower (better) vs slash/blunt; sometimes worse vs pierce (armor gaps/joints idea)
+      - **High AGI "dodgers"** → lower vs pierce/ranged (bow/dagger/polearm), but often higher vs blunt (hard-to-dodge impacts)
+      - **Frailer casters/supports** → higher across physical, especially pierce (they "get punished" if caught).
+      - Usually slightly resistant towards weapon types they are **proficient in**; slightly worse off against **"opposing" weapon types** (i.e. of opposing physical pressure type)
+  - **Magic resistance rates** (`m_ResistMagic`): Magic resist numbers were set primarily from an implied WIL/SPR/MND-like attribute, then shaped by **elemental affinity/weakness** (althugh each SaGa game implements it differently, mostly inspired by Romancing SaGa 2's magic attribute types: Heat/Cold/Electricity/Dark/Status) and the unit's **magic proficiencies** (determined by skill set):
+      - **High WIL/faithful/cleric types** → much lower (better) across elements, often very strong vs Light and weaker vs Dark (or vice versa for occult/dark types)
+      - **High INT mage types** → not necessarily tanky physically, but can have selective elemental toughness (affinity) and sharp weaknesses elsewhere
+      - The 7th slot of the `m_ResistMagic` array (likely **Poison** or **non-elemental** magic damage) was generally treated like Poison/Status resistance (END/WIL leaning): sturdy/medical types get low values; frail/dark/rogue types often get higher values
+  - **(WIP)** Future versions will give **enemies** and **equipment** similar resistant rates if feasible. The goal is to make breaking enemies rarer and require much more pre-planning to achieve and give you other kinds of weaknesses to exploit instead. This will hopefully also encourage the usage of other avenues of stunning an enemy (e.g. Enchant, Paralysis, Sleep, possibly Silence, Terror, and Blindness) and/or build more specialized parties to prepare a break.
+  - **(WIP)** **SaGa LP-like consequence for KOs** (attrition pressure): a post-revive "injury" status that lasts until battle end that reduces Max HP/defenses/etc.
+  - **(WIP)** Enemies and bosses get **more "fast" moves/priority moves** to make turn-order manipulation and speed buffs more important
+  - **(WIP)** Enemies and bosses get **more conditional intercept** and **counter** buffs to **discourage repetitive patterns** (kind of an anti-cheese measure)
+  - **(WIP)** Slight **changes to dungeon design**, possibly trap chests
+  - **(WIP)** More trade-offs on gear but more specialized
+  - **(WIP)** To discourage AoE healing: Make **single-target** healing spells **stronger** (passive buffs, etc.) and give enemies **tactics to punish AoE healing** (possible if OT0 has a condition type ID that checks whether a certain skill has been used or similar)
+  - **(WIP)** Increase prices of the most abusable consumables to encourage usage of alternatives like (new) foods, new items. There will likely also be new items that are cheap but narrow/specialized
+
+
+
 
 ## How to recruit the new travelers
 In the future, characters' traveler stories will serve as their recruitment events. So far, only Promme's traveler story has been ported.
