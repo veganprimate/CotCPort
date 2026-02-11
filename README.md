@@ -63,12 +63,16 @@ Given that this mod changes the EnemyID asset among several others and would the
 - Changes have been made to the stats, skills, and tactics of individual bosses (WIP, so far this largely affects only Bestower of All bosses)
 
 ## How to recruit the new travelers
+In the future, characters' traveler stories will serve as their recruitment events. So far, only Promme's traveler story has been ported.
+
+For now, proceed as follows:
+
 <img width="1286" height="726" alt="12" src="https://github.com/user-attachments/assets/f06205a2-5c30-4a8f-8718-5ee69d84db95" />
 
 1. Make sure `RecruitEvent_p.pak` is in your Paks folder
 2. Talk to the Longbow Master in Emberglow (pictured above). An event will trigger which should recruit all the playable characters in this mod.
 
-It is currently only possible to recruit all new units at once, eventually, they'll all have their own recruitment quests or similar.
+When a new update introduces new units, you can recruit them by talking to the same NPC again provided `RecruitEvent_p.pak` is in your Paks folder. This does not appear to reset the progress or equipment of travellers who have already been recruited.
 
 ## Contributions
 Everyone is welcome to contribute to this project. Besides the pak, this repository contains extensive documentation on how the various aspects of the mod work, general modding documentation for Octopath Traveler 0, and a list of tasks yet to be completed, along with brief discussions on viable paths for progress.
@@ -98,7 +102,7 @@ I can be reached in the BravelyPath Modular Discord under the #cotc-characters-m
 
 ## Acknowledgements
 Thanks to:
-- BoltGSR for providing me with data of the Japanese version of CotC 
+- BoltGSR and MarvinCx886 for providing me with data of the Japanese version of CotC 
 - Oersted for providing me with data of the Chinese verison of CotC and complete skillsheets, spritesheets, and ideas for custom units
 - Vat for providing me with expanded spritesheets of characters and enemies, as well as cooking many of the textures to appear crystal clear in-game
 - Solo Traveler for helping me playtest a large variety of features, giving me ideas for the Hard Mode version of the mod, and a detailed description of a custom arena fight
