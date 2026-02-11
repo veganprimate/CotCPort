@@ -1,35 +1,48 @@
-### **LANGUAGE:**  [English](QuestEvent_Prog_en.md) | [日本語](QuestEvent_Prog_jp.md) | [中文](QuestEvent_Prog_zh.md) | [한국어](QuestEvent_Prog_kr.md)
+## **LANGUAGE:**  [English](QuestEvent_Prog_en.md) | [日本語](QuestEvent_Prog_jp.md) | [中文](QuestEvent_Prog_zh.md) | [한국어](QuestEvent_Prog_kr.md)
+
+### Update (2/07/2026)
+Thanks to MarvinCx886's discovery while working on his **MioJoin** mod, porting Events is now possible. I have simply forgotten to modify the event assets' metadata to reflect the new paths. This is possible using [UAssetGUI](https://github.com/atenfyr/UAssetGUI/releases/tag/experimental-latest) and the Unreal Mappings of Octopath Traveler 0. `m_Name` and `m_Version` in `EventList` do indeed resolve into the path `/Game/Content/Local/DataBase/Event/V[m_Version]/[m_Name].[m_Name]`. 
+
+Furthermore, a lot of OT0 maps still contain left-over data from CotC corresponding to e.g. position and collision data of NPCs not in the game, like Promme (see `QuTr_PC148_01_01`). These objects can be referenced in the respective `NpcSetList` under `m_AppearLabel` to have an NPC spawn there with the defined collision data.
+<img width="1113" height="824" alt="image" src="https://github.com/user-attachments/assets/37b0af5c-c866-4ad6-b1c0-4d48986eba21" />
+
+
+A detailed tutorial on the structure of the files under `.../Local/DataBase/Quest/` and `.../Local/DataBase/Event/` and how to add new events and quests will follow soon: [How to add custom quests and events](customqsts_en.md)
+
+#### Current Issues
+The primary now largely revolves around adding new NPCs to existing maps and porting entirely new areas. See [**Progress on Maps/Areas/Levels**](Maps_Prog_en.md).
+
+A lot of event, quest, enemy, and NPC data also has to be manually adjusted to appear correctly in OT0:
+ - NPCs in the ported events sometimes face the wrong direction
+
+<img width="1167" height="649" alt="image" src="https://github.com/user-attachments/assets/a748fc6a-52a2-4223-ab8c-1e09743ae8e7" />
+
+ - When facing a "Yes or No"-prompt in dialogue in a quest ported from CotC, the top option is by default "No," contrary to OT0, causing the wrong sound to play when selecting either option. The cursor also defaults to the wrong position when canceling.
+ - The recommended levels are usually 20-30 levels too high given the strength of the bosses
+ - CotC bosses generally give far too much XP (Priest Kratos is a weak boss with about 100k HP and gave 12k XP, 3x as much as Or'sazantos in OT0)
+ - Ported Quest NPCs from CotC appear to often have odd FC data by default, see pic:
+   
+<img width="1239" height="667" alt="image" src="https://github.com/user-attachments/assets/c56a5b05-862f-45f2-a40a-cabe477d5fe6" />
+
+ - CotC often uses invisible NPCs as Quest Nodes, which display path action/FC data when near, see:
+
+<img width="1272" height="714" alt="image" src="https://github.com/user-attachments/assets/b5296bd4-fd61-4d75-a98a-1e05e391b349" />
+
+ - Scenes play out with whatever party member engages the dialogue, not necessarily Zero/the Ringbearer.
+ - Several quest tasks lack purpose text and/or instead use the task title which looks off in OT0.
+ - Many reward types in CotC either work differently in OT0 or aren't functional at all. See [How to add custom quests and events](customqsts_en.md)
+
+### Original Article (CORRECTED)
 <img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/83c68154-8a8e-48b7-822c-c486f53cd60d" />
 
-As can be seen in this messy picture, it is definitely possible to port quests from CotC. The problem lies in porting events, which account for cutscenes, boss fight initiations, dialogue during fights, switches in dungeons and much more besides. Without events, quests are nothing more than their quest markers and rewards.
+_As can be seen in this messy picture, it is definitely possible to port quests from CotC. The problem lies in porting events, which account for cutscenes, boss fight initiations, dialogue during fights, switches in dungeons and much more besides. Without events, quests are nothing more than their quest markers and rewards._
 
-When looking at the EventList asset under `/Game/Content/Local/DataBase/Event/`, one may think once the game loads an event ID, the `m_Name` and `m_Version` keys will resolve into the path `/Game/Content/Local/DataBase/Event/V[m_Version]/[m_Name].[m_Name]` but that unfortunately is not true: Testing shows that the game does not care about these entries and appears to internally associate Event IDs to paths leading to Event assets.
-Furthermore, the same event plays out differently in-game depending on which event asset you patch with new package properties, and especially in which folder it lies.
-For instance, events under VPartychat automatically get the Wishvale tavern as background, VTest is very restrictive in terms of what events can play out there, etc. effectively ignoring the `m_Kind` key in EventList.
-This suggests that it is not possible to add custom events to the game by adding new entries to EventList and we require intercepting the pipeline at the point where the engine has (or is about to use) a full Unreal object path.
+_When looking at the EventList asset under `/Game/Content/Local/DataBase/Event/`, one may think once the game loads an event ID, the `m_Name` and `m_Version` keys will resolve into the path `/Game/Content/Local/DataBase/Event/V[m_Version]/[m_Name].[m_Name]` ~~but that unfortunately is not true~~: ~~Testing shows that the game does not care about these entries and appears to internally associate Event IDs to paths leading to Event assets~~_ **(these keys do resolve into the respective path but appear to be ignored when changed for existing events)**.
 
-I am currently developing a dll mod for UE4SS which does exactly that using PolyHook2, I am using [this mod](https://github.com/UE4SS-RE/RE-UE4SS/tree/main/cppmods/KismetDebuggerMod) as a template.
-I have been extensively using IDA with OT0 IDA mappings generated via Dumper-7 (see the SDK available in the BravelyPath Modular Discord under #resources). So far, I have only been successful with overriding Event IDs at runtime.
+_Furthermore, the same event plays out differently in-game depending on which event asset you patch with new package properties, and especially in which folder it lies._ 
+_For instance, events under VPartychat automatically get the Wishvale tavern as background, VTest is very restrictive in terms of what events can play out there, etc. effectively ignoring the `m_Kind` key in EventList._  **(This seems to still be the case)**
 
-**What has been done:**
-- Interpreter/handler chain is confirmed: The event command dispatcher (`sub_144634800`) routes command 1000 (`EvCmPlayEvent` which is responsible for loading events within events) to: `sub_144623F60` (PlayEvent native handler) 
-- Unfortunately, the resolver is not a path resolver: Inside `sub_144623F60`, it calls `sub_140EFEC60` to convert EventID (int) to a string, that output is a *fixed-size short string* (e.g. `L"9919"`) and cannot hold `/Game/Content/Local/DataBase/Event/...` paths
-- We know where the short key is stored for later systems: Through aggressive logging, I found that `sub_144623F60` stores the key string into an event-manager slot structure:
- - `SlotPtr = BasePtr + SlotIndex * 0x23A0`
- - Key field location: `SlotPtr + 0x250`
-So the downstream system does not re-run the resolver: it consumes the stored key from the slot.
+_~~This suggests that it is not possible to add custom events to the game by adding new entries to EventList and we require intercepting the pipeline at the point where the engine has (or is about to use) a full Unreal object path~~._
 
-Since only the short key is stored (likely because the game has several functions for loading an Event ID, e.g. whether it's through a quest, an NPC, in a battle, in an event itself, etc. and/or so the event system can be late-bound, cached, replicated, queued, or processed by another subsystem later), the game must later do something like:
-1. Read key `L"9919"` from `SlotPtr + 0x250`
-2. Build a full asset path or perform a lookup based on that key
-3. Load/resolve an object (event asset, package, class instance, etc.)
-That "later" function is what we must find. Once we hook that function, we can safely replace the full path (or the object reference) and truly support custom assets.
-
-As the picture below shows, events directly ported from CotC should play out mostly fine so the question of supporting custom event assets is the main problem at play here.
-<img width="869" height="479" alt="image" src="https://github.com/user-attachments/assets/8c7f5483-c143-47fd-9922-88d9fa3093e6" />
-
-
-
-Another issue that may become significant later is how to add new PathActor data to existing OT0 maps, for example by adding new NPCs and objects. This is because custom quests from CotC often have their own set of NPCs and talk lists referencing new PathActors. Implementing this may be very straightforward; I just have yet to try it.
-
-For a guide on the structure of the files under Local/DataBase/Quest and Local/DataBase/Event and how to add new events and quests, please see [How to add custom quests and events](customqsts_en.md).
+_I ~~am currently~~ developing a dll mod for UE4SS which does exactly that using PolyHook2, I am using [this mod](https://github.com/UE4SS-RE/RE-UE4SS/tree/main/cppmods/KismetDebuggerMod) as a template.
+I have been extensively using IDA with OT0 IDA mappings generated via Dumper-7 (see the SDK available in the BravelyPath Modular Discord under #resources). I have managed to override Event IDs at runtime._ **(DISCONTINUED, see earlier commits for details on the dll mod)**
