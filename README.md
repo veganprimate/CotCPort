@@ -77,7 +77,7 @@ When a new update introduces new units, you can recruit them by talking to the s
 ## Contributions
 Everyone is welcome to contribute to this project. Besides the pak, this repository contains extensive documentation on how the various aspects of the mod work, general modding documentation for Octopath Traveler 0, and a list of tasks yet to be completed, along with brief discussions on viable paths for progress.
 Below is a list of the features that have yet to be ported from Champions of the Continent. Each feature links to a markdown file in this repository that explains the current progress on it:
-- [Quests and Events](QuestEvent_Prog_en.md)
+- [~~Quests and Events~~ (SOLVED)](QuestEvent_Prog_en.md)
 - [Effects and Animations](Animations_Prog_en.md)
 - [Objects](Objects_Prog_en.md)
 - [Maps/Areas/Levels](Maps_Prog_en.md)
