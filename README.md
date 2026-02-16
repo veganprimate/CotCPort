@@ -41,7 +41,7 @@ The mod currently supports the following languages:
 ![chargif](https://github.com/user-attachments/assets/00c35b82-3e9c-4810-8d8b-657f2c2a1151)
 
 ## Installation
-Download one of paks ending with `notex` and the `texture` pak under **Releases**, as well as `RecruitEvent_p.pak`. `notex` contains **DataBase files**, `texture` ported **textures and models** from CotC, and `RecruitEvent_p.pak` is a mod that adds a **recruitment event** for **all** newly added 270+ units (see [How to recruit the new travelers](https://github.com/veganprimate/CotCPort/tree/main?tab=readme-ov-file#how-to-recruit-the-new-travelers)). This mod can be removed after recruiting all new units.
+Download one of paks ending with `notex` and the `textures` pak under **Releases**, as well as `RecruitEvent_p.pak`. `notex` contains **DataBase files**, `texture` ported **textures and models** from CotC, and `RecruitEvent_p.pak` is a mod that adds a **recruitment event** for **all** newly added 270+ units (see [How to recruit the new travelers](https://github.com/veganprimate/CotCPort/tree/main?tab=readme-ov-file#how-to-recruit-the-new-travelers)). This mod can be removed after recruiting all new units.
 
 These files are then to be put in the game's **Paks** folder, where this is depends on your **Octopath Traveler 0** version and installation
 ### Steam
