@@ -41,7 +41,7 @@
 ![chargif](https://github.com/user-attachments/assets/00c35b82-3e9c-4810-8d8b-657f2c2a1151)
 
 ## 導入方法
-**Releases** から、ファイル名末尾が `notex` のpakを1つ、`texture` pak、および `RecruitEvent_p.pak` をダウンロードしてください。`notex` には**DataBaseファイル**が、`texture` には『大陸の覇者』から移植した**テクスチャ／モデル**が含まれます。`RecruitEvent_p.pak` は、新たに追加された**270人以上の全旅人**の**加入イベント**を追加するMODです（[新規旅人の加入方法](https://github.com/veganprimate/CotCPort/tree/main?tab=readme-ov-file#how-to-recruit-the-new-travelers) 参照）。このMODは全旅人の加入後に削除して構いません。
+**Releases** から、ファイル名末尾が `notex` のpakを1つ、`texture` pak、および `RecruitEvent_p.pak` をダウンロードしてください。`notex` には**DataBaseファイル**が、`texture` には『大陸の覇者』から移植した**テクスチャ／モデル**が含まれます。`RecruitEvent_p.pak` は、新たに追加された**270人以上の全旅人**の**加入イベント**を追加するMODです（[新規旅人の加入方法](https://github.com/veganprimate/CotCPort/blob/main/README.jp.md#%E6%96%B0%E8%A6%8F%E6%97%85%E4%BA%BA%E3%81%AE%E5%8A%A0%E5%85%A5%E6%96%B9%E6%B3%95) 参照）。このMODは全旅人の加入後に削除して構いません。
 
 これらのファイルはゲームの **Paks** フォルダへ配置します。配置場所は、お使いの『**オクトパストラベラー0**』のバージョン／インストール形態によって異なります。
 
