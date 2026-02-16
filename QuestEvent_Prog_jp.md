@@ -1,38 +1,49 @@
-### **LANGUAGE:**  [English](QuestEvent_Prog_en.md) | [日本語](QuestEvent_Prog_jp.md) | [中文](QuestEvent_Prog_zh.md) | [한국어](QuestEvent_Prog_kr.md)
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/226d0592-5823-490b-a37a-5684fdc9176b" />
+## **LANGUAGE:**  [English](QuestEvent_Prog_en.md) | [日本語](QuestEvent_Prog_jp.md) | [中文](QuestEvent_Prog_zh.md) | [한국어](QuestEvent_Prog_kr.md)
 
-この雑然とした画像からも分かる通り、『オクトパストラベラー 大陸の覇者』（以下「大陸覇者」）からクエストを移植すること自体は確実に可能です。問題はイベントの移植にあります。イベントは、カットシーン、ボス戦の開始、戦闘中の会話、ダンジョン内のスイッチなど、さらに多岐にわたる要素を担っています。イベントがなければ、クエストはクエストマーカーと報酬があるだけの「入れ物」に過ぎません。
+### Update (2/07/2026)
+**MioJoin** mod の制作中に MarvinCx886 が発見した内容のおかげで、イベントの移植が可能になりました。単に私が、イベントアセットのメタデータを新しいパスに合わせて変更し忘れていただけでした。これは [UAssetGUI](https://github.com/atenfyr/UAssetGUI/releases/tag/experimental-latest) と、『オクトパストラベラー0』の Unreal Mappings を使えば修正できます。`EventList` 内の `m_Name` と `m_Version` は、確かに `/Game/Content/Local/DataBase/Event/V[m_Version]/[m_Name].[m_Name]` というパスに解決されます。
 
-`/Game/Content/Local/DataBase/Event/` 配下の EventList アセットを見ると、ゲームがイベントIDを読み込む際に、`m_Name` と `m_Version` がパス `/Game/Content/Local/DataBase/Event/V[m_Version]/[m_Name].[m_Name]` に解決されるのではないか、と考えてしまいがちです。しかし残念ながら、そうではありません。テストの結果、ゲームはこれらのエントリを参照しておらず、イベントIDをイベントアセットへと至るパスに内部的に紐付けているように見えます。
+さらに、OT0 のマップの多くには CotC（大陸の覇者）のデータが未使用のまま残っていることがあります。たとえば、ゲーム内に存在しないNPC（例：プロメ）の配置位置やコリジョン情報などです（`QuTr_PC148_01_01` 参照）。これらのオブジェクトは、該当する `NpcSetList` の `m_AppearLabel` から参照でき、定義済みのコリジョンデータ付きでその場所にNPCをスポーンさせられます。
 
-さらに、同じイベントであっても、どのイベントアセットに対して新しい package プロパティをパッチするか、そして特に「どのフォルダに置かれているか」によって、ゲーム内での再生内容が変わります。
-たとえば VPartychat 配下のイベントは自動的に Wishvale の酒場が背景になり、VTest はそこで再生できるイベントの種類が非常に制限されます。つまり EventList の `m_Kind` キーは事実上無視されている、ということになります。
+<img width="1113" height="824" alt="image" src="https://github.com/user-attachments/assets/37b0af5c-c866-4ad6-b1c0-4d48986eba21" />
 
-このことから、EventList に新規エントリを追加するだけではゲームにカスタムイベントを追加できないと考えられます。エンジンが（あるいはこれから）完全な Unreal のオブジェクトパスを使用する、その地点でパイプラインをフック（介入）する必要があります。
+`.../Local/DataBase/Quest/` および `.../Local/DataBase/Event/` 配下ファイルの構造と、新しいイベント／クエストの追加方法に関する詳細チュートリアルは近日公開予定です：  
+[How to add custom quests and events](customqsts_en.md)
 
-私は現在、UE4SS 用の dll モッドを開発しており、PolyHook2 を用いてまさにそれを実現しようとしています。テンプレートとしては、[このモッド](https://github.com/UE4SS-RE/RE-UE4SS/tree/main/cppmods/KismetDebuggerMod) を使用しています。
-また、Dumper-7 で生成した OT0 の IDA マッピング（#resources にある SDK を参照。BravelyPath Modular Discord 内にあります）を用い、IDA による解析も継続的に行っています。現時点で成功しているのは、実行時（runtime）にイベントIDを上書きするところまでです。
+#### Current Issues
+現在の主な課題は、既存マップへの新規NPC追加と、完全新規エリアの移植に大きく移っています。詳細は [**マップ／エリア／レベル**](Maps_Prog_jp.md) を参照してください。
 
-**これまでに判明していること（実装済み/確認済みの内容）：**
-- インタプリタ／ハンドラのチェーンを確認：イベントコマンドのディスパッチャ（`sub_144634800`）は、コマンド 1000（イベント内でイベントをロードする役割を持つ `EvCmPlayEvent`）を `sub_144623F60`（PlayEvent のネイティブハンドラ）へルーティングします。
-- しかし残念ながら、リゾルバは「パスリゾルバ」ではありません：`sub_144623F60` の内部では、EventID（int）を文字列に変換するために `sub_140EFEC60` を呼び出しますが、その出力は *固定長の短い文字列*（例：`L"9919"`）であり、`/Game/Content/Local/DataBase/Event/...` のようなパスは保持できません。
-- 短いキーが後段のシステムで使われること、そしてその格納先を特定：詳細なロギングにより、`sub_144623F60` がキー文字列をイベントマネージャのスロット構造体に格納していることが分かりました。
-  - `SlotPtr = BasePtr + SlotIndex * 0x23A0`
-  - キーフィールドの位置：`SlotPtr + 0x250`
-  したがって後段システム側はリゾルバを再実行しておらず、スロットに保存されたキーをそのまま消費しています。
+また、OT0 上で正しく表示・動作させるために、イベント／クエスト／敵／NPCデータの多くを手動で調整する必要があります：
+ - 移植したイベント内のNPCが、誤った方向を向いてしまうことがある
 
-保存されるのが短いキーのみである（おそらく、イベントIDを読み込む経路が複数存在するため――例：クエスト経由、NPC 経由、戦闘中、イベント内からの呼び出し等――またはイベントシステムを late-bind 可能にしたり、キャッシュ／レプリケーション／キューイングしたり、後で別サブシステムで処理したりする必要があるため）以上、ゲームは後段でおそらく次のような処理を行っているはずです：
-1. `SlotPtr + 0x250` からキー `L"9919"` を読み出す
-2. そのキーに基づいてフルのアセットパスを組み立てる、またはルックアップを行う
-3. オブジェクト（イベントアセット、パッケージ、クラスインスタンス等）をロード／解決する
+<img width="1167" height="649" alt="image" src="https://github.com/user-attachments/assets/a748fc6a-52a2-4223-ab8c-1e09743ae8e7" />
 
-この「後段」の関数こそが探し当てるべき対象です。その関数をフックできれば、フルパス（もしくはオブジェクト参照）を安全に差し替えることができ、真にカスタムアセットをサポートできるようになります。
+ - CotCから移植したクエストの会話で「**はい／いいえ**」の選択肢が出る場合、OT0とは逆に、デフォルトで上側の選択肢が「いいえ」になってしまい、どちらを選んでもSEが不自然になる。キャンセル時のカーソル位置も誤った位置に戻る
+ - 推奨レベルが、ボスの強さに対して概ね20〜30レベル高すぎる
+ - CotC由来のボスは、概ねEXPが多すぎる（例：神官クラトスはHP約10万の弱めのボスだが、EXP 12,000を得られた。OT0のオル・サザントスの約3倍）
+ - CotCから移植したクエストNPCは、デフォルトで奇妙なFCデータ（フィールドコマンド関連データ？）を持っていることが多い。例：
 
-下の画像が示す通り、大陸覇者から直接移植したイベントは概ね問題なく再生できるはずなので、ここでの主問題は「カスタムのイベントアセットをサポートすること」にあります。
-<img width="869" height="479" alt="image" src="https://github.com/user-attachments/assets/3f78d13d-5a4d-4038-b414-37046a22bce5" />
+<img width="1239" height="667" alt="image" src="https://github.com/user-attachments/assets/c56a5b05-862f-45f2-a40a-cabe477d5fe6" />
 
+ - CotCでは、不可視NPCを「クエストノード」として使うことが多く、近づくとパスアクション／FCデータが表示されてしまう。例：
 
+<img width="1272" height="714" alt="image" src="https://github.com/user-attachments/assets/b5296bd4-fd61-4d75-a98a-1e05e391b349" />
 
-将来的に重要になり得る別の問題として、OT0 の既存マップに新しい PathActor データを追加する方法があります。たとえば、新しい NPC やオブジェクトを追加する、といったケースです。大陸覇者由来のカスタムクエストは、独自の NPC 一式と、新規 PathActor を参照する会話リストを持つことが多いためです。実装自体は非常に単純かもしれませんが、まだ試していません。
+ - シーンが、会話を開始したパーティメンバーを基準に進行してしまい、必ずしもゼロ／指輪の担い手（Ringbearer）にならない
+ - クエストタスクのいくつかで「目的文」が存在しない、または目的文の代わりにタスクタイトルが表示され、OT0では不自然に見える
+ - CotCの報酬タイプの多くは、OT0では挙動が異なる／あるいはそもそも機能しない。詳細は [How to add custom quests and events](customqsts_en.md) を参照
 
-Local/DataBase/Quest および Local/DataBase/Event 配下のファイル構造、ならびに新しいイベント／クエストの追加方法については、[カスタムクエストとイベントを追加する方法](customqsts_jp.md) を参照してください。
+### Original Article (CORRECTED)
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/226d0592-5823-490b-a37a-5684fdc9176b" />
+
+_この見づらい画像からも分かる通り、CotC（大陸の覇者）からクエストを移植すること自体は確実に可能です。問題はイベントの移植にあります。イベントは、カットシーン、ボス戦の開始、戦闘中の会話、ダンジョン内スイッチなど、さらに多くの要素を担っています。イベントがなければ、クエストはクエストマーカーと報酬だけの存在に過ぎません。_
+
+_`/Game/Content/Local/DataBase/Event/` 配下の `EventList` アセットを見ると、ゲームがイベントIDをロードした時点で `m_Name` と `m_Version` が `/Game/Content/Local/DataBase/Event/V[m_Version]/[m_Name].[m_Name]` に解決されるように思えますが、~~残念ながらそうではありません~~：~~テストの結果、ゲームはこれらのエントリを参照しておらず、イベントIDをイベントアセットへのパスに内部的に関連付けているように見えます~~_ **（これらのキーは該当パスに解決されますが、既存イベントに対して変更しても無視されるようです）**。
+
+_さらに、同じイベントであっても、どのイベントアセットに新しい package プロパティをパッチするか、そして特にどのフォルダに置かれているかによって、ゲーム内での再生内容が変化します。_  
+_たとえば VPartychat 配下のイベントは自動的に Wishvale の酒場が背景になり、VTest はそこで再生できるイベントが非常に制限されるなど、実質的に `EventList` の `m_Kind` キーを無視している挙動になります。_ **（これは現在も同様のようです）**
+
+_~~これは、EventList に新規エントリを追加するだけではカスタムイベントを追加できず、エンジンが（あるいはこれから）完全な Unreal オブジェクトパスを使用する地点でパイプラインをフック（介入）する必要があることを示唆します~~。_
+
+_私は ~~現在~~ PolyHook2 を用いてそれを実現する UE4SS 用の dll mod を開発していました。テンプレートとしては [このmod](https://github.com/UE4SS-RE/RE-UE4SS/tree/main/cppmods/KismetDebuggerMod) を使用しています。  
+また、Dumper-7 で生成したOT0のIDAマッピング（BravelyPath Modular Discord の #resources にあるSDKを参照）を使い、IDAで広範に解析していました。実行時にイベントIDを上書きするところまで到達しています。_ **（中止：dll mod の詳細は過去コミットを参照してください）**
