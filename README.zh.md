@@ -41,7 +41,7 @@
 ![chargif](https://github.com/user-attachments/assets/00c35b82-3e9c-4810-8d8b-657f2c2a1151)
 
 ## 安装
-请在 **Releases** 中下载一个文件名以 `notex` 结尾的 pak、`texture` pak，以及 `RecruitEvent_p.pak`。`notex` 包含 **DataBase 文件**；`texture` 包含从《大陆的霸者》移植的**贴图与模型**；`RecruitEvent_p.pak` 则是一个用于为所有新增的 270+ 名旅人添加**招募事件**的 MOD（详见[如何招募新增的旅人](https://github.com/veganprimate/CotCPort/tree/main?tab=readme-ov-file#how-to-recruit-the-new-travelers)）。该 MOD 在招募完所有新增角色后可以移除。
+请在 **Releases** 中下载一个文件名以 `notex` 结尾的 pak、`texture` pak，以及 `RecruitEvent_p.pak`。`notex` 包含 **DataBase 文件**；`texture` 包含从《大陆的霸者》移植的**贴图与模型**；`RecruitEvent_p.pak` 则是一个用于为所有新增的 270+ 名旅人添加**招募事件**的 MOD（详见[如何招募新增的旅人](https://github.com/veganprimate/CotCPort/blob/main/README.zh.md#%E5%A6%82%E4%BD%95%E6%8B%9B%E5%8B%9F%E6%96%B0%E5%A2%9E%E7%9A%84%E6%97%85%E4%BA%BA)）。该 MOD 在招募完所有新增角色后可以移除。
 
 随后，将这些文件放入游戏的 **Paks** 文件夹。具体路径取决于你的 **Octopath Traveler 0** 版本与安装方式。
 
