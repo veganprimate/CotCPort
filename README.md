@@ -26,7 +26,7 @@
 
 
 A mod for **Octopath Traveler 0** that aims to port as much content as possible from **Octopath Traveler: Champions of the Continent** (Global, Japanese, and Chinese versions) and possibly the other Octopath games too.
-- Play all **270+ units** from CotC with their **complete skill boards**, including **7 custom new units** (Nomos the Scholar, Fra, Pierro, Fried, Hugo, Gimel, Mattias, and Miguel from Octopath Traveler 1)
+- Play all **270+ units** from CotC with their **complete skill boards**, including **8 custom new units** (Nomos the Scholar, Fra, Pierro, Fried, Hugo, Gimel, Mattias, and Miguel from Octopath Traveler 1)
 - Fight against hundreds of **new bosses** from CotC in the **Monster Arena**
 - Unlock dozens of **new accessories** and **equipment** from CotC by beating the new enemies in the Monster Arena
 - Play through several **new quests** from CotC including characters' **Traveler Stories**
