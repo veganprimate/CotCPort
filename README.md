@@ -138,6 +138,9 @@ Below is a list of **tutorials and resources** for this mod, to make it easier f
 - [How to add or modify quests and events (WIP)](customqsts_en.md)
 - [How to add or modify skills, ailments, and avails (WIP)](customskls_en.md)
 
+#### Variety of resources (unordered)
+ - [Asset naming conventions in OT0 and CotC](https://github.com/veganprimate/CotCPort/blob/main/AssetNamingConv_en.txt)
+
 ## Contact
 I can be reached in the **BravelyPath Modular Discord** under the **#cotc-characters-mod** channel alongside several other contributors and modders: https://discord.com/invite/t43Kbrp 
 
