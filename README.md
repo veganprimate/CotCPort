@@ -149,6 +149,8 @@ Below is a list of **tutorials and resources** for this mod, to make it easier f
  - [All 894 hub assets connecting 3+ folders (CotC JP)](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/hub_assets.csv)
  - [Assets with no resolved referenced (CotC JP)](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/isolated_assets.csv)
  - [VFX files ranked by complexity (CotC JP)](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/particle_complexity_rating.csv)
+ - [DataBase assets and their keys with `m_id` ranges + number of entries (CotC JP)](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/Database_schema_CotC.txt): might be useful for quicker reference, and comparing keys across different DataBase assets
+ - Player IDs (`m_PlayerID`, `CharaPlayerID.m_id`, etc.) and the associated English character names in [the CotCPort](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/PlayerID_names_CotCPort.txt) and [OT0](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/PlayerID_names_OT0.txt)
 
 ## Contact
 I can be reached in the **BravelyPath Modular Discord** under the **#cotc-characters-mod** channel alongside several other contributors and modders: https://discord.com/invite/t43Kbrp 
