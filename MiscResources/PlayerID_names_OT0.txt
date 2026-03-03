@@ -1,0 +1,73 @@
+# CharaPlayer.m_id	CharaPlayer.m_Name	english_text
+0	28500	no data.
+900	900	<chara_name>
+901	900	<chara_name>
+902	900	<chara_name>
+903	900	<chara_name>
+904	900	<chara_name>
+905	900	<chara_name>
+906	900	<chara_name>
+907	900	<chara_name>
+908	900	<chara_name>
+909	900	<chara_name>
+1001	116290	Princess Elrica
+1002	116291	Princess Alaune
+1003	28568	Bargello
+1004	28570	Pierro Della
+1005	28571	Fra
+1006	116345	Sazantos the Flameguard
+1007	116345	Sazantos the Flameguard
+1008	116345	Sazantos the Flameguard
+1009	116345	Sazantos the Flameguard
+1010	11206	Laurana
+1011	28500	no data.
+2008	50101	Sazantos
+2009	50201	El
+2010	50101	Sazantos
+10101	10101	Viator
+10201	10201	Reime
+10302	10302	Ludo
+10402	10402	Carinda
+10503	10503	Celsus
+10603	10603	Heidne
+10704	10704	Esperre
+10804	10804	Macy
+10905	10905	Phenn
+11005	11005	Delitia
+11106	11106	Pius
+11206	11206	Laurana
+11216	11206	Laurana
+11307	11307	Xerc
+11407	11407	Alexia
+11508	11508	Goodwin
+11608	11608	Saoirse
+20101	20101	Olberic
+20202	20202	Tressa
+20303	20303	Therion
+20404	20404	Alfyn
+20505	20505	H'aanit
+20606	20606	Ophilia
+20707	20707	Cyrus
+20808	20808	Primrose
+30103	30103	Bargello
+30207	30207	Alaune
+30301	30301	Richard
+30407	30407	Solon
+30501	30501	Eltrix
+30701	30701	Rondo
+30808	30808	Tatloch
+40204	40204	Stia
+40214	40204	Stia
+50101	50101	Sazantos
+50111	50101	Sazantos
+50112	50101	Sazantos
+50201	50201	El
+60107	60107	Isla
+60108	116321	Richard
+60109	10603	Heidne
+60110	20303	Therion
+60111	20404	Alfyn
+60112	20101	Olberic
+60113	50101	Sazantos
+60114	50101	Sazantos
+60115	50101	Sazantos
