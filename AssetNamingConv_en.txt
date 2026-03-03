@@ -1,0 +1,17 @@
+Emd = Enemy Data (sprite frames)
+ChrTX/ChrAnimTX = Character Texture/Animation Texture
+ObjMD/ObjTX/ObjMI = Object Mesh/Texture/Material Instance
+EnvObjMD/EnvMdrMD/EnvBdgMD = Environment Object/Modular/Building Mesh
+FxPS = FX Particle System
+FxMii = FX Material Instance (Inherited)
+FxTX/FxMD = FX Texture/Mesh
+UiTX = UI Texture
+MapLv = Map Level
+MmeTX/MmeMD = Map Editor Texture/Mesh
+BPI = Blueprint Interface/Implementation
+CueSheet = CriWare Audio Cue Sheet
+_cl = Color/Diffuse map
+_no = Normal map
+_M = Mask/Metallic
+_DR = Displacement/Roughness
+_A/_B/_C = Variants
