@@ -139,7 +139,16 @@ Below is a list of **tutorials and resources** for this mod, to make it easier f
 - [How to add or modify skills, ailments, and avails (WIP)](customskls_en.md)
 
 #### Variety of resources (unordered)
- - [Asset naming conventions in OT0 and CotC](https://github.com/veganprimate/CotCPort/blob/main/AssetNamingConv_en.txt)
+ - [Asset naming conventions in OT0 and CotC](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/naming_convention_glossary.csv)
+ - ["World Area → Folder" dependencies (CotC JP)](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/area_dependencies.csv)
+ - [Asset Inventory](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/asset_inventory.csv): contains all 68,354 assets from JP CotC with metadata
+ - [Unreal Object Class frequency (CotC JP)](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/class_frequency.csv)
+ - [Unreal Object Type frequency (CotC JP)](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/type_frequency.csv)
+ - [Top 200 most connected assets (CotC JP)](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/critical_shared_assets.csv)
+ - [Folder-to-folder reference counts (CotC JP)](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/cross_folder_ref_matrix.csv)
+ - [All 894 hub assets connecting 3+ folders (CotC JP)](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/hub_assets.csv)
+ - [Assets with no resolved referenced (CotC JP)](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/isolated_assets.csv)
+ - [VFX files ranked by complexity (CotC JP)](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/particle_complexity_rating.csv)
 
 ## Contact
 I can be reached in the **BravelyPath Modular Discord** under the **#cotc-characters-mod** channel alongside several other contributors and modders: https://discord.com/invite/t43Kbrp 
