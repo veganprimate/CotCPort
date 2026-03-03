@@ -1,0 +1,39 @@
+prefix,description,file_count
+Emd,"Enemy Data (sprite/animation frames)",9906
+UiTX,"UI Texture",8042
+ObjMD,"Object Mesh Data (3D models)",3656
+MapLv,"Map Level (level streaming)",3539
+ChrTX,"Character Texture",3236
+Co,"Coordinate/Configuration data",2663
+ObjTX,"Object Texture",2158
+Eff,"Effect asset",1898
+ObpMD,"Object Prop Mesh Data",1597
+ObjMI,"Object Material Instance",1533
+FxMii,"FX Material Instance (inherited)",1478
+FxPS,"FX Particle System",1210
+BPI,"Blueprint Interface/Implementation",999
+EnvObjMD,"Environment Object Mesh Data",861
+EnvMdrMD,"Environment Modular Mesh Data",775
+ChrAnimTX,"Character Animation Texture",617
+EnvObjTX,"Environment Object Texture",594
+CueSheet,"Audio Cue Sheet (CriWare)",569
+FxTX,"FX Texture",524
+FxMD,"FX Mesh Data",510
+NpcSetList,"NPC Set/Configuration List",445
+NpcTalkList,"NPC Dialog/Talk List",413
+EnvObjMi,"Environment Object Material Instance",373
+MmeTX,"Map Editor Texture",353
+EnvMdrTX,"Environment Modular Texture",349
+ObpTX,"Object Prop Texture",347
+EnvMdrMi,"Environment Modular Material Instance",316
+EnvBdgMD,"Environment Building Mesh Data",314
+MbdMD,"Map Building Mesh Data",300
+ObpMI,"Object Prop Material Instance",259
+EnvBdgTX,"Environment Building Texture",198
+MmeMD,"Map Editor Mesh Data",192
+BP,"Blueprint",169
+MI,"Material Instance",364
+M,"Material (master)",240
+T,"Texture",469
+QP,"Game-specific prefix (Kingship)",227
+Seq,"Sequence (Matinee/Sequencer)",190
