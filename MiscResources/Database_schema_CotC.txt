@@ -1,0 +1,5278 @@
+TABLE: AIBattle/TacticalActionList.json
+  Records: 22661
+  m_id range: 0 - 58201
+  Fields (15):
+    - m_id
+    - m_TacticalList
+    - m_SkillIndex
+    - m_FriendlyIndex
+    - m_SelectType
+    - m_TurnCount
+    - m_GroupIndex
+    - m_Conditions
+    - m_Params
+    - m_AilmentTypes
+    - m_StatusTypes
+    - m_WeaponTypes
+    - m_MagicTypes
+    - m_AutoDungeonBuff
+    - m_AutoDungeonBuffType
+
+TABLE: AIBattle/TacticalAssignList.json
+  Records: 1268
+  m_id range: 0 - 30862
+  Fields (2):
+    - m_id
+    - m_Tactics
+
+TABLE: AIBattle/TacticalList.json
+  Records: 7749
+  m_id range: 0 - 25899
+  Fields (15):
+    - m_id
+    - m_Presage
+    - m_PresageSkillID
+    - m_OnEventFlgIndex
+    - m_OnEventFlgArray
+    - m_OffEventFlgIndex
+    - m_OffEventFlgArray
+    - m_Conditions
+    - m_Params
+    - m_AilmentTypes
+    - m_StatusTypes
+    - m_WeaponTypes
+    - m_MagicTypes
+    - m_AutoDungeonBuff
+    - m_AutoDungeonBuffType
+
+TABLE: AIBattle/TacticalSkillList.json
+  Records: 3916
+  m_id range: 0 - 52712
+  Fields (2):
+    - m_id
+    - m_UseSkills
+
+TABLE: Ad/AdItemRewardGroupList.json
+  Records: 10
+  m_id range: 13 - 22
+  Fields (7):
+    - m_id
+    - m_ad_itemreward_list_id
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardNum
+    - m_rate
+    - m_PerformanceType
+
+TABLE: Ad/AdItemRewardList.json
+  Records: 2
+  m_id range: 0 - 2
+  Fields (4):
+    - m_id
+    - m_begin_timestamp
+    - m_end_timestamp
+    - m_view_limit
+
+TABLE: Arena/ArenaList.json
+  Records: 27
+  m_id range: 0 - 32
+  Fields (14):
+    - m_id
+    - m_NameID
+    - m_TypeID
+    - m_PreID
+    - m_IntervalTime
+    - m_Slot
+    - m_R1
+    - m_R2
+    - m_StartEvent
+    - m_EndEvent
+    - m_CondID
+    - m_StartTimestamp
+    - m_EndTimestamp
+    - m_WorldMode
+
+TABLE: Arena/ArenaNpcList.json
+  Records: 174
+  m_id range: 1 - 10134
+  Fields (5):
+    - m_id
+    - m_NpcID
+    - m_JobID
+    - m_Nickname
+    - m_Enemyname
+
+TABLE: Arena/ArenaResetGroupList.json
+  Records: 4
+  m_id range: 0 - 5
+  Fields (1):
+    - m_id
+
+TABLE: Arena/ArenaRewardList.json
+  Records: 105
+  m_id range: 0 - 120
+  Fields (4):
+    - m_id
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+
+TABLE: Arena/ArenaRoundList.json
+  Records: 105
+  m_id range: 0 - 120
+  Fields (7):
+    - m_id
+    - m_ArenaID
+    - m_Round
+    - m_Level
+    - m_BattleEvent
+    - m_EnemyGroupID
+    - m_RewardID
+
+TABLE: Arena/ArenaTypeID.json
+  Records: 3
+  m_id range: 0 - 2
+  Fields (2):
+    - m_id
+    - m_TextID
+
+TABLE: AutoDungeon/AutoDungeonBuffChoiceList.json
+  Records: 553
+  m_id range: 0 - 1760
+  Fields (8):
+    - m_id
+    - m_MinFloorNum
+    - m_MaxFloorNum
+    - m_BuffID
+    - m_RateRankA
+    - m_RateRankB
+    - m_RateRankC
+    - m_DungeonTag
+
+TABLE: AutoDungeon/AutoDungeonBuffList.json
+  Records: 95
+  m_id range: 0 - 375
+  Fields (15):
+    - m_id
+    - m_BuffType
+    - m_Rank
+    - m_MaxLv
+    - m_Name
+    - m_Detail
+    - m_EffectValue
+    - m_EffectValue2
+    - m_EnemyParamRate
+    - m_Influence
+    - m_JobType
+    - m_BuffParam
+    - m_WorldMode
+    - m_PointRate
+    - m_EffectiveRiskEnemy
+
+TABLE: AutoDungeon/AutoDungeonBuffRank.json
+  Records: 5
+  m_id range: 0 - 4
+  Fields (3):
+    - m_id
+    - m_Lv
+    - m_Total
+
+TABLE: AutoDungeon/AutoDungeonBuffType.json
+  Records: 34
+  m_id range: 0 - 33
+  Fields (4):
+    - m_id
+    - m_Name
+    - m_Detail
+    - m_Sort
+
+TABLE: AutoDungeon/AutoDungeonCharaList.json
+  Records: 1
+  m_id range: 0 - 0
+  Fields (4):
+    - m_id
+    - m_PlayerID
+    - m_AddBuffNum
+    - m_AddExpRate
+
+TABLE: AutoDungeon/AutoDungeonEnemyBaseParamList.json
+  Records: 161
+  m_id range: 0 - 280
+  Fields (13):
+    - m_id
+    - m_Lv
+    - m_Sld
+    - m_HP
+    - m_Atk
+    - m_Def
+    - m_AtkM
+    - m_DefM
+    - m_Agi
+    - m_Crt
+    - m_CrtDef
+    - m_EquipAtk
+    - m_Exp
+
+TABLE: AutoDungeon/AutoDungeonEnemyEncountList.json
+  Records: 2212
+  m_id range: 0 - 4085
+  Fields (5):
+    - m_id
+    - m_EncountType
+    - m_EnemyGroupID
+    - m_DungeonTag
+    - m_CatEnemyFlg
+
+TABLE: AutoDungeon/AutoDungeonEventList.json
+  Records: 5
+  m_id range: 0 - 9
+  Fields (4):
+    - m_id
+    - m_AutoDungeonDifficultyID
+    - m_ClearFloor
+    - m_EventID
+
+TABLE: AutoDungeon/AutoDungeonFloorRateList.json
+  Records: 14
+  m_id range: 0 - 37
+  Fields (10):
+    - m_id
+    - m_AutoDungeonID
+    - m_FloorNum
+    - m_Rate
+    - m_FloorSizeRate
+    - m_GetBuffRank1
+    - m_GetBuffRank2
+    - m_BuffRankUpCount
+    - m_StartUpEnemyParamLv
+    - m_StartUpEnemyRiskStepSubRate
+
+TABLE: AutoDungeon/AutoDungeonIslandList.json
+  Records: 19
+  m_id range: 0 - 40
+  Fields (5):
+    - m_id
+    - m_SizeX
+    - m_SizeY
+    - m_ObjectID
+    - m_IslandType
+
+TABLE: AutoDungeon/AutoDungeonIslandType.json
+  Records: 2
+  m_id range: 0 - 3
+  Fields (2):
+    - m_id
+    - m_RoadObjectID
+
+TABLE: AutoDungeon/AutoDungeonList.json
+  Records: 4
+  m_id range: 0 - 10
+  Fields (39):
+    - m_id
+    - m_DungeonNameID
+    - m_FloorNum
+    - m_InitialFloorLv
+    - m_MaxFloorLv
+    - m_AscendFloorMinLv
+    - m_AscendFloorMaxLv
+    - m_FloorWidthMinSize
+    - m_FloorWidthMaxSize
+    - m_SubContentsOnly
+    - m_SubContentsStartTimestamp
+    - m_MapID
+    - m_StartTimestamp
+    - m_EndTimestamp
+    - m_ClearPoint
+    - m_AutoDungeonParamID
+    - m_RewardGroup
+    - m_MoneyPointRate
+    - m_UnidentifiedGroup
+    - m_IslandType
+    - m_OverrideMoneyName
+    - m_DungeonTag
+    - m_WeakID
+    - m_BossEnemyGroupID
+    - m_RiskEnemyGroupID
+    - m_SpecialChara
+    - m_NormalFloorBGM
+    - m_TreasureBoxFloorBGM
+    - m_EnemyFloorBGM
+    - m_LastFloorBGM
+    - m_RandomEnemyBGM
+    - m_SymbolEnemyBGM
+    - m_RiskEnemyBGM
+    - m_BossEnemyBGM
+    - m_BattleMapID
+    - m_WorldMode
+    - m_FieldSkillGroupID
+    - m_SymbolFieldSkillGroupID
+    - m_RiskFieldSkillGroupID
+
+TABLE: AutoDungeon/AutoDungeonLvRangeList.json
+  Records: 60
+  m_id range: 31 - 90
+  Fields (5):
+    - m_id
+    - m_Lv
+    - m_MinLv
+    - m_MaxLv
+    - m_AutoDungeonParamID
+
+TABLE: AutoDungeon/AutoDungeonParamList.json
+  Records: 8
+  m_id range: 0 - 13
+  Fields (27):
+    - m_id
+    - m_EnemyFloorAppearRate
+    - m_EnemyFloorAppearLowRate
+    - m_EnemyFloorAppearLowNum
+    - m_TreasureBoxFloorAppearRate
+    - m_TreasureBoxFloorAppearLowRate
+    - m_TreasureBoxFloorAppearLowNum
+    - m_TreasureBoxAppearCoefMinNormalFloor
+    - m_TreasureBoxAppearCoefMaxNormalFloor
+    - m_TreasureBoxAppearCoefMinTreasureBoxFloor
+    - m_TreasureBoxAppearCoefMaxTreasureBoxFloor
+    - m_TreasureBoxAppearBuffAddMaxNum
+    - m_SymbolEnemyAppearCoefMinNormalFloor
+    - m_SymbolEnemyAppearCoefMaxNormalFloor
+    - m_SymbolEnemyAppearCoefMinEnemyFloor
+    - m_SymbolEnemyAppearCoefMaxEnemyFloor
+    - m_EnemyMoneyCoef
+    - m_CatEnemyMoneyCoef
+    - m_SymbolEnemyMoneyCoef
+    - m_CatEnemyAppearRate
+    - m_ConsecutiveBattleCatEnemyAppearRate
+    - m_BuffShopAppearRateBase
+    - m_BuffShopAppearRateAdd
+    - m_BuffShopAppearRateMax
+    - m_HealShopAppearRateBase
+    - m_HealShopAppearRateAdd
+    - m_HealShopAppearRateMax
+
+TABLE: AutoDungeon/AutoDungeonPointItemList.json
+  Records: 5
+  m_id range: 0 - 9
+  Fields (3):
+    - m_id
+    - m_Name
+    - m_Point
+
+TABLE: AutoDungeon/AutoDungeonRiskEnemyEscapeList.json
+  Records: 21
+  m_id range: 0 - 20
+  Fields (2):
+    - m_id
+    - m_RiskEnemyEncount
+
+TABLE: AutoDungeon/AutoDungeonTreasureBoxList.json
+  Records: 199
+  m_id range: 0 - 420
+  Fields (8):
+    - m_id
+    - m_MinFloorNum
+    - m_MaxFloorNum
+    - m_Rank
+    - m_TreasureBoxRewardType
+    - m_TreasureBoxRewardItemID
+    - m_TreasureBoxRewardItemNum
+    - m_DungeonTag
+
+TABLE: AutoDungeon/AutoDungeonTreasureBoxRank.json
+  Records: 5
+  m_id range: 0 - 4
+  Fields (5):
+    - m_id
+    - m_NormalTreasureBoxRate
+    - m_KeyTreasureBoxRate
+    - m_SpecialKeyTreasureBoxRate
+    - m_GimmickTreasureBoxRate
+
+TABLE: AutoDungeon/AutoDungeonTreasureBoxRewardType.json
+  Records: 9
+  m_id range: 0 - 8
+  Fields (4):
+    - m_id
+    - m_RewardID
+    - m_ItemName
+    - m_IconTexture
+
+TABLE: AutoDungeon/AutoDungeonUnidentifiedAppearList.json
+  Records: 71
+  m_id range: 0 - 89
+  Fields (6):
+    - m_id
+    - m_AutoDungeoID
+    - m_DifficultyLevel
+    - m_FloorNum
+    - m_AppearMinNum
+    - m_AppearMaxNum
+
+TABLE: AutoDungeon/AutoDungeonUnidentifiedRatioList.json
+  Records: 29
+  m_id range: 0 - 42
+  Fields (10):
+    - m_id
+    - m_AutoDungeoID
+    - m_DifficultyLevel
+    - m_StartFloorNum
+    - m_EndFloorNum
+    - m_LegendaryRatio
+    - m_EpicRatio
+    - m_RareRatio
+    - m_CommonRatio
+    - m_AppearTreasureBoxRate
+
+TABLE: AutoDungeon/AutoDungeonUnidentifiedType.json
+  Records: 4
+  m_id range: 0 - 3
+  Fields (5):
+    - m_id
+    - m_ItemName
+    - m_IconTexture
+    - m_IconTextureS
+    - m_IconTextureSS
+
+TABLE: Battle/BattleAbortConditions.json
+  Records: 46
+  m_id range: 0 - 48
+  Fields (8):
+    - m_id
+    - m_Conditions
+    - m_Params
+    - m_AilmentTypes
+    - m_StatusTypes
+    - m_WeaponTypes
+    - m_MagicTypes
+    - m_EnemyID
+
+TABLE: Battle/BattleActionID.json
+  Records: 355
+  m_id range: 0 - 407
+  Fields (3):
+    - m_id
+    - m_AnimationID
+    - m_UseNPC
+
+TABLE: Battle/BattleCameraParams.json
+  Records: 15
+  m_id range: 0 - 39
+  Fields (14):
+    - m_id
+    - m_PosotionX
+    - m_PosotionY
+    - m_PosotionZ
+    - m_RotationX
+    - m_RotationY
+    - m_FOV
+    - m_FocalDistance
+    - m_FocalRegion
+    - m_NearTransition
+    - m_FarTransition
+    - m_NearBlurSize
+    - m_FarBlurSize
+    - m_Scale
+
+TABLE: Battle/BattleEventCommand.json
+  Records: 732
+  m_id range: 0 - 840
+  Fields (55):
+    - m_id
+    - m_NextWait
+    - m_PerformerID
+    - m_PerformerIsLeader
+    - m_PerformerEnemy
+    - m_NoName
+    - m_NameID
+    - m_BalloonType
+    - m_NoTail
+    - m_BaloonOffsetX
+    - m_BaloonOffsetY
+    - m_BaloonPedestalPosition
+    - m_TextID
+    - m_AnimID
+    - m_DirID
+    - m_SoundID
+    - m_SoundHandle
+    - m_EffectID
+    - m_EffectHandle
+    - m_EffectPosition
+    - m_BgmID
+    - m_FadeTime
+    - m_SkipPlayPauseBGM
+    - m_SkillID
+    - m_TargetID
+    - m_isSwitchActionSkip
+    - m_isWaitSkillTime
+    - m_PlayBgmBlock
+    - m_isRewriteIdleMotion
+    - m_OnEventFlgIndex
+    - m_OffEventFlgIndex
+    - m_TextureChangeEnemyIdx
+    - m_ChangeEnemyTextureIdx
+    - m_TextureChangeTime
+    - m_EnableTarget
+    - m_EnableAction
+    - m_Fade
+    - m_DisplayFadeTime
+    - m_FadeColorR
+    - m_FadeColorG
+    - m_FadeColorB
+    - m_EnemyPartsIndex
+    - m_EnemyPartsDisplay
+    - m_NarrationID
+    - m_IsNextNarrationPage
+    - m_BlackoutNarration
+    - m_NarrationColorR
+    - m_NarrationColorG
+    - m_NarrationColorB
+    - m_EnableRetire
+    - m_DisableGameOver
+    - m_LastBattleMapColor
+    - m_CharacterDisplaySwitching
+    - m_SequencerStartFrame
+    - m_SequencerEndFrame
+
+TABLE: Battle/BattleEventList.json
+  Records: 115
+  m_id range: 0 - 134
+  Fields (8):
+    - m_id
+    - m_EnableConditions
+    - m_NotConditions
+    - m_EventConditions
+    - m_EventParams
+    - m_EventStatusTypes
+    - m_EventEnemies
+    - m_EventCommand
+
+TABLE: Battle/BattlePositions.json
+  Records: 410
+  m_id range: 0 - 1496
+  Fields (3):
+    - m_id
+    - m_WorldPosotion
+    - m_Priority
+
+TABLE: Battle/BattleResultMotionType.json
+  Records: 4
+  m_id range: 1 - 4
+  Fields (8):
+    - m_id
+    - m_AnimationID
+    - m_AnimationDir
+    - m_AnimationPlayTime
+    - m_AnimationLoopNum
+    - m_NextMotionType
+    - m_CurveID
+    - m_IsEnd
+
+TABLE: Battle/BattleStatusShowBuffList.json
+  Records: 34
+  m_id range: 0 - 34
+  Fields (11):
+    - m_id
+    - m_Icon
+    - m_Name
+    - m_Type
+    - m_ShowPriority
+    - m_CharaStatusID
+    - m_WeaponType
+    - m_MagicType
+    - m_WeakStatus
+    - m_SkillAilmentCalcType
+    - m_SkillAilmentType
+
+TABLE: Battle/BattleVoiceArenaList.json
+  Records: 2
+  m_id range: 0 - 1
+  Fields (10):
+    - m_id
+    - m_VoiceID
+    - m_VoiceSymbolID
+    - m_Round1
+    - m_Round2
+    - m_SemiFinal
+    - m_FinalRound
+    - m_Wipeouts
+    - m_WipeoutHpRate
+    - m_PriorityTypes
+
+TABLE: Battle/BattleVoiceList.json
+  Records: 269
+  m_id range: 0 - 10201
+  Fields (50):
+    - m_id
+    - m_Battle1st
+    - m_Battle1stTough
+    - m_Battle1stBoss
+    - m_Battle1stBoss2
+    - m_Turn1st
+    - m_Turn1stPinch
+    - m_Turn1stBreak
+    - m_Victory
+    - m_VictoryNarrow
+    - m_BoostLv1
+    - m_BoostLv2
+    - m_BoostLv3
+    - m_FinalBlow
+    - m_WeakHit
+    - m_CriticalHit
+    - m_ShieldBreak
+    - m_ToBack
+    - m_ToForward
+    - m_ToForwardPinch
+    - m_ToForwardDead
+    - m_Ailmented
+    - m_Recovered
+    - m_Avoidance
+    - m_Revive
+    - m_DamagedS
+    - m_DamagedM
+    - m_DamagedL
+    - m_Dead
+    - m_Wipeout
+    - m_Attacks
+    - m_Ability1
+    - m_Ability2
+    - m_Ability3
+    - m_Ability4
+    - m_Ability5
+    - m_Ability6
+    - m_Ability7
+    - m_Ability8
+    - m_Ability9
+    - m_Ability10
+    - m_Ability11
+    - m_Ability12
+    - m_Ability13
+    - m_Ability14
+    - m_Ability15
+    - m_SetSPAbility
+    - m_StartSPAbility
+    - m_StartSummon
+    - m_StartClassAbility
+
+TABLE: BondsTranscript/BondsTranscriptList.json
+  Records: 1000
+  m_id range: 0 - 1215
+  Fields (3):
+    - m_id
+    - m_count
+    - m_detail
+
+TABLE: BossRematch/BossRematchBossList.json
+  Records: 111
+  m_id range: 0 - 170
+  Fields (35):
+    - m_id
+    - m_CategoryID
+    - m_ChapterID
+    - m_SortPriority
+    - m_ScenarioTextID
+    - m_BattleGradeInvalid
+    - m_EnemyPowerupGroup
+    - m_BattleMap
+    - m_BattleBGM
+    - m_NextBGMBlockIndex
+    - m_RewardGroup
+    - m_ApperQuestID
+    - m_AppearTrigCondition
+    - m_BattleCondQuestID
+    - m_BattleTrigCondition
+    - m_BattleCondTextID
+    - m_OverrideBattleConditions
+    - m_OverrideCondArgs
+    - m_OverrideFlags
+    - m_NpcCharaID
+    - m_DotScale
+    - m_OffSetRateX
+    - m_OffSetRateY
+    - m_GuestNpcID
+    - m_NpcCharaIDs
+    - m_DotScales
+    - m_OffSetRateXs
+    - m_OffSetRateYs
+    - m_SoundCueID
+    - m_BeginTimestamp
+    - m_EndTimestamp
+    - m_TimeZoneType
+    - m_BattleStartVoiceCharaID
+    - m_BattleStartPartVoiceID
+    - m_DarkMapBattle
+
+TABLE: BossRematch/BossRematchCampaignList.json
+  Records: 2
+  m_id range: 0 - 3
+  Fields (6):
+    - m_id
+    - m_StartTimeStamp
+    - m_EndTimeStamp
+    - m_RewardGroup
+    - m_CampaignName
+    - m_FieldSkillGroupID
+
+TABLE: BossRematch/BossRematchCampaignRewardList.json
+  Records: 36
+  m_id range: 0 - 49
+  Fields (6):
+    - m_id
+    - m_Point
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+    - m_RewardGroup
+
+TABLE: BossRematch/BossRematchCategoryList.json
+  Records: 5
+  m_id range: 0 - 6
+  Fields (14):
+    - m_id
+    - m_NumericTextID
+    - m_TextID
+    - m_SortPriority
+    - m_GetPointRank1
+    - m_GetPointRank2
+    - m_GetPointRank3
+    - m_GetPointRankEx1
+    - m_GetPointRankEx2
+    - m_GetPointRankEx3
+    - m_GetPointRankEx4
+    - m_GetPointRankEx5
+    - m_GetPointRankEx6
+    - m_GetPointRankEx7
+
+TABLE: BossRematch/BossRematchChapterList.json
+  Records: 10
+  m_id range: 0 - 19
+  Fields (5):
+    - m_id
+    - m_TextID
+    - m_SortPriority
+    - m_BackgroundWidget
+    - m_WorldMode
+
+TABLE: BossRematch/BossRematchEnemyPowerupList.json
+  Records: 250
+  m_id range: 0 - 345
+  Fields (8):
+    - m_id
+    - m_PowerupGroup
+    - m_BaseEnemyGroup
+    - m_RankFrom
+    - m_RankTo
+    - m_AddValue
+    - m_RateValue
+    - m_OverwriteTexture
+
+TABLE: BossRematch/BossRematchMissionList.json
+  Records: 1
+  m_id range: 0 - 0
+  Fields (7):
+    - m_id
+    - m_TargetEnemy
+    - m_TargetRank
+    - m_Turn
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+
+TABLE: BossRematch/BossRematchRewardList.json
+  Records: 684
+  m_id range: 0 - 888
+  Fields (7):
+    - m_id
+    - m_RewardGroup
+    - m_Rank
+    - m_SortPriority
+    - m_RewardType
+    - m_ItemId
+    - m_ItemNum
+
+TABLE: BossRematch/BossRematchTimeZoneType.json
+  Records: 6
+  m_id range: 0 - 5
+  Fields (1):
+    - m_id
+
+TABLE: Character/CharaColorChangeParams.json
+  Records: 7
+  m_id range: 1 - 7
+  Fields (9):
+    - m_id
+    - m_ColorId
+    - m_Hue
+    - m_Saturation
+    - m_Brightness
+    - m_Hue_UI
+    - m_Saturation_UI
+    - m_Brightness_UI
+    - m_ColorTexture
+
+TABLE: Character/CharaDotReplaceList.json
+  Records: 18
+  m_id range: 0 - 1019
+  Fields (19):
+    - m_id
+    - m_CharaPlayerID
+    - m_CharaID
+    - m_TexU
+    - m_TexV
+    - m_OrderTexUS
+    - m_OrderTexVS
+    - m_OrderScaleS
+    - m_OrderTexUL
+    - m_OrderTexVL
+    - m_OrderScaleL
+    - m_BootQuestState
+    - m_BootQuestID
+    - m_BootQuestTaskId
+    - m_DisableQuestState
+    - m_DisableQuestID
+    - m_DisableQuestTaskId
+    - m_TrigConditionID
+    - m_NoneConditionID
+
+TABLE: Character/CharaEpiphanyList.json
+  Records: 266
+  m_id range: 0 - 268
+  Fields (6):
+    - m_id
+    - m_PlayerID
+    - m_RewardType
+    - m_RewardItemID
+    - m_RewardItemCount
+    - m_OpenTimestamp
+
+TABLE: Character/CharaGenderID.json
+  Records: 3
+  m_id range: 0 - 2
+  Fields (2):
+    - m_id
+    - m_GenderName
+
+TABLE: Character/CharaGuest.json
+  Records: 1570
+  m_id range: 0 - 11689
+  Fields (23):
+    - m_id
+    - m_Label
+    - m_VoiceID
+    - m_JobID
+    - m_UseCount
+    - m_RemainTurn
+    - m_Level
+    - m_FcRank
+    - m_Param
+    - m_EquipAtk
+    - m_ResistID
+    - m_ResistWeapon
+    - m_ResistMagic
+    - m_EnemyTypeID
+    - m_TacticalAssignID
+    - m_SkillsID
+    - m_OrderTexUS
+    - m_OrderTexVS
+    - m_OrderScaleS
+    - m_OrderTexUL
+    - m_OrderTexVL
+    - m_OrderScaleL
+    - m_PreAction
+
+TABLE: Character/CharaID.json
+  Records: 3085
+  m_id range: 0 - 52648
+  Fields (17):
+    - m_id
+    - m_FieldTex
+    - m_BattleTex
+    - m_EventTex
+    - m_UniTextureID
+    - m_AttachEffect
+    - m_MaterialParamsChangeID
+    - m_VoiceEffectID
+    - m_ShowAura
+    - m_FieldAuraTex
+    - m_BattleAuraTex
+    - m_EventAuraTex
+    - m_UseAnimDataTableID
+    - m_ChangeAuraColor
+    - m_AuraColorParams
+    - m_DisableFootstep
+    - m_DisableHighDecal
+
+TABLE: Character/CharaNpcList.json
+  Records: 2892
+  m_id range: 0 - 10002577
+  Fields (106):
+    - m_id
+    - m_CharaReplace
+    - m_UniqueID
+    - m_CharaID
+    - m_VoiceSymbol
+    - m_FriendshipLv
+    - m_InfluenceID
+    - m_InfRank
+    - m_Dead
+    - m_Utopia
+    - m_ReleaseConditionID
+    - m_UpdateQuestFlag
+    - m_NotExecFlag
+    - m_Name
+    - m_NameForDlg
+    - m_CharaIntrroduction
+    - m_IntroConditionStage2
+    - m_CharaIntroductionStage2
+    - m_IntroConditionStage3
+    - m_CharaIntroductionStage3
+    - m_PossessionInfo
+    - m_HearCharaDir
+    - m_Hear_OK_Talk
+    - m_Hear_OK_Voice
+    - m_Hear_OK_BalloonType
+    - m_HearEvent
+    - m_HearEventReturnPlayable
+    - m_EmployPrice
+    - m_EmployDiscountPrice
+    - m_EmployBaseRate
+    - m_EmploySuccessMaxRate
+    - m_EmployRiseRate
+    - m_EmployRiseStep
+    - m_EmployBaseRate_Night
+    - m_EmploySuccessMaxRate_Night
+    - m_EmployRiseRate_Night
+    - m_EmployRiseStep_Night
+    - m_RiskLv_Employ
+    - m_GuestID
+    - m_Item_EnemyGroupID
+    - m_RiskLv_Item
+    - m_Item_Btl_Talk
+    - m_Item_Btl_Voice
+    - m_Item_Btl_BalloonType
+    - m_Item_Btl_Talk_Night
+    - m_Item_Btl_Voice_Night
+    - m_Item_Btl_BalloonType_Night
+    - m_Item_NG_Talk
+    - m_Item_NG_Voice
+    - m_Item_NG_BalloonType
+    - m_Item_NG_Talk_Night
+    - m_Item_NG_Voice_Night
+    - m_Item_NG_BalloonType_Night
+    - m_Item_OK_Talk
+    - m_Item_OK_Voice
+    - m_Item_OK_BalloonType
+    - m_Item_OK_Talk_Night
+    - m_Item_OK_Voice_Night
+    - m_Item_OK_BalloonType_Night
+    - m_Item_RareOK_Talk
+    - m_Item_RareOK_Voice
+    - m_Item_RareOK_BalloonType
+    - m_Item_RareOK_Talk_Night
+    - m_Item_RareOK_Voice_Night
+    - m_Item_RareOK_BalloonType_Night
+    - m_EnemyGroupID
+    - m_Btl_Talk
+    - m_Btl_Voice
+    - m_Btl_BalloonType
+    - m_Btl_Talk_Night
+    - m_Btl_Voice_Night
+    - m_Btl_BalloonType_Night
+    - m_NG_Talk
+    - m_NG_Voice
+    - m_NG_BalloonType
+    - m_NG_Talk_Night
+    - m_NG_Voice_Night
+    - m_NG_BalloonType_Night
+    - m_OK_Talk
+    - m_OK_Voice
+    - m_OK_BalloonType
+    - m_OK_Talk_Night
+    - m_OK_Voice_Night
+    - m_OK_BalloonType_Night
+    - m_ItemInfRank
+    - m_ItemPrice
+    - m_ItemDiscountPrice
+    - m_ItemBaseRate
+    - m_ItemSuccessMaxRate
+    - m_ItemBaseRate_Night
+    - m_ItemSuccessMaxRate_Night
+    - m_ItemRiseRate
+    - m_ItemRiseStep
+    - m_ItemRestock
+    - m_ItemRepopSycleType
+    - m_ItemRarelity
+    - m_ItemType
+    - m_ItemID
+    - m_ItemNum
+    - m_IsCondition
+    - m_ItemOption
+    - m_PurificationID
+    - m_MatchType
+    - m_ArenaResetGroupID
+    - m_BattleWinEventID
+    - m_BattleLoseEventID
+
+TABLE: Character/CharaNpcPurificationList.json
+  Records: 29
+  m_id range: 0 - 32
+  Fields (7):
+    - m_id
+    - m_VisibleCondition
+    - m_EnableCondition
+    - m_EventID
+    - m_RewardType
+    - m_ItemId
+    - m_ItemNum
+
+TABLE: Character/CharaPlayer.json
+  Records: 273
+  m_id range: 0 - 10201
+  Fields (66):
+    - m_id
+    - m_ShowOrder
+    - m_UniqueID
+    - m_CharaID
+    - m_OriginalPlayerID
+    - m_StylePriority
+    - m_Name
+    - m_StyleName
+    - m_StyleViewPosition
+    - m_VoiceID
+    - m_CueSheet
+    - m_VoiceSymbol
+    - m_ProfileVoiceID
+    - m_ChangedCharaID
+    - m_InfluenceID
+    - m_InfluenceVals
+    - m_JobID
+    - m_GenderID
+    - m_RareMin
+    - m_RareMax
+    - m_Exp
+    - m_LimitBreakItemID
+    - m_DefaultSkills
+    - m_SupportSkills
+    - m_InfoCommandSkills
+    - m_InfoSupportSkills
+    - m_EventID
+    - m_Param
+    - m_ResistWeapon
+    - m_ResistMagic
+    - m_ResistID
+    - m_OverrideAttackTypeFlag
+    - m_OverrideAttackTypes
+    - m_EquipDef
+    - m_OrderTexUS
+    - m_OrderTexVS
+    - m_OrderScaleS
+    - m_OrderTexUL
+    - m_OrderTexVL
+    - m_OrderScaleL
+    - m_NameTexID
+    - m_IllustID
+    - m_MenuParam
+    - m_IllustMaskID
+    - m_IllustMaskParam
+    - m_ItemIconFaceOffsetX
+    - m_ItemIconFaceOffsetY
+    - m_FlavorText
+    - m_TownTextID
+    - m_CampaignTriggerConditionID
+    - m_ReleaseTriggerConditionID
+    - m_EpiphanyItemID
+    - m_StatusStoryTitle
+    - m_StatusStoryIcon
+    - m_GachaResultBgType
+    - m_OverwriteBaseAttackSkill
+    - m_AfterAttackAnimationID
+    - m_GachaAnimationType
+    - m_IgnoredInBossEvent
+    - m_IgnoredInBossEventMJ
+    - m_RewardWordId
+    - m_RingGrowthPoint
+    - m_LinkStoryBookId
+    - m_WeakType
+    - m_WorldMode
+    - m_ExclusiveEffect
+
+TABLE: Character/CharaPlayerAddClassList.json
+  Records: 330
+  m_id range: 0 - 335
+  Fields (4):
+    - m_id
+    - m_PlayerId
+    - m_AddClassNum
+    - m_ReleaseUtcDateTime
+
+TABLE: Character/CharaPlayerClassSkillList.json
+  Records: 266
+  m_id range: 0 - 10201
+  Fields (5):
+    - m_id
+    - m_PlayerID
+    - m_SkillID
+    - m_Condition
+    - m_SkillExecAnimID
+
+TABLE: Character/CharaPlayerShieldAbilityList.json
+  Records: 1
+  m_id range: 0 - 0
+  Fields (3):
+    - m_id
+    - m_PlayerID
+    - m_ShieldAbilityID
+
+TABLE: Character/CharaPlayerSpecialSkillList.json
+  Records: 266
+  m_id range: 0 - 10201
+  Fields (7):
+    - m_id
+    - m_PlayerID
+    - m_SpecialSkillID
+    - m_SpecialSkillLevelMax
+    - m_SpecialSkillWaitAnimID
+    - m_SpecialSkillExecAnimID
+    - m_OpenTimestamp
+
+TABLE: Character/CharaStatusID.json
+  Records: 24
+  m_id range: 0 - 23
+  Fields (3):
+    - m_id
+    - m_NameID
+    - m_IconID
+
+TABLE: Character/CharacterAnimationID.json
+  Records: 986
+  m_id range: 0 - 1008
+  Fields (20):
+    - m_id
+    - m_AnimType
+    - m_Loop
+    - m_FrontName
+    - m_RearName
+    - m_LeftName
+    - m_RightName
+    - m_UpperLeftName
+    - m_UpperLeftName2
+    - m_UpperLeftName3
+    - m_UpperRightName
+    - m_UpperRightName2
+    - m_UpperRightName3
+    - m_LowerLeftName
+    - m_LowerLeftName2
+    - m_LowerLeftName3
+    - m_LowerRightName
+    - m_LowerRightName2
+    - m_LowerRightName3
+    - m_Idle
+
+TABLE: Character/DotGalleryList.json
+  Records: 6573
+  m_id range: 1 - 7134
+  Fields (8):
+    - m_id
+    - m_AnimationName
+    - m_AnimationID
+    - m_ShowOrder
+    - m_PlayerID
+    - m_LockLevel
+    - m_Rare6Appear
+    - m_CostumeInvisible
+
+TABLE: Character/EpiphanyLevelID.json
+  Records: 5
+  m_id range: 0 - 4
+  Fields (2):
+    - m_id
+    - m_EpiphanyDetailText
+
+TABLE: Character/EpiphanyUseItem.json
+  Records: 13
+  m_id range: 0 - 12
+  Fields (6):
+    - m_id
+    - m_CharacterRarity
+    - m_EpiphanyLevel
+    - m_RequiredEpiphanyItemCount
+    - m_RequiredLimitBreakItemCount
+    - m_CommonItem
+
+TABLE: Character/JobID.json
+  Records: 9
+  m_id range: 0 - 8
+  Fields (6):
+    - m_id
+    - m_BaseWeapon
+    - m_AttackSkill
+    - m_JobName
+    - m_JobIcon
+    - m_JobIconTag
+
+TABLE: Character/LevelPointTable.json
+  Records: 121
+  m_id range: 0 - 120
+  Fields (5):
+    - m_id
+    - m_GetJP
+    - m_Param
+    - m_CureRate
+    - m_Exp
+
+TABLE: Character/LimitPointTable.json
+  Records: 21
+  m_id range: 0 - 20
+  Fields (2):
+    - m_id
+    - m_LimitBreak
+
+TABLE: Character/NpcBodyList.json
+  Records: 4
+  m_id range: 0 - 3
+  Fields (4):
+    - m_id
+    - m_Name
+    - m_TextCannotCall
+    - m_TextCannotLeave
+
+TABLE: Character/PCWeakList.json
+  Records: 1
+  m_id range: 0 - 0
+  Fields (2):
+    - m_id
+    - m_WeakRatio
+
+TABLE: Character/PCWeakTypeID.json
+  Records: 1
+  m_id range: 0 - 0
+  Fields (5):
+    - m_id
+    - m_NameID
+    - m_IconID
+    - m_ResistWeapon
+    - m_ResistMagic
+
+TABLE: Character/VoiceGalleryList.json
+  Records: 42611
+  m_id range: 1 - 46846
+  Fields (7):
+    - m_id
+    - m_VoiceName
+    - m_VoiceID
+    - m_ShowOrder
+    - m_PlayerID
+    - m_LockLevel
+    - m_Rare6Appear
+
+TABLE: Clan/AchievementList.json
+  Records: 3505
+  m_id range: 0 - 15893
+  Fields (25):
+    - m_id
+    - m_WorldMode
+    - m_Category
+    - m_Grade
+    - m_DisplayOrder
+    - m_HideAchieved
+    - m_HideCondAchieved
+    - m_HideAfterAquired
+    - m_OpenCondAchieve
+    - m_OpenCondQuest
+    - m_OpenCondOther
+    - m_Title
+    - m_Description
+    - m_ConditionID
+    - m_AddInfluence
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+    - m_RewardOption0
+    - m_LimitedTimeId
+    - m_LimitedStartTimestamp
+    - m_LimitedEndTimestamp
+    - m_AfterAchieveLimitNum
+    - m_LimitNumHide
+    - m_NoticeBundleFlag
+
+TABLE: Clan/ClanInfluenceBonus.json
+  Records: 300
+  m_id range: 0 - 1214
+  Fields (8):
+    - m_id
+    - m_RankWE
+    - m_RankPO
+    - m_RankFA
+    - m_BonusType
+    - m_Bonus
+    - m_ShowLevel
+    - m_WorldMode
+
+TABLE: Clan/ClanInfluenceBonusType.json
+  Records: 13
+  m_id range: 0 - 12
+  Fields (4):
+    - m_id
+    - m_Title
+    - m_Detail
+    - m_IconTextureID
+
+TABLE: Clan/InfluenceID.json
+  Records: 5
+  m_id range: 0 - 4
+  Fields (3):
+    - m_id
+    - m_TextID
+    - m_IconID
+
+TABLE: Clan/InfluenceRank.json
+  Records: 601
+  m_id range: 0 - 6100
+  Fields (10):
+    - m_id
+    - m_InfluenceType
+    - m_WorldMode
+    - m_Level
+    - m_NeedPoint
+    - m_RankName
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+    - m_RewardOption0
+
+TABLE: DarkMap/DarkMapList.json
+  Records: 9
+  m_id range: 0 - 99998
+  Fields (17):
+    - m_id
+    - m_MapId
+    - m_Bgm
+    - m_OpenConditions
+    - m_MaxRank
+    - m_MinSeedNum
+    - m_MaxSeedNum
+    - m_ProbabilityTable
+    - m_MaxSpawnNumTable
+    - m_DarkMasterEncountId
+    - m_SpecialEnemyEncountId
+    - m_DarkMasterItemDropRate
+    - m_DarkMasterItemMinNum
+    - m_DarkMasterItemMaxNum
+    - m_SpecialEnemyItemDropRate
+    - m_SpecialEnemyItemMinNum
+    - m_SpecialEnemyItemMaxNum
+
+TABLE: DarkMap/DarkMapObjectPointList.json
+  Records: 57
+  m_id range: 0 - 62
+  Fields (5):
+    - m_id
+    - m_DarkMapId
+    - m_DarkMapObjType
+    - m_Weight
+    - m_NpcSetListId
+
+TABLE: DarkMap/DarkMapOverrideEnemyDrop.json
+  Records: 1
+  m_id range: 0 - 0
+  Fields (4):
+    - m_id
+    - m_DarkMapId
+    - m_EnemyId
+    - m_OverrideDropRewards
+
+TABLE: DarkMap/DarkMapOverrideTreasure.json
+  Records: 25
+  m_id range: 0 - 99925
+  Fields (4):
+    - m_id
+    - m_DarkMapId
+    - m_NpcSetListId
+    - m_OverrideTresureboxIds
+
+TABLE: DarkMap/UniqueDarkMapSeedList.json
+  Records: 97
+  m_id range: 0 - 100001
+  Fields (3):
+    - m_id
+    - m_DarkMapId
+    - m_UniqueLabel
+
+TABLE: DebugSizzlingGroup.json
+  Records: 112
+  m_id range: 0 - 113
+  Fields (6):
+    - m_id
+    - m_DisplayLabel
+    - m_TableNum
+    - m_ServerTable
+    - m_Work
+    - m_Autosave
+
+TABLE: Dice/DiceBlockEffectiveList.json
+  Records: 40
+  m_id range: 0 - 39
+  Fields (3):
+    - m_id
+    - m_IsOnce
+    - m_IsRandom
+
+TABLE: Dice/DiceBlockList.json
+  Records: 1869
+  m_id range: 0 - 3043
+  Fields (8):
+    - m_id
+    - m_Board
+    - m_BlockMap
+    - m_PathActorName
+    - m_BlockParam
+    - m_QuestTrigCondition
+    - m_IsForceStop
+    - m_IsOneWay
+
+TABLE: Dice/DiceBlockParamList.json
+  Records: 1151
+  m_id range: 0 - 1473
+  Fields (11):
+    - m_id
+    - m_BlockType
+    - m_BlockTypeParam
+    - m_GiveBackItem
+    - m_LotteryGroup
+    - m_NextBlockMap
+    - m_NextPathActorName
+    - m_EventScript
+    - m_BlockListIndex
+    - m_AdditionalDiceBlock
+    - m_CheckPointNum
+
+TABLE: Dice/DiceBlockTypeList.json
+  Records: 155
+  m_id range: 0 - 208
+  Fields (19):
+    - m_id
+    - m_Effective
+    - m_FloorMaterialFilePath
+    - m_PassedFloorMaterialFilePath
+    - m_FloorTextureIndex
+    - m_PassedTextureIndex
+    - m_FloorObject
+    - m_ObjectOffsetX
+    - m_ObjectOffsetY
+    - m_ObjectOffsetZ
+    - m_ObjectScale
+    - m_PassedObject
+    - m_PassedObjectOffsetX
+    - m_PassedObjectOffsetY
+    - m_PassedObjectOffsetZ
+    - m_PassedObjectScale
+    - m_FloorEffect
+    - m_PassedEffect
+    - m_ConsideredtoWarp
+
+TABLE: Dice/DiceBoardCategoryList.json
+  Records: 4
+  m_id range: 0 - 1005
+  Fields (4):
+    - m_id
+    - m_CategoryName
+    - m_ShowOrder
+    - m_AllFlag
+
+TABLE: Dice/DiceBoardList.json
+  Records: 12
+  m_id range: 0 - 23
+  Fields (31):
+    - m_id
+    - m_BoardName
+    - m_Detail
+    - m_BoardCategory
+    - m_SortOrder
+    - m_BoardLevel
+    - m_BeginTime
+    - m_EndTime
+    - m_RequiredItem
+    - m_OpenCondition
+    - m_AddOpenCondition
+    - m_AddOpenConditionExplain
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+    - m_GoalBonusDiceRollMax
+    - m_OpeningEvent
+    - m_AlwaysPlayOpening
+    - m_GoalBonusRate
+    - m_GiveBackItem
+    - m_StartBlock
+    - m_StartBlockName
+    - m_Roll
+    - m_GiveBackRate
+    - m_EnemyPowUpRate
+    - m_BoardThumbnailId
+    - m_VoiceGroupId
+    - m_NpcId
+    - m_NpcAnimId
+    - m_NpcDirId
+    - m_NpcSelifId
+
+TABLE: Dice/DiceCheckPointRewardList.json
+  Records: 53
+  m_id range: 0 - 88
+  Fields (6):
+    - m_id
+    - m_DiceBoard
+    - m_CheckPointNum
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+
+TABLE: Dice/DiceEnemyPowupList.json
+  Records: 9
+  m_id range: 0 - 10
+  Fields (8):
+    - m_id
+    - m_HPRatio
+    - m_PhysicalAtkRatio
+    - m_MagicAtkRatio
+    - m_AgiRatio
+    - m_RankRatio
+    - m_AddLevel
+    - m_AddSld
+
+TABLE: Dice/DiceGiveBackRateList.json
+  Records: 4
+  m_id range: 0 - 4
+  Fields (3):
+    - m_id
+    - m_BasicRatio
+    - m_TicketRatio
+
+TABLE: Dice/DicePlayVoiceGroupList.json
+  Records: 1
+  m_id range: 0 - 0
+  Fields (2):
+    - m_id
+    - m_CueSheet
+
+TABLE: Dice/DicePlayVoiceList.json
+  Records: 1
+  m_id range: 0 - 0
+  Fields (8):
+    - m_id
+    - m_VoiceGroupList
+    - m_VoiceType
+    - m_PlayerPartVoice
+    - m_NpcId
+    - m_NPCPartVoice
+    - m_PlayVoice
+    - m_PlayRate
+
+TABLE: Dice/DicePlayVoiceType.json
+  Records: 9
+  m_id range: 0 - 8
+  Fields (1):
+    - m_id
+
+TABLE: Dice/LotteryBlockList.json
+  Records: 466
+  m_id range: 0 - 585
+  Fields (4):
+    - m_id
+    - m_LotteryGroup
+    - m_Ratio
+    - m_BlockListID
+
+TABLE: Dice/LotteryEnemyList.json
+  Records: 126
+  m_id range: 0 - 147
+  Fields (4):
+    - m_id
+    - m_LotteryGroup
+    - m_Ratio
+    - m_EnemyGroup
+
+TABLE: Dice/LotteryGroupList.json
+  Records: 212
+  m_id range: 0 - 283
+  Fields (1):
+    - m_id
+
+TABLE: Dice/LotteryRewardList.json
+  Records: 138
+  m_id range: 0 - 165
+  Fields (6):
+    - m_id
+    - m_LotteryGroup
+    - m_Ratio
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+
+TABLE: Effect/AttachEffect.json
+  Records: 152
+  m_id range: 0 - 155
+  Fields (8):
+    - m_id
+    - m_Label
+    - m_AttachEffect
+    - m_OffsetPosX
+    - m_OffsetPosY
+    - m_OffsetPosZ
+    - m_Scale
+    - m_TranslucencySortPriority
+
+TABLE: Effect/EffectList.json
+  Records: 3042
+  m_id range: 0 - 3454
+  Fields (9):
+    - m_id
+    - m_EffectLabel
+    - m_EffectCategory
+    - m_EffectAsset
+    - m_SpawnMax
+    - m_LoopEffect
+    - m_Enemy
+    - m_PossibleReverse
+    - m_Color
+
+TABLE: Effect/PlayerAttachEffectList.json
+  Records: 9
+  m_id range: 0 - 10014
+  Fields (9):
+    - m_id
+    - m_AttachEffect
+    - m_PlayerAttachEffectGroup
+    - m_Dir
+    - m_OffsetPosX
+    - m_OffsetPosY
+    - m_OffsetPosZ
+    - m_Scale
+    - m_TranslucencySortPriority
+
+TABLE: Ending/EndCredit.json
+  Records: 5437
+  m_id range: 0 - 51341
+  Fields (15):
+    - m_id
+    - m_EndCreditType
+    - m_PartIndex
+    - m_StartTime
+    - m_BGM
+    - m_BehaviorType
+    - m_BehaviorParam1
+    - m_BehaviorParam2
+    - m_WidgetType
+    - m_TextStyle
+    - m_Text
+    - m_TextureID
+    - m_OffsetX
+    - m_OffsetY
+    - m_Param1
+
+TABLE: Ending/EndCreditStyle.json
+  Records: 25
+  m_id range: 0 - 24
+  Fields (8):
+    - m_id
+    - m_FontColor
+    - m_FontType
+    - m_FontSize
+    - m_TypeFace
+    - m_Alignment
+    - m_FontOutlineSize
+    - m_FontOutlineColor
+
+TABLE: Enemy/EncountEffectTypeID.json
+  Records: 7
+  m_id range: 0 - 6
+  Fields (3):
+    - m_id
+    - m_SeId
+    - m_CharaRemoveFlowChangeFlag
+
+TABLE: Enemy/EncountEnemyPowupList.json
+  Records: 9
+  m_id range: 0 - 9
+  Fields (8):
+    - m_id
+    - m_RankFrom
+    - m_RankTo
+    - m_AddValue
+    - m_RateValue
+    - m_CPRateValue
+    - m_DarkMasterAddItemValue
+    - m_SPEnemyAddItemValue
+
+TABLE: Enemy/EncountList.json
+  Records: 425
+  m_id range: 0 - 480
+  Fields (18):
+    - m_id
+    - m_MapId
+    - m_Priority
+    - m_DifficulityLevel
+    - m_Progress
+    - m_QuestId
+    - m_OtherCondition
+    - m_OtherDisableCondition
+    - m_EncounterMerge
+    - m_EncountStepMin
+    - m_RandomStepA
+    - m_RandomStepB
+    - m_FirstEncount
+    - m_TimeZoneType
+    - m_EnemyGroup
+    - m_EncountRatio
+    - m_EnemyPowupId
+    - m_ExclusionGroupIds
+
+TABLE: Enemy/EnemyDropID.json
+  Records: 2400
+  m_id range: 0 - 21221
+  Fields (8):
+    - m_id
+    - m_RewardType
+    - m_RewardItemId
+    - m_DropRates
+    - m_DropCntF
+    - m_DropCntR
+    - m_RewardOption0
+    - m_EventDropQuestIDs
+
+TABLE: Enemy/EnemyFormations.json
+  Records: 148
+  m_id range: 0 - 202
+  Fields (2):
+    - m_id
+    - m_PositionID
+
+TABLE: Enemy/EnemyGroups.json
+  Records: 5675
+  m_id range: 0 - 74336
+  Fields (37):
+    - m_id
+    - m_Label
+    - m_Inescapable
+    - m_DisableRetire
+    - m_SkipResult
+    - m_IgnoreDefeat
+    - m_SkipBgmResult
+    - m_BanGodBeast
+    - m_Bgm
+    - m_NightBgm
+    - m_DarkBgm
+    - m_BgmType
+    - m_ResultBgmWin
+    - m_ResultBgmLose
+    - m_Camera
+    - m_Formation
+    - m_EnemyID
+    - m_EventIndices
+    - m_AbortCondition
+    - m_DefeatPriority
+    - m_ForcedWinAbortCondition
+    - m_ForcedLoseAbortCondition
+    - m_TipsGroup
+    - m_TipsTargets
+    - m_ImportantFlags
+    - m_PetDear
+    - m_DisableBattleEndWipe
+    - m_DisableSupporter
+    - m_EncountEffectTypeID
+    - m_EnablePlayerShield
+    - m_DisableGrade
+    - m_BattleMap
+    - m_GuestCharaNPCID
+    - m_ResultMotionType
+    - m_BattleStartGuestCharaHide
+    - m_ActEnemyCount
+    - m_FieldSkillGroupID
+
+TABLE: Enemy/EnemyID.json
+  Records: 5657
+  m_id range: 0 - 34293
+  Fields (45):
+    - m_id
+    - m_Label
+    - m_TypeID
+    - m_DisplayLevel
+    - m_BreakRate
+    - m_MaxSLD
+    - m_MaxHP
+    - m_MaxSP
+    - m_AtkP
+    - m_DefP
+    - m_AtkM
+    - m_DefM
+    - m_Agi
+    - m_Crt
+    - m_CrtDef
+    - m_EquipAtk
+    - m_ResistAilmentID
+    - m_ResistAilment
+    - m_TacticalAssignID
+    - m_SkillsID
+    - m_Exp
+    - m_Money
+    - m_PetExp
+    - m_Cp
+    - m_DropReward
+    - m_EventDropRewards
+    - m_StatusOffset
+    - m_Bottle
+    - m_NameUI
+    - m_LevelUI
+    - m_HpUI
+    - m_ShieldUI
+    - m_RaceIndices
+    - m_DisplaySpecialSkillGauge
+    - m_GenerateSpecialSkillValueOrverTurn
+    - m_ReduceSpecialSkillValueBreak
+    - m_MaxSpecialSkillValue
+    - m_OutsideTarget
+    - m_NotAction
+    - m_UnknownLv
+    - m_Immortal
+    - m_CondisionalImmortal
+    - m_BreakSpread
+    - m_DisableSelectMaterial
+    - m_CounterReceiveTarget
+
+TABLE: Enemy/EnemyModeID.json
+  Records: 36
+  m_id range: 0 - 10011
+  Fields (13):
+    - m_id
+    - m_Name
+    - m_SkillIconID
+    - m_RemoveActionAilment
+    - m_RemoveConditions
+    - m_RemoveParams
+    - m_AttachEffect
+    - m_BattleAttachEffectOffsetX
+    - m_BattleAttachEffectOffsetY
+    - m_FieldAttachEffect
+    - m_FieldAttachEffectOffsetX
+    - m_FieldAttachEffectOffsetY
+    - m_RemoveBreak
+
+TABLE: Enemy/EnemyParts.json
+  Records: 35
+  m_id range: 0 - 37
+  Fields (12):
+    - m_id
+    - m_Label
+    - m_FlipbookID
+    - m_OffsetX
+    - m_OffsetY
+    - m_DisplayPriority
+    - m_InitVisible
+    - m_LinkAnim
+    - m_LinkColor
+    - m_EnableCondition
+    - m_DisableCondition
+    - m_OnOffTime
+
+TABLE: Enemy/EnemyRaceID.json
+  Records: 125
+  m_id range: 0 - 3010
+  Fields (2):
+    - m_id
+    - m_DisplayName
+
+TABLE: Enemy/EnemyReinforcements.json
+  Records: 218
+  m_id range: 0 - 240
+  Fields (4):
+    - m_id
+    - m_Label
+    - m_Reinforcements
+    - m_Positions
+
+TABLE: Enemy/EnemyTypeID.json
+  Records: 4209
+  m_id range: 0 - 23728
+  Fields (44):
+    - m_id
+    - m_DisplayName
+    - m_FlipbookID
+    - m_NpcCharaID
+    - m_ScaleX
+    - m_ScaleY
+    - m_HitPosX
+    - m_HitPosY
+    - m_HitScaleX
+    - m_HitScaleY
+    - m_Size
+    - m_WeakID
+    - m_EffectOffsetX
+    - m_EffectOffsetY
+    - m_EffectOffsetDepth
+    - m_EffectFromBottomOffsetY
+    - m_AilmentInfoOffsetX
+    - m_AilmentOffset
+    - m_DamageOffsetX
+    - m_DamageOffsetY
+    - m_CursorOffsetX
+    - m_CursorOffsetY
+    - m_SupportOffsetY
+    - m_SupportOffsetX
+    - m_CallSE
+    - m_VoiceSymbol
+    - m_IconID
+    - m_OrderTexUS
+    - m_OrderTexVS
+    - m_OrderScaleS
+    - m_OrderTexUL
+    - m_OrderTexVL
+    - m_OrderScaleL
+    - m_AddStartUV
+    - m_AttachEffectInGodbeastProduction
+    - m_AttachEffect
+    - m_BattleAttachEffectOffsetX
+    - m_BattleAttachEffectOffsetY
+    - m_FieldAttachEffect
+    - m_FieldAttachEffectOffsetX
+    - m_FieldAttachEffectOffsetY
+    - m_PartsID
+    - m_LinkOwnerAnim
+    - m_DefeatEffect
+
+TABLE: Enemy/EnemyWeakChangeID.json
+  Records: 188
+  m_id range: 0 - 204
+  Fields (3):
+    - m_id
+    - m_WeakIndices
+    - m_IsLottery
+
+TABLE: Enemy/EnemyWeakID.json
+  Records: 6666
+  m_id range: 0 - 6671
+  Fields (3):
+    - m_id
+    - m_ResistWeapon
+    - m_ResistMagic
+
+TABLE: Enemy/EnemyWeakLockID.json
+  Records: 256
+  m_id range: 0 - 258
+  Fields (5):
+    - m_id
+    - m_LockWeapon
+    - m_LockMagic
+    - m_RemoveConditions
+    - m_RemoveParams
+
+TABLE: Enemy/SymbolDefeatContentsList.json
+  Records: 2
+  m_id range: 0 - 3
+  Fields (9):
+    - m_id
+    - m_MaxPoint
+    - m_ValidPenetrate
+    - m_PenetrateOpenTime
+    - m_PenetrateName
+    - m_ContentsStartTimestamp
+    - m_ContentsEndTimestamp
+    - m_OpenConditionId
+    - m_GetPenetrateSEID
+
+TABLE: Enemy/SymbolDefeatContentsRewardList.json
+  Records: 9
+  m_id range: 0 - 71
+  Fields (8):
+    - m_id
+    - m_ConditionNameTextId
+    - m_ConditionId
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+    - m_SortOrder
+    - m_TargetContentsId
+
+TABLE: Enemy/SymbolDefeatGroupList.json
+  Records: 9
+  m_id range: 0 - 11
+  Fields (6):
+    - m_id
+    - m_TimeSaveItem
+    - m_RepopSycleType
+    - m_StartEventId
+    - m_AffiliatedContent
+    - m_ValidPenetrateTypes
+
+TABLE: Enemy/SymbolDefeatList.json
+  Records: 16
+  m_id range: 0 - 66
+  Fields (7):
+    - m_id
+    - m_SymbolEnemyId
+    - m_Difficulty
+    - m_CorrectionLevel
+    - m_DefeatGroupId
+    - m_EarnedPoint
+    - m_ValidPenetrateLv
+
+TABLE: Enemy/SymbolDefeatRewardList.json
+  Records: 32
+  m_id range: 0 - 77
+  Fields (7):
+    - m_id
+    - m_TargetSymbolGroupId
+    - m_RequiredPoint
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+    - m_TargetContentsId
+
+TABLE: Enemy/SymbolDefeatTotalRewardList.json
+  Records: 18
+  m_id range: 0 - 31
+  Fields (6):
+    - m_id
+    - m_TargetContentsId
+    - m_RequiredPoint
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+
+TABLE: Enemy/SymbolEnemyGroupList.json
+  Records: 764
+  m_id range: 0 - 50569
+  Fields (4):
+    - m_id
+    - m_StartSymbolEnemyId
+    - m_SymbolEnemyId
+    - m_probability
+
+TABLE: Enemy/SymbolEnemyList.json
+  Records: 966
+  m_id range: 0 - 50633
+  Fields (11):
+    - m_id
+    - m_GroupId
+    - m_Index
+    - m_Dir
+    - m_AlertAreaSize
+    - m_EncountSize
+    - m_RepopCount
+    - m_RepopSycleType
+    - m_Redrawing
+    - m_TargetLevel1
+    - m_TargetLevel2
+
+TABLE: Equip/EquipList.json
+  Records: 2703
+  m_id range: 0 - 32678
+  Fields (35):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_TypeID
+    - m_Rare
+    - m_TexID
+    - m_NameID
+    - m_DetailID
+    - m_WeaponTypeID
+    - m_MagicTypeID
+    - m_EquipLock
+    - m_LevelValue
+    - m_ExclusivePlayerID
+    - m_ExclusiveJobID
+    - m_Param
+    - m_Rank
+    - m_Variation
+    - m_OverwriteEffect
+    - m_SkillID
+    - m_BuyValue
+    - m_MaterialCheck
+    - m_MaterialNum
+    - m_MaterialItemID
+    - m_MaterialEquipID
+    - m_SlotShapeID
+    - m_MateriaRarityLimit
+    - m_GrowthEquipBonusID
+    - m_EquipSkillTypeID
+    - m_WorldMode
+    - m_UniqueEquipAccessory
+    - m_SortCategory
+    - m_WinCount
+    - m_WinCountCondition
+    - m_WinChangeEquipId
+    - m_WinCountCompleteTextId
+
+TABLE: Equip/EquipPartType.json
+  Records: 5
+  m_id range: 0 - 4
+  Fields (2):
+    - m_id
+    - m_TextID
+
+TABLE: Equip/EquipSkillTypeCategoryList.json
+  Records: 14
+  m_id range: 0 - 13
+  Fields (4):
+    - m_id
+    - m_TextID
+    - m_ButtonType
+    - m_Priority
+
+TABLE: Equip/EquipSkillTypeList.json
+  Records: 142
+  m_id range: 0 - 153
+  Fields (6):
+    - m_id
+    - m_Category
+    - m_TexID
+    - m_TextID
+    - m_SortPriority
+    - m_StatusID
+
+TABLE: Equip/EquipSortCategoryList.json
+  Records: 39
+  m_id range: 0 - 38
+  Fields (2):
+    - m_id
+    - m_ShowOrder
+
+TABLE: Equip/EquipType.json
+  Records: 12
+  m_id range: 0 - 11
+  Fields (6):
+    - m_id
+    - m_EquipPart
+    - m_WeaponType
+    - m_DefaultEquipID
+    - m_MenuIconID
+    - m_MenuTabIconID
+
+TABLE: Equip/GrowthEquipBonusList.json
+  Records: 85
+  m_id range: 0 - 1084
+  Fields (3):
+    - m_id
+    - m_BonusEffectStatuses
+    - m_BonusEffectValues
+
+TABLE: Equip/GrowthEquipMateriaDropGroupList.json
+  Records: 1165
+  m_id range: 0 - 1176
+  Fields (3):
+    - m_id
+    - m_DropGroupTag
+    - m_MateriaId
+
+TABLE: Equip/GrowthEquipMateriaEffectRarityID.json
+  Records: 4
+  m_id range: 0 - 3
+  Fields (3):
+    - m_id
+    - m_RarityName
+    - m_ProbabilityLE
+
+TABLE: Equip/GrowthEquipMateriaEffectTypeID.json
+  Records: 12
+  m_id range: 0 - 11
+  Fields (2):
+    - m_id
+    - m_SoulPowupItemId
+
+TABLE: Equip/GrowthEquipMateriaList.json
+  Records: 658
+  m_id range: 0 - 100398
+  Fields (19):
+    - m_id
+    - m_ShowOrder
+    - m_NameID
+    - m_SlotShape
+    - m_Rarity
+    - m_EquipTarget
+    - m_ConditionLimitCharacter
+    - m_ConditionLimitInfluence
+    - m_ConditionLimitJob
+    - m_LotteryWeights
+    - m_EffectType
+    - m_EffectTarget
+    - m_EffectValueMin
+    - m_EffectValueMax
+    - m_EffectTypeB
+    - m_EffectTargetB
+    - m_EffectValueMinB
+    - m_EffectValueMaxB
+    - m_ManagedOnServer
+
+TABLE: Equip/GrowthEquipSlotShapeList.json
+  Records: 7
+  m_id range: 0 - 100
+  Fields (3):
+    - m_id
+    - m_ShapeName
+    - m_ShapeIcon
+
+TABLE: Equip/WeaponType.json
+  Records: 9
+  m_id range: 0 - 8
+  Fields (6):
+    - m_id
+    - m_TextID
+    - m_WeakIconTexID
+    - m_SkillIconTexID
+    - m_EquipType
+    - m_AdditionWeakIconTexID
+
+TABLE: EventReplay/EventReplayGroupList.json
+  Records: 1025
+  m_id range: 0 - 11055
+  Fields (18):
+    - m_id
+    - m_Hierarchy
+    - m_ParentGroup
+    - m_SubParentGroup
+    - m_TargetWorldMode
+    - m_PrefixText
+    - m_Text
+    - m_PriorityGroup
+    - m_PriorityGroup_AddQPO
+    - m_PriorityGroup_AddQPS
+    - m_CharaDot
+    - m_CharaDotAnim
+    - m_DotShowCondition
+    - m_ProgressFlagType
+    - m_FlagTextures
+    - m_Traveller
+    - m_ValidConditionID
+    - m_InvalidConditionID
+
+TABLE: EventReplay/EventReplayList.json
+  Records: 2581
+  m_id range: 0 - 12749
+  Fields (25):
+    - m_id
+    - m_EventID
+    - m_EventReplayGroup
+    - m_PlayOrder
+    - m_Priority
+    - m_UIText
+    - m_DisplayConditionEventID
+    - m_DisplayQuestTrigCondition
+    - m_IsFight
+    - m_MapObjectControls
+    - m_NPCControls
+    - m_ControlsApplyEvents
+    - m_Bgm
+    - m_QuestId
+    - m_EventIconTextureID
+    - m_EventExplanationText
+    - m_EventExplanationNum
+    - m_ForceLimitConditionsId
+    - m_ForceCharaDotReplaceDisable
+    - m_BgmStopSkipEventIds
+    - m_BattlePlayEventIds
+    - m_ValidConditionID
+    - m_InvalidConditionID
+    - m_UnreadAlerts
+    - m_OverrideWorldMode
+
+TABLE: EventReplay/EventReplayNpcControlList.json
+  Records: 35
+  m_id range: 0 - 35
+  Fields (6):
+    - m_id
+    - m_TargetQuestId
+    - m_ForceQuestState
+    - m_ForceQuestTask
+    - m_ValidTrigConditionsIds
+    - m_InvalidTrigConditionsIds
+
+TABLE: EventReplay/EventReplayProgressType.json
+  Records: 25
+  m_id range: 0 - 24
+  Fields (2):
+    - m_id
+    - m_FlagTextures
+
+TABLE: Gacha/GachaPictureList.json
+  Records: 1332
+  m_id range: 0 - 1357
+  Fields (11):
+    - m_id
+    - m_picture_resource
+    - m_picture_mask
+    - m_picture_mask_param
+    - m_single_unit_id
+    - m_button_type
+    - m_TrialBattleEnable
+    - m_TrialBattleButtonType
+    - m_TrialBattlePartyMember
+    - m_TrialBattleID
+    - m_JoinedTagType
+
+TABLE: Gacha/GachaResultBackgroundType.json
+  Records: 4
+  m_id range: 0 - 3
+  Fields (2):
+    - m_id
+    - m_TextureID
+
+TABLE: Gacha/GachaStatusViewButtonType.json
+  Records: 286
+  m_id range: 0 - 286
+  Fields (3):
+    - m_id
+    - m_pos_x
+    - m_pos_y
+
+TABLE: Gacha/TrialBattleAbilityPreset.json
+  Records: 189
+  m_id range: 0 - 212
+  Fields (4):
+    - m_id
+    - m_ShowPriority
+    - m_PlayerID
+    - m_BattleAbility
+
+TABLE: Gacha/TrialBattleList.json
+  Records: 26
+  m_id range: 0 - 38
+  Fields (5):
+    - m_id
+    - m_EnemyGroup
+    - m_PartyMember
+    - m_TimeZoneType
+    - m_BattleMap
+
+TABLE: GameParams/GameParamsFloat.json
+  Records: 115
+  m_id range: 0 - 114
+  Fields (2):
+    - m_id
+    - m_Param
+
+TABLE: GameParams/GameParamsInt.json
+  Records: 119
+  m_id range: 0 - 9007
+  Fields (2):
+    - m_id
+    - m_Param
+
+TABLE: GameText/SystemText/GameTextAchieve.json
+  Records: 7153
+  m_id range: 0 - 126100
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextBossRematch.json
+  Records: 123
+  m_id range: 0 - 150
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextCharacter.json
+  Records: 1921
+  m_id range: 28500 - 118465
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextDice.json
+  Records: 778
+  m_id range: 80000 - 80862
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextEnemy.json
+  Records: 3783
+  m_id range: 0 - 53504
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextEquip.json
+  Records: 2660
+  m_id range: 0 - 28129
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextFC.json
+  Records: 12818
+  m_id range: 1 - 14179
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextGallery.json
+  Records: 103
+  m_id range: 1 - 379
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextHandicapBattle.json
+  Records: 603
+  m_id range: 0 - 847
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextItem.json
+  Records: 7836
+  m_id range: 0 - 48129
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextMap.json
+  Records: 928
+  m_id range: 0 - 16749
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextPC.json
+  Records: 716
+  m_id range: 27900 - 29998
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextQuest.json
+  Records: 7546
+  m_id range: 0 - 219105908
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextRingGrowth.json
+  Records: 245
+  m_id range: 0 - 10269
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextSkill.json
+  Records: 23276
+  m_id range: 0 - 105845
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextStoryBook.json
+  Records: 1053
+  m_id range: 0 - 1181
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextSymbolDefeatContents.json
+  Records: 18
+  m_id range: 0 - 65
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextUI.json
+  Records: 6954
+  m_id range: 0 - 69631
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/GameTextWordListUI.json
+  Records: 8
+  m_id range: 0 - 7
+  Fields (2):
+    - m_id
+    - m_gametext
+
+TABLE: GameText/SystemText/TextTagIDConditioned.json
+  Records: 75
+  m_id range: 0 - 1001
+  Fields (5):
+    - m_id
+    - m_TagString
+    - m_ReplaceTextID
+    - m_ValidityQuestTrigConditionID
+    - m_InvalidQuestTrigConditionID
+
+TABLE: GameText/TalkText/GameTextEvent.json
+  Records: 84001
+  m_id range: 0 - 195465
+  Fields (3):
+    - m_id
+    - m_voiceId
+    - m_gametext
+
+TABLE: GameText/TalkText/GameTextNPC.json
+  Records: 6400
+  m_id range: 0 - 43360
+  Fields (4):
+    - m_id
+    - m_PartVoiceID
+    - m_voiceId
+    - m_gametext
+
+TABLE: HandicapBattle/HandicapBattleEnemyList.json
+  Records: 564
+  m_id range: 0 - 576
+  Fields (21):
+    - m_id
+    - m_EnemyGroup
+    - m_AddSld
+    - m_HPRatio
+    - m_AtkRatio
+    - m_DefRatio
+    - m_AtkMRatio
+    - m_DefMRatio
+    - m_AgiRatio
+    - m_CrtRatio
+    - m_EquipAtkRatio
+    - m_EnemyDotIndex
+    - m_OverwriteEnemyDotId
+    - m_DotScale
+    - m_DotOffsetX
+    - m_DotOffsetY
+    - m_OverrideBattleConditions
+    - m_OverrideCondArgs
+    - m_OverrideFlags
+    - m_AddDisplayLevel
+    - m_OverrideEnemyWeakID
+
+TABLE: HandicapBattle/HandicapBattleHandicapCategoryList.json
+  Records: 250
+  m_id range: 0 - 354
+  Fields (4):
+    - m_id
+    - m_Name
+    - m_HandicapGroup
+    - m_SortID
+
+TABLE: HandicapBattle/HandicapBattleHandicapEffectList.json
+  Records: 255
+  m_id range: 0 - 433
+  Fields (11):
+    - m_id
+    - m_HandicapType
+    - m_Param
+    - m_JobType
+    - m_WeaponType
+    - m_MagicType
+    - m_Influence
+    - m_WorldMode
+    - m_SkillID
+    - m_CharaStatusID
+    - m_CharaPlayerID
+
+TABLE: HandicapBattle/HandicapBattleHandicapList.json
+  Records: 336
+  m_id range: 0 - 523
+  Fields (9):
+    - m_id
+    - m_Name
+    - m_Effect
+    - m_HandicapLv
+    - m_CategoryID
+    - m_SortID
+    - m_Category
+    - m_CategoryIndex
+    - m_HandicapGroup
+
+TABLE: HandicapBattle/HandicapBattleRateList.json
+  Records: 47
+  m_id range: 0 - 60
+  Fields (5):
+    - m_id
+    - m_RateGroup
+    - m_LowerLimit
+    - m_UpperLimit
+    - m_Rate
+
+TABLE: HandicapBattle/HandicapBattleStageList.json
+  Records: 167
+  m_id range: 0 - 186
+  Fields (28):
+    - m_id
+    - m_TabCategory
+    - m_Name
+    - m_AppearCondition
+    - m_PlayCondition
+    - m_PlayConditionText
+    - m_StartTimestamp
+    - m_EndTimestamp
+    - m_RateGroup
+    - m_HandicapGroup
+    - m_ArrayHandicapGroup
+    - m_ForceHandicapGroup
+    - m_PhaseHandicapGroup
+    - m_Phase1HandicapCategory
+    - m_Phase2HandicapCategory
+    - m_Phase3HandicapCategory
+    - m_PhaseHandicapNum
+    - m_RewardGroup
+    - m_PartyMaxNum
+    - m_ClearPoint
+    - m_PhaseEnemy
+    - m_PhaseMap
+    - m_PhaseBgm
+    - m_PhaseViewTimeZone
+    - m_ExPhaseFlg
+    - m_ForcedPartyChange
+    - m_TimeZone
+    - m_FieldSkillGroupID
+
+TABLE: HandicapBattle/HandicapBattleStageTabList.json
+  Records: 25
+  m_id range: 0 - 40
+  Fields (6):
+    - m_id
+    - m_TabName
+    - m_AllFlg
+    - m_FavoriteFlg
+    - m_SortPriority
+    - m_WorldMode
+
+TABLE: HardDungeon/HardDungeonDifficultyList.json
+  Records: 17
+  m_id range: 0 - 16
+  Fields (12):
+    - m_id
+    - m_TabType
+    - m_TabName
+    - m_TabImage
+    - m_TabTicketIcon
+    - m_DisplayTitle
+    - m_ParentTab
+    - m_PageTab
+    - m_BackGround
+    - m_BGEffect
+    - m_Priority
+    - m_CategoryName
+
+TABLE: HardDungeon/HardDungeonList.json
+  Records: 52
+  m_id range: 0 - 55
+  Fields (49):
+    - m_id
+    - m_RegionText
+    - m_MapText
+    - m_DescriptionText
+    - m_RiskLevel
+    - m_Order
+    - m_BeforeDungeonEvent
+    - m_BeforeDungeonEventPlayType
+    - m_AfterDungeonEvent
+    - m_AfterDungeonEventPlayType
+    - m_RecommendedJob
+    - m_Icon
+    - m_IconPosX
+    - m_IconPosY
+    - m_IconScale
+    - m_AppearEnemyID
+    - m_DifficultyGroup
+    - m_DifficultyNum
+    - m_StartMap
+    - m_ReleaseQuestStaet
+    - m_ReleaseQuestID
+    - m_ReleaseQuestTaskId
+    - m_TrigConditionID
+    - m_ReleaseConditions
+    - m_ReleaseQuestStaet_MJ
+    - m_ReleaseQuestID_MJ
+    - m_ReleaseQuestTaskId_MJ
+    - m_TrigConditionID_MJ
+    - m_Difficulty
+    - m_Collabo
+    - m_EntryItemType
+    - m_EntryItemID
+    - m_EntryItemNum
+    - m_probability
+    - m_BossGroup
+    - m_JudgeType
+    - m_Reward2Open
+    - m_Reward3Open
+    - m_RewardStoneNum
+    - m_Enable_TimeStamp
+    - m_StartTimestamp
+    - m_EndTimestamp
+    - m_SkipExp
+    - m_SkipMoney
+    - m_Great_Probability
+    - m_SkipPetDear
+    - m_SkipCP
+    - m_SkipOnly
+    - m_SubInfoText
+
+TABLE: HardDungeon/HardDungeonMapList.json
+  Records: 56
+  m_id range: 0 - 58
+  Fields (5):
+    - m_id
+    - m_MapID
+    - m_probability
+    - m_FastTravelDir
+    - m_ConnectDungeonMapId
+
+TABLE: HardDungeon/HardDungeonPairDataList.json
+  Records: 281
+  m_id range: 0 - 3244
+  Fields (4):
+    - m_id
+    - m_SymbolEnemyId
+    - m_TreasureBoxId
+    - m_probability
+
+TABLE: HardDungeon/HardDungeonRewardList.json
+  Records: 975
+  m_id range: 0 - 27585
+  Fields (7):
+    - m_id
+    - m_RewardRank
+    - m_Probability
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemMinNum
+    - m_RewardItemMaxNum
+
+TABLE: HardDungeon/HardDungeonRewardRankList.json
+  Records: 213
+  m_id range: 0 - 2819
+  Fields (3):
+    - m_id
+    - m_HDMap
+    - m_Probability
+
+TABLE: HardDungeon/HardDungeonSkipItemList.json
+  Records: 654
+  m_id range: 0 - 739
+  Fields (6):
+    - m_id
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+    - m_isGreat
+    - m_HDListID
+
+TABLE: HardDungeon/HardDungeonTicketPriceList.json
+  Records: 6
+  m_id range: 0 - 5
+  Fields (3):
+    - m_id
+    - m_Times
+    - m_VMoneyPrice
+
+TABLE: Incense/IncenseEffectType.json
+  Records: 4
+  m_id range: 0 - 3
+  Fields (3):
+    - m_id
+    - m_Point
+    - m_Time
+
+TABLE: Incense/IncenseRubyList.json
+  Records: 11
+  m_id range: 0 - 10
+  Fields (3):
+    - m_id
+    - m_Time
+    - m_Num
+
+TABLE: Item/ItemArtList.json
+  Records: 70
+  m_id range: 4 - 73
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemAutoDungeonDefaultBuffList.json
+  Records: 16
+  m_id range: 0 - 35
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemBgmScoreList.json
+  Records: 220
+  m_id range: 9 - 228
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemClassupList.json
+  Records: 51
+  m_id range: 0 - 50250
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemCostumeList.json
+  Records: 17
+  m_id range: 0 - 20
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemDiceGiveBackList.json
+  Records: 4
+  m_id range: 2 - 7
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ResourceItem
+
+TABLE: Item/ItemDiceTicketList.json
+  Records: 3
+  m_id range: 0 - 4
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemEpiphanyList.json
+  Records: 267
+  m_id range: 0 - 9319
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemExpList.json
+  Records: 15
+  m_id range: 0 - 50217
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemGachaTicketList.json
+  Records: 347
+  m_id range: 0 - 130359
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemGroupDataList.json
+  Records: 84
+  m_id range: 0 - 122
+  Fields (6):
+    - m_id
+    - m_RewardType
+    - m_ItemId
+    - m_ItemNum
+    - m_ShowOrder
+    - m_GroupId
+
+TABLE: Item/ItemGrowthEquipMateriaPowupList.json
+  Records: 7
+  m_id range: 8 - 14
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemGrowthEquipMateriaRemoveList.json
+  Records: 2
+  m_id range: 0 - 1
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemHardDungeonTicketList.json
+  Records: 10
+  m_id range: 0 - 9
+  Fields (8):
+    - m_id
+    - m_NameText
+    - m_IconID
+    - m_TicketMax
+    - m_ChargeNum
+    - m_InitNum
+    - m_VMoneyConvertLimit
+    - m_VMoneyPrice
+
+TABLE: Item/ItemIncenseList.json
+  Records: 3
+  m_id range: 0 - 2
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemLimitBreakList.json
+  Records: 269
+  m_id range: 0 - 10077
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemLootBoxGroupList.json
+  Records: 1822
+  m_id range: 0 - 1949
+  Fields (5):
+    - m_id
+    - m_LootBoxID
+    - m_Weight
+    - m_FeaturedFlag
+    - m_ShowOrder
+
+TABLE: Item/ItemLootBoxList.json
+  Records: 121
+  m_id range: 0 - 102085
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemLootBoxRewardList.json
+  Records: 1979
+  m_id range: 0 - 2182
+  Fields (5):
+    - m_id
+    - m_LootBoxGroupID
+    - m_RewardType
+    - m_RewardItemID
+    - m_RewardNum
+
+TABLE: Item/ItemMJBoardList.json
+  Records: 305
+  m_id range: 0 - 100318
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemMagicStoneLimitBreakList.json
+  Records: 8
+  m_id range: 4 - 11
+  Fields (7):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_NameID
+    - m_DetailID
+    - m_IconID
+    - m_ParamList
+
+TABLE: Item/ItemMagicStoneList.json
+  Records: 64
+  m_id range: 6 - 73
+  Fields (7):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_NameID
+    - m_DetailID
+    - m_IconID
+    - m_ParamList
+
+TABLE: Item/ItemMaterialList.json
+  Records: 581
+  m_id range: 43 - 2371
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemPenetrateList.json
+  Records: 8
+  m_id range: 0 - 57
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemPetDearList.json
+  Records: 4
+  m_id range: 0 - 5
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemPetExpList.json
+  Records: 10
+  m_id range: 0 - 1009
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemPetGrowthList.json
+  Records: 9
+  m_id range: 0 - 10
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemResourceList.json
+  Records: 394
+  m_id range: 0 - 407
+  Fields (10):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+    - m_OpenTimestamp
+    - m_CloseTimestamp
+
+TABLE: Item/ItemResourceScheduleList.json
+  Records: 387
+  m_id range: 0 - 390
+  Fields (5):
+    - m_id
+    - m_ResourceID
+    - m_IsReset
+    - m_OpenTimestamp
+    - m_CloseTimestamp
+
+TABLE: Item/ItemRingGrowthList.json
+  Records: 5
+  m_id range: 0 - 20004
+  Fields (9):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_LargeIconID
+    - m_SmallIconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemSpecialSkillMaterialList.json
+  Records: 12
+  m_id range: 5 - 17
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemTowerRecover.json
+  Records: 15
+  m_id range: 0 - 10009
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemValuablesList.json
+  Records: 360
+  m_id range: 0 - 50605
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: Item/ItemWordList.json
+  Records: 1021
+  m_id range: 0 - 2155
+  Fields (8):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryID
+    - m_Rare
+    - m_IconID
+    - m_NameID
+    - m_DetailID
+    - m_ParamList
+
+TABLE: MagicStone/MagicStoneBattleProductionList.json
+  Records: 7
+  m_id range: 4 - 11
+  Fields (10):
+    - m_id
+    - m_EffectId
+    - m_StartEffectSecond
+    - m_EffectPosX
+    - m_EffectPosY
+    - m_SoundID
+    - m_SoundStartSecond
+    - m_SummonStartEffectId
+    - m_SummonStartSEId
+    - m_SummonStartWaitTime
+
+TABLE: MagicStone/MagicStoneLevelList.json
+  Records: 109
+  m_id range: 0 - 157
+  Fields (13):
+    - m_id
+    - m_TargetId
+    - m_Lv
+    - m_ReplaceGuestNPC
+    - m_PAtkUp
+    - m_MAtkUp
+    - m_CriticalUp
+    - m_SkillID
+    - m_BattleUsableCount
+    - m_PetBounus
+    - m_LimitBreak
+    - m_ItemId
+    - m_ItemNum
+
+TABLE: Map/FastTravelPointList.json
+  Records: 66
+  m_id range: 0 - 73
+  Fields (6):
+    - m_id
+    - m_MapID
+    - m_PointPath
+    - m_PointName
+    - m_CharaDir
+    - m_SortID
+
+TABLE: Map/FastTravelShortcutGroupList.json
+  Records: 3
+  m_id range: 1 - 3
+  Fields (3):
+    - m_id
+    - m_Name
+    - m_Priority
+
+TABLE: Map/FastTravelShortcutList.json
+  Records: 19
+  m_id range: 1 - 19
+  Fields (12):
+    - m_id
+    - m_Name
+    - m_DetailText
+    - m_Priority
+    - m_FastTravelGroupId
+    - m_AutoDungeonId
+    - m_DarkMapId
+    - m_MapID
+    - m_PointPath
+    - m_NpcSetListLabel
+    - m_SymbolDefeatGroupId
+    - m_ValidConditionID
+
+TABLE: Map/MapCameraSet.json
+  Records: 20
+  m_id range: 0 - 19
+  Fields (15):
+    - m_id
+    - m_MoveSpeed
+    - m_LerpN
+    - m_LerpF
+    - m_DelayN
+    - m_DelayF
+    - m_CameraDistN
+    - m_CameraDistF
+    - m_DistDofN
+    - m_DistDofF
+    - m_Fov
+    - m_OfsN
+    - m_OfsF
+    - m_PitchFlag
+    - m_Pitch
+
+TABLE: Map/MapIconList.json
+  Records: 77
+  m_id range: 0 - 76
+  Fields (2):
+    - m_id
+    - m_TextureID
+
+TABLE: Map/MapIconType.json
+  Records: 58
+  m_id range: 0 - 57
+  Fields (2):
+    - m_id
+    - m_texId
+
+TABLE: Map/MapLightSet.json
+  Records: 7
+  m_id range: 0 - 6
+  Fields (6):
+    - m_id
+    - m_Intencity
+    - m_AttenuationRadius
+    - m_LightColor
+    - m_SourceRadius
+    - m_RelativePos
+
+TABLE: Map/MapListTable.json
+  Records: 841
+  m_id range: 0 - 100751
+  Fields (35):
+    - m_id
+    - m_CatMap
+    - m_CatRegion
+    - m_CatVariation
+    - m_CatBlock
+    - m_MapLabel
+    - m_RegionIconTexID
+    - m_RegionText
+    - m_GroupRegionText
+    - m_MapText
+    - m_CameraSet
+    - m_LightSet
+    - m_NightLightSet
+    - m_BGM
+    - m_NightBGM
+    - m_FootSE
+    - m_FootEffect
+    - m_ReverbFlag
+    - m_LanthanumFlag
+    - m_NightLanthanumInvalidFlag
+    - m_RidingVehicle
+    - m_ForceTimeZone
+    - m_WorldId
+    - m_Battlemap
+    - m_SubLevelList
+    - m_JoinMap
+    - m_MapPath
+    - m_PathDataPath
+    - m_PlayerAttachEffectTriggers
+    - m_PlayerAttachEffectInvalidConditions
+    - m_PlayerAttachEffectGroups
+    - m_InvalidQPSCharaScale
+    - m_UseDecalHigh
+    - m_SpecularReflectionEnable
+    - m_FieldSkillGroupID
+
+TABLE: Map/MapMergeList.json
+  Records: 30
+  m_id range: 0 - 30
+  Fields (4):
+    - m_id
+    - m_FromMergeMapId
+    - m_ToMergeMapId
+    - m_MergeConditions
+
+TABLE: Map/MapRegionCategory.json
+  Records: 60
+  m_id range: 0 - 68
+  Fields (3):
+    - m_id
+    - m_RegionCategory
+    - m_RegionAsArea
+
+TABLE: Map/MapReplaceList.json
+  Records: 22
+  m_id range: 0 - 21
+  Fields (13):
+    - m_id
+    - m_MapBefore
+    - m_MapAfter
+    - m_WorldMapBefore
+    - m_WorldMapAfter
+    - m_EnableQuestID
+    - m_EnableQuestState
+    - m_EnableQuestTaskID
+    - m_DisableQuestID
+    - m_DisableQuestState
+    - m_DisableQuestTaskID
+    - m_EnableTrigConditionID
+    - m_DisableTrigConditionID
+
+TABLE: Map/NpcPickupItemGroupList.json
+  Records: 2
+  m_id range: 0 - 3
+  Fields (2):
+    - m_id
+    - m_OpenQuestTriggerCondition
+
+TABLE: Map/NpcPickupItemPointList.json
+  Records: 75
+  m_id range: 0 - 83
+  Fields (4):
+    - m_id
+    - m_PickupGroup
+    - m_PickupPointMap
+    - m_PickupSetList
+
+TABLE: Map/TownList.json
+  Records: 44
+  m_id range: 1 - 44
+  Fields (5):
+    - m_id
+    - m_RelationshipMax
+    - m_RepairCostLeaf
+    - m_RepairTalkText
+    - m_RepairTalkVoice
+
+TABLE: Map/WorldList.json
+  Records: 6
+  m_id range: 0 - 7
+  Fields (28):
+    - m_id
+    - m_WorldNameId
+    - m_BackgroundId
+    - m_BaseLightTexture
+    - m_HeaderLightTexture
+    - m_BackgroundGradationColor
+    - m_MapEffect
+    - m_EffectOffset
+    - m_EffectLocationX
+    - m_EffectLocationY
+    - m_EffectLocationZ
+    - m_QuillpenColorAParams
+    - m_QuillpenColorBParams
+    - m_QuillpenEffectTextureId
+    - m_PriorityQuestLightColorAParams
+    - m_PriorityQuestLightColorBParams
+    - m_PriorityQuestLightColorCParams
+    - m_PriorityQuestLightColorDParams
+    - m_SupportLiving
+    - m_SupportDead
+    - m_MakeTab
+    - m_TabPriority
+    - m_TrigConditionIds
+    - m_InvalidConditionIds
+    - m_MoveWarningWorldIds
+    - m_WarningTextIds
+    - m_FocusWorldMapId
+    - m_WorldMode
+
+TABLE: Map/WorldMapList.json
+  Records: 230
+  m_id range: 0 - 10190
+  Fields (21):
+    - m_id
+    - m_Name
+    - m_Region
+    - m_Town
+    - m_World
+    - m_Type
+    - m_Type_Enable
+    - m_Icon
+    - m_IconPos
+    - m_IconScale
+    - m_UnexploredPermissionFastTravel
+    - m_FastTravelAvailable
+    - m_FastTravelULabel
+    - m_FastTravelDir
+    - m_DisplayType
+    - m_RecommendLevel
+    - m_BelongingMap
+    - m_SymbolEnemies
+    - m_TrigConditionID
+    - m_NoneConditionID
+    - m_NpcPickupItemGroup
+
+TABLE: Map/WorldMapMaskList.json
+  Records: 10
+  m_id range: 1 - 14
+  Fields (8):
+    - m_id
+    - m_WorldId
+    - m_TextureID
+    - m_MaskPos
+    - m_MaskScale
+    - m_Priority
+    - m_TrigConditionIds
+    - m_InvalidConditionIds
+
+TABLE: Map/WorldMapRouteList.json
+  Records: 115
+  m_id range: 0 - 117
+  Fields (9):
+    - m_id
+    - m_TextureID
+    - m_RoutePos
+    - m_Rotate
+    - m_ConnectWorldMapID
+    - m_ImageType
+    - m_TrigConditionID
+    - m_NoneConditionIds
+    - m_MapWorld
+
+TABLE: Narration/NarrationList.json
+  Records: 1882
+  m_id range: 0 - 2143
+  Fields (6):
+    - m_id
+    - m_VoiceID
+    - m_NarrationSet
+    - m_HeightContering
+    - m_TextLavel
+    - m_Justification
+
+TABLE: Notice/NoticeImageList.json
+  Records: 49
+  m_id range: 0 - 55
+  Fields (13):
+    - m_id
+    - m_BeginTimeStamp
+    - m_EndTimeStamp
+    - m_QuestTrigCondition
+    - m_Type
+    - m_TexID
+    - m_Priority
+    - m_Transition
+    - m_TextID
+    - m_GachaListID
+    - m_StoryBookListID
+    - m_QuestListID
+    - m_WorldModeId
+
+TABLE: Object/MapObjectConditionsList.json
+  Records: 457
+  m_id range: 0 - 495
+  Fields (10):
+    - m_id
+    - m_label
+    - m_BootQuestStaet
+    - m_BootQuestID
+    - m_BootQuestTaskId
+    - m_DisableQuestState
+    - m_DisableQuestID
+    - m_DisableQuestTaskId
+    - m_TrigConditionID
+    - m_NoneConditionID
+
+TABLE: Object/ObjectList.json
+  Records: 1466
+  m_id range: 0 - 1619
+  Fields (3):
+    - m_id
+    - m_LevelObjectName
+    - m_TexPath
+
+TABLE: Object/RecoveryPointList.json
+  Records: 107
+  m_id range: 0 - 107
+  Fields (4):
+    - m_id
+    - m_UseNum
+    - m_ObjPath
+    - m_WorldMode
+
+TABLE: Object/TreasureBoxList.json
+  Records: 1431
+  m_id range: 0 - 11110
+  Fields (3):
+    - m_id
+    - m_Treasures
+    - m_Probability
+
+TABLE: Object/TreasureBoxRewardList.json
+  Records: 1458
+  m_id range: 0 - 10117
+  Fields (17):
+    - m_id
+    - m_SE
+    - m_CloseMinimapIcon
+    - m_OpenMinimapIcon
+    - m_Priority
+    - m_RepopType
+    - m_RepopValue
+    - m_RepopSycleType
+    - m_KeyId
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+    - m_RewardOption0
+    - m_RewardProbability
+    - m_EffectId
+    - m_ClosePath
+    - m_OpenPath
+
+TABLE: Pet/PetAbilitySetList.json
+  Records: 62
+  m_id range: 0 - 94
+  Fields (3):
+    - m_id
+    - m_Ability
+    - m_ChangeLv
+
+TABLE: Pet/PetAnimDataTable.json
+  Records: 6
+  m_id range: 0 - 5
+  Fields (2):
+    - m_id
+    - m_DataTablePath
+
+TABLE: Pet/PetDearChangeList.json
+  Records: 71
+  m_id range: 0 - 103
+  Fields (5):
+    - m_id
+    - m_PetId
+    - m_Lv
+    - m_CharaID
+    - m_ViewScale
+
+TABLE: Pet/PetDearTable.json
+  Records: 21
+  m_id range: 0 - 20
+  Fields (6):
+    - m_id
+    - m_Lv
+    - m_NextExp
+    - m_TapExp
+    - m_Present
+    - m_ViewScale
+
+TABLE: Pet/PetExpTable.json
+  Records: 11
+  m_id range: 0 - 10
+  Fields (3):
+    - m_id
+    - m_Lv
+    - m_NextExp
+
+TABLE: Pet/PetGenusGroup.json
+  Records: 8
+  m_id range: 0 - 9
+  Fields (3):
+    - m_id
+    - m_NameID
+    - m_ShowPriority
+
+TABLE: Pet/PetList.json
+  Records: 69
+  m_id range: 0 - 103
+  Fields (20):
+    - m_id
+    - m_ShowOrder
+    - m_NameID
+    - m_GenusGroup
+    - m_Image
+    - m_EventID
+    - m_FieldOffset
+    - m_AbilitySet
+    - m_DearRewardGroupId
+    - m_ExpGroupId
+    - m_DearGroupId
+    - m_GrowthGroupId
+    - m_Param
+    - m_SoundSheetListId
+    - m_TapSE
+    - m_OffsetPosX
+    - m_OffsetPosY
+    - m_OffsetPosZ
+    - m_Scale
+    - m_PetTagID
+
+TABLE: Quality/DeviceQualityList.json
+  Records: 58
+  m_id range: 0 - 135
+  Fields (5):
+    - m_id
+    - m_Quality
+    - m_IOS
+    - m_GPUName
+    - m_DeviceName
+
+TABLE: Quality/QualityPreset.json
+  Records: 5
+  m_id range: 0 - 4
+  Fields (24):
+    - m_id
+    - m_ScreenPercentage
+    - m_BaseFPS
+    - m_MaxFPS
+    - m_PointLightMax
+    - m_VisibleFoliage
+    - m_VisibleShadow
+    - m_VisibleEventShadow
+    - m_VisibleCloudShadow
+    - m_VisibleFogSheet
+    - m_VisibleEmitter
+    - m_VisibleLightBeam
+    - m_VisibleDecal
+    - m_ViewDistanceScale
+    - m_DetailMode
+    - m_EffectsQuality
+    - m_VisibleCharDecalShadow
+    - m_FoliageScale
+    - m_VisibleDOF
+    - m_VisibleBloom
+    - m_AntiAliasingQuality
+    - m_ShadowQuality
+    - m_PostProcessQuality
+    - m_TextureQuality
+
+TABLE: Quest/ForceLimitConditionsList.json
+  Records: 12
+  m_id range: 0 - 16
+  Fields (3):
+    - m_id
+    - m_ForceValidConditionIds
+    - m_ForceInvalidConditionIds
+
+TABLE: Quest/LimitConditions.json
+  Records: 160
+  m_id range: 0 - 197
+  Fields (21):
+    - m_id
+    - m_LimitType
+    - m_DefeatBackMap
+    - m_worldMapID
+    - m_mapID
+    - m_BootQuestStaet
+    - m_BootQuestID
+    - m_BootQuestTaskId
+    - m_DisableQuestState
+    - m_DisableQuestID
+    - m_DisableQuestTaskId
+    - m_TrigConditionID
+    - m_NoneConditionID
+    - m_BgmID
+    - m_HomeMenuState
+    - m_TimeZoneType
+    - m_PathActorLabel
+    - m_Direction
+    - m_WorldMode
+    - m_TextID
+    - m_KickoutMapID
+
+TABLE: Quest/MainStoryRingList.json
+  Records: 9
+  m_id range: 0 - 8
+  Fields (4):
+    - m_id
+    - m_PrevTermRingTex
+    - m
+    - m_PrevTermQuestId
+
+TABLE: Quest/QuestAggregatedPoint.json
+  Records: 98
+  m_id range: 0 - 101
+  Fields (3):
+    - m_id
+    - m_LevelId
+    - m_AppearLabel
+
+TABLE: Quest/QuestAggregatedTaskList.json
+  Records: 430
+  m_id range: 0 - 542
+  Fields (4):
+    - m_id
+    - m_QuestTaskId
+    - m_AggregatedPointId
+    - m_Priority
+
+TABLE: Quest/QuestCategoryID.json
+  Records: 9
+  m_id range: 0 - 8
+  Fields (3):
+    - m_id
+    - m_TextID
+    - m_HideTabIfNoQuest
+
+TABLE: Quest/QuestFilterSettingRegion.json
+  Records: 22
+  m_id range: 0 - 21
+  Fields (7):
+    - m_id
+    - m_WorldMode
+    - m_RegionMap
+    - m_DispRegionMap
+    - m_ShowCondition
+    - m_InvalidCondition
+    - m_ShowOrder
+
+TABLE: Quest/QuestList.json
+  Records: 863
+  m_id range: 0 - 9000158
+  Fields (37):
+    - m_id
+    - m_QuestCategory
+    - m_QuestSubCategory
+    - m_SortPriority
+    - m_PriorityDisplayFlag
+    - m_ChapterNum
+    - m_Chapter
+    - m_ChapterText
+    - m_HideChapter
+    - m_HideReward
+    - m_HideBossSilhouette
+    - m_BossSilhouetteTexId
+    - m_HideBossSilhouetteOnClear
+    - m_BossSilhouetteTexIdOnClear
+    - m_EnableReorder
+    - m_InfluenceType
+    - m_JobType
+    - m_ScenarioPlayerID
+    - m_Title
+    - m_SubTitle
+    - m_Synopsis
+    - m_BeforeAccept
+    - m_ScenarioProgress
+    - m_ShowToBeContinued
+    - m_RecommLv
+    - m_RecommNeedProg
+    - m_Influence
+    - m_RewardType
+    - m_RewardItemId
+    - m_RewardItemNum
+    - m_RewardOption0
+    - m_ToBeContinued
+    - m_IsKeyQuest
+    - m_ShowAllWorld
+    - m_WorldMode
+    - m_HideQuest
+    - m_OverwriteLevelText
+
+TABLE: Quest/QuestTaskList.json
+  Records: 2854
+  m_id range: 0 - 3522
+  Fields (42):
+    - m_id
+    - m_OwnerQuest
+    - m_TaskType
+    - m_TaskNo
+    - m_ParentTaskLabel
+    - m_HideTask
+    - m_Purpose
+    - m_Synopsis
+    - m_NextDestination
+    - m_DestNpcSetLabel
+    - m_DestPathName
+    - m_ClearedQuest
+    - m_OpenConditionID
+    - m_StartConditionID
+    - m_InvalidConditionID
+    - m_ReorderMax
+    - m_ReorderInterval
+    - m_ReorderIntervalType
+    - m_SubClearConditionID
+    - m_ClearConditionID
+    - m_CondQuest
+    - m_CondQuestTask
+    - m_OwnerUniqueChara
+    - m_EventID
+    - m_EnemyID
+    - m_EnemyRaceID
+    - m_ItemID
+    - m_EquipID
+    - m_IntParam
+    - m_StrParam
+    - m_StartEvent
+    - m_ShowStartUI
+    - m_QuestStartEffectType
+    - m_ClearEvent
+    - m_ShowClearUI
+    - m_QuestClearEffectType
+    - m_TaskItemId
+    - m_TaskItemNum
+    - m_BlockadeIgnoreRouteSearch
+    - m_TimeZone
+    - m_ForcedClear
+    - m_OptionalTasks
+
+TABLE: Quest/QuestTrigCondition.json
+  Records: 11147
+  m_id range: 1 - 108734
+  Fields (22):
+    - m_id
+    - m_ConditionID
+    - m_OwnerQuest
+    - m_OwnerQuestTask
+    - m_OwnerUniqueChara
+    - m_EventID
+    - m_EnemyID
+    - m_EnemyRaceID
+    - m_ItemID
+    - m_EquipID
+    - m_JobID
+    - m_GenderID
+    - m_InfluenceID
+    - m_TowerTypeID
+    - m_EventFlagVariableID
+    - m_ArenaID
+    - m_EquipType
+    - m_UtcDateTime
+    - m_IntParam
+    - m_StrParam
+    - m_MultipleConditions
+    - m_WorldMode
+
+TABLE: Quest/ToBeContinuedList.json
+  Records: 18
+  m_id range: 0 - 18
+  Fields (3):
+    - m_id
+    - m_ToBeContinuedType
+    - m_TextureID
+
+TABLE: Reward/RewardCategory.json
+  Records: 30
+  m_id range: 0 - 29
+  Fields (4):
+    - m_id
+    - m_Priority
+    - m_CategoryNameID
+    - m_IconID
+
+TABLE: Reward/RewardID.json
+  Records: 40
+  m_id range: 0 - 1002
+  Fields (2):
+    - m_id
+    - m_RewardCategoryID
+
+TABLE: RingGrowth/RingGrowthConditionList.json
+  Records: 131
+  m_id range: 0 - 9143
+  Fields (4):
+    - m_id
+    - m_QuestID
+    - m_TrigConditions
+    - m_DescriptionText
+
+TABLE: RingGrowth/RingGrowthDivisionList.json
+  Records: 3
+  m_id range: 0 - 2
+  Fields (2):
+    - m_id
+    - m_DivisionName
+
+TABLE: RingGrowth/RingGrowthList.json
+  Records: 113
+  m_id range: 0 - 90128
+  Fields (9):
+    - m_id
+    - m_NameText
+    - m_ShowOrder
+    - m_Division
+    - m_AppearCondQuest
+    - m_AppearTrigConditions
+    - m_AppearCondRingGrowth
+    - m_RingGrowthPoint
+    - m_CompConditions
+
+TABLE: RingGrowth/RingGrowthPointList.json
+  Records: 153
+  m_id range: 0 - 159
+  Fields (6):
+    - m_id
+    - m_NeedPoint
+    - m_RewardType
+    - m_ItemId
+    - m_ItemNum
+    - m_FeaturedFlag
+
+TABLE: Shop/PremiumShopList.json
+  Records: 8012
+  m_id range: 0 - 8379
+  Fields (20):
+    - m_id
+    - m_Priority
+    - m_NameID
+    - m_RewardID
+    - m_ItemID
+    - m_ItemNum
+    - m_PremiumShopID
+    - m_ResourceID
+    - m_Price
+    - m_SalePrice
+    - m_SaleConfirmation
+    - m_ProductNum
+    - m_OpenTimestamp
+    - m_CloseTimestamp
+    - m_ResetCycle
+    - m_AndCondition
+    - m_Conditions
+    - m_IsDisplayNotMeetCondition
+    - m_NotMeetConditionTextID
+    - m_WorldModeID
+
+TABLE: Shop/PremiumShopResourceCategory.json
+  Records: 5
+  m_id range: 1 - 6
+  Fields (3):
+    - m_id
+    - m_ShowOrder
+    - m_CategoryNameID
+
+TABLE: Shop/PremiumShopTopSortCategory.json
+  Records: 28
+  m_id range: 0 - 27
+  Fields (4):
+    - m_id
+    - m_RewardCategoryId
+    - m_ValidExchange
+    - m_ValidSale
+
+TABLE: Shop/ShopList.json
+  Records: 1910
+  m_id range: 0 - 13574
+  Fields (6):
+    - m_id
+    - m_MapID
+    - m_EquipID
+    - m_AndCond
+    - m_TrigCondID
+    - m_WorldMode
+
+TABLE: Skill/ClassSkillConditionList.json
+  Records: 89
+  m_id range: 0 - 90
+  Fields (3):
+    - m_id
+    - m_UseCondition
+    - m_ConditionText
+
+TABLE: Skill/MagicType.json
+  Records: 8
+  m_id range: 0 - 7
+  Fields (5):
+    - m_id
+    - m_TextID
+    - m_WeakIconTexID
+    - m_SkillIconTexID
+    - m_AdditionWeakIconTexID
+
+TABLE: Skill/SkillAilmentOffsets.json
+  Records: 922
+  m_id range: 0 - 20499
+  Fields (34):
+    - m_id
+    - m_PoisonX
+    - m_PoisonY
+    - m_BleedX
+    - m_BleedY
+    - m_SilenceX
+    - m_SilenceY
+    - m_SleepX
+    - m_SleepY
+    - m_PalalysisX
+    - m_PalalysisY
+    - m_FearX
+    - m_FearY
+    - m_WasteX
+    - m_WasteY
+    - m_DarknessX
+    - m_DarknessY
+    - m_HeadacheX
+    - m_HeadacheY
+    - m_EnergyDrainX
+    - m_EnergyDrainY
+    - m_RegenerateX
+    - m_RegenerateY
+    - m_ProvokeX
+    - m_ProvokeY
+    - m_CounterX
+    - m_CounterY
+    - m_InterceptX
+    - m_InterceptY
+    - m_PerfectInterceptScale
+    - m_BreakX
+    - m_BreakY
+    - m_CountDownX
+    - m_CountDownY
+
+TABLE: Skill/SkillAilmentSkillReplaceList.json
+  Records: 12
+  m_id range: 0 - 12
+  Fields (3):
+    - m_id
+    - m_SkillList
+    - m_AilmentType
+
+TABLE: Skill/SkillAilmentType.json
+  Records: 968
+  m_id range: 0 - 1010
+  Fields (75):
+    - m_id
+    - m_Label
+    - m_Resist
+    - m_Minus
+    - m_Plus
+    - m_IsBuffDebuff
+    - m_Removable
+    - m_Multiply
+    - m_OverwriteTurn
+    - m_CompareTurn
+    - m_ForceOverrideValue
+    - m_CompareOverrideValue
+    - m_InvokeTiming
+    - m_TargetStatus
+    - m_TargetStatusArray
+    - m_AilmentCalc
+    - m_ResistWeapon
+    - m_ResistMagic
+    - m_RemoveAilment
+    - m_TargetType
+    - m_RemoveConditions
+    - m_RemoveParams
+    - m_ChildAilment
+    - m_TextID
+    - m_IconTexID
+    - m_IconSptTexID
+    - m_AddEffect
+    - m_CharacterEffect
+    - m_FieldEffect
+    - m_InvokeEffect
+    - m_OnGroundInvoke
+    - m_AddEffectSound
+    - m_InvokeSound
+    - m_ActionID
+    - m_ActionPriority
+    - m_DisableBoostAnim
+    - m_ReplaceCharaID
+    - m_CountDown
+    - m_NoCount
+    - m_StatusDetailAllName
+    - m_StatusDetailName
+    - m_StatusDetailCommentTextID
+    - m_StatusDetailCommentCalcTextID
+    - m_StatusDetailCommentRatedTextID
+    - m_StatusDetailCommentNowRatedTextID
+    - m_StatusDetailCommentFixedTextID
+    - m_StatusDetailAllCommentTextID
+    - m_StatusDetailAllCommentCalcTextID
+    - m_StatusDetailAllCommentRatedTextID
+    - m_StatusDetailAllCommentNowRatedTextID
+    - m_StatusDetailAllCommentFixedTextID
+    - m_StatusDetailSort
+    - m_IgnoreLimit
+    - m_RemainDead
+    - m_AllowAddAilmentOnDead
+    - m_AbsorbHealStatus
+    - m_NotRace
+    - m_EnemyRace
+    - m_ForceSupportAbility
+    - m_ForceCommandAbility
+    - m_MaxUseCount
+    - m_WeaponAppendType
+    - m_MagicAppendType
+    - m_IsAttributeCheckAppendType
+    - m_DuplicateAilment
+    - m_SkillReplace
+    - m_BindWeakID
+    - m_IsAdditionWeak
+    - m_AilmentTagID
+    - m_Attribute
+    - m_TargetAilment
+    - m_ToUnlimited
+    - m_Parallel
+    - m_PhaseOver
+    - m_SkillFilterType
+
+TABLE: Skill/SkillAvailID.json
+  Records: 28023
+  m_id range: 0 - 81459
+  Fields (77):
+    - m_id
+    - m_InvokeTiming
+    - m_InvokeCondition
+    - m_TargetType
+    - m_ModifyType
+    - m_ModifyStatus
+    - m_HitRatio
+    - m_HitTypes
+    - m_CalcType
+    - m_Values
+    - m_Turns
+    - m_OverwriteCount
+    - m_Counts
+    - m_OrderPriority
+    - m_NextPriority
+    - m_TargetNextPriority
+    - m_ShieldDamage
+    - m_IgnoreWeak
+    - m_NoBreakable
+    - m_CriticalRatio
+    - m_Suicide
+    - m_LotteryAilment
+    - m_LotteryAilmentNum
+    - m_AilmentInvokeCondition
+    - m_AddAilment
+    - m_CalcTypeAilment
+    - m_ValueAilment
+    - m_CompareValueAilment
+    - m_WeakLockID
+    - m_DelayedSkill
+    - m_DelayedSkillActByOwner
+    - m_SelfAfterSkillCheck
+    - m_NoSelfAfterSkillCheckEffective
+    - m_SubAilment
+    - m_SubAilmentTag
+    - m_SubAilmentTagFlag
+    - m_CalcTypeResist
+    - m_AddResistWeapon
+    - m_AddResistMagic
+    - m_ResistID
+    - m_ResistAilment
+    - m_ResistAilmentID
+    - m_Reinforcement
+    - m_WeakChangeID
+    - m_EnhancedSkillID
+    - m_SummonGuestID
+    - m_OverrideWeapon
+    - m_OverrideMagic
+    - m_AppendType
+    - m_SkillAvailMagnificationCondition
+    - m_SkillAvailMagnificationConditionArray
+    - m_SkillAvailMagnification
+    - m_SkillAvailMagnificationArray
+    - m_AilmentMagnificationConditions
+    - m_AilmentMagnifications
+    - m_InvocationProbability
+    - m_ModeChangeID
+    - m_CountRefAilment
+    - m_CountRefAilmentTag
+    - m_CountRefType
+    - m_CountRefValue
+    - m_CountRefValueLimit
+    - m_CountRefAttribute
+    - m_IgnorePreviousSuccessful
+    - m_IgnoreDodge
+    - m_IgnoreZeroDamage
+    - m_AddDamageLimitValue
+    - m_AddDamageLimitCondition
+    - m_UseAilmentMagnificationForAddDamageLimit
+    - m_NonCondition
+    - m_IgnoreResistAilment
+    - m_IgnoreDefenceBuff
+    - m_IgnoreReduceDamage
+    - m_HitWeaponEnable
+    - m_HitWeaponType
+    - m_NoConsumeAdditionWeak
+    - m_IsBuffDamageSupStrictlyCheck
+
+TABLE: Skill/SkillAvailMagnificationConditionList.json
+  Records: 217
+  m_id range: 0 - 292
+  Fields (8):
+    - m_id
+    - m_Conditions
+    - m_IntParams
+    - m_AilmentParams
+    - m_RaceParams
+    - m_Equipment
+    - m_WeaponTypes
+    - m_MagicTypes
+
+TABLE: Skill/SkillCategory.json
+  Records: 9
+  m_id range: 0 - 8
+  Fields (2):
+    - m_id
+    - m_BuffDebuffLimit
+
+TABLE: Skill/SkillConditionList.json
+  Records: 933
+  m_id range: 0 - 1147
+  Fields (11):
+    - m_id
+    - m_Conditions
+    - m_Params
+    - m_AilmentTypes
+    - m_StatusTypes
+    - m_WeaponTypes
+    - m_MagicTypes
+    - m_Equipment
+    - m_AutoDungeonBuff
+    - m_AutoDungeonBuffType
+    - m_ORFlag
+
+TABLE: Skill/SkillEffectiveID.json
+  Records: 11434
+  m_id range: 0 - 68368
+  Fields (39):
+    - m_id
+    - m_Repeat
+    - m_HoldTime
+    - m_AvailTime
+    - m_Animations
+    - m_PlayTimes
+    - m_PlayRates
+    - m_AnimationTarget
+    - m_AnimStartFrame
+    - m_AnimEndFrame
+    - m_AnimNoIdle
+    - m_Effects
+    - m_InvokeTimes
+    - m_EffectLayout
+    - m_OffsetsH
+    - m_OffsetsV
+    - m_Sounds
+    - m_SoundTimes
+    - m_SoundToVoice
+    - m_Voices1
+    - m_Voices2
+    - m_Voices3
+    - m_VoiceTimes
+    - m_Texts
+    - m_TextTime
+    - m_CharaVisibility
+    - m_VisibilityTarget
+    - m_VisibilityStartTime
+    - m_MagicStonePerformance
+    - m_MagicStonePerformanceStartTime
+    - m_MagicStoneLevel
+    - m_CameraShakeCurve
+    - m_CameraShakeStartTime
+    - m_Text2nd
+    - m_SkillEffectiveLinkageID
+    - m_IsSetVisibleUI
+    - m_UIVisiblityFlag
+    - m_UIVisibilityTarget
+    - m_UIVisibilityStartTime
+
+TABLE: Skill/SkillEffectiveLinkageList.json
+  Records: 3
+  m_id range: 0 - 2
+  Fields (8):
+    - m_id
+    - m_HoldTime
+    - m_AvailTime
+    - m_OffsetX
+    - m_OffsetY
+    - m_LimitMax
+    - m_LinkageType
+    - m_Effectives
+
+TABLE: Skill/SkillEnhancedList.json
+  Records: 10
+  m_id range: 0 - 10
+  Fields (2):
+    - m_id
+    - m_EnhancedSkills
+
+TABLE: Skill/SkillFilterCategory.json
+  Records: 8
+  m_id range: 1 - 8
+  Fields (3):
+    - m_id
+    - m_Name
+    - m_Priority
+
+TABLE: Skill/SkillFilterType.json
+  Records: 80
+  m_id range: 1 - 90
+  Fields (4):
+    - m_id
+    - m_Name
+    - m_Priority
+    - m_Category
+
+TABLE: Skill/SkillHitRateList.json
+  Records: 72
+  m_id range: 0 - 72
+  Fields (5):
+    - m_id
+    - m_MinCount
+    - m_CountAilment
+    - m_HitRates
+    - m_Shuffle
+
+TABLE: Skill/SkillID.json
+  Records: 23085
+  m_id range: 0 - 614689
+  Fields (45):
+    - m_id
+    - m_Name
+    - m_Detail
+    - m_Job
+    - m_BoostSkills
+    - m_Category
+    - m_RequireRatio
+    - m_RequireValue
+    - m_CountLimit
+    - m_UnableRecoverCount
+    - m_RequireBoost
+    - m_WeaponIconType
+    - m_MagicIconType
+    - m_Avails
+    - m_BeginEffective
+    - m_Effectives
+    - m_EndEffective
+    - m_SkillIconID
+    - m_SkillUniqueIconID
+    - m_CommandPhaseSkillIconID
+    - m_OverrideCommandName
+    - m_DispBoostLv
+    - m_CommandCategory
+    - m_BlockedSkill
+    - m_ReplaceCondition
+    - m_ReplaceConditionArray
+    - m_ReplaceSkill
+    - m_ReplaceSkillArray
+    - m_DisableReplaceTag
+    - m_SpecialSkillInitialGaugeValue
+    - m_SpecialSkillRegenerateValue
+    - m_RecommendCategory
+    - m_DuplicateAilment
+    - m_IsBasicAbility
+    - m_NoChangeBoostType
+    - m_Boost246
+    - m_AfterAction
+    - m_InitialChargeTrun
+    - m_ReChargeTrun
+    - m_MaxBoostLv
+    - m_ForcedSkillFilter
+    - m_ExclusionSkillFilter
+    - m_ForcedCategory
+    - m_NotUsedAutoBattle
+    - m_CmdPhaseTurnResetOnContinue
+
+TABLE: Skill/SkillIconList.json
+  Records: 12
+  m_id range: 0 - 1004
+  Fields (3):
+    - m_id
+    - m_BattleIconTexID
+    - m_MenuIconTexID
+
+TABLE: Skill/SkillModifyType.json
+  Records: 114
+  m_id range: 0 - 208
+  Fields (2):
+    - m_id
+    - m_SkillFilterType
+
+TABLE: Skill/SkillResistAilmentID.json
+  Records: 60
+  m_id range: 0 - 60
+  Fields (3):
+    - m_id
+    - m_ResistAilments
+    - m_ResistRate
+
+TABLE: Skill/SkillResistList.json
+  Records: 241
+  m_id range: 0 - 240
+  Fields (3):
+    - m_id
+    - m_ResistWeapon
+    - m_ResistMagic
+
+TABLE: Skill/SkillUniqueIconID.json
+  Records: 137
+  m_id range: 0 - 137
+  Fields (6):
+    - m_id
+    - m_TextID
+    - m_SkillIconTexID
+    - m_OverrideCommandPanel
+    - m_OverrideInBattle
+    - m_OverrideBuff
+
+TABLE: Skill/SkillVisitorList.json
+  Records: 7
+  m_id range: 0 - 6
+  Fields (8):
+    - m_id
+    - m_EnemyType
+    - m_EscortNum
+    - m_EscortType
+    - m_OffsetsY
+    - m_OffsetsX
+    - m_CallSE
+    - m_IconID
+
+TABLE: Skill/SpecialSkillExtendCategory.json
+  Records: 5
+  m_id range: 1 - 5
+  Fields (2):
+    - m_id
+    - m_Name
+
+TABLE: Skill/SpecialSkillExtendList.json
+  Records: 530
+  m_id range: 7 - 542
+  Fields (12):
+    - m_id
+    - m_TargetSSkill
+    - m_ExtendType
+    - m_GetPlaceText
+    - m_PriorityItemRewardType
+    - m_PriorityItemID
+    - m_PriorityItemNum
+    - m_RewardTypes
+    - m_ItemIDs
+    - m_ItemCounts
+    - m_OpenTimestamp
+    - m_AddSSkillLv
+
+TABLE: Skill/SpecialSkillExtendType.json
+  Records: 4
+  m_id range: 1 - 4
+  Fields (9):
+    - m_id
+    - m_Category
+    - m_SubCategory
+    - m_EffectName
+    - m_DetailText
+    - m_EffectValue
+    - m_SubEffectValue
+    - m_AutoLearn
+    - m_SubText
+
+TABLE: Skill/SpecialSkillGrowthList.json
+  Records: 5301
+  m_id range: 0 - 6630
+  Fields (15):
+    - m_id
+    - m_SpecialSkillID
+    - m_Level
+    - m_SkillID
+    - m_InitialGaugeValue
+    - m_GaugeRegenerateValue
+    - m_CountLimit
+    - m_RewardTypes
+    - m_ItemIDs
+    - m_ItemCounts
+    - m_AvailValues
+    - m_AvailHitTypes
+    - m_AilmentValues
+    - m_AilmentTurns
+    - m_DamageLimitUp
+
+TABLE: Skill/SpecialSkillID.json
+  Records: 266
+  m_id range: 0 - 10201
+  Fields (1):
+    - m_id
+
+TABLE: SkillBoard/BoardLock.json
+  Records: 17
+  m_id range: 0 - 16
+  Fields (2):
+    - m_id
+    - m_GameTextUI
+
+TABLE: SkillBoard/MJBoardBonusList.json
+  Records: 252
+  m_id range: 12 - 1310
+  Fields (20):
+    - m_id
+    - m_PlayerID
+    - m_QuestTrigCondition
+    - m_ConditionText
+    - m_EffectText
+    - m_Index
+    - m_ParamUp_HP
+    - m_ParamUp_PAtk
+    - m_ParamUp_PDef
+    - m_ParamUp_MAtk
+    - m_ParamUp_MDef
+    - m_ParamUp_Cri
+    - m_DamageLimitUp
+    - m_DamageLimitUpAll
+    - m_DamageLimitUpEnable_Weapon
+    - m_DamageLimitUpEnable_Magic
+    - m_Epiphany1Up
+    - m_Epiphany3Up
+    - m_BounusEffect
+    - m_DamageLimitUpEnable_DamageRatio
+
+TABLE: SkillBoard/MJBoardBuildUpList.json
+  Records: 63
+  m_id range: 4 - 319
+  Fields (3):
+    - m_id
+    - m_PlayerID
+    - m_UtcDateTime
+
+TABLE: SkillBoard/MJBoardData.json
+  Records: 266
+  m_id range: 0 - 10319
+  Fields (4):
+    - m_id
+    - m_PlayerId
+    - m_MassGroupId
+    - m_ReleaseUtcDateTime
+
+TABLE: SkillBoard/MJBoardMassData.json
+  Records: 781
+  m_id range: 0 - 11342
+  Fields (12):
+    - m_id
+    - m_Lv
+    - m_MassGroupId
+    - m_SkillID
+    - m_SubSkillID
+    - m_SubCaption
+    - m_CpCost
+    - m_ItemUseType
+    - m_NeedTotalItemNum
+    - m_ExclusiveItem
+    - m_ExclusiveItemNum
+    - m_TrigCondition
+
+TABLE: SkillBoard/MJBoardMassGroupList.json
+  Records: 542
+  m_id range: 0 - 10630
+  Fields (4):
+    - m_id
+    - m_IconTexture
+    - m_UseCost
+    - m_GroupName
+
+TABLE: SkillBoard/MJBoardRankCostList.json
+  Records: 11
+  m_id range: 0 - 10
+  Fields (3):
+    - m_id
+    - m_Rank
+    - m_Cost
+
+TABLE: SkillBoard/MJBoardUseItemGroupList.json
+  Records: 23
+  m_id range: 0 - 23
+  Fields (5):
+    - m_id
+    - m_UseItemRare3
+    - m_UseItemRare4
+    - m_UseItemRare5
+    - m_UsePCItem
+
+TABLE: SkillBoard/SkillBoardData.json
+  Records: 1590
+  m_id range: 0 - 10852
+  Fields (15):
+    - m_id
+    - m_PlayerID
+    - m_BoardNo
+    - m_NeedItemID
+    - m_NeedItemNum
+    - m_JobName
+    - m_ConnectionIndex
+    - m_SkillID
+    - m_SkillCost
+    - m_LockCond1
+    - m_LockCond2
+    - m_LockParam1
+    - m_LockParam2
+    - m_SubCaption
+    - m_NeedItemSubText
+
+TABLE: SkillBoard/SkillBoardInfoHideList.json
+  Records: 9
+  m_id range: 2 - 10
+  Fields (5):
+    - m_id
+    - m_SkillBoardID
+    - m_PanelNumber
+    - m_LockNumber
+    - m_LockedMessage
+
+TABLE: Sound/PartVoiceID.json
+  Records: 1419
+  m_id range: 0 - 3155
+  Fields (3):
+    - m_id
+    - m_Category
+    - m_VoiceType
+
+TABLE: Sound/SoundList.json
+  Records: 71337
+  m_id range: 0 - 124638
+  Fields (10):
+    - m_id
+    - m_SoundLabel
+    - m_Category
+    - m_Usage
+    - m_Sheet
+    - m_Loop
+    - m_PlayMax
+    - m_FadeI
+    - m_FadeO
+    - m_Priority
+
+TABLE: Sound/SoundSheetList.json
+  Records: 625
+  m_id range: 0 - 6616
+  Fields (4):
+    - m_id
+    - m_DebugName
+    - m_SheetAssetPath
+    - m_InitialLoad
+
+TABLE: Sound/VoiceEffectID.json
+  Records: 3
+  m_id range: 0 - 2
+  Fields (3):
+    - m_id
+    - m_BusName
+    - m_BusParam
+
+TABLE: Sound/VoiceSymbolList.json
+  Records: 570
+  m_id range: 0 - 2239
+  Fields (2):
+    - m_id
+    - m_VoiceSymbol
+
+TABLE: StoryBook/StoryBookCategoryList.json
+  Records: 8
+  m_id range: 0 - 7
+  Fields (2):
+    - m_id
+    - m_TextID
+
+TABLE: StoryBook/StoryBookCondition.json
+  Records: 262
+  m_id range: 0 - 297
+  Fields (7):
+    - m_id
+    - m_OpenCondition
+    - m_ConditionText
+    - m_ConditionExplain
+    - m_ReccomendLevel
+    - m_QuestID
+    - m_MapID
+
+TABLE: StoryBook/StoryBookList.json
+  Records: 483
+  m_id range: 0 - 538
+  Fields (38):
+    - m_id
+    - m_Type
+    - m_TitleID
+    - m_TabID
+    - m_CategoryID
+    - m_IconID
+    - m_PlayerID
+    - m_ApperStoryBookCondition
+    - m_ApperQuestCondition
+    - m_ArrayApperQuestCondition
+    - m_ApperCondition
+    - m_ArrayApperCondition
+    - m_OpenCondition
+    - m_ReadCondition
+    - m_FirstRewardType
+    - m_FirstArrayRewardType
+    - m_FirstRewardItemID
+    - m_FirstArrayRewardItemID
+    - m_FirstRewardItemNum
+    - m_FirstArrayRewardItemNum
+    - m_RewardType
+    - m_ArrayRewardType
+    - m_RewardItemID
+    - m_ArrayRewardItemID
+    - m_RewardItemNum
+    - m_ArrayRewardItemNum
+    - m_SortPriority
+    - m_EventID
+    - m_BattleLevel
+    - m_BattleGradeInvalid
+    - m_RewardInfluenceWealth
+    - m_RewardInfluencePower
+    - m_RewardInfluenceFame
+    - m_StartTimestamp
+    - m_EndTimestamp
+    - m_EndType
+    - m_EndTypePlayerID
+    - m_WorldMode
+
+TABLE: StoryBook/StoryBookTabList.json
+  Records: 46
+  m_id range: 0 - 55
+  Fields (9):
+    - m_id
+    - m_TextID
+    - m_TabCaption
+    - m_IsChild
+    - m_ParentTabID
+    - m_IsAllTab
+    - m_SortPriority
+    - m_IsEmpTabHide
+    - m_TabImageID
+
+TABLE: StoryBook/StoryBookType.json
+  Records: 4
+  m_id range: 0 - 3
+  Fields (8):
+    - m_id
+    - m_TextID
+    - m_UmgIndex
+    - m_TexPosX
+    - m_TexPosY
+    - m_BgType
+    - m_BgTextureID
+    - m_WorldMode
+
+TABLE: System/AdTrackingList.json
+  Records: 34
+  m_id range: 0 - 33
+  Fields (3):
+    - m_id
+    - m_label
+    - m_eventToken
+
+TABLE: System/ApplicationVersionList.json
+  Records: 139
+  m_id range: 0 - 40300
+  Fields (5):
+    - m_id
+    - m_PlatformType
+    - m_Major
+    - m_Minor
+    - m_Revision
+
+TABLE: System/OptionList.json
+  Records: 31
+  m_id range: 0 - 302
+  Fields (2):
+    - m_id
+    - m_DefaultParam
+
+TABLE: System/TipsList.json
+  Records: 35
+  m_id range: 0 - 45
+  Fields (12):
+    - m_id
+    - m_TipsGroup
+    - m_Priority
+    - m_Rate
+    - m_TipType
+    - m_Parameter
+    - m_TitleID
+    - m_MessageID
+    - m_TrigIsAND
+    - m_TrigCondID
+    - m_InvalIsAND
+    - m_InvalCondID
+
+TABLE: Texture/CharaTexID.json
+  Records: 730
+  m_id range: 0 - 1488
+  Fields (3):
+    - m_id
+    - m_ResCategory
+    - m_FilePath
+
+TABLE: Texture/EnemyTexID.json
+  Records: 1706
+  m_id range: 0 - 50665
+  Fields (3):
+    - m_id
+    - m_ResCategory
+    - m_FilePath
+
+TABLE: Texture/LinkIconList.json
+  Records: 10
+  m_id range: 0 - 9
+  Fields (3):
+    - m_id
+    - m_defaultIconId
+    - m_differenceIconId
+
+TABLE: Texture/TextureID.json
+  Records: 4718
+  m_id range: 11 - 12247
+  Fields (3):
+    - m_id
+    - m_ResCategory
+    - m_FilePath
+
+TABLE: Tower/TowerChallengeFloorList.json
+  Records: 1
+  m_id range: 0 - 0
+  Fields (7):
+    - m_id
+    - m_Tower
+    - m_BattleMap
+    - m_TurnNum
+    - m_PhaseList
+    - m_StartTimestamp
+    - m_EndTimestamp
+
+TABLE: Tower/TowerChallengeRewardList.json
+  Records: 1
+  m_id range: 0 - 0
+  Fields (5):
+    - m_id
+    - m_ChallengeFloor
+    - m_StartClearNum
+    - m_EndClearNum
+    - m_FloorReward
+
+TABLE: Tower/TowerEnemyGrowupList.json
+  Records: 1
+  m_id range: 0 - 0
+  Fields (4):
+    - m_id
+    - m_AddValue
+    - m_AddTiming
+    - m_MaxAddNum
+
+TABLE: Tower/TowerFloorList.json
+  Records: 178
+  m_id range: 0 - 198
+  Fields (4):
+    - m_id
+    - m_FloorGroup
+    - m_FloorNum
+    - m_BossFlg
+
+TABLE: Tower/TowerFloorRewardList.json
+  Records: 485
+  m_id range: 0 - 515
+  Fields (6):
+    - m_id
+    - m_RewardType
+    - m_ItemId
+    - m_ItemNum
+    - m_ItemCampaignNum
+    - m_ItemOnceOnly
+
+TABLE: Tower/TowerLimitMissionList.json
+  Records: 24
+  m_id range: 0 - 86
+  Fields (3):
+    - m_id
+    - m_LimitMissionType
+    - m_Value
+
+TABLE: Tower/TowerPhaseList.json
+  Records: 508
+  m_id range: 0 - 683
+  Fields (8):
+    - m_id
+    - m_EnemyGroup
+    - m_TurnNum
+    - m_EnemyGrowup
+    - m_OverrideLevel
+    - m_DotScale
+    - m_OffSetX
+    - m_OffSetY
+
+TABLE: Tower/TowerPlayableMissionList.json
+  Records: 719
+  m_id range: 0 - 753
+  Fields (13):
+    - m_id
+    - m_PlayableMissionType
+    - m_ConditionText
+    - m_Value
+    - m_OwnerUniqueChara
+    - m_JobID
+    - m_GenderID
+    - m_InfluenceID
+    - m_WeaponType
+    - m_MagicType
+    - m_RewardType
+    - m_ItemId
+    - m_ItemNum
+
+TABLE: Tower/TowerRoomList.json
+  Records: 272
+  m_id range: 0 - 330
+  Fields (15):
+    - m_id
+    - m_Floor
+    - m_ExFlg
+    - m_Sort
+    - m_OpenCondition
+    - m_OpenConditionText
+    - m_BattleMap
+    - m_TurnNum
+    - m_PhaseList
+    - m_LimitMissionList
+    - m_PlayableMissionList
+    - m_FloorReward
+    - m_FloorNextReward
+    - m_CampaignFloorReward
+    - m_ClearEvent
+
+TABLE: Tower/TowerTutorialList.json
+  Records: 14
+  m_id range: 0 - 13
+  Fields (3):
+    - m_id
+    - m_TutorialID
+    - m_DisplayTextID
+
+TABLE: Tower/TowerTypeList.json
+  Records: 13
+  m_id range: 0 - 18
+  Fields (26):
+    - m_id
+    - m_ChallengeNum
+    - m_ChallengeRestockNum
+    - m_ChallengeRubyNum
+    - m_ChallengeRestockMaxNum
+    - m_ChallengeRestockItem
+    - m_FreeHpSpRecoverNum
+    - m_HpSpRecoverNum
+    - m_HpSpRecoverRubyNum
+    - m_HpSpRecoverItem
+    - m_RestockNum
+    - m_RubyNum
+    - m_RubyRestockNum
+    - m_TowerName
+    - m_BackgroundWidget
+    - m_OpenCondition
+    - m_OpenConditionTower
+    - m_ChangeItem
+    - m_StartEvent
+    - m_Icon
+    - m_IconPosX
+    - m_IconPosY
+    - m_EndFlg
+    - m_InvisibleFlg
+    - m_LimitJobID
+    - m_JudgeClearedFlg
+
+TABLE: Trigger/CurveID.json
+  Records: 101
+  m_id range: 0 - 166
+  Fields (11):
+    - m_id
+    - m_float_curve1
+    - m_float_curve2
+    - m_float_curve3
+    - m_float_curve4
+    - m_vector_curve1
+    - m_vector_curve2
+    - m_vector_curve3
+    - m_color_curve1
+    - m_color_curve2
+    - m_color_curve3
+
+TABLE: Trigger/LightAreaPreset2.json
+  Records: 134
+  m_id range: 0 - 255
+  Fields (170):
+    - m_id
+    - m_WhiteBalance
+    - m_WhiteBalanceValue
+    - m_GlobalSaturation
+    - m_GlobalSaturationColorR
+    - m_GlobalSaturationColorG
+    - m_GlobalSaturationColorB
+    - m_GlobalSaturationColorY
+    - m_GlobalContrast
+    - m_GlobalContrastValueR
+    - m_GlobalContrastValueG
+    - m_GlobalContrastValueB
+    - m_GlobalContrastValueY
+    - m_GlobalGamma
+    - m_GlobalGammaValueR
+    - m_GlobalGammaValueG
+    - m_GlobalGammaValueB
+    - m_GlobalGammaValueY
+    - m_GlobalGain
+    - m_GlobalGainValueR
+    - m_GlobalGainValueG
+    - m_GlobalGainValueB
+    - m_GlobalGainValueY
+    - m_GlobalOffset
+    - m_GlobalOffsetValueR
+    - m_GlobalOffsetValueG
+    - m_GlobalOffsetValueB
+    - m_GlobalOffsetValueY
+    - m_ShadowsSaturation
+    - m_ShadowsSaturationValueR
+    - m_ShadowsSaturationValueG
+    - m_ShadowsSaturationValueB
+    - m_ShadowsSaturationValueV
+    - m_ShadowsContrast
+    - m_ShadowsContrastValueR
+    - m_ShadowsContrastValueG
+    - m_ShadowsContrastValueB
+    - m_ShadowsContrastValueV
+    - m_ShadowsGamma
+    - m_ShadowsGammaValueR
+    - m_ShadowsGammaValueG
+    - m_ShadowsGammaValueB
+    - m_ShadowsGammaValueY
+    - m_ShadowsGain
+    - m_ShadowsGainValueR
+    - m_ShadowsGainValueG
+    - m_ShadowsGainValueB
+    - m_ShadowsGainValueV
+    - m_ShadowsOffset
+    - m_ShadowsOffsetValueR
+    - m_ShadowsOffsetValueG
+    - m_ShadowsOffsetValueB
+    - m_ShadowsOffsetValueY
+    - m_MidtonesSaturation
+    - m_MidtonesSaturationValueR
+    - m_MidtonesSaturationValueG
+    - m_MidtonesSaturationValueB
+    - m_MidtonesSaturationValueV
+    - m_MidtonesContrast
+    - m_MidtonesContrastValueR
+    - m_MidtonesContrastValueG
+    - m_MidtonesContrastValueB
+    - m_MidtonesContrastValueY
+    - m_MidtonesGamma
+    - m_MidtonesGammaValueR
+    - m_MidtonesGammaValueG
+    - m_MidtonesGammaValueB
+    - m_MidtonesGammaValueY
+    - m_MidtonesGain
+    - m_MidtonesGainValueR
+    - m_MidtonesGainValueG
+    - m_MidtonesGainValueB
+    - m_MidtonesGainValueV
+    - m_MidtonesOffset
+    - m_MidtonesOffsetValueR
+    - m_MidtonesOffsetValueG
+    - m_MidtonesOffsetValueB
+    - m_MidtonesOffsetValueY
+    - m_HighlightsSaturation
+    - m_HighlightsSaturationValueR
+    - m_HighlightsSaturationValueG
+    - m_HighlightsSaturationValueB
+    - m_HighlightsSaturationValueV
+    - m_HighlightsContrast
+    - m_HighlightsContrastValueR
+    - m_HighlightsContrastValueG
+    - m_HighlightsContrastValueB
+    - m_HighlightsContrastValueV
+    - m_HighlightsGamma
+    - m_HighlightsGammaValueR
+    - m_HighlightsGammaValueG
+    - m_HighlightsGammaValueB
+    - m_HighlightsGammaValueV
+    - m_HighlightsGain
+    - m_HighlightsGainValueR
+    - m_HighlightsGainValueG
+    - m_HighlightsGainValueB
+    - m_HighlightsGainValueV
+    - m_HighlightsOffset
+    - m_HighlightsOffsetValueR
+    - m_HighlightsOffsetValueG
+    - m_HighlightsOffsetValueB
+    - m_HighlightsOffsetValueY
+    - m_MiscSceneColorTint
+    - m_MiscSceneColorTintValueR
+    - m_MiscSceneColorTintValueG
+    - m_MiscSceneColorTintValueB
+    - m_MiscSceneColorTintValueV
+    - m_MiscColorGradingLUTIntensity
+    - m_MiscColorGradingLUTIntensityValue
+    - m_BloomIntensity
+    - m_BloomintensityValue
+    - m_BloomThreshold
+    - m_BloomThresholdValue
+    - m_VignetteIntensity
+    - m_VignetteIntensityValue
+    - m_DOFFocalDistance
+    - m_DOFFocalDistanceValue
+    - m_DOFFocalRegion
+    - m_DOFFocalRegionValue
+    - m_DOFNearTransitionRegion
+    - m_DOFNearTransitionRegionValue
+    - m_DOFFarTransitionRegion
+    - m_DOFFarTransitionRegionValue
+    - m_DOFNearBlurSize
+    - m_DOFNearBlurSizeValue
+    - m_DOFFarBlurSize
+    - m_DOFFarBlurSizeValue
+    - m_FogDensity
+    - m_FogDensityValue
+    - m_FogColor
+    - m_FogColorR
+    - m_FogColorG
+    - m_FogColorB
+    - m_FogColorV
+    - m_FogColorVValue
+    - m_FogHeight
+    - m_FogHeightValue
+    - m_FogMaxOpacity
+    - m_FogMaxOpacityValue
+    - m_FogStartDistance
+    - m_FogStartDistanceValue
+    - m_FogAlbedo
+    - m_FogAlbedoValue
+    - m_DirLightRot
+    - m_DirLightRotX
+    - m_DirLightRotY
+    - m_DirLightRotZ
+    - m_DirLightIntensity
+    - m_DirLightIntensityValue
+    - m_DirLightColor
+    - m_DirLightColorValue
+    - m_DirLightTemperature
+    - m_DirLightTemperatureValue
+    - m_DirLightUseTemperatureFlg
+    - m_DirLightUseTemperature
+    - m_LightIntensity
+    - m_LightIntensityMinValue
+    - m_LightIntensityMaxValue
+    - m_LightColor
+    - m_LightColorMinValue
+    - m_LightColorMaxValue
+    - m_LihgtRadius
+    - m_LihgtRadiusMinValue
+    - m_LihgtRadiusMaxValue
+    - m_InverseSquareFalloff
+    - m_LightFalloffExponent
+    - m_LightFalloffExponentMinValue
+    - m_LightFalloffExponentMaxValue
+    - m_CastShadow
+
+TABLE: Tutorial/TutorialGroupList.json
+  Records: 11
+  m_id range: 1 - 11
+  Fields (3):
+    - m_id
+    - m_GroupNameID
+    - m_ShowPriority
+
+TABLE: Tutorial/TutorialList.json
+  Records: 150
+  m_id range: 0 - 154
+  Fields (5):
+    - m_id
+    - m_TutorialTexID
+    - m_TutorialNameID
+    - m_ShowPriority
+    - m_TutorialGroup
+
+TABLE: UI/FirstTimeDialog.json
+  Records: 37
+  m_id range: 0 - 37
+  Fields (11):
+    - m_id
+    - m_Key
+    - m_DialogType
+    - m_DisplayTimingType
+    - m_Priority
+    - m_TrigConditionIds
+    - m_InvalidTrigConditionIds
+    - m_TitleId
+    - m_MessageId
+    - m_QuestId
+    - m_WorldModeId
+
+TABLE: WordList/ItemWordFilterList.json
+  Records: 10
+  m_id range: 5 - 14
+  Fields (3):
+    - m_id
+    - m_Name
+    - m_Priority
+
+TABLE: WordList/WordSectionID.json
+  Records: 6
+  m_id range: 0 - 5
+  Fields (1):
+    - m_id
