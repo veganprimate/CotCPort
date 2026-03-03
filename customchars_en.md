@@ -131,3 +131,6 @@ enum class EBOARD_LOCK : uint8
 	eUNLOCK_MAX                              = 17,
 };
 ```
+
+## See also
+- [zhangyucn2's tutorial for adding new characters](https://github.com/zhangyucn2/Octopath-traveller-New-Character-Adding-tutorial), this tutorial goes into greater depth on designing a newly added character's personal quest, adding them to Wishvale as a placeable NPC, and custom FC data
