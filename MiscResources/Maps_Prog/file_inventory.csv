@@ -1,4 +1,4 @@
-source,engine,relative_path,filename,file_size_bytes (FModel extracted JSON package properties),object_count,top_dir,map_type_code,map_region,map_number,map_variant,map_suffix,canonical_name
+source,engine,relative_path,filename,file_size_bytes_json,object_count,top_dir,map_type_code,map_region,map_number,map_variant,map_suffix,canonical_name
 CotC,UE4.26,Level/Area/Gacha/BP/GachaPerformanceControllerBP,GachaPerformanceControllerBP,178432,11,Area,,,,,,
 CotC,UE4.26,Level/Area/Gacha/Back/FxPS_Gh_OrstAnim_05_renewal_1,FxPS_Gh_OrstAnim_05_renewal_1,22203,12,Area,,,,,,
 CotC,UE4.26,Level/Area/Gacha/Back/FxPS_Gh_OrstAnim_05_renewal_1_LV4,FxPS_Gh_OrstAnim_05_renewal_1_LV4,45121,16,Area,,,,,,
