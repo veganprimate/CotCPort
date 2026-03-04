@@ -305,3 +305,10 @@ Connected via `LevelStreamingAlwaysLoaded` references in base level.
 - New lamp/torch 9pcs variants (batch-optimized props)
 - Footstep materials: Canoe, Snow, Wood added; Soil removed
 
+### 9. Various resources
+ - [Complete inventory of all 3,993 analyzed files with metadata](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/Maps_Prog/file_inventory.csv)
+ - [2,281 object types compared across both versions](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/Maps_Prog/object_type_comparison.csv)
+ - [892 canonical map names with cross-version matching](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/Maps_Prog/map_comparison.csv)
+ - [47 regions with file counts and presence flags](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/Maps_Prog/region_comparison.csv)
+ - [All 299 CotC sequencer files analyzed](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/Maps_Prog/sequencer_analysis.csv)
+ - [Key UE4.26→UE5.4.2 type migration mappings](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/Maps_Prog/type_migration_patterns.csv)
