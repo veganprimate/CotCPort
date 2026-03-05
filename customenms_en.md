@@ -6,7 +6,7 @@ The process of adding new enemies and battles to Octopath Traveler 0 primarily r
 ### (***) `EnemyFormations`
 Allows you to specify new Enemy Formations on the field, `m_PositionID` takes `BattlePositions.m_id` as input (`BattlePositions` can be found under `Battle/`). For custom battles with many enemies, you may want to look at these files to find an appropriate formation with enough non-zero `m_PositionID` entries or make your own. Some `PositionID`s may produce wildly different enemy positions depending on the battle map.
 `Kingship_structs.hpp` assigns the following labels to OT0's formations
-```
+```hpp
 enum class EENEMY_FORMATION : uint8
 {
 	NONE                                     = 0,
@@ -92,7 +92,7 @@ Please note that CotC's `m_FlipbookID` under `EnemyType` appears to use these ex
 
 Flipbook assets may assume the following scales (see `Kingship_structs.hpp`):
 
-```
+```hpp
 // Enum Kingship.ECV_FLIPBOOK_SCALE
 // NumValues: 0x0006
 enum class ECV_FLIPBOOK_SCALE : uint8
@@ -136,7 +136,7 @@ This asset is basically OT0's master "battle sprite presentation descriptor" for
   - `m_LinkOwnerAnim`: if true, parts/attachments may follow the owner's animation timing
   - `m_DefeatEffect`: Effect ID to be played on death (e.g. Bestower of All's special defeat effect). `Kingship_structs.hpp` specifies them as follows:
 
-```
+```hpp
 enum class EENEMY_DEFEATEFFECT : uint8
 {
 	NONE                                     = 0,
@@ -149,7 +149,7 @@ enum class EENEMY_DEFEATEFFECT : uint8
        
 - `m_ChangeColorID`: an ID into a color-change table, might be related to `CharaColorChangeParams` under `Character/`. Is only used in OT0 when Zero/the Ringbearer Chosen faces off against his shadow (`ChangeColorID` 6). CotC's `EnemyType` lacks that key entirely. The SDK contains the following possibly related enum:
 
-```
+```hpp
 // Enum Kingship.ECHARA_COLOR_CHANGE_ID
 // NumValues: 0x0008
 enum class ECHARA_COLOR_CHANGE_ID : uint8
@@ -167,7 +167,7 @@ enum class ECHARA_COLOR_CHANGE_ID : uint8
  
 ### (**) `EnemyWeakID`
 Tracks different kinds of weakness profiles which can be assigned to enemies. `m_ResistWeapon` and `m_ResistMagic` take the `m_id`s of `ResistType` under `Skill/` as input; `ResistType` 1 also adds the specified weapon/magic type as a weakness. The order of the specified weapon and magic types likely follow the order of the `m_id`s in the `WeaponType`/`MagicType` assets under `Skill/`, i.e.:
-```
+```json
 {
             "m_id": 0,
             "m_ResistWeapon": [
@@ -199,7 +199,7 @@ Tracks different kinds of weakness profiles which can be assigned to enemies. `m
 
 `Kingship_structs.hpp` assigns the following labels to some of OT0's ResistTypes:
 
-```
+```hpp
 enum class ERESIST_TYPE : uint8
 {
 	NONE                                     = 0,
@@ -215,7 +215,7 @@ enum class ERESIST_TYPE : uint8
 Tracks how enemies change weaknesses. `m_WeakIndices` takes `m_EnemyWeakID.m_id` as inputs and the `m_id` of those weakness changes can be assigned to e.g. an avail (see also [How to add custom skills and avails](customskls_en.md)).
 
 `Kingship_structs.hpp` assigns the following labels to OT0's IDs:
-```
+```hpp
 enum class EENEMY_WEAKCHANGE_ID : uint8
 {
 	None                                     = 0,
@@ -320,7 +320,7 @@ Chronicles all enemy groups. An entry has to be added here for your battle to tr
 - `m_DarkBgm`: The same as `m_NightBgm`? CotC's entries appear to always have the same values in both keys.
 - `m_BgmType`: Exact usage is unclear but `Kingship_structs.hpp` defines the following
 
-```
+```hpp
 enum class EBATTLE_BGM_TYPE : uint8
 {
 	Default                                  = 0,
@@ -413,7 +413,7 @@ Sets of camera configurations which are assigned to enemy groups (`BattleCameraS
 
 `Kingship_structs.hpp` gives the following labels to some camera sets in OT0:
 
-```
+```hpp
 // Enum Kingship.EBATTLE_CAMERA_SET
 // NumValues: 0x000A
 enum class EBATTLE_CAMERA_SET : uint8
@@ -444,7 +444,7 @@ Likely the events which can be assigned to enemy groups under `EnemyGroups.m_Eve
 
 Possibly related: in `Kingship_structs.hpp`:
 
-```
+```hpp
 // Enum Kingship.EBATTLE_EVENT_ID
 // NumValues: 0x0051
 enum class EBATTLE_EVENT_ID : uint8
@@ -545,7 +545,7 @@ Contains scripted steps in a battle event sequence. Where `BattleEventList` desc
 - `m_PerformerEnemy`: : if non-zero, indicates the performer is an enemy (appears to use `EnemyID.m_id` as input)
 - `m_TargetID`: likely who to target for a forced action/skill. Possibly related:
 
-```
+```hpp
 // Enum Kingship.EBATTLE_TARGET_TYPE
 // NumValues: 0x0008
 enum class EBATTLE_TARGET_TYPE : uint8
@@ -591,7 +591,7 @@ enum class EBATTLE_TARGET_TYPE : uint8
 - `m_OnEventFlgIndex`/`m_OffEventFlgIndex`: Also exists in `TacticalList`. The battle engine likely advances scripts based on those flags (i.e. they are an implicit "next" to track what's occurred). Example: used in `TacticalList` by Shadow of Twin Worlds to track whether the tactic unlocking the Shadow's weaknesses upon break of Lucian and Lyblac has occured to re-lock them after Lucian and Lyblac recover from their break as there does not appear to exist a condition specifically for that situation.
 - `m_JoinTrigger`: likely tied to "unit joins battle now" events (e.g. guest joins mid-fight)
 - `m_UniqueProcess`, `m_OptCharacterID`, `m_OptSkillID`: special command types that do not fit the generic struct. `m_UniqueProcess` likely takes the following values:
-```
+```hpp
 // Enum Kingship.EBATTLE_EVENT_COMMAND_UNIQUE_PROCESS
 // NumValues: 0x0006
 enum class EBATTLE_EVENT_COMMAND_UNIQUE_PROCESS : uint8
@@ -607,7 +607,7 @@ enum class EBATTLE_EVENT_COMMAND_UNIQUE_PROCESS : uint8
 
 An enum that may be related to this asset:
 
-```
+```hpp
 // Enum Kingship.EBattleCommandStep
 // NumValues: 0x0009
 enum class EBattleCommandStep : uint8
@@ -635,7 +635,7 @@ The structure is basically: `PlaybackID` → `SkillID` (+ performer slot overrid
 
 Possibly related enum:
 
-```
+```hpp
 // Enum Kingship.EBATTLE_PLAYBACKS
 // NumValues: 0x0014
 enum class EBATTLE_PLAYBACKS : uint8
@@ -685,7 +685,7 @@ Untested whether unused params beyond 2 exist.
 Define a variety of voice lines to be played by party members or a narrator during battle (e.g. special voice lines during the Or'Galdera fight).
 
 Likely related:
-```
+```hpp
 // Enum Kingship.EBATTLE_VOICE_ARENA_ID
 // NumValues: 0x0003
 enum class EBATTLE_VOICE_ARENA_ID : uint8
@@ -772,7 +772,7 @@ OT0's battle termination/forced-outcome condition table: each entry defines a sm
 ### (*) `BattleActionID`
 A small lookup table that maps an "action ID" (likely `SkillAilmentType.m_ActionID`) to a concrete battle animation/motion, with a flag that says whether that animation should be played using the NPC/field character rig instead of the standard battle rig. `m_UseNPC` may determine whether this action should be played using an NPC character animation set rather than the usual battle-sprite.
 Likely related: `Kingship_structs.hpp` assigns the following labels to some action IDs:
-```
+```hpp
 enum class EBATTLE_ACTION_ID : uint8
 {
 	NONE                                     = 0,
@@ -810,7 +810,7 @@ enum class EBATTLE_ACTION_ID : uint8
 
 ### (*) BattleParams
 A variety of battle-related parameters whose meaning is as follows according to `Kingship_structs.hpp` from the Dumper-7 SDK (see #file-dump in the BravelyPath Modular Discord):
-```
+```hpp
 enum class EBATTLE_PARAMS : uint8
 {
 	SWAP_WAIT_SEC                            = 0,
@@ -967,7 +967,7 @@ Likely a small battle staging/layout preset table that ties together a camera pr
 
 `Kingship_structs.hpp` assigns the following labels to some layout sets:
 
-```
+```hpp
 // Enum Kingship.EBATTLE_LAYOUT_SET
 // NumValues: 0x0005
 enum class EBATTLE_LAYOUT_SET : uint8
@@ -1006,7 +1006,7 @@ Appears to tell the game what to actually do when a tactic applies: which skill 
 - `m_SkillIndex`: This is not a SkillID itself. It's an index into a skill list/array (from testing: `TacticalSkillList.m_UseSkills[]` for the enemy's `m_SkillsID`)
 - `m_SelectType`: A selection mode enum, `Kingship_structs.hpp` defines the following:
 
-```
+```hpp
 enum class EACTION_SELECT_TYPE : uint8
 {
 	None                                     = 0,
