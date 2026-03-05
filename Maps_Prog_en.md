@@ -113,6 +113,34 @@ Maps follow: `Map_XX_Region_N0_NNNN_VV[_SUFFIX]`, in very rare cases, `R0` is us
  - `TB` = **Town Background** - Town visual layers
  - `TP` = **Town Playfield** - Interactive towns with NPCs
 
+The OT0 SDK defines the following type codes:
+```hpp
+// Enum Kingship.EMAP_CATEGORY
+// NumValues: 0x0012
+enum class EMAP_CATEGORY : uint8
+{
+	NN                                       = 0,
+	TP                                       = 1,
+	TB                                       = 2,
+	TE                                       = 3,
+	FP                                       = 4,
+	FB                                       = 5,
+	FE                                       = 6,
+	DP                                       = 7,
+	DB                                       = 8,
+	DE                                       = 9,
+	HP                                       = 10,
+	HB                                       = 11,
+	WP                                       = 12,
+	WB                                       = 13,
+	EV                                       = 14,
+	BB                                       = 15,
+	EN                                       = 16,
+	EMAP_MAX                                 = 17,
+};
+```
+
+
 **OT0 Suffixes** (**NOT** present in CotC; Sub-Level splitting):
  - `(none)` = **Base map** (visual meshes, landscape, static content)
  - `_GD`    = **Game Design** sub-level (NPCs, triggers, cameras, pathing, gameplay logic)
