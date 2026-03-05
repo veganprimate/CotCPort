@@ -35,5 +35,6 @@ BP,"Blueprint",169
 MI,"Material Instance",364
 M,"Material (master)",240
 T,"Texture",469
-QP,"Game-specific prefix (Kingship)",227
+QP,"Game-specific prefix (QueenPort)",227
+KS,"Game-specific prefix (KingShip)",
 Seq,"Sequence (Matinee/Sequencer)",190
