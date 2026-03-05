@@ -48,7 +48,7 @@ The relevant file appears to be `CharacterCreateJobList`, but adding new entries
 - `m_AnimType`
 `Kingship_structs.hpp` defines the following animation type IDs:
 
-```
+```hpp
 // Enum Kingship.ECHARA_ANIM_TYPE
 // NumValues: 0x0005
 enum class ECHARA_ANIM_TYPE : uint8
@@ -62,7 +62,7 @@ enum class ECHARA_ANIM_TYPE : uint8
 ```
 
 ### Under `CharacterCreate/`
-```
+```hpp
 // Enum Kingship.ECharacterCreatePersonalityID
 // NumValues: 0x0005
 enum class ECharacterCreatePersonalityID : uint8
@@ -106,7 +106,7 @@ enum class ECHARACTER_PARTS_LIST : uint8
 ### `SkillBoardData`
 `Kingship_struct.hpp` defines the following lock conditions
 
-```
+```hpp
 // Enum Kingship.EBOARD_LOCK
 // NumValues: 0x0012
 enum class EBOARD_LOCK : uint8
