@@ -3,7 +3,7 @@
 
 1. Look at `CharaID` under `/Game/Content/Local/DataBase/Character`. This file basically stores texture paths and more for NPCs. If the NPC you're trying to add lacks an entry there, you'll have to add one. You can also, of course, use this file to look up the texture paths of specific NPCs' spritesheets, expanding those files directly often works too.
 2. Add a new entry to `CharaPlayer` referencing `CharaID.m_id` under `m_CharaID`. Names have to be added to `GameTextCharacter`, the listed params (I believe) are as follows
-```
+```json
  "m_Param": [
         0, (none)
         250, (Max. HP)
