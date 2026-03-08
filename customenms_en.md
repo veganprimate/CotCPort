@@ -992,6 +992,7 @@ OT0's enemy AI "rule clause" table: each entry defines a set of conditions that,
    - `m_StatusTypes` (possibly takes `CharaStatusID.m_id` as input)
    - `m_WeaponTypes` (takes `WeaponType.m_id` as input)
    - `m_MagicTypes` (takes `Magictype.m_id` as input)
+
 The meaning of each condition has yet to be rigorously worked out, these resources may help you out with that
  - [Conditions Crossref Atlas](https://github.com/veganprimate/CotCPort/blob/main/Conditions/Conditions_Crossref_Atlas.md)
  - [(Old) Conditions Datamine](https://github.com/veganprimate/CotCPort/tree/main/Conditions/Conditions_Datamine_EN)
