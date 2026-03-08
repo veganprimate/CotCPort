@@ -344,7 +344,7 @@ enum class EBATTLE_BGM_TYPE : uint8
 - `m_ForcedWinAbortCondition`: Sets a custom condition for forcing the battle to be won. Viable IDs can likely be found under `BattleAbortConditions`.
 - `m_IsAllEnemyDeadOnForceWin`: (untested) Flag that determines whether all enemies perish upon fulfilling the condition set in `m_ForcedWinAbortCondition`?
 - `m_ForcedLoseAbortCondition`: Sets a custom condition for forcibly losing the battle. Viable IDs can likely be found under `BattleAbortConditions`.
-- `m_ImportantFlags`: Six different flags, all of which are unused in OT0 and whose meaning could not be determined through testing
+- `m_ImportantFlags`: Six different flags, all of which are unused in OT0 and whose meaning could not be determined through testing (given that the array has the same length as `m_EnemyID`, there likely isn't any difference between those 6 flags besides choosing which enemy on the field to apply it to)
   - Flag 1: used primarily by Job Tower bosses in CotC.
   - Flag 2: used only by `Dice_Bolaven_Rank04_BossGr03` (battle against Idore, Roguish Riven Soldier I, and Roguish Riven Soldier II)
   - Flag 3: only used by the same enemy group as Flag 2
