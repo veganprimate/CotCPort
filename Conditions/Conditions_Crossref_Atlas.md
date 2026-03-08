@@ -1,3 +1,4 @@
+
 # Octopath Traveler 0: Condition Crossref Atlas
 
 This document focuses only on condition systems. It splits the analysis into separate namespaces so unlike IDs do not get conflated: the **battle/AI/skill** condition family, the **skill-magnification** condition family, and the **quest/global trigger**-condition family.
@@ -5412,7 +5413,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 - Consumer sources: `NpcSetList` × 18, `VillageBuildingData` × 6
 - Active `QuestTrigCondition` fields: `m_OwnerQuest` × 14, `m_IntParam` × 2, `m_OwnerQuestTask` × 1, `m_EventID` × 1
 - Owner quests: `QuestList#9001024 GameTextQuest#219104800 "Great Expectations"` × 2, `QuestList#1004020 GameTextQuest#10401001 "Master of All"` × 1, `QuestList#1008000 GameTextQuest#215504027 "Finale"` × 1, `QuestList#1008080 GameTextQuest#215504028 "Bestower of All"` × 1, `QuestList#9001030 GameTextQuest#919104510 "An Encounter with Tressa"` × 1, `QuestList#1005020 GameTextQuest#10500001 "Bestower of Wealth"` × 1, `QuestList#1005030 GameTextQuest#10500001 "Bestower of Wealth"` × 1, `QuestList#1008090 GameTextQuest#215504028 "Bestower of All"` × 1
-- Event targets: `EventList#417 "EvB04_08_03b" version=Boss/B04_08 MapListTable#10 Map_DP_Cliff_N0_1003_A1 GameTextMap#3210 "Road to Castle Edoras" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_03b.json` × 1
+- Event targets: `EventList#417 "EvB04_08_03b" version=Boss/B04_08 MapListTable#10 Map_DP_Cliff_N0_1003_A1 GameTextMap#3210 "Road to Castle Edoras" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_03b.json` × 1
 - Integer param signatures: `[1]` × 2
 - Example rows:
   - `QuestTrigCondition#990134` :: `{"m_id": 990134, "m_ConditionID": 2, "m_OwnerQuest": 1004020}`
@@ -5461,7 +5462,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 - CotC comparison: `OT0-only` (not observed in CotC counterpart quest/global trigger rows)
 - Consumer sources: `QuestList` × 1
 - Active `QuestTrigCondition` fields: `m_EventID` × 5, `m_IntParam` × 1
-- Event targets: `EventList#9031 "EvB05_03_Pyramid_Door_A" version=Boss/B05_03 MapListTable#100052 Map_DP_Desert_N0_2002_A1 GameTextMap#16115 "Golden Palace: Upper Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_A.json` × 1, `EventList#9027 "EvB05_03_Pyramid_Door_B" version=Boss/B05_03 MapListTable#100052 Map_DP_Desert_N0_2002_A1 GameTextMap#16115 "Golden Palace: Upper Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_B.json` × 1, `EventList#9050 "EvB05_03_Pyramid_Door_D" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_D.json` × 1, `EventList#9051 "EvB05_03_Pyramid_Door_E" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_E.json` × 1, `EventList#10559 "EvB08_08_BEnd2a" version=Boss/B08_08 MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd2a.json` × 1
+- Event targets: `EventList#9031 "EvB05_03_Pyramid_Door_A" version=Boss/B05_03 MapListTable#100052 Map_DP_Desert_N0_2002_A1 GameTextMap#16115 "Golden Palace: Upper Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_A.json` × 1, `EventList#9027 "EvB05_03_Pyramid_Door_B" version=Boss/B05_03 MapListTable#100052 Map_DP_Desert_N0_2002_A1 GameTextMap#16115 "Golden Palace: Upper Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_B.json` × 1, `EventList#9050 "EvB05_03_Pyramid_Door_D" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_D.json` × 1, `EventList#9051 "EvB05_03_Pyramid_Door_E" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_E.json` × 1, `EventList#10559 "EvB08_08_BEnd2a" version=Boss/B08_08 MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd2a.json` × 1
 - Integer param signatures: `[1]` × 1
 - Example rows:
   - `QuestTrigCondition#104149` :: `{"m_id": 104149, "m_ConditionID": 11, "m_EventID": 9031}`
@@ -5478,7 +5479,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 - Consumer sources: `NpcSetList` × 1447, `NpcTalkListVariant` × 146, `MapObjectConditionsList` × 143, `LimitConditions` × 75, `WorldMapMaskList` × 35, `CharaNpcList` × 32, `MainPlayerRingIllust` × 23, `VillageBuildingData` × 14
 - Active `QuestTrigCondition` fields: `m_EventID` × 608, `m_IntParam` × 30, `m_QuestRollbackId` × 19, `m_StrParam` × 6
 - Rollback values: `3 (RB_END_BRANCH)` × 8, `2 (RB_SAVE_END_B)` × 7, `1 (RB_SAVE_END_A)` × 4
-- Event targets: `EventList#98036 "EvT00_01_30" version=Town/T00_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_30.json` × 5, `EventList#99543 "EvT04_01_06" version=Town/T04_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T04_01/EvT04_01_06.json` × 4, `EventList#417 "EvB04_08_03b" version=Boss/B04_08 MapListTable#10 Map_DP_Cliff_N0_1003_A1 GameTextMap#3210 "Road to Castle Edoras" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_03b.json` × 3, `EventList#99517 "EvQuSQ007_01_03" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_03.json` × 3, `EventList#99512 "EvQuSQ003_01_01" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ003_01_01.json` × 3, `EventList#99513 "EvQuSQ003_01_02" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ003_01_02.json` × 3, `EventList#3 "EvB01_01_01c" version=Boss/B01_01 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_01/EvB01_01_01c.json` × 2, `EventList#21 "EvB01_02_02c" version=Boss/B01_02 MapListTable#46 Map_TP_Forest_N0_1001_A1 GameTextMap#3247 "Valore" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_02/EvB01_02_02c.json` × 2
+- Event targets: `EventList#98036 "EvT00_01_30" version=Town/T00_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_30.json` × 5, `EventList#99543 "EvT04_01_06" version=Town/T04_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T04_01/EvT04_01_06.json` × 4, `EventList#417 "EvB04_08_03b" version=Boss/B04_08 MapListTable#10 Map_DP_Cliff_N0_1003_A1 GameTextMap#3210 "Road to Castle Edoras" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_03b.json` × 3, `EventList#99517 "EvQuSQ007_01_03" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_03.json` × 3, `EventList#99512 "EvQuSQ003_01_01" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ003_01_01.json` × 3, `EventList#99513 "EvQuSQ003_01_02" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ003_01_02.json` × 3, `EventList#3 "EvB01_01_01c" version=Boss/B01_01 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_01/EvB01_01_01c.json` × 2, `EventList#21 "EvB01_02_02c" version=Boss/B01_02 MapListTable#46 Map_TP_Forest_N0_1001_A1 GameTextMap#3247 "Valore" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_02/EvB01_02_02c.json` × 2
 - Integer param signatures: `[1]` × 30
 - String param signatures: `["MapNone", "eNONE"]` × 6
 - Example rows:
@@ -5526,7 +5527,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 - CotC comparison: `OT0-only` (not observed in CotC counterpart quest/global trigger rows)
 - Consumer sources: (none)
 - Active `QuestTrigCondition` fields: `m_EventID` × 1
-- Event targets: `EventList#42 "EvB01_03_02b" version=Boss/B01_03 MapListTable#47 Map_TP_Forest_N0_1001_B1 GameTextMap#3248 "Valore: Main Boulevard" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_03/EvB01_03_02b.json` × 1
+- Event targets: `EventList#42 "EvB01_03_02b" version=Boss/B01_03 MapListTable#47 Map_TP_Forest_N0_1001_B1 GameTextMap#3248 "Valore: Main Boulevard" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_03/EvB01_03_02b.json` × 1
 - Example rows:
   - `QuestTrigCondition#105461` :: `{"m_id": 105461, "m_ConditionID": 15, "m_EventID": 42}`
 
@@ -6689,21 +6690,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `6`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#44 "EvB01_03_04a" version=Boss/B01_03 MapListTable#47 Map_TP_Forest_N0_1001_B1 GameTextMap#3248 "Valore: Main Boulevard" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_03/EvB01_03_04a.json`
+- Event target: `EventList#44 "EvB01_03_04a" version=Boss/B01_03 MapListTable#47 Map_TP_Forest_N0_1001_B1 GameTextMap#3248 "Valore: Main Boulevard" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_03/EvB01_03_04a.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 7
 
 ### QuestTrigCondition `7`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8 "EvB01_01_05a" version=Boss/B01_01 MapListTable#52 Map_DP_Forest_N0_1002_A1 GameTextMap#3253 "Herminia's Manse" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_01/EvB01_01_05a.json`
+- Event target: `EventList#8 "EvB01_01_05a" version=Boss/B01_01 MapListTable#52 Map_DP_Forest_N0_1002_A1 GameTextMap#3253 "Herminia's Manse" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_01/EvB01_01_05a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Forest_N0_1002_A1.json row 29
 
 ### QuestTrigCondition `200`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#42 "EvB01_03_02b" version=Boss/B01_03 MapListTable#47 Map_TP_Forest_N0_1001_B1 GameTextMap#3248 "Valore: Main Boulevard" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_03/EvB01_03_02b.json`
+- Event target: `EventList#42 "EvB01_03_02b" version=Boss/B01_03 MapListTable#47 Map_TP_Forest_N0_1001_B1 GameTextMap#3248 "Valore: Main Boulevard" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_03/EvB01_03_02b.json`
 - Consumers:
   - EncountList.enable[0] -> EncountList#91015 MapListTable#52 Map_DP_Forest_N0_1002_A1 GameTextMap#3253 "Herminia's Manse" EncountVolume#91015 danger=16 groups=[EnemyGroups#99090, EnemyGroups#99091, EnemyGroups#99092, EnemyGroups#99093] first=EnemyGroups#99946 label=EnemyGroup_016_07 [EnemyID#98744 label=Enemy_284_01 GameTextEnemy#98392 "Remnant", EnemyID#99075 label=Enemy_048_03 GameTextEnemy#49309 "Herminia's Soldier I", EnemyID#32361 label=Enemy_048_02 GameTextEnemy#49311 "Herminia's Soldier II"]
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Forest_N0_1001_A1.json row 75
@@ -6711,14 +6712,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `1000`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6248 "EvB02_01_03c" version=Boss/B02_01 MapListTable#56 Map_TP_Snow_N0_1001_A1 GameTextMap#3257 "Emberglow" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B02_01/EvB02_01_03c.json`
+- Event target: `EventList#6248 "EvB02_01_03c" version=Boss/B02_01 MapListTable#56 Map_TP_Snow_N0_1001_A1 GameTextMap#3257 "Emberglow" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B02_01/EvB02_01_03c.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 4
 
 ### QuestTrigCondition `1012`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#129 "EvB02_02_11a" version=Boss/B02_02 MapListTable#119 Map_DP_Snow_N0_1004_A1 GameTextMap#3320 "Emberglow Slopes" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B02_02/EvB02_02_11a.json`
+- Event target: `EventList#129 "EvB02_02_11a" version=Boss/B02_02 MapListTable#119 Map_DP_Snow_N0_1004_A1 GameTextMap#3320 "Emberglow Slopes" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B02_02/EvB02_02_11a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 12
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 11
@@ -6727,7 +6728,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `1501`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#150 "EvB02_03_13c" version=Boss/B02_03 MapListTable#2005 Map_EV_Other_N0_1005_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B02_03/EvB02_03_13c.json`
+- Event target: `EventList#150 "EvB02_03_13c" version=Boss/B02_03 MapListTable#2005 Map_EV_Other_N0_1005_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B02_03/EvB02_03_13c.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 4
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 6
@@ -6738,7 +6739,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `1502`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#152 "EvB02_03_10b" version=Boss/B02_03 MapListTable#2005 Map_EV_Other_N0_1005_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B02_03/EvB02_03_10b.json`
+- Event target: `EventList#152 "EvB02_03_10b" version=Boss/B02_03 MapListTable#2005 Map_EV_Other_N0_1005_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B02_03/EvB02_03_10b.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 6
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 5
@@ -6746,7 +6747,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `1503`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#146 "EvB02_03_11a" version=Boss/B02_03 MapListTable#63 Map_DP_Snow_N0_1002_B1 GameTextMap#3264 "Cathedral of Tytos" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B02_03/EvB02_03_11a.json`
+- Event target: `EventList#146 "EvB02_03_11a" version=Boss/B02_03 MapListTable#63 Map_DP_Snow_N0_1002_B1 GameTextMap#3264 "Cathedral of Tytos" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B02_03/EvB02_03_11a.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Plain_N0_1003_A1.json row 50031
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Plain_N0_1003_A1.json row 50032
@@ -6755,7 +6756,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `2000`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#201 "EvB03_01_01a" version=Boss/B03_01 MapListTable#78 Map_TP_Plain_N0_1001_B1 GameTextMap#3279 "Amphitheatre" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B03_01/EvB03_01_01a.json`
+- Event target: `EventList#201 "EvB03_01_01a" version=Boss/B03_01 MapListTable#78 Map_TP_Plain_N0_1001_B1 GameTextMap#3279 "Amphitheatre" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B03_01/EvB03_01_01a.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 14
 
@@ -6769,14 +6770,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `3807`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#442 "EvB04_02_10e" version=Boss/B04_02 MapListTable#4 Map_TP_Cliff_N0_1001_C1 GameTextMap#3204 "Castle Edoras: Dungeon" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_02/EvB04_02_10e.json`
+- Event target: `EventList#442 "EvB04_02_10e" version=Boss/B04_02 MapListTable#4 Map_TP_Cliff_N0_1001_C1 GameTextMap#3204 "Castle Edoras: Dungeon" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_02/EvB04_02_10e.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_C1.json row 2
 
 ### QuestTrigCondition `3808`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#451 "EvB04_02_10f" version=Boss/B04_02 MapListTable#4 Map_TP_Cliff_N0_1001_C1 GameTextMap#3204 "Castle Edoras: Dungeon" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_02/EvB04_02_10f.json`
+- Event target: `EventList#451 "EvB04_02_10f" version=Boss/B04_02 MapListTable#4 Map_TP_Cliff_N0_1001_C1 GameTextMap#3204 "Castle Edoras: Dungeon" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_02/EvB04_02_10f.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_C1.json row 3
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_C1.json row 1
@@ -6785,7 +6786,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `3810`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#498 "EvB04_08_Advice" version=Boss/B04_08 MapListTable#11 Map_DP_Cliff_N0_1003_B1 GameTextMap#3211 "Castle Edoras Gate" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_Advice.json`
+- Event target: `EventList#498 "EvB04_08_Advice" version=Boss/B04_08 MapListTable#11 Map_DP_Cliff_N0_1003_B1 GameTextMap#3211 "Castle Edoras Gate" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_Advice.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Cliff_N0_1003_B1.json row 222
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Cliff_N0_1003_B1.json row 215
@@ -6793,7 +6794,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `3811`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#431 "EvB04_02_10b" version=Boss/B04_02 MapListTable#4 Map_TP_Cliff_N0_1001_C1 GameTextMap#3204 "Castle Edoras: Dungeon" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_02/EvB04_02_10b.json`
+- Event target: `EventList#431 "EvB04_02_10b" version=Boss/B04_02 MapListTable#4 Map_TP_Cliff_N0_1001_C1 GameTextMap#3204 "Castle Edoras: Dungeon" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_02/EvB04_02_10b.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_C1.json row 4
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_C1.json row 5
@@ -6805,14 +6806,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `3900`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#417 "EvB04_08_03b" version=Boss/B04_08 MapListTable#10 Map_DP_Cliff_N0_1003_A1 GameTextMap#3210 "Road to Castle Edoras" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_03b.json`
+- Event target: `EventList#417 "EvB04_08_03b" version=Boss/B04_08 MapListTable#10 Map_DP_Cliff_N0_1003_A1 GameTextMap#3210 "Road to Castle Edoras" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_03b.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 351
 
 ### QuestTrigCondition `3901`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#425 "EvB04_08_08a" version=Boss/B04_08 MapListTable#260 Map_DP_Cliff_N0_1003_G1 GameTextMap#3216 "Castle Edoras: Throne Room" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_08a.json`
+- Event target: `EventList#425 "EvB04_08_08a" version=Boss/B04_08 MapListTable#260 Map_DP_Cliff_N0_1003_G1 GameTextMap#3216 "Castle Edoras: Throne Room" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_08a.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 351
 
@@ -6834,7 +6835,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `4001`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#77 "EvB05_01_07b" version=Boss/B05_01 MapListTable#10002 Map_TP_Forest_N0_2001_B1 GameTextMap#10002 "Victors Hollow: Arena Gate" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_01/EvB05_01_07b.json`
+- Event target: `EventList#77 "EvB05_01_07b" version=Boss/B05_01 MapListTable#10002 Map_TP_Forest_N0_2001_B1 GameTextMap#10002 "Victors Hollow: Arena Gate" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_01/EvB05_01_07b.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Forest_N0_2001_A1.json row 97
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Forest_N0_2001_A1.json row 99
@@ -6855,7 +6856,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `4002`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#78 "EvB05_01_07c" version=Boss/B05_01 MapListTable#10001 Map_TP_Forest_N0_2001_A1 GameTextMap#10001 "Victors Hollow" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_01/EvB05_01_07c.json`
+- Event target: `EventList#78 "EvB05_01_07c" version=Boss/B05_01 MapListTable#10001 Map_TP_Forest_N0_2001_A1 GameTextMap#10001 "Victors Hollow" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_01/EvB05_01_07c.json`
 - Consumers:
   - NpcSetList.show[1] -> Npc/NpcSetList_TP_Forest_N0_2001_A1.json row 97
   - NpcSetList.show[1] -> Npc/NpcSetList_TP_Forest_N0_2001_A1.json row 99
@@ -6876,7 +6877,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `4003`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#79 "EvB05_01_07d" version=Boss/B05_01 MapListTable#10001 Map_TP_Forest_N0_2001_A1 GameTextMap#10001 "Victors Hollow" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_01/EvB05_01_07d.json`
+- Event target: `EventList#79 "EvB05_01_07d" version=Boss/B05_01 MapListTable#10001 Map_TP_Forest_N0_2001_A1 GameTextMap#10001 "Victors Hollow" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_01/EvB05_01_07d.json`
 - Consumers:
   - NpcSetList.show[2] -> Npc/NpcSetList_TP_Forest_N0_2001_A1.json row 97
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Forest_N0_2001_A1.json row 98
@@ -6984,7 +6985,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `6010`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#259 "EvB07_00_04b" version=Boss/B07_00 MapListTable#10011 Map_TP_Snow_N0_2001_C1 GameTextMap#16012 "Flamesgrace Cathedral" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_00/EvB07_00_04b.json`
+- Event target: `EventList#259 "EvB07_00_04b" version=Boss/B07_00 MapListTable#10011 Map_TP_Snow_N0_2001_C1 GameTextMap#16012 "Flamesgrace Cathedral" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_00/EvB07_00_04b.json`
 - Consumers:
   - NpcTalkListVariant.show[1] -> Npc/NpcTalkList_TP_Snow_N0_2001_C1.json row 26
 
@@ -7164,7 +7165,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `30084`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#4616 "EvTutorial_11" version=Tutorial/11 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/11/EvTutorial_11.json`
+- Event target: `EventList#4616 "EvTutorial_11" version=Tutorial/11 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/11/EvTutorial_11.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 37
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Forest_N0_9001_A1.json row 99008
@@ -8500,7 +8501,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103244`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#80 "EvB05_01_07e" version=Boss/B05_01 MapListTable#10003 Map_TP_Forest_N0_2001_C1 GameTextMap#10003 "Victors Hollow: Old Quarter" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_01/EvB05_01_07e.json`
+- Event target: `EventList#80 "EvB05_01_07e" version=Boss/B05_01 MapListTable#10003 Map_TP_Forest_N0_2001_C1 GameTextMap#10003 "Victors Hollow: Old Quarter" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_01/EvB05_01_07e.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Forest_N0_2001_A1.json row 76
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Forest_N0_2001_A1.json row 1
@@ -8564,7 +8565,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103249`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#7043 "EvB07_01_08f" version=Boss/B07_01 MapListTable#10035 Map_TP_Snow_N0_2002_B1 GameTextMap#16061 "Cathedral of Tytos" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_08f.json`
+- Event target: `EventList#7043 "EvB07_01_08f" version=Boss/B07_01 MapListTable#10035 Map_TP_Snow_N0_2002_B1 GameTextMap#16061 "Cathedral of Tytos" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_08f.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Snow_N0_2002_B1.json row 21
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Snow_N0_2002_B1.json row 70
@@ -8574,7 +8575,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103251`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6502 "EvB06_02_08e" version=Boss/B06_02 MapListTable#100026 Map_TP_Sea_N0_2001_D1 GameTextMap#16087 "Grandport: Estate Entrance" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_02/EvB06_02_08e.json`
+- Event target: `EventList#6502 "EvB06_02_08e" version=Boss/B06_02 MapListTable#100026 Map_TP_Sea_N0_2001_D1 GameTextMap#16087 "Grandport: Estate Entrance" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_02/EvB06_02_08e.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 47
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 48
@@ -8583,7 +8584,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103252`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6507 "EvB06_02_10c" version=Boss/B06_02 MapListTable#10028 Map_TP_Sea_N0_2001_C1 GameTextMap#16036 "Grandport Bazaar" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_02/EvB06_02_10c.json`
+- Event target: `EventList#6507 "EvB06_02_10c" version=Boss/B06_02 MapListTable#10028 Map_TP_Sea_N0_2001_C1 GameTextMap#16036 "Grandport Bazaar" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_02/EvB06_02_10c.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 32
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 44
@@ -8592,14 +8593,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103253`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6972 "EvB06_03_02a" version=Boss/B06_03 MapListTable#100026 Map_TP_Sea_N0_2001_D1 GameTextMap#16087 "Grandport: Estate Entrance" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_02a.json`
+- Event target: `EventList#6972 "EvB06_03_02a" version=Boss/B06_03 MapListTable#100026 Map_TP_Sea_N0_2001_D1 GameTextMap#16087 "Grandport: Estate Entrance" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_02a.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 44
 
 ### QuestTrigCondition `103436`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#7049 "EvB05_02_06e" version=Boss/B05_02 MapListTable#10015 Map_TP_Desert_N0_2001_B1 GameTextMap#16015 "Sufrataljah: Palace Entrance" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_02/EvB05_02_06e.json`
+- Event target: `EventList#7049 "EvB05_02_06e" version=Boss/B05_02 MapListTable#10015 Map_TP_Desert_N0_2001_B1 GameTextMap#16015 "Sufrataljah: Palace Entrance" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_02/EvB05_02_06e.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Desert_N0_2001_B1.json row 4
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Desert_N0_2001_B1.json row 5
@@ -8614,7 +8615,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103437`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6458 "EvB05_02_06d" version=Boss/B05_02 MapListTable#10015 Map_TP_Desert_N0_2001_B1 GameTextMap#16015 "Sufrataljah: Palace Entrance" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_02/EvB05_02_06d.json`
+- Event target: `EventList#6458 "EvB05_02_06d" version=Boss/B05_02 MapListTable#10015 Map_TP_Desert_N0_2001_B1 GameTextMap#16015 "Sufrataljah: Palace Entrance" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_02/EvB05_02_06d.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Desert_N0_2001_B1.json row 1
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Desert_N0_2001_B1.json row 38
@@ -8630,7 +8631,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103438`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6459 "EvB05_02_07a" version=Boss/B05_02 MapListTable#10015 Map_TP_Desert_N0_2001_B1 GameTextMap#16015 "Sufrataljah: Palace Entrance" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_02/EvB05_02_07a.json`
+- Event target: `EventList#6459 "EvB05_02_07a" version=Boss/B05_02 MapListTable#10015 Map_TP_Desert_N0_2001_B1 GameTextMap#16015 "Sufrataljah: Palace Entrance" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_02/EvB05_02_07a.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Desert_N0_2001_B1.json row 2
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Desert_N0_2001_B1.json row 3
@@ -8643,7 +8644,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103439`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6460 "EvB05_02_08a" version=Boss/B05_02 MapListTable#10014 Map_TP_Desert_N0_2001_A1 GameTextMap#16014 "Sufrataljah" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_02/EvB05_02_08a.json`
+- Event target: `EventList#6460 "EvB05_02_08a" version=Boss/B05_02 MapListTable#10014 Map_TP_Desert_N0_2001_A1 GameTextMap#16014 "Sufrataljah" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_02/EvB05_02_08a.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Desert_N0_2001_A1.json row 10
 
@@ -8680,7 +8681,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103455`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6810 "EvB05_03_05d" version=Boss/B05_03 MapListTable#100050 Map_TP_Forest_N0_2002_B1 GameTextMap#90093 "Valore: Main Boulevard" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_05d.json`
+- Event target: `EventList#6810 "EvB05_03_05d" version=Boss/B05_03 MapListTable#100050 Map_TP_Forest_N0_2002_B1 GameTextMap#90093 "Valore: Main Boulevard" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_05d.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 52
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 51
@@ -8688,7 +8689,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103456`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6811 "EvB05_03_06a" version=Boss/B05_03 MapListTable#100050 Map_TP_Forest_N0_2002_B1 GameTextMap#90093 "Valore: Main Boulevard" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_06a.json`
+- Event target: `EventList#6811 "EvB05_03_06a" version=Boss/B05_03 MapListTable#100050 Map_TP_Forest_N0_2002_B1 GameTextMap#90093 "Valore: Main Boulevard" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_06a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 53
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 52
@@ -8696,7 +8697,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103458`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6816 "EvB05_03_08a" version=Boss/B05_03 MapListTable#100057 Map_DP_Forest_N0_2002_A1 GameTextMap#16121 "Herminia's Former Manse: Terrace" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_08a.json`
+- Event target: `EventList#6816 "EvB05_03_08a" version=Boss/B05_03 MapListTable#100057 Map_DP_Forest_N0_2002_A1 GameTextMap#16121 "Herminia's Former Manse: Terrace" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_08a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 54
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 53
@@ -8704,7 +8705,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103523`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#7045 "EvB07_01_08h" version=Boss/B07_01 MapListTable#10035 Map_TP_Snow_N0_2002_B1 GameTextMap#16061 "Cathedral of Tytos" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_08h.json`
+- Event target: `EventList#7045 "EvB07_01_08h" version=Boss/B07_01 MapListTable#10035 Map_TP_Snow_N0_2002_B1 GameTextMap#16061 "Cathedral of Tytos" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_08h.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10000697 unique=960269 CharaID#50260 tex=Bos/B04/ChrTX_Chd_NPC_B04_032_N
   - CharaNpcList.release[0] -> CharaNpcList#10002556 unique=960270 CharaID#50260 tex=Bos/B04/ChrTX_Chd_NPC_B04_032_N
@@ -8712,7 +8713,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103524`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#271 "EvB07_01_08a" version=Boss/B07_01 MapListTable#10035 Map_TP_Snow_N0_2002_B1 GameTextMap#16061 "Cathedral of Tytos" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_08a.json`
+- Event target: `EventList#271 "EvB07_01_08a" version=Boss/B07_01 MapListTable#10035 Map_TP_Snow_N0_2002_B1 GameTextMap#16061 "Cathedral of Tytos" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_08a.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10000695 unique=10397 CharaID#50286 tex=Bos/B07/ChrTX_Chd_NPC_B07_007/ChrTX_Chd_NPC_B07_007_N
   - CharaNpcList.release[0] -> CharaNpcList#10000696 unique=10398 CharaID#10136 tex=Bos/B02/ChrTX_Chd_NPC_B02_005_N
@@ -8728,7 +8729,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103525`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#268 "EvB07_01_07b" version=Boss/B07_01 MapListTable#10034 Map_TP_Snow_N0_2002_A1 GameTextMap#16060 "Cathedral of Tytos: Entrance" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_07b.json`
+- Event target: `EventList#268 "EvB07_01_07b" version=Boss/B07_01 MapListTable#10034 Map_TP_Snow_N0_2002_A1 GameTextMap#16060 "Cathedral of Tytos: Entrance" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_07b.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10000925 unique=960784 CharaID#50199 tex=Bos/B07/ChrTX_Chd_NPC_B07_006/ChrTX_Chd_NPC_B07_006_N
 
@@ -8752,7 +8753,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103565`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6498 "EvB06_02_08a" version=Boss/B06_02 MapListTable#2026 Map_EV_Other_N0_2008_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_02/EvB06_02_08a.json`
+- Event target: `EventList#6498 "EvB06_02_08a" version=Boss/B06_02 MapListTable#2026 Map_EV_Other_N0_2008_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_02/EvB06_02_08a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 33
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 31
@@ -8760,7 +8761,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103641`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6963 "EvB07_03_06b" version=Boss/B07_03 MapListTable#100093 Map_DP_Mount_N0_2001_C1 GameTextMap#16147 "Forbidden Temple: Upper Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_06b.json`
+- Event target: `EventList#6963 "EvB07_03_06b" version=Boss/B07_03 MapListTable#100093 Map_DP_Mount_N0_2001_C1 GameTextMap#16147 "Forbidden Temple: Upper Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_06b.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Mount_N0_2001_D1.json row 1
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Mount_N0_2001_D1.json row 2
@@ -8791,7 +8792,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103697`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8188 "EvB07_03_03b" version=Boss/B07_03 MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_03b.json`
+- Event target: `EventList#8188 "EvB07_03_03b" version=Boss/B07_03 MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_03b.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Mount_N0_2001_A1.json row 86
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Mount_N0_2001_A1.json row 5
@@ -8807,7 +8808,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103698`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8189 "EvB07_03_03c" version=Boss/B07_03 MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_03c.json`
+- Event target: `EventList#8189 "EvB07_03_03c" version=Boss/B07_03 MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_03c.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10001143 unique=10675 CharaID#51126 tex=Npc/ChrTX_Chd_NPC_MntB_CM/ChrTX_Chd_NPC_MntB_CM_N
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Mount_N0_2001_A1.json row 5
@@ -8816,7 +8817,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103699`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8190 "EvB07_03_03d" version=Boss/B07_03 MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_03d.json`
+- Event target: `EventList#8190 "EvB07_03_03d" version=Boss/B07_03 MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_03d.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Mount_N0_2001_A1.json row 82
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Mount_N0_2001_A1.json row 7
@@ -9392,21 +9393,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `103966`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8849 "EvB05_03_MonsterHouse_01b" version=Boss/B05_03 MapListTable#100053 Map_DP_Desert_N0_2002_B1 GameTextMap#16116 "Golden Palace: Middle Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_MonsterHouse_01b.json`
+- Event target: `EventList#8849 "EvB05_03_MonsterHouse_01b" version=Boss/B05_03 MapListTable#100053 Map_DP_Desert_N0_2002_B1 GameTextMap#16116 "Golden Palace: Middle Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_MonsterHouse_01b.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Desert_N0_2002_B1.json row 8
 
 ### QuestTrigCondition `103967`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8851 "EvB05_03_MonsterHouse_02b" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_MonsterHouse_02b.json`
+- Event target: `EventList#8851 "EvB05_03_MonsterHouse_02b" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_MonsterHouse_02b.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Desert_N0_2002_C1.json row 11
 
 ### QuestTrigCondition `103968`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8853 "EvB05_03_MonsterHouse_03b" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_MonsterHouse_03b.json`
+- Event target: `EventList#8853 "EvB05_03_MonsterHouse_03b" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_MonsterHouse_03b.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Desert_N0_2002_C1.json row 12
 
@@ -9510,7 +9511,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104139`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9028 "EvB05_03_Pyramid_Lion" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Lion.json`
+- Event target: `EventList#9028 "EvB05_03_Pyramid_Lion" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Lion.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 102
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 101
@@ -9521,7 +9522,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104140`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9025 "EvB05_03_Pyramid_Switch_D_On" version=Boss/B05_03 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Switch_D_On.json`
+- Event target: `EventList#9025 "EvB05_03_Pyramid_Switch_D_On" version=Boss/B05_03 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Switch_D_On.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 103
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 104
@@ -9534,7 +9535,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104141`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9026 "EvB05_03_Pyramid_Switch_E_On" version=Boss/B05_03 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Switch_E_On.json`
+- Event target: `EventList#9026 "EvB05_03_Pyramid_Switch_E_On" version=Boss/B05_03 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Switch_E_On.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 105
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 106
@@ -9547,7 +9548,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104142`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9050 "EvB05_03_Pyramid_Door_D" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_D.json`
+- Event target: `EventList#9050 "EvB05_03_Pyramid_Door_D" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_D.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 107
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Desert_N0_2002_C1.json row 23
@@ -9558,7 +9559,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104143`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9104 "EvB05_03_PushSwitch_C" version=Boss/B05_03  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_PushSwitch_C.json`
+- Event target: `EventList#9104 "EvB05_03_PushSwitch_C" version=Boss/B05_03  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_PushSwitch_C.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 108
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 109
@@ -9571,7 +9572,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104146`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9029 "EvB05_03_Pyramid_Switch_A_On" version=Boss/B05_03 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Switch_A_On.json`
+- Event target: `EventList#9029 "EvB05_03_Pyramid_Switch_A_On" version=Boss/B05_03 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Switch_A_On.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 111
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 110
@@ -9584,7 +9585,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104147`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9030 "EvB05_03_Pyramid_Switch_B_On" version=Boss/B05_03 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Switch_B_On.json`
+- Event target: `EventList#9030 "EvB05_03_Pyramid_Switch_B_On" version=Boss/B05_03 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Switch_B_On.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 112
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 113
@@ -9597,7 +9598,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104148`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9031 "EvB05_03_Pyramid_Door_A" version=Boss/B05_03 MapListTable#100052 Map_DP_Desert_N0_2002_A1 GameTextMap#16115 "Golden Palace: Upper Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_A.json`
+- Event target: `EventList#9031 "EvB05_03_Pyramid_Door_A" version=Boss/B05_03 MapListTable#100052 Map_DP_Desert_N0_2002_A1 GameTextMap#16115 "Golden Palace: Upper Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_A.json`
 - Consumers:
   - MapObjectConditionsList.hide[1] -> Object/MapObjectConditionsList.json row 110
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 114
@@ -9621,7 +9622,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104164`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9027 "EvB05_03_Pyramid_Door_B" version=Boss/B05_03 MapListTable#100052 Map_DP_Desert_N0_2002_A1 GameTextMap#16115 "Golden Palace: Upper Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_B.json`
+- Event target: `EventList#9027 "EvB05_03_Pyramid_Door_B" version=Boss/B05_03 MapListTable#100052 Map_DP_Desert_N0_2002_A1 GameTextMap#16115 "Golden Palace: Upper Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_B.json`
 - Consumers:
   - MapObjectConditionsList.hide[1] -> Object/MapObjectConditionsList.json row 113
   - MapObjectConditionsList.hide[1] -> Object/MapObjectConditionsList.json row 114
@@ -9633,7 +9634,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104166`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9051 "EvB05_03_Pyramid_Door_E" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_E.json`
+- Event target: `EventList#9051 "EvB05_03_Pyramid_Door_E" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_Pyramid_Door_E.json`
 - Consumers:
   - MapObjectConditionsList.hide[1] -> Object/MapObjectConditionsList.json row 107
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Desert_N0_2002_C1.json row 26
@@ -9750,7 +9751,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104466`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9165 "EvB08_04_07b" version=Boss/B08_04 MapListTable#100220 Map_DP_HellMount_N0_2002_B1 GameTextMap#16238 "Hell: Hornburg Castle - Central Area" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_07b.json`
+- Event target: `EventList#9165 "EvB08_04_07b" version=Boss/B08_04 MapListTable#100220 Map_DP_HellMount_N0_2002_B1 GameTextMap#16238 "Hell: Hornburg Castle - Central Area" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_07b.json`
 - Consumers:
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_DP_HellMount_N0_2002_B1.json row 2
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_DP_HellMount_N0_2002_B1.json row 3
@@ -9767,21 +9768,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104473`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8849 "EvB05_03_MonsterHouse_01b" version=Boss/B05_03 MapListTable#100053 Map_DP_Desert_N0_2002_B1 GameTextMap#16116 "Golden Palace: Middle Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_MonsterHouse_01b.json`
+- Event target: `EventList#8849 "EvB05_03_MonsterHouse_01b" version=Boss/B05_03 MapListTable#100053 Map_DP_Desert_N0_2002_B1 GameTextMap#16116 "Golden Palace: Middle Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_MonsterHouse_01b.json`
 - Consumers:
   - StoryBookCondition.open -> StoryBook/StoryBookCondition.json row 129
 
 ### QuestTrigCondition `104474`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8851 "EvB05_03_MonsterHouse_02b" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_MonsterHouse_02b.json`
+- Event target: `EventList#8851 "EvB05_03_MonsterHouse_02b" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_MonsterHouse_02b.json`
 - Consumers:
   - StoryBookCondition.open -> StoryBook/StoryBookCondition.json row 130
 
 ### QuestTrigCondition `104475`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8853 "EvB05_03_MonsterHouse_03b" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_MonsterHouse_03b.json`
+- Event target: `EventList#8853 "EvB05_03_MonsterHouse_03b" version=Boss/B05_03 MapListTable#100054 Map_DP_Desert_N0_2002_C1 GameTextMap#16117 "Golden Palace: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_MonsterHouse_03b.json`
 - Consumers:
   - StoryBookCondition.open -> StoryBook/StoryBookCondition.json row 131
 
@@ -9818,7 +9819,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104503`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9233 "EvB07_03_D11_FenceSwitch_05a" version=Boss/B07_03 MapListTable#100094 Map_DP_Mount_N0_2001_D1 GameTextMap#16148 "Forbidden Temple: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_D11_FenceSwitch_05a.json`
+- Event target: `EventList#9233 "EvB07_03_D11_FenceSwitch_05a" version=Boss/B07_03 MapListTable#100094 Map_DP_Mount_N0_2001_D1 GameTextMap#16148 "Forbidden Temple: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_D11_FenceSwitch_05a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 139
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 132
@@ -9831,7 +9832,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104505`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9235 "EvB07_03_D11_FenceSwitch_07a" version=Boss/B07_03 MapListTable#100094 Map_DP_Mount_N0_2001_D1 GameTextMap#16148 "Forbidden Temple: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_D11_FenceSwitch_07a.json`
+- Event target: `EventList#9235 "EvB07_03_D11_FenceSwitch_07a" version=Boss/B07_03 MapListTable#100094 Map_DP_Mount_N0_2001_D1 GameTextMap#16148 "Forbidden Temple: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_D11_FenceSwitch_07a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 141
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 134
@@ -9844,7 +9845,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104506`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9236 "EvB07_03_D11_MagmaSwitch_01a" version=Boss/B07_03 MapListTable#100094 Map_DP_Mount_N0_2001_D1 GameTextMap#16148 "Forbidden Temple: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_D11_MagmaSwitch_01a.json`
+- Event target: `EventList#9236 "EvB07_03_D11_MagmaSwitch_01a" version=Boss/B07_03 MapListTable#100094 Map_DP_Mount_N0_2001_D1 GameTextMap#16148 "Forbidden Temple: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_D11_MagmaSwitch_01a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 138
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 135
@@ -9856,7 +9857,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104507`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9237 "EvB07_03_D11_MagmaSwitch_02a" version=Boss/B07_03 MapListTable#100094 Map_DP_Mount_N0_2001_D1 GameTextMap#16148 "Forbidden Temple: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_D11_MagmaSwitch_02a.json`
+- Event target: `EventList#9237 "EvB07_03_D11_MagmaSwitch_02a" version=Boss/B07_03 MapListTable#100094 Map_DP_Mount_N0_2001_D1 GameTextMap#16148 "Forbidden Temple: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_D11_MagmaSwitch_02a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 140
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 136
@@ -9868,7 +9869,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104508`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9238 "EvB07_03_D11_MagmaSwitch_03a" version=Boss/B07_03 MapListTable#100094 Map_DP_Mount_N0_2001_D1 GameTextMap#16148 "Forbidden Temple: Lower Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_D11_MagmaSwitch_03a.json`
+- Event target: `EventList#9238 "EvB07_03_D11_MagmaSwitch_03a" version=Boss/B07_03 MapListTable#100094 Map_DP_Mount_N0_2001_D1 GameTextMap#16148 "Forbidden Temple: Lower Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_D11_MagmaSwitch_03a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 142
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 137
@@ -9881,7 +9882,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104510`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9262 "EvB07_03_C11_MagmaSwitch_01a" version=Boss/B07_03 MapListTable#100093 Map_DP_Mount_N0_2001_C1 GameTextMap#16147 "Forbidden Temple: Upper Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_C11_MagmaSwitch_01a.json`
+- Event target: `EventList#9262 "EvB07_03_C11_MagmaSwitch_01a" version=Boss/B07_03 MapListTable#100093 Map_DP_Mount_N0_2001_C1 GameTextMap#16147 "Forbidden Temple: Upper Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_C11_MagmaSwitch_01a.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 143
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Mount_N0_2001_C1.json row 1
@@ -10042,7 +10043,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104572`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9317 "EvB08_01_08b" version=Boss/B08_01 MapListTable#100137 Map_TP_HellCliff_N0_2001_A1 GameTextMap#16178 "Hell: Cragspear" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_01/EvB08_01_08b.json`
+- Event target: `EventList#9317 "EvB08_01_08b" version=Boss/B08_01 MapListTable#100137 Map_TP_HellCliff_N0_2001_A1 GameTextMap#16178 "Hell: Cragspear" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_01/EvB08_01_08b.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10001388 unique=10770 CharaID#51498 tex=Bos/B04/ChrTX_Chd_NPC_B04_017_N
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_HellCliff_N0_2001_A1.json row 96
@@ -10052,7 +10053,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104573`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9318 "EvB08_01_08c" version=Boss/B08_01 MapListTable#100137 Map_TP_HellCliff_N0_2001_A1 GameTextMap#16178 "Hell: Cragspear" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_01/EvB08_01_08c.json`
+- Event target: `EventList#9318 "EvB08_01_08c" version=Boss/B08_01 MapListTable#100137 Map_TP_HellCliff_N0_2001_A1 GameTextMap#16178 "Hell: Cragspear" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_01/EvB08_01_08c.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 52
   - MapListTable.player_attach_invalid[1] -> Map/MapListTable.json row 100137
@@ -10081,7 +10082,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104574`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9319 "EvB08_01_08d" version=Boss/B08_01 MapListTable#100138 Map_TP_HellCliff_N0_2001_B1 GameTextMap#16179 "Hell: Cragspear - Slums" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_01/EvB08_01_08d.json`
+- Event target: `EventList#9319 "EvB08_01_08d" version=Boss/B08_01 MapListTable#100138 Map_TP_HellCliff_N0_2001_B1 GameTextMap#16179 "Hell: Cragspear - Slums" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_01/EvB08_01_08d.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 53
   - MapListTable.player_attach_invalid[1] -> Map/MapListTable.json row 100138
@@ -10105,7 +10106,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104661`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9680 "EvB08_04_16a" version=Boss/B08_04 MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_16a.json`
+- Event target: `EventList#9680 "EvB08_04_16a" version=Boss/B08_04 MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_16a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 311
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 310
@@ -10121,7 +10122,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104662`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9680 "EvB08_04_16a" version=Boss/B08_04 MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_16a.json`
+- Event target: `EventList#9680 "EvB08_04_16a" version=Boss/B08_04 MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_16a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 313
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 312
@@ -10142,7 +10143,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104665`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9420 "EvB08_04_A1_OpenDoor_A" version=Boss/B08_04 MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_A1_OpenDoor_A.json`
+- Event target: `EventList#9420 "EvB08_04_A1_OpenDoor_A" version=Boss/B08_04 MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_A1_OpenDoor_A.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 320
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_A3.json row 9
@@ -10153,7 +10154,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104666`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9421 "EvB08_04_A1_OpenDoor_B" version=Boss/B08_04 MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_A1_OpenDoor_B.json`
+- Event target: `EventList#9421 "EvB08_04_A1_OpenDoor_B" version=Boss/B08_04 MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_A1_OpenDoor_B.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 321
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_A3.json row 8
@@ -10164,7 +10165,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104667`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9422 "EvB08_04_A1_OpenDoor_C" version=Boss/B08_04 MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_A1_OpenDoor_C.json`
+- Event target: `EventList#9422 "EvB08_04_A1_OpenDoor_C" version=Boss/B08_04 MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_A1_OpenDoor_C.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 322
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_A3.json row 12
@@ -10175,7 +10176,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104728`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9540 "EvTutorial_73" version=Tutorial/73 MapListTable#100137 Map_TP_HellCliff_N0_2001_A1 GameTextMap#16178 "Hell: Cragspear" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/73/EvTutorial_73.json`
+- Event target: `EventList#9540 "EvTutorial_73" version=Tutorial/73 MapListTable#100137 Map_TP_HellCliff_N0_2001_A1 GameTextMap#16178 "Hell: Cragspear" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/73/EvTutorial_73.json`
 - String params: `["MapNone", "eNONE"]`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_HellCliff_N0_2001_A1.json row 42
@@ -10191,7 +10192,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104868`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9558 "EvB08_02_06b" version=Boss/B08_02 MapListTable#100144 Map_TP_HellForest_N0_1001_B1 GameTextMap#16185 "Hell: Valore - Main Boulevard" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_02/EvB08_02_06b.json`
+- Event target: `EventList#9558 "EvB08_02_06b" version=Boss/B08_02 MapListTable#100144 Map_TP_HellForest_N0_1001_B1 GameTextMap#16185 "Hell: Valore - Main Boulevard" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_02/EvB08_02_06b.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_HellForest_N0_1001_B1.json row 4
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_HellForest_N0_1001_B1.json row 5
@@ -10209,7 +10210,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104870`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9553 "EvB08_02_06c" version=Boss/B08_02 MapListTable#100143 Map_TP_HellForest_N0_1001_A1 GameTextMap#16184 "Hell: Valore" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_02/EvB08_02_06c.json`
+- Event target: `EventList#9553 "EvB08_02_06c" version=Boss/B08_02 MapListTable#100143 Map_TP_HellForest_N0_1001_A1 GameTextMap#16184 "Hell: Valore" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_02/EvB08_02_06c.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 54
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 55
@@ -10241,7 +10242,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104874`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9560 "EvB08_02_06e" version=Boss/B08_02 MapListTable#100145 Map_DP_HellForest_N0_1001_A1 GameTextMap#16186 "Hell: Valore Forest" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_02/EvB08_02_06e.json`
+- Event target: `EventList#9560 "EvB08_02_06e" version=Boss/B08_02 MapListTable#100145 Map_DP_HellForest_N0_1001_A1 GameTextMap#16186 "Hell: Valore Forest" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_02/EvB08_02_06e.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_HellForest_N0_1001_A1.json row 8
 
@@ -10258,7 +10259,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104899`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99298 "EvB08_05_13" version=Boss/B08_05 MapListTable#11 Map_DP_Cliff_N0_1003_B1 GameTextMap#3211 "Castle Edoras Gate" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_05/EvB08_05_13.json`
+- Event target: `EventList#99298 "EvB08_05_13" version=Boss/B08_05 MapListTable#11 Map_DP_Cliff_N0_1003_B1 GameTextMap#3211 "Castle Edoras Gate" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_05/EvB08_05_13.json`
 - Consumers:
   - WorldMapList.show[0] -> Map/WorldMapList.json row 10080
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Cliff_N0_1003_B1.json row 292
@@ -10291,7 +10292,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104918`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9663 "EvB08_03_15c" version=Boss/B08_03 MapListTable#100208 Map_DP_HellCliff_N0_2002_C3 GameTextMap#90091 "Hell: Castle Edoras - Remembrance Hall" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_15c.json`
+- Event target: `EventList#9663 "EvB08_03_15c" version=Boss/B08_03 MapListTable#100208 Map_DP_HellCliff_N0_2002_C3 GameTextMap#90091 "Hell: Castle Edoras - Remembrance Hall" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_15c.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_C1.json row 1
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_C3.json row 1
@@ -10307,7 +10308,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104920`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9656 "EvB08_03_13c" version=Boss/B08_03 MapListTable#100203 Map_DP_HellCliff_N0_2002_A3 GameTextMap#90084 "Hell: Castle Edoras - Remembrance Hall" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_13c.json`
+- Event target: `EventList#9656 "EvB08_03_13c" version=Boss/B08_03 MapListTable#100203 Map_DP_HellCliff_N0_2002_A3 GameTextMap#90084 "Hell: Castle Edoras - Remembrance Hall" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_13c.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_A2.json row 3
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_A3.json row 4
@@ -10329,7 +10330,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104921`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9659 "EvB08_03_14c" version=Boss/B08_03 MapListTable#100206 Map_DP_HellCliff_N0_2002_B4 GameTextMap#90088 "Hell: Castle Edoras - Remembrance Hall" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_14c.json`
+- Event target: `EventList#9659 "EvB08_03_14c" version=Boss/B08_03 MapListTable#100206 Map_DP_HellCliff_N0_2002_B4 GameTextMap#90088 "Hell: Castle Edoras - Remembrance Hall" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_14c.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_B3.json row 11
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_B4.json row 1
@@ -10355,7 +10356,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104967`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9657 "EvB08_03_13d" version=Boss/B08_03 MapListTable#100202 Map_DP_HellCliff_N0_2002_A2 GameTextMap#90083 "Hell: Castle Edoras - 2F" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_13d.json`
+- Event target: `EventList#9657 "EvB08_03_13d" version=Boss/B08_03 MapListTable#100202 Map_DP_HellCliff_N0_2002_A2 GameTextMap#90083 "Hell: Castle Edoras - 2F" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_13d.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_A2.json row 3
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_A2.json row 4
@@ -10363,7 +10364,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104968`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9660 "EvB08_03_14d" version=Boss/B08_03 MapListTable#100205 Map_DP_HellCliff_N0_2002_B3 GameTextMap#90087 "Hell: Castle Edoras - 4F" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_14d.json`
+- Event target: `EventList#9660 "EvB08_03_14d" version=Boss/B08_03 MapListTable#100205 Map_DP_HellCliff_N0_2002_B3 GameTextMap#90087 "Hell: Castle Edoras - 4F" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_14d.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_B3.json row 11
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_B3.json row 12
@@ -10371,7 +10372,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104969`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9664 "EvB08_03_15d" version=Boss/B08_03 MapListTable#100150 Map_DP_HellCliff_N0_2002_C1 GameTextMap#90089 "Hell: Castle Edoras - 5F" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_15d.json`
+- Event target: `EventList#9664 "EvB08_03_15d" version=Boss/B08_03 MapListTable#100150 Map_DP_HellCliff_N0_2002_C1 GameTextMap#90089 "Hell: Castle Edoras - 5F" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_15d.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_C1.json row 1
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_C1.json row 2
@@ -10379,7 +10380,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104985`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8499 "EvB08_03_06a" version=Boss/B08_03 MapListTable#100205 Map_DP_HellCliff_N0_2002_B3 GameTextMap#90087 "Hell: Castle Edoras - 4F" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_06a.json`
+- Event target: `EventList#8499 "EvB08_03_06a" version=Boss/B08_03 MapListTable#100205 Map_DP_HellCliff_N0_2002_B3 GameTextMap#90087 "Hell: Castle Edoras - 4F" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_06a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_B3.json row 3
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_HellCliff_N0_2002_B3.json row 4
@@ -10392,7 +10393,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104989`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9676 "EvB08_04_13a" version=Boss/B08_04 MapListTable#100219 Map_DP_HellMount_N0_2002_A1 GameTextMap#16237 "Hell: Hornburg Castle" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_13a.json`
+- Event target: `EventList#9676 "EvB08_04_13a" version=Boss/B08_04 MapListTable#100219 Map_DP_HellMount_N0_2002_A1 GameTextMap#16237 "Hell: Hornburg Castle" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_13a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_A1.json row 2
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_A1.json row 7
@@ -10401,7 +10402,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104990`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9677 "EvB08_04_13b" version=Boss/B08_04 MapListTable#100219 Map_DP_HellMount_N0_2002_A1 GameTextMap#16237 "Hell: Hornburg Castle" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_13b.json`
+- Event target: `EventList#9677 "EvB08_04_13b" version=Boss/B08_04 MapListTable#100219 Map_DP_HellMount_N0_2002_A1 GameTextMap#16237 "Hell: Hornburg Castle" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_13b.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 319
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 318
@@ -10413,7 +10414,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104992`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9682 "EvB08_04_21a" version=Boss/B08_04 MapListTable#100219 Map_DP_HellMount_N0_2002_A1 GameTextMap#16237 "Hell: Hornburg Castle" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_21a.json`
+- Event target: `EventList#9682 "EvB08_04_21a" version=Boss/B08_04 MapListTable#100219 Map_DP_HellMount_N0_2002_A1 GameTextMap#16237 "Hell: Hornburg Castle" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_21a.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 323
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_A1.json row 3
@@ -10439,7 +10440,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104996`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9752 "EvB08_04_BlackFog_Off_A" version=Boss/B08_04 MapListTable#100226 Map_FP_HellMount_N0_2001_A1 GameTextMap#16242 "Hell: Hornburg Pass" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_BlackFog_Off_A.json`
+- Event target: `EventList#9752 "EvB08_04_BlackFog_Off_A" version=Boss/B08_04 MapListTable#100226 Map_FP_HellMount_N0_2001_A1 GameTextMap#16242 "Hell: Hornburg Pass" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_BlackFog_Off_A.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 193
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 192
@@ -10450,7 +10451,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `104998`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9754 "EvB08_04_BlackFog_Off_C" version=Boss/B08_04 MapListTable#100226 Map_FP_HellMount_N0_2001_A1 GameTextMap#16242 "Hell: Hornburg Pass" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_BlackFog_Off_C.json`
+- Event target: `EventList#9754 "EvB08_04_BlackFog_Off_C" version=Boss/B08_04 MapListTable#100226 Map_FP_HellMount_N0_2001_A1 GameTextMap#16242 "Hell: Hornburg Pass" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_BlackFog_Off_C.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 112
   - MapListTable.player_attach_invalid[1] -> Map/MapListTable.json row 100226
@@ -10463,7 +10464,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105003`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99328 "EvB08_04_34" version=Boss/B08_04 MapListTable#100285 Map_DP_HellMount_N0_2002_B2 GameTextMap#16305 "Hell: Hornburg Castle - Eastern Central Area" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_34.json`
+- Event target: `EventList#99328 "EvB08_04_34" version=Boss/B08_04 MapListTable#100285 Map_DP_HellMount_N0_2002_B2 GameTextMap#16305 "Hell: Hornburg Castle - Eastern Central Area" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_34.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 222
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 223
@@ -10477,7 +10478,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105007`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9769 "EvB08_04_B3_LeverSwitch_M" version=Boss/B08_04 MapListTable#100286 Map_DP_HellMount_N0_2002_B3 GameTextMap#16306 "Hell: Hornburg Castle - Western Central Area" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_B3_LeverSwitch_M.json`
+- Event target: `EventList#9769 "EvB08_04_B3_LeverSwitch_M" version=Boss/B08_04 MapListTable#100286 Map_DP_HellMount_N0_2002_B3 GameTextMap#16306 "Hell: Hornburg Castle - Western Central Area" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_B3_LeverSwitch_M.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 224
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 208
@@ -10494,7 +10495,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105008`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99329 "EvB08_04_35" version=Boss/B08_04 MapListTable#100286 Map_DP_HellMount_N0_2002_B3 GameTextMap#16306 "Hell: Hornburg Castle - Western Central Area" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_35.json`
+- Event target: `EventList#99329 "EvB08_04_35" version=Boss/B08_04 MapListTable#100286 Map_DP_HellMount_N0_2002_B3 GameTextMap#16306 "Hell: Hornburg Castle - Western Central Area" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_35.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 211
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 225
@@ -10508,7 +10509,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105011`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9760 "EvB08_04_B3_OpenDoor_A" version=Boss/B08_04 MapListTable#100286 Map_DP_HellMount_N0_2002_B3 GameTextMap#16306 "Hell: Hornburg Castle - Western Central Area" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_B3_OpenDoor_A.json`
+- Event target: `EventList#9760 "EvB08_04_B3_OpenDoor_A" version=Boss/B08_04 MapListTable#100286 Map_DP_HellMount_N0_2002_B3 GameTextMap#16306 "Hell: Hornburg Castle - Western Central Area" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_B3_OpenDoor_A.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 212
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_B3.json row 8
@@ -10521,7 +10522,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105012`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9761 "EvB08_04_B3_OpenDoor_B" version=Boss/B08_04 MapListTable#100286 Map_DP_HellMount_N0_2002_B3 GameTextMap#16306 "Hell: Hornburg Castle - Western Central Area" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_B3_OpenDoor_B.json`
+- Event target: `EventList#9761 "EvB08_04_B3_OpenDoor_B" version=Boss/B08_04 MapListTable#100286 Map_DP_HellMount_N0_2002_B3 GameTextMap#16306 "Hell: Hornburg Castle - Western Central Area" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_B3_OpenDoor_B.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 213
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_B3.json row 9
@@ -10605,7 +10606,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105020`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9587 "EvB08_04_05c" version=Boss/B08_04 MapListTable#100226 Map_FP_HellMount_N0_2001_A1 GameTextMap#16242 "Hell: Hornburg Pass" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_05c.json`
+- Event target: `EventList#9587 "EvB08_04_05c" version=Boss/B08_04 MapListTable#100226 Map_FP_HellMount_N0_2001_A1 GameTextMap#16242 "Hell: Hornburg Pass" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_05c.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_HellMount_N0_2001_A1.json row 9
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_HellMount_N0_2001_A1.json row 11
@@ -10614,14 +10615,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105021`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9160 "EvB08_04_05a" version=Boss/B08_04 MapListTable#100226 Map_FP_HellMount_N0_2001_A1 GameTextMap#16242 "Hell: Hornburg Pass" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_05a.json`
+- Event target: `EventList#9160 "EvB08_04_05a" version=Boss/B08_04 MapListTable#100226 Map_FP_HellMount_N0_2001_A1 GameTextMap#16242 "Hell: Hornburg Pass" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_05a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_HellMount_N0_2001_A1.json row 12
 
 ### QuestTrigCondition `105022`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9771 "EvB08_04_B3_GetKey_A" version=Boss/B08_04 MapListTable#100286 Map_DP_HellMount_N0_2002_B3 GameTextMap#16306 "Hell: Hornburg Castle - Western Central Area" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_B3_GetKey_A.json`
+- Event target: `EventList#9771 "EvB08_04_B3_GetKey_A" version=Boss/B08_04 MapListTable#100286 Map_DP_HellMount_N0_2002_B3 GameTextMap#16306 "Hell: Hornburg Castle - Western Central Area" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_B3_GetKey_A.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_B3.json row 29
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_B3.json row 7
@@ -10630,7 +10631,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105023`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9783 "EvB08_04_B3_OpenDoor_C" version=Boss/B08_04 MapListTable#100286 Map_DP_HellMount_N0_2002_B3 GameTextMap#16306 "Hell: Hornburg Castle - Western Central Area" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_B3_OpenDoor_C.json`
+- Event target: `EventList#9783 "EvB08_04_B3_OpenDoor_C" version=Boss/B08_04 MapListTable#100286 Map_DP_HellMount_N0_2002_B3 GameTextMap#16306 "Hell: Hornburg Castle - Western Central Area" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_B3_OpenDoor_C.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 210
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_B3.json row 18
@@ -10640,14 +10641,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105024`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9683 "EvB08_04_22a" version=Boss/B08_04 MapListTable#100220 Map_DP_HellMount_N0_2002_B1 GameTextMap#16238 "Hell: Hornburg Castle - Central Area" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_22a.json`
+- Event target: `EventList#9683 "EvB08_04_22a" version=Boss/B08_04 MapListTable#100220 Map_DP_HellMount_N0_2002_B1 GameTextMap#16238 "Hell: Hornburg Castle - Central Area" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_22a.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_B1.json row 8
 
 ### QuestTrigCondition `105026`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9685 "EvB08_04_22c" version=Boss/B08_04 MapListTable#100220 Map_DP_HellMount_N0_2002_B1 GameTextMap#16238 "Hell: Hornburg Castle - Central Area" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_22c.json`
+- Event target: `EventList#9685 "EvB08_04_22c" version=Boss/B08_04 MapListTable#100220 Map_DP_HellMount_N0_2002_B1 GameTextMap#16238 "Hell: Hornburg Castle - Central Area" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_22c.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_B1.json row 9
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_B1.json row 11
@@ -10680,7 +10681,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105092`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9841 "EvB08_05_Hell_Tentacles_C_01" version=Boss/B08_05 MapListTable#100237 Map_DP_Hell_N0_2001_B1 GameTextMap#16251 "Corridors of Contrition: Back Halls" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_05/EvB08_05_Hell_Tentacles_C_01.json`
+- Event target: `EventList#9841 "EvB08_05_Hell_Tentacles_C_01" version=Boss/B08_05 MapListTable#100237 Map_DP_Hell_N0_2001_B1 GameTextMap#16251 "Corridors of Contrition: Back Halls" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_05/EvB08_05_Hell_Tentacles_C_01.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 238
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Hell_N0_2001_A1.json row 17
@@ -10693,7 +10694,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105093`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9844 "EvB08_05_Hell_Tentacles_D_02" version=Boss/B08_05 MapListTable#100237 Map_DP_Hell_N0_2001_B1 GameTextMap#16251 "Corridors of Contrition: Back Halls" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_05/EvB08_05_Hell_Tentacles_D_02.json`
+- Event target: `EventList#9844 "EvB08_05_Hell_Tentacles_D_02" version=Boss/B08_05 MapListTable#100237 Map_DP_Hell_N0_2001_B1 GameTextMap#16251 "Corridors of Contrition: Back Halls" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_05/EvB08_05_Hell_Tentacles_D_02.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 239
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Hell_N0_2001_A1.json row 15
@@ -10706,7 +10707,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105095`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9848 "EvB08_05_Hell_Tentacles_F_02" version=Boss/B08_05 MapListTable#100237 Map_DP_Hell_N0_2001_B1 GameTextMap#16251 "Corridors of Contrition: Back Halls" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_05/EvB08_05_Hell_Tentacles_F_02.json`
+- Event target: `EventList#9848 "EvB08_05_Hell_Tentacles_F_02" version=Boss/B08_05 MapListTable#100237 Map_DP_Hell_N0_2001_B1 GameTextMap#16251 "Corridors of Contrition: Back Halls" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_05/EvB08_05_Hell_Tentacles_F_02.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 241
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Hell_N0_2001_A1.json row 20
@@ -10717,7 +10718,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105096`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9850 "EvB08_05_Hell_Tentacles_G_02" version=Boss/B08_05 MapListTable#100237 Map_DP_Hell_N0_2001_B1 GameTextMap#16251 "Corridors of Contrition: Back Halls" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_05/EvB08_05_Hell_Tentacles_G_02.json`
+- Event target: `EventList#9850 "EvB08_05_Hell_Tentacles_G_02" version=Boss/B08_05 MapListTable#100237 Map_DP_Hell_N0_2001_B1 GameTextMap#16251 "Corridors of Contrition: Back Halls" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_05/EvB08_05_Hell_Tentacles_G_02.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 242
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Hell_N0_2001_A1.json row 19
@@ -10737,7 +10738,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105241`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#10151 "EvB08_06_BlackFog_Off_C2" version=Boss/B08_06 MapListTable#100238 Map_DP_Hell_N0_2001_C1 GameTextMap#16252 "The Bridge Beyond" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_06/EvB08_06_BlackFog_Off_C2.json`
+- Event target: `EventList#10151 "EvB08_06_BlackFog_Off_C2" version=Boss/B08_06 MapListTable#100238 Map_DP_Hell_N0_2001_C1 GameTextMap#16252 "The Bridge Beyond" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_06/EvB08_06_BlackFog_Off_C2.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 246
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Hell_N0_2001_C1.json row 5
@@ -10747,7 +10748,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105242`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#10152 "EvB08_06_BlackFog_Off_G2" version=Boss/B08_06 MapListTable#100256 Map_DP_Hell_N0_2001_G1 GameTextMap#16271 "Crimson River Traverse" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_06/EvB08_06_BlackFog_Off_G2.json`
+- Event target: `EventList#10152 "EvB08_06_BlackFog_Off_G2" version=Boss/B08_06 MapListTable#100256 Map_DP_Hell_N0_2001_G1 GameTextMap#16271 "Crimson River Traverse" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_06/EvB08_06_BlackFog_Off_G2.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 247
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Hell_N0_2001_G1.json row 1
@@ -10757,7 +10758,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105602`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#10388 "EvB08_08_HvnD12B_Clear_02" version=Boss/B08_08 MapListTable#100337 Map_DP_Heaven_N0_1002_A1 GameTextMap#16341 "Garden of Sin" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_HvnD12B_Clear_02.json`
+- Event target: `EventList#10388 "EvB08_08_HvnD12B_Clear_02" version=Boss/B08_08 MapListTable#100337 Map_DP_Heaven_N0_1002_A1 GameTextMap#16341 "Garden of Sin" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_HvnD12B_Clear_02.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 305
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 383
@@ -10767,7 +10768,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105603`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#10390 "EvB08_08_HvnD12C_Clear_02" version=Boss/B08_08 MapListTable#100337 Map_DP_Heaven_N0_1002_A1 GameTextMap#16341 "Garden of Sin" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_HvnD12C_Clear_02.json`
+- Event target: `EventList#10390 "EvB08_08_HvnD12C_Clear_02" version=Boss/B08_08 MapListTable#100337 Map_DP_Heaven_N0_1002_A1 GameTextMap#16341 "Garden of Sin" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_HvnD12C_Clear_02.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 219
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 306
@@ -10780,7 +10781,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `105604`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#10392 "EvB08_08_HvnD12E_Clear_02" version=Boss/B08_08 MapListTable#100337 Map_DP_Heaven_N0_1002_A1 GameTextMap#16341 "Garden of Sin" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_HvnD12E_Clear_02.json`
+- Event target: `EventList#10392 "EvB08_08_HvnD12E_Clear_02" version=Boss/B08_08 MapListTable#100337 Map_DP_Heaven_N0_1002_A1 GameTextMap#16341 "Garden of Sin" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_HvnD12E_Clear_02.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 220
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 404
@@ -11101,14 +11102,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `106608`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9816 "EvB08_04_MonsterHouse_01b" version=Boss/B08_04 MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_MonsterHouse_01b.json`
+- Event target: `EventList#9816 "EvB08_04_MonsterHouse_01b" version=Boss/B08_04 MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_MonsterHouse_01b.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_A3.json row 28
 
 ### QuestTrigCondition `900056`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50006 "EvTownArrival_Snow_1001_A1" version=Arrival MapListTable#56 Map_TP_Snow_N0_1001_A1 GameTextMap#3257 "Emberglow" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Snow_1001_A1.json`
+- Event target: `EventList#50006 "EvTownArrival_Snow_1001_A1" version=Arrival MapListTable#56 Map_TP_Snow_N0_1001_A1 GameTextMap#3257 "Emberglow" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Snow_1001_A1.json`
 - Consumers:
   - QuestList.view[0] -> QuestList#9000015 GameTextQuest#219104457 "An Encounter with Macy"
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Snow_N0_1001_A1.json row 99030
@@ -11117,7 +11118,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `950005`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50005 "EvTownArrival_Forest_1001_A1" version=Arrival MapListTable#46 Map_TP_Forest_N0_1001_A1 GameTextMap#3247 "Valore" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Forest_1001_A1.json`
+- Event target: `EventList#50005 "EvTownArrival_Forest_1001_A1" version=Arrival MapListTable#46 Map_TP_Forest_N0_1001_A1 GameTextMap#3247 "Valore" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Forest_1001_A1.json`
 - Consumers:
   - QuestList.view[0] -> QuestList#9001003 GameTextQuest#219104515 "An Encounter with Viator"
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Forest_N0_1001_A1.json row 80671
@@ -11126,7 +11127,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `950008`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50008 "EvTownArrival_Plain_1001_A1" version=Arrival MapListTable#77 Map_TP_Plain_N0_1001_A1 GameTextMap#3278 "Theatropolis" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Plain_1001_A1.json`
+- Event target: `EventList#50008 "EvTownArrival_Plain_1001_A1" version=Arrival MapListTable#77 Map_TP_Plain_N0_1001_A1 GameTextMap#3278 "Theatropolis" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Plain_1001_A1.json`
 - Consumers:
   - QuestList.view[0] -> QuestList#9000013 GameTextQuest#219104443 "An Encounter with Alexia"
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Plain_N0_1001_A1.json row 80874
@@ -11135,14 +11136,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `950010`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50010 "EvTownArrival_Other_9001_A1" version=Arrival MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Other_9001_A1.json`
+- Event target: `EventList#50010 "EvTownArrival_Other_9001_A1" version=Arrival MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Other_9001_A1.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9001_A1.json row 74
 
 ### QuestTrigCondition `990012`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98036 "EvT00_01_30" version=Town/T00_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_30.json`
+- Event target: `EventList#98036 "EvT00_01_30" version=Town/T00_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_30.json`
 - Consumers:
   - QuestList.view[0] -> QuestList#9001035 GameTextQuest#919104577 "Rekindling the Flame Pt. 1"
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 48
@@ -11153,7 +11154,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990039`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99120 "EvT00_01_27b" version=Town/T00_01 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_27b.json`
+- Event target: `EventList#99120 "EvT00_01_27b" version=Town/T00_01 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_27b.json`
 - Consumers:
   - EncountList.enable[0] -> EncountList#90108 MapListTable#900011 Map_FP_Forest_N0_9001_A1 GameTextMap#90011 "Wishvale Trail" EncountVolume#90101 danger=1 groups=[EnemyGroups#99591, EnemyGroups#99592, EnemyGroups#99593]
   - EncountList.enable[0] -> EncountList#91095 MapListTable#900021 Map_DP_Forest_N0_9001_A1 GameTextMap#90021 "Cerulean Caverns" EncountVolume#90021 danger=2 groups=[EnemyGroups#99594, EnemyGroups#99595, EnemyGroups#99596]
@@ -11173,14 +11174,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990047`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99019 "EvB03_03_05cs" version=Boss/B03_03 MapListTable#78 Map_TP_Plain_N0_1001_B1 GameTextMap#3279 "Amphitheatre" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B03_03/EvB03_03_05cs.json`
+- Event target: `EventList#99019 "EvB03_03_05cs" version=Boss/B03_03 MapListTable#78 Map_TP_Plain_N0_1001_B1 GameTextMap#3279 "Amphitheatre" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B03_03/EvB03_03_05cs.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Plain_N0_1002_A1.json row 13
 
 ### QuestTrigCondition `990049`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#421 "EvB04_08_05c" version=Boss/B04_08 MapListTable#11 Map_DP_Cliff_N0_1003_B1 GameTextMap#3211 "Castle Edoras Gate" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_05c.json`
+- Event target: `EventList#421 "EvB04_08_05c" version=Boss/B04_08 MapListTable#11 Map_DP_Cliff_N0_1003_B1 GameTextMap#3211 "Castle Edoras Gate" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_05c.json`
 - Consumers:
   - EncountList.enable[0] -> EncountList#91050 MapListTable#12 Map_DP_Cliff_N0_1003_C1 GameTextMap#3212 "Castle Edoras" EncountVolume#91049 danger=32 groups=[EnemyGroups#99346, EnemyGroups#99347, EnemyGroups#99348, EnemyGroups#99349]
   - EncountList.enable[0] -> EncountList#91051 MapListTable#13 Map_DP_Cliff_N0_1003_D1 GameTextMap#3213 "Castle Edoras: Upper Floor" EncountVolume#91050 danger=32 groups=[EnemyGroups#99352, EnemyGroups#99353, EnemyGroups#99354, EnemyGroups#99355]
@@ -11189,7 +11190,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990054`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98024 "EvT00_01_16" version=Town/T00_01 MapListTable#900003 Map_TP_Other_N0_9001_B1 GameTextMap#90095 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_16.json`
+- Event target: `EventList#98024 "EvT00_01_16" version=Town/T00_01 MapListTable#900003 Map_TP_Other_N0_9001_B1 GameTextMap#90095 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_16.json`
 - Consumers:
   - MapReplaceList.enable[0] -> Map/MapReplaceList.json row 10
   - EncountList.enable[0] -> EncountList#92001 MapListTable#900003 Map_TP_Other_N0_9001_B1 GameTextMap#90095 "Wishvale" EncountVolume#91135 danger=0 groups=[EnemyGroups#99907]
@@ -11197,7 +11198,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990060`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98013 "EvT00_01_07" version=Town/T00_01 MapListTable#900011 Map_FP_Forest_N0_9001_A1 GameTextMap#90011 "Wishvale Trail" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_07.json`
+- Event target: `EventList#98013 "EvT00_01_07" version=Town/T00_01 MapListTable#900011 Map_FP_Forest_N0_9001_A1 GameTextMap#90011 "Wishvale Trail" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_07.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Forest_N0_9001_A1.json row 99004
 
@@ -11656,7 +11657,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990132`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99027 "EvB04_01_01_030cs" version=Boss/B04_01 MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_01/EvB04_01_01_030cs.json`
+- Event target: `EventList#99027 "EvB04_01_01_030cs" version=Boss/B04_01 MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_01/EvB04_01_01_030cs.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Cliff_N0_1003_B1.json row 39
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Cliff_N0_1003_B1.json row 9
@@ -11675,7 +11676,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990133`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#319 "EvB04_01_08a" version=Boss/B04_01 MapListTable#260 Map_DP_Cliff_N0_1003_G1 GameTextMap#3216 "Castle Edoras: Throne Room" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_01/EvB04_01_08a.json`
+- Event target: `EventList#319 "EvB04_01_08a" version=Boss/B04_01 MapListTable#260 Map_DP_Cliff_N0_1003_G1 GameTextMap#3216 "Castle Edoras: Throne Room" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_01/EvB04_01_08a.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Cliff_N0_1003_B1.json row 39
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Cliff_N0_1003_B1.json row 9
@@ -13232,7 +13233,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990324`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9438 "EvB08_07_01a" version=Boss/B08_07 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_01a.json`
+- Event target: `EventList#9438 "EvB08_07_01a" version=Boss/B08_07 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_01a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Forest_N0_9001_A1.json row 99025
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Forest_N0_9001_A1.json row 99026
@@ -13241,7 +13242,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990325`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9443 "EvB08_07_03a" version=Boss/B08_07 MapListTable#100295 Map_FP_Snow_N0_2002_A1 GameTextMap#16311 "Path to the Flamebearer's Shrine" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_03a.json`
+- Event target: `EventList#9443 "EvB08_07_03a" version=Boss/B08_07 MapListTable#100295 Map_FP_Snow_N0_2002_A1 GameTextMap#16311 "Path to the Flamebearer's Shrine" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_03a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Snow_N0_2003_A1.json row 2
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Snow_N0_2002_A1.json row 2
@@ -13249,7 +13250,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990326`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99223 "EvJ10402_01_02a" version=Join MapListTable#10020 Map_TP_River_N0_2001_A1 GameTextMap#16024 "Donescu" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10402_01_02a.json`
+- Event target: `EventList#99223 "EvJ10402_01_02a" version=Join MapListTable#10020 Map_TP_River_N0_2001_A1 GameTextMap#16024 "Donescu" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10402_01_02a.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002119 unique=10166 guest=10176 CharaID#50177 tex=Npc/ChrTX_Chd_NPC_Unq_Zeph/ChrTX_Chd_NPC_Unq_Zeph_N
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_River_N0_1001_A1.json row 291
@@ -13260,7 +13261,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990327`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9453 "EvB08_07_09a" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_09a.json`
+- Event target: `EventList#9453 "EvB08_07_09a" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_09a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 356
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_B1.json row 33
@@ -13269,7 +13270,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990328`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9455 "EvB08_07_09c" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_09c.json`
+- Event target: `EventList#9455 "EvB08_07_09c" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_09c.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 357
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_B1.json row 34
@@ -13278,7 +13279,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990329`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99233 "EvB08_07_09e" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_09e.json`
+- Event target: `EventList#99233 "EvB08_07_09e" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_09e.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 358
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_B1.json row 35
@@ -13294,7 +13295,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990332`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9900 "EvB08_08_04a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_04a.json`
+- Event target: `EventList#9900 "EvB08_08_04a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_04a.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 107
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 133
@@ -13305,7 +13306,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990333`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9905 "EvB08_08_05a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_05a.json`
+- Event target: `EventList#9905 "EvB08_08_05a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_05a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 7
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 9
@@ -13327,7 +13328,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990334`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9906 "EvB08_08_06a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_06a.json`
+- Event target: `EventList#9906 "EvB08_08_06a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_06a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 10
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 49
@@ -13341,7 +13342,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990335`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9908 "EvB08_08_07a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_07a.json`
+- Event target: `EventList#9908 "EvB08_08_07a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_07a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 15
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 36
@@ -13358,7 +13359,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990336`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99238 "EvB08_08_08a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_08a.json`
+- Event target: `EventList#99238 "EvB08_08_08a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_08a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 18
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 29
@@ -13367,7 +13368,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990337`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9909 "EvB08_08_09a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_09a.json`
+- Event target: `EventList#9909 "EvB08_08_09a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_09a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 23
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 27
@@ -13458,7 +13459,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `3 (RB_END_BRANCH)`
-- Event target: `EventList#99242 "EvB08_08_15b" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15b.json`
+- Event target: `EventList#99242 "EvB08_08_15b" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15b.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9004_A1.json row 6
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9004_A1.json row 5
@@ -13469,7 +13470,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `3 (RB_END_BRANCH)`
-- Event target: `EventList#99239 "EvB08_08_15c" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15c.json`
+- Event target: `EventList#99239 "EvB08_08_15c" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15c.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9004_A1.json row 7
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9004_A1.json row 6
@@ -13478,7 +13479,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `3 (RB_END_BRANCH)`
-- Event target: `EventList#99240 "EvB08_08_15d" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15d.json`
+- Event target: `EventList#99240 "EvB08_08_15d" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15d.json`
 - Consumers:
   - QuestTaskList.open[0] -> QuestTaskList#90380
   - LimitConditions.block[1] -> Quest/LimitConditions.json row 169
@@ -13495,7 +13496,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `1 (RB_SAVE_END_A)`
-- Event target: `EventList#9956 "EvB08_08_AEnd7a" version=Boss/B08_08 MapListTable#100382 Map_TP_Cliff_N0_2002_E2 GameTextMap#16363 "Castle Edoras: Courtyard" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_AEnd7a.json`
+- Event target: `EventList#9956 "EvB08_08_AEnd7a" version=Boss/B08_08 MapListTable#100382 Map_TP_Cliff_N0_2002_E2 GameTextMap#16363 "Castle Edoras: Courtyard" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_AEnd7a.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 135
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Cliff_N0_2002_E2.json row 12
@@ -13510,7 +13511,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `1 (RB_SAVE_END_A)`
-- Event target: `EventList#10609 "EvB08_08_AEnd6a" version=Boss/B08_08 MapListTable#100379 Map_DP_Cliff_N0_1003_B2 GameTextMap#16361 "Castle Edoras Gate" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_AEnd6a.json`
+- Event target: `EventList#10609 "EvB08_08_AEnd6a" version=Boss/B08_08 MapListTable#100379 Map_DP_Cliff_N0_1003_B2 GameTextMap#16361 "Castle Edoras Gate" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_AEnd6a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Cliff_N0_1003_B2.json row 45
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Cliff_N0_1003_B2.json row 46
@@ -13525,14 +13526,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990412`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99182 "EvT02_01_05" version=Town/T02_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T02_01/EvT02_01_05.json`
+- Event target: `EventList#99182 "EvT02_01_05" version=Town/T02_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T02_01/EvT02_01_05.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002129 unique=960249 CharaID#91088 tex=Npc/ChrTX_Chd_NPC_Unq_margo/ChrTX_Chd_NPC_Unq_margo_N
 
 ### QuestTrigCondition `990413`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99251 "EvB08_07_start" version=Boss/B08_07 MapListTable#100233 Map_FP_Mount_N0_2003_A1 GameTextMap#16247 "Hornburg Battle Ruins" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_start.json`
+- Event target: `EventList#99251 "EvB08_07_start" version=Boss/B08_07 MapListTable#100233 Map_FP_Mount_N0_2003_A1 GameTextMap#16247 "Hornburg Battle Ruins" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_start.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_HellMount_N0_2002_A3.json row 45
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Mount_N0_2003_A1.json row 32
@@ -13566,7 +13567,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990417`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99248 "EvB08_08_BEnd0b" version=Boss/B08_08 MapListTable#100303 Map_DP_Snow_N0_2003_B1 GameTextMap#16315 "Flamebearer's Shrine: Sanctum" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd0b.json`
+- Event target: `EventList#99248 "EvB08_08_BEnd0b" version=Boss/B08_08 MapListTable#100303 Map_DP_Snow_N0_2003_B1 GameTextMap#16315 "Flamebearer's Shrine: Sanctum" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd0b.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 84
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Snow_N0_2003_B1.json row 31
@@ -13587,7 +13588,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `2 (RB_SAVE_END_B)`
-- Event target: `EventList#9924 "EvB08_08_BEnd1a" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd1a.json`
+- Event target: `EventList#9924 "EvB08_08_BEnd1a" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd1a.json`
 - Consumers:
   - NpcSetList.show[1] -> Npc/NpcSetList_TP_Other_N0_9004_A1.json row 14
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9004_A1.json row 18
@@ -13608,7 +13609,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `2 (RB_SAVE_END_B)`
-- Event target: `EventList#99236 "EvB08_08_BEnd1b" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd1b.json`
+- Event target: `EventList#99236 "EvB08_08_BEnd1b" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd1b.json`
 - Consumers:
   - NpcSetList.show[1] -> Npc/NpcSetList_TP_Other_N0_9004_A1.json row 15
   - NpcSetList.show[1] -> Npc/NpcSetList_TP_Other_N0_9004_A1.json row 19
@@ -13621,7 +13622,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `2 (RB_SAVE_END_B)`
-- Event target: `EventList#99237 "EvB08_08_BEnd1c" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd1c.json`
+- Event target: `EventList#99237 "EvB08_08_BEnd1c" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd1c.json`
 - Consumers:
   - QuestTaskList.open[0] -> QuestTaskList#2725
 
@@ -13687,7 +13688,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990430`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99260 "EvT00_01_14b" version=Town/T00_01 MapListTable#900003 Map_TP_Other_N0_9001_B1 GameTextMap#90095 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_14b.json`
+- Event target: `EventList#99260 "EvT00_01_14b" version=Town/T00_01 MapListTable#900003 Map_TP_Other_N0_9001_B1 GameTextMap#90095 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_14b.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9001_B1.json row 56
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9001_B1.json row 57
@@ -13696,7 +13697,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `990431`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99261 "EvT00_01_14c" version=Town/T00_01 MapListTable#900003 Map_TP_Other_N0_9001_B1 GameTextMap#90095 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_14c.json`
+- Event target: `EventList#99261 "EvT00_01_14c" version=Town/T00_01 MapListTable#900003 Map_TP_Other_N0_9001_B1 GameTextMap#90095 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_14c.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9001_B1.json row 106
 
@@ -13782,7 +13783,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991013`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99310 "EvB08_04_32" version=Boss/B08_04 MapListTable#100220 Map_DP_HellMount_N0_2002_B1 GameTextMap#16238 "Hell: Hornburg Castle - Central Area" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_32.json`
+- Event target: `EventList#99310 "EvB08_04_32" version=Boss/B08_04 MapListTable#100220 Map_DP_HellMount_N0_2002_B1 GameTextMap#16238 "Hell: Hornburg Castle - Central Area" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_32.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 334
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 333
@@ -13792,7 +13793,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991014`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99311 "EvB08_04_33" version=Boss/B08_04 MapListTable#100220 Map_DP_HellMount_N0_2002_B1 GameTextMap#16238 "Hell: Hornburg Castle - Central Area" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_33.json`
+- Event target: `EventList#99311 "EvB08_04_33" version=Boss/B08_04 MapListTable#100220 Map_DP_HellMount_N0_2002_B1 GameTextMap#16238 "Hell: Hornburg Castle - Central Area" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_04/EvB08_04_33.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 336
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 335
@@ -14006,7 +14007,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991087`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99373 "EvSml_HMnD22A3_002" version=Seamless MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSeamless/EvSml_HMnD22A3_002.json`
+- Event target: `EventList#99373 "EvSml_HMnD22A3_002" version=Seamless MapListTable#100284 Map_DP_HellMount_N0_2002_A3 GameTextMap#16304 "Hell: Hornburg Castle - West" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSeamless/EvSml_HMnD22A3_002.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 338
 
@@ -14042,7 +14043,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991090`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99370 "EvB08_07_05f" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05f.json`
+- Event target: `EventList#99370 "EvB08_07_05f" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05f.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Other_N0_9001_A1.json row 14
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Other_N0_9001_A1.json row 2
@@ -14050,7 +14051,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991091`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99371 "EvB08_07_05g" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05g.json`
+- Event target: `EventList#99371 "EvB08_07_05g" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05g.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_A1.json row 33
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_A1.json row 27
@@ -14060,7 +14061,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991092`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99255 "EvB08_07_12d" version=Boss/B08_07 MapListTable#100210 Map_EV_HellMount_N0_2001_B1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_12d.json`
+- Event target: `EventList#99255 "EvB08_07_12d" version=Boss/B08_07 MapListTable#100210 Map_EV_HellMount_N0_2001_B1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_12d.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 130
   - NpcSetList.hide[0] -> Npc/NpcSetList_EV_HellMount_N0_2001_B1.json row 3
@@ -14068,7 +14069,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991093`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99439 "EvB08_07_05h" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05h.json`
+- Event target: `EventList#99439 "EvB08_07_05h" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05h.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_A1.json row 28
@@ -14077,7 +14078,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991094`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99440 "EvB08_07_05i" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05i.json`
+- Event target: `EventList#99440 "EvB08_07_05i" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05i.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_A1.json row 29
@@ -14086,7 +14087,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991095`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99441 "EvB08_07_05j" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05j.json`
+- Event target: `EventList#99441 "EvB08_07_05j" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05j.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_A1.json row 30
@@ -14095,7 +14096,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991096`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99442 "EvB08_07_05k" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05k.json`
+- Event target: `EventList#99442 "EvB08_07_05k" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05k.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_A1.json row 31
@@ -14133,7 +14134,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991155`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99462 "EvB06_03_Battle01d_SeaF9001A1" version=Boss/B06_03 MapListTable#910001 Map_FP_Sea_N0_9001_A1 GameTextMap#90072 "Middlesea" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_Battle01d_SeaF9001A1.json`
+- Event target: `EventList#99462 "EvB06_03_Battle01d_SeaF9001A1" version=Boss/B06_03 MapListTable#910001 Map_FP_Sea_N0_9001_A1 GameTextMap#90072 "Middlesea" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_Battle01d_SeaF9001A1.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Sea_N0_9001_A1.json row 14
@@ -14170,7 +14171,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991184`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99474 "EvTown_Base_02" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Base_02.json`
+- Event target: `EventList#99474 "EvTown_Base_02" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Base_02.json`
 - Consumers:
   - NpcSetList.show[1] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 94003
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 94002
@@ -14179,14 +14180,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991185`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99475 "EvTown_WorkShop_02" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_WorkShop_02.json`
+- Event target: `EventList#99475 "EvTown_WorkShop_02" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_WorkShop_02.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 94003
 
 ### QuestTrigCondition `991187`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99477 "EvTown_WorkShop_04" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_WorkShop_04.json`
+- Event target: `EventList#99477 "EvTown_WorkShop_04" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_WorkShop_04.json`
 - Consumers:
   - NpcSetList.hide[1] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 94003
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 94005
@@ -14194,7 +14195,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991188`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99472 "EvTown_Base_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Base_01.json`
+- Event target: `EventList#99472 "EvTown_Base_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Base_01.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 94006
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99954
@@ -14262,7 +14263,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991201`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99511 "EvT00_01_03b" version=Town/T00_01 MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_03b.json`
+- Event target: `EventList#99511 "EvT00_01_03b" version=Town/T00_01 MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_03b.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9001_A1.json row 90
 
@@ -15201,7 +15202,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991203`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98035 "EvT00_01_29" version=Town/T00_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_29.json`
+- Event target: `EventList#98035 "EvT00_01_29" version=Town/T00_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_29.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 72
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 51
@@ -15213,14 +15214,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991207`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99515 "EvQuSQ007_01_01" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_01.json`
+- Event target: `EventList#99515 "EvQuSQ007_01_01" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_01.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Plain_N0_1002_A1.json row 13
 
 ### QuestTrigCondition `991208`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99516 "EvQuSQ007_01_02" version=Sub/SQ MapListTable#80 Map_FP_Plain_N0_1002_A1 GameTextMap#3281 "North Theatropolis Plains" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_02.json`
+- Event target: `EventList#99516 "EvQuSQ007_01_02" version=Sub/SQ MapListTable#80 Map_FP_Plain_N0_1002_A1 GameTextMap#3281 "North Theatropolis Plains" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_02.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002779 unique=960243 CharaID#91097 tex=Npc/ChrTX_Chd_NPC_Unq_time/ChrTX_Chd_NPC_Unq_time_N
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Plain_N0_1002_A1.json row 17
@@ -15231,7 +15232,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991209`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99517 "EvQuSQ007_01_03" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_03.json`
+- Event target: `EventList#99517 "EvQuSQ007_01_03" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_03.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Plain_N0_1002_A1.json row 17
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 91005
@@ -15241,7 +15242,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991210`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99518 "EvQuSQ007_01_04" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_04.json`
+- Event target: `EventList#99518 "EvQuSQ007_01_04" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_04.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002217 unique=960243 CharaID#91097 tex=Npc/ChrTX_Chd_NPC_Unq_time/ChrTX_Chd_NPC_Unq_time_N
 
@@ -15262,7 +15263,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991214`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99517 "EvQuSQ007_01_03" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_03.json`
+- Event target: `EventList#99517 "EvQuSQ007_01_03" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_03.json`
 - Consumers:
   - VillageBuildingData.unlock[0] -> Village/VillageBuildingData.json row 1081
   - VillageBuildingData.show_unlock[0] -> Village/VillageBuildingData.json row 1081
@@ -15415,42 +15416,42 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991253`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60001 "EvTutorial_101" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_101.json`
+- Event target: `EventList#60001 "EvTutorial_101" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_101.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Plain_N0_1002_A1.json row 18
 
 ### QuestTrigCondition `991254`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60002 "EvTutorial_102" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_102.json`
+- Event target: `EventList#60002 "EvTutorial_102" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_102.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9001_A1.json row 100
 
 ### QuestTrigCondition `991255`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60003 "EvTutorial_103" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_103.json`
+- Event target: `EventList#60003 "EvTutorial_103" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_103.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9001_A1.json row 101
 
 ### QuestTrigCondition `991257`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60005 "EvTutorial_105" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_105.json`
+- Event target: `EventList#60005 "EvTutorial_105" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_105.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9001_A1.json row 103
 
 ### QuestTrigCondition `991259`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60007 "EvTutorial_107" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_107.json`
+- Event target: `EventList#60007 "EvTutorial_107" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_107.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9001_A1.json row 104
 
 ### QuestTrigCondition `991260`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60008 "EvTutorial_108" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_108.json`
+- Event target: `EventList#60008 "EvTutorial_108" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_108.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 98
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Forest_N0_9001_A1.json row 99032
@@ -15462,21 +15463,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991261`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60009 "EvTutorial_109" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_109.json`
+- Event target: `EventList#60009 "EvTutorial_109" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_109.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99537
 
 ### QuestTrigCondition `991262`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60010 "EvTutorial_110" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_110.json`
+- Event target: `EventList#60010 "EvTutorial_110" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_110.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99226
 
 ### QuestTrigCondition `991264`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60012 "EvTutorial_112" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_112.json`
+- Event target: `EventList#60012 "EvTutorial_112" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_112.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99225
   - NpcTalkListVariant.show[1] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 99856
@@ -15487,21 +15488,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991265`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60013 "EvTutorial_113" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_113.json`
+- Event target: `EventList#60013 "EvTutorial_113" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_113.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99535
 
 ### QuestTrigCondition `991266`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99513 "EvQuSQ003_01_02" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ003_01_02.json`
+- Event target: `EventList#99513 "EvQuSQ003_01_02" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ003_01_02.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99223
 
 ### QuestTrigCondition `991267`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99516 "EvQuSQ007_01_02" version=Sub/SQ MapListTable#80 Map_FP_Plain_N0_1002_A1 GameTextMap#3281 "North Theatropolis Plains" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_02.json`
+- Event target: `EventList#99516 "EvQuSQ007_01_02" version=Sub/SQ MapListTable#80 Map_FP_Plain_N0_1002_A1 GameTextMap#3281 "North Theatropolis Plains" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_02.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Plain_N0_1002_A1.json row 18
 
@@ -15516,70 +15517,70 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991269`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60014 "EvTutorial_114" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_114.json`
+- Event target: `EventList#60014 "EvTutorial_114" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_114.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99227
 
 ### QuestTrigCondition `991272`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60303 "EvTutorial_303" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_303.json`
+- Event target: `EventList#60303 "EvTutorial_303" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_303.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99235
 
 ### QuestTrigCondition `991273`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60304 "EvTutorial_304" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_304.json`
+- Event target: `EventList#60304 "EvTutorial_304" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_304.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99236
 
 ### QuestTrigCondition `991274`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60305 "EvTutorial_305" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_305.json`
+- Event target: `EventList#60305 "EvTutorial_305" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_305.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99536
 
 ### QuestTrigCondition `991276`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60307 "EvTutorial_307" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_307.json`
+- Event target: `EventList#60307 "EvTutorial_307" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_307.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99538
 
 ### QuestTrigCondition `991277`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60308 "EvTutorial_308" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_308.json`
+- Event target: `EventList#60308 "EvTutorial_308" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_308.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99539
 
 ### QuestTrigCondition `991278`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60309 "EvTutorial_309" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_309.json`
+- Event target: `EventList#60309 "EvTutorial_309" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_309.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99540
 
 ### QuestTrigCondition `991279`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60310 "EvTutorial_310" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_310.json`
+- Event target: `EventList#60310 "EvTutorial_310" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_310.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 50000
 
 ### QuestTrigCondition `991280`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60311 "EvTutorial_311" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_311.json`
+- Event target: `EventList#60311 "EvTutorial_311" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_311.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99606
 
 ### QuestTrigCondition `991282`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99513 "EvQuSQ003_01_02" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ003_01_02.json`
+- Event target: `EventList#99513 "EvQuSQ003_01_02" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ003_01_02.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99211
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 99295
@@ -15599,7 +15600,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991285`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98036 "EvT00_01_30" version=Town/T00_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_30.json`
+- Event target: `EventList#98036 "EvT00_01_30" version=Town/T00_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_30.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 91001
   - NpcTalkListVariant.hide[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 99293
@@ -15609,7 +15610,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991286`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99512 "EvQuSQ003_01_01" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ003_01_01.json`
+- Event target: `EventList#99512 "EvQuSQ003_01_01" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ003_01_01.json`
 - Consumers:
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 99294
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 99793
@@ -15634,7 +15635,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991309`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99512 "EvQuSQ003_01_01" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ003_01_01.json`
+- Event target: `EventList#99512 "EvQuSQ003_01_01" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ003_01_01.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 90
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99227
@@ -15642,14 +15643,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991310`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99518 "EvQuSQ007_01_04" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_04.json`
+- Event target: `EventList#99518 "EvQuSQ007_01_04" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_04.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99226
 
 ### QuestTrigCondition `991312`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6977 "EvB06_03_05a" version=Boss/B06_03 MapListTable#100115 Map_EV_Other_N0_2029_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_05a.json`
+- Event target: `EventList#6977 "EvB06_03_05a" version=Boss/B06_03 MapListTable#100115 Map_EV_Other_N0_2029_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_05a.json`
 - Integer params: `[1]`
 - Consumers:
   - MapReplaceList.enable[0] -> Map/MapReplaceList.json row 14
@@ -15743,7 +15744,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991316`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8036 "EvB06_03_08c" version=Boss/B06_03 MapListTable#100124 Map_EV_Other_N0_2030_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_08c.json`
+- Event target: `EventList#8036 "EvB06_03_08c" version=Boss/B06_03 MapListTable#100124 Map_EV_Other_N0_2030_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_08c.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Sea_N0_9001_A1.json row 77
@@ -15833,7 +15834,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `3 (RB_END_BRANCH)`
-- Event target: `EventList#99240 "EvB08_08_15d" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15d.json`
+- Event target: `EventList#99240 "EvB08_08_15d" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15d.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Sea_N0_2002_A1.json row 7
@@ -15842,7 +15843,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `3 (RB_END_BRANCH)`
-- Event target: `EventList#10559 "EvB08_08_BEnd2a" version=Boss/B08_08 MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd2a.json`
+- Event target: `EventList#10559 "EvB08_08_BEnd2a" version=Boss/B08_08 MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd2a.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Desert_N0_1009_A1.json row 17
@@ -15933,7 +15934,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991325`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99631 "EvB08_08_B1_Switch_A" version=Boss/B08_08 MapListTable#100258 Map_DP_Heaven_N0_1002_B1 GameTextMap#16273 "Skies of Vanity" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_B1_Switch_A.json`
+- Event target: `EventList#99631 "EvB08_08_B1_Switch_A" version=Boss/B08_08 MapListTable#100258 Map_DP_Heaven_N0_1002_B1 GameTextMap#16273 "Skies of Vanity" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_B1_Switch_A.json`
 - Integer params: `[1]`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 346
@@ -15944,7 +15945,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991326`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99632 "EvB08_08_B1_Switch_B" version=Boss/B08_08 MapListTable#100258 Map_DP_Heaven_N0_1002_B1 GameTextMap#16273 "Skies of Vanity" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_B1_Switch_B.json`
+- Event target: `EventList#99632 "EvB08_08_B1_Switch_B" version=Boss/B08_08 MapListTable#100258 Map_DP_Heaven_N0_1002_B1 GameTextMap#16273 "Skies of Vanity" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_B1_Switch_B.json`
 - Integer params: `[1]`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 348
@@ -15955,7 +15956,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991327`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99611 "EvJ10603_00_01b" version=Join MapListTable#27 Map_FP_Desert_N0_1001_A1 GameTextMap#3228 "Sunshade Sands" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10603_00_01b.json`
+- Event target: `EventList#99611 "EvJ10603_00_01b" version=Join MapListTable#27 Map_FP_Desert_N0_1001_A1 GameTextMap#3228 "Sunshade Sands" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10603_00_01b.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Snow_N0_2001_A1.json row 19
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Desert_N0_1001_A1.json row 375
@@ -15963,7 +15964,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991328`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99613 "EvJ10603_00_02b" version=Join MapListTable#10012 Map_FP_Snow_N0_2001_A1 GameTextMap#16042 "Flamesgrace Wilds" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10603_00_02b.json`
+- Event target: `EventList#99613 "EvJ10603_00_02b" version=Join MapListTable#10012 Map_FP_Snow_N0_2001_A1 GameTextMap#16042 "Flamesgrace Wilds" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10603_00_02b.json`
 - Consumers:
   - QuestList.view[1] -> QuestList#9001044 GameTextQuest#919104732 "One's True Worth"
   - QuestTaskList.open[1] -> QuestTaskList#90456
@@ -15973,7 +15974,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991329`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6980 "EvB06_03_06c" version=Boss/B06_03 MapListTable#100126 Map_EV_Other_N0_2032_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_06c.json`
+- Event target: `EventList#6980 "EvB06_03_06c" version=Boss/B06_03 MapListTable#100126 Map_EV_Other_N0_2032_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_06c.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Sea_N0_9001_A1.json row 158
@@ -16236,7 +16237,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991362`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98009 "EvT00_01_03" version=Town/T00_01 MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_03.json`
+- Event target: `EventList#98009 "EvT00_01_03" version=Town/T00_01 MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_03.json`
 - Consumers:
   - WorldMapMaskList.show[0] -> Map/WorldMapMaskList.json row 9003
   - WorldMapMaskList.show[0] -> Map/WorldMapMaskList.json row 9005
@@ -16277,7 +16278,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991366`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98028 "EvT00_01_21b" version=Town/T00_01 MapListTable#900011 Map_FP_Forest_N0_9001_A1 GameTextMap#90011 "Wishvale Trail" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_21b.json`
+- Event target: `EventList#98028 "EvT00_01_21b" version=Town/T00_01 MapListTable#900011 Map_FP_Forest_N0_9001_A1 GameTextMap#90011 "Wishvale Trail" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_21b.json`
 - Integer params: `[1]`
 - Consumers:
   - MapReplaceList.disable[0] -> Map/MapReplaceList.json row 13
@@ -16285,7 +16286,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991367`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#10270 "EvB08_07_06a" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_06a.json`
+- Event target: `EventList#10270 "EvB08_07_06a" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_06a.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 132
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 359
@@ -16293,7 +16294,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991368`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99645 "EvQuSQ050_01_06" version=Sub/SQ MapListTable#21 Map_TP_Sea_N0_1001_A1 GameTextMap#3222 "Rippletide" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ050_01_06.json`
+- Event target: `EventList#99645 "EvQuSQ050_01_06" version=Sub/SQ MapListTable#21 Map_TP_Sea_N0_1001_A1 GameTextMap#3222 "Rippletide" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ050_01_06.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002778 unique=960266 guest=11363 CharaID#10069 tex=Npc/ChrTX_Chd_NPC_Snw_SM/ChrTX_Chd_NPC_Snw_SM_N
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Sea_N0_1001_A1.json row 1
@@ -16323,14 +16324,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991378`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99693 "EvTown_Ranch_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Ranch_01.json`
+- Event target: `EventList#99693 "EvTown_Ranch_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Ranch_01.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 94008
 
 ### QuestTrigCondition `991380`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99698 "EvTown_LandtoLv3" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_LandtoLv3.json`
+- Event target: `EventList#99698 "EvTown_LandtoLv3" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_LandtoLv3.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 94007
 
@@ -16345,7 +16346,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991382`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99693 "EvTown_Ranch_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Ranch_01.json`
+- Event target: `EventList#99693 "EvTown_Ranch_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Ranch_01.json`
 - Consumers:
   - VillageBuildingData.unlock[0] -> Village/VillageBuildingData.json row 1058
   - VillageBuildingData.show_unlock[0] -> Village/VillageBuildingData.json row 1058
@@ -16367,7 +16368,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991385`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99699 "EvTown_LandtoLv4" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_LandtoLv4.json`
+- Event target: `EventList#99699 "EvTown_LandtoLv4" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_LandtoLv4.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99503
 
@@ -16400,14 +16401,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991389`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99700 "EvTown_LandtoLv5" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_LandtoLv5.json`
+- Event target: `EventList#99700 "EvTown_LandtoLv5" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_LandtoLv5.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99504
 
 ### QuestTrigCondition `991390`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99701 "EvTown_LandtoLv6" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_LandtoLv6.json`
+- Event target: `EventList#99701 "EvTown_LandtoLv6" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_LandtoLv6.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99537
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99505
@@ -16415,7 +16416,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991391`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99702 "EvTown_LandtoLv7" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_LandtoLv7.json`
+- Event target: `EventList#99702 "EvTown_LandtoLv7" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_LandtoLv7.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99506
 
@@ -16480,7 +16481,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991413`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99743 "EvTown_Fen_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Fen_01.json`
+- Event target: `EventList#99743 "EvTown_Fen_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Fen_01.json`
 - Consumers:
   - QuestList.view[0] -> QuestList#9000012 GameTextQuest#219104419 "Kindlers of the Flame"
   - NpcSetList.show[2] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 92153
@@ -16489,7 +16490,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991414`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99694 "EvTown_Ranch_02" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Ranch_02.json`
+- Event target: `EventList#99694 "EvTown_Ranch_02" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Ranch_02.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99539
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 94009
@@ -16497,7 +16498,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991415`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99695 "EvTown_F-Deco_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_F-Deco_01.json`
+- Event target: `EventList#99695 "EvTown_F-Deco_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_F-Deco_01.json`
 - Consumers:
   - VillageBuildingData.unlock[0] -> Village/VillageBuildingData.json row 2410
   - VillageBuildingData.unlock[0] -> Village/VillageBuildingData.json row 2411
@@ -16508,7 +16509,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991416`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99696 "EvTown_Train_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Train_01.json`
+- Event target: `EventList#99696 "EvTown_Train_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Train_01.json`
 - Consumers:
   - VillageBuildingData.unlock[0] -> Village/VillageBuildingData.json row 1061
   - VillageBuildingData.show_unlock[0] -> Village/VillageBuildingData.json row 1061
@@ -16517,7 +16518,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991417`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99697 "EvTown_Train_02" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Train_02.json`
+- Event target: `EventList#99697 "EvTown_Train_02" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Train_02.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99540
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99508
@@ -16525,7 +16526,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991418`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99704 "EvTown_Museum_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Museum_01.json`
+- Event target: `EventList#99704 "EvTown_Museum_01" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Museum_01.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 94013
 
@@ -16762,7 +16763,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991476`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99664 "EvQuSQ030_01_05" version=Sub/SQ MapListTable#128 Map_DP_Mount_N0_1009_A1 GameTextMap#3329 "Cavern of Mists" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ030_01_05.json`
+- Event target: `EventList#99664 "EvQuSQ030_01_05" version=Sub/SQ MapListTable#128 Map_DP_Mount_N0_1009_A1 GameTextMap#3329 "Cavern of Mists" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ030_01_05.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Mount_N0_1009_A1.json row 12
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Desert_N0_1001_A1.json row 389
@@ -17016,7 +17017,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991511`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50011 "EvTownArrival_Cliff_1001_A1" version=Arrival MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Cliff_1001_A1.json`
+- Event target: `EventList#50011 "EvTownArrival_Cliff_1001_A1" version=Arrival MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Cliff_1001_A1.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_A1.json row 531
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_A1.json row 523
@@ -17024,7 +17025,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991512`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50012 "EvTownArrival_Desert_1001_A1" version=Arrival MapListTable#26 Map_TP_Desert_N0_1001_A1 GameTextMap#3227 "Sunshade" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Desert_1001_A1.json`
+- Event target: `EventList#50012 "EvTownArrival_Desert_1001_A1" version=Arrival MapListTable#26 Map_TP_Desert_N0_1001_A1 GameTextMap#3227 "Sunshade" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Desert_1001_A1.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Desert_N0_1001_A1.json row 398
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Desert_N0_1001_A1.json row 390
@@ -17032,7 +17033,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991513`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50018 "EvTownArrival_River_1001_A1" version=Arrival MapListTable#72 Map_TP_River_N0_1001_A1 GameTextMap#3273 "Clearbrook" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_River_1001_A1.json`
+- Event target: `EventList#50018 "EvTownArrival_River_1001_A1" version=Arrival MapListTable#72 Map_TP_River_N0_1001_A1 GameTextMap#3273 "Clearbrook" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_River_1001_A1.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_River_N0_1001_A1.json row 531
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_River_N0_1001_A1.json row 315
@@ -17040,7 +17041,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991514`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50020 "EvTownArrival_Sea_1001_A1" version=Arrival MapListTable#21 Map_TP_Sea_N0_1001_A1 GameTextMap#3222 "Rippletide" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Sea_1001_A1.json`
+- Event target: `EventList#50020 "EvTownArrival_Sea_1001_A1" version=Arrival MapListTable#21 Map_TP_Sea_N0_1001_A1 GameTextMap#3222 "Rippletide" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Sea_1001_A1.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Sea_N0_1001_A1.json row 343
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Sea_N0_1001_A1.json row 338
@@ -17048,7 +17049,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991515`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50014 "EvTownArrival_Forest_2001_A1" version=Arrival MapListTable#10001 Map_TP_Forest_N0_2001_A1 GameTextMap#10001 "Victors Hollow" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Forest_2001_A1.json`
+- Event target: `EventList#50014 "EvTownArrival_Forest_2001_A1" version=Arrival MapListTable#10001 Map_TP_Forest_N0_2001_A1 GameTextMap#10001 "Victors Hollow" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Forest_2001_A1.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Forest_N0_2001_A1.json row 93
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Forest_N0_2001_A1.json row 90
@@ -17056,7 +17057,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991516`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50022 "EvTownArrival_Snow_2001_A1" version=Arrival MapListTable#10009 Map_TP_Snow_N0_2001_A1 GameTextMap#16010 "Flamesgrace" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Snow_2001_A1.json`
+- Event target: `EventList#50022 "EvTownArrival_Snow_2001_A1" version=Arrival MapListTable#10009 Map_TP_Snow_N0_2001_A1 GameTextMap#16010 "Flamesgrace" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Snow_2001_A1.json`
 - Consumers:
   - QuestList.view[0] -> QuestList#9001057 GameTextQuest#919104781 "Fetching Soulstones"
   - QuestTaskList.open[0] -> QuestTaskList#90525
@@ -17067,7 +17068,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991517`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50017 "EvTownArrival_Plain_2001_A1" version=Arrival MapListTable#10032 Map_TP_Plain_N0_2001_A1 GameTextMap#16055 "Atlasdam" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Plain_2001_A1.json`
+- Event target: `EventList#50017 "EvTownArrival_Plain_2001_A1" version=Arrival MapListTable#10032 Map_TP_Plain_N0_2001_A1 GameTextMap#16055 "Atlasdam" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Plain_2001_A1.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Plain_N0_2001_A1.json row 78
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Plain_N0_2001_A1.json row 73
@@ -17075,7 +17076,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991518`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50013 "EvTownArrival_Desert_2001_A1" version=Arrival MapListTable#10014 Map_TP_Desert_N0_2001_A1 GameTextMap#16014 "Sufrataljah" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Desert_2001_A1.json`
+- Event target: `EventList#50013 "EvTownArrival_Desert_2001_A1" version=Arrival MapListTable#10014 Map_TP_Desert_N0_2001_A1 GameTextMap#16014 "Sufrataljah" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Desert_2001_A1.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Desert_N0_2001_A1.json row 101
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Desert_N0_2001_A1.json row 96
@@ -17083,7 +17084,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991519`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50019 "EvTownArrival_River_2001_A1" version=Arrival MapListTable#10020 Map_TP_River_N0_2001_A1 GameTextMap#16024 "Donescu" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_River_2001_A1.json`
+- Event target: `EventList#50019 "EvTownArrival_River_2001_A1" version=Arrival MapListTable#10020 Map_TP_River_N0_2001_A1 GameTextMap#16024 "Donescu" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_River_2001_A1.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_River_N0_2001_A1.json row 148
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_River_N0_2001_A1.json row 139
@@ -17091,21 +17092,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991520`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50021 "EvTownArrival_Sea_2001_A1" version=Arrival MapListTable#10026 Map_TP_Sea_N0_2001_A1 GameTextMap#16034 "Grandport" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Sea_2001_A1.json`
+- Event target: `EventList#50021 "EvTownArrival_Sea_2001_A1" version=Arrival MapListTable#10026 Map_TP_Sea_N0_2001_A1 GameTextMap#16034 "Grandport" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Sea_2001_A1.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Sea_N0_2001_A1.json row 111
 
 ### QuestTrigCondition `991521`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50023 "EvTownArrival_Sea_2002_A1" version=Arrival MapListTable#100294 Map_TP_Sea_N0_2002_A1 GameTextMap#16310 "Agapea" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Sea_2002_A1.json`
+- Event target: `EventList#50023 "EvTownArrival_Sea_2002_A1" version=Arrival MapListTable#100294 Map_TP_Sea_N0_2002_A1 GameTextMap#16310 "Agapea" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Sea_2002_A1.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Sea_N0_2002_A1.json row 4
 
 ### QuestTrigCondition `991522`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50015 "EvTownArrival_Mount_1002_A1" version=Arrival MapListTable#120 Map_TP_Mount_N0_1002_A1 GameTextMap#3321 "Shepherds Rock" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Mount_1002_A1.json`
+- Event target: `EventList#50015 "EvTownArrival_Mount_1002_A1" version=Arrival MapListTable#120 Map_TP_Mount_N0_1002_A1 GameTextMap#3321 "Shepherds Rock" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Mount_1002_A1.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Mount_N0_1002_A1.json row 215
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Mount_N0_1002_A1.json row 209
@@ -17113,7 +17114,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991523`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50016 "EvTownArrival_Mount_2001_A1" version=Arrival MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Mount_2001_A1.json`
+- Event target: `EventList#50016 "EvTownArrival_Mount_2001_A1" version=Arrival MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Mount_2001_A1.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Mount_N0_2001_A1.json row 77
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Mount_N0_2001_A1.json row 71
@@ -17121,7 +17122,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991524`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99703 "EvTown_LandtoLv8" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_LandtoLv8.json`
+- Event target: `EventList#99703 "EvTown_LandtoLv8" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_LandtoLv8.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99518
 
@@ -17148,7 +17149,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991527`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9896 "EvB08_08_01c" version=Boss/B08_08 MapListTable#100303 Map_DP_Snow_N0_2003_B1 GameTextMap#16315 "Flamebearer's Shrine: Sanctum" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_01c.json`
+- Event target: `EventList#9896 "EvB08_08_01c" version=Boss/B08_08 MapListTable#100303 Map_DP_Snow_N0_2003_B1 GameTextMap#16315 "Flamebearer's Shrine: Sanctum" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_01c.json`
 - Consumers:
   - QuestTaskList.open[0] -> QuestTaskList#90446
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Heaven_N0_1002_B1.json row 43
@@ -17163,28 +17164,28 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991529`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99749 "EvTutorial_05" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_05.json`
+- Event target: `EventList#99749 "EvTutorial_05" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_05.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Forest_N0_9001_A1.json row 99039
 
 ### QuestTrigCondition `991530`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98008 "EvT00_01_02b" version=Town/T00_01 MapListTable#2005 Map_EV_Other_N0_1005_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_02b.json`
+- Event target: `EventList#98008 "EvT00_01_02b" version=Town/T00_01 MapListTable#2005 Map_EV_Other_N0_1005_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_02b.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 85
 
 ### QuestTrigCondition `991531`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50010 "EvTownArrival_Other_9001_A1" version=Arrival MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Other_9001_A1.json`
+- Event target: `EventList#50010 "EvTownArrival_Other_9001_A1" version=Arrival MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_Other_9001_A1.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 85
 
 ### QuestTrigCondition `991532`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99656 "EvQuSQ020_01_05" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ020_01_05.json`
+- Event target: `EventList#99656 "EvQuSQ020_01_05" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ020_01_05.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_A1.json row 514
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_A1.json row 541
@@ -17194,7 +17195,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991533`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99646 "EvQuSQ050_01_07" version=Sub/SQ MapListTable#21 Map_TP_Sea_N0_1001_A1 GameTextMap#3222 "Rippletide" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ050_01_07.json`
+- Event target: `EventList#99646 "EvQuSQ050_01_07" version=Sub/SQ MapListTable#21 Map_TP_Sea_N0_1001_A1 GameTextMap#3222 "Rippletide" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ050_01_07.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Sea_N0_1001_A1.json row 334
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Sea_N0_1001_A1.json row 340
@@ -17218,7 +17219,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991605`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99647 "EvQuSQ010_01_01" version=Sub/SQ MapListTable#21 Map_TP_Sea_N0_1001_A1 GameTextMap#3222 "Rippletide" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ010_01_01.json`
+- Event target: `EventList#99647 "EvQuSQ010_01_01" version=Sub/SQ MapListTable#21 Map_TP_Sea_N0_1001_A1 GameTextMap#3222 "Rippletide" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ010_01_01.json`
 - Consumers:
   - VillageBuildingData.unlock[0] -> Village/VillageBuildingData.json row 1089
   - VillageBuildingData.show_unlock[0] -> Village/VillageBuildingData.json row 1089
@@ -17226,7 +17227,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991606`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99750 "EvTutorial_15" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_15.json`
+- Event target: `EventList#99750 "EvTutorial_15" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_15.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9001_A1.json row 106
 
@@ -17289,7 +17290,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991614`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99752 "EvJ10101_01_00_Spear_KEY_count" version=Join  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10101_01_00_Spear_KEY_count.json`
+- Event target: `EventList#99752 "EvJ10101_01_00_Spear_KEY_count" version=Join  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10101_01_00_Spear_KEY_count.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Sea_N0_9001_E1.json row 5
 
@@ -17307,7 +17308,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991616`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99753 "EvJ10101_01_00_Axe_KEY_count" version=Join  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10101_01_00_Axe_KEY_count.json`
+- Event target: `EventList#99753 "EvJ10101_01_00_Axe_KEY_count" version=Join  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10101_01_00_Axe_KEY_count.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Forest_N0_2001_A1.json row 91
 
@@ -17325,7 +17326,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991618`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99754 "EvJ10101_01_00_Bow_KEY_count" version=Join  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10101_01_00_Bow_KEY_count.json`
+- Event target: `EventList#99754 "EvJ10101_01_00_Bow_KEY_count" version=Join  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10101_01_00_Bow_KEY_count.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_River_N0_2001_A1.json row 16
 
@@ -17343,7 +17344,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991620`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99755 "EvJ10101_01_00_Wand_KEY_count" version=Join  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10101_01_00_Wand_KEY_count.json`
+- Event target: `EventList#99755 "EvJ10101_01_00_Wand_KEY_count" version=Join  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10101_01_00_Wand_KEY_count.json`
 - Consumers:
   - CharaNpcList.village_invite_release[0] -> CharaNpcList#10000888 unique=10527 CharaID#10009 tex=Npc/ChrTX_Chd_NPC_Clf_Mch/ChrTX_Chd_NPC_Clf_Mch_N
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Sea_N0_2001_B1.json row 103
@@ -17362,7 +17363,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991622`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99756 "EvJ10101_01_00_Fan_KEY_count" version=Join  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10101_01_00_Fan_KEY_count.json`
+- Event target: `EventList#99756 "EvJ10101_01_00_Fan_KEY_count" version=Join  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10101_01_00_Fan_KEY_count.json`
 - Consumers:
   - CharaNpcList.village_invite_release[0] -> CharaNpcList#10000844 unique=10495 CharaID#10012 tex=Npc/ChrTX_Chd_NPC_Dst_YM/ChrTX_Chd_NPC_Dst_YM_N
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Desert_N0_2001_A1.json row 97
@@ -17381,84 +17382,84 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991624`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99757 "EvJ10101_01_00_Book_KEY_count" version=Join  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10101_01_00_Book_KEY_count.json`
+- Event target: `EventList#99757 "EvJ10101_01_00_Book_KEY_count" version=Join  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10101_01_00_Book_KEY_count.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Mount_N0_2009_A1.json row 15
 
 ### QuestTrigCondition `991625`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60313 "EvTutorial_513" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_513.json`
+- Event target: `EventList#60313 "EvTutorial_513" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_513.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Forest_N0_1001_A1.json row 80666
 
 ### QuestTrigCondition `991626`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60314 "EvTutorial_514" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_514.json`
+- Event target: `EventList#60314 "EvTutorial_514" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_514.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Forest_N0_2001_D1.json row 35
 
 ### QuestTrigCondition `991627`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60315 "EvTutorial_515" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_515.json`
+- Event target: `EventList#60315 "EvTutorial_515" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_515.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Desert_N0_1009_A1.json row 15
 
 ### QuestTrigCondition `991628`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60316 "EvTutorial_516" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_516.json`
+- Event target: `EventList#60316 "EvTutorial_516" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_516.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_River_N0_2001_A1.json row 151
 
 ### QuestTrigCondition `991629`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60317 "EvTutorial_517" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_517.json`
+- Event target: `EventList#60317 "EvTutorial_517" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_517.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Forest_N0_1001_B1.json row 246
 
 ### QuestTrigCondition `991630`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60318 "EvTutorial_518" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_518.json`
+- Event target: `EventList#60318 "EvTutorial_518" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_518.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Forest_N0_9001_A1.json row 99049
 
 ### QuestTrigCondition `991631`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60319 "EvTutorial_519" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_519.json`
+- Event target: `EventList#60319 "EvTutorial_519" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_519.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Desert_N0_2001_A1.json row 104
 
 ### QuestTrigCondition `991632`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60320 "EvTutorial_520" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_520.json`
+- Event target: `EventList#60320 "EvTutorial_520" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_520.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Snow_N0_1001_B1.json row 10094
 
 ### QuestTrigCondition `991633`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60321 "EvTutorial_521" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_521.json`
+- Event target: `EventList#60321 "EvTutorial_521" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_521.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99531
 
 ### QuestTrigCondition `991634`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60322 "EvTutorial_522" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_522.json`
+- Event target: `EventList#60322 "EvTutorial_522" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_522.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Snow_N0_1001_A1.json row 99028
 
 ### QuestTrigCondition `991635`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60323 "EvTutorial_523" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_523.json`
+- Event target: `EventList#60323 "EvTutorial_523" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_523.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_A1.json row 532
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99622
@@ -17466,70 +17467,70 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991637`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60325 "EvTutorial_525" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_525.json`
+- Event target: `EventList#60325 "EvTutorial_525" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_525.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Sea_N0_2001_D1.json row 73
 
 ### QuestTrigCondition `991638`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60326 "EvTutorial_526" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_526.json`
+- Event target: `EventList#60326 "EvTutorial_526" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_526.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Plain_N0_1001_A1.json row 80863
 
 ### QuestTrigCondition `991639`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60327 "EvTutorial_527" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_527.json`
+- Event target: `EventList#60327 "EvTutorial_527" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_527.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Sea_N0_9001_D1.json row 9
 
 ### QuestTrigCondition `991640`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60328 "EvTutorial_528" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_528.json`
+- Event target: `EventList#60328 "EvTutorial_528" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_528.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Plain_N0_1001_A1.json row 80864
 
 ### QuestTrigCondition `991641`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60329 "EvTutorial_529" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_529.json`
+- Event target: `EventList#60329 "EvTutorial_529" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_529.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Mount_N0_1002_A1.json row 217
 
 ### QuestTrigCondition `991642`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60330 "EvTutorial_530" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_530.json`
+- Event target: `EventList#60330 "EvTutorial_530" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_530.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Sea_N0_1001_A1.json row 358
 
 ### QuestTrigCondition `991643`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60331 "EvTutorial_531" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_531.json`
+- Event target: `EventList#60331 "EvTutorial_531" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_531.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_A1.json row 533
 
 ### QuestTrigCondition `991644`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60332 "EvTutorial_532" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_532.json`
+- Event target: `EventList#60332 "EvTutorial_532" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_532.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_River_N0_1001_A1.json row 534
 
 ### QuestTrigCondition `991645`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60333 "EvTutorial_533" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_533.json`
+- Event target: `EventList#60333 "EvTutorial_533" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_533.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Forest_N0_2001_A1.json row 95
 
 ### QuestTrigCondition `991646`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60334 "EvTutorial_534" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_534.json`
+- Event target: `EventList#60334 "EvTutorial_534" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_534.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Snow_N0_2001_A1.json row 102
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Snow_N0_2001_B1.json row 189
@@ -17537,77 +17538,77 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991647`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60335 "EvTutorial_535" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_535.json`
+- Event target: `EventList#60335 "EvTutorial_535" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_535.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Plain_N0_2001_D1.json row 37
 
 ### QuestTrigCondition `991648`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60336 "EvTutorial_536" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_536.json`
+- Event target: `EventList#60336 "EvTutorial_536" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_536.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Desert_N0_1001_A1.json row 399
 
 ### QuestTrigCondition `991649`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60337 "EvTutorial_537" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_537.json`
+- Event target: `EventList#60337 "EvTutorial_537" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_537.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Forest_N0_1001_A1.json row 80675
 
 ### QuestTrigCondition `991650`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60338 "EvTutorial_538" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_538.json`
+- Event target: `EventList#60338 "EvTutorial_538" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_538.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_2002_G1.json row 39
 
 ### QuestTrigCondition `991651`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60339 "EvTutorial_539" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_539.json`
+- Event target: `EventList#60339 "EvTutorial_539" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_539.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_2002_G1.json row 40
 
 ### QuestTrigCondition `991652`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60340 "EvTutorial_540" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_540.json`
+- Event target: `EventList#60340 "EvTutorial_540" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_540.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Cliff_N0_1003_B1.json row 288
 
 ### QuestTrigCondition `991654`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60342 "EvTutorial_542" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_542.json`
+- Event target: `EventList#60342 "EvTutorial_542" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_542.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Mount_N0_1001_C1.json row 18
 
 ### QuestTrigCondition `991655`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60343 "EvTutorial_543" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_543.json`
+- Event target: `EventList#60343 "EvTutorial_543" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_543.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Cliff_N0_1003_B1.json row 289
 
 ### QuestTrigCondition `991657`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60345 "EvTutorial_545" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_545.json`
+- Event target: `EventList#60345 "EvTutorial_545" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_545.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Forest_N0_9001_A1.json row 99046
 
 ### QuestTrigCondition `991658`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60346 "EvTutorial_546" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_546.json`
+- Event target: `EventList#60346 "EvTutorial_546" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_546.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_B1.json row 134
 
 ### QuestTrigCondition `991659`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99758 "EvJ60107_01_00_item_select" version=Join  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ60107_01_00_item_select.json`
+- Event target: `EventList#99758 "EvJ60107_01_00_item_select" version=Join  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ60107_01_00_item_select.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Desert_N0_2002_C1.json row 43
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9001_A1.json row 109
@@ -18027,7 +18028,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991765`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98034 "EvT00_01_28" version=Town/T00_01 MapListTable#900011 Map_FP_Forest_N0_9001_A1 GameTextMap#90011 "Wishvale Trail" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_28.json`
+- Event target: `EventList#98034 "EvT00_01_28" version=Town/T00_01 MapListTable#900011 Map_FP_Forest_N0_9001_A1 GameTextMap#90011 "Wishvale Trail" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_28.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 181
 
@@ -18063,21 +18064,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991771`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#417 "EvB04_08_03b" version=Boss/B04_08 MapListTable#10 Map_DP_Cliff_N0_1003_A1 GameTextMap#3210 "Road to Castle Edoras" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_03b.json`
+- Event target: `EventList#417 "EvB04_08_03b" version=Boss/B04_08 MapListTable#10 Map_DP_Cliff_N0_1003_A1 GameTextMap#3210 "Road to Castle Edoras" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_03b.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 99
 
 ### QuestTrigCondition `991772`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#426 "EvB04_08_08b" version=Boss/B04_08 MapListTable#14 Map_DP_Cliff_N0_1003_E1 GameTextMap#3214 "Castle Edoras: Courtyard" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_08b.json`
+- Event target: `EventList#426 "EvB04_08_08b" version=Boss/B04_08 MapListTable#14 Map_DP_Cliff_N0_1003_E1 GameTextMap#3214 "Castle Edoras: Courtyard" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_08b.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 99
 
 ### QuestTrigCondition `991773`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99515 "EvQuSQ007_01_01" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_01.json`
+- Event target: `EventList#99515 "EvQuSQ007_01_01" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_01.json`
 - Consumers:
   - NpcTalkListVariant.hide[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 99246
   - NpcTalkListVariant.hide[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 99757
@@ -18086,7 +18087,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991775`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99517 "EvQuSQ007_01_03" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_03.json`
+- Event target: `EventList#99517 "EvQuSQ007_01_03" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ007_01_03.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99003
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 99003
@@ -18100,7 +18101,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991776`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99644 "EvQuSQ050_01_05" version=Sub/SQ MapListTable#21 Map_TP_Sea_N0_1001_A1 GameTextMap#3222 "Rippletide" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ050_01_05.json`
+- Event target: `EventList#99644 "EvQuSQ050_01_05" version=Sub/SQ MapListTable#21 Map_TP_Sea_N0_1001_A1 GameTextMap#3222 "Rippletide" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ050_01_05.json`
 - Consumers:
   - NpcTalkListVariant.hide[0] -> Npc/NpcTalkList_TP_Sea_N0_1001_A1.json row 411
 
@@ -18115,14 +18116,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991799`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99824 "EvB08_02_03b" version=Boss/B08_02 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_02/EvB08_02_03b.json`
+- Event target: `EventList#99824 "EvB08_02_03b" version=Boss/B08_02 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_02/EvB08_02_03b.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99548
 
 ### QuestTrigCondition `991800`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#82 "EvB05_01_08a" version=Boss/B05_01 MapListTable#10004 Map_TP_Forest_N0_2001_D1 GameTextMap#10004 "Arena" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_01/EvB05_01_08a.json`
+- Event target: `EventList#82 "EvB05_01_08a" version=Boss/B05_01 MapListTable#10004 Map_TP_Forest_N0_2001_D1 GameTextMap#10004 "Arena" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_01/EvB05_01_08a.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Forest_N0_2001_D1.json row 34
 
@@ -18147,14 +18148,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991802`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99805 "EvQuSQ120_01_01" version=Sub/SQ MapListTable#100294 Map_TP_Sea_N0_2002_A1 GameTextMap#16310 "Agapea" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ120_01_01.json`
+- Event target: `EventList#99805 "EvQuSQ120_01_01" version=Sub/SQ MapListTable#100294 Map_TP_Sea_N0_2002_A1 GameTextMap#16310 "Agapea" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ120_01_01.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Sea_N0_2002_A1.json row 8
 
 ### QuestTrigCondition `991803`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99806 "EvQuSQ120_01_02" version=Sub/SQ MapListTable#100294 Map_TP_Sea_N0_2002_A1 GameTextMap#16310 "Agapea" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ120_01_02.json`
+- Event target: `EventList#99806 "EvQuSQ120_01_02" version=Sub/SQ MapListTable#100294 Map_TP_Sea_N0_2002_A1 GameTextMap#16310 "Agapea" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ120_01_02.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Sea_N0_2002_A1.json row 9
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Sea_N0_2002_A1.json row 8
@@ -18162,7 +18163,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991804`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99807 "EvQuSQ120_01_03" version=Sub/SQ MapListTable#100294 Map_TP_Sea_N0_2002_A1 GameTextMap#16310 "Agapea" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ120_01_03.json`
+- Event target: `EventList#99807 "EvQuSQ120_01_03" version=Sub/SQ MapListTable#100294 Map_TP_Sea_N0_2002_A1 GameTextMap#16310 "Agapea" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ120_01_03.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Sea_N0_2002_A1.json row 9
 
@@ -18254,7 +18255,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991815`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99427 "EvQuSQ200_01_03" version=Sub/SQ MapListTable#77 Map_TP_Plain_N0_1001_A1 GameTextMap#3278 "Theatropolis" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ200_01_03.json`
+- Event target: `EventList#99427 "EvQuSQ200_01_03" version=Sub/SQ MapListTable#77 Map_TP_Plain_N0_1001_A1 GameTextMap#3278 "Theatropolis" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ200_01_03.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002623 unique=960155 guest=11372 CharaID#50620 tex=Npc/ChrTX_Chd_NPC_Cmn_Nbl_YF/ChrTX_Chd_NPC_Cmn_Nbl_YF_N
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Plain_N0_1001_A1.json row 80877
@@ -18263,7 +18264,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991816`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99428 "EvQuSQ200_01_04" version=Sub/SQ MapListTable#78 Map_TP_Plain_N0_1001_B1 GameTextMap#3279 "Amphitheatre" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ200_01_04.json`
+- Event target: `EventList#99428 "EvQuSQ200_01_04" version=Sub/SQ MapListTable#78 Map_TP_Plain_N0_1001_B1 GameTextMap#3279 "Amphitheatre" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ200_01_04.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002624 unique=960153 guest=11373 CharaID#50619 tex=Chs/P065/ChrTX_Chd_NPC_P065_01_N
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Plain_N0_1001_B1.json row 107
@@ -18338,14 +18339,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991827`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99872 "EvJ20808_01_00_npc_flag" version=Join  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ20808_01_00_npc_flag.json`
+- Event target: `EventList#99872 "EvJ20808_01_00_npc_flag" version=Join  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ20808_01_00_npc_flag.json`
 - Consumers:
   - NpcTalkListVariant.hide[0] -> Npc/NpcTalkList_TP_Desert_N0_1001_A1.json row 382
 
 ### QuestTrigCondition `991828`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99449 "EvQuSQ070_01_03a" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03a.json`
+- Event target: `EventList#99449 "EvQuSQ070_01_03a" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03a.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 374
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Sea_N0_9002_A1.json row 15
@@ -18354,7 +18355,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991829`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99450 "EvQuSQ070_01_03b" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03b.json`
+- Event target: `EventList#99450 "EvQuSQ070_01_03b" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03b.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 375
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Sea_N0_9002_A1.json row 16
@@ -18363,7 +18364,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991830`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99451 "EvQuSQ070_01_03c" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03c.json`
+- Event target: `EventList#99451 "EvQuSQ070_01_03c" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03c.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 376
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Sea_N0_9002_A1.json row 17
@@ -18372,7 +18373,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991831`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99452 "EvQuSQ070_01_03d" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03d.json`
+- Event target: `EventList#99452 "EvQuSQ070_01_03d" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03d.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 377
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Sea_N0_9002_A1.json row 18
@@ -18381,7 +18382,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991832`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99453 "EvQuSQ070_01_03e" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03e.json`
+- Event target: `EventList#99453 "EvQuSQ070_01_03e" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03e.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 378
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Sea_N0_9002_A1.json row 19
@@ -18390,7 +18391,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991833`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99454 "EvQuSQ070_01_03f" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03f.json`
+- Event target: `EventList#99454 "EvQuSQ070_01_03f" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03f.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 379
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Sea_N0_9002_A1.json row 20
@@ -18399,7 +18400,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991834`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99455 "EvQuSQ070_01_03g" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03g.json`
+- Event target: `EventList#99455 "EvQuSQ070_01_03g" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03g.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 380
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Sea_N0_9002_A1.json row 21
@@ -18408,7 +18409,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991835`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99409 "EvQuSQ070_01_03h" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03h.json`
+- Event target: `EventList#99409 "EvQuSQ070_01_03h" version=Sub/SQ MapListTable#911013 Map_DP_Sea_N0_9002_A1 GameTextMap#90079 "Isle of Heroes Past" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ070_01_03h.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 381
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Sea_N0_9002_A1.json row 22
@@ -18417,21 +18418,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991838`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#216 "EvB03_02_05a" version=Boss/B03_02 MapListTable#54 Map_DP_Forest_N0_1003_A1 GameTextMap#3255 "Auguste's Villa: Entrance" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B03_02/EvB03_02_05a.json`
+- Event target: `EventList#216 "EvB03_02_05a" version=Boss/B03_02 MapListTable#54 Map_DP_Forest_N0_1003_A1 GameTextMap#3255 "Auguste's Villa: Entrance" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B03_02/EvB03_02_05a.json`
 - Consumers:
   - NoteList.unlock -> Item/NoteList.json row 1
 
 ### QuestTrigCondition `991839`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#244 "EvB03_03_PL_02a" version=Boss/B03_03 MapListTable#84 Map_DP_Plain_N0_1002_B1 GameTextMap#3285 "Amphitheatre: Underground" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B03_03/EvB03_03_PL_02a.json`
+- Event target: `EventList#244 "EvB03_03_PL_02a" version=Boss/B03_03 MapListTable#84 Map_DP_Plain_N0_1002_B1 GameTextMap#3285 "Amphitheatre: Underground" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B03_03/EvB03_03_PL_02a.json`
 - Consumers:
   - NoteList.unlock -> Item/NoteList.json row 2
 
 ### QuestTrigCondition `991840`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6461 "EvB05_02_09a" version=Boss/B05_02 MapListTable#10018 Map_DP_Desert_N0_2001_B1 GameTextMap#16018 "Sufrataljah: Palace - Upper Floor" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_02/EvB05_02_09a.json`
+- Event target: `EventList#6461 "EvB05_02_09a" version=Boss/B05_02 MapListTable#10018 Map_DP_Desert_N0_2001_B1 GameTextMap#16018 "Sufrataljah: Palace - Upper Floor" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_02/EvB05_02_09a.json`
 - Consumers:
   - NoteList.unlock -> Item/NoteList.json row 3
 
@@ -18445,28 +18446,28 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991843`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6578 "EvB07_02_03e" version=Boss/B07_02 MapListTable#100033 Map_TP_Plain_N0_2001_C1 GameTextMap#16104 "Atlasdam Palace" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_02/EvB07_02_03e.json`
+- Event target: `EventList#6578 "EvB07_02_03e" version=Boss/B07_02 MapListTable#100033 Map_TP_Plain_N0_2001_C1 GameTextMap#16104 "Atlasdam Palace" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_02/EvB07_02_03e.json`
 - Consumers:
   - NoteList.unlock -> Item/NoteList.json row 4
 
 ### QuestTrigCondition `991844`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6576 "EvB07_02_03c" version=Boss/B07_02 MapListTable#100028 Map_TP_Plain_N0_2001_D1 GameTextMap#16105 "Royal Academy of Atlasdam" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_02/EvB07_02_03c.json`
+- Event target: `EventList#6576 "EvB07_02_03c" version=Boss/B07_02 MapListTable#100028 Map_TP_Plain_N0_2001_D1 GameTextMap#16105 "Royal Academy of Atlasdam" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_02/EvB07_02_03c.json`
 - Consumers:
   - NoteList.unlock -> Item/NoteList.json row 5
 
 ### QuestTrigCondition `991845`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#7399 "EvB07_02_03i" version=Boss/B07_02 MapListTable#10033 Map_TP_Plain_N0_2001_B1 GameTextMap#16056 "Atlasdam Palace Gate" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_02/EvB07_02_03i.json`
+- Event target: `EventList#7399 "EvB07_02_03i" version=Boss/B07_02 MapListTable#10033 Map_TP_Plain_N0_2001_B1 GameTextMap#16056 "Atlasdam Palace Gate" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_02/EvB07_02_03i.json`
 - Consumers:
   - NoteList.unlock -> Item/NoteList.json row 6
 
 ### QuestTrigCondition `991846`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6925 "EvB07_03_04a" version=Boss/B07_03 MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_04a.json`
+- Event target: `EventList#6925 "EvB07_03_04a" version=Boss/B07_03 MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_04a.json`
 - Consumers:
   - NoteList.unlock -> Item/NoteList.json row 7
 
@@ -18536,7 +18537,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991856`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99675 "EvQuSQ060_01_01" version=Sub/SQ MapListTable#100258 Map_DP_Heaven_N0_1002_B1 GameTextMap#16273 "Skies of Vanity" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ060_01_01.json`
+- Event target: `EventList#99675 "EvQuSQ060_01_01" version=Sub/SQ MapListTable#100258 Map_DP_Heaven_N0_1002_B1 GameTextMap#16273 "Skies of Vanity" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ060_01_01.json`
 - Consumers:
   - NoteList.unlock -> Item/NoteList.json row 40
 
@@ -18625,7 +18626,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991885`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99874 "EvTown_Upgrade" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Upgrade.json`
+- Event target: `EventList#99874 "EvTown_Upgrade" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Upgrade.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 77
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99535
@@ -18648,7 +18649,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991888`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99875 "EvTown_SkinChange" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_SkinChange.json`
+- Event target: `EventList#99875 "EvTown_SkinChange" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_SkinChange.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 78
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99552
@@ -19060,14 +19061,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991930`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60015 "EvTutorial_555" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_555.json`
+- Event target: `EventList#60015 "EvTutorial_555" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_555.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99552
 
 ### QuestTrigCondition `991931`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99877 "EvTown_TradeGoods_Add" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_TradeGoods_Add.json`
+- Event target: `EventList#99877 "EvTown_TradeGoods_Add" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_TradeGoods_Add.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99605
   - NpcTalkListVariant.hide[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 30047
@@ -19229,7 +19230,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991997`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#10185 "EvB08_08_13c" version=Boss/B08_08 MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_13c.json`
+- Event target: `EventList#10185 "EvB08_08_13c" version=Boss/B08_08 MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_13c.json`
 - Integer params: `[1]`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 373
@@ -19237,7 +19238,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `991998`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9917 "EvB08_08_15a" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15a.json`
+- Event target: `EventList#9917 "EvB08_08_15a" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15a.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9004_A1.json row 5
@@ -19264,7 +19265,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992047`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99916 "EvTown_DevHouse" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_DevHouse.json`
+- Event target: `EventList#99916 "EvTown_DevHouse" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_DevHouse.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 399
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99555
@@ -19289,7 +19290,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992050`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#10559 "EvB08_08_BEnd2a" version=Boss/B08_08 MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd2a.json`
+- Event target: `EventList#10559 "EvB08_08_BEnd2a" version=Boss/B08_08 MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd2a.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 115
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 169
@@ -19304,7 +19305,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `2 (RB_SAVE_END_B)`
-- Event target: `EventList#9931 "EvB08_08_BEnd9a" version=Boss/B08_08 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd9a.json`
+- Event target: `EventList#9931 "EvB08_08_BEnd9a" version=Boss/B08_08 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd9a.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 140
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 173
@@ -19527,7 +19528,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992057`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99798 "EvQuSQ340_01_02" version=Sub/SQ MapListTable#10020 Map_TP_River_N0_2001_A1 GameTextMap#16024 "Donescu" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ340_01_02.json`
+- Event target: `EventList#99798 "EvQuSQ340_01_02" version=Sub/SQ MapListTable#10020 Map_TP_River_N0_2001_A1 GameTextMap#16024 "Donescu" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ340_01_02.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_River_N0_2009_A1.json row 14
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_River_N0_2001_A1.json row 166
@@ -19675,7 +19676,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992075`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99782 "EvQuSQ290_01_03" version=Sub/SQ MapListTable#26 Map_TP_Desert_N0_1001_A1 GameTextMap#3227 "Sunshade" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ290_01_03.json`
+- Event target: `EventList#99782 "EvQuSQ290_01_03" version=Sub/SQ MapListTable#26 Map_TP_Desert_N0_1001_A1 GameTextMap#3227 "Sunshade" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ290_01_03.json`
 - Consumers:
   - NpcTalkListVariant.hide[0] -> Npc/NpcTalkList_TP_Desert_N0_1001_A1.json row 165
 
@@ -19698,7 +19699,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992078`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60016 "EvTutorial_509" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_509.json`
+- Event target: `EventList#60016 "EvTutorial_509" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_509.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 129
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_A1.json row 531
@@ -19741,7 +19742,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992081`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99926 "EvT01_01_Sml_ePC_10905" version=Town/T01_01 MapListTable#132 Map_DP_Snow_N0_1009_A1 GameTextMap#3333 "Snowshard Grotto" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T01_01/EvT01_01_Sml_ePC_10905.json`
+- Event target: `EventList#99926 "EvT01_01_Sml_ePC_10905" version=Town/T01_01 MapListTable#132 Map_DP_Snow_N0_1009_A1 GameTextMap#3333 "Snowshard Grotto" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T01_01/EvT01_01_Sml_ePC_10905.json`
 - Consumers:
   - QuestTaskList.open[0] -> QuestTaskList#90023
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 91
@@ -19753,7 +19754,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992088`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99559 "EvT05_01_11" version=Town/T05_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T05_01/EvT05_01_11.json`
+- Event target: `EventList#99559 "EvT05_01_11" version=Town/T05_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T05_01/EvT05_01_11.json`
 - Consumers:
   - NpcTalkListVariant.show[1] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 30224
   - NpcTalkListVariant.show[1] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 30243
@@ -19764,21 +19765,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992089`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6597 "EvB07_02_09a" version=Boss/B07_02 MapListTable#100047 Map_EV_Other_N0_2024_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_02/EvB07_02_09a.json`
+- Event target: `EventList#6597 "EvB07_02_09a" version=Boss/B07_02 MapListTable#100047 Map_EV_Other_N0_2024_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_02/EvB07_02_09a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Snow_N0_2001_C1.json row 185
 
 ### QuestTrigCondition `992090`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99927 "EvSml_EvB07_02_09a_SazantosOut" version=Boss/B07_02 MapListTable#10011 Map_TP_Snow_N0_2001_C1 GameTextMap#16012 "Flamesgrace Cathedral" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_02/EvSml_EvB07_02_09a_SazantosOut.json`
+- Event target: `EventList#99927 "EvSml_EvB07_02_09a_SazantosOut" version=Boss/B07_02 MapListTable#10011 Map_TP_Snow_N0_2001_C1 GameTextMap#16012 "Flamesgrace Cathedral" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_02/EvSml_EvB07_02_09a_SazantosOut.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Snow_N0_2001_C1.json row 185
 
 ### QuestTrigCondition `992091`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99928 "EvSml_EvB07_03_10h_SazantosOut" version=Boss/B07_03 MapListTable#10010 Map_TP_Snow_N0_2001_B1 GameTextMap#16011 "Flamesgrace Cathedral: Entrance" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvSml_EvB07_03_10h_SazantosOut.json`
+- Event target: `EventList#99928 "EvSml_EvB07_03_10h_SazantosOut" version=Boss/B07_03 MapListTable#10010 Map_TP_Snow_N0_2001_B1 GameTextMap#16011 "Flamesgrace Cathedral: Entrance" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvSml_EvB07_03_10h_SazantosOut.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Snow_N0_2001_B1.json row 185
 
@@ -19809,14 +19810,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992095`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99793 "EvQuSQ320_01_03" version=Sub/SQ MapListTable#10003 Map_TP_Forest_N0_2001_C1 GameTextMap#10003 "Victors Hollow: Old Quarter" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ320_01_03.json`
+- Event target: `EventList#99793 "EvQuSQ320_01_03" version=Sub/SQ MapListTable#10003 Map_TP_Forest_N0_2001_C1 GameTextMap#10003 "Victors Hollow: Old Quarter" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ320_01_03.json`
 - Consumers:
   - NpcTalkListVariant.hide[0] -> Npc/NpcTalkList_TP_Forest_N0_2001_C1.json row 14
 
 ### QuestTrigCondition `992096`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#262 "EvB07_01_01b" version=Boss/B07_01 MapListTable#10010 Map_TP_Snow_N0_2001_B1 GameTextMap#16011 "Flamesgrace Cathedral: Entrance" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_01b.json`
+- Event target: `EventList#262 "EvB07_01_01b" version=Boss/B07_01 MapListTable#10010 Map_TP_Snow_N0_2001_B1 GameTextMap#16011 "Flamesgrace Cathedral: Entrance" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_01b.json`
 - Integer params: `[1]`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 117
@@ -19824,7 +19825,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992097`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#263 "EvB07_01_03a" version=Boss/B07_01 MapListTable#10034 Map_TP_Snow_N0_2002_A1 GameTextMap#16060 "Cathedral of Tytos: Entrance" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_03a.json`
+- Event target: `EventList#263 "EvB07_01_03a" version=Boss/B07_01 MapListTable#10034 Map_TP_Snow_N0_2002_A1 GameTextMap#16060 "Cathedral of Tytos: Entrance" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_03a.json`
 - Integer params: `[1]`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 117
@@ -19846,7 +19847,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992101`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99937 "EvQuSQ300_01_02a" version=Sub/SQ MapListTable#36 Map_FP_Mount_N0_1001_A1 GameTextMap#3237 "Shepherds Rock Pass" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ300_01_02a.json`
+- Event target: `EventList#99937 "EvQuSQ300_01_02a" version=Sub/SQ MapListTable#36 Map_FP_Mount_N0_1001_A1 GameTextMap#3237 "Shepherds Rock Pass" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ300_01_02a.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Mount_N0_1001_A1.json row 55
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Mount_N0_1001_A1.json row 58
@@ -19854,14 +19855,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992102`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99940 "EvQuSQ300_01_03a" version=Sub/SQ MapListTable#36 Map_FP_Mount_N0_1001_A1 GameTextMap#3237 "Shepherds Rock Pass" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ300_01_03a.json`
+- Event target: `EventList#99940 "EvQuSQ300_01_03a" version=Sub/SQ MapListTable#36 Map_FP_Mount_N0_1001_A1 GameTextMap#3237 "Shepherds Rock Pass" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ300_01_03a.json`
 - Consumers:
   - NpcSetList.hide[1] -> Npc/NpcSetList_FP_Mount_N0_1001_A1.json row 58
 
 ### QuestTrigCondition `992104`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99938 "EvQuSQ300_01_02b" version=Sub/SQ MapListTable#36 Map_FP_Mount_N0_1001_A1 GameTextMap#3237 "Shepherds Rock Pass" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ300_01_02b.json`
+- Event target: `EventList#99938 "EvQuSQ300_01_02b" version=Sub/SQ MapListTable#36 Map_FP_Mount_N0_1001_A1 GameTextMap#3237 "Shepherds Rock Pass" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ300_01_02b.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Mount_N0_1001_A1.json row 56
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Mount_N0_1001_A1.json row 59
@@ -19869,7 +19870,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992105`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99939 "EvQuSQ300_01_02c" version=Sub/SQ MapListTable#36 Map_FP_Mount_N0_1001_A1 GameTextMap#3237 "Shepherds Rock Pass" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ300_01_02c.json`
+- Event target: `EventList#99939 "EvQuSQ300_01_02c" version=Sub/SQ MapListTable#36 Map_FP_Mount_N0_1001_A1 GameTextMap#3237 "Shepherds Rock Pass" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ300_01_02c.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Mount_N0_1001_A1.json row 57
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Mount_N0_1001_A1.json row 60
@@ -19877,56 +19878,56 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992106`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99941 "EvQuSQ300_01_03b" version=Sub/SQ MapListTable#36 Map_FP_Mount_N0_1001_A1 GameTextMap#3237 "Shepherds Rock Pass" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ300_01_03b.json`
+- Event target: `EventList#99941 "EvQuSQ300_01_03b" version=Sub/SQ MapListTable#36 Map_FP_Mount_N0_1001_A1 GameTextMap#3237 "Shepherds Rock Pass" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ300_01_03b.json`
 - Consumers:
   - NpcSetList.hide[1] -> Npc/NpcSetList_FP_Mount_N0_1001_A1.json row 59
 
 ### QuestTrigCondition `992107`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99942 "EvQuSQ300_01_03c" version=Sub/SQ MapListTable#36 Map_FP_Mount_N0_1001_A1 GameTextMap#3237 "Shepherds Rock Pass" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ300_01_03c.json`
+- Event target: `EventList#99942 "EvQuSQ300_01_03c" version=Sub/SQ MapListTable#36 Map_FP_Mount_N0_1001_A1 GameTextMap#3237 "Shepherds Rock Pass" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ300_01_03c.json`
 - Consumers:
   - NpcSetList.hide[1] -> Npc/NpcSetList_FP_Mount_N0_1001_A1.json row 60
 
 ### QuestTrigCondition `992111`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60348 "EvTutorial_505" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_505.json`
+- Event target: `EventList#60348 "EvTutorial_505" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_505.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Sea_N0_1001_A1.json row 354
 
 ### QuestTrigCondition `992112`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60349 "EvTutorial_506" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_506.json`
+- Event target: `EventList#60349 "EvTutorial_506" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_506.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_HellCliff_N0_2001_A1.json row 91
 
 ### QuestTrigCondition `992114`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60351 "EvTutorial_547" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_547.json`
+- Event target: `EventList#60351 "EvTutorial_547" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_547.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Sea_N0_2002_B3.json row 24
 
 ### QuestTrigCondition `992115`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60352 "EvTutorial_556" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_556.json`
+- Event target: `EventList#60352 "EvTutorial_556" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_556.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99601
 
 ### QuestTrigCondition `992116`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#60353 "EvTutorial_557" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_557.json`
+- Event target: `EventList#60353 "EvTutorial_557" version=Tutorial MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTutorial/EvTutorial_557.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99605
 
 ### QuestTrigCondition `992117`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9916 "EvB08_08_14a" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_14a.json`
+- Event target: `EventList#9916 "EvB08_08_14a" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_14a.json`
 - Integer params: `[1]`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 169
@@ -19938,7 +19939,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `3 (RB_END_BRANCH)`
-- Event target: `EventList#99954 "EvB08_08_15e" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15e.json`
+- Event target: `EventList#99954 "EvB08_08_15e" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15e.json`
 - Consumers:
   - NpcSetList.hide[2] -> Npc/NpcSetList_TP_Other_N0_9004_A1.json row 14
   - NpcSetList.hide[2] -> Npc/NpcSetList_TP_Other_N0_9004_A1.json row 15
@@ -19947,7 +19948,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `3 (RB_END_BRANCH)`
-- Event target: `EventList#99955 "EvB08_08_15f" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15f.json`
+- Event target: `EventList#99955 "EvB08_08_15f" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_15f.json`
 - Consumers:
   - NpcSetList.hide[3] -> Npc/NpcSetList_TP_Other_N0_9004_A1.json row 15
 
@@ -19961,7 +19962,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992123`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99975 "EvB08_08_AEnd8a" version=Boss/B08_08 MapListTable#100135 Map_TP_Cliff_N0_2002_F1 GameTextMap#16176 "Castle Edoras: Queen's Chambers" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_AEnd8a.json`
+- Event target: `EventList#99975 "EvB08_08_AEnd8a" version=Boss/B08_08 MapListTable#100135 Map_TP_Cliff_N0_2002_F1 GameTextMap#16176 "Castle Edoras: Queen's Chambers" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_AEnd8a.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 170
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 138
@@ -19971,14 +19972,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `2 (RB_SAVE_END_B)`
-- Event target: `EventList#99258 "EvB08_08_BEnding" version=Boss/B08_08 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnding.json`
+- Event target: `EventList#99258 "EvB08_08_BEnding" version=Boss/B08_08 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnding.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 168
 
 ### QuestTrigCondition `992125`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98036 "EvT00_01_30" version=Town/T00_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_30.json`
+- Event target: `EventList#98036 "EvT00_01_30" version=Town/T00_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_30.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99601
 
@@ -20235,7 +20236,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992187`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99550 "EvT05_01_03c" version=Town/T05_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T05_01/EvT05_01_03c.json`
+- Event target: `EventList#99550 "EvT05_01_03c" version=Town/T05_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T05_01/EvT05_01_03c.json`
 - Consumers:
   - NpcTalkListVariant.hide[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 93734
   - NpcTalkListVariant.hide[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 93735
@@ -20243,7 +20244,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992188`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99540 "EvT04_01_04" version=Town/T04_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T04_01/EvT04_01_04.json`
+- Event target: `EventList#99540 "EvT04_01_04" version=Town/T04_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T04_01/EvT04_01_04.json`
 - Consumers:
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 93732
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 93733
@@ -20253,7 +20254,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992189`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99543 "EvT04_01_06" version=Town/T04_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T04_01/EvT04_01_06.json`
+- Event target: `EventList#99543 "EvT04_01_06" version=Town/T04_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T04_01/EvT04_01_06.json`
 - Consumers:
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 93734
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 93735
@@ -20298,7 +20299,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992198`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99957 "EvB08_07_PartyOut" version=Boss/B08_07 MapListTable#100233 Map_FP_Mount_N0_2003_A1 GameTextMap#16247 "Hornburg Battle Ruins" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_PartyOut.json`
+- Event target: `EventList#99957 "EvB08_07_PartyOut" version=Boss/B08_07 MapListTable#100233 Map_FP_Mount_N0_2003_A1 GameTextMap#16247 "Hornburg Battle Ruins" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_PartyOut.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Mount_N0_2003_A1.json row 35
 
@@ -20314,7 +20315,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992200`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99935 "EvTown_Museum_02" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Museum_02.json`
+- Event target: `EventList#99935 "EvTown_Museum_02" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_Museum_02.json`
 - Consumers:
   - QuestList.view[0] -> QuestList#9001043 GameTextQuest#919104721 "The Monster Arena"
   - QuestTaskList.open[0] -> QuestTaskList#90451
@@ -20367,14 +20368,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992207`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9461 "EvB08_07_12b" version=Boss/B08_07 MapListTable#100210 Map_EV_HellMount_N0_2001_B1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_12b.json`
+- Event target: `EventList#9461 "EvB08_07_12b" version=Boss/B08_07 MapListTable#100210 Map_EV_HellMount_N0_2001_B1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_12b.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_EV_HellMount_N0_2001_B1.json row 1
 
 ### QuestTrigCondition `992209`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99235 "EvB08_07_12c" version=Boss/B08_07 MapListTable#100210 Map_EV_HellMount_N0_2001_B1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_12c.json`
+- Event target: `EventList#99235 "EvB08_07_12c" version=Boss/B08_07 MapListTable#100210 Map_EV_HellMount_N0_2001_B1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_12c.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 130
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 131
@@ -20401,7 +20402,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992212`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99961 "EvB08_07_12g" version=Boss/B08_07 MapListTable#100210 Map_EV_HellMount_N0_2001_B1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_12g.json`
+- Event target: `EventList#99961 "EvB08_07_12g" version=Boss/B08_07 MapListTable#100210 Map_EV_HellMount_N0_2001_B1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_12g.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 131
   - NpcSetList.show[0] -> Npc/NpcSetList_EV_HellMount_N0_2001_B1.json row 5
@@ -20410,21 +20411,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992213`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99963 "EvSml_EvB08_07_05e_after" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvSml_EvB08_07_05e_after.json`
+- Event target: `EventList#99963 "EvSml_EvB08_07_05e_after" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvSml_EvB08_07_05e_after.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Other_N0_9001_A1.json row 37
 
 ### QuestTrigCondition `992214`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9448 "EvB08_07_05e" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05e.json`
+- Event target: `EventList#9448 "EvB08_07_05e" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_05e.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_A1.json row 37
 
 ### QuestTrigCondition `992216`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9449 "EvB08_07_07a" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_07a.json`
+- Event target: `EventList#9449 "EvB08_07_07a" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_07a.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 132
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 355
@@ -20482,7 +20483,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992224`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99679 "EvQuSQ360_01_01" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ360_01_01.json`
+- Event target: `EventList#99679 "EvQuSQ360_01_01" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ360_01_01.json`
 - Consumers:
   - VillageBuildingData.unlock[0] -> Village/VillageBuildingData.json row 1073
   - VillageBuildingData.show_unlock[0] -> Village/VillageBuildingData.json row 1073
@@ -20490,42 +20491,42 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992225`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99680 "EvQuSQ360_01_02" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ360_01_02.json`
+- Event target: `EventList#99680 "EvQuSQ360_01_02" version=Sub/SQ MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ360_01_02.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99606
 
 ### QuestTrigCondition `992228`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99931 "EvB08_07_Shukai_01" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_Shukai_01.json`
+- Event target: `EventList#99931 "EvB08_07_Shukai_01" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_Shukai_01.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_B1.json row 36
 
 ### QuestTrigCondition `992229`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99932 "EvB08_07_Shukai_02" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_Shukai_02.json`
+- Event target: `EventList#99932 "EvB08_07_Shukai_02" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_Shukai_02.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_B1.json row 37
 
 ### QuestTrigCondition `992230`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99933 "EvB08_07_Shukai_03" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_Shukai_03.json`
+- Event target: `EventList#99933 "EvB08_07_Shukai_03" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_Shukai_03.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_B1.json row 38
 
 ### QuestTrigCondition `992231`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99934 "EvB08_07_Shukai_04" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_Shukai_04.json`
+- Event target: `EventList#99934 "EvB08_07_Shukai_04" version=Boss/B08_07 MapListTable#910016 Map_DP_Other_N0_9001_B1 GameTextMap#90062 "Cathedral of Ash: Underground" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_Shukai_04.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Other_N0_9001_B1.json row 39
 
 ### QuestTrigCondition `992232`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99625 "EvQuSQ170_01_03" version=Sub/SQ MapListTable#3 Map_TP_Cliff_N0_1001_B1 GameTextMap#3203 "Cragspear: Slums" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ170_01_03.json`
+- Event target: `EventList#99625 "EvQuSQ170_01_03" version=Sub/SQ MapListTable#3 Map_TP_Cliff_N0_1001_B1 GameTextMap#3203 "Cragspear: Slums" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ170_01_03.json`
 - Consumers:
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_TP_Cliff_N0_1001_B1.json row 188
   - NpcTalkListVariant.hide[0] -> Npc/NpcTalkList_TP_Cliff_N0_1001_B1.json row 181
@@ -20534,7 +20535,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992233`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9440 "EvB08_07_01c" version=Boss/B08_07 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_01c.json`
+- Event target: `EventList#9440 "EvB08_07_01c" version=Boss/B08_07 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_01c.json`
 - Consumers:
   - QuestTaskList.open[0] -> QuestTaskList#90600
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 134
@@ -20542,7 +20543,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992237`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99826 "EvSml_ILM_ePC_10101" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10101.json`
+- Event target: `EventList#99826 "EvSml_ILM_ePC_10101" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10101.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 37
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 104
@@ -20550,7 +20551,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992238`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99827 "EvSml_ILM_ePC_10201" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10201.json`
+- Event target: `EventList#99827 "EvSml_ILM_ePC_10201" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10201.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 38
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 105
@@ -20558,7 +20559,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992239`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99828 "EvSml_ILM_ePC_10302" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10302.json`
+- Event target: `EventList#99828 "EvSml_ILM_ePC_10302" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10302.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 39
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 106
@@ -20566,7 +20567,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992240`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99829 "EvSml_ILM_ePC_10402" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10402.json`
+- Event target: `EventList#99829 "EvSml_ILM_ePC_10402" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10402.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 41
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 107
@@ -20574,7 +20575,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992241`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99830 "EvSml_ILM_ePC_10503" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10503.json`
+- Event target: `EventList#99830 "EvSml_ILM_ePC_10503" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10503.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 42
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 108
@@ -20582,7 +20583,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992242`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99831 "EvSml_ILM_ePC_10603" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10603.json`
+- Event target: `EventList#99831 "EvSml_ILM_ePC_10603" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10603.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 43
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 109
@@ -20590,7 +20591,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992243`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99832 "EvSml_ILM_ePC_10704" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10704.json`
+- Event target: `EventList#99832 "EvSml_ILM_ePC_10704" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10704.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 44
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 110
@@ -20598,7 +20599,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992244`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99833 "EvSml_ILM_ePC_10804" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10804.json`
+- Event target: `EventList#99833 "EvSml_ILM_ePC_10804" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10804.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 45
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 111
@@ -20606,7 +20607,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992245`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99834 "EvSml_ILM_ePC_10905" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10905.json`
+- Event target: `EventList#99834 "EvSml_ILM_ePC_10905" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_10905.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 46
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 112
@@ -20614,7 +20615,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992246`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99835 "EvSml_ILM_ePC_11005" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11005.json`
+- Event target: `EventList#99835 "EvSml_ILM_ePC_11005" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11005.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 47
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 113
@@ -20622,7 +20623,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992247`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99836 "EvSml_ILM_ePC_11106" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11106.json`
+- Event target: `EventList#99836 "EvSml_ILM_ePC_11106" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11106.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 48
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 114
@@ -20630,7 +20631,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992248`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99837 "EvSml_ILM_ePC_11206" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11206.json`
+- Event target: `EventList#99837 "EvSml_ILM_ePC_11206" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11206.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 49
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 115
@@ -20638,7 +20639,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992249`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99838 "EvSml_ILM_ePC_11307" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11307.json`
+- Event target: `EventList#99838 "EvSml_ILM_ePC_11307" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11307.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 50
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 51
@@ -20647,7 +20648,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992250`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99839 "EvSml_ILM_ePC_11407" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11407.json`
+- Event target: `EventList#99839 "EvSml_ILM_ePC_11407" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11407.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 52
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 117
@@ -20655,7 +20656,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992251`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99840 "EvSml_ILM_ePC_11508" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11508.json`
+- Event target: `EventList#99840 "EvSml_ILM_ePC_11508" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11508.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 53
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 118
@@ -20663,7 +20664,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992252`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99841 "EvSml_ILM_ePC_11608" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11608.json`
+- Event target: `EventList#99841 "EvSml_ILM_ePC_11608" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_11608.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 54
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 119
@@ -20671,7 +20672,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992253`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99842 "EvSml_ILM_ePC_20101" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20101.json`
+- Event target: `EventList#99842 "EvSml_ILM_ePC_20101" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20101.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 56
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 121
@@ -20679,7 +20680,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992254`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99843 "EvSml_ILM_ePC_20202" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20202.json`
+- Event target: `EventList#99843 "EvSml_ILM_ePC_20202" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20202.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 57
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 122
@@ -20687,7 +20688,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992255`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99844 "EvSml_ILM_ePC_20303" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20303.json`
+- Event target: `EventList#99844 "EvSml_ILM_ePC_20303" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20303.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 58
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 123
@@ -20695,7 +20696,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992256`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99845 "EvSml_ILM_ePC_20404" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20404.json`
+- Event target: `EventList#99845 "EvSml_ILM_ePC_20404" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20404.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 59
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 124
@@ -20703,7 +20704,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992257`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99846 "EvSml_ILM_ePC_20505" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20505.json`
+- Event target: `EventList#99846 "EvSml_ILM_ePC_20505" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20505.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 60
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 61
@@ -20712,7 +20713,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992258`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99847 "EvSml_ILM_ePC_20606" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20606.json`
+- Event target: `EventList#99847 "EvSml_ILM_ePC_20606" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20606.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 62
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 126
@@ -20720,7 +20721,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992259`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99848 "EvSml_ILM_ePC_20707" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20707.json`
+- Event target: `EventList#99848 "EvSml_ILM_ePC_20707" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20707.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 63
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 127
@@ -20728,7 +20729,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992260`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99849 "EvSml_ILM_ePC_20808" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20808.json`
+- Event target: `EventList#99849 "EvSml_ILM_ePC_20808" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_20808.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 64
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 128
@@ -20736,14 +20737,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992261`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99850 "EvSml_ILM_ePC_30103" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30103.json`
+- Event target: `EventList#99850 "EvSml_ILM_ePC_30103" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30103.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 24
 
 ### QuestTrigCondition `992262`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99851 "EvSml_ILM_ePC_30207" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30207.json`
+- Event target: `EventList#99851 "EvSml_ILM_ePC_30207" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30207.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 29
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 97
@@ -20751,7 +20752,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992263`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99852 "EvSml_ILM_ePC_30301" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30301.json`
+- Event target: `EventList#99852 "EvSml_ILM_ePC_30301" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30301.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 30
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 98
@@ -20759,7 +20760,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992264`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99853 "EvSml_ILM_ePC_30407" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30407.json`
+- Event target: `EventList#99853 "EvSml_ILM_ePC_30407" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30407.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 31
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 99
@@ -20767,7 +20768,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992265`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99854 "EvSml_ILM_ePC_30501" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30501.json`
+- Event target: `EventList#99854 "EvSml_ILM_ePC_30501" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30501.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 32
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 100
@@ -20775,7 +20776,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992266`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99855 "EvSml_ILM_ePC_30701" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30701.json`
+- Event target: `EventList#99855 "EvSml_ILM_ePC_30701" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30701.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 33
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 101
@@ -20783,7 +20784,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992267`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99856 "EvSml_ILM_ePC_30808" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30808.json`
+- Event target: `EventList#99856 "EvSml_ILM_ePC_30808" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_30808.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 34
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 35
@@ -20792,7 +20793,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992268`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99857 "EvSml_ILM_ePC_40204" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_40204.json`
+- Event target: `EventList#99857 "EvSml_ILM_ePC_40204" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_40204.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 36
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 103
@@ -20800,7 +20801,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992269`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99860 "EvSml_ILM_ePC_60107" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_60107.json`
+- Event target: `EventList#99860 "EvSml_ILM_ePC_60107" version=Illuminate MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VIlluminate/EvSml_ILM_ePC_60107.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 55
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 120
@@ -20814,14 +20815,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992271`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99966 "EvTown_MuseumCollectClear_all" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_MuseumCollectClear_all.json`
+- Event target: `EventList#99966 "EvTown_MuseumCollectClear_all" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_MuseumCollectClear_all.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99625
 
 ### QuestTrigCondition `992273`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99406 "EvQuSQ050_01_03" version=Sub/SQ MapListTable#56 Map_TP_Snow_N0_1001_A1 GameTextMap#3257 "Emberglow" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ050_01_03.json`
+- Event target: `EventList#99406 "EvQuSQ050_01_03" version=Sub/SQ MapListTable#56 Map_TP_Snow_N0_1001_A1 GameTextMap#3257 "Emberglow" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ050_01_03.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002692 unique=960266 guest=11363 CharaID#10069 tex=Npc/ChrTX_Chd_NPC_Snw_SM/ChrTX_Chd_NPC_Snw_SM_N
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Sea_N0_1001_A1.json row 360
@@ -20836,7 +20837,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992274`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9899 "EvB08_08_03a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_03a.json`
+- Event target: `EventList#9899 "EvB08_08_03a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_03a.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 133
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 92
@@ -20844,21 +20845,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992275`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9910 "EvB08_08_10a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_10a.json`
+- Event target: `EventList#9910 "EvB08_08_10a" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_10a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 93
 
 ### QuestTrigCondition `992276`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99970 "EvSml_EvB08_08_10a" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvSml_EvB08_08_10a.json`
+- Event target: `EventList#99970 "EvSml_EvB08_08_10a" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvSml_EvB08_08_10a.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 93
 
 ### QuestTrigCondition `992277`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#10536 "EvB08_08_12a" version=Boss/B08_08 MapListTable#100337 Map_DP_Heaven_N0_1002_A1 GameTextMap#16341 "Garden of Sin" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_12a.json`
+- Event target: `EventList#10536 "EvB08_08_12a" version=Boss/B08_08 MapListTable#100337 Map_DP_Heaven_N0_1002_A1 GameTextMap#16341 "Garden of Sin" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_12a.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 100
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 195
@@ -20869,7 +20870,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992278`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99971 "EvSml_EvB08_08_12a" version=Boss/B08_08 MapListTable#100337 Map_DP_Heaven_N0_1002_A1 GameTextMap#16341 "Garden of Sin" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvSml_EvB08_08_12a.json`
+- Event target: `EventList#99971 "EvSml_EvB08_08_12a" version=Boss/B08_08 MapListTable#100337 Map_DP_Heaven_N0_1002_A1 GameTextMap#16341 "Garden of Sin" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvSml_EvB08_08_12a.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Heaven_N0_1002_A1.json row 93
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Forest_N0_9001_A1.json row 99025
@@ -20878,7 +20879,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992279`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99253 "EvB08_08_11b" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_11b.json`
+- Event target: `EventList#99253 "EvB08_08_11b" version=Boss/B08_08 MapListTable#900013 Map_TP_Other_N0_9003_A1 GameTextMap#90041 "Utopia: Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_11b.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 94
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9003_A1.json row 26
@@ -21388,14 +21389,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992345`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99956 "EvB08_07_01d" version=Boss/B08_07 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_01d.json`
+- Event target: `EventList#99956 "EvB08_07_01d" version=Boss/B08_07 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_01d.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 134
 
 ### QuestTrigCondition `992348`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99655 "EvQuSQ020_01_04" version=Sub/SQ MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ020_01_04.json`
+- Event target: `EventList#99655 "EvQuSQ020_01_04" version=Sub/SQ MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ020_01_04.json`
 - Consumers:
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_TP_Cliff_N0_1001_A1.json row 582
   - NpcTalkListVariant.hide[0] -> Npc/NpcTalkList_TP_Cliff_N0_1001_A1.json row 610
@@ -21403,7 +21404,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992349`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99423 "EvQuSQ180_01_02" version=Sub/SQ MapListTable#100138 Map_TP_HellCliff_N0_2001_B1 GameTextMap#16179 "Hell: Cragspear - Slums" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ180_01_02.json`
+- Event target: `EventList#99423 "EvQuSQ180_01_02" version=Sub/SQ MapListTable#100138 Map_TP_HellCliff_N0_2001_B1 GameTextMap#16179 "Hell: Cragspear - Slums" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ180_01_02.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_HellCliff_N0_2001_B1.json row 7
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_HellCliff_N0_2001_B1.json row 9
@@ -21418,14 +21419,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992350`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99465 "EvQuSQ190_01_02" version=Sub/SQ MapListTable#100145 Map_DP_HellForest_N0_1001_A1 GameTextMap#16186 "Hell: Valore Forest" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ190_01_02.json`
+- Event target: `EventList#99465 "EvQuSQ190_01_02" version=Sub/SQ MapListTable#100145 Map_DP_HellForest_N0_1001_A1 GameTextMap#16186 "Hell: Valore Forest" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ190_01_02.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_HellForest_N0_1001_A1.json row 11
 
 ### QuestTrigCondition `992351`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#10271 "EvB08_07_08b" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_08b.json`
+- Event target: `EventList#10271 "EvB08_07_08b" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_08b.json`
 - Consumers:
   - MapListTable.player_attach_trigger[0] -> Map/MapListTable.json row 900012
   - MapListTable.player_attach_trigger[0] -> Map/MapListTable.json row 910016
@@ -21545,7 +21546,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992365`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6982 "EvB06_03_07a" version=Boss/B06_03 MapListTable#100115 Map_EV_Other_N0_2029_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_07a.json`
+- Event target: `EventList#6982 "EvB06_03_07a" version=Boss/B06_03 MapListTable#100115 Map_EV_Other_N0_2029_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_07a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Sea_N0_9001_A1.json row 56
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Sea_N0_9001_A1.json row 59
@@ -21575,7 +21576,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992366`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6988 "EvB06_03_08f" version=Boss/B06_03 MapListTable#100115 Map_EV_Other_N0_2029_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_08f.json`
+- Event target: `EventList#6988 "EvB06_03_08f" version=Boss/B06_03 MapListTable#100115 Map_EV_Other_N0_2029_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_08f.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Sea_N0_9001_A1.json row 216
   - NpcSetList.show[0] -> Npc/NpcSetList_FP_Sea_N0_9001_A1.json row 217
@@ -21609,7 +21610,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992367`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#16002 "EvB06_03_08seamless1" version=Boss/B06_03 MapListTable#910001 Map_FP_Sea_N0_9001_A1 GameTextMap#90072 "Middlesea" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_08seamless1.json`
+- Event target: `EventList#16002 "EvB06_03_08seamless1" version=Boss/B06_03 MapListTable#910001 Map_FP_Sea_N0_9001_A1 GameTextMap#90072 "Middlesea" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_08seamless1.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Sea_N0_9001_A1.json row 231
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Sea_N0_9001_A1.json row 232
@@ -21625,7 +21626,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992368`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9458 "EvB08_07_10c" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_10c.json`
+- Event target: `EventList#9458 "EvB08_07_10c" version=Boss/B08_07 MapListTable#900012 Map_DP_Other_N0_9001_A1 GameTextMap#90031 "Cathedral of Ash" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_10c.json`
 - Consumers:
   - MapListTable.player_attach_invalid[0] -> Map/MapListTable.json row 900012
   - MapListTable.player_attach_invalid[0] -> Map/MapListTable.json row 910016
@@ -21633,21 +21634,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992369`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99555 "EvT05_01_08" version=Town/T05_01 MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T05_01/EvT05_01_08.json`
+- Event target: `EventList#99555 "EvT05_01_08" version=Town/T05_01 MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T05_01/EvT05_01_08.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 114
 
 ### QuestTrigCondition `992370`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#383 "EvB04_05_10a" version=Boss/B04_05 MapListTable#2009 Map_EV_Other_N0_1009_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_05/EvB04_05_10a.json`
+- Event target: `EventList#383 "EvB04_05_10a" version=Boss/B04_05 MapListTable#2009 Map_EV_Other_N0_1009_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_05/EvB04_05_10a.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 113
 
 ### QuestTrigCondition `992371`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6996 "EvB06_03_08n" version=Boss/B06_03 MapListTable#100044 Map_EV_Other_N0_2021_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_08n.json`
+- Event target: `EventList#6996 "EvB06_03_08n" version=Boss/B06_03 MapListTable#100044 Map_EV_Other_N0_2021_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_08n.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 171
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 66
@@ -21656,14 +21657,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992372`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8550 "EvB06_03_NavalBattle_To_Ship" version=Boss/B06_03 MapListTable#100024 Map_DP_Sea_N0_2001_B1 GameTextMap#16086 "Grandport Sewers: Depths" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_NavalBattle_To_Ship.json`
+- Event target: `EventList#8550 "EvB06_03_NavalBattle_To_Ship" version=Boss/B06_03 MapListTable#100024 Map_DP_Sea_N0_2001_B1 GameTextMap#16086 "Grandport Sewers: Depths" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_NavalBattle_To_Ship.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_FP_Sea_N0_9001_A1.json row 15
 
 ### QuestTrigCondition `992375`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99873 "EvOneOff_vsDragon_03b" version=Sudden MapListTable#911014 Map_DP_Heaven_N0_1002_G1 GameTextMap#90080 "Cove of Clouds" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSudden/EvOneOff_vsDragon_03b.json`
+- Event target: `EventList#99873 "EvOneOff_vsDragon_03b" version=Sudden MapListTable#911014 Map_DP_Heaven_N0_1002_G1 GameTextMap#90080 "Cove of Clouds" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSudden/EvOneOff_vsDragon_03b.json`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 393
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Heaven_N0_1002_G1.json row 1
@@ -21671,21 +21672,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992376`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99822 "EvOneOff_vsDragon_Omen_01" version=Sudden MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSudden/EvOneOff_vsDragon_Omen_01.json`
+- Event target: `EventList#99822 "EvOneOff_vsDragon_Omen_01" version=Sudden MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSudden/EvOneOff_vsDragon_Omen_01.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Heaven_N0_1002_A1.json row 94
 
 ### QuestTrigCondition `992377`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99823 "EvOneOff_vsDragon_Omen_02" version=Sudden MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSudden/EvOneOff_vsDragon_Omen_02.json`
+- Event target: `EventList#99823 "EvOneOff_vsDragon_Omen_02" version=Sudden MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSudden/EvOneOff_vsDragon_Omen_02.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Heaven_N0_1002_B1.json row 46
 
 ### QuestTrigCondition `992378`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6996 "EvB06_03_08n" version=Boss/B06_03 MapListTable#100044 Map_EV_Other_N0_2021_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_08n.json`
+- Event target: `EventList#6996 "EvB06_03_08n" version=Boss/B06_03 MapListTable#100044 Map_EV_Other_N0_2021_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_08n.json`
 - Integer params: `[1]`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 386
@@ -21796,14 +21797,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992380`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9462 "EvB08_07_13a" version=Boss/B08_07 MapListTable#100303 Map_DP_Snow_N0_2003_B1 GameTextMap#16315 "Flamebearer's Shrine: Sanctum" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_13a.json`
+- Event target: `EventList#9462 "EvB08_07_13a" version=Boss/B08_07 MapListTable#100303 Map_DP_Snow_N0_2003_B1 GameTextMap#16315 "Flamebearer's Shrine: Sanctum" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_07/EvB08_07_13a.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Snow_N0_2003_B1.json row 29
 
 ### QuestTrigCondition `992381`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99979 "EvSml_EvB08_07_13a" version=Boss/B08_08 MapListTable#100303 Map_DP_Snow_N0_2003_B1 GameTextMap#16315 "Flamebearer's Shrine: Sanctum" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvSml_EvB08_07_13a.json`
+- Event target: `EventList#99979 "EvSml_EvB08_07_13a" version=Boss/B08_08 MapListTable#100303 Map_DP_Snow_N0_2003_B1 GameTextMap#16315 "Flamebearer's Shrine: Sanctum" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvSml_EvB08_07_13a.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Snow_N0_2003_B1.json row 29
 
@@ -21811,7 +21812,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `3 (RB_END_BRANCH)`
-- Event target: `EventList#99707 "EvOneOff_SpecialSkillReborn" version=Sudden MapListTable#100303 Map_DP_Snow_N0_2003_B1 GameTextMap#16315 "Flamebearer's Shrine: Sanctum" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSudden/EvOneOff_SpecialSkillReborn.json`
+- Event target: `EventList#99707 "EvOneOff_SpecialSkillReborn" version=Sudden MapListTable#100303 Map_DP_Snow_N0_2003_B1 GameTextMap#16315 "Flamebearer's Shrine: Sanctum" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSudden/EvOneOff_SpecialSkillReborn.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Snow_N0_2003_B1.json row 30
 
@@ -21833,7 +21834,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `2 (RB_SAVE_END_B)`
-- Event target: `EventList#9926 "EvB08_08_BEnd4a" version=Boss/B08_08 MapListTable#100217 Map_EV_Other_N0_2036_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd4a.json`
+- Event target: `EventList#9926 "EvB08_08_BEnd4a" version=Boss/B08_08 MapListTable#100217 Map_EV_Other_N0_2036_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd4a.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 197
 
@@ -22317,21 +22318,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992447`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99969 "EvSml_EvB08_08_BEnd0z" version=Boss/B08_08 MapListTable#100303 Map_DP_Snow_N0_2003_B1 GameTextMap#16315 "Flamebearer's Shrine: Sanctum" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvSml_EvB08_08_BEnd0z.json`
+- Event target: `EventList#99969 "EvSml_EvB08_08_BEnd0z" version=Boss/B08_08 MapListTable#100303 Map_DP_Snow_N0_2003_B1 GameTextMap#16315 "Flamebearer's Shrine: Sanctum" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvSml_EvB08_08_BEnd0z.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Snow_N0_2003_B1.json row 31
 
 ### QuestTrigCondition `992448`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98018 "EvT00_01_10b" version=Town/T00_01 MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_10b.json`
+- Event target: `EventList#98018 "EvT00_01_10b" version=Town/T00_01 MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_10b.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Other_N0_9001_A1.json row 112
 
 ### QuestTrigCondition `992449`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99990 "EvT00_01_10c" version=Town/T00_01 MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_10c.json`
+- Event target: `EventList#99990 "EvT00_01_10c" version=Town/T00_01 MapListTable#900001 Map_TP_Other_N0_9001_A1 GameTextMap#90094 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_10c.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9001_A1.json row 112
 
@@ -22766,21 +22767,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992484`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99991 "EvQuSQ020_01_empty01" version=Sub/SQ  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ020_01_empty01.json`
+- Event target: `EventList#99991 "EvQuSQ020_01_empty01" version=Sub/SQ  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ020_01_empty01.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002509 unique=960244 CharaID#50474 tex=Npc/ChrTX_Chd_NPC_Cmn_Nbl_Mch/ChrTX_Chd_NPC_Cmn_Nbl_Mch_N
 
 ### QuestTrigCondition `992485`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99992 "EvQuSQ020_01_empty02" version=Sub/SQ  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ020_01_empty02.json`
+- Event target: `EventList#99992 "EvQuSQ020_01_empty02" version=Sub/SQ  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ020_01_empty02.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002510 unique=960248 CharaID#50474 tex=Npc/ChrTX_Chd_NPC_Cmn_Nbl_Mch/ChrTX_Chd_NPC_Cmn_Nbl_Mch_N
 
 ### QuestTrigCondition `992488`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#50024 "EvTownArrival_HellMount_2001_A1" version=Arrival MapListTable#100195 Map_TP_HellMount_N0_2001_A1 GameTextMap#16219 "Hell: Hornburg" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_HellMount_2001_A1.json`
+- Event target: `EventList#50024 "EvTownArrival_HellMount_2001_A1" version=Arrival MapListTable#100195 Map_TP_HellMount_N0_2001_A1 GameTextMap#16219 "Hell: Hornburg" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VArrival/EvTownArrival_HellMount_2001_A1.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_HellMount_N0_2001_A1.json row 29
 
@@ -22794,7 +22795,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992491`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99966 "EvTown_MuseumCollectClear_all" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_MuseumCollectClear_all.json`
+- Event target: `EventList#99966 "EvTown_MuseumCollectClear_all" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_MuseumCollectClear_all.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 151
 
@@ -22824,7 +22825,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992495`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99543 "EvT04_01_06" version=Town/T04_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T04_01/EvT04_01_06.json`
+- Event target: `EventList#99543 "EvT04_01_06" version=Town/T04_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T04_01/EvT04_01_06.json`
 - Integer params: `[1]`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 344
@@ -22832,7 +22833,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992496`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99544 "EvT04_01_07" version=Town/T04_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T04_01/EvT04_01_07.json`
+- Event target: `EventList#99544 "EvT04_01_07" version=Town/T04_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T04_01/EvT04_01_07.json`
 - Integer params: `[1]`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 344
@@ -22840,14 +22841,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992497`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99873 "EvOneOff_vsDragon_03b" version=Sudden MapListTable#911014 Map_DP_Heaven_N0_1002_G1 GameTextMap#90080 "Cove of Clouds" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSudden/EvOneOff_vsDragon_03b.json`
+- Event target: `EventList#99873 "EvOneOff_vsDragon_03b" version=Sudden MapListTable#911014 Map_DP_Heaven_N0_1002_G1 GameTextMap#90080 "Cove of Clouds" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSudden/EvOneOff_vsDragon_03b.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 164
 
 ### QuestTrigCondition `992498`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8929 "EvB08_01_07c" version=Boss/B08_01 MapListTable#100197 Map_EV_HellCliff_N0_2001_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_01/EvB08_01_07c.json`
+- Event target: `EventList#8929 "EvB08_01_07c" version=Boss/B08_01 MapListTable#100197 Map_EV_HellCliff_N0_2001_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_01/EvB08_01_07c.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 165
 
@@ -22954,7 +22955,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992513`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99172 "EvT01_01_07" version=Town/T01_01 MapListTable#132 Map_DP_Snow_N0_1009_A1 GameTextMap#3333 "Snowshard Grotto" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T01_01/EvT01_01_07.json`
+- Event target: `EventList#99172 "EvT01_01_07" version=Town/T01_01 MapListTable#132 Map_DP_Snow_N0_1009_A1 GameTextMap#3333 "Snowshard Grotto" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T01_01/EvT01_01_07.json`
 - Integer params: `[1]`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 343
@@ -22962,7 +22963,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992514`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99174 "EvT01_01_08b" version=Town/T01_01 MapListTable#132 Map_DP_Snow_N0_1009_A1 GameTextMap#3333 "Snowshard Grotto" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T01_01/EvT01_01_08b.json`
+- Event target: `EventList#99174 "EvT01_01_08b" version=Town/T01_01 MapListTable#132 Map_DP_Snow_N0_1009_A1 GameTextMap#3333 "Snowshard Grotto" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T01_01/EvT01_01_08b.json`
 - Integer params: `[1]`
 - Consumers:
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 343
@@ -22971,21 +22972,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `1 (RB_SAVE_END_A)`
-- Event target: `EventList#9921 "EvB08_08_AEnd4a" version=Boss/B08_08 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_AEnd4a.json`
+- Event target: `EventList#9921 "EvB08_08_AEnd4a" version=Boss/B08_08 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_AEnd4a.json`
 - Consumers:
   - LimitConditions.trigger[0] -> Quest/LimitConditions.json row 138
 
 ### QuestTrigCondition `992516`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99995 "EvSml_EvB07_03_03b_after" version=Boss/B07_03 MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvSml_EvB07_03_03b_after.json`
+- Event target: `EventList#99995 "EvSml_EvB07_03_03b_after" version=Boss/B07_03 MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvSml_EvB07_03_03b_after.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Mount_N0_2001_A1.json row 86
 
 ### QuestTrigCondition `992517`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99551 "EvT05_01_04" version=Town/T05_01 MapListTable#900011 Map_FP_Forest_N0_9001_A1 GameTextMap#90011 "Wishvale Trail" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T05_01/EvT05_01_04.json`
+- Event target: `EventList#99551 "EvT05_01_04" version=Town/T05_01 MapListTable#900011 Map_FP_Forest_N0_9001_A1 GameTextMap#90011 "Wishvale Trail" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T05_01/EvT05_01_04.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Forest_N0_9001_A1.json row 9
@@ -22994,7 +22995,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992518`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99552 "EvT05_01_05" version=Town/T05_01 MapListTable#900021 Map_DP_Forest_N0_9001_A1 GameTextMap#90021 "Cerulean Caverns" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T05_01/EvT05_01_05.json`
+- Event target: `EventList#99552 "EvT05_01_05" version=Town/T05_01 MapListTable#900021 Map_DP_Forest_N0_9001_A1 GameTextMap#90021 "Cerulean Caverns" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T05_01/EvT05_01_05.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Forest_N0_9001_A1.json row 9
@@ -23003,7 +23004,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992519`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99774 "EvQuSQ270_01_02" version=Sub/SQ MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ270_01_02.json`
+- Event target: `EventList#99774 "EvQuSQ270_01_02" version=Sub/SQ MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ270_01_02.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_A1.json row 542
   - NpcTalkListVariant.show[1] -> Npc/NpcTalkList_TP_Cliff_N0_1001_A1.json row 613
@@ -23011,7 +23012,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992520`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99775 "EvQuSQ270_01_03" version=Sub/SQ MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ270_01_03.json`
+- Event target: `EventList#99775 "EvQuSQ270_01_03" version=Sub/SQ MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ270_01_03.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_A1.json row 548
   - NpcTalkListVariant.show[1] -> Npc/NpcTalkList_TP_Cliff_N0_1001_A1.json row 612
@@ -23019,7 +23020,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992526`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99781 "EvQuSQ290_01_02" version=Sub/SQ MapListTable#72 Map_TP_River_N0_1001_A1 GameTextMap#3273 "Clearbrook" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ290_01_02.json`
+- Event target: `EventList#99781 "EvQuSQ290_01_02" version=Sub/SQ MapListTable#72 Map_TP_River_N0_1001_A1 GameTextMap#3273 "Clearbrook" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ290_01_02.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002542 unique=960268 guest=11381 CharaID#10049 tex=Npc/ChrTX_Chd_NPC_Rvr_YM/ChrTX_Chd_NPC_Rvr_YM_N
 
@@ -23101,7 +23102,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992536`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9063 "EvB05_03_OpenDoor_A1" version=Boss/B05_03  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_OpenDoor_A1.json`
+- Event target: `EventList#9063 "EvB05_03_OpenDoor_A1" version=Boss/B05_03  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_OpenDoor_A1.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 394
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 396
@@ -23109,7 +23110,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992537`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9064 "EvB05_03_OpenDoor_C1" version=Boss/B05_03  asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_OpenDoor_C1.json`
+- Event target: `EventList#9064 "EvB05_03_OpenDoor_C1" version=Boss/B05_03  asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_OpenDoor_C1.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 395
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 397
@@ -23311,7 +23312,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992564`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99999 "EvQuSQ260_01_empty03" version=Sub/SQ MapListTable#77 Map_TP_Plain_N0_1001_A1 GameTextMap#3278 "Theatropolis" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ260_01_empty03.json`
+- Event target: `EventList#99999 "EvQuSQ260_01_empty03" version=Sub/SQ MapListTable#77 Map_TP_Plain_N0_1001_A1 GameTextMap#3278 "Theatropolis" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ260_01_empty03.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002544 unique=960258 guest=11370 CharaID#50576 tex=Npc/ChrTX_Chd_NPC_Cmn_Dnc_M/ChrTX_Chd_NPC_Cmn_Dnc_M_N
 
@@ -23354,7 +23355,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992570`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99764 "EvQuSQ240_01_02" version=Sub/SQ MapListTable#46 Map_TP_Forest_N0_1001_A1 GameTextMap#3247 "Valore" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ240_01_02.json`
+- Event target: `EventList#99764 "EvQuSQ240_01_02" version=Sub/SQ MapListTable#46 Map_TP_Forest_N0_1001_A1 GameTextMap#3247 "Valore" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ240_01_02.json`
 - Consumers:
   - CharaNpcList.release[0] -> CharaNpcList#10002789 unique=960789 guest=11377 CharaID#10076 tex=Npc/ChrTX_Chd_NPC_Snw_Mch/ChrTX_Chd_NPC_Snw_Mch_N
   - CharaNpcList.release[0] -> CharaNpcList#10002764 unique=960350 guest=11377 CharaID#10076 tex=Npc/ChrTX_Chd_NPC_Snw_Mch/ChrTX_Chd_NPC_Snw_Mch_N
@@ -23364,7 +23365,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992571`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99967 "EvTown_MuseumCollectClear_End" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_MuseumCollectClear_End.json`
+- Event target: `EventList#99967 "EvTown_MuseumCollectClear_End" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_MuseumCollectClear_End.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99955
 
@@ -24059,7 +24060,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992641`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99224 "EvJ10402_01_03a" version=Join MapListTable#10020 Map_TP_River_N0_2001_A1 GameTextMap#16024 "Donescu" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10402_01_03a.json`
+- Event target: `EventList#99224 "EvJ10402_01_03a" version=Join MapListTable#10020 Map_TP_River_N0_2001_A1 GameTextMap#16024 "Donescu" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ10402_01_03a.json`
 - Consumers:
   - NpcSetList.show[1] -> Npc/NpcSetList_TP_River_N0_1001_A1.json row 538
   - NpcSetList.hide[1] -> Npc/NpcSetList_TP_River_N0_1001_A1.json row 291
@@ -24075,7 +24076,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992643`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99858 "EvTown_DevHouse_1st" version=TownBuild MapListTable#911032 Map_TP_Other_N0_9002_B1 GameTextMap#90098 "Banquet of Nought: Main Hall" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_DevHouse_1st.json`
+- Event target: `EventList#99858 "EvTown_DevHouse_1st" version=TownBuild MapListTable#911032 Map_TP_Other_N0_9002_B1 GameTextMap#90098 "Banquet of Nought: Main Hall" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_DevHouse_1st.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_B1.json row 99593
 
@@ -24689,7 +24690,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
 - Rollback target: `2 (RB_SAVE_END_B)`
-- Event target: `EventList#9949 "EvB08_08_BEnd10h" version=Boss/B08_08 MapListTable#911012 Map_EV_Sea_N0_1001_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd10h.json`
+- Event target: `EventList#9949 "EvB08_08_BEnd10h" version=Boss/B08_08 MapListTable#911012 Map_EV_Sea_N0_1001_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd10h.json`
 - Consumers:
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 140
   - LimitConditions.block[0] -> Quest/LimitConditions.json row 173
@@ -24817,7 +24818,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992725`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99663 "EvQuSQ030_01_04" version=Sub/SQ MapListTable#121 Map_TP_Mount_N0_1002_B1 GameTextMap#3322 "Shepherds Rock: Castle Square" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ030_01_04.json`
+- Event target: `EventList#99663 "EvQuSQ030_01_04" version=Sub/SQ MapListTable#121 Map_TP_Mount_N0_1002_B1 GameTextMap#3322 "Shepherds Rock: Castle Square" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ030_01_04.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Mount_N0_1002_B1.json row 181
 
@@ -24832,7 +24833,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992728`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98036 "EvT00_01_30" version=Town/T00_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_30.json`
+- Event target: `EventList#98036 "EvT00_01_30" version=Town/T00_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_30.json`
 - Consumers:
   - MainPlayerIllust.illust -> Character/MainPlayerIllust.json row 1000003
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000001
@@ -24840,28 +24841,28 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992729`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#54 "EvB01_03_10d" version=Boss/B01_03 MapListTable#2008 Map_EV_Other_N0_1008_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_03/EvB01_03_10d.json`
+- Event target: `EventList#54 "EvB01_03_10d" version=Boss/B01_03 MapListTable#2008 Map_EV_Other_N0_1008_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B01_03/EvB01_03_10d.json`
 - Consumers:
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000003
 
 ### QuestTrigCondition `992730`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#151 "EvB02_03_14a" version=Boss/B02_03 MapListTable#62 Map_DP_Snow_N0_1002_A1 GameTextMap#3263 "Ceremonial Square" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B02_03/EvB02_03_14a.json`
+- Event target: `EventList#151 "EvB02_03_14a" version=Boss/B02_03 MapListTable#62 Map_DP_Snow_N0_1002_A1 GameTextMap#3263 "Ceremonial Square" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B02_03/EvB02_03_14a.json`
 - Consumers:
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000007
 
 ### QuestTrigCondition `992731`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#237 "EvB03_03_09b" version=Boss/B03_03 MapListTable#77 Map_TP_Plain_N0_1001_A1 GameTextMap#3278 "Theatropolis" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B03_03/EvB03_03_09b.json`
+- Event target: `EventList#237 "EvB03_03_09b" version=Boss/B03_03 MapListTable#77 Map_TP_Plain_N0_1001_A1 GameTextMap#3278 "Theatropolis" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B03_03/EvB03_03_09b.json`
 - Consumers:
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000011
 
 ### QuestTrigCondition `992732`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6246 "EvB04_08_09f" version=Boss/B04_08 MapListTable#11 Map_DP_Cliff_N0_1003_B1 GameTextMap#3211 "Castle Edoras Gate" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_09f.json`
+- Event target: `EventList#6246 "EvB04_08_09f" version=Boss/B04_08 MapListTable#11 Map_DP_Cliff_N0_1003_B1 GameTextMap#3211 "Castle Edoras Gate" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_08/EvB04_08_09f.json`
 - Consumers:
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000005
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000009
@@ -24871,28 +24872,28 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992733`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6831 "EvB05_03_13d" version=Boss/B05_03 MapListTable#2008 Map_EV_Other_N0_1008_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_13d.json`
+- Event target: `EventList#6831 "EvB05_03_13d" version=Boss/B05_03 MapListTable#2008 Map_EV_Other_N0_1008_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_03/EvB05_03_13d.json`
 - Consumers:
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000017
 
 ### QuestTrigCondition `992734`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#7006 "EvB06_03_13d" version=Boss/B06_03 MapListTable#172 Map_DP_Cliff_N0_1003_F1 GameTextMap#3215 "Castle Edoras: Princess's Chambers" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_13d.json`
+- Event target: `EventList#7006 "EvB06_03_13d" version=Boss/B06_03 MapListTable#172 Map_DP_Cliff_N0_1003_F1 GameTextMap#3215 "Castle Edoras: Princess's Chambers" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_03/EvB06_03_13d.json`
 - Consumers:
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000019
 
 ### QuestTrigCondition `992735`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6947 "EvB07_03_10h" version=Boss/B07_03 MapListTable#10011 Map_TP_Snow_N0_2001_C1 GameTextMap#16012 "Flamesgrace Cathedral" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_10h.json`
+- Event target: `EventList#6947 "EvB07_03_10h" version=Boss/B07_03 MapListTable#10011 Map_TP_Snow_N0_2001_C1 GameTextMap#16012 "Flamesgrace Cathedral" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_03/EvB07_03_10h.json`
 - Consumers:
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000021
 
 ### QuestTrigCondition `992736`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#309 "EvB04_00_07a" version=Boss/B04_00 MapListTable#259 Map_DP_Sea_N0_1001_C1 GameTextMap#3363 "Isle of Orsa: Altar" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_00/EvB04_00_07a.json`
+- Event target: `EventList#309 "EvB04_00_07a" version=Boss/B04_00 MapListTable#259 Map_DP_Sea_N0_1001_C1 GameTextMap#3363 "Isle of Orsa: Altar" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B04_00/EvB04_00_07a.json`
 - Consumers:
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000004
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000008
@@ -24901,7 +24902,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992737`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#7620 "EvB08_00_07a" version=Boss/B08_00 MapListTable#100136 Map_TP_Cliff_N0_2002_G1 GameTextMap#16177 "Castle Edoras: Throne Room" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_00/EvB08_00_07a.json`
+- Event target: `EventList#7620 "EvB08_00_07a" version=Boss/B08_00 MapListTable#100136 Map_TP_Cliff_N0_2002_G1 GameTextMap#16177 "Castle Edoras: Throne Room" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_00/EvB08_00_07a.json`
 - Consumers:
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000006
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000010
@@ -24914,7 +24915,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992738`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99237 "EvB08_08_BEnd1c" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd1c.json`
+- Event target: `EventList#99237 "EvB08_08_BEnd1c" version=Boss/B08_08 MapListTable#900014 Map_TP_Other_N0_9004_A1 GameTextMap#90051 "???" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd1c.json`
 - Consumers:
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000002
   - MainPlayerRingIllust.ring_illust -> Character/MainPlayerRingIllust.json row 1000023
@@ -24922,14 +24923,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992739`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99748 "EvT00_01_01g" version=Town/T00_01 MapListTable#100330 Map_EV_Other_N0_2043_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_01g.json`
+- Event target: `EventList#99748 "EvT00_01_01g" version=Town/T00_01 MapListTable#100330 Map_EV_Other_N0_2043_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_01g.json`
 - Consumers:
   - MainPlayerIllust.illust -> Character/MainPlayerIllust.json row 1000001
 
 ### QuestTrigCondition `992740`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#98034 "EvT00_01_28" version=Town/T00_01 MapListTable#900011 Map_FP_Forest_N0_9001_A1 GameTextMap#90011 "Wishvale Trail" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_28.json`
+- Event target: `EventList#98034 "EvT00_01_28" version=Town/T00_01 MapListTable#900011 Map_FP_Forest_N0_9001_A1 GameTextMap#90011 "Wishvale Trail" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T00_01/EvT00_01_28.json`
 - Consumers:
   - MainPlayerIllust.illust -> Character/MainPlayerIllust.json row 1000002
 
@@ -24950,21 +24951,21 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992743`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#62 "EvB05_00_01b" version=Boss/B05_00 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_00/EvB05_00_01b.json`
+- Event target: `EventList#62 "EvB05_00_01b" version=Boss/B05_00 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B05_00/EvB05_00_01b.json`
 - Consumers:
   - MainPlayerIllust.illust -> Character/MainPlayerIllust.json row 1000006
 
 ### QuestTrigCondition `992744`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#177 "EvB06_00_01a" version=Boss/B06_00 MapListTable#11 Map_DP_Cliff_N0_1003_B1 GameTextMap#3211 "Castle Edoras Gate" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_00/EvB06_00_01a.json`
+- Event target: `EventList#177 "EvB06_00_01a" version=Boss/B06_00 MapListTable#11 Map_DP_Cliff_N0_1003_B1 GameTextMap#3211 "Castle Edoras Gate" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B06_00/EvB06_00_01a.json`
 - Consumers:
   - MainPlayerIllust.illust -> Character/MainPlayerIllust.json row 1000007
 
 ### QuestTrigCondition `992745`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#6262 "EvB07_00_01c" version=Boss/B07_00 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_00/EvB07_00_01c.json`
+- Event target: `EventList#6262 "EvB07_00_01c" version=Boss/B07_00 MapListTable#2010 Map_EV_Other_N0_1010_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_00/EvB07_00_01c.json`
 - Consumers:
   - MainPlayerIllust.illust -> Character/MainPlayerIllust.json row 1000008
 
@@ -24978,28 +24979,28 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992747`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8929 "EvB08_01_07c" version=Boss/B08_01 MapListTable#100197 Map_EV_HellCliff_N0_2001_A1 asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_01/EvB08_01_07c.json`
+- Event target: `EventList#8929 "EvB08_01_07c" version=Boss/B08_01 MapListTable#100197 Map_EV_HellCliff_N0_2001_A1 asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_01/EvB08_01_07c.json`
 - Consumers:
   - MainPlayerIllust.illust -> Character/MainPlayerIllust.json row 1000010
 
 ### QuestTrigCondition `992748`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99876 "EvB08_08_01d" version=Boss/B08_08 MapListTable#100297 Map_DP_Heaven_N0_1001_A1 GameTextMap#16313 "Gate of Orsa" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_01d.json`
+- Event target: `EventList#99876 "EvB08_08_01d" version=Boss/B08_08 MapListTable#100297 Map_DP_Heaven_N0_1001_A1 GameTextMap#16313 "Gate of Orsa" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_01d.json`
 - Consumers:
   - MainPlayerIllust.illust -> Character/MainPlayerIllust.json row 1000011
 
 ### QuestTrigCondition `992749`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9921 "EvB08_08_AEnd4a" version=Boss/B08_08 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_AEnd4a.json`
+- Event target: `EventList#9921 "EvB08_08_AEnd4a" version=Boss/B08_08 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_AEnd4a.json`
 - Consumers:
   - MainPlayerIllust.illust -> Character/MainPlayerIllust.json row 1000012
 
 ### QuestTrigCondition `992750`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#9931 "EvB08_08_BEnd9a" version=Boss/B08_08 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd9a.json`
+- Event target: `EventList#9931 "EvB08_08_BEnd9a" version=Boss/B08_08 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd9a.json`
 - Consumers:
   - MainPlayerIllust.illust -> Character/MainPlayerIllust.json row 1000013
 
@@ -25233,7 +25234,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992938`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99099 "EvQuSQ340_01_02_item_add" version=Sub/SQ MapListTable#10014 Map_TP_Desert_N0_2001_A1 GameTextMap#16014 "Sufrataljah" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ340_01_02_item_add.json`
+- Event target: `EventList#99099 "EvQuSQ340_01_02_item_add" version=Sub/SQ MapListTable#10014 Map_TP_Desert_N0_2001_A1 GameTextMap#16014 "Sufrataljah" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ340_01_02_item_add.json`
 - Consumers:
   - CharaNpcList.village_invite_release[0] -> CharaNpcList#10000862 unique=10513 CharaID#50156 tex=Chs/P018/ChrTX_Chd_NPC_P018_04_N
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Desert_N0_2001_A1.json row 113
@@ -25359,7 +25360,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992957`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#272 "EvB07_01_09a" version=Boss/B07_01 MapListTable#10035 Map_TP_Snow_N0_2002_B1 GameTextMap#16061 "Cathedral of Tytos" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_09a.json`
+- Event target: `EventList#272 "EvB07_01_09a" version=Boss/B07_01 MapListTable#10035 Map_TP_Snow_N0_2002_B1 GameTextMap#16061 "Cathedral of Tytos" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B07_01/EvB07_01_09a.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Snow_N0_2002_B1.json row 29
 
@@ -25373,7 +25374,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992961`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#80002 "EvQuSQ340_01_02_item_add2" version=Sub/SQ MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ340_01_02_item_add2.json`
+- Event target: `EventList#80002 "EvQuSQ340_01_02_item_add2" version=Sub/SQ MapListTable#100089 Map_TP_Mount_N0_2001_A1 GameTextMap#16142 "Berecain" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ340_01_02_item_add2.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Mount_N0_2001_A1.json row 89
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Mount_N0_2001_A1.json row 76
@@ -25382,7 +25383,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992962`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99675 "EvQuSQ060_01_01" version=Sub/SQ MapListTable#100258 Map_DP_Heaven_N0_1002_B1 GameTextMap#16273 "Skies of Vanity" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ060_01_01.json`
+- Event target: `EventList#99675 "EvQuSQ060_01_01" version=Sub/SQ MapListTable#100258 Map_DP_Heaven_N0_1002_B1 GameTextMap#16273 "Skies of Vanity" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ060_01_01.json`
 - Consumers:
   - QuestList.view[0] -> QuestList#9001042 GameTextQuest#919104710 "The Hidden Isle"
   - NpcSetList.show[0] -> Npc/NpcSetList_DP_Heaven_N0_1002_B1.json row 45
@@ -25391,7 +25392,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992963`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#80030 "EvTown_SavePoint" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_SavePoint.json`
+- Event target: `EventList#80030 "EvTown_SavePoint" version=TownBuild MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTownBuild/EvTown_SavePoint.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99974
 
@@ -25448,14 +25449,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992970`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99167 "EvT01_01_02" version=Town/T01_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T01_01/EvT01_01_02.json`
+- Event target: `EventList#99167 "EvT01_01_02" version=Town/T01_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T01_01/EvT01_01_02.json`
 - Consumers:
   - NpcTalkListVariant.show[0] -> Npc/NpcTalkList_TP_Other_N0_9002_A1.json row 30651
 
 ### QuestTrigCondition `992971`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#66004 "EvSml_AfterAEnd_Influence" version=Seamless MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSeamless/EvSml_AfterAEnd_Influence.json`
+- Event target: `EventList#66004 "EvSml_AfterAEnd_Influence" version=Seamless MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSeamless/EvSml_AfterAEnd_Influence.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Heaven_N0_1002_A1.json row 96
@@ -25471,14 +25472,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992973`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99543 "EvT04_01_06" version=Town/T04_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T04_01/EvT04_01_06.json`
+- Event target: `EventList#99543 "EvT04_01_06" version=Town/T04_01 MapListTable#900002 Map_TP_Other_N0_9002_A1 GameTextMap#90096 "Wishvale" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VTown/T04_01/EvT04_01_06.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Other_N0_9002_A1.json row 99165
 
 ### QuestTrigCondition `992974`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#8489 "EvB08_03_03a" version=Boss/B08_03 MapListTable#100134 Map_TP_Cliff_N0_2002_E1 GameTextMap#16175 "Castle Edoras: Courtyard" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_03a.json`
+- Event target: `EventList#8489 "EvB08_03_03a" version=Boss/B08_03 MapListTable#100134 Map_TP_Cliff_N0_2002_E1 GameTextMap#16175 "Castle Edoras: Courtyard" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_03/EvB08_03_03a.json`
 - Consumers:
   - MapObjectConditionsList.show[0] -> Object/MapObjectConditionsList.json row 119
   - MapObjectConditionsList.hide[0] -> Object/MapObjectConditionsList.json row 117
@@ -25494,14 +25495,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992976`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99313 "EvJ20303_01_02" version=Join MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ20303_01_02.json`
+- Event target: `EventList#99313 "EvJ20303_01_02" version=Join MapListTable#2 Map_TP_Cliff_N0_1001_A1 GameTextMap#3202 "Cragspear" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VJoin/EvJ20303_01_02.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Cliff_N0_1001_A1.json row 498
 
 ### QuestTrigCondition `992977`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#88010 "EvB08_05_Dialog_Hornburg" version=Boss/B08_05 MapListTable#11 Map_DP_Cliff_N0_1003_B1 GameTextMap#3211 "Castle Edoras Gate" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_05/EvB08_05_Dialog_Hornburg.json`
+- Event target: `EventList#88010 "EvB08_05_Dialog_Hornburg" version=Boss/B08_05 MapListTable#11 Map_DP_Cliff_N0_1003_B1 GameTextMap#3211 "Castle Edoras Gate" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_05/EvB08_05_Dialog_Hornburg.json`
 - Consumers:
   - NpcSetList.show[1] -> Npc/NpcSetList_DP_Cliff_N0_1003_B1.json row 288
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Cliff_N0_1003_B1.json row 292
@@ -25509,7 +25510,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992978`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#66005 "EvSml_AfterBEnd_Influence" version=Seamless MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSeamless/EvSml_AfterBEnd_Influence.json`
+- Event target: `EventList#66005 "EvSml_AfterBEnd_Influence" version=Seamless MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSeamless/EvSml_AfterBEnd_Influence.json`
 - Integer params: `[1]`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_DP_Heaven_N0_1002_A1.json row 97
@@ -25517,14 +25518,14 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992980`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#99463 "EvQuSQ100_01_07" version=Sub/SQ MapListTable#10032 Map_TP_Plain_N0_2001_A1 GameTextMap#16055 "Atlasdam" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ100_01_07.json`
+- Event target: `EventList#99463 "EvQuSQ100_01_07" version=Sub/SQ MapListTable#10032 Map_TP_Plain_N0_2001_A1 GameTextMap#16055 "Atlasdam" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSub/SQ/EvQuSQ100_01_07.json`
 - Consumers:
   - NpcSetList.show[0] -> Npc/NpcSetList_TP_Plain_N0_2001_A1.json row 82
 
 ### QuestTrigCondition `992983`
 
 - Condition type: `11 (eCOND_EVENT_READY)`
-- Event target: `EventList#10559 "EvB08_08_BEnd2a" version=Boss/B08_08 MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd2a.json`
+- Event target: `EventList#10559 "EvB08_08_BEnd2a" version=Boss/B08_08 MapListTable#100338 Map_DP_Heaven_N0_1002_F1 GameTextMap#16342 "Altar of Heavenly Peals" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VBoss/B08_08/EvB08_08_BEnd2a.json`
 - Integer params: `[1]`
 - Consumers:
   - QuestList.view[1] -> QuestList#9000013 GameTextQuest#219104443 "An Encounter with Alexia"
@@ -25591,7 +25592,7 @@ This document focuses only on condition systems. It splits the analysis into sep
 ### QuestTrigCondition `992988`
 
 - Condition type: `12 (eCOND_EVENT_CLEAR)`
-- Event target: `EventList#66006 "EvSml_SnT11B_SnowMan" version=Seamless MapListTable#57 Map_TP_Snow_N0_1001_B1 GameTextMap#3258 "Emberglow: East District" asset=Content/Paks/fmodel/Output/Exports/Octopath_Traveler0/Content/Local/DataBase/Event/VSeamless/EvSml_SnT11B_SnowMan.json`
+- Event target: `EventList#66006 "EvSml_SnT11B_SnowMan" version=Seamless MapListTable#57 Map_TP_Snow_N0_1001_B1 GameTextMap#3258 "Emberglow: East District" asset=Octopath_Traveler0/Content/Local/DataBase/Event/VSeamless/EvSml_SnT11B_SnowMan.json`
 - Consumers:
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Snow_N0_1001_B1.json row 10115
   - NpcSetList.hide[0] -> Npc/NpcSetList_TP_Snow_N0_1001_B1.json row 10073
