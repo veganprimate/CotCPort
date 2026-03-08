@@ -135,7 +135,7 @@ Below is a list of **tutorials and resources** for this mod, to make it easier f
 - [How to extract assets from this mod and/or OT0 and repak them](Begin_en.md)
 - [How to add or modify characters, jobs, and new customization options for the main character](customchars_en.md)
 - [How to add or modify enemies and battles](customenms_en.md)
-- [How to add or modify quests and events (WIP)](customqsts_en.md)
+- [How to add or modify quests and events](customqsts_en.md)
 - [How to add or modify skills, ailments, and avails (WIP)](customskls_en.md)
 
 #### Variety of resources (unordered)
