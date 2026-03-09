@@ -18,7 +18,7 @@ If you are adding a completely new quest, the minimum working set is usually:
 
 1. Reserve IDs and labels.
    - Pick new `m_id` values that do not collide with existing rows.
-   - For events, pick a unique `EventList.m_Name` and matching JSON asset filename.
+   - For events, pick a unique `EventList.m_Name` and matching asset filename.
    - For NPC/map anchors, reuse or create unique labels such as `m_AppearLabel`, `m_DestNpcSetLabel`, and map path actor names.
 
 2. Add text first.
@@ -34,7 +34,7 @@ If you are adding a completely new quest, the minimum working set is usually:
 
 5. Add the actual event(s).
    - Add the `EventList` row.
-   - Create the event JSON asset under the matching `Event/` subfolder.
+   - Create the event asset under the matching `Event/` subfolder.
    - Wire the event ID into `QuestTaskList`, `NpcTalkList_*`, `StoryBookList`, or wherever the scene is launched.
 
 6. Attach the quest to world content.
@@ -373,7 +373,7 @@ In other words: `QuestAggregatedPoint` defines the marker anchor, `QuestAggregat
 
 `EventList` is the registry for playable/callable event assets.
 
-It tells the engine which event JSON asset exists, what map it belongs to, and what return/location metadata is applied when the event exits.
+It tells the engine which event asset exists, what map it belongs to, and what return/location metadata is applied when the event exits.
 
 Important fields:
 - `m_id`: event ID used elsewhere (`QuestTaskList`, `NpcTalkList_*`, `StoryBookList`, `ScenarioReplay*`, event commands, etc.).
@@ -433,7 +433,7 @@ enum class EEVENT_KIND : uint8
 };
 ```
 
-### Event JSON assets
+### Event assets
 
 The actual event commands live in the event assets under `Event/V*/.../*.uasset`.
 
