@@ -136,7 +136,7 @@ Below is a list of **tutorials and resources** for this mod, to make it easier f
 - [How to add or modify characters, jobs, and new customization options for the main character](customchars_en.md)
 - [How to add or modify enemies and battles](customenms_en.md)
 - [How to add or modify quests and events](customqsts_en.md)
-- [How to add or modify skills, ailments, and avails (WIP)](customskls_en.md)
+- [How to add or modify skills, ailments, and avails](customskls_en.md)
 
 #### Variety of resources (unordered)
  - [Asset naming conventions in OT0 and CotC](https://github.com/veganprimate/CotCPort/blob/main/MiscResources/naming_convention_glossary.csv)
