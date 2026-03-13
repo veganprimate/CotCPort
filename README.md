@@ -104,7 +104,7 @@ Given that this mod changes the `EnemyID` asset among several others and would t
 
 
 ## How to recruit the new travelers
-In the future, characters' traveler stories will serve as their recruitment events. So far, only Promme's traveler story has been ported.
+In the future, characters' traveler stories will serve as their recruitment events. So far, 140 of the added 280+ units can be recruited that way.
 
 For now, proceed as follows:
 
