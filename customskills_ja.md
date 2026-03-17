@@ -1,4 +1,4 @@
-## **LANGUAGE:**  [English](customskills_en.md) | [日本語](customskills_ja.md) | [中文](customskills_zh.md) | [한국어](customskills_ko.md)
+## **LANGUAGE:**  [English](customskls_en.md) | [日本語](customskills_ja.md) | [中文](customskills_zh.md) | [한국어](customskills_ko.md)
 
 # スキルおよび関連システムの追加・変更方法
 
