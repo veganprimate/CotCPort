@@ -1,4 +1,4 @@
-## **LANGUAGE:**  [English](customskills_en.md) | [日本語](customskills_ja.md) | [中文](customskills_zh.md) | [한국어](customskills_ko.md)
+## **LANGUAGE:**  [English](customskls_en.md) | [日本語](customskills_ja.md) | [中文](customskills_zh.md) | [한국어](customskills_ko.md)
 
 # 스킬 및 관련 시스템을 추가하거나 수정하는 방법
 
