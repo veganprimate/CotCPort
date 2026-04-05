@@ -1941,6 +1941,11 @@ Packaged ailment-resistance rows used by skills and enemy rows that want explici
 - **CotC rows:** `60`.
 - **OT0 SDK row struct:** `FSkillResistAilmentIDBase`.
 
+#### Field-by-field
+- `m_id`: Primary key for the ailment-resistance package.
+- `m_ResistAilments`: **Confirmed.** List of up to sixteen `SkillAilmentType.m_id` rows covered by the package.
+- `m_ResistRate`: **Confirmed.** Matching rate array for `m_ResistAilments`. The arrays are parallel.
+
 #### Misc.
 - exact IDA anchors:
     - `sub_144790880` is the current best exact lookup path
@@ -1949,11 +1954,6 @@ Packaged ailment-resistance rows used by skills and enemy rows that want explici
     - row layout matches `FSkillResistAilmentIDBase`:
       - `+0x10/+0x18` `m_ResistAilments`
       - `+0x20/+0x28` `m_ResistRate`
-
-#### Field-by-field
-- `m_id`: Primary key for the ailment-resistance package.
-- `m_ResistAilments`: **Confirmed.** List of up to sixteen `SkillAilmentType.m_id` rows covered by the package.
-- `m_ResistRate`: **Confirmed.** Matching rate array for `m_ResistAilments`. The arrays are parallel.
 
 ### `SkillHitRateList`
 Reusable multi-hit and repeated-resolution probability table. `SkillAvailID.m_HitTypes` points here.
