@@ -164,6 +164,29 @@ enum class ECHARA_COLOR_CHANGE_ID : uint8
 	eCOLOR_CHANGE_MAX                        = 7,
 };
 ```
+#### Misc.
+- exact IDA / SDK anchors:
+    - `sub_144605E00(typeId)` is the live enemy-type row getter used by battle-side readers; more precisely: `sub_144604B20(enemyId)` -> read `EnemyID.m_TypeID @ +0x18` -> `sub_144605E00(typeId)`
+    - named static DB surfaces also exist:
+      - `0x144377B20` `ADatabaseDefineStatic::GetEnemyTypeID`
+      - `0x144377BE0` `ADatabaseDefineStatic::GetEnemyTypeIDDataList`
+      - `0x144377C10` `ADatabaseDefineStatic::GetEnemyTypeIDIsLoaded`
+    - named battle bridge:
+      - `0x14432BE70` `UBattleTacticalComponent::GetEnemyTypeDB`
+      - `0x14432C850` `UBattleTacticalComponent::SetEnemyTypeDB`
+    - important split:
+      - the nearby `sub_144605080` family is still a different adjacent non-`EnemyID` table and should not be collapsed into `EnemyTypeID`
+  - exact row-offset proofs from consumers:
+    - `sub_144605D90` reads `row + 0x20/+0x28` as the `m_NpcCharaID` array
+    - `sub_144605DD0` reads `row + 0x30` as `m_ChangeColorID`
+    - `sub_144604950` / `sub_1446048E0` / `sub_144603430` read `row + 0x58/+0x5C/+0x60`
+    - `sub_144604BA0` reads `row + 0x64/+0x68`
+    - `sub_144604A90` reads `row + 0x6C/+0x70`
+    - `sub_144605D60` reads `row + 0x7C` as `m_CallSE`
+    - `sub_144608130` reads `row + 0x80` as `m_VoiceSymbol`
+    - `sub_144594A30` / `sub_144501110` read `row + 0xA5/+0xA6`
+    - `sub_144595300` / `sub_1445A27A0` read `row + 0xC8` as the `m_PartsID` count
+    - `sub_144605EE0` reads `row + 0xD4` as `m_DefeatEffect`
  
 ### (**) `EnemyWeakID`
 Tracks different kinds of weakness profiles which can be assigned to enemies. `m_ResistWeapon` and `m_ResistMagic` take the `m_id`s of `ResistType` under `Skill/` as input; `ResistType` 1 also adds the specified weapon/magic type as a weakness. The order of the specified weapon and magic types likely follow the order of the `m_id`s in the `WeaponType`/`MagicType` assets under `Skill/`, i.e.:
@@ -210,6 +233,24 @@ enum class ERESIST_TYPE : uint8
 	ERESIST_MAX                              = 5,
 };
 ```
+
+#### Misc.
+- exact IDA / SDK anchors:
+    - `sub_144606490(enemyId)` is the direct `m_WeakID` getter
+    - `sub_144606400(weakId)` is the live `EnemyWeakID` row getter:
+      - key/index block `qword_1484F27A0 + 0xFB8`
+      - row data pointer `+0x1078`
+      - row count `+0x1080`
+      - row size `0x30`
+    - `sub_14478D8B0(weakId, lane)` returns the row-owned array header for:
+      - lane `0` -> `row + 0x10` -> `m_ResistWeapon`
+      - lane `1` -> `row + 0x20` -> `m_ResistMagic`
+    - `sub_144605A60(enemyId, lane, weakIdOverride)` falls back from `EnemyID.m_WeakID` when no explicit weak row is supplied, then tail-calls `sub_14478D8B0`
+    - named static DB surfaces also exist:
+      - `0x144377D40` `ADatabaseDefineStatic::GetEnemyWeakID`
+      - `0x144377E00` `ADatabaseDefineStatic::GetEnemyWeakIDDataList`
+      - `0x144377E30` `ADatabaseDefineStatic::GetEnemyWeakIDIsLoaded`
+
 
 ### (**) `EnemyWeakChangeID`
 Tracks how enemies change weaknesses. `m_WeakIndices` takes `m_EnemyWeakID.m_id` as inputs and the `m_id` of those weakness changes can be assigned to e.g. an avail (see also [How to add custom skills and avails](customskls_en.md)).
@@ -295,9 +336,87 @@ This is the game's enemy master record: it defines stats/weaknesses/rewards/UI f
 - `m_ReduceSpecialSkillValueBreak`: how many BP points are lost by the enemy after break
 - `m_MaxSpecialSkillValue`: maximum number of BP points the enemy has. Values higher than 20 crash the game.
 - `m_OutsideTarget`: Enemy can't be targeted and if it's the only enemy on the field, party members will also skip their actions (Bestowr of All uses this until the rings are broken)
-- `m_NotAction`: If true, does not allow the enemy to act (used by Bestower of All before all the rings are defeated)
+- `m_NotAction`: If true, does not allow the enemy to act (used by Bestower of All before all the rings are defeated); **WARNING**: Runtime code does NOT treat it as a plain boolean, see Misc. below
 - `m_UnknownLv`: Unused in OT0.
 - `m_Immortal`: If set to true, enemy's HP will never go below 1.
+
+#### Misc.
+- exact row getter is `sub_144604B20(id)`
+- `sub_144604B20` resolves the hashed table at `qword_1484F27A0 + 0xED8` and returns `base + index * 0xF8`
+- `sub_144607DA0` is the confirmed full-row materializer / copier for `FEnemyIDBase`
+- late `EnemyID` fields are real runtime-owned data, not exporter noise
+- direct proven getters include:
+  - `sub_144607D60(id)` -> `m_TacticalAssignID`
+  - `sub_144607D80(id)` -> `m_SkillsID`
+  - `sub_144606630(id)` -> `m_GenerateSpecialSkillValueOrverTurn`
+  - `sub_1446074C0(id)` -> `m_ReduceSpecialSkillValueBreak`
+  - `sub_144606FD0(id)` -> `m_MaxSpecialSkillValue`
+  - `sub_144609520(id)` -> `m_DisplaySpecialSkillGauge`
+- `sub_144609550(id)` -> `m_HpUI`
+- `sub_144609580(id)` -> `m_LevelUI`
+- `sub_1446095B0(id)` -> `m_ShieldUI`
+- wrapper family `0x1444EB620..0x1444EB720` contains only the HP / level / shield wrappers plus two unrelated battle-object local flag helpers
+- getter family `0x1446094F0..0x144609690` contains only the neighboring-table helper `sub_144609500`, the special-gauge getter, the HP / level / shield getters, and two race readers
+  - `sub_144807820`, the main enemy UI layout builder, calls only the level / HP / shield wrappers
+  - consequence: there is no fourth adjacent `EnemyID` name-UI getter/wrapper in the same family, so `m_NameUI` should not be inferred by symmetry with HP / level / shield
+ - `EnemyID` also bridges into another non-`EnemyID` family through:
+    - `sub_144604B20(enemyId)` -> read row field `+0x18` -> `sub_144605E00(...)`
+    - the consumers line up exactly with `FEnemyTypeIDBase`:
+      - `+0x20/+0x28` = `m_NpcCharaID` array pointer/count
+      - `+0x30` = `m_ChangeColorID`
+      - `+0x58/+0x5C/+0x60` = effect / ailment display offsets
+      - `+0x64/+0x68` = damage offsets
+      - `+0x6C/+0x70` = cursor offsets
+      - `+0x7C` = `m_CallSE`
+      - `+0x80` = `m_VoiceSymbol`
+      - `+0xA5/+0xA6` = attach-effect booleans
+      - `+0xC8` = `m_PartsID` array count
+      - `+0xD4` = `m_DefeatEffect`
+    - exact consequence:
+      - `sub_144605E00` is the canonical live `EnemyTypeID` row getter
+      - `sub_144605080` is a separate adjacent non-`EnemyTypeID` table
+- `m_RaceIndices` is directly proven as an int-array membership family, not a scalar enum:
+  - `sub_144605A30(id)` returns the row-owned `m_RaceIndices` array pointer
+  - `sub_144608210(id, race)` checks whether a race id is present in that array
+- `m_UnknownLv` is directly consumed in `sub_1447FF1C0`; when the flag is set, the code takes an alternate “unknown level” text-building path instead of the normal level-string path
+- `m_NotAction` is NOT treated as a boolean: row `+0xF1` is copied to runtime `+0x2A4`, `sub_14451AF90(a1)` is the exact getter and `sub_1445123E0(a1)` the exact consume helper 
+      - `sub_1447A4FB0` switches over `+0x2A4` with cases `0..5`
+      - `sub_1447805E0` clears / reseeds the `+0x2A4 / +0x2A5` pair
+      - `sub_1449856B0` reacts when the byte changes and also reseeds the pair with `*(_WORD *)(a1 + 676) = 512`
+- `m_OutsideTarget`:
+    - row `+0xF0` is copied to runtime `+0x2A3`
+    - exact getter `sub_14451AFA0(a1)` and exact consume helper `sub_144512400(a1)`
+    - `sub_14451C800` directly rejects a target candidate when `+0x2A3 != 0`
+    - `sub_14497A7F0` and `sub_1449856B0` show that the lane is dynamically recomputed and reacted to in battle
+- `m_Immortal`:
+    - row `+0xF3` is bridged by `sub_144520B10(a1, rowByte)` into runtime `+0x61C`
+    - but downstream code uses that slot as a broader 32-bit state lane:
+      - `sub_1445C6030` reads / writes it as part of a larger state-refresh pipeline
+      - `sub_1448B0A50` can later write literal value `68` to the same slot
+- current best reading of `m_Bottle` is: multipart enemy ordinal / panel-part index, not a generic boss flag
+- why that reading is strong:
+  - OT0 uses mostly `0`, then `1`, with only a few `2` / `3` rows
+  - CotC extends that pattern to `4` / `5` only on explicit multipart lineups
+  - higher values cluster on rows like `_02`, `_03`, `_04`, `_05` and on boss-part families
+  - the authored battle-package layer now supports that directly:
+    - five exact `EnemyGroups` rows in the OT0 export have occupied enemy slots and bottle values that both run `1..N`
+    - strongest examples:
+      - `EnemyGroups#10006 GM_Wealth_Chap1_Boss_ENG02`: `B05_09_Boss_01 / _02` = bottle `1 / 2`
+      - `EnemyGroups#11000 GM_Power_Chap0_Boss_ENG01`: `B06_04_Boss_01 / _02` = bottle `1 / 2`
+      - `EnemyGroups#73126 FC_EnemyGroup_127_01`: `FC_Enemy_127_01 / _02 / _03` = bottle `1 / 2 / 3`
+    - one exact authored exception keeps the wording careful:
+      - `EnemyGroups#11018 GM_Power_Chap3_Boss_ENG01_04_01` has bottle `1 / 1 / 2`
+  - `sub_144607DA0` packs `m_Bottle (+0xC8)` together with `m_NameUI (+0xCC)`, `m_LevelUI (+0xCD)`, `m_HpUI (+0xCE)`, and `m_ShieldUI (+0xCF)`
+  - the same copy body also makes the surrounding scratch layout exact:
+    - `0x144607EDC` / `0x144608096`: `row + 0x20` is copied into the first byref scratch object that later reaches `sub_1448AE870`; in the exported `EnemyID` schema that slot is `m_DisplayLevel`
+    - `0x1446080A8`: the second byref scratch object is produced by `sub_144605540(out, row_id, 0)`, so the optional registry-string branch is explicitly disabled on the runtime-ctor path
+    - `0x144607FF5..0x14460802E`: `m_Bottle / m_NameUI / m_LevelUI / m_HpUI / m_ShieldUI` are copied as one contiguous late-byte block
+    - `0x144608036..0x144608080`: `m_DisplaySpecialSkillGauge / m_GenerateSpecialSkillValueOrverTurn / m_ReduceSpecialSkillValueBreak / m_MaxSpecialSkillValue / m_OutsideTarget / m_NotAction / m_UnknownLv / m_Immortal` are copied into the following late-flag block
+    - 
+
+
+
+
 
 ### (**) `EnemyReinforcements`
 This is a battle encounter helper table that defines what extra enemies can be spawned mid-fight (reinforcements) and where they should appear
@@ -306,7 +425,12 @@ This is a battle encounter helper table that defines what extra enemies can be s
 The only asset which uses `EnemyReinforcements.m_id` is `SkillAvailID` under `Skill/`.
 
 ### (****) `EnemyGroups`
-Chronicles all enemy groups. An entry has to be added here for your battle to trigger in-game.
+Chronicles all enemy groups, these primarily determine:
+- which `EnemyID`s spawn together,
+- formation and battle-event/abort context.
+
+An entry has to be added here for your battle to trigger in-game.
+
 - `m_Label`: ensure this label is unique/does not conflict with existing entries for newly added enemy groups. Events trigger fights against enemy groups using this label. If you plan on adding an entry to the Monster Arena, you will not be able to use that entry again for other purposes without causing the Monster Arena menu to appear after defeating it and possibly causing crashes
 - `m_Inescapable`: Flag which determines whether you can flee from a fight
 - `m_DisableRetire`: Always set to false in OT0, does not appear to be functional in OT0. Might be related to the ability of suspending your phone during the fight in CotC?
@@ -380,6 +504,10 @@ Keeps track of different encount effects, `m_SeId` likely specifies the sound ef
 
 ### (*) `EnemyGroupsByCondition`
 Sets of enemy groups to spawn when certain conditions are met. Used to spawn the Accurst Flame alongside the Ringbearer in Bestower of All Chapter 7.
+
+#### Misc.
+- exact IDA anchor:
+    - `0x144377500` `ADatabaseDefineStatic::execGetEnemyGroupsByCondition`
 
 ### (**) `SymbolEnemyList`
 Specifies what overworld sprites or objects and enemy groups are assigned to symbol/elite enemies as well as their level.
@@ -532,6 +660,10 @@ enum class EBATTLE_EVENT_ID : uint8
 	EBATTLE_EVENT_MAX                        = 145,
 };
 ```
+#### Misc.
+- exact IDA anchor:
+    - `0x144373D60` `ADatabaseDefineStatic::execGetBattleEventListDataList`: the current named runtime accessor for the table surface
+    - `0x144320580` `ABattleConditionStatic::execGetDataList` proves the battle-condition system itself is a named runtime subsystem
 
 ### (***) `BattleEventCommand`
 Contains scripted steps in a battle event sequence. Where `BattleEventList` describes what should run under what conditions, `BattleEventCommand` appears to execute the actual script steps (show dialogue, play animation, spawn effects, swap enemy textures, change BGM, etc.)
@@ -760,7 +892,7 @@ enum class EBATTLE_VOICETYPE_ID : uint8
 
 ### (***) BattleAbortConditions
 OT0's battle termination/forced-outcome condition table: each entry defines a small bundle of predicates that, when satisfied during a fight, cause the battle to abort (end early) or be treated as a forced win/forced lose depending on which field references it in `EnemyGroups`.
-- `m_Conditions`: condition type IDs (likely the same as in `TacticalList`, `TacticalActionList`, `SkillConditionList`, and `BattleEventList`)
+- `m_Conditions`: condition type IDs (shares the same numeric condition namespace as in `TacticalList`, `TacticalActionList`, `SkillConditionList`, and `BattleEventList`)
 - `m_Params`: parameter for each condition (meaning depends on the condition type)
 - and filters that only matter for certain condition types:
    - `m_AilmentTypes` (takes `SkillAilmentType.m_id` as input)
@@ -768,6 +900,10 @@ OT0's battle termination/forced-outcome condition table: each entry defines a sm
    - `m_WeaponTypes` (takes `WeaponType.m_id` as input)
    - `m_MagicTypes` (takes `Magictype.m_id` as input)
    - `m_EnemyID` (takes `EnemyID.m_id` as input)
+
+#### Misc.
+- exact IDA anchors:
+    - `0x144373530` `ADatabaseDefineStatic::execGetBattleAbortConditions`: the named runtime accessor for the table
 
 ### (*) `BattleActionID`
 A small lookup table that maps an "action ID" (likely `SkillAilmentType.m_ActionID`) to a concrete battle animation/motion, with a flag that says whether that animation should be played using the NPC/field character rig instead of the standard battle rig. `m_UseNPC` may determine whether this action should be played using an NPC character animation set rather than the usual battle-sprite.
@@ -982,6 +1118,22 @@ enum class EBATTLE_LAYOUT_SET : uint8
 
 ## Under `AIBattle`
 These files are responsible for enemy AI behavior and the skills used by them (and how).
+
+For enemy AI, the engine reads:
+
+```text
+EnemyGroups
+  -> EnemyID
+      -> EnemyTypeID / EnemyWeakID / SkillResistAilmentID
+      -> TacticalAssignList
+          -> TacticalList
+              -> TacticalActionList
+                  -> TacticalSkillList
+                      -> SkillID
+                          -> SkillAvailID
+                              -> optional SkillConditionList (→invoke conditions)
+```
+
 ### (****) `TacticalList`, `TacticalAssignList`, and `TacticalSkillList`
 OT0's enemy AI "rule clause" table: each entry defines a set of conditions that, when satisfied, causes the AI to select or enable some behavior. Enemies are assigned these "rules" in the file `TacticalAssignList` whose `m_id`s correspond to `EnemyID.m_TacticalAssignID`; battle skills are assigned to them through `TacticalSkillList`, whose `m_id`s correspond to `EnemyID.m_SkillsID`.
 - `m_Presage`: likely a boolean/enum indicating whether this tactic causes a presage (telegraphed action) to show
@@ -997,14 +1149,74 @@ The meaning of each condition has yet to be rigorously worked out, these resourc
  - [Conditions Crossref Atlas](https://github.com/veganprimate/CotCPort/blob/main/Conditions/Conditions_Crossref_Atlas.md)
  - [(Old) Conditions Datamine](https://github.com/veganprimate/CotCPort/tree/main/Conditions/Conditions_Datamine_EN)
 
-**Misc.:**
+#### Misc.
 - 28 is the only OT0-exclusive condition
-- Condition type IDs appear to be the same in OT0 and CotC, although CotC may have some OT0 lacks
-- IDs in the 10k+ range appear to often be related to action execution order:
-  - Condition 10100 is often used in skills announcing an enemy's boost mode,
-  - Condition 10304 triggers right when the other conditions are met, e.g. the Shadow's veil lifting immediately after Lucian and Lyblac are both broken (Condition 718 with `m_params` the respective indices in their `EnemyGroup` entry)
-  - Condition 10301, on the other hand would have the veil lift only in the subsequent turn
-  - 10711 appears to have an action occur at the beginning of a turn (used by the Shadow after Lucian and Lyblac recover from their first break for instance)
+- Condition type IDs appear to mostly be the same in OT0 and CotC. CotC generally has more condition type IDs, some IDs they share also behave differently in both games
+- `EnemyID.m_TacticalAssignID` is a direct runtime getter through `sub_144607D60(id)`
+- `0x144320580` `ABattleConditionStatic::execGetDataList` is a named runtime anchor proving that battle-side condition tables are exposed through a real static condition system, not just exporter-only blobs
+- The strongest currently proven tactical-side chain is:
+	- `sub_1444DBC80`
+ 	  - resolves `TacticalList.m_id`: key/index area near `+0x3A98`, row data pointer at `+0x3B58`, row count at `+0x3B60`
+	- `sub_1444D73D0`
+	  - forwards the resolved row's aligned lanes `+0x20 m_Conditions/+0x30 m_Params/+0x40 m_AilmentTypes/+0x50 m_StatusTypes/+0x60 m_WeaponTypes/+0x70 m_MagicTypes`
+	- `sub_1444D4680`
+	  - consumes that exact six-lane pack slot-wise (the condition type ID is never interpreted alone):
+```text
+for slot i in row:
+    cond_id    = m_Conditions[i]
+    param      = m_Params[i]
+    ailment    = m_AilmentTypes[i]
+    status     = m_StatusTypes[i]
+    weapon     = m_WeaponTypes[i]
+    magic      = m_MagicTypes[i]
+    evaluate(cond_id, param, ailment, status, weapon, magic)
+```
+
+The battle logic is not one giant flat switch. It is split across several evaluator heads:
+- `sub_1444D2EE0`
+  - high-ID family including:
+  - `10000-10002`
+  - `10100-10103`
+  - `10200-10203`
+  - `10301-10304`
+  - `10400-10401`
+  - `10500-10503`
+  - `10604-10611`
+  - `10700`
+  - `10711`
+  - `10720`
+  - `10812-10815`
+- `sub_1444D3AF0`
+  - shared high-ID family including:
+  - `10705-10710`
+  - `10743`
+  - `10799`
+  - `10800-10809`
+- `sub_1444D4DD0`
+  - routed mid-band family:
+  - `700-718`
+- `sub_1444D5CC0`
+  - includes:
+  - `10702`
+  - `10714`
+  - `10790-10810`
+- `sub_1444D61E0`
+  - lower/mid family:
+  - `20-27`
+  - `50-59`
+  - `110`
+  - `111`
+  - `309`
+- `sub_1444D6B10`
+  - lower/mid family:
+  - `1-8`
+  - `19-28`
+  - `100-107`
+  - `200-207`
+  - `301`
+  - `306/307`
+  - `400/401`
+
 ### (****) `TacticalActionList`
 Appears to tell the game what to actually do when a tactic applies: which skill to use (by index), who to target, how to select among possible targets, and additional conditions/priority rules.
 - `m_SkillIndex`: This is not a SkillID itself. It's an index into a skill list/array (from testing: `TacticalSkillList.m_UseSkills[]` for the enemy's `m_SkillsID`)
