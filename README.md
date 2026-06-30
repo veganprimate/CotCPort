@@ -5,7 +5,7 @@
 
 <p align="center">
 <a href="#installation"><img alt="Installation" src="https://img.shields.io/badge/INSTALLATION-10363D?style=for-the-badge&logo=github&logoColor=white"></a>
-<a href="#optional-hard-mode-version"><img alt="Hard Mode" src="https://img.shields.io/badge/HARD%20MODE-880808?style=for-the-badge&logo=undertale&logoColor=white"></a>
+<a href="https://github.com/veganprimate/CotCPort_Canary/blob/main/Resources/HardMode_en.md"><img alt="Hard Mode" src="https://img.shields.io/badge/HARD%20MODE-880808?style=for-the-badge&logo=undertale&logoColor=white"></a>
 <a href="#how-to-recruit-the-new-travelers"><img alt="Recruit Travelers" src="https://img.shields.io/badge/RECRUIT%20TRAVELERS-10363D?style=for-the-badge&logo=bookstack&logoColor=white"></a>
 </p>
 <p align="center">
