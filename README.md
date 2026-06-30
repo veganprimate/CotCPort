@@ -91,10 +91,7 @@ The mod supports the following languages:
 
 ![chargif](https://github.com/user-attachments/assets/00c35b82-3e9c-4810-8d8b-657f2c2a1151)
 
-[worldmap_showcase.mp4](https://github.com/user-attachments/assets/e669f527-8412-4f91-8799-483e572caa32)
-
-
-
+[worldmap_showcase.mp4](https://github.com/user-attachments/assets/a1d63c7c-0a1a-4465-95e4-faab0b7e2b67)
 
 ## Installation
 Head to [Releases](https://github.com/veganprimate/CotCPort/releases) and download the archives `CotCPort_Base.7z` and `CotCPort_Extras.7z` of the latest (pre-)release. 
