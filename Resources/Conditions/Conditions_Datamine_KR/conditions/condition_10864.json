@@ -1,0 +1,122 @@
+{
+  "condition_id": 10864,
+  "total_uses": 2,
+  "uses_by_subsystem": {
+    "SkillConditionList": 2
+  },
+  "uses_by_table": {
+    "SkillConditionList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 2
+  },
+  "param_stats": {
+    "count": 2,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "612729": {
+      "skill_id": 612729,
+      "use_count": 2,
+      "name_id": 104096,
+      "name_best": "기습",
+      "detail_id": 104111,
+      "detail_best": "자신이 적에게 공격받지 않은 다음 턴 중\n자신에게 반드시 크리티컬 효과와\n크리티컬 시의 데미지 배율이\n1.4배가 되는 효과를 부여(평상시 1.25배)\n추가로, 자신의 물공에 치명의 30%를 가산한다\n(장비 스테이터스 포함/대상 스테이터스별로 최대값 적용)\n※속성 공격에서 크리티컬이 발생하려면\n“속성 공격에서 크리티컬이 발생하는 효과”가 필요",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        78871,
+        78872
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10864,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 820,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612729,
+      "skill_index": -1,
+      "skill_avail_id": 78871,
+      "skill_condition_list_id": 820,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10864,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 820,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612729,
+      "skill_index": -1,
+      "skill_avail_id": 78872,
+      "skill_condition_list_id": 820,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

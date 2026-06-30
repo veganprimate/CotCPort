@@ -1,0 +1,126 @@
+{
+  "condition_id": 10306,
+  "total_uses": 2,
+  "uses_by_subsystem": {
+    "TacticalList": 2
+  },
+  "uses_by_table": {
+    "TacticalList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[0]": 2
+  },
+  "param_stats": {
+    "count": 2,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [
+    {
+      "enemy_id": 33820,
+      "use_count": 1,
+      "label": "Seeds_Boss_16_01_Enemy_02",
+      "name_best": "(Unlocalized)",
+      "type_id": 23391,
+      "tactical_assign_id": 30794,
+      "skills_id": 52596
+    },
+    {
+      "enemy_id": 33821,
+      "use_count": 1,
+      "label": "Seeds_Boss_16_01_Enemy_03",
+      "name_best": "(Unlocalized)",
+      "type_id": 23392,
+      "tactical_assign_id": 30795,
+      "skills_id": 52597
+    }
+  ],
+  "top_skills": {},
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10306,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 25461,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 25461,
+      "tactical_action_id": 0,
+      "enemy_id": 33820,
+      "enemy_label": "Seeds_Boss_16_01_Enemy_02",
+      "enemy_name_best": "(Unlocalized)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10306,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 25466,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 25466,
+      "tactical_action_id": 0,
+      "enemy_id": 33821,
+      "enemy_label": "Seeds_Boss_16_01_Enemy_03",
+      "enemy_name_best": "(Unlocalized)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

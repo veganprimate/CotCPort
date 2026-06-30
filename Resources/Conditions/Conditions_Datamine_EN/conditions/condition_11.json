@@ -1,0 +1,5669 @@
+{
+  "condition_id": 11,
+  "total_uses": 241,
+  "uses_by_subsystem": {
+    "TacticalList": 155,
+    "BattleEventList": 83,
+    "BattleAbortConditions": 3
+  },
+  "uses_by_table": {
+    "TacticalList": 155,
+    "BattleEventList": 83,
+    "BattleAbortConditions": 3
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[0]": 109,
+    "TacticalList[2]": 12,
+    "TacticalList[1]": 18,
+    "TacticalList[3]": 16,
+    "BattleEventList[0]": 83,
+    "BattleAbortConditions[0]": 3
+  },
+  "param_stats": {
+    "count": 241,
+    "min": 0,
+    "max": 100,
+    "mean": 50.0746887966805,
+    "median": 50,
+    "p10": 20,
+    "p25": 35,
+    "p75": 70,
+    "p90": 75,
+    "top10": [
+      [
+        50,
+        83
+      ],
+      [
+        75,
+        46
+      ],
+      [
+        25,
+        25
+      ],
+      [
+        65,
+        15
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        40,
+        10
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        35,
+        7
+      ],
+      [
+        100,
+        7
+      ],
+      [
+        45,
+        6
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [
+      [
+        5,
+        75
+      ]
+    ],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10400,
+      47
+    ],
+    [
+      501,
+      37
+    ],
+    [
+      10302,
+      23
+    ],
+    [
+      10002,
+      20
+    ],
+    [
+      640,
+      20
+    ],
+    [
+      500,
+      18
+    ],
+    [
+      10712,
+      16
+    ],
+    [
+      2,
+      12
+    ],
+    [
+      600,
+      9
+    ],
+    [
+      10713,
+      9
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      10301,
+      8
+    ],
+    [
+      10202,
+      8
+    ],
+    [
+      709,
+      6
+    ],
+    [
+      801,
+      6
+    ],
+    [
+      408,
+      5
+    ],
+    [
+      10100,
+      4
+    ],
+    [
+      604,
+      4
+    ],
+    [
+      1200,
+      4
+    ],
+    [
+      409,
+      4
+    ],
+    [
+      10401,
+      3
+    ],
+    [
+      649,
+      2
+    ],
+    [
+      10200,
+      2
+    ],
+    [
+      648,
+      2
+    ],
+    [
+      10711,
+      2
+    ],
+    [
+      641,
+      1
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 30638,
+      "use_count": 5,
+      "label": "D_Enemy_Forest_UniqueP_Varkyn_1_04",
+      "name_best": "Living Soulstone",
+      "type_id": 120666,
+      "tactical_assign_id": 120030,
+      "skills_id": 50557
+    },
+    {
+      "enemy_id": 30129,
+      "use_count": 5,
+      "label": "AB03_04_04",
+      "name_best": "Living Soulstone",
+      "type_id": 120666,
+      "tactical_assign_id": 120030,
+      "skills_id": 50557
+    },
+    {
+      "enemy_id": 30717,
+      "use_count": 5,
+      "label": "AB03_04_04_sb",
+      "name_best": "Living Soulstone",
+      "type_id": 120666,
+      "tactical_assign_id": 120030,
+      "skills_id": 50557
+    },
+    {
+      "enemy_id": 132314,
+      "use_count": 5,
+      "label": "Rematch_AB03_04_04_EX",
+      "name_best": "Living Soulstone",
+      "type_id": 120666,
+      "tactical_assign_id": 120030,
+      "skills_id": 50557
+    },
+    {
+      "enemy_id": 98850,
+      "use_count": 4,
+      "label": "Boss_EvQuSQ120_01_03",
+      "name_best": "Demon Blade's Curse",
+      "type_id": 10058,
+      "tactical_assign_id": 30664,
+      "skills_id": 55930
+    },
+    {
+      "enemy_id": 30797,
+      "use_count": 3,
+      "label": "PC0125_Chp4_Em02",
+      "name_best": "Duke Garret's Minion",
+      "type_id": 21055,
+      "tactical_assign_id": 30169,
+      "skills_id": 51154
+    },
+    {
+      "enemy_id": 33148,
+      "use_count": 3,
+      "label": "Enemy_JobTowerWar_f0005_r002EX_003",
+      "name_best": "Sentinel",
+      "type_id": 22969,
+      "tactical_assign_id": 130600,
+      "skills_id": 52191
+    },
+    {
+      "enemy_id": 33100,
+      "use_count": 3,
+      "label": "Enemy_JobTowerHun_f0005_r002EX_001",
+      "name_best": "Trial Great Hunter",
+      "type_id": 22920,
+      "tactical_assign_id": 130566,
+      "skills_id": 52130
+    },
+    {
+      "enemy_id": 33906,
+      "use_count": 3,
+      "label": "QPO_HandicapBattle_AnotherEX03_31_03_Enemy_01",
+      "name_best": "Trial Great Hunter",
+      "type_id": 23471,
+      "tactical_assign_id": 130566,
+      "skills_id": 52130
+    },
+    {
+      "enemy_id": 5073,
+      "use_count": 2,
+      "label": "B05_09_Boss_02",
+      "name_best": "Remone",
+      "type_id": 10080,
+      "tactical_assign_id": 10210,
+      "skills_id": 10090
+    },
+    {
+      "enemy_id": 15073,
+      "use_count": 2,
+      "label": "B05_09_Boss_02__B5073",
+      "name_best": "Remone",
+      "type_id": 110080,
+      "tactical_assign_id": 110210,
+      "skills_id": 10090
+    },
+    {
+      "enemy_id": 32633,
+      "use_count": 2,
+      "label": "Rematch_Season22_Boss01_02",
+      "name_best": "Remone",
+      "type_id": 110080,
+      "tactical_assign_id": 110210,
+      "skills_id": 10090
+    },
+    {
+      "enemy_id": 99819,
+      "use_count": 2,
+      "label": "HandicapBattle_RankEX02_04_01_Enemy2",
+      "name_best": "Remone",
+      "type_id": 98019,
+      "tactical_assign_id": 110210,
+      "skills_id": 10090
+    },
+    {
+      "enemy_id": 31553,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp1_01_03",
+      "name_best": "Beloved Memory",
+      "type_id": 21764,
+      "tactical_assign_id": 30193,
+      "skills_id": 51179
+    },
+    {
+      "enemy_id": 98031,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp8_05_01",
+      "name_best": "Or'galdera",
+      "type_id": 98110,
+      "tactical_assign_id": 30628,
+      "skills_id": 55862
+    },
+    {
+      "enemy_id": 30495,
+      "use_count": 2,
+      "label": "Other_ClbBD_NPC_Em02",
+      "name_best": "Partner",
+      "type_id": 20871,
+      "tactical_assign_id": 284,
+      "skills_id": 20352
+    },
+    {
+      "enemy_id": 30554,
+      "use_count": 2,
+      "label": "Other_ClbBD_NPC2_Em02",
+      "name_best": "Partner",
+      "type_id": 20871,
+      "tactical_assign_id": 284,
+      "skills_id": 20360
+    },
+    {
+      "enemy_id": 32218,
+      "use_count": 2,
+      "label": "Rematch_Season03_Boss01_02",
+      "name_best": "Partner",
+      "type_id": 22369,
+      "tactical_assign_id": 284,
+      "skills_id": 51630
+    },
+    {
+      "enemy_id": 99824,
+      "use_count": 2,
+      "label": "HandicapBattle_RankEX02_05_02_Enemy2",
+      "name_best": "Partner",
+      "type_id": 98024,
+      "tactical_assign_id": 284,
+      "skills_id": 51630
+    },
+    {
+      "enemy_id": 34077,
+      "use_count": 2,
+      "label": "QPO_HandicapBattle_AnotherEX03_32_03_Enemy_02",
+      "name_best": "Partner",
+      "type_id": 22369,
+      "tactical_assign_id": 284,
+      "skills_id": 52656
+    },
+    {
+      "enemy_id": 131553,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp1_01_03__B31553",
+      "name_best": "Beloved Memory",
+      "type_id": 121764,
+      "tactical_assign_id": 130193,
+      "skills_id": 51179
+    },
+    {
+      "enemy_id": 132358,
+      "use_count": 2,
+      "label": "Rematch_Season08_Boss02_03",
+      "name_best": "Beloved Memory",
+      "type_id": 121764,
+      "tactical_assign_id": 130193,
+      "skills_id": 51179
+    },
+    {
+      "enemy_id": 33147,
+      "use_count": 2,
+      "label": "Enemy_JobTowerWar_f0005_r002EX_002",
+      "name_best": "Sentinel",
+      "type_id": 22968,
+      "tactical_assign_id": 130599,
+      "skills_id": 52190
+    },
+    {
+      "enemy_id": 31562,
+      "use_count": 2,
+      "label": "Enemy_JobTowerHun_f0005_r001EX_001",
+      "name_best": "Trial Great Hunter",
+      "type_id": 21773,
+      "tactical_assign_id": 30201,
+      "skills_id": 51211
+    },
+    {
+      "enemy_id": 33778,
+      "use_count": 2,
+      "label": "QPO_HandicapBattle_Another03_26_04_Enemy_01",
+      "name_best": "Trial Great Hunter",
+      "type_id": 23345,
+      "tactical_assign_id": 30201,
+      "skills_id": 51211
+    },
+    {
+      "enemy_id": 99444,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_JobTowerHun_f0005_r001EX_001_3_easy",
+      "name_best": "Trial Great Hunter",
+      "type_id": 91171,
+      "tactical_assign_id": 30201,
+      "skills_id": 51211
+    },
+    {
+      "enemy_id": 99445,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_JobTowerHun_f0005_r001EX_001_3",
+      "name_best": "Trial Great Hunter",
+      "type_id": 91171,
+      "tactical_assign_id": 30201,
+      "skills_id": 51211
+    },
+    {
+      "enemy_id": 99446,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_JobTowerHun_f0005_r001EX_001_3_hard",
+      "name_best": "Trial Great Hunter",
+      "type_id": 91171,
+      "tactical_assign_id": 30201,
+      "skills_id": 51211
+    },
+    {
+      "enemy_id": 33103,
+      "use_count": 2,
+      "label": "Enemy_JobTowerHun_f0005_r002EX_004",
+      "name_best": "Trial Great Hunter's Appr.",
+      "type_id": 22923,
+      "tactical_assign_id": 30569,
+      "skills_id": 52133
+    },
+    {
+      "enemy_id": 132362,
+      "use_count": 2,
+      "label": "Enemy_JobTowerMer_f0005_r001EX_002",
+      "name_best": "Trial Younger Great Merchant",
+      "type_id": 22456,
+      "tactical_assign_id": 30422,
+      "skills_id": 51706
+    },
+    {
+      "enemy_id": 132369,
+      "use_count": 2,
+      "label": "Enemy_JobTowerMer_f0005_r001_002",
+      "name_best": "Trial Younger Great Merchant",
+      "type_id": 22463,
+      "tactical_assign_id": 30422,
+      "skills_id": 51712
+    },
+    {
+      "enemy_id": 199084,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_SRT05_2",
+      "name_best": "Trial Younger Great Merchant",
+      "type_id": 91147,
+      "tactical_assign_id": 30422,
+      "skills_id": 51706
+    },
+    {
+      "enemy_id": 99237,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_SRT05_2_easy",
+      "name_best": "Trial Younger Great Merchant",
+      "type_id": 91147,
+      "tactical_assign_id": 30422,
+      "skills_id": 51706
+    },
+    {
+      "enemy_id": 99370,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_SRT05_2_hard",
+      "name_best": "Trial Younger Great Merchant",
+      "type_id": 91147,
+      "tactical_assign_id": 30422,
+      "skills_id": 51706
+    },
+    {
+      "enemy_id": 33258,
+      "use_count": 2,
+      "label": "Enemy_JobTowerMer_f0005_r002EX_002",
+      "name_best": "Trial Younger Great Merchant",
+      "type_id": 23042,
+      "tactical_assign_id": 130620,
+      "skills_id": 52246
+    },
+    {
+      "enemy_id": 5009,
+      "use_count": 1,
+      "label": "Wealth_Boss_Chapter3_02_02",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 10010,
+      "tactical_assign_id": 10019,
+      "skills_id": 10031
+    },
+    {
+      "enemy_id": 15009,
+      "use_count": 1,
+      "label": "Wealth_Boss_Chapter3_02_02__B5009",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 110010,
+      "tactical_assign_id": 110019,
+      "skills_id": 10031
+    },
+    {
+      "enemy_id": 31145,
+      "use_count": 1,
+      "label": "Enemy_Tower_f0040_r001Ex001a_002",
+      "name_best": "Merciless Lady-In-Waiting",
+      "type_id": 21404,
+      "tactical_assign_id": 110019,
+      "skills_id": 50992
+    },
+    {
+      "enemy_id": 31149,
+      "use_count": 1,
+      "label": "Enemy_Tower_f0040_r001Ex002a_002",
+      "name_best": "Merciless Lady-In-Waiting",
+      "type_id": 21408,
+      "tactical_assign_id": 110019,
+      "skills_id": 50992
+    },
+    {
+      "enemy_id": 31153,
+      "use_count": 1,
+      "label": "Enemy_Tower_f0040_r001Ex003a_002",
+      "name_best": "Merciless Lady-In-Waiting",
+      "type_id": 21412,
+      "tactical_assign_id": 110019,
+      "skills_id": 50992
+    },
+    {
+      "enemy_id": 31157,
+      "use_count": 1,
+      "label": "Enemy_Tower_f0040_r001Ex004a_002",
+      "name_best": "Merciless Lady-In-Waiting",
+      "type_id": 21416,
+      "tactical_assign_id": 110019,
+      "skills_id": 50992
+    },
+    {
+      "enemy_id": 31728,
+      "use_count": 1,
+      "label": "Dice_Wealth_Rank03_Boss03a",
+      "name_best": "Roguish Lady-In-Waiting",
+      "type_id": 21931,
+      "tactical_assign_id": 110019,
+      "skills_id": 50992
+    },
+    {
+      "enemy_id": 5148,
+      "use_count": 1,
+      "label": "Wealth_Boss_Chapter3_02_02_02",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 10010,
+      "tactical_assign_id": 10075,
+      "skills_id": 10054
+    },
+    {
+      "enemy_id": 15148,
+      "use_count": 1,
+      "label": "Wealth_Boss_Chapter3_02_02_02__B5148",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 110010,
+      "tactical_assign_id": 110075,
+      "skills_id": 10054
+    },
+    {
+      "enemy_id": 5059,
+      "use_count": 1,
+      "label": "AllMASTER_Boss_Chp8_ESWP",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 10069,
+      "tactical_assign_id": 10105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 5067,
+      "use_count": 1,
+      "label": "AllMASTER_Boss_Chp8_ESWP_2",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 10069,
+      "tactical_assign_id": 10105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 15059,
+      "use_count": 1,
+      "label": "AllMASTER_Boss_Chp8_ESWP__B5059",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 110069,
+      "tactical_assign_id": 110105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 15067,
+      "use_count": 1,
+      "label": "AllMASTER_Boss_Chp8_ESWP_2__B5067",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 110069,
+      "tactical_assign_id": 110105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 32278,
+      "use_count": 1,
+      "label": "Rematch_Season06_Boss01_02",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 110069,
+      "tactical_assign_id": 110105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 99414,
+      "use_count": 1,
+      "label": "AllMASTER_Boss_Chp8_ESWP_1_easy",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 110069,
+      "tactical_assign_id": 110105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 99417,
+      "use_count": 1,
+      "label": "AllMASTER_Boss_Chp8_ESWP_2_1_easy",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 110069,
+      "tactical_assign_id": 110105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 99432,
+      "use_count": 1,
+      "label": "Rematch_Season06_Boss01_02_1_easy",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 110069,
+      "tactical_assign_id": 110105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 99420,
+      "use_count": 1,
+      "label": "AllMASTER_Boss_Chp8_ESWP_1",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 110069,
+      "tactical_assign_id": 110105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 99423,
+      "use_count": 1,
+      "label": "AllMASTER_Boss_Chp8_ESWP_2_1",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 110069,
+      "tactical_assign_id": 110105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 99435,
+      "use_count": 1,
+      "label": "Rematch_Season06_Boss01_02_1",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 110069,
+      "tactical_assign_id": 110105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 99426,
+      "use_count": 1,
+      "label": "AllMASTER_Boss_Chp8_ESWP_1_hard",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 110069,
+      "tactical_assign_id": 110105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 99429,
+      "use_count": 1,
+      "label": "AllMASTER_Boss_Chp8_ESWP_2_1_hard",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 110069,
+      "tactical_assign_id": 110105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 99438,
+      "use_count": 1,
+      "label": "Rematch_Season06_Boss01_02_1_hard",
+      "name_best": "Edoras Defender of Wealth",
+      "type_id": 110069,
+      "tactical_assign_id": 110105,
+      "skills_id": 10071
+    },
+    {
+      "enemy_id": 5063,
+      "use_count": 1,
+      "label": "B05_00_BlkMan_02",
+      "name_best": "Blackrobe (Bow)",
+      "type_id": 10076,
+      "tactical_assign_id": 10201,
+      "skills_id": 10076
+    },
+    {
+      "enemy_id": 15063,
+      "use_count": 1,
+      "label": "B05_00_BlkMan_02__B5063",
+      "name_best": "Blackrobe (Bow)",
+      "type_id": 110076,
+      "tactical_assign_id": 110201,
+      "skills_id": 10076
+    },
+    {
+      "enemy_id": 33341,
+      "use_count": 1,
+      "label": "KMQX_02_02_Enemy_01_02",
+      "name_best": "Syndicate Member",
+      "type_id": 23090,
+      "tactical_assign_id": 110201,
+      "skills_id": 10076
+    },
+    {
+      "enemy_id": 33825,
+      "use_count": 1,
+      "label": "KMQX_03_02_Enemy_01_02",
+      "name_best": "Bladeclaw Band Member",
+      "type_id": 23396,
+      "tactical_assign_id": 110201,
+      "skills_id": 10076
+    },
+    {
+      "enemy_id": 5070,
+      "use_count": 1,
+      "label": "B05_00_BlkMan_03",
+      "name_best": "Blackrobe (Dagger)",
+      "type_id": 10077,
+      "tactical_assign_id": 10202,
+      "skills_id": 10080
+    },
+    {
+      "enemy_id": 15070,
+      "use_count": 1,
+      "label": "B05_00_BlkMan_03__B5070",
+      "name_best": "Blackrobe (Dagger)",
+      "type_id": 110077,
+      "tactical_assign_id": 110202,
+      "skills_id": 10080
+    },
+    {
+      "enemy_id": 33342,
+      "use_count": 1,
+      "label": "KMQX_02_02_Enemy_01_03",
+      "name_best": "Syndicate Member",
+      "type_id": 23091,
+      "tactical_assign_id": 110202,
+      "skills_id": 10080
+    },
+    {
+      "enemy_id": 33826,
+      "use_count": 1,
+      "label": "KMQX_03_02_Enemy_01_03",
+      "name_best": "Bladeclaw Band Member",
+      "type_id": 23397,
+      "tactical_assign_id": 110202,
+      "skills_id": 10080
+    },
+    {
+      "enemy_id": 5077,
+      "use_count": 1,
+      "label": "B07_02_Boss_02",
+      "name_best": "Black Scarlet (Hammer)",
+      "type_id": 10084,
+      "tactical_assign_id": 10207,
+      "skills_id": 10085
+    },
+    {
+      "enemy_id": 15077,
+      "use_count": 1,
+      "label": "B07_02_Boss_02__B5077",
+      "name_best": "Black Scarlet (Hammer)",
+      "type_id": 110084,
+      "tactical_assign_id": 110207,
+      "skills_id": 10085
+    },
+    {
+      "enemy_id": 31552,
+      "use_count": 1,
+      "label": "AGM_Boss_Chp1_01_02",
+      "name_best": "Vile Memory",
+      "type_id": 21763,
+      "tactical_assign_id": 30192,
+      "skills_id": 51178
+    },
+    {
+      "enemy_id": 98816,
+      "use_count": 1,
+      "label": "Enemy_EvQuSQ150_01_04_02",
+      "name_best": "Black Scarlet (Hammer)",
+      "type_id": 10084,
+      "tactical_assign_id": 30715,
+      "skills_id": 56287
+    },
+    {
+      "enemy_id": 98709,
+      "use_count": 1,
+      "label": "FC_Enemy_127_02",
+      "name_best": "Ivri",
+      "type_id": 98477,
+      "tactical_assign_id": 30619,
+      "skills_id": 55735
+    },
+    {
+      "enemy_id": 98710,
+      "use_count": 1,
+      "label": "FC_Enemy_127_03",
+      "name_best": "Wappa",
+      "type_id": 98478,
+      "tactical_assign_id": 30620,
+      "skills_id": 55736
+    },
+    {
+      "enemy_id": 30436,
+      "use_count": 1,
+      "label": "AB06_04_03",
+      "name_best": "Evening Calm Member (Merchant)",
+      "type_id": 120812,
+      "tactical_assign_id": 130028,
+      "skills_id": 50785
+    },
+    {
+      "enemy_id": 132321,
+      "use_count": 1,
+      "label": "Rematch_AB06_04_03_EX",
+      "name_best": "Evening Calm Member (Merchant)",
+      "type_id": 120812,
+      "tactical_assign_id": 130028,
+      "skills_id": 50785
+    },
+    {
+      "enemy_id": 30437,
+      "use_count": 1,
+      "label": "AB06_04_04",
+      "name_best": "Evening Calm Member (Thief)",
+      "type_id": 120813,
+      "tactical_assign_id": 130029,
+      "skills_id": 50786
+    },
+    {
+      "enemy_id": 132322,
+      "use_count": 1,
+      "label": "Rematch_AB06_04_04_EX",
+      "name_best": "Evening Calm Member (Thief)",
+      "type_id": 120813,
+      "tactical_assign_id": 130029,
+      "skills_id": 51732
+    },
+    {
+      "enemy_id": 10016,
+      "use_count": 1,
+      "label": "ePC003_Chp4_Em01",
+      "name_best": "Ratkin Charmer",
+      "type_id": 15016,
+      "tactical_assign_id": 60,
+      "skills_id": 20018
+    },
+    {
+      "enemy_id": 5150,
+      "use_count": 1,
+      "label": "Wealth_Boss_Chapter3_02_02_03",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 110010,
+      "tactical_assign_id": 10077,
+      "skills_id": 10056
+    },
+    {
+      "enemy_id": 30687,
+      "use_count": 1,
+      "label": "StrBk_00052_002",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 20954,
+      "tactical_assign_id": 10077,
+      "skills_id": 10056
+    },
+    {
+      "enemy_id": 30689,
+      "use_count": 1,
+      "label": "StrBk_00053_002",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 20956,
+      "tactical_assign_id": 10077,
+      "skills_id": 10056
+    },
+    {
+      "enemy_id": 30691,
+      "use_count": 1,
+      "label": "StrBk_00054_002",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 20958,
+      "tactical_assign_id": 10077,
+      "skills_id": 10056
+    },
+    {
+      "enemy_id": 31073,
+      "use_count": 1,
+      "label": "Enemy_Tower_f0040_r001a_002",
+      "name_best": "Merciless Lady-In-Waiting",
+      "type_id": 21331,
+      "tactical_assign_id": 10077,
+      "skills_id": 50992
+    },
+    {
+      "enemy_id": 32182,
+      "use_count": 1,
+      "label": "Rematch_Season02_Boss01_02",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 22348,
+      "tactical_assign_id": 10077,
+      "skills_id": 51607
+    },
+    {
+      "enemy_id": 199103,
+      "use_count": 1,
+      "label": "RogueLike_Enemy_Boss02_1_2",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 91103,
+      "tactical_assign_id": 10077,
+      "skills_id": 51607
+    },
+    {
+      "enemy_id": 99202,
+      "use_count": 1,
+      "label": "RogueLike_Enemy_Boss02_1_2_easy",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 91103,
+      "tactical_assign_id": 10077,
+      "skills_id": 51607
+    },
+    {
+      "enemy_id": 99335,
+      "use_count": 1,
+      "label": "RogueLike_Enemy_Boss02_1_2_hard",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 91103,
+      "tactical_assign_id": 10077,
+      "skills_id": 51607
+    },
+    {
+      "enemy_id": 34109,
+      "use_count": 1,
+      "label": "QPO_HandicapBattle_AnotherEX03_38_2_03_Enemy_02",
+      "name_best": "Lady-In-Waiting",
+      "type_id": 23642,
+      "tactical_assign_id": 10077,
+      "skills_id": 51607
+    },
+    {
+      "enemy_id": 131552,
+      "use_count": 1,
+      "label": "AGM_Boss_Chp1_01_02__B31552",
+      "name_best": "Vile Memory",
+      "type_id": 121763,
+      "tactical_assign_id": 130192,
+      "skills_id": 51178
+    },
+    {
+      "enemy_id": 132357,
+      "use_count": 1,
+      "label": "Rematch_Season08_Boss02_02",
+      "name_best": "Vile Memory",
+      "type_id": 121763,
+      "tactical_assign_id": 130192,
+      "skills_id": 51178
+    },
+    {
+      "enemy_id": 15134,
+      "use_count": 1,
+      "label": "AGM_Boss_Chp6_03_02__B5134",
+      "name_best": "Dark Priestess Signa",
+      "type_id": 22099,
+      "tactical_assign_id": 130296,
+      "skills_id": 51498
+    },
+    {
+      "enemy_id": 32514,
+      "use_count": 1,
+      "label": "Rematch_Season13_Boss02_02",
+      "name_best": "Dark Priestess Signa",
+      "type_id": 22099,
+      "tactical_assign_id": 130296,
+      "skills_id": 51498
+    },
+    {
+      "enemy_id": 31432,
+      "use_count": 1,
+      "label": "D_Enemy_Sea_UniqueP_Gakko_1_02",
+      "name_best": "Ivri",
+      "type_id": 21691,
+      "tactical_assign_id": 30122,
+      "skills_id": 51071
+    },
+    {
+      "enemy_id": 31433,
+      "use_count": 1,
+      "label": "D_Enemy_Sea_UniqueP_Gakko_1_03",
+      "name_best": "Wappa",
+      "type_id": 21692,
+      "tactical_assign_id": 30123,
+      "skills_id": 51072
+    },
+    {
+      "enemy_id": 30435,
+      "use_count": 1,
+      "label": "AB06_04_02",
+      "name_best": "Evening Calm Member (Hunter)",
+      "type_id": 20811,
+      "tactical_assign_id": 30027,
+      "skills_id": 50784
+    },
+    {
+      "enemy_id": 30822,
+      "use_count": 1,
+      "label": "AB06_04_02_sb",
+      "name_best": "Evening Calm Member (Hunter)",
+      "type_id": 20811,
+      "tactical_assign_id": 30027,
+      "skills_id": 50784
+    },
+    {
+      "enemy_id": 132320,
+      "use_count": 1,
+      "label": "Rematch_AB06_04_02_EX",
+      "name_best": "Evening Calm Member (Hunter)",
+      "type_id": 20811,
+      "tactical_assign_id": 30027,
+      "skills_id": 50784
+    },
+    {
+      "enemy_id": 33150,
+      "use_count": 1,
+      "label": "Enemy_JobTowerThi_f0005_r002EX_002",
+      "name_best": "Trial Great Thief's Henchman",
+      "type_id": 22971,
+      "tactical_assign_id": 130602,
+      "skills_id": 52193
+    },
+    {
+      "enemy_id": 33228,
+      "use_count": 1,
+      "label": "Seeds_Boss_14_01_Enemy_02",
+      "name_best": "Mellow the Cait Thief",
+      "type_id": 23036,
+      "tactical_assign_id": 130655,
+      "skills_id": 52320
+    },
+    {
+      "enemy_id": 33350,
+      "use_count": 1,
+      "label": "Rematch_Seeds_Boss_14_01_Enemy_02",
+      "name_best": "Mellow the Cait Thief",
+      "type_id": 23036,
+      "tactical_assign_id": 130655,
+      "skills_id": 52323
+    },
+    {
+      "enemy_id": 33820,
+      "use_count": 1,
+      "label": "Seeds_Boss_16_01_Enemy_02",
+      "name_best": "(Unlocalized)",
+      "type_id": 23391,
+      "tactical_assign_id": 30794,
+      "skills_id": 52596
+    },
+    {
+      "enemy_id": 33821,
+      "use_count": 1,
+      "label": "Seeds_Boss_16_01_Enemy_03",
+      "name_best": "(Unlocalized)",
+      "type_id": 23392,
+      "tactical_assign_id": 30795,
+      "skills_id": 52597
+    },
+    {
+      "enemy_id": 33876,
+      "use_count": 1,
+      "label": "QPS_AB03_02_Enemy_02",
+      "name_best": "Young Man Who Admires the Boss Lady",
+      "type_id": 23441,
+      "tactical_assign_id": 30801,
+      "skills_id": 52607
+    }
+  ],
+  "top_skills": {},
+  "enemy_groups": {
+    "10019": {
+      "enemy_group_id": 10019,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap3_Boss_ENG04",
+      "formation": 157,
+      "bgm": 88696,
+      "event_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "enemy_ids": [
+        5123
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp3_02_01"
+      ],
+      "enemy_names_best": [
+        "Cursed Princess Elrica"
+      ]
+    },
+    "10029": {
+      "enemy_group_id": 10029,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap8_Boss_ENG02",
+      "formation": 162,
+      "bgm": 88730,
+      "event_indices": [
+        50,
+        36,
+        37,
+        38
+      ],
+      "enemy_ids": [
+        5195
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_02_01"
+      ],
+      "enemy_names_best": [
+        "Creator Orsazantos"
+      ]
+    },
+    "98210": {
+      "enemy_group_id": 98210,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap8_Boss_ENG07",
+      "formation": 197,
+      "bgm": 132266,
+      "event_indices": [
+        133,
+        134,
+        135,
+        136,
+        142,
+        143,
+        144
+      ],
+      "enemy_ids": [
+        98042
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_08_01"
+      ],
+      "enemy_names_best": [
+        "Amatsukami no Orochi"
+      ]
+    },
+    "110": {
+      "enemy_group_id": 110,
+      "use_count": 3,
+      "label": "9pcs_Boss_QuSQ070_02a_EnemyGroup_01",
+      "formation": 63,
+      "bgm": 66,
+      "event_indices": [
+        139,
+        140,
+        141
+      ],
+      "enemy_ids": [
+        98886
+      ],
+      "enemy_labels": [
+        "Boss_QuSQ070_02a"
+      ],
+      "enemy_names_best": [
+        "Warbringer's Phantom"
+      ]
+    },
+    "110019": {
+      "enemy_group_id": 110019,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap3_Boss_ENG04__B10019",
+      "formation": 157,
+      "bgm": 95978,
+      "event_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "enemy_ids": [
+        15123
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp3_02_01__B5123"
+      ],
+      "enemy_names_best": [
+        "Cursed Princess Elrica"
+      ]
+    },
+    "110029": {
+      "enemy_group_id": 110029,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap8_Boss_ENG02__B10029",
+      "formation": 162,
+      "bgm": 101176,
+      "event_indices": [
+        50,
+        36,
+        37,
+        38
+      ],
+      "enemy_ids": [
+        15195
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_02_01__B5195"
+      ],
+      "enemy_names_best": [
+        "Creator Or'sazantos"
+      ]
+    },
+    "72065": {
+      "enemy_group_id": 72065,
+      "use_count": 3,
+      "label": "Rematch_Season10_BossGr04",
+      "formation": 157,
+      "bgm": 95978,
+      "event_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "enemy_ids": [
+        132304
+      ],
+      "enemy_labels": [
+        "Rematch_Season10_Boss04_01"
+      ],
+      "enemy_names_best": [
+        "Cursed Princess Elrica"
+      ]
+    },
+    "72439": {
+      "enemy_group_id": 72439,
+      "use_count": 3,
+      "label": "Rematch_Season27_BossGr01",
+      "formation": 162,
+      "bgm": 101176,
+      "event_indices": [
+        50,
+        36,
+        37,
+        38
+      ],
+      "enemy_ids": [
+        32636
+      ],
+      "enemy_labels": [
+        "Rematch_Season27_Boss01_01"
+      ],
+      "enemy_names_best": [
+        "Creator Or'sazantos"
+      ]
+    },
+    "73234": {
+      "enemy_group_id": 73234,
+      "use_count": 3,
+      "label": "Gr_QPS_Boss_CP07_02",
+      "formation": 59,
+      "bgm": 132265,
+      "event_indices": [
+        83,
+        84,
+        85,
+        86
+      ],
+      "enemy_ids": [
+        33314
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP7_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "Lucian the Glorious"
+      ]
+    },
+    "199401": {
+      "enemy_group_id": 199401,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap3_Boss_ENG04__Arena",
+      "formation": 157,
+      "bgm": 88696,
+      "event_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "enemy_ids": [
+        5123
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp3_02_01"
+      ],
+      "enemy_names_best": [
+        "Cursed Princess Elrica"
+      ]
+    },
+    "199449": {
+      "enemy_group_id": 199449,
+      "use_count": 3,
+      "label": "9pcs_Boss_QuSQ070_02a_EnemyGroup_01__Arena",
+      "formation": 63,
+      "bgm": 66,
+      "event_indices": [
+        139,
+        140,
+        141
+      ],
+      "enemy_ids": [
+        98886
+      ],
+      "enemy_labels": [
+        "Boss_QuSQ070_02a"
+      ],
+      "enemy_names_best": [
+        "Warbringer's Phantom"
+      ]
+    },
+    "10026": {
+      "enemy_group_id": 10026,
+      "use_count": 2,
+      "label": "GM_GiveAll_Chap6_Boss_ENG03",
+      "formation": 161,
+      "bgm": 108,
+      "event_indices": [
+        129,
+        32,
+        130,
+        131,
+        33,
+        132
+      ],
+      "enemy_ids": [
+        5133,
+        5134
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp6_03_01",
+        "AGM_Boss_Chp6_03_02"
+      ],
+      "enemy_names_best": [
+        "Sazantos",
+        "Dark Priestess Signa"
+      ]
+    },
+    "98050": {
+      "enemy_group_id": 98050,
+      "use_count": 2,
+      "label": "GM_GiveAll_Chap8_Boss_ENG06",
+      "formation": 180,
+      "bgm": 107347,
+      "event_indices": [
+        116,
+        117,
+        138
+      ],
+      "enemy_ids": [
+        98031,
+        98780,
+        98781
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_05_01",
+        "AGM_Boss_Chp8_05_02",
+        "AGM_Boss_Chp8_05_03"
+      ],
+      "enemy_names_best": [
+        "Or'galdera",
+        "Void-Sundering Arm",
+        "Demonic Spear"
+      ]
+    },
+    "110026": {
+      "enemy_group_id": 110026,
+      "use_count": 2,
+      "label": "GM_GiveAll_Chap6_Boss_ENG03__B10026",
+      "formation": 161,
+      "bgm": 108,
+      "event_indices": [
+        32,
+        33
+      ],
+      "enemy_ids": [
+        15133,
+        15134
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp6_03_01__B5133",
+        "AGM_Boss_Chp6_03_02__B5134"
+      ],
+      "enemy_names_best": [
+        "Sazantos",
+        "Dark Priestess Signa"
+      ]
+    },
+    "173028": {
+      "enemy_group_id": 173028,
+      "use_count": 2,
+      "label": "Gr_Other_Atsani_Em02",
+      "formation": 63,
+      "bgm": 110308,
+      "event_indices": [
+        79,
+        80
+      ],
+      "enemy_ids": [
+        33158
+      ],
+      "enemy_labels": [
+        "Other_Atsani_Em01_02"
+      ],
+      "enemy_names_best": [
+        "Titan the Eidolon"
+      ]
+    },
+    "72290": {
+      "enemy_group_id": 72290,
+      "use_count": 2,
+      "label": "Rematch_Season13_BossGr02",
+      "formation": 161,
+      "bgm": 108,
+      "event_indices": [
+        32,
+        33
+      ],
+      "enemy_ids": [
+        32513,
+        32514
+      ],
+      "enemy_labels": [
+        "Rematch_Season13_Boss02_01",
+        "Rematch_Season13_Boss02_02"
+      ],
+      "enemy_names_best": [
+        "Sazantos",
+        "Dark Priestess Signa"
+      ]
+    },
+    "73486": {
+      "enemy_group_id": 73486,
+      "use_count": 2,
+      "label": "Gr_QPS_Boss_CP10_01",
+      "formation": 1195,
+      "bgm": 93,
+      "event_indices": [
+        116,
+        117,
+        138
+      ],
+      "enemy_ids": [
+        33570,
+        33678,
+        33679
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP9_Enemy_08_01",
+        "QPS_Boss_CP9_Enemy_08_02",
+        "QPS_Boss_CP9_Enemy_08_03"
+      ],
+      "enemy_names_best": [
+        "Shadow of Twin Worlds",
+        "Lucian",
+        "Lyblac"
+      ]
+    },
+    "72626": {
+      "enemy_group_id": 72626,
+      "use_count": 2,
+      "label": "Gr_QPS_Rematch_Boss_CP03_02_01",
+      "formation": 67,
+      "bgm": 36,
+      "event_indices": [
+        65,
+        66
+      ],
+      "enemy_ids": [
+        32728
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP3_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "Ignazio of Greed"
+      ]
+    },
+    "72848": {
+      "enemy_group_id": 72848,
+      "use_count": 2,
+      "label": "Gr_QPS_Rematch_Boss_CP03_02_02",
+      "formation": 67,
+      "bgm": 36,
+      "event_indices": [
+        67,
+        68
+      ],
+      "enemy_ids": [
+        32761
+      ],
+      "enemy_labels": [
+        "QPS_Rematch_Boss_CP3_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "Ignazio of Greed"
+      ]
+    },
+    "73279": {
+      "enemy_group_id": 73279,
+      "use_count": 2,
+      "label": "Gr_QPS_Rematch_Boss_CP07_02_01",
+      "formation": 59,
+      "bgm": 132265,
+      "event_indices": [
+        94,
+        96,
+        98,
+        100
+      ],
+      "enemy_ids": [
+        33314
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP7_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "Lucian the Glorious"
+      ]
+    },
+    "73280": {
+      "enemy_group_id": 73280,
+      "use_count": 2,
+      "label": "Gr_QPS_Rematch_Boss_CP07_02_02",
+      "formation": 59,
+      "bgm": 36,
+      "event_indices": [
+        94,
+        96,
+        98,
+        100
+      ],
+      "enemy_ids": [
+        33351
+      ],
+      "enemy_labels": [
+        "QPS_Rematch_Boss_CP7_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "Lucian the Glorious"
+      ]
+    },
+    "199279": {
+      "enemy_group_id": 199279,
+      "use_count": 2,
+      "label": "Gr_Other_Atsani_Em02",
+      "formation": 63,
+      "bgm": 110308,
+      "event_indices": [
+        79,
+        80
+      ],
+      "enemy_ids": [
+        33158
+      ],
+      "enemy_labels": [
+        "Other_Atsani_Em01_02"
+      ],
+      "enemy_names_best": [
+        "Titan the Eidolon"
+      ]
+    },
+    "199408": {
+      "enemy_group_id": 199408,
+      "use_count": 2,
+      "label": "GM_GiveAll_Chap6_Boss_ENG03__Arena",
+      "formation": 161,
+      "bgm": 108,
+      "event_indices": [
+        129,
+        32,
+        130,
+        131,
+        33,
+        132
+      ],
+      "enemy_ids": [
+        5133,
+        5134
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp6_03_01",
+        "AGM_Boss_Chp6_03_02"
+      ],
+      "enemy_names_best": [
+        "Sazantos",
+        "Dark Priestess Signa"
+      ]
+    },
+    "9314": {
+      "enemy_group_id": 9314,
+      "use_count": 1,
+      "label": "AllMaster_Boss_ENG14",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        5055
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp8_04_01"
+      ],
+      "enemy_names_best": [
+        "Master of All"
+      ]
+    },
+    "10013": {
+      "enemy_group_id": 10013,
+      "use_count": 1,
+      "label": "GM_Wealth_Chap3_Boss_ENG03",
+      "formation": 63,
+      "bgm": 130,
+      "event_indices": [
+        15,
+        16
+      ],
+      "enemy_ids": [
+        5107
+      ],
+      "enemy_labels": [
+        "B05_001_Boss_01_02"
+      ],
+      "enemy_names_best": [
+        "Oskha the Trader"
+      ]
+    },
+    "98042": {
+      "enemy_group_id": 98042,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap7_Boss_ENG05",
+      "formation": 96,
+      "bgm": 88715,
+      "event_indices": [
+        112,
+        128
+      ],
+      "enemy_ids": [
+        98041
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_07_01"
+      ],
+      "enemy_names_best": [
+        "Cardinal Teragraf"
+      ]
+    },
+    "10030": {
+      "enemy_group_id": 10030,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03",
+      "formation": 169,
+      "bgm": 88731,
+      "event_indices": [
+        114,
+        46,
+        47,
+        115,
+        41,
+        56
+      ],
+      "enemy_ids": [
+        5196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01"
+      ],
+      "enemy_names_best": [
+        "Bestower of All"
+      ]
+    },
+    "10031": {
+      "enemy_group_id": 10031,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG04",
+      "formation": 170,
+      "bgm": 88736,
+      "event_indices": [
+        118,
+        137
+      ],
+      "enemy_ids": [
+        32193
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_04_01"
+      ],
+      "enemy_names_best": [
+        "Bestower of All"
+      ]
+    },
+    "98218": {
+      "enemy_group_id": 98218,
+      "use_count": 1,
+      "label": "EnemyGroup_EvJ10201_01_05a",
+      "formation": 72,
+      "bgm": 78801,
+      "event_indices": [
+        125
+      ],
+      "enemy_ids": [
+        98730
+      ],
+      "enemy_labels": [
+        "JoinPC10201_Boss_01"
+      ],
+      "enemy_names_best": [
+        "Reime"
+      ]
+    },
+    "19314": {
+      "enemy_group_id": 19314,
+      "use_count": 1,
+      "label": "AllMaster_Boss_ENG14__B9314",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        15055
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp8_04_01__B5055"
+      ],
+      "enemy_names_best": [
+        "Master of All"
+      ]
+    },
+    "110013": {
+      "enemy_group_id": 110013,
+      "use_count": 1,
+      "label": "GM_Wealth_Chap3_Boss_ENG03__B10013",
+      "formation": 63,
+      "bgm": 130,
+      "event_indices": [
+        15,
+        16
+      ],
+      "enemy_ids": [
+        15107
+      ],
+      "enemy_labels": [
+        "B05_001_Boss_01_02__B5107"
+      ],
+      "enemy_names_best": [
+        "Oskha the Trader"
+      ]
+    },
+    "110030": {
+      "enemy_group_id": 110030,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03__B10030",
+      "formation": 169,
+      "bgm": 101177,
+      "event_indices": [
+        45,
+        46,
+        47,
+        41,
+        56
+      ],
+      "enemy_ids": [
+        15196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01__B5196"
+      ],
+      "enemy_names_best": [
+        "Bestower of All"
+      ]
+    },
+    "73892": {
+      "enemy_group_id": 73892,
+      "use_count": 1,
+      "label": "Gr_QPS_HB_RankEX01_027_03",
+      "formation": 67,
+      "bgm": 36,
+      "event_indices": [
+        125
+      ],
+      "enemy_ids": [
+        32761
+      ],
+      "enemy_labels": [
+        "QPS_Rematch_Boss_CP3_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "Ignazio of Greed"
+      ]
+    },
+    "73206": {
+      "enemy_group_id": 73206,
+      "use_count": 1,
+      "label": "ENG_Seeds_14_01_001",
+      "formation": 186,
+      "bgm": 95983,
+      "event_indices": [
+        70
+      ],
+      "enemy_ids": [
+        33227,
+        33228
+      ],
+      "enemy_labels": [
+        "Seeds_Boss_14_01_Enemy_01",
+        "Seeds_Boss_14_01_Enemy_02"
+      ],
+      "enemy_names_best": [
+        "Divine Beast Lutiya",
+        "Mellow the Cait Thief"
+      ]
+    },
+    "71968": {
+      "enemy_group_id": 71968,
+      "use_count": 1,
+      "label": "Rematch_Season02_BossGr06",
+      "formation": 63,
+      "bgm": 130,
+      "event_indices": [
+        15,
+        16
+      ],
+      "enemy_ids": [
+        32187
+      ],
+      "enemy_labels": [
+        "Rematch_Season02_Boss06_01"
+      ],
+      "enemy_names_best": [
+        "Oskha the Trader"
+      ]
+    },
+    "72001": {
+      "enemy_group_id": 72001,
+      "use_count": 1,
+      "label": "Rematch_Season06_BossGr03",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        32239
+      ],
+      "enemy_labels": [
+        "Rematch_Season06_Boss03_01"
+      ],
+      "enemy_names_best": [
+        "Master of All"
+      ]
+    },
+    "73651": {
+      "enemy_group_id": 73651,
+      "use_count": 1,
+      "label": "Handicap_Season27_BossGr01",
+      "formation": 162,
+      "bgm": 101176,
+      "event_indices": [
+        118,
+        117
+      ],
+      "enemy_ids": [
+        32636
+      ],
+      "enemy_labels": [
+        "Rematch_Season27_Boss01_01"
+      ],
+      "enemy_names_best": [
+        "Creator Or'sazantos"
+      ]
+    },
+    "73275": {
+      "enemy_group_id": 73275,
+      "use_count": 1,
+      "label": "Rematch_ENG_Seeds_14_01_001",
+      "formation": 186,
+      "bgm": 95983,
+      "event_indices": [
+        70
+      ],
+      "enemy_ids": [
+        33349,
+        33350
+      ],
+      "enemy_labels": [
+        "Rematch_Seeds_Boss_14_01_Enemy_01",
+        "Rematch_Seeds_Boss_14_01_Enemy_02"
+      ],
+      "enemy_names_best": [
+        "Divine Beast Lutiya",
+        "Mellow the Cait Thief"
+      ]
+    },
+    "72603": {
+      "enemy_group_id": 72603,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP03_02",
+      "formation": 67,
+      "bgm": 36,
+      "event_indices": [
+        61
+      ],
+      "enemy_ids": [
+        32728
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP3_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "Ignazio of Greed"
+      ]
+    },
+    "173041": {
+      "enemy_group_id": 173041,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP06_02",
+      "formation": 67,
+      "bgm": 36,
+      "event_indices": [
+        81,
+        82
+      ],
+      "enemy_ids": [
+        33311
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP6_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "Avar the Conqueror"
+      ]
+    },
+    "73247": {
+      "enemy_group_id": 73247,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Boss_CP06_02",
+      "formation": 67,
+      "bgm": 36,
+      "event_indices": [
+        81,
+        82
+      ],
+      "enemy_ids": [
+        33312
+      ],
+      "enemy_labels": [
+        "QPS_Rematch_Boss_CP6_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "Avar the Conqueror"
+      ]
+    },
+    "199108": {
+      "enemy_group_id": 199108,
+      "use_count": 1,
+      "label": "RogueLike_EnemyGroup_02_009",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        199111
+      ],
+      "enemy_labels": [
+        "RogueLike_Enemy_Boss03_2_3"
+      ],
+      "enemy_names_best": [
+        "Master of All"
+      ]
+    },
+    "199178": {
+      "enemy_group_id": 199178,
+      "use_count": 1,
+      "label": "RogueLike_EnemyGroup_02_009_easy",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        99241
+      ],
+      "enemy_labels": [
+        "RogueLike_Enemy_Boss03_2_3_easy"
+      ],
+      "enemy_names_best": [
+        "Master of All"
+      ]
+    },
+    "199248": {
+      "enemy_group_id": 199248,
+      "use_count": 1,
+      "label": "RogueLike_EnemyGroup_02_009_hard",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        99374
+      ],
+      "enemy_labels": [
+        "RogueLike_Enemy_Boss03_2_3_hard"
+      ],
+      "enemy_names_best": [
+        "Master of All"
+      ]
+    },
+    "199262": {
+      "enemy_group_id": 199262,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03",
+      "formation": 169,
+      "bgm": 88731,
+      "event_indices": [
+        114,
+        46,
+        47,
+        115,
+        41,
+        56
+      ],
+      "enemy_ids": [
+        5196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01"
+      ],
+      "enemy_names_best": [
+        "Bestower of All"
+      ]
+    },
+    "199263": {
+      "enemy_group_id": 199263,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG04",
+      "formation": 170,
+      "bgm": 88736,
+      "event_indices": [
+        118,
+        137
+      ],
+      "enemy_ids": [
+        32193
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_04_01"
+      ],
+      "enemy_names_best": [
+        "Bestower of All"
+      ]
+    },
+    "199264": {
+      "enemy_group_id": 199264,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03__B10030",
+      "formation": 169,
+      "bgm": 101177,
+      "event_indices": [
+        45,
+        46,
+        47,
+        41,
+        56
+      ],
+      "enemy_ids": [
+        15196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01__B5196"
+      ],
+      "enemy_names_best": [
+        "Bestower of All"
+      ]
+    },
+    "199368": {
+      "enemy_group_id": 199368,
+      "use_count": 1,
+      "label": "AllMaster_Boss_ENG14__Arena",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        5055
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp8_04_01"
+      ],
+      "enemy_names_best": [
+        "Master of All"
+      ]
+    },
+    "199378": {
+      "enemy_group_id": 199378,
+      "use_count": 1,
+      "label": "GM_Wealth_Chap3_Boss_ENG03__Arena",
+      "formation": 63,
+      "bgm": 130,
+      "event_indices": [
+        15,
+        16
+      ],
+      "enemy_ids": [
+        5107
+      ],
+      "enemy_labels": [
+        "B05_001_Boss_01_02"
+      ],
+      "enemy_names_best": [
+        "Oskha the Trader"
+      ]
+    },
+    "199409": {
+      "enemy_group_id": 199409,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap7_Boss_ENG05__Arena",
+      "formation": 96,
+      "bgm": 88715,
+      "event_indices": [
+        112,
+        128
+      ],
+      "enemy_ids": [
+        98041
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_07_01"
+      ],
+      "enemy_names_best": [
+        "Cardinal Teragraf"
+      ]
+    },
+    "199468": {
+      "enemy_group_id": 199468,
+      "use_count": 1,
+      "label": "EnemyGroup_EvJ10201_01_05a__Arena",
+      "formation": 72,
+      "bgm": 78801,
+      "event_indices": [
+        125
+      ],
+      "enemy_ids": [
+        98730
+      ],
+      "enemy_labels": [
+        "JoinPC10201_Boss_01"
+      ],
+      "enemy_names_best": [
+        "Reime"
+      ]
+    },
+    "70007": {
+      "enemy_group_id": 70007,
+      "use_count": 1,
+      "label": "ePC072_Chp2_EmGr01",
+      "formation": 67,
+      "bgm": 109,
+      "event_indices": [],
+      "enemy_ids": [
+        30007
+      ],
+      "enemy_labels": [
+        "ePC072_Chp2_Em01"
+      ],
+      "enemy_names_best": [
+        "Wily Gigantes"
+      ]
+    }
+  },
+  "uses_sample": [
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10412,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10412,
+      "tactical_action_id": 0,
+      "enemy_id": 5009,
+      "enemy_label": "Wealth_Boss_Chapter3_02_02",
+      "enemy_name_best": "Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10412,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10412,
+      "tactical_action_id": 0,
+      "enemy_id": 15009,
+      "enemy_label": "Wealth_Boss_Chapter3_02_02__B5009",
+      "enemy_name_best": "Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10412,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10412,
+      "tactical_action_id": 0,
+      "enemy_id": 31145,
+      "enemy_label": "Enemy_Tower_f0040_r001Ex001a_002",
+      "enemy_name_best": "Merciless Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10412,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10412,
+      "tactical_action_id": 0,
+      "enemy_id": 31149,
+      "enemy_label": "Enemy_Tower_f0040_r001Ex002a_002",
+      "enemy_name_best": "Merciless Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10412,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10412,
+      "tactical_action_id": 0,
+      "enemy_id": 31153,
+      "enemy_label": "Enemy_Tower_f0040_r001Ex003a_002",
+      "enemy_name_best": "Merciless Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10412,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10412,
+      "tactical_action_id": 0,
+      "enemy_id": 31157,
+      "enemy_label": "Enemy_Tower_f0040_r001Ex004a_002",
+      "enemy_name_best": "Merciless Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10412,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10412,
+      "tactical_action_id": 0,
+      "enemy_id": 31728,
+      "enemy_label": "Dice_Wealth_Rank03_Boss03a",
+      "enemy_name_best": "Roguish Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10426,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10426,
+      "tactical_action_id": 0,
+      "enemy_id": 5148,
+      "enemy_label": "Wealth_Boss_Chapter3_02_02_02",
+      "enemy_name_best": "Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10426,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10426,
+      "tactical_action_id": 0,
+      "enemy_id": 15148,
+      "enemy_label": "Wealth_Boss_Chapter3_02_02_02__B5148",
+      "enemy_name_best": "Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 5059,
+      "enemy_label": "AllMASTER_Boss_Chp8_ESWP",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 5067,
+      "enemy_label": "AllMASTER_Boss_Chp8_ESWP_2",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 15059,
+      "enemy_label": "AllMASTER_Boss_Chp8_ESWP__B5059",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 15067,
+      "enemy_label": "AllMASTER_Boss_Chp8_ESWP_2__B5067",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 32278,
+      "enemy_label": "Rematch_Season06_Boss01_02",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 99414,
+      "enemy_label": "AllMASTER_Boss_Chp8_ESWP_1_easy",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 99417,
+      "enemy_label": "AllMASTER_Boss_Chp8_ESWP_2_1_easy",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 99432,
+      "enemy_label": "Rematch_Season06_Boss01_02_1_easy",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 99420,
+      "enemy_label": "AllMASTER_Boss_Chp8_ESWP_1",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 99423,
+      "enemy_label": "AllMASTER_Boss_Chp8_ESWP_2_1",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 99435,
+      "enemy_label": "Rematch_Season06_Boss01_02_1",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 99426,
+      "enemy_label": "AllMASTER_Boss_Chp8_ESWP_1_hard",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 99429,
+      "enemy_label": "AllMASTER_Boss_Chp8_ESWP_2_1_hard",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 15,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7037,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7037,
+      "tactical_action_id": 0,
+      "enemy_id": 99438,
+      "enemy_label": "Rematch_Season06_Boss01_02_1_hard",
+      "enemy_name_best": "Edoras Defender of Wealth",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10043,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10043,
+      "tactical_action_id": 0,
+      "enemy_id": 5063,
+      "enemy_label": "B05_00_BlkMan_02",
+      "enemy_name_best": "Blackrobe (Bow)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10043,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10043,
+      "tactical_action_id": 0,
+      "enemy_id": 15063,
+      "enemy_label": "B05_00_BlkMan_02__B5063",
+      "enemy_name_best": "Blackrobe (Bow)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10043,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10043,
+      "tactical_action_id": 0,
+      "enemy_id": 33341,
+      "enemy_label": "KMQX_02_02_Enemy_01_02",
+      "enemy_name_best": "Syndicate Member",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10043,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10043,
+      "tactical_action_id": 0,
+      "enemy_id": 33825,
+      "enemy_label": "KMQX_03_02_Enemy_01_02",
+      "enemy_name_best": "Bladeclaw Band Member",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7010,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7010,
+      "tactical_action_id": 0,
+      "enemy_id": 5070,
+      "enemy_label": "B05_00_BlkMan_03",
+      "enemy_name_best": "Blackrobe (Dagger)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7010,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7010,
+      "tactical_action_id": 0,
+      "enemy_id": 15070,
+      "enemy_label": "B05_00_BlkMan_03__B5070",
+      "enemy_name_best": "Blackrobe (Dagger)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7010,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7010,
+      "tactical_action_id": 0,
+      "enemy_id": 33342,
+      "enemy_label": "KMQX_02_02_Enemy_01_03",
+      "enemy_name_best": "Syndicate Member",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 7010,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 7010,
+      "tactical_action_id": 0,
+      "enemy_id": 33826,
+      "enemy_label": "KMQX_03_02_Enemy_01_03",
+      "enemy_name_best": "Bladeclaw Band Member",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 65,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10642,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10642,
+      "tactical_action_id": 0,
+      "enemy_id": 5077,
+      "enemy_label": "B07_02_Boss_02",
+      "enemy_name_best": "Black Scarlet (Hammer)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 65,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10642,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10642,
+      "tactical_action_id": 0,
+      "enemy_id": 15077,
+      "enemy_label": "B07_02_Boss_02__B5077",
+      "enemy_name_best": "Black Scarlet (Hammer)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10668,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10668,
+      "tactical_action_id": 0,
+      "enemy_id": 5073,
+      "enemy_label": "B05_09_Boss_02",
+      "enemy_name_best": "Remone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        10100,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10668,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10668,
+      "tactical_action_id": 0,
+      "enemy_id": 15073,
+      "enemy_label": "B05_09_Boss_02__B5073",
+      "enemy_name_best": "Remone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        10100,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10668,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10668,
+      "tactical_action_id": 0,
+      "enemy_id": 32633,
+      "enemy_label": "Rematch_Season22_Boss01_02",
+      "enemy_name_best": "Remone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        10100,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10668,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10668,
+      "tactical_action_id": 0,
+      "enemy_id": 99819,
+      "enemy_label": "HandicapBattle_RankEX02_04_01_Enemy2",
+      "enemy_name_best": "Remone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        10100,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10670,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10670,
+      "tactical_action_id": 0,
+      "enemy_id": 5073,
+      "enemy_label": "B05_09_Boss_02",
+      "enemy_name_best": "Remone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10670,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10670,
+      "tactical_action_id": 0,
+      "enemy_id": 15073,
+      "enemy_label": "B05_09_Boss_02__B5073",
+      "enemy_name_best": "Remone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10670,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10670,
+      "tactical_action_id": 0,
+      "enemy_id": 32633,
+      "enemy_label": "Rematch_Season22_Boss01_02",
+      "enemy_name_best": "Remone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10670,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10670,
+      "tactical_action_id": 0,
+      "enemy_id": 99819,
+      "enemy_label": "HandicapBattle_RankEX02_04_01_Enemy2",
+      "enemy_name_best": "Remone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        1,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21241,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21241,
+      "tactical_action_id": 0,
+      "enemy_id": 31552,
+      "enemy_label": "AGM_Boss_Chp1_01_02",
+      "enemy_name_best": "Vile Memory",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 11,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21246,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21246,
+      "tactical_action_id": 0,
+      "enemy_id": 31553,
+      "enemy_label": "AGM_Boss_Chp1_01_03",
+      "enemy_name_best": "Beloved Memory",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 11,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21249,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21249,
+      "tactical_action_id": 0,
+      "enemy_id": 31553,
+      "enemy_label": "AGM_Boss_Chp1_01_03",
+      "enemy_name_best": "Beloved Memory",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10302,
+        10401
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23768,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23768,
+      "tactical_action_id": 0,
+      "enemy_id": 98031,
+      "enemy_label": "AGM_Boss_Chp8_05_01",
+      "enemy_name_best": "Or'galdera",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        500
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23769,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23769,
+      "tactical_action_id": 0,
+      "enemy_id": 98031,
+      "enemy_label": "AGM_Boss_Chp8_05_01",
+      "enemy_name_best": "Or'galdera",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        500
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 85,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23913,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23913,
+      "tactical_action_id": 0,
+      "enemy_id": 98850,
+      "enemy_label": "Boss_EvQuSQ120_01_03",
+      "enemy_name_best": "Demon Blade's Curse",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        604,
+        10002,
+        10301
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23914,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23914,
+      "tactical_action_id": 0,
+      "enemy_id": 98850,
+      "enemy_label": "Boss_EvQuSQ120_01_03",
+      "enemy_name_best": "Demon Blade's Curse",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        604,
+        10002,
+        10301
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 40,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23915,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23915,
+      "tactical_action_id": 0,
+      "enemy_id": 98850,
+      "enemy_label": "Boss_EvQuSQ120_01_03",
+      "enemy_name_best": "Demon Blade's Curse",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        604,
+        10002,
+        10301
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 10,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23916,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23916,
+      "tactical_action_id": 0,
+      "enemy_id": 98850,
+      "enemy_label": "Boss_EvQuSQ120_01_03",
+      "enemy_name_best": "Demon Blade's Curse",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        604,
+        10002,
+        10301
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 65,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 24312,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 24312,
+      "tactical_action_id": 0,
+      "enemy_id": 98816,
+      "enemy_label": "Enemy_EvQuSQ150_01_04_02",
+      "enemy_name_best": "Black Scarlet (Hammer)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23699,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23699,
+      "tactical_action_id": 0,
+      "enemy_id": 98709,
+      "enemy_label": "FC_Enemy_127_02",
+      "enemy_name_best": "Ivri",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23706,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23706,
+      "tactical_action_id": 0,
+      "enemy_id": 98710,
+      "enemy_label": "FC_Enemy_127_03",
+      "enemy_name_best": "Wappa",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20078,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20078,
+      "tactical_action_id": 0,
+      "enemy_id": 30638,
+      "enemy_label": "D_Enemy_Forest_UniqueP_Varkyn_1_04",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600,
+        10202
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20078,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20078,
+      "tactical_action_id": 0,
+      "enemy_id": 30129,
+      "enemy_label": "AB03_04_04",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600,
+        10202
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20078,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20078,
+      "tactical_action_id": 0,
+      "enemy_id": 30717,
+      "enemy_label": "AB03_04_04_sb",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600,
+        10202
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20078,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20078,
+      "tactical_action_id": 0,
+      "enemy_id": 132314,
+      "enemy_label": "Rematch_AB03_04_04_EX",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600,
+        10202
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 35,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20079,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20079,
+      "tactical_action_id": 0,
+      "enemy_id": 30638,
+      "enemy_label": "D_Enemy_Forest_UniqueP_Varkyn_1_04",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600,
+        10202
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 35,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20079,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20079,
+      "tactical_action_id": 0,
+      "enemy_id": 30129,
+      "enemy_label": "AB03_04_04",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600,
+        10202
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 35,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20079,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20079,
+      "tactical_action_id": 0,
+      "enemy_id": 30717,
+      "enemy_label": "AB03_04_04_sb",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600,
+        10202
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 35,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20079,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20079,
+      "tactical_action_id": 0,
+      "enemy_id": 132314,
+      "enemy_label": "Rematch_AB03_04_04_EX",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600,
+        10202
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20082,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20082,
+      "tactical_action_id": 0,
+      "enemy_id": 30638,
+      "enemy_label": "D_Enemy_Forest_UniqueP_Varkyn_1_04",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10302
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20082,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20082,
+      "tactical_action_id": 0,
+      "enemy_id": 30129,
+      "enemy_label": "AB03_04_04",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10302
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20082,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20082,
+      "tactical_action_id": 0,
+      "enemy_id": 30717,
+      "enemy_label": "AB03_04_04_sb",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10302
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20082,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20082,
+      "tactical_action_id": 0,
+      "enemy_id": 132314,
+      "enemy_label": "Rematch_AB03_04_04_EX",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10302
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20083,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20083,
+      "tactical_action_id": 0,
+      "enemy_id": 30638,
+      "enemy_label": "D_Enemy_Forest_UniqueP_Varkyn_1_04",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20083,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20083,
+      "tactical_action_id": 0,
+      "enemy_id": 30129,
+      "enemy_label": "AB03_04_04",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20083,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20083,
+      "tactical_action_id": 0,
+      "enemy_id": 30717,
+      "enemy_label": "AB03_04_04_sb",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20083,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20083,
+      "tactical_action_id": 0,
+      "enemy_id": 132314,
+      "enemy_label": "Rematch_AB03_04_04_EX",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20085,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20085,
+      "tactical_action_id": 0,
+      "enemy_id": 30638,
+      "enemy_label": "D_Enemy_Forest_UniqueP_Varkyn_1_04",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        640,
+        10002,
+        10301
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20085,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20085,
+      "tactical_action_id": 0,
+      "enemy_id": 30129,
+      "enemy_label": "AB03_04_04",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        640,
+        10002,
+        10301
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20085,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20085,
+      "tactical_action_id": 0,
+      "enemy_id": 30717,
+      "enemy_label": "AB03_04_04_sb",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        640,
+        10002,
+        10301
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20085,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20085,
+      "tactical_action_id": 0,
+      "enemy_id": 132314,
+      "enemy_label": "Rematch_AB03_04_04_EX",
+      "enemy_name_best": "Living Soulstone",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        640,
+        10002,
+        10301
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 40,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20226,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20226,
+      "tactical_action_id": 0,
+      "enemy_id": 30436,
+      "enemy_label": "AB06_04_03",
+      "enemy_name_best": "Evening Calm Member (Merchant)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 11,
+      "param": 40,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20226,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20226,
+      "tactical_action_id": 0,
+      "enemy_id": 132321,
+      "enemy_label": "Rematch_AB06_04_03_EX",
+      "enemy_name_best": "Evening Calm Member (Merchant)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 11,
+      "param": 40,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20228,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20228,
+      "tactical_action_id": 0,
+      "enemy_id": 30437,
+      "enemy_label": "AB06_04_04",
+      "enemy_name_best": "Evening Calm Member (Thief)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 11,
+      "param": 40,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20228,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20228,
+      "tactical_action_id": 0,
+      "enemy_id": 132322,
+      "enemy_label": "Rematch_AB06_04_04_EX",
+      "enemy_name_best": "Evening Calm Member (Thief)",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 59,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 59,
+      "tactical_action_id": 0,
+      "enemy_id": 10016,
+      "enemy_label": "ePC003_Chp4_Em01",
+      "enemy_name_best": "Ratkin Charmer",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 1664,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 1664,
+      "tactical_action_id": 0,
+      "enemy_id": 30495,
+      "enemy_label": "Other_ClbBD_NPC_Em02",
+      "enemy_name_best": "Partner",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 1664,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 1664,
+      "tactical_action_id": 0,
+      "enemy_id": 30554,
+      "enemy_label": "Other_ClbBD_NPC2_Em02",
+      "enemy_name_best": "Partner",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 1664,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 1664,
+      "tactical_action_id": 0,
+      "enemy_id": 32218,
+      "enemy_label": "Rematch_Season03_Boss01_02",
+      "enemy_name_best": "Partner",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 1664,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 1664,
+      "tactical_action_id": 0,
+      "enemy_id": 99824,
+      "enemy_label": "HandicapBattle_RankEX02_05_02_Enemy2",
+      "enemy_name_best": "Partner",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 1664,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 1664,
+      "tactical_action_id": 0,
+      "enemy_id": 34077,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_32_03_Enemy_02",
+      "enemy_name_best": "Partner",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 1700,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 1700,
+      "tactical_action_id": 0,
+      "enemy_id": 30495,
+      "enemy_label": "Other_ClbBD_NPC_Em02",
+      "enemy_name_best": "Partner",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        408,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 1700,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 1700,
+      "tactical_action_id": 0,
+      "enemy_id": 30554,
+      "enemy_label": "Other_ClbBD_NPC2_Em02",
+      "enemy_name_best": "Partner",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        408,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 1700,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 1700,
+      "tactical_action_id": 0,
+      "enemy_id": 32218,
+      "enemy_label": "Rematch_Season03_Boss01_02",
+      "enemy_name_best": "Partner",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        408,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 1700,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 1700,
+      "tactical_action_id": 0,
+      "enemy_id": 99824,
+      "enemy_label": "HandicapBattle_RankEX02_05_02_Enemy2",
+      "enemy_name_best": "Partner",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        408,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 1700,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 1700,
+      "tactical_action_id": 0,
+      "enemy_id": 34077,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_32_03_Enemy_02",
+      "enemy_name_best": "Partner",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        408,
+        10400
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21083,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21083,
+      "tactical_action_id": 0,
+      "enemy_id": 30797,
+      "enemy_label": "PC0125_Chp4_Em02",
+      "enemy_name_best": "Duke Garret's Minion",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21084,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21084,
+      "tactical_action_id": 0,
+      "enemy_id": 30797,
+      "enemy_label": "PC0125_Chp4_Em02",
+      "enemy_name_best": "Duke Garret's Minion",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        600
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 50,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21085,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21085,
+      "tactical_action_id": 0,
+      "enemy_id": 30797,
+      "enemy_label": "PC0125_Chp4_Em02",
+      "enemy_name_best": "Duke Garret's Minion",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10440,
+      "tactical_action_id": 0,
+      "enemy_id": 5150,
+      "enemy_label": "Wealth_Boss_Chapter3_02_02_03",
+      "enemy_name_best": "Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10440,
+      "tactical_action_id": 0,
+      "enemy_id": 30687,
+      "enemy_label": "StrBk_00052_002",
+      "enemy_name_best": "Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10440,
+      "tactical_action_id": 0,
+      "enemy_id": 30689,
+      "enemy_label": "StrBk_00053_002",
+      "enemy_name_best": "Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10440,
+      "tactical_action_id": 0,
+      "enemy_id": 30691,
+      "enemy_label": "StrBk_00054_002",
+      "enemy_name_best": "Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10440,
+      "tactical_action_id": 0,
+      "enemy_id": 31073,
+      "enemy_label": "Enemy_Tower_f0040_r001a_002",
+      "enemy_name_best": "Merciless Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10440,
+      "tactical_action_id": 0,
+      "enemy_id": 32182,
+      "enemy_label": "Rematch_Season02_Boss01_02",
+      "enemy_name_best": "Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10440,
+      "tactical_action_id": 0,
+      "enemy_id": 199103,
+      "enemy_label": "RogueLike_Enemy_Boss02_1_2",
+      "enemy_name_best": "Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10440,
+      "tactical_action_id": 0,
+      "enemy_id": 99202,
+      "enemy_label": "RogueLike_Enemy_Boss02_1_2_easy",
+      "enemy_name_best": "Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    },
+    {
+      "condition_id": 11,
+      "param": 75,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10440,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10440,
+      "tactical_action_id": 0,
+      "enemy_id": 99335,
+      "enemy_label": "RogueLike_Enemy_Boss02_1_2_hard",
+      "enemy_name_best": "Lady-In-Waiting",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        501
+      ]
+    }
+  ]
+}

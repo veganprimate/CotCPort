@@ -1,0 +1,359 @@
+# CharaPlayer.m_id	CharaPlayer.m_Name	english_text
+0	28500	no data.
+1	28612	Sofia
+2	28613	Fiore
+3	28614	Scarecrow
+4	28615	Gilderoy
+5	28616	Millard
+6	28617	Viola
+7	28618	Theo
+8	28619	Lynette
+9	28620	Wingate
+10	128500	no data.
+11	28622	Kurtz
+12	28623	Devin
+13	28624	Heinz
+14	28625	Peredir
+15	28626	Laura
+16	28627	Ashlan
+17	28628	Trish
+18	28629	Tahir
+19	28630	Sigrid
+20	28631	Ramona
+21	28632	Bertrand
+22	28633	Miles
+23	28634	Lucetta
+24	28635	Camilla
+25	28636	Aslyte
+26	28637	Helga
+27	28638	Pia
+28	28639	Barrad
+29	28640	Menno
+30	28641	Cedric
+31	28642	Noelle
+32	28643	Madelaine
+33	28644	Merrit
+34	28645	Rodion
+35	28646	Shelby
+36	28647	Rita
+37	28648	Fabio
+38	28649	Iris
+39	28650	Mabel
+40	28651	Meena
+41	28652	Dorrie
+42	28653	Eunice
+43	28654	Julio
+44	28655	Menny
+45	28656	Nanna
+46	28657	Yugo
+47	28658	Sunny
+48	28659	Vivian
+49	28660	Guti
+50	28661	Conny
+51	28662	Carroll
+52	28663	Juan
+53	28664	Telly
+54	28665	Pearl
+55	28666	Jose
+56	28667	Billy
+57	28668	Felline
+58	28669	Diego
+59	28670	Penny
+60	28671	Saria
+61	28672	Jorge
+62	28673	Harry
+63	28674	Evelyn
+64	28675	Manuel
+65	28676	Cornelia
+66	28677	Lionel
+67	28678	Molrusso
+68	28679	Primrose (CotC)
+69	28680	Olberic (CotC)
+70	28681	Tressa (CotC)
+71	28682	Alfyn (CotC)
+72	28683	H'aanit (CotC)
+73	28684	Cyrus (CotC)
+74	28685	Ophilia (CotC)
+75	28686	Therion (CotC)
+77	28688	Grieg
+78	28689	Leon
+80	28691	Z'aanta (CotC)
+81	28692	Therese
+82	28693	Lianna
+83	28694	Heathcote
+84	28695	Lumis
+86	28697	Harley
+87	28698	Tithi
+88	28699	Molu
+89	28700	Varkyn
+90	28701	Brigitte
+92	28703	Dorothea
+94	28705	Yunnie
+95	28706	Narr
+96	28707	Durand
+97	28708	Ri'tu
+98	28709	Lars
+99	28710	Eliza
+100	28711	Soleil
+101	28712	Paula
+102	28713	Lemaire
+103	28714	Odette
+104	28715	Levan
+105	28716	Stead
+107	28718	Cardona
+108	28719	Cecily
+109	28720	Sertet
+110	28621	Cless
+111	28722	Canary
+112	28723	Nicola
+113	28724	Tikilen
+115	28726	Efrain
+116	28727	W'ludai
+117	28728	Falco
+119	28730	Kenneth
+120	28731	Cerna
+122	28733	Kersjes
+125	28736	Chloe
+126	28737	Yan Long
+127	28738	Jillmeila
+130	28741	Glossom
+131	28742	Gertrude
+132	28743	Hasumi
+133	28744	Kouren
+134	28745	Largo
+135	28746	Eleonora
+136	28747	Morena
+137	28748	Jorn
+138	28749	Morffins
+141	28752	Mirgardi
+147	116724	Hayes
+148	116725	Promme
+149	116726	Neha
+152	116729	Zenia
+153	116730	Relisha
+155	116732	Hammy
+158	116735	Kaysia
+159	116736	Narda
+162	116739	Joshua
+163	116740	Ninarana
+165	116742	Nona
+168	116745	Sowan
+170	116747	Jane
+174	116751	Hujheb
+176	116753	Kagemune
+178	116755	Nivelle
+179	116756	Aedelgard
+180	116757	Sarisa
+181	116758	Yukes
+182	116759	Ditraina
+184	116761	Edea
+185	116762	Agnès
+186	116763	Elvis
+187	116764	Adelle
+189	116766	Ogen
+191	116768	Aoi
+201	117741	2B
+202	117742	9S
+203	117743	A2
+204	117928	Frederica
+205	117929	Serenoa
+206	117930	Roland
+207	118066	Oersted
+208	118067	Streibough
+209	118068	O. Odio
+210	118069	S. Odio
+211	118152	Ringabel
+212	118153	Gloria
+213	1118154	Magnolia
+214	1118155	Nier
+215	1118156	Emil
+216	118157	Kainé
+217	1118222	Cecil
+218	118346	Terra
+219	118347	Locke
+220	118348	Edgar
+221	118349	Celes
+222	118350	Setzer
+223	118351	Relm
+224	118355	Stia
+225	118356	Reime
+227	118408	Final Emperor
+228	118409	Final Empress
+301	118158	Hikari
+302	118159	Castti
+303	1118114	Throné
+304	118160	Osvald
+305	118161	Temenos
+306	1118115	Ochette
+307	118162	Partitio
+308	1118163	Agnea
+309	1118116	Sail
+310	1118117	Pirro
+312	1118223	Ori
+313	1118224	Dolcinaea
+315	1118225	Alrond
+316	1118272	Crick
+317	1118273	Mydia
+318	1118288	Rai Mei
+319	1118289	Kazan
+320	118369	Yomi
+541	1118164	Isla (CotC)
+542	118357	Feintz
+543	1118165	Kilns
+544	1118166	Rique
+545	118358	Avite
+600	117736	Richard
+601	117737	Bargello (CotC)
+602	117738	Levina
+603	117739	Alaune (CotC)
+604	117778	Rondo (CotC)
+605	117779	Krauser
+606	117780	Rinyuu
+607	117931	Eltrix (CotC)
+608	117932	Elrica
+609	117933	Sonia
+611	117935	Signa
+612	117936	Sazantos (CotC)
+613	117937	Solon (CotC)
+614	1118330	Mahrez
+615	117996	Nephti
+616	1118226	Tiziano
+617	1118227	Shana
+900	900	<chara_name>
+901	900	<chara_name>
+902	900	<chara_name>
+903	900	<chara_name>
+904	900	<chara_name>
+905	900	<chara_name>
+906	900	<chara_name>
+907	900	<chara_name>
+908	900	<chara_name>
+909	900	<chara_name>
+910	1118291	Dark Priestess
+911	1118332	Esmeralda
+1001	116290	Princess Elrica
+1002	116291	Princess Alaune
+1003	28568	Bargello
+1004	28570	Pierro Della
+1005	28571	Fra
+1006	116345	Sazantos the Flameguard
+1007	116345	Sazantos the Flameguard
+1008	116345	Sazantos the Flameguard
+1009	116345	Sazantos the Flameguard
+1010	11206	Laurana
+1011	28500	no data.
+1110	28721	Lolo
+1901	117781	Herminia
+1902	117782	Tytos
+1903	117783	Auguste
+1904	117938	Pardis III
+1905	117939	Oskha
+1906	117940	Tatloch (CotC)
+1907	1118331	Avar
+1908	1118274	Ceraphina
+1909	1118290	Dark Knight
+2008	50101	Sazantos
+2009	50201	El
+2010	50101	Sazantos
+9001	117784	Sofia
+9002	117785	Fiore
+9003	117786	Dancer H'aanit
+9004	117941	Apothecary Primrose
+9005	117942	Hunter Tressa
+9007	117997	Millard
+9008	117998	Lumis
+9009	117999	Dancer Alaune
+9010	1118228	Sazantos (CotC)
+9011	1118230	Summoner Ophilia
+9012	1118232	White Mage Agnea
+9013	1118256	Dancer Bargello
+9014	1118258	Thief Tatloch
+9015	1118261	Apothecary Rinyuu
+9016	1118275	Elrica
+9017	1118277	Hunter Ditraina
+9018	1118292	Conjurer Hikari
+9019	1118294	Hero Cyrus
+9020	1118296	Sage Viola
+9021	1118298	Gadabout Molrusso
+9022	1118300	Martial Artist Partitio
+9023	1118302	Priest Therese
+9024	1118304	Warrior Signa
+9025	1118333	Inventor Ochette
+9026	1118335	Arcanist Osvald
+9027	1118337	Dancer Castti
+9028	118361	Scholar Rondo
+9029	118363	Hunter Eltrix
+9030	118365	Armsmaster Richard
+9031	118367	Runelord Alaune
+9032	118387	Pardis III (EX)
+9033	118389	Elrica (EX)
+9034	118394	Tiziano
+9035	118396	Levina
+10101	10101	Viator
+10201	10201	Reime
+10202	9118273	Levina (EX)
+10203	9118274	Lynette (EX)
+10302	10302	Ludo
+10402	10402	Carinda
+10503	10503	Celsus
+10603	10603	Heidne
+10704	10704	Esperre
+10804	10804	Macy
+10905	10905	Phenn
+11001	1116290	Princess Elrica (CotC)
+11002	1116291	Princess Alaune (CotC)
+11003	128568	Bargello
+11004	128570	Pierro Della (CotC)
+11005	11005	Delitia
+11006	1116345	Sazantos the Flameguard
+11007	1116292	Queen Alaune
+11106	11106	Pius
+11206	11206	Laurana
+11216	11206	Laurana
+11307	11307	Xerc
+11407	11407	Alexia
+11508	11508	Goodwin
+11608	11608	Saoirse
+20101	20101	Olberic
+20202	20202	Tressa
+20303	20303	Therion
+20404	20404	Alfyn
+20505	20505	H'aanit
+20606	20606	Ophilia
+20707	20707	Cyrus
+20808	20808	Primrose
+30103	30103	Bargello
+30207	30207	Alaune
+30301	30301	Richard
+30407	30407	Solon
+30501	30501	Eltrix
+30701	30701	Rondo
+30808	30808	Tatloch
+40204	40204	Stia
+40214	40204	Stia
+50101	50101	Sazantos
+50111	50101	Sazantos
+50112	50101	Sazantos
+50201	50201	El
+60107	60107	Isla
+60108	116321	Richard
+60109	10603	Heidne
+60110	20303	Therion
+60111	20404	Alfyn
+60112	20101	Olberic
+60113	50101	Sazantos
+60114	50101	Sazantos
+60115	50101	Sazantos
+87000	118086	Fried, Captain of the Watch
+87001	117871	Hugo
+87003	116449	Captain Gimel
+87004	116672	Mattias
+87005	87005	Miguel
+90001	28613	Fiore
+90002	28675	Manuel
+90003	28691	Z'aanta (CotC)
+90004	28685	Ophilia (CotC)
+90005	116740	Ninarana
+110201	1118264	Sigrid
+111005	128571	Fra (CotC)
+118090	118090	Nomos the Scholar

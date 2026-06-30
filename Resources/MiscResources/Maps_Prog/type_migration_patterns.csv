@@ -1,0 +1,25 @@
+cotc_type,ot0_type,description,cotc_count,ot0_count
+ParticleSystemComponent,NiagaraComponent,Cascade -> Niagara VFX system,10880,12027
+Emitter,NiagaraActor,Cascade Emitter -> Niagara Actor,6639,6657
+NpcAppear_C,BP_NpcAppear_C,NPC blueprint renamed with BP_ prefix,11044,7735
+BPI_Obj_Torch_A_C,BPI_Obj_Torch_A_Decal_C,Torch blueprint updated to decal variant,288,696
+LandscapeLODStreamingProxy,(removed),LOD streaming proxy removed in UE5,4521,0
+ChildActorComponent,ChildActorComponent,Reduced usage (8162 -> 615),8162,615
+BokehBoll_C,BokehBoll_C,Drastically reduced (8137 -> 7),8137,7
+MovieScene*,(removed),Sequencer content removed from Level folder,0,0
+TimeZoneEmitterComponent,(removed),TimeZone emitter removed,948,0
+TimeZoneSoundComponent,(removed),TimeZone sound removed,612,0
+MapObjComponent,(removed),Map object component removed,901,0
+TreasureComponent,(removed),Treasure component removed,1201,0
+SymbolEnemyComponent,(removed),Symbol enemy component removed,721,0
+NpcComponent,(removed),NPC component removed,250,0
+(none),BoxComponent,New: collision/trigger volumes (46167 instances),0,46167
+(none),ArrowComponent,New: directional indicators,0,8592
+(none),NpcTalkWidgetComponent,New: NPC talk UI widget,0,7735
+(none),TextRenderComponent,New: in-world text rendering,0,1188
+(none),LevelStreamingAlwaysLoaded,New: sub-level streaming references,0,734
+(none),SpringArmComponent,New: camera spring arms,0,190
+(none),CineCameraComponent,New: cinematic cameras,0,150
+(none),MapObjectConvertedFoliage,New: dedicated foliage conversion,0,3339
+(none),BlockingVolume,New: collision blocking volumes,0,318
+QPPostProcessVolume,(removed),Post-process volumes removed from levels,165,0

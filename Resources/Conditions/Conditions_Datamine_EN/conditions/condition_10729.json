@@ -1,0 +1,203 @@
+{
+  "condition_id": 10729,
+  "total_uses": 3,
+  "uses_by_subsystem": {
+    "SkillConditionList": 3
+  },
+  "uses_by_table": {
+    "SkillConditionList": 3
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 3
+  },
+  "param_stats": {
+    "count": 3,
+    "min": 9,
+    "max": 9,
+    "mean": 9.0,
+    "median": 9,
+    "p10": 9,
+    "p25": 9,
+    "p75": 9,
+    "p90": 9,
+    "top10": [
+      [
+        9,
+        3
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [
+      [
+        753,
+        3
+      ]
+    ],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10724,
+      3
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "612296": {
+      "skill_id": 612296,
+      "use_count": 1,
+      "name_id": 103646,
+      "name_best": "Gouging Wounds",
+      "detail_id": 103663,
+      "detail_best": "When our side breaks the enemy's defense, \nincrease the \"Laceration pt\" of the broken enemy by 1 point\nthen, if the \"Laceration pt\" of the broken enemy is 9 or higher and the enemy is not in a Severe Injury state,\napply the Special Effect \"Severe Injury\" to the enemy (treated as a Battle Skill)\nbut the \"Laceration pt\" will reset to 1<sidenote>\nLaceration pt: Effect details are recorded in Basic Abilities\nSevere Injury: Causes bleeding effects to deal 20 times the damage,\nand increases the power of attacks received by 15% (exceptions apply / effects of the same type cannot stack)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178005,
+        178006,
+        178007
+      ]
+    },
+    "612309": {
+      "skill_id": 612309,
+      "use_count": 1,
+      "name_id": 103646,
+      "name_best": "Gouging Wounds",
+      "detail_id": 103912,
+      "detail_best": "When our side breaks the enemy's defense, \nincrease the \"Laceration pt\" of the broken enemy by 1 point\nand restore 3 BP to Esmeralda\nthen, if the \"Laceration pt\" of the broken enemy is 9 or higher and the enemy is not in a Severe Injury state,\napply the Special Effect \"Severe Injury\" to the enemy (treated as a Battle Skill)\nbut the \"Laceration pt\" will reset to 1\n※If the member of our side who caused the defense break is Incapacitated, the restoration effect will not activate<sidenote>\nLaceration pt: Effect details are recorded in Basic Abilities\nSevere Injury: Causes bleeding effects to deal 20 times the damage,\nand increases the power of attacks received by 15% (exceptions apply / effects of the same type cannot stack)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178009,
+        178011,
+        178012,
+        178010
+      ]
+    },
+    "612314": {
+      "skill_id": 612314,
+      "use_count": 1,
+      "name_id": 103679,
+      "name_best": "Execution",
+      "detail_id": 103680,
+      "detail_best": "Deal <skl_calc_type> <skl_attribute_name> damage to <skl_target_type> (potency: <skl_avail_value>)\nand increase \"Laceration pt\" by 2\nIf the target is in a bleeding state, potency is multiplied by 1.2\nAfterward, if the target's \"Laceration pt\" is 9 or higher and not in a critical state,\ngrant Special Effect \"Critical Injury\"\nbut \"Laceration pt\" will reset to 1<sidenote>\nLaceration pt: Effect described in Basic Skills\nCritical Injury: Bleeding effect damage becomes 20 times greater,\nand received attack potency increases by 15% (some exceptions / effects of the same type cannot stack)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178048,
+        178049,
+        178050,
+        178051
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10729,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 769,
+      "ailment_type": 753,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612296,
+      "skill_index": -1,
+      "skill_avail_id": 178006,
+      "skill_condition_list_id": 769,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10724
+      ]
+    },
+    {
+      "condition_id": 10729,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 769,
+      "ailment_type": 753,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612309,
+      "skill_index": -1,
+      "skill_avail_id": 178011,
+      "skill_condition_list_id": 769,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10724
+      ]
+    },
+    {
+      "condition_id": 10729,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 769,
+      "ailment_type": 753,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612314,
+      "skill_index": -1,
+      "skill_avail_id": 178050,
+      "skill_condition_list_id": 769,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10724
+      ]
+    }
+  ]
+}

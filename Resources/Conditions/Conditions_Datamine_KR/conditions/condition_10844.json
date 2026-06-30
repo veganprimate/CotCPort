@@ -1,0 +1,147 @@
+{
+  "condition_id": 10844,
+  "total_uses": 2,
+  "uses_by_subsystem": {
+    "SkillConditionList": 2
+  },
+  "uses_by_table": {
+    "SkillConditionList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 2
+  },
+  "param_stats": {
+    "count": 2,
+    "min": 9,
+    "max": 9,
+    "mean": 9.0,
+    "median": 9.0,
+    "p10": 9,
+    "p25": 9,
+    "p75": 9,
+    "p90": 9,
+    "top10": [
+      [
+        9,
+        2
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [
+      [
+        125,
+        2
+      ]
+    ],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "610652": {
+      "skill_id": 610652,
+      "use_count": 1,
+      "name_id": 102099,
+      "name_best": "성심 베기",
+      "detail_id": 102118,
+      "detail_best": "<skl_target_type>에게 <skl_exec_count>회 <skl_attribute_name> <skl_calc_type> 공격(위력 <skl_avail_value>)\n지팡이・빛 약점에 효과적(대미지 계산은 <skl_attribute_name><skl_calc_type>)\n또한, 물리 방어, 속성 방어 하락 <skl_ailment_value>％의 효과를 부여(<skl_turn_count>)\n그 후, 공격 대상의 속성 방어 하락 효과가 9턴 이상일 때\n추가로, 동일 대상에게 속성 내성 하락 <skl_ailment_value2>％의 효과를 부여(<skl_turn_count2>)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        75874,
+        75874,
+        75874,
+        75875,
+        75876
+      ]
+    },
+    "610659": {
+      "skill_id": 610659,
+      "use_count": 1,
+      "name_id": 102099,
+      "name_best": "성심 베기",
+      "detail_id": 102118,
+      "detail_best": "<skl_target_type>에게 <skl_exec_count>회 <skl_attribute_name> <skl_calc_type> 공격(위력 <skl_avail_value>)\n지팡이・빛 약점에 효과적(대미지 계산은 <skl_attribute_name><skl_calc_type>)\n또한, 물리 방어, 속성 방어 하락 <skl_ailment_value>％의 효과를 부여(<skl_turn_count>)\n그 후, 공격 대상의 속성 방어 하락 효과가 9턴 이상일 때\n추가로, 동일 대상에게 속성 내성 하락 <skl_ailment_value2>％의 효과를 부여(<skl_turn_count2>)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        75874,
+        75874,
+        75874,
+        75875,
+        75876
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10844,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 608,
+      "ailment_type": 125,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 610652,
+      "skill_index": -1,
+      "skill_avail_id": 75876,
+      "skill_condition_list_id": 608,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10844,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 608,
+      "ailment_type": 125,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 610659,
+      "skill_index": -1,
+      "skill_avail_id": 75876,
+      "skill_condition_list_id": 608,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

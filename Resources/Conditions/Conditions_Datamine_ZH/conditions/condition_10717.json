@@ -1,0 +1,2109 @@
+{
+  "condition_id": 10717,
+  "total_uses": 37,
+  "uses_by_subsystem": {
+    "BattleAbortConditions": 37
+  },
+  "uses_by_table": {
+    "BattleAbortConditions": 37
+  },
+  "uses_by_subsystem_slot": {
+    "BattleAbortConditions[0]": 34,
+    "BattleAbortConditions[1]": 3
+  },
+  "param_stats": {
+    "count": 37,
+    "min": 1,
+    "max": 7,
+    "mean": 1.8918918918918919,
+    "median": 1,
+    "p10": 1,
+    "p25": 1,
+    "p75": 1,
+    "p90": 6,
+    "top10": [
+      [
+        1,
+        31
+      ],
+      [
+        7,
+        3
+      ],
+      [
+        6,
+        3
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      12,
+      1
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 5010,
+      "use_count": 3,
+      "label": "Wealth_Boss_Chapter3_03_01",
+      "name_best": "狩猎女王赫露弥娅",
+      "type_id": 10011,
+      "tactical_assign_id": 10033,
+      "skills_id": 10042
+    },
+    {
+      "enemy_id": 5151,
+      "use_count": 3,
+      "label": "Wealth_Boss_Chapter3_03_01_02",
+      "name_best": "狩猎女王赫露弥娅",
+      "type_id": 10011,
+      "tactical_assign_id": 10078,
+      "skills_id": 10047
+    },
+    {
+      "enemy_id": 5159,
+      "use_count": 3,
+      "label": "Power_Boss_Chapter3_03_02",
+      "name_best": "雷剑将泰坦斯",
+      "type_id": 10026,
+      "tactical_assign_id": 10082,
+      "skills_id": 10059
+    },
+    {
+      "enemy_id": 31715,
+      "use_count": 3,
+      "label": "AGM_Boss_Chp4_01_02",
+      "name_best": "圣火",
+      "type_id": 21918,
+      "tactical_assign_id": 30258,
+      "skills_id": 51391
+    },
+    {
+      "enemy_id": 31766,
+      "use_count": 3,
+      "label": "AGM_Boss_Chp4_01_03",
+      "name_best": "圣火",
+      "type_id": 21971,
+      "tactical_assign_id": 30259,
+      "skills_id": 51392
+    },
+    {
+      "enemy_id": 98042,
+      "use_count": 3,
+      "label": "AGM_Boss_Chp8_08_01",
+      "name_best": "祖龙天津神",
+      "type_id": 98111,
+      "tactical_assign_id": 230783,
+      "skills_id": 56274
+    },
+    {
+      "enemy_id": 5024,
+      "use_count": 2,
+      "label": "Power_Boss_Chapter3_03_01",
+      "name_best": "雷剑将泰坦斯",
+      "type_id": 10026,
+      "tactical_assign_id": 10023,
+      "skills_id": 10044
+    },
+    {
+      "enemy_id": 5167,
+      "use_count": 2,
+      "label": "Fame_Boss_Chapter3_02_02",
+      "name_best": "盗公子奥古斯特",
+      "type_id": 10033,
+      "tactical_assign_id": 10091,
+      "skills_id": 10063
+    },
+    {
+      "enemy_id": 5115,
+      "use_count": 2,
+      "label": "B05_001_Boss_02_01",
+      "name_best": "一无所有之人奥斯卡",
+      "type_id": 10112,
+      "tactical_assign_id": 30053,
+      "skills_id": 50934
+    },
+    {
+      "enemy_id": 5112,
+      "use_count": 2,
+      "label": "B06_003_Boss_01_01",
+      "name_best": "魔术师培拉齐亚（破咒）",
+      "type_id": 10113,
+      "tactical_assign_id": 30099,
+      "skills_id": 51046
+    },
+    {
+      "enemy_id": 5096,
+      "use_count": 2,
+      "label": "B07_2_01_Boss_01",
+      "name_best": "肮脏的圣火的守护者",
+      "type_id": 10103,
+      "tactical_assign_id": 10228,
+      "skills_id": 10108
+    },
+    {
+      "enemy_id": 5126,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp4_01_01",
+      "name_best": "圣火骑士隆德",
+      "type_id": 21780,
+      "tactical_assign_id": 30257,
+      "skills_id": 51390
+    },
+    {
+      "enemy_id": 5127,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp4_02_01",
+      "name_best": "圣火护戒长松佐恩",
+      "type_id": 21781,
+      "tactical_assign_id": 30583,
+      "skills_id": 55433
+    },
+    {
+      "enemy_id": 32202,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp8_03_08",
+      "name_best": "绅商伯之戒",
+      "type_id": 22363,
+      "tactical_assign_id": 30409,
+      "skills_id": 51672
+    },
+    {
+      "enemy_id": 98898,
+      "use_count": 2,
+      "label": "ExBoss_Dragon_RedOrb_01",
+      "name_best": "龙红玉",
+      "type_id": 98608,
+      "tactical_assign_id": 30706,
+      "skills_id": 56275
+    },
+    {
+      "enemy_id": 5031,
+      "use_count": 1,
+      "label": "Fame_Boss_Chapter3_02_01",
+      "name_best": "盗公子奥古斯特",
+      "type_id": 10033,
+      "tactical_assign_id": 10025,
+      "skills_id": 10024
+    }
+  ],
+  "top_skills": {},
+  "enemy_groups": {
+    "10020": {
+      "enemy_group_id": 10020,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap4_Boss_ENG01",
+      "formation": 158,
+      "bgm": 108,
+      "event_indices": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "enemy_ids": [
+        5126,
+        31766,
+        31715
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp4_01_01",
+        "AGM_Boss_Chp4_01_03",
+        "AGM_Boss_Chp4_01_02"
+      ],
+      "enemy_names_best": [
+        "圣火骑士隆德",
+        "圣火",
+        "圣火"
+      ]
+    },
+    "199402": {
+      "enemy_group_id": 199402,
+      "use_count": 3,
+      "label": "GM_GiveAll_Chap4_Boss_ENG01__Arena",
+      "formation": 158,
+      "bgm": 108,
+      "event_indices": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "enemy_ids": [
+        5126,
+        31766,
+        31715
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp4_01_01",
+        "AGM_Boss_Chp4_01_03",
+        "AGM_Boss_Chp4_01_02"
+      ],
+      "enemy_names_best": [
+        "圣火骑士隆德",
+        "圣火",
+        "圣火"
+      ]
+    },
+    "110020": {
+      "enemy_group_id": 110020,
+      "use_count": 2,
+      "label": "GM_GiveAll_Chap4_Boss_ENG01__B10020",
+      "formation": 158,
+      "bgm": 108,
+      "event_indices": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "enemy_ids": [
+        15126
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp4_01_01__B5126"
+      ],
+      "enemy_names_best": [
+        "星火守卫隆德"
+      ]
+    },
+    "9015": {
+      "enemy_group_id": 9015,
+      "use_count": 1,
+      "label": "Wealth_Boss_EnemyGroup_06",
+      "formation": 181,
+      "bgm": 94,
+      "event_indices": [
+        124
+      ],
+      "enemy_ids": [
+        5010
+      ],
+      "enemy_labels": [
+        "Wealth_Boss_Chapter3_03_01"
+      ],
+      "enemy_names_best": [
+        "狩猎女王赫露弥娅"
+      ]
+    },
+    "9016": {
+      "enemy_group_id": 9016,
+      "use_count": 1,
+      "label": "Wealth_Boss_EnemyGroup_06_02",
+      "formation": 181,
+      "bgm": 94,
+      "event_indices": [
+        124
+      ],
+      "enemy_ids": [
+        5151
+      ],
+      "enemy_labels": [
+        "Wealth_Boss_Chapter3_03_01_02"
+      ],
+      "enemy_names_best": [
+        "狩猎女王赫露弥娅"
+      ]
+    },
+    "9107": {
+      "enemy_group_id": 9107,
+      "use_count": 1,
+      "label": "Power_Boss_EnemyGroup_07",
+      "formation": 182,
+      "bgm": 94,
+      "event_indices": [
+        121
+      ],
+      "enemy_ids": [
+        5024
+      ],
+      "enemy_labels": [
+        "Power_Boss_Chapter3_03_01"
+      ],
+      "enemy_names_best": [
+        "雷剑将泰坦斯"
+      ]
+    },
+    "9114": {
+      "enemy_group_id": 9114,
+      "use_count": 1,
+      "label": "Power_Boss_EnemyGroup_07_02",
+      "formation": 182,
+      "bgm": 94,
+      "event_indices": [
+        121
+      ],
+      "enemy_ids": [
+        5159
+      ],
+      "enemy_labels": [
+        "Power_Boss_Chapter3_03_02"
+      ],
+      "enemy_names_best": [
+        "雷剑将泰坦斯"
+      ]
+    },
+    "9204": {
+      "enemy_group_id": 9204,
+      "use_count": 1,
+      "label": "Fame_Boss_EnemyGroup_04",
+      "formation": 183,
+      "bgm": 94,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        5031
+      ],
+      "enemy_labels": [
+        "Fame_Boss_Chapter3_02_01"
+      ],
+      "enemy_names_best": [
+        "盗公子奥古斯特"
+      ]
+    },
+    "9210": {
+      "enemy_group_id": 9210,
+      "use_count": 1,
+      "label": "Fame_Boss_EnemyGroup_04_02",
+      "formation": 183,
+      "bgm": 94,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        5167
+      ],
+      "enemy_labels": [
+        "Fame_Boss_Chapter3_02_02"
+      ],
+      "enemy_names_best": [
+        "盗公子奥古斯特"
+      ]
+    },
+    "10012": {
+      "enemy_group_id": 10012,
+      "use_count": 1,
+      "label": "GM_Wealth_Chap3_Boss_ENG02",
+      "formation": 140,
+      "bgm": 130,
+      "event_indices": [
+        14
+      ],
+      "enemy_ids": [
+        5115
+      ],
+      "enemy_labels": [
+        "B05_001_Boss_02_01"
+      ],
+      "enemy_names_best": [
+        "一无所有之人奥斯卡"
+      ]
+    },
+    "11012": {
+      "enemy_group_id": 11012,
+      "use_count": 1,
+      "label": "GM_Power_Chap3_Boss_ENG02",
+      "formation": 150,
+      "bgm": 108,
+      "event_indices": [],
+      "enemy_ids": [
+        5112
+      ],
+      "enemy_labels": [
+        "B06_003_Boss_01_01"
+      ],
+      "enemy_names_best": [
+        "魔术师培拉齐亚（破咒）"
+      ]
+    },
+    "12013": {
+      "enemy_group_id": 12013,
+      "use_count": 1,
+      "label": "GM_Fame_Chap2_Boss_ENG06",
+      "formation": 125,
+      "bgm": 108,
+      "event_indices": [],
+      "enemy_ids": [
+        5096
+      ],
+      "enemy_labels": [
+        "B07_2_01_Boss_01"
+      ],
+      "enemy_names_best": [
+        "肮脏的圣火的守护者"
+      ]
+    },
+    "10021": {
+      "enemy_group_id": 10021,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap4_Boss_ENG02",
+      "formation": 159,
+      "bgm": 66,
+      "event_indices": [],
+      "enemy_ids": [
+        5127
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp4_02_01"
+      ],
+      "enemy_names_best": [
+        "圣火护戒长松佐恩"
+      ]
+    },
+    "98210": {
+      "enemy_group_id": 98210,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG07",
+      "formation": 197,
+      "bgm": 132266,
+      "event_indices": [
+        133,
+        134,
+        135,
+        136,
+        142,
+        143,
+        144
+      ],
+      "enemy_ids": [
+        98042
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_08_01"
+      ],
+      "enemy_names_best": [
+        "祖龙天津神"
+      ]
+    },
+    "72083": {
+      "enemy_group_id": 72083,
+      "use_count": 1,
+      "label": "RagasaLH_Chp5_EmGr01",
+      "formation": 72,
+      "bgm": 102524,
+      "event_indices": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "enemy_ids": [
+        132353
+      ],
+      "enemy_labels": [
+        "RagasaLH_Chp5_Em01"
+      ],
+      "enemy_names_best": [
+        "魔王欧迪奥・Ｓ"
+      ]
+    },
+    "173027": {
+      "enemy_group_id": 173027,
+      "use_count": 1,
+      "label": "Gr_Other_Atsani_Em01",
+      "formation": 63,
+      "bgm": 110311,
+      "event_indices": [],
+      "enemy_ids": [
+        33151
+      ],
+      "enemy_labels": [
+        "Other_Atsani_Em01"
+      ],
+      "enemy_names_best": [
+        "幻兽泰坦"
+      ]
+    },
+    "72855": {
+      "enemy_group_id": 72855,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP05_03",
+      "formation": 1182,
+      "bgm": 36,
+      "event_indices": [],
+      "enemy_ids": [
+        33007
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP5_Enemy_03_01"
+      ],
+      "enemy_names_best": [
+        "执貌的诅咒僧贾弗德"
+      ]
+    },
+    "73483": {
+      "enemy_group_id": 73483,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP09_05",
+      "formation": 59,
+      "bgm": 36,
+      "event_indices": [
+        106,
+        107,
+        108
+      ],
+      "enemy_ids": [
+        33567
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP9_Enemy_05_01"
+      ],
+      "enemy_names_best": [
+        "黑咒帝塞伊尔"
+      ]
+    },
+    "72449": {
+      "enemy_group_id": 72449,
+      "use_count": 1,
+      "label": "Gr_QPSSeT11_P001_Enemy_01",
+      "formation": 71,
+      "bgm": 104271,
+      "event_indices": [],
+      "enemy_ids": [
+        32637,
+        32816,
+        32817
+      ],
+      "enemy_labels": [
+        "QPSSeT11_P001_Enemy_01",
+        "QPSSeT11_P001_Enemy_02",
+        "QPSSeT11_P001_Enemy_03"
+      ],
+      "enemy_names_best": [
+        "虔诚的星官",
+        "机智的星官",
+        "视野开阔的星官"
+      ]
+    },
+    "173074": {
+      "enemy_group_id": 173074,
+      "use_count": 1,
+      "label": "Gr_QPSFsF12_side05_01_Enemy_01",
+      "formation": 185,
+      "bgm": 104271,
+      "event_indices": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "enemy_ids": [
+        33180,
+        33319
+      ],
+      "enemy_labels": [
+        "QPSFsF12_side05_01_Enemy_01",
+        "QPSFsF12_side05_01_Enemy_01_01"
+      ],
+      "enemy_names_best": [
+        "容易吸引魔物的女子",
+        "无名"
+      ]
+    },
+    "73454": {
+      "enemy_group_id": 73454,
+      "use_count": 1,
+      "label": "Gr_QPSWdD11_side04_01_Enemy_01",
+      "formation": 197,
+      "bgm": 104271,
+      "event_indices": [],
+      "enemy_ids": [
+        33483
+      ],
+      "enemy_labels": [
+        "QPSWdD11_side04_01_Enemy_01"
+      ],
+      "enemy_names_best": [
+        "研究逢魔的老学者"
+      ]
+    },
+    "173038": {
+      "enemy_group_id": 173038,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Boss_CP05_03",
+      "formation": 1182,
+      "bgm": 36,
+      "event_indices": [],
+      "enemy_ids": [
+        33141
+      ],
+      "enemy_labels": [
+        "QPS_Rematch_Boss_CP5_Enemy_03_01"
+      ],
+      "enemy_names_best": [
+        "执貌的诅咒僧贾弗德"
+      ]
+    },
+    "199274": {
+      "enemy_group_id": 199274,
+      "use_count": 1,
+      "label": "RagasaLH_Chp5_EmGr01",
+      "formation": 72,
+      "bgm": 102524,
+      "event_indices": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "enemy_ids": [
+        132353
+      ],
+      "enemy_labels": [
+        "RagasaLH_Chp5_Em01"
+      ],
+      "enemy_names_best": [
+        "魔王欧迪奥・Ｓ"
+      ]
+    },
+    "199278": {
+      "enemy_group_id": 199278,
+      "use_count": 1,
+      "label": "Gr_Other_Atsani_Em01",
+      "formation": 63,
+      "bgm": 110311,
+      "event_indices": [],
+      "enemy_ids": [
+        33151
+      ],
+      "enemy_labels": [
+        "Other_Atsani_Em01"
+      ],
+      "enemy_names_best": [
+        "幻兽泰坦"
+      ]
+    },
+    "73654": {
+      "enemy_group_id": 73654,
+      "use_count": 1,
+      "label": "Gr_Other_Danas_Em02",
+      "formation": 72,
+      "bgm": 117522,
+      "event_indices": [
+        119
+      ],
+      "enemy_ids": [
+        33718
+      ],
+      "enemy_labels": [
+        "Other_Danas_Em02"
+      ],
+      "enemy_names_best": [
+        "魔导装甲"
+      ]
+    },
+    "199358": {
+      "enemy_group_id": 199358,
+      "use_count": 1,
+      "label": "Wealth_Boss_EnemyGroup_06__Arena",
+      "formation": 181,
+      "bgm": 94,
+      "event_indices": [
+        124
+      ],
+      "enemy_ids": [
+        5010
+      ],
+      "enemy_labels": [
+        "Wealth_Boss_Chapter3_03_01"
+      ],
+      "enemy_names_best": [
+        "狩猎女王赫露弥娅"
+      ]
+    },
+    "199359": {
+      "enemy_group_id": 199359,
+      "use_count": 1,
+      "label": "Wealth_Boss_EnemyGroup_06_02__Arena",
+      "formation": 181,
+      "bgm": 94,
+      "event_indices": [
+        124
+      ],
+      "enemy_ids": [
+        5151
+      ],
+      "enemy_labels": [
+        "Wealth_Boss_Chapter3_03_01_02"
+      ],
+      "enemy_names_best": [
+        "狩猎女王赫露弥娅"
+      ]
+    },
+    "199377": {
+      "enemy_group_id": 199377,
+      "use_count": 1,
+      "label": "GM_Wealth_Chap3_Boss_ENG02__Arena",
+      "formation": 140,
+      "bgm": 130,
+      "event_indices": [
+        14
+      ],
+      "enemy_ids": [
+        5115
+      ],
+      "enemy_labels": [
+        "B05_001_Boss_02_01"
+      ],
+      "enemy_names_best": [
+        "一无所有之人奥斯卡"
+      ]
+    },
+    "199383": {
+      "enemy_group_id": 199383,
+      "use_count": 1,
+      "label": "GM_Power_Chap3_Boss_ENG02__Arena",
+      "formation": 150,
+      "bgm": 108,
+      "event_indices": [],
+      "enemy_ids": [
+        5112
+      ],
+      "enemy_labels": [
+        "B06_003_Boss_01_01"
+      ],
+      "enemy_names_best": [
+        "魔术师培拉齐亚（破咒）"
+      ]
+    },
+    "199392": {
+      "enemy_group_id": 199392,
+      "use_count": 1,
+      "label": "GM_Fame_Chap2_Boss_ENG06__Arena",
+      "formation": 125,
+      "bgm": 108,
+      "event_indices": [],
+      "enemy_ids": [
+        5096
+      ],
+      "enemy_labels": [
+        "B07_2_01_Boss_01"
+      ],
+      "enemy_names_best": [
+        "肮脏的圣火的守护者"
+      ]
+    },
+    "199403": {
+      "enemy_group_id": 199403,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap4_Boss_ENG02__Arena",
+      "formation": 159,
+      "bgm": 66,
+      "event_indices": [],
+      "enemy_ids": [
+        5127
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp4_02_01"
+      ],
+      "enemy_names_best": [
+        "圣火护戒长松佐恩"
+      ]
+    },
+    "199424": {
+      "enemy_group_id": 199424,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG07__Arena",
+      "formation": 197,
+      "bgm": 132266,
+      "event_indices": [],
+      "enemy_ids": [
+        98042
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_08_01"
+      ],
+      "enemy_names_best": [
+        "祖龙天津神"
+      ]
+    }
+  },
+  "uses_sample": [
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 28,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5010,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 9015,
+      "enemy_group_label": "Wealth_Boss_EnemyGroup_06",
+      "enemy_group_enemies": [
+        5010
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 29,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5151,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 9016,
+      "enemy_group_label": "Wealth_Boss_EnemyGroup_06_02",
+      "enemy_group_enemies": [
+        5151
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 30,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5024,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 9107,
+      "enemy_group_label": "Power_Boss_EnemyGroup_07",
+      "enemy_group_enemies": [
+        5024
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 31,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5159,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 9114,
+      "enemy_group_label": "Power_Boss_EnemyGroup_07_02",
+      "enemy_group_enemies": [
+        5159
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 32,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5031,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 9204,
+      "enemy_group_label": "Fame_Boss_EnemyGroup_04",
+      "enemy_group_enemies": [
+        5031
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 33,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5167,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 9210,
+      "enemy_group_label": "Fame_Boss_EnemyGroup_04_02",
+      "enemy_group_enemies": [
+        5167
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 37,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5115,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 10012,
+      "enemy_group_label": "GM_Wealth_Chap3_Boss_ENG02",
+      "enemy_group_enemies": [
+        5115
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 35,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5112,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 11012,
+      "enemy_group_label": "GM_Power_Chap3_Boss_ENG02",
+      "enemy_group_enemies": [
+        5112
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 34,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5096,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 12013,
+      "enemy_group_label": "GM_Fame_Chap2_Boss_ENG06",
+      "enemy_group_enemies": [
+        5096
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 7,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 9,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 31715,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 10020,
+      "enemy_group_label": "GM_GiveAll_Chap4_Boss_ENG01",
+      "enemy_group_enemies": [
+        5126,
+        31766,
+        31715
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 6,
+      "slot": 1,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 9,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 31766,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 10020,
+      "enemy_group_label": "GM_GiveAll_Chap4_Boss_ENG01",
+      "enemy_group_enemies": [
+        5126,
+        31766,
+        31715
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 10,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5126,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 10020,
+      "enemy_group_label": "GM_GiveAll_Chap4_Boss_ENG01",
+      "enemy_group_enemies": [
+        5126,
+        31766,
+        31715
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 36,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5127,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 10021,
+      "enemy_group_label": "GM_GiveAll_Chap4_Boss_ENG02",
+      "enemy_group_enemies": [
+        5127
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 43,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 98042,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 98210,
+      "enemy_group_label": "GM_GiveAll_Chap8_Boss_ENG07",
+      "enemy_group_enemies": [
+        98042
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 7,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 9,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 31715,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 110020,
+      "enemy_group_label": "GM_GiveAll_Chap4_Boss_ENG01__B10020",
+      "enemy_group_enemies": [
+        15126
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 6,
+      "slot": 1,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 9,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 31766,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 110020,
+      "enemy_group_label": "GM_GiveAll_Chap4_Boss_ENG01__B10020",
+      "enemy_group_enemies": [
+        15126
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 23,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 32202,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 72083,
+      "enemy_group_label": "RagasaLH_Chp5_EmGr01",
+      "enemy_group_enemies": [
+        132353
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 31,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5159,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 173027,
+      "enemy_group_label": "Gr_Other_Atsani_Em01",
+      "enemy_group_enemies": [
+        33151
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 29,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5151,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 72855,
+      "enemy_group_label": "Gr_QPS_Boss_CP05_03",
+      "enemy_group_enemies": [
+        33007
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 45,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 98898,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 73483,
+      "enemy_group_label": "Gr_QPS_Boss_CP09_05",
+      "enemy_group_enemies": [
+        33567
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 28,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5010,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 72449,
+      "enemy_group_label": "Gr_QPSSeT11_P001_Enemy_01",
+      "enemy_group_enemies": [
+        32637,
+        32816,
+        32817
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 33,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5167,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 173074,
+      "enemy_group_label": "Gr_QPSFsF12_side05_01_Enemy_01",
+      "enemy_group_enemies": [
+        33180,
+        33319
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 46,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 98898,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 73454,
+      "enemy_group_label": "Gr_QPSWdD11_side04_01_Enemy_01",
+      "enemy_group_enemies": [
+        33483
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        12
+      ]
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 30,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5024,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 173038,
+      "enemy_group_label": "Gr_QPS_Rematch_Boss_CP05_03",
+      "enemy_group_enemies": [
+        33141
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 23,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 32202,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199274,
+      "enemy_group_label": "RagasaLH_Chp5_EmGr01",
+      "enemy_group_enemies": [
+        132353
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 31,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5159,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199278,
+      "enemy_group_label": "Gr_Other_Atsani_Em01",
+      "enemy_group_enemies": [
+        33151
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 43,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 98042,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 73654,
+      "enemy_group_label": "Gr_Other_Danas_Em02",
+      "enemy_group_enemies": [
+        33718
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 28,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5010,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199358,
+      "enemy_group_label": "Wealth_Boss_EnemyGroup_06__Arena",
+      "enemy_group_enemies": [
+        5010
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 29,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5151,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199359,
+      "enemy_group_label": "Wealth_Boss_EnemyGroup_06_02__Arena",
+      "enemy_group_enemies": [
+        5151
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 37,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5115,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199377,
+      "enemy_group_label": "GM_Wealth_Chap3_Boss_ENG02__Arena",
+      "enemy_group_enemies": [
+        5115
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 35,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5112,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199383,
+      "enemy_group_label": "GM_Power_Chap3_Boss_ENG02__Arena",
+      "enemy_group_enemies": [
+        5112
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 34,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5096,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199392,
+      "enemy_group_label": "GM_Fame_Chap2_Boss_ENG06__Arena",
+      "enemy_group_enemies": [
+        5096
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 7,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 9,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 31715,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199402,
+      "enemy_group_label": "GM_GiveAll_Chap4_Boss_ENG01__Arena",
+      "enemy_group_enemies": [
+        5126,
+        31766,
+        31715
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 6,
+      "slot": 1,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 9,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 31766,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199402,
+      "enemy_group_label": "GM_GiveAll_Chap4_Boss_ENG01__Arena",
+      "enemy_group_enemies": [
+        5126,
+        31766,
+        31715
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 10,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5126,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199402,
+      "enemy_group_label": "GM_GiveAll_Chap4_Boss_ENG01__Arena",
+      "enemy_group_enemies": [
+        5126,
+        31766,
+        31715
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 36,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 5127,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199403,
+      "enemy_group_label": "GM_GiveAll_Chap4_Boss_ENG02__Arena",
+      "enemy_group_enemies": [
+        5127
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10717,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "BattleAbortConditions",
+      "owner_table": "BattleAbortConditions",
+      "owner_row_id": 43,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 98042,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 199424,
+      "enemy_group_label": "GM_GiveAll_Chap8_Boss_ENG07__Arena",
+      "enemy_group_enemies": [
+        98042
+      ],
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

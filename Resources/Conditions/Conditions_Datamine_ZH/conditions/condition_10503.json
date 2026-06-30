@@ -1,0 +1,178 @@
+{
+  "condition_id": 10503,
+  "total_uses": 3,
+  "uses_by_subsystem": {
+    "TacticalList": 3
+  },
+  "uses_by_table": {
+    "TacticalList": 3
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[1]": 3
+  },
+  "param_stats": {
+    "count": 3,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10302,
+      3
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 32192,
+      "use_count": 1,
+      "label": "AGM_Boss_Chp8_01_01",
+      "name_best": "圣者萨赞特斯",
+      "type_id": 21787,
+      "tactical_assign_id": 30398,
+      "skills_id": 51661
+    },
+    {
+      "enemy_id": 132192,
+      "use_count": 1,
+      "label": "AGM_Boss_Chp8_01_01__B32192",
+      "name_best": "赋予我方单体<skl_turn_count>\n异常状态无效的效果。",
+      "type_id": 121787,
+      "tactical_assign_id": 130398,
+      "skills_id": 51661
+    },
+    {
+      "enemy_id": 32635,
+      "use_count": 1,
+      "label": "Rematch_Season26_Boss01_01",
+      "name_best": "赋予我方单体<skl_turn_count>\n异常状态无效的效果。",
+      "type_id": 121787,
+      "tactical_assign_id": 130398,
+      "skills_id": 51661
+    }
+  ],
+  "top_skills": {},
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10503,
+      "param": 0,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 22669,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 22669,
+      "tactical_action_id": 0,
+      "enemy_id": 32192,
+      "enemy_label": "AGM_Boss_Chp8_01_01",
+      "enemy_name_best": "圣者萨赞特斯",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10302
+      ]
+    },
+    {
+      "condition_id": 10503,
+      "param": 0,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 22669,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 22669,
+      "tactical_action_id": 0,
+      "enemy_id": 132192,
+      "enemy_label": "AGM_Boss_Chp8_01_01__B32192",
+      "enemy_name_best": "赋予我方单体<skl_turn_count>\n异常状态无效的效果。",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10302
+      ]
+    },
+    {
+      "condition_id": 10503,
+      "param": 0,
+      "slot": 1,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 22669,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 22669,
+      "tactical_action_id": 0,
+      "enemy_id": 32635,
+      "enemy_label": "Rematch_Season26_Boss01_01",
+      "enemy_name_best": "赋予我方单体<skl_turn_count>\n异常状态无效的效果。",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10302
+      ]
+    }
+  ]
+}

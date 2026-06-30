@@ -1,0 +1,16 @@
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local temporary files
+/tmp/
+temp/
+*.tmp
+*.bak
+
+# Generated archive copies
+CotCPort*.7z
+CotCPort*.zip

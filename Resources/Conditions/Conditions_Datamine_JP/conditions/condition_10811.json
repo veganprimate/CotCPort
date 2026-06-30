@@ -1,0 +1,89 @@
+{
+  "condition_id": 10811,
+  "total_uses": 1,
+  "uses_by_subsystem": {
+    "SkillConditionList": 1
+  },
+  "uses_by_table": {
+    "SkillConditionList": 1
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 1
+  },
+  "param_stats": {
+    "count": 1,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "901207": {
+      "skill_id": 901207,
+      "use_count": 1,
+      "name_id": 152841,
+      "name_best": "状態異常特攻",
+      "detail_id": 154003,
+      "detail_best": "装備者が状態異常の敵を攻撃するとき\n攻撃アビリティの威力アップ",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        74786
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10811,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 348,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 901207,
+      "skill_index": -1,
+      "skill_avail_id": 74786,
+      "skill_condition_list_id": 348,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

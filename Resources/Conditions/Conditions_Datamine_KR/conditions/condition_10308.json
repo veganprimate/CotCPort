@@ -1,0 +1,132 @@
+{
+  "condition_id": 10308,
+  "total_uses": 2,
+  "uses_by_subsystem": {
+    "TacticalList": 2
+  },
+  "uses_by_table": {
+    "TacticalList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[0]": 2
+  },
+  "param_stats": {
+    "count": 2,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10002,
+      2
+    ],
+    [
+      10712,
+      2
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 33483,
+      "use_count": 2,
+      "label": "QPSWdD11_side04_01_Enemy_01",
+      "name_best": "봉마를 연구하는 늙은 학자",
+      "type_id": 23190,
+      "tactical_assign_id": 30766,
+      "skills_id": 52565
+    }
+  ],
+  "top_skills": {},
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10308,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 24998,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 24998,
+      "tactical_action_id": 0,
+      "enemy_id": 33483,
+      "enemy_label": "QPSWdD11_side04_01_Enemy_01",
+      "enemy_name_best": "봉마를 연구하는 늙은 학자",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002,
+        10712
+      ]
+    },
+    {
+      "condition_id": 10308,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 24999,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 24999,
+      "tactical_action_id": 0,
+      "enemy_id": 33483,
+      "enemy_label": "QPSWdD11_side04_01_Enemy_01",
+      "enemy_name_best": "봉마를 연구하는 늙은 학자",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10002,
+        10712
+      ]
+    }
+  ]
+}

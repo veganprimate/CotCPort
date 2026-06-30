@@ -1,0 +1,134 @@
+{
+  "condition_id": 10854,
+  "total_uses": 2,
+  "uses_by_subsystem": {
+    "SkillConditionList": 2
+  },
+  "uses_by_table": {
+    "SkillConditionList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 2
+  },
+  "param_stats": {
+    "count": 2,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        2
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "611391": {
+      "skill_id": 611391,
+      "use_count": 1,
+      "name_id": 102791,
+      "name_best": "저력: 흉란",
+      "detail_id": 102807,
+      "detail_best": "(준비 턴: 3/재사용 턴: 6)\n커맨드 선택 시, 자신에게 특수 효과 \"광란\"을 부여(2턴)<sidenote>\n광란: 자신의 커맨드 선택이 불가(교대는 가능)가 되며\n어빌리티 슬롯 1을 부스트 MAX로 2회 실행(SP・BP 소비 없음)\n※어빌리티 슬롯 1이 \"설정 없음\"인 경우에는 사용할 수 없음\n※어빌리티가 사용 불가가 되는 효과의 영향을 받지 않음",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        176734
+      ]
+    },
+    "611409": {
+      "skill_id": 611409,
+      "use_count": 1,
+      "name_id": 102791,
+      "name_best": "저력: 흉란",
+      "detail_id": 102808,
+      "detail_best": "(준비 턴:3/재사용 턴:6)\n커맨드 선택 시, 자신에게 특수 효과 \"흉란\"을 부여(3턴)<sidenote>\n흉란:자신의 커맨드 선택이 불가능(교대는 가능)해지고\n어빌리티 슬롯1을 부스트 MAX로 2회 실행(SP・BP 소비 없음)\n※어빌리티 슬롯1이 「설정 없음」인 경우에는 사용할 수 없음\n※어빌리티가 사용 불가능해지는 효과의 영향을 받지 않음",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        176771
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10854,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 669,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611391,
+      "skill_index": -1,
+      "skill_avail_id": 176734,
+      "skill_condition_list_id": 669,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10854,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 669,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611409,
+      "skill_index": -1,
+      "skill_avail_id": 176771,
+      "skill_condition_list_id": 669,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

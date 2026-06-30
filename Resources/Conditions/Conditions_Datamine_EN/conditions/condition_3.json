@@ -1,0 +1,224 @@
+{
+  "condition_id": 3,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "SkillConditionList": 4
+  },
+  "uses_by_table": {
+    "SkillConditionList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 4
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "1390": {
+      "skill_id": 1390,
+      "use_count": 1,
+      "name_id": 39695,
+      "name_best": "Avenger's Phys. Atk. Boost III",
+      "detail_id": 45683,
+      "detail_best": "Front row incapacitated: Impart <skl_target_type> with <skl_ailment_status> <skl_ailment_value>%.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        1422
+      ]
+    },
+    "2362": {
+      "skill_id": 2362,
+      "use_count": 1,
+      "name_id": 80441,
+      "name_best": "Formidable",
+      "detail_id": 90441,
+      "detail_best": "Deal <skl_calc_type> <skl_attribute_name> damage to <skl_target_type> (potency: <skl_avail_value>). Potency doubles if target has 10 or more Shield Points.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        2762
+      ]
+    },
+    "2927": {
+      "skill_id": 2927,
+      "use_count": 1,
+      "name_id": 80893,
+      "name_best": "Armor Piercer",
+      "detail_id": 90924,
+      "detail_best": "Deal <skl_calc_type> <skl_attribute_name> damage to <skl_target_type> (potency: <skl_avail_value>). Potency doubles if target has 10 or more Shield Points.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        4754
+      ]
+    },
+    "606380": {
+      "skill_id": 606380,
+      "use_count": 1,
+      "name_id": 97502,
+      "name_best": "Anthropophobia",
+      "detail_id": 97980,
+      "detail_best": "When Front is Incapacitated: Impart <skl_target_type> with increased Crit. damage multiplier to 1.4x (normally 1.25x)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        174292
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 3,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 7,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 1390,
+      "skill_index": -1,
+      "skill_avail_id": 1422,
+      "skill_condition_list_id": 7,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 3,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 7,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 2362,
+      "skill_index": -1,
+      "skill_avail_id": 2762,
+      "skill_condition_list_id": 7,
+      "condition_ref_field": "m_SkillAvailMagnificationCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 3,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 7,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 2927,
+      "skill_index": -1,
+      "skill_avail_id": 4754,
+      "skill_condition_list_id": 7,
+      "condition_ref_field": "m_SkillAvailMagnificationCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 3,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 7,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 606380,
+      "skill_index": -1,
+      "skill_avail_id": 174292,
+      "skill_condition_list_id": 7,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "condition_id": 10701,
+  "total_uses": 5,
+  "uses_by_subsystem": {
+    "TacticalList": 5
+  },
+  "uses_by_table": {
+    "TacticalList": 5
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[3]": 5
+  },
+  "param_stats": {
+    "count": 5,
+    "min": 2,
+    "max": 2,
+    "mean": 2.0,
+    "median": 2,
+    "p10": 2,
+    "p25": 2,
+    "p75": 2,
+    "p90": 2,
+    "top10": [
+      [
+        2,
+        5
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      2,
+      5
+    ],
+    [
+      640,
+      5
+    ],
+    [
+      709,
+      5
+    ],
+    [
+      10301,
+      5
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 15110,
+      "use_count": 1,
+      "label": "B06_002_Boss_01_01__B5110",
+      "name_best": "무도희 타투록",
+      "type_id": 120881,
+      "tactical_assign_id": 130107,
+      "skills_id": 51056
+    },
+    {
+      "enemy_id": 32180,
+      "use_count": 1,
+      "label": "Rematch_Season01_Boss06_01",
+      "name_best": "무도희 타투록",
+      "type_id": 22346,
+      "tactical_assign_id": 130107,
+      "skills_id": 51056
+    },
+    {
+      "enemy_id": 33782,
+      "use_count": 1,
+      "label": "QPO_HandicapBattle_AnotherEX03_26_04_Enemy_01",
+      "name_best": "무도희 타투록",
+      "type_id": 23349,
+      "tactical_assign_id": 130107,
+      "skills_id": 51056
+    },
+    {
+      "enemy_id": 34147,
+      "use_count": 1,
+      "label": "QPO_HandicapBattle_AnotherEX01_40_03_Enemy_01",
+      "name_best": "무도희 타투록",
+      "type_id": 23658,
+      "tactical_assign_id": 130107,
+      "skills_id": 51056
+    },
+    {
+      "enemy_id": 99803,
+      "use_count": 1,
+      "label": "HandicapBattle_RankEX01_01_04_Enemy1",
+      "name_best": "무도희 타투록",
+      "type_id": 98003,
+      "tactical_assign_id": 99803,
+      "skills_id": 99803
+    }
+  ],
+  "top_skills": {},
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10701,
+      "param": 2,
+      "slot": 3,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20809,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20809,
+      "tactical_action_id": 0,
+      "enemy_id": 15110,
+      "enemy_label": "B06_002_Boss_01_01__B5110",
+      "enemy_name_best": "무도희 타투록",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        640,
+        709,
+        10301
+      ]
+    },
+    {
+      "condition_id": 10701,
+      "param": 2,
+      "slot": 3,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20809,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20809,
+      "tactical_action_id": 0,
+      "enemy_id": 32180,
+      "enemy_label": "Rematch_Season01_Boss06_01",
+      "enemy_name_best": "무도희 타투록",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        640,
+        709,
+        10301
+      ]
+    },
+    {
+      "condition_id": 10701,
+      "param": 2,
+      "slot": 3,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20809,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20809,
+      "tactical_action_id": 0,
+      "enemy_id": 33782,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX03_26_04_Enemy_01",
+      "enemy_name_best": "무도희 타투록",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        640,
+        709,
+        10301
+      ]
+    },
+    {
+      "condition_id": 10701,
+      "param": 2,
+      "slot": 3,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 20809,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 20809,
+      "tactical_action_id": 0,
+      "enemy_id": 34147,
+      "enemy_label": "QPO_HandicapBattle_AnotherEX01_40_03_Enemy_01",
+      "enemy_name_best": "무도희 타투록",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        640,
+        709,
+        10301
+      ]
+    },
+    {
+      "condition_id": 10701,
+      "param": 2,
+      "slot": 3,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 98023,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 98023,
+      "tactical_action_id": 0,
+      "enemy_id": 99803,
+      "enemy_label": "HandicapBattle_RankEX01_01_04_Enemy1",
+      "enemy_name_best": "무도희 타투록",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        2,
+        640,
+        709,
+        10301
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "condition_id": 3,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "SkillConditionList": 4
+  },
+  "uses_by_table": {
+    "SkillConditionList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 4
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "1390": {
+      "skill_id": 1390,
+      "use_count": 1,
+      "name_id": 39695,
+      "name_best": "복수 시 물리 공격 강화Ⅲ",
+      "detail_id": 45683,
+      "detail_best": "전열 전투 불가 시: <skl_target_type>에게\n<skl_ailment_status> <skl_ailment_value>％ 효과를 부여",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        1422
+      ]
+    },
+    "2362": {
+      "skill_id": 2362,
+      "use_count": 1,
+      "name_id": 80441,
+      "name_best": "경",
+      "detail_id": 90441,
+      "detail_best": "<skl_target_type>에게 <skl_attribute_name> <skl_calc_type> 공격(위력 <skl_avail_value>)\n공격 대상의 실드 포인트가 10 이상일 때 위력 2배",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        2762
+      ]
+    },
+    "2927": {
+      "skill_id": 2927,
+      "use_count": 1,
+      "name_id": 80893,
+      "name_best": "갑옷 꿰뚫기",
+      "detail_id": 90924,
+      "detail_best": "<skl_target_type>에게 <skl_attribute_name> <skl_calc_type> 공격(위력 <skl_avail_value>)\n공격 대상의 실드 포인트가 10 이상일 때 위력 2배",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        4754
+      ]
+    },
+    "606380": {
+      "skill_id": 606380,
+      "use_count": 1,
+      "name_id": 97502,
+      "name_best": "안트로포포비아",
+      "detail_id": 97980,
+      "detail_best": "전열 전투 불가 시: <skl_target_type>에게\n크리티컬 시의 대미지 배율이\n1.4배가 되는 효과를 부여(일반 시에는 1.25배)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        174292
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 3,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 7,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 1390,
+      "skill_index": -1,
+      "skill_avail_id": 1422,
+      "skill_condition_list_id": 7,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 3,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 7,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 2362,
+      "skill_index": -1,
+      "skill_avail_id": 2762,
+      "skill_condition_list_id": 7,
+      "condition_ref_field": "m_SkillAvailMagnificationCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 3,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 7,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 2927,
+      "skill_index": -1,
+      "skill_avail_id": 4754,
+      "skill_condition_list_id": 7,
+      "condition_ref_field": "m_SkillAvailMagnificationCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 3,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 7,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 606380,
+      "skill_index": -1,
+      "skill_avail_id": 174292,
+      "skill_condition_list_id": 7,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "condition_id": 10846,
+  "total_uses": 1,
+  "uses_by_subsystem": {
+    "SkillConditionList": 1
+  },
+  "uses_by_table": {
+    "SkillConditionList": 1
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 1
+  },
+  "param_stats": {
+    "count": 1,
+    "min": 1,
+    "max": 1,
+    "mean": 1.0,
+    "median": 1,
+    "p10": 1,
+    "p25": 1,
+    "p75": 1,
+    "p90": 1,
+    "top10": [
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [
+      [
+        665,
+        1
+      ]
+    ],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "611042": {
+      "skill_id": 611042,
+      "use_count": 1,
+      "name_id": 102471,
+      "name_best": "葬生的黑炎",
+      "detail_id": 102488,
+      "detail_best": "处于前卫且回合结束时:\n使不处于咒傀状态的已战斗不能队友(前后卫全体)\n复活(回复量为最大HP的100%)\n此外，若复活对象不处于咒傀痕状态\n则赋予特殊效果“咒傀”<sidenote>\n咒傀:物攻・物防・会心提升10%\n在战斗不能时不会消失",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        176491
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10846,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 635,
+      "ailment_type": 665,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611042,
+      "skill_index": -1,
+      "skill_avail_id": 176491,
+      "skill_condition_list_id": 635,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

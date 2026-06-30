@@ -1,0 +1,230 @@
+{
+  "condition_id": 10801,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "SkillConditionList": 4
+  },
+  "uses_by_table": {
+    "SkillConditionList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 2,
+    "SkillConditionList[1]": 2
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 0,
+    "max": 2,
+    "mean": 0.75,
+    "median": 0.5,
+    "p10": 0,
+    "p25": 0,
+    "p75": 1,
+    "p90": 2,
+    "top10": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10800,
+      2
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "608004": {
+      "skill_id": 608004,
+      "use_count": 2,
+      "name_id": 99284,
+      "name_best": "친구와 가는 왕도",
+      "detail_id": 99315,
+      "detail_best": "자신에게 특수 효과 \"천열\" 또는 \"쌍월\"이 부여되어 있을 때\n자신에게 특수 효과 \"무귀\"를 부여\n자신에게 특수 효과 \"천열\"과 \"쌍월\"이 부여되어 있을 때\n추가로 자신에게 특수 효과 \"무신\"을 부여<sidenote>\n무귀: 물리 공격 30% 상승 효과\n무신: 공격 어빌리티를 2회 발동하는 효과\n(부여된 시점부터 효과 발휘/추가 발동분은 SP 소비 없음)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        72422,
+        72423
+      ]
+    },
+    "901210": {
+      "skill_id": 901210,
+      "use_count": 1,
+      "name_id": 152844,
+      "name_best": "반지의 은총",
+      "detail_id": 154006,
+      "detail_best": "장비하고 <chara_name>의\n전열 또는 후열에 있으면\n물리 공격력/속성 공격력 상승\n효과를 자신에게 부여한다.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        74789
+      ]
+    },
+    "902021": {
+      "skill_id": 902021,
+      "use_count": 1,
+      "name_id": 153230,
+      "name_best": "반지의 은총",
+      "detail_id": 153370,
+      "detail_best": "장비하고 <chara_name>의\n전열 또는 후열에 있으면\n물리 공격력/속성 공격력 상승\n효과를 자신에게 부여한다.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        74789
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10801,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 300,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 901210,
+      "skill_index": -1,
+      "skill_avail_id": 74789,
+      "skill_condition_list_id": 300,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10801,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 300,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 902021,
+      "skill_index": -1,
+      "skill_avail_id": 74789,
+      "skill_condition_list_id": 300,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10801,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 396,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 608004,
+      "skill_index": -1,
+      "skill_avail_id": 72422,
+      "skill_condition_list_id": 396,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10800
+      ]
+    },
+    {
+      "condition_id": 10801,
+      "param": 2,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 397,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 608004,
+      "skill_index": -1,
+      "skill_avail_id": 72423,
+      "skill_condition_list_id": 397,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10800
+      ]
+    }
+  ]
+}

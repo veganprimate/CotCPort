@@ -1,0 +1,229 @@
+{
+  "condition_id": 710,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "TacticalList": 4
+  },
+  "uses_by_table": {
+    "TacticalList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[0]": 4
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      640,
+      4
+    ],
+    [
+      10302,
+      4
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 31673,
+      "use_count": 1,
+      "label": "Enemy_JobTowerSch_f0005_r001EX_01",
+      "name_best": "試煉の大学者",
+      "type_id": 21888,
+      "tactical_assign_id": 30236,
+      "skills_id": 51338
+    },
+    {
+      "enemy_id": 199078,
+      "use_count": 1,
+      "label": "RogueLike_Enemy_XZT05_1",
+      "name_best": "試煉の大学者",
+      "type_id": 91140,
+      "tactical_assign_id": 30236,
+      "skills_id": 51338
+    },
+    {
+      "enemy_id": 99232,
+      "use_count": 1,
+      "label": "RogueLike_Enemy_XZT05_1_easy",
+      "name_best": "試煉の大学者",
+      "type_id": 91140,
+      "tactical_assign_id": 30236,
+      "skills_id": 51338
+    },
+    {
+      "enemy_id": 99365,
+      "use_count": 1,
+      "label": "RogueLike_Enemy_XZT05_1_hard",
+      "name_best": "試煉の大学者",
+      "type_id": 91140,
+      "tactical_assign_id": 30236,
+      "skills_id": 51338
+    }
+  ],
+  "top_skills": {},
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 710,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21608,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21608,
+      "tactical_action_id": 0,
+      "enemy_id": 31673,
+      "enemy_label": "Enemy_JobTowerSch_f0005_r001EX_01",
+      "enemy_name_best": "試煉の大学者",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        640,
+        10302
+      ]
+    },
+    {
+      "condition_id": 710,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21608,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21608,
+      "tactical_action_id": 0,
+      "enemy_id": 199078,
+      "enemy_label": "RogueLike_Enemy_XZT05_1",
+      "enemy_name_best": "試煉の大学者",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        640,
+        10302
+      ]
+    },
+    {
+      "condition_id": 710,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21608,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21608,
+      "tactical_action_id": 0,
+      "enemy_id": 99232,
+      "enemy_label": "RogueLike_Enemy_XZT05_1_easy",
+      "enemy_name_best": "試煉の大学者",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        640,
+        10302
+      ]
+    },
+    {
+      "condition_id": 710,
+      "param": 0,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 21608,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 21608,
+      "tactical_action_id": 0,
+      "enemy_id": 99365,
+      "enemy_label": "RogueLike_Enemy_XZT05_1_hard",
+      "enemy_name_best": "試煉の大学者",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        640,
+        10302
+      ]
+    }
+  ]
+}

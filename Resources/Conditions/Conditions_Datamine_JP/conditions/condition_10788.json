@@ -1,0 +1,208 @@
+{
+  "condition_id": 10788,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "SkillConditionList": 4
+  },
+  "uses_by_table": {
+    "SkillConditionList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 2,
+    "SkillConditionList[1]": 2
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 1,
+    "max": 1,
+    "mean": 1.0,
+    "median": 1.0,
+    "p10": 1,
+    "p25": 1,
+    "p75": 1,
+    "p90": 1,
+    "top10": [
+      [
+        1,
+        4
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [
+      [
+        751,
+        2
+      ],
+      [
+        752,
+        2
+      ]
+    ],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "612291": {
+      "skill_id": 612291,
+      "use_count": 2,
+      "name_id": 103642,
+      "name_best": "切り苛む暗器",
+      "detail_id": 103659,
+      "detail_best": "自身が「たたかう」で攻撃時、攻撃対象に“裂傷pt”を1追加\n深手状態の敵がいる時\n自身に威力アップ30％の効果を付与(同系統の効果重複不可)<sidenote>\n裂傷pt:出血の状態異常が付与されている判定になり\n(※判定のみで出血の効果は発生しない)\n出血を付与する攻撃と攻撃対象が出血状態の時威力が倍化する攻撃を\n受けた時に弱点を突かれたことになる特殊効果\n※サポアビや装備性能による追加の付与効果は除く\n※裂傷ptがない敵に対し、行動中に追加した場合\n　その行動中は弱点を突かれたことになる効果は発揮しない",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        177996
+      ]
+    },
+    "611020": {
+      "skill_id": 611020,
+      "use_count": 2,
+      "name_id": 103676,
+      "name_best": "無慈悲な追撃",
+      "detail_id": 103678,
+      "detail_best": "深手状態の敵がいる時\n自身が使用する攻撃アビリティを2回発動する効果を付与\n(追加発動分はSP消費無し)\n※深手状態の敵を攻撃中に倒しても効果を発揮する",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178047
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10788,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 794,
+      "ailment_type": 751,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612291,
+      "skill_index": -1,
+      "skill_avail_id": 177996,
+      "skill_condition_list_id": 794,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10788,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 794,
+      "ailment_type": 752,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612291,
+      "skill_index": -1,
+      "skill_avail_id": 177996,
+      "skill_condition_list_id": 794,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10788,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 794,
+      "ailment_type": 751,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611020,
+      "skill_index": -1,
+      "skill_avail_id": 178047,
+      "skill_condition_list_id": 794,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10788,
+      "param": 1,
+      "slot": 1,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 794,
+      "ailment_type": 752,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 611020,
+      "skill_index": -1,
+      "skill_avail_id": 178047,
+      "skill_condition_list_id": 794,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

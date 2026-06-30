@@ -1,0 +1,85 @@
+{
+  "condition_id": 10734,
+  "total_uses": 1,
+  "uses_by_subsystem": {
+    "TacticalList": 1
+  },
+  "uses_by_table": {
+    "TacticalList": 1
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[0]": 1
+  },
+  "param_stats": {
+    "count": 1,
+    "min": 100,
+    "max": 100,
+    "mean": 100.0,
+    "median": 100,
+    "p10": 100,
+    "p25": 100,
+    "p75": 100,
+    "p90": 100,
+    "top10": [
+      [
+        100,
+        1
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [
+    {
+      "enemy_id": 33322,
+      "use_count": 1,
+      "label": "QPSFsF12_side05_01_Enemy_01_04",
+      "name_best": "Fragrant Furious Fungoid",
+      "type_id": 23075,
+      "tactical_assign_id": 130645,
+      "skills_id": 52311
+    }
+  ],
+  "top_skills": {},
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10734,
+      "param": 100,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 124151,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 124151,
+      "tactical_action_id": 0,
+      "enemy_id": 33322,
+      "enemy_label": "QPSFsF12_side05_01_Enemy_01_04",
+      "enemy_name_best": "Fragrant Furious Fungoid",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

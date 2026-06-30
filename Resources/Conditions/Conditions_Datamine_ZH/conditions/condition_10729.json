@@ -1,0 +1,203 @@
+{
+  "condition_id": 10729,
+  "total_uses": 3,
+  "uses_by_subsystem": {
+    "SkillConditionList": 3
+  },
+  "uses_by_table": {
+    "SkillConditionList": 3
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 3
+  },
+  "param_stats": {
+    "count": 3,
+    "min": 9,
+    "max": 9,
+    "mean": 9.0,
+    "median": 9,
+    "p10": 9,
+    "p25": 9,
+    "p75": 9,
+    "p90": 9,
+    "top10": [
+      [
+        9,
+        3
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [
+      [
+        753,
+        3
+      ]
+    ],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      10724,
+      3
+    ]
+  ],
+  "top_enemies": [],
+  "top_skills": {
+    "612296": {
+      "skill_id": 612296,
+      "use_count": 1,
+      "name_id": 103646,
+      "name_best": "剜割伤口",
+      "detail_id": 103663,
+      "detail_best": "当队友使敌人Break时\n为被Break的敌人追加1点“裂伤pt”\n之后，若被Break的敌人“裂伤pt”≥9且非重伤状态\n则为其赋予特殊效果“重伤”(作为战斗技能赋予)\n但“裂伤pt”会变为1<sidenote>\n裂伤pt:在基础技能中有记载效果\n重伤:受到出血效果的伤害变为20倍\n受到的攻击威力增加15%(部分除外/同系效果不可叠加)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178005,
+        178006,
+        178007
+      ]
+    },
+    "612309": {
+      "skill_id": 612309,
+      "use_count": 1,
+      "name_id": 103646,
+      "name_best": "剜割伤口",
+      "detail_id": 103912,
+      "detail_best": "当队友使敌人Break时\n为被Break的敌人追加1点“裂伤pt”并\n恢复埃斯梅拉达3点BP\n之后，若被Break的敌人“裂伤pt”≥9且非重伤状态\n则为其赋予特殊效果“重伤”(作为战斗技能赋予)\n但“裂伤pt”会变为1\n※使敌人Break的队友处于战斗不能时，恢复效果也不会发动<sidenote>\n裂伤pt:在基础技能中有记载效果\n重伤:受到出血效果的伤害变为20倍\n受到的攻击威力增加15%(部分除外/同系效果不可叠加)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178009,
+        178011,
+        178012,
+        178010
+      ]
+    },
+    "612314": {
+      "skill_id": 612314,
+      "use_count": 1,
+      "name_id": 103679,
+      "name_best": "刻刑",
+      "detail_id": 103680,
+      "detail_best": "对<skl_target_type>进行<skl_attribute_name><skl_calc_type>攻击(威力 <skl_avail_value>)\n此外，追加2点“裂伤pt”\n攻击对象处于出血状态时威力为1.2倍\n之后，若攻击对象“裂伤pt”≥9且非重伤状态\n赋予特殊效果“重伤”\n但“裂伤pt”会变为1<sidenote>\n裂伤pt:在基础技能中有记载效果\n重伤:受到出血效果的伤害变为20倍\n受到的攻击威力增加15%(部分除外/同系效果不可叠加)",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        178048,
+        178049,
+        178050,
+        178051
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10729,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 769,
+      "ailment_type": 753,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612296,
+      "skill_index": -1,
+      "skill_avail_id": 178006,
+      "skill_condition_list_id": 769,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10724
+      ]
+    },
+    {
+      "condition_id": 10729,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 769,
+      "ailment_type": 753,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612309,
+      "skill_index": -1,
+      "skill_avail_id": 178011,
+      "skill_condition_list_id": 769,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10724
+      ]
+    },
+    {
+      "condition_id": 10729,
+      "param": 9,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 769,
+      "ailment_type": 753,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 612314,
+      "skill_index": -1,
+      "skill_avail_id": 178050,
+      "skill_condition_list_id": 769,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        10724
+      ]
+    }
+  ]
+}

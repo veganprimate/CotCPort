@@ -1,0 +1,229 @@
+{
+  "condition_id": 703,
+  "total_uses": 4,
+  "uses_by_subsystem": {
+    "TacticalList": 4
+  },
+  "uses_by_table": {
+    "TacticalList": 4
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[2]": 4
+  },
+  "param_stats": {
+    "count": 4,
+    "min": 0,
+    "max": 0,
+    "mean": 0.0,
+    "median": 0.0,
+    "p10": 0,
+    "p25": 0,
+    "p75": 0,
+    "p90": 0,
+    "top10": [
+      [
+        0,
+        4
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      709,
+      4
+    ],
+    [
+      10301,
+      4
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 32729,
+      "use_count": 1,
+      "label": "QPS_Boss_CP3_Enemy_02_02",
+      "name_best": "Ignazio the Hungry Fang",
+      "type_id": 22707,
+      "tactical_assign_id": 130531,
+      "skills_id": 52015
+    },
+    {
+      "enemy_id": 33565,
+      "use_count": 1,
+      "label": "QPS_Boss_CP9_Enemy_03_01",
+      "name_best": "Ignazio the Hungry Fang",
+      "type_id": 22707,
+      "tactical_assign_id": 130531,
+      "skills_id": 52015
+    },
+    {
+      "enemy_id": 32762,
+      "use_count": 1,
+      "label": "QPS_Rematch_Boss_CP3_Enemy_02_02",
+      "name_best": "Ignazio the Hungry Fang",
+      "type_id": 22707,
+      "tactical_assign_id": 130531,
+      "skills_id": 52015
+    },
+    {
+      "enemy_id": 33442,
+      "use_count": 1,
+      "label": "QPS_Boss_CP8_Enemy_02_01",
+      "name_best": "Noma",
+      "type_id": 23181,
+      "tactical_assign_id": 30731,
+      "skills_id": 52470
+    }
+  ],
+  "top_skills": {},
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 703,
+      "param": 0,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23459,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23459,
+      "tactical_action_id": 0,
+      "enemy_id": 32729,
+      "enemy_label": "QPS_Boss_CP3_Enemy_02_02",
+      "enemy_name_best": "Ignazio the Hungry Fang",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        709,
+        10301
+      ]
+    },
+    {
+      "condition_id": 703,
+      "param": 0,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23459,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23459,
+      "tactical_action_id": 0,
+      "enemy_id": 33565,
+      "enemy_label": "QPS_Boss_CP9_Enemy_03_01",
+      "enemy_name_best": "Ignazio the Hungry Fang",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        709,
+        10301
+      ]
+    },
+    {
+      "condition_id": 703,
+      "param": 0,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23459,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23459,
+      "tactical_action_id": 0,
+      "enemy_id": 32762,
+      "enemy_label": "QPS_Rematch_Boss_CP3_Enemy_02_02",
+      "enemy_name_best": "Ignazio the Hungry Fang",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        709,
+        10301
+      ]
+    },
+    {
+      "condition_id": 703,
+      "param": 0,
+      "slot": 2,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 24740,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 24740,
+      "tactical_action_id": 0,
+      "enemy_id": 33442,
+      "enemy_label": "QPS_Boss_CP8_Enemy_02_01",
+      "enemy_name_best": "Noma",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": [
+        709,
+        10301
+      ]
+    }
+  ]
+}

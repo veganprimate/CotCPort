@@ -1,0 +1,122 @@
+{
+  "condition_id": 10828,
+  "total_uses": 2,
+  "uses_by_subsystem": {
+    "SkillConditionList": 2
+  },
+  "uses_by_table": {
+    "SkillConditionList": 2
+  },
+  "uses_by_subsystem_slot": {
+    "SkillConditionList[0]": 2
+  },
+  "param_stats": {
+    "count": 2,
+    "min": 6,
+    "max": 6,
+    "mean": 6.0,
+    "median": 6.0,
+    "p10": 6,
+    "p25": 6,
+    "p75": 6,
+    "p90": 6,
+    "top10": [
+      [
+        6,
+        2
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [],
+  "top_enemies": [],
+  "top_skills": {
+    "608086": {
+      "skill_id": 608086,
+      "use_count": 2,
+      "name_id": 101726,
+      "name_best": "Investigative Journalism",
+      "detail_id": 101728,
+      "detail_best": "When an enemy with 6 or more revealed weak points (including granted ones) is present, \nraise Polearm damage of Entire Front Row by <skl_ailment_value>% and reduce their damage taken \nfrom some attacks by <skl_ailment_value2>% (does not stack with effects of the same type).",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        75256,
+        75257
+      ]
+    }
+  },
+  "enemy_groups": {},
+  "uses_sample": [
+    {
+      "condition_id": 10828,
+      "param": 6,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 93121,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 608086,
+      "skill_index": -1,
+      "skill_avail_id": 75256,
+      "skill_condition_list_id": 93121,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 10828,
+      "param": 6,
+      "slot": 0,
+      "subsystem": "SkillConditionList",
+      "owner_table": "SkillConditionList",
+      "owner_row_id": 93121,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 0,
+      "tactical_action_id": 0,
+      "enemy_id": 0,
+      "enemy_label": "",
+      "enemy_name_best": "",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 608086,
+      "skill_index": -1,
+      "skill_avail_id": 75257,
+      "skill_condition_list_id": 93121,
+      "condition_ref_field": "m_InvokeCondition|AND",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}

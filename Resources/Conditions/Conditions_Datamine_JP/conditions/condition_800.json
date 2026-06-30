@@ -1,0 +1,7687 @@
+{
+  "condition_id": 800,
+  "total_uses": 1365,
+  "uses_by_subsystem": {
+    "TacticalList": 1181,
+    "SkillConditionList": 34,
+    "BattleEventList": 150
+  },
+  "uses_by_table": {
+    "TacticalList": 1181,
+    "SkillConditionList": 34,
+    "BattleEventList": 150
+  },
+  "uses_by_subsystem_slot": {
+    "TacticalList[0]": 1080,
+    "TacticalList[1]": 77,
+    "TacticalList[2]": 20,
+    "TacticalList[3]": 1,
+    "TacticalList[4]": 3,
+    "SkillConditionList[0]": 34,
+    "BattleEventList[0]": 150
+  },
+  "param_stats": {
+    "count": 1365,
+    "min": 1,
+    "max": 14,
+    "mean": 2.087912087912088,
+    "median": 1,
+    "p10": 1,
+    "p25": 1,
+    "p75": 2,
+    "p90": 4,
+    "top10": [
+      [
+        1,
+        891
+      ],
+      [
+        2,
+        249
+      ],
+      [
+        3,
+        82
+      ],
+      [
+        8,
+        24
+      ],
+      [
+        5,
+        18
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        4,
+        16
+      ],
+      [
+        6,
+        14
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        14,
+        11
+      ]
+    ]
+  },
+  "filter_histograms": {
+    "ailment_type": [],
+    "status_type": [],
+    "weapon_type": [],
+    "magic_type": [],
+    "equipment": []
+  },
+  "cooccurrence_top": [
+    [
+      801,
+      101
+    ],
+    [
+      1001,
+      83
+    ],
+    [
+      10002,
+      32
+    ],
+    [
+      10302,
+      25
+    ],
+    [
+      10100,
+      20
+    ],
+    [
+      10805,
+      14
+    ],
+    [
+      10301,
+      13
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      640,
+      9
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      10713,
+      8
+    ],
+    [
+      616,
+      5
+    ],
+    [
+      10715,
+      4
+    ],
+    [
+      709,
+      4
+    ],
+    [
+      701,
+      3
+    ],
+    [
+      106,
+      3
+    ],
+    [
+      309,
+      3
+    ],
+    [
+      604,
+      3
+    ],
+    [
+      501,
+      2
+    ],
+    [
+      500,
+      2
+    ],
+    [
+      10103,
+      2
+    ],
+    [
+      207,
+      2
+    ],
+    [
+      301,
+      2
+    ],
+    [
+      10712,
+      2
+    ],
+    [
+      600,
+      2
+    ],
+    [
+      10720,
+      1
+    ],
+    [
+      10809,
+      1
+    ]
+  ],
+  "top_enemies": [
+    {
+      "enemy_id": 20374,
+      "use_count": 14,
+      "label": "D_Enemy_Snow_SnT21_P001",
+      "name_best": "つぶやく老人",
+      "type_id": 20408,
+      "tactical_assign_id": 163,
+      "skills_id": 50322
+    },
+    {
+      "enemy_id": 31911,
+      "use_count": 14,
+      "label": "Enemy_StrPersonTower_f0001_r001EX_001",
+      "name_best": "つぶやく老人",
+      "type_id": 22106,
+      "tactical_assign_id": 163,
+      "skills_id": 50322
+    },
+    {
+      "enemy_id": 21000,
+      "use_count": 13,
+      "label": "D_Enemy_Forest_FsT21_P012_1",
+      "name_best": "伝承を語る老人",
+      "type_id": 20485,
+      "tactical_assign_id": 5000,
+      "skills_id": 50405
+    },
+    {
+      "enemy_id": 31630,
+      "use_count": 13,
+      "label": "D_Enemy_Forest_HFsB11_P001_1_02",
+      "name_best": "ヴァローレの守護者(弓)",
+      "type_id": 21855,
+      "tactical_assign_id": 5000,
+      "skills_id": 51280
+    },
+    {
+      "enemy_id": 31912,
+      "use_count": 13,
+      "label": "Enemy_StrPersonTower_f0002_r001EX_001",
+      "name_best": "伝承を語る老人",
+      "type_id": 22107,
+      "tactical_assign_id": 5000,
+      "skills_id": 50405
+    },
+    {
+      "enemy_id": 5053,
+      "use_count": 8,
+      "label": "AllMASTER_Boss_Chp8_02_01",
+      "name_best": "パーディス三世",
+      "type_id": 10055,
+      "tactical_assign_id": 10043,
+      "skills_id": 20174
+    },
+    {
+      "enemy_id": 15053,
+      "use_count": 8,
+      "label": "AllMASTER_Boss_Chp8_02_01__B5053",
+      "name_best": "...Don't mention it.",
+      "type_id": 110055,
+      "tactical_assign_id": 110043,
+      "skills_id": 20174
+    },
+    {
+      "enemy_id": 32237,
+      "use_count": 8,
+      "label": "Rematch_Season06_Boss01_01",
+      "name_best": "...Don't mention it.",
+      "type_id": 22388,
+      "tactical_assign_id": 30402,
+      "skills_id": 51666
+    },
+    {
+      "enemy_id": 33179,
+      "use_count": 8,
+      "label": "Handicap_Season06_Boss01_01",
+      "name_best": "...Don't mention it.",
+      "type_id": 22388,
+      "tactical_assign_id": 30402,
+      "skills_id": 51666
+    },
+    {
+      "enemy_id": 199109,
+      "use_count": 8,
+      "label": "RogueLike_Enemy_Boss03_1_1",
+      "name_best": "...Don't mention it.",
+      "type_id": 91109,
+      "tactical_assign_id": 30402,
+      "skills_id": 90045
+    },
+    {
+      "enemy_id": 99240,
+      "use_count": 8,
+      "label": "RogueLike_Enemy_Boss03_1_1_easy",
+      "name_best": "...Don't mention it.",
+      "type_id": 91109,
+      "tactical_assign_id": 30402,
+      "skills_id": 90044
+    },
+    {
+      "enemy_id": 99373,
+      "use_count": 8,
+      "label": "RogueLike_Enemy_Boss03_1_1_hard",
+      "name_best": "...Don't mention it.",
+      "type_id": 91109,
+      "tactical_assign_id": 30402,
+      "skills_id": 90046
+    },
+    {
+      "enemy_id": 30053,
+      "use_count": 7,
+      "label": "D_Enemy_River_RvT21_P002_1_01",
+      "name_best": "千鳥足の老傭兵",
+      "type_id": 20563,
+      "tactical_assign_id": 5002,
+      "skills_id": 50444
+    },
+    {
+      "enemy_id": 31913,
+      "use_count": 7,
+      "label": "Enemy_StrPersonTower_f0004_r001EX_001",
+      "name_best": "千鳥足の老傭兵",
+      "type_id": 22108,
+      "tactical_assign_id": 5002,
+      "skills_id": 50444
+    },
+    {
+      "enemy_id": 33908,
+      "use_count": 6,
+      "label": "AutoDungeon_RiskEnemy_01",
+      "name_best": "斬災",
+      "type_id": 23473,
+      "tactical_assign_id": 30808,
+      "skills_id": 52611
+    },
+    {
+      "enemy_id": 34178,
+      "use_count": 6,
+      "label": "AutoDungeon_RiskEnemy_02",
+      "name_best": "射災",
+      "type_id": 23689,
+      "tactical_assign_id": 30808,
+      "skills_id": 52611
+    },
+    {
+      "enemy_id": 30380,
+      "use_count": 5,
+      "label": "D_Enemy_Plain_PlT21_P006_1",
+      "name_best": "往年の大女優",
+      "type_id": 20766,
+      "tactical_assign_id": 30017,
+      "skills_id": 50741
+    },
+    {
+      "enemy_id": 31857,
+      "use_count": 5,
+      "label": "Enemy_StrPersonTower_f0009_r001_002",
+      "name_best": "往年の大女優",
+      "type_id": 22059,
+      "tactical_assign_id": 30017,
+      "skills_id": 50741
+    },
+    {
+      "enemy_id": 31916,
+      "use_count": 5,
+      "label": "Enemy_StrPersonTower_f0008_r001EX_001",
+      "name_best": "往年の大女優",
+      "type_id": 22111,
+      "tactical_assign_id": 30017,
+      "skills_id": 50741
+    },
+    {
+      "enemy_id": 32637,
+      "use_count": 5,
+      "label": "QPSSeT11_P001_Enemy_01",
+      "name_best": "敬虔な神官",
+      "type_id": 22656,
+      "tactical_assign_id": 130526,
+      "skills_id": 52010
+    },
+    {
+      "enemy_id": 5038,
+      "use_count": 3,
+      "label": "AllMASTER_Boss_Chp3_02_01",
+      "name_best": "盗賊の長ギメル",
+      "type_id": 10040,
+      "tactical_assign_id": 10030,
+      "skills_id": 10038
+    },
+    {
+      "enemy_id": 15038,
+      "use_count": 3,
+      "label": "AllMASTER_Boss_Chp3_02_01__B5038",
+      "name_best": "But you know...",
+      "type_id": 110040,
+      "tactical_assign_id": 110030,
+      "skills_id": 10038
+    },
+    {
+      "enemy_id": 32232,
+      "use_count": 3,
+      "label": "Rematch_Season05_Boss03_01",
+      "name_best": "But you know...",
+      "type_id": 22383,
+      "tactical_assign_id": 110030,
+      "skills_id": 51680
+    },
+    {
+      "enemy_id": 5049,
+      "use_count": 3,
+      "label": "AllMASTER_Boss_Chp7_01_01",
+      "name_best": "道化師ゴンスカ",
+      "type_id": 10051,
+      "tactical_assign_id": 10042,
+      "skills_id": 20173
+    },
+    {
+      "enemy_id": 15049,
+      "use_count": 3,
+      "label": "AllMASTER_Boss_Chp7_01_01__B5049",
+      "name_best": "Heh, I'll think about that later. For now,\nanything sounds better than being cooped\nup at home all day.",
+      "type_id": 110051,
+      "tactical_assign_id": 110042,
+      "skills_id": 20173
+    },
+    {
+      "enemy_id": 31275,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0080_r001b_001",
+      "name_best": "煉業な道化師ゴンスカ",
+      "type_id": 21527,
+      "tactical_assign_id": 110042,
+      "skills_id": 51037
+    },
+    {
+      "enemy_id": 31327,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0080_r001Ex001b_001",
+      "name_best": "煉業な道化師ゴンスカ",
+      "type_id": 21579,
+      "tactical_assign_id": 110042,
+      "skills_id": 51037
+    },
+    {
+      "enemy_id": 31346,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0080_r001Ex002b_001",
+      "name_best": "煉業な道化師ゴンスカ",
+      "type_id": 21598,
+      "tactical_assign_id": 110042,
+      "skills_id": 51037
+    },
+    {
+      "enemy_id": 31365,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0080_r001Ex003b_001",
+      "name_best": "煉業な道化師ゴンスカ",
+      "type_id": 21617,
+      "tactical_assign_id": 110042,
+      "skills_id": 51037
+    },
+    {
+      "enemy_id": 31384,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0080_r001Ex004b_001",
+      "name_best": "煉業な道化師ゴンスカ",
+      "type_id": 21636,
+      "tactical_assign_id": 110042,
+      "skills_id": 51037
+    },
+    {
+      "enemy_id": 32038,
+      "use_count": 3,
+      "label": "Dice_Bolaven_Rank04_Boss02",
+      "name_best": "遊業な道化師ゴンスカ",
+      "type_id": 22225,
+      "tactical_assign_id": 110042,
+      "skills_id": 20173
+    },
+    {
+      "enemy_id": 32185,
+      "use_count": 3,
+      "label": "Rematch_Season02_Boss04_01",
+      "name_best": "Heh, I'll think about that later. For now,\nanything sounds better than being cooped\nup at home all day.",
+      "type_id": 22351,
+      "tactical_assign_id": 110042,
+      "skills_id": 20173
+    },
+    {
+      "enemy_id": 199080,
+      "use_count": 3,
+      "label": "RogueLike_Enemy_XCGSK01_1",
+      "name_best": "Heh, I'll think about that later. For now,\nanything sounds better than being cooped\nup at home all day.",
+      "type_id": 91142,
+      "tactical_assign_id": 110042,
+      "skills_id": 20173
+    },
+    {
+      "enemy_id": 99233,
+      "use_count": 3,
+      "label": "RogueLike_Enemy_XCGSK01_1_easy",
+      "name_best": "Heh, I'll think about that later. For now,\nanything sounds better than being cooped\nup at home all day.",
+      "type_id": 91142,
+      "tactical_assign_id": 110042,
+      "skills_id": 20173
+    },
+    {
+      "enemy_id": 99366,
+      "use_count": 3,
+      "label": "RogueLike_Enemy_XCGSK01_1_hard",
+      "name_best": "Heh, I'll think about that later. For now,\nanything sounds better than being cooped\nup at home all day.",
+      "type_id": 91142,
+      "tactical_assign_id": 110042,
+      "skills_id": 20173
+    },
+    {
+      "enemy_id": 5002,
+      "use_count": 3,
+      "label": "Wealth_Boss_Chapter1_02_01",
+      "name_best": "兵長トリスタン",
+      "type_id": 10002,
+      "tactical_assign_id": 10049,
+      "skills_id": 10003
+    },
+    {
+      "enemy_id": 15002,
+      "use_count": 3,
+      "label": "Wealth_Boss_Chapter1_02_01__B5002",
+      "name_best": "And why are a bunch of ignorant\nbookworms suddenly interested in\nmy research?",
+      "type_id": 110002,
+      "tactical_assign_id": 110049,
+      "skills_id": 10003
+    },
+    {
+      "enemy_id": 31115,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0020_r001Ex001c_001",
+      "name_best": "煉業な兵長トリスタン",
+      "type_id": 21374,
+      "tactical_assign_id": 110049,
+      "skills_id": 10003
+    },
+    {
+      "enemy_id": 31120,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0020_r001Ex002c_001",
+      "name_best": "煉業な兵長トリスタン",
+      "type_id": 21379,
+      "tactical_assign_id": 110049,
+      "skills_id": 10003
+    },
+    {
+      "enemy_id": 31125,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0020_r001Ex003c_001",
+      "name_best": "煉業な兵長トリスタン",
+      "type_id": 21384,
+      "tactical_assign_id": 110049,
+      "skills_id": 10003
+    },
+    {
+      "enemy_id": 31130,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0020_r001Ex004c_001",
+      "name_best": "煉業な兵長トリスタン",
+      "type_id": 21389,
+      "tactical_assign_id": 110049,
+      "skills_id": 10003
+    },
+    {
+      "enemy_id": 31724,
+      "use_count": 3,
+      "label": "Dice_Wealth_Rank01_Boss01",
+      "name_best": "遊業な兵長トリスタン",
+      "type_id": 21927,
+      "tactical_assign_id": 110049,
+      "skills_id": 10003
+    },
+    {
+      "enemy_id": 5014,
+      "use_count": 3,
+      "label": "Power_Boss_Chapter2_02_01",
+      "name_best": "ユルゲン",
+      "type_id": 10016,
+      "tactical_assign_id": 10013,
+      "skills_id": 10013
+    },
+    {
+      "enemy_id": 15014,
+      "use_count": 3,
+      "label": "Power_Boss_Chapter2_02_01__B5014",
+      "name_best": "I don't have anything to show her.",
+      "type_id": 110016,
+      "tactical_assign_id": 110013,
+      "skills_id": 10013
+    },
+    {
+      "enemy_id": 31738,
+      "use_count": 3,
+      "label": "Dice_Power_Rank02_Boss02",
+      "name_best": "遊業なユルゲン",
+      "type_id": 21941,
+      "tactical_assign_id": 110013,
+      "skills_id": 10013
+    },
+    {
+      "enemy_id": 5027,
+      "use_count": 3,
+      "label": "Fame_Boss_Chapter2_01_01",
+      "name_best": "大女優フランセスカ",
+      "type_id": 10029,
+      "tactical_assign_id": 10012,
+      "skills_id": 10026
+    },
+    {
+      "enemy_id": 15027,
+      "use_count": 3,
+      "label": "Fame_Boss_Chapter2_01_01__B5027",
+      "name_best": "And to do that, I need to determine exactly\nwhere life ends and death begins.",
+      "type_id": 110029,
+      "tactical_assign_id": 110012,
+      "skills_id": 10026
+    },
+    {
+      "enemy_id": 31132,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0030_r001Ex001a_001",
+      "name_best": "煉業な大女優フランセスカ",
+      "type_id": 21391,
+      "tactical_assign_id": 110012,
+      "skills_id": 10026
+    },
+    {
+      "enemy_id": 31135,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0030_r001Ex002a_001",
+      "name_best": "煉業な大女優フランセスカ",
+      "type_id": 21394,
+      "tactical_assign_id": 110012,
+      "skills_id": 10026
+    },
+    {
+      "enemy_id": 31138,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0030_r001Ex003a_001",
+      "name_best": "煉業な大女優フランセスカ",
+      "type_id": 21397,
+      "tactical_assign_id": 110012,
+      "skills_id": 10026
+    },
+    {
+      "enemy_id": 31141,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0030_r001Ex004a_001",
+      "name_best": "煉業な大女優フランセスカ",
+      "type_id": 21400,
+      "tactical_assign_id": 110012,
+      "skills_id": 10026
+    },
+    {
+      "enemy_id": 31751,
+      "use_count": 3,
+      "label": "Dice_Fame_Rank02_Boss02",
+      "name_best": "遊業な大女優フランセスカ",
+      "type_id": 21954,
+      "tactical_assign_id": 110012,
+      "skills_id": 10026
+    },
+    {
+      "enemy_id": 199101,
+      "use_count": 3,
+      "label": "RogueLike_Enemy_Boss01_2",
+      "name_best": "遊業な大女優フランセスカ",
+      "type_id": 91101,
+      "tactical_assign_id": 110012,
+      "skills_id": 10026
+    },
+    {
+      "enemy_id": 99239,
+      "use_count": 3,
+      "label": "RogueLike_Enemy_Boss01_2_easy",
+      "name_best": "遊業な大女優フランセスカ",
+      "type_id": 91101,
+      "tactical_assign_id": 110012,
+      "skills_id": 10026
+    },
+    {
+      "enemy_id": 99372,
+      "use_count": 3,
+      "label": "RogueLike_Enemy_Boss01_2_hard",
+      "name_best": "遊業な大女優フランセスカ",
+      "type_id": 91101,
+      "tactical_assign_id": 110012,
+      "skills_id": 10026
+    },
+    {
+      "enemy_id": 31990,
+      "use_count": 3,
+      "label": "HellCurse_03_02_01",
+      "name_best": "亡者フランセスカ",
+      "type_id": 22176,
+      "tactical_assign_id": 30321,
+      "skills_id": 51537
+    },
+    {
+      "enemy_id": 131990,
+      "use_count": 3,
+      "label": "HellCurse_03_02_01__B31990",
+      "name_best": "コウモリ",
+      "type_id": 122176,
+      "tactical_assign_id": 130321,
+      "skills_id": 51537
+    },
+    {
+      "enemy_id": 33866,
+      "use_count": 3,
+      "label": "QPO_HandicapBattle_AnotherEX02_29_04_Enemy_01",
+      "name_best": "コウモリ",
+      "type_id": 23435,
+      "tactical_assign_id": 130321,
+      "skills_id": 51537
+    },
+    {
+      "enemy_id": 98886,
+      "use_count": 3,
+      "label": "Boss_QuSQ070_02a",
+      "name_best": "豪武匠の幻影",
+      "type_id": 98602,
+      "tactical_assign_id": 30699,
+      "skills_id": 55960
+    },
+    {
+      "enemy_id": 32130,
+      "use_count": 3,
+      "label": "D_Enemy_Snow_SnD23_P001_1_01",
+      "name_best": "聖火神兵",
+      "type_id": 22307,
+      "tactical_assign_id": 30370,
+      "skills_id": 51590
+    },
+    {
+      "enemy_id": 132130,
+      "use_count": 3,
+      "label": "D_Enemy_Snow_SnD23_P001_1_01__B32130",
+      "name_best": "聖火神兵",
+      "type_id": 122307,
+      "tactical_assign_id": 130370,
+      "skills_id": 51590
+    },
+    {
+      "enemy_id": 5143,
+      "use_count": 3,
+      "label": "Wealth_Boss_Chapter1_02_01_02",
+      "name_best": "And why are a bunch of ignorant\nbookworms suddenly interested in\nmy research?",
+      "type_id": 110002,
+      "tactical_assign_id": 10051,
+      "skills_id": 20180
+    },
+    {
+      "enemy_id": 5145,
+      "use_count": 3,
+      "label": "Wealth_Boss_Chapter1_02_01_03",
+      "name_best": "And why are a bunch of ignorant\nbookworms suddenly interested in\nmy research?",
+      "type_id": 110002,
+      "tactical_assign_id": 10053,
+      "skills_id": 20180
+    },
+    {
+      "enemy_id": 31032,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0020_r001c_001",
+      "name_best": "煉業な兵長トリスタン",
+      "type_id": 21290,
+      "tactical_assign_id": 10053,
+      "skills_id": 20180
+    },
+    {
+      "enemy_id": 32173,
+      "use_count": 3,
+      "label": "Rematch_Season01_Boss01_01",
+      "name_best": "And why are a bunch of ignorant\nbookworms suddenly interested in\nmy research?",
+      "type_id": 22339,
+      "tactical_assign_id": 10053,
+      "skills_id": 20180
+    },
+    {
+      "enemy_id": 33894,
+      "use_count": 3,
+      "label": "QPO_HandicapBattle_AnotherEX01_30_03_Enemy_01",
+      "name_best": "And why are a bunch of ignorant\nbookworms suddenly interested in\nmy research?",
+      "type_id": 23459,
+      "tactical_assign_id": 10053,
+      "skills_id": 20180
+    },
+    {
+      "enemy_id": 34130,
+      "use_count": 3,
+      "label": "Rematch_4_0_0__EX4_Em04_01",
+      "name_best": "And why are a bunch of ignorant\nbookworms suddenly interested in\nmy research?",
+      "type_id": 110002,
+      "tactical_assign_id": 10053,
+      "skills_id": 20180
+    },
+    {
+      "enemy_id": 5016,
+      "use_count": 3,
+      "label": "Power_Boss_Chapter2_02_01_02",
+      "name_best": "I don't have anything to show her.",
+      "type_id": 110018,
+      "tactical_assign_id": 10059,
+      "skills_id": 20186
+    },
+    {
+      "enemy_id": 5018,
+      "use_count": 3,
+      "label": "Power_Boss_Chapter2_02_01_03",
+      "name_best": "I don't have anything to show her.",
+      "type_id": 110020,
+      "tactical_assign_id": 10061,
+      "skills_id": 20188
+    },
+    {
+      "enemy_id": 5028,
+      "use_count": 3,
+      "label": "Fame_Boss_Chapter2_01_01_02",
+      "name_best": "And to do that, I need to determine exactly\nwhere life ends and death begins.",
+      "type_id": 10030,
+      "tactical_assign_id": 10067,
+      "skills_id": 20194
+    },
+    {
+      "enemy_id": 5029,
+      "use_count": 3,
+      "label": "Fame_Boss_Chapter2_01_01_03",
+      "name_best": "And to do that, I need to determine exactly\nwhere life ends and death begins.",
+      "type_id": 10031,
+      "tactical_assign_id": 10068,
+      "skills_id": 20195
+    },
+    {
+      "enemy_id": 31052,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0030_r001a_001",
+      "name_best": "煉業な大女優フランセスカ",
+      "type_id": 21310,
+      "tactical_assign_id": 10068,
+      "skills_id": 20195
+    },
+    {
+      "enemy_id": 32175,
+      "use_count": 3,
+      "label": "Rematch_Season01_Boss02_01",
+      "name_best": "And to do that, I need to determine exactly\nwhere life ends and death begins.",
+      "type_id": 22341,
+      "tactical_assign_id": 10068,
+      "skills_id": 20195
+    },
+    {
+      "enemy_id": 199018,
+      "use_count": 3,
+      "label": "RogueLike_Enemy_FLJXK_01",
+      "name_best": "And to do that, I need to determine exactly\nwhere life ends and death begins.",
+      "type_id": 91018,
+      "tactical_assign_id": 10068,
+      "skills_id": 20195
+    },
+    {
+      "enemy_id": 99166,
+      "use_count": 3,
+      "label": "RogueLike_Enemy_FLJXK_01_easy",
+      "name_best": "And to do that, I need to determine exactly\nwhere life ends and death begins.",
+      "type_id": 91018,
+      "tactical_assign_id": 10068,
+      "skills_id": 20195
+    },
+    {
+      "enemy_id": 99299,
+      "use_count": 3,
+      "label": "RogueLike_Enemy_FLJXK_01_hard",
+      "name_best": "And to do that, I need to determine exactly\nwhere life ends and death begins.",
+      "type_id": 91018,
+      "tactical_assign_id": 10068,
+      "skills_id": 20195
+    },
+    {
+      "enemy_id": 34107,
+      "use_count": 3,
+      "label": "QPO_HandicapBattle_AnotherEX03_38_2_02_Enemy_01",
+      "name_best": "And to do that, I need to determine exactly\nwhere life ends and death begins.",
+      "type_id": 23640,
+      "tactical_assign_id": 10068,
+      "skills_id": 20195
+    },
+    {
+      "enemy_id": 132353,
+      "use_count": 3,
+      "label": "RagasaLH_Chp5_Em01",
+      "name_best": "魔王オディオ・Ｓ",
+      "type_id": 22445,
+      "tactical_assign_id": 30449,
+      "skills_id": 51779
+    },
+    {
+      "enemy_id": 31054,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0030_r001c_001",
+      "name_best": "煉業なユルゲン",
+      "type_id": 21312,
+      "tactical_assign_id": 30082,
+      "skills_id": 50995
+    },
+    {
+      "enemy_id": 31134,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0030_r001Ex001c_001",
+      "name_best": "煉業なユルゲン",
+      "type_id": 21393,
+      "tactical_assign_id": 30082,
+      "skills_id": 50995
+    },
+    {
+      "enemy_id": 31137,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0030_r001Ex002c_001",
+      "name_best": "煉業なユルゲン",
+      "type_id": 21396,
+      "tactical_assign_id": 30082,
+      "skills_id": 50995
+    },
+    {
+      "enemy_id": 31140,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0030_r001Ex003c_001",
+      "name_best": "煉業なユルゲン",
+      "type_id": 21399,
+      "tactical_assign_id": 30082,
+      "skills_id": 50995
+    },
+    {
+      "enemy_id": 31143,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0030_r001Ex004c_001",
+      "name_best": "煉業なユルゲン",
+      "type_id": 21402,
+      "tactical_assign_id": 30082,
+      "skills_id": 50995
+    },
+    {
+      "enemy_id": 31248,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0070_r001a_001",
+      "name_best": "煉業な盗賊の長ギメル",
+      "type_id": 21500,
+      "tactical_assign_id": 30189,
+      "skills_id": 51036
+    },
+    {
+      "enemy_id": 31321,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0070_r001Ex001a_001",
+      "name_best": "煉業な盗賊の長ギメル",
+      "type_id": 21573,
+      "tactical_assign_id": 30189,
+      "skills_id": 51036
+    },
+    {
+      "enemy_id": 31340,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0070_r001Ex002a_001",
+      "name_best": "煉業な盗賊の長ギメル",
+      "type_id": 21592,
+      "tactical_assign_id": 30189,
+      "skills_id": 51036
+    },
+    {
+      "enemy_id": 31359,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0070_r001Ex003a_001",
+      "name_best": "煉業な盗賊の長ギメル",
+      "type_id": 21611,
+      "tactical_assign_id": 30189,
+      "skills_id": 51036
+    },
+    {
+      "enemy_id": 31378,
+      "use_count": 3,
+      "label": "Enemy_Tower_f0070_r001Ex004a_001",
+      "name_best": "煉業な盗賊の長ギメル",
+      "type_id": 21630,
+      "tactical_assign_id": 30189,
+      "skills_id": 51036
+    },
+    {
+      "enemy_id": 5000,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter1_01_01",
+      "name_best": "屈強な黒服",
+      "type_id": 10000,
+      "tactical_assign_id": 10000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 20001,
+      "use_count": 2,
+      "label": "Enemy_Duel_Test",
+      "name_best": "村人",
+      "type_id": 20001,
+      "tactical_assign_id": 10000,
+      "skills_id": 10001
+    },
+    {
+      "enemy_id": 15000,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter1_01_01__B5000",
+      "name_best": "Yes. I was sent by Sir Wossner.\nHe's taken a great interest in your work.",
+      "type_id": 110000,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 5178,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter1_01_01_02",
+      "name_best": "Yes. I was sent by Sir Wossner.\nHe's taken a great interest in your work.",
+      "type_id": 110000,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 5180,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter1_01_01_03",
+      "name_best": "Yes. I was sent by Sir Wossner.\nHe's taken a great interest in your work.",
+      "type_id": 110000,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 10105,
+      "use_count": 2,
+      "label": "ePC028_Chp1_Em01",
+      "name_best": "海賊",
+      "type_id": 15106,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 120001,
+      "use_count": 2,
+      "label": "Enemy_Duel_Test__B20001",
+      "name_best": "村人",
+      "type_id": 120001,
+      "tactical_assign_id": 110000,
+      "skills_id": 10001
+    },
+    {
+      "enemy_id": 31010,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0010_r001b_001",
+      "name_best": "煉業な屈強な黒服",
+      "type_id": 21268,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 31100,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0010_r001Ex001a_001",
+      "name_best": "煉業な異常な暴漢",
+      "type_id": 21359,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 31101,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0010_r001Ex001b_001",
+      "name_best": "煉業な屈強な黒服",
+      "type_id": 21360,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 31103,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0010_r001Ex002a_001",
+      "name_best": "煉業な異常な暴漢",
+      "type_id": 21362,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 31104,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0010_r001Ex002b_001",
+      "name_best": "煉業な屈強な黒服",
+      "type_id": 21363,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 31106,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0010_r001Ex003a_001",
+      "name_best": "煉業な異常な暴漢",
+      "type_id": 21365,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 31107,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0010_r001Ex003b_001",
+      "name_best": "煉業な屈強な黒服",
+      "type_id": 21366,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 31109,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0010_r001Ex004a_001",
+      "name_best": "煉業な異常な暴漢",
+      "type_id": 21368,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 31110,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0010_r001Ex004b_001",
+      "name_best": "煉業な屈強な黒服",
+      "type_id": 21369,
+      "tactical_assign_id": 110000,
+      "skills_id": 10002
+    },
+    {
+      "enemy_id": 5007,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter3_01_01",
+      "name_best": "ロッソ",
+      "type_id": 10007,
+      "tactical_assign_id": 10016,
+      "skills_id": 10028
+    },
+    {
+      "enemy_id": 98806,
+      "use_count": 2,
+      "label": "JoinPC_20808_Boss_01",
+      "name_best": "ロッソ",
+      "type_id": 10007,
+      "tactical_assign_id": 10016,
+      "skills_id": 10028
+    },
+    {
+      "enemy_id": 15007,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter3_01_01__B5007",
+      "name_best": "Think of it as a show of good faith.",
+      "type_id": 110007,
+      "tactical_assign_id": 110016,
+      "skills_id": 10028
+    },
+    {
+      "enemy_id": 5008,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter3_02_01",
+      "name_best": "大富豪ヘルミニア",
+      "type_id": 10009,
+      "tactical_assign_id": 10018,
+      "skills_id": 10030
+    },
+    {
+      "enemy_id": 15008,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter3_02_01__B5008",
+      "name_best": "Forging good relationships could help you\nget back in the community's good graces.",
+      "type_id": 110009,
+      "tactical_assign_id": 110018,
+      "skills_id": 10030
+    },
+    {
+      "enemy_id": 31144,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0040_r001Ex001a_001",
+      "name_best": "煉業な大富豪ヘルミニア",
+      "type_id": 21403,
+      "tactical_assign_id": 110018,
+      "skills_id": 10030
+    },
+    {
+      "enemy_id": 31148,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0040_r001Ex002a_001",
+      "name_best": "煉業な大富豪ヘルミニア",
+      "type_id": 21407,
+      "tactical_assign_id": 110018,
+      "skills_id": 10030
+    },
+    {
+      "enemy_id": 31152,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0040_r001Ex003a_001",
+      "name_best": "煉業な大富豪ヘルミニア",
+      "type_id": 21411,
+      "tactical_assign_id": 110018,
+      "skills_id": 10030
+    },
+    {
+      "enemy_id": 31156,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0040_r001Ex004a_001",
+      "name_best": "煉業な大富豪ヘルミニア",
+      "type_id": 21415,
+      "tactical_assign_id": 110018,
+      "skills_id": 10030
+    },
+    {
+      "enemy_id": 31727,
+      "use_count": 2,
+      "label": "Dice_Wealth_Rank03_Boss03",
+      "name_best": "遊業な大富豪ヘルミニア",
+      "type_id": 21930,
+      "tactical_assign_id": 110018,
+      "skills_id": 10030
+    },
+    {
+      "enemy_id": 5147,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter3_02_01_02",
+      "name_best": "大富豪ヘルミニア",
+      "type_id": 10009,
+      "tactical_assign_id": 10074,
+      "skills_id": 10053
+    },
+    {
+      "enemy_id": 15147,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter3_02_01_02__B5147",
+      "name_best": "Forging good relationships could help you\nget back in the community's good graces.",
+      "type_id": 110009,
+      "tactical_assign_id": 110074,
+      "skills_id": 10053
+    },
+    {
+      "enemy_id": 5022,
+      "use_count": 2,
+      "label": "Power_Boss_Chapter3_01_01",
+      "name_best": "ユルゲン",
+      "type_id": 10024,
+      "tactical_assign_id": 10021,
+      "skills_id": 10032
+    },
+    {
+      "enemy_id": 15022,
+      "use_count": 2,
+      "label": "Power_Boss_Chapter3_01_01__B5022",
+      "name_best": "I was trying to buy the necessary\nresources from that merchant earlier,\nbut you saw how that went...",
+      "type_id": 110024,
+      "tactical_assign_id": 110021,
+      "skills_id": 10032
+    },
+    {
+      "enemy_id": 5043,
+      "use_count": 2,
+      "label": "AllMASTER_Boss_Chp5_01_01",
+      "name_best": "鉄腕のゴンザレス",
+      "type_id": 10045,
+      "tactical_assign_id": 10036,
+      "skills_id": 10046
+    },
+    {
+      "enemy_id": 15043,
+      "use_count": 2,
+      "label": "AllMASTER_Boss_Chp5_01_01__B5043",
+      "name_best": "*sigh*",
+      "type_id": 110045,
+      "tactical_assign_id": 110036,
+      "skills_id": 10046
+    },
+    {
+      "enemy_id": 31252,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0070_r001c_001",
+      "name_best": "煉業な鉄腕のゴンザレス",
+      "type_id": 21504,
+      "tactical_assign_id": 110036,
+      "skills_id": 10046
+    },
+    {
+      "enemy_id": 31325,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0070_r001Ex001c_001",
+      "name_best": "煉業な鉄腕のゴンザレス",
+      "type_id": 21577,
+      "tactical_assign_id": 110036,
+      "skills_id": 10046
+    },
+    {
+      "enemy_id": 31344,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0070_r001Ex002c_001",
+      "name_best": "煉業な鉄腕のゴンザレス",
+      "type_id": 21596,
+      "tactical_assign_id": 110036,
+      "skills_id": 10046
+    },
+    {
+      "enemy_id": 31363,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0070_r001Ex003c_001",
+      "name_best": "煉業な鉄腕のゴンザレス",
+      "type_id": 21615,
+      "tactical_assign_id": 110036,
+      "skills_id": 10046
+    },
+    {
+      "enemy_id": 31382,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0070_r001Ex004c_001",
+      "name_best": "煉業な鉄腕のゴンザレス",
+      "type_id": 21634,
+      "tactical_assign_id": 110036,
+      "skills_id": 10046
+    },
+    {
+      "enemy_id": 32021,
+      "use_count": 2,
+      "label": "Dice_Bolaven_Rank03_Enemy02",
+      "name_best": "遊業な鉄腕のゴンザレス",
+      "type_id": 22207,
+      "tactical_assign_id": 110036,
+      "skills_id": 10046
+    },
+    {
+      "enemy_id": 132302,
+      "use_count": 2,
+      "label": "Rematch_Season10_Boss02_01",
+      "name_best": "*sigh*",
+      "type_id": 110045,
+      "tactical_assign_id": 110036,
+      "skills_id": 10046
+    },
+    {
+      "enemy_id": 33479,
+      "use_count": 2,
+      "label": "HandicapBattle_RankEX02_012_01_Enemy1",
+      "name_best": "遊業な鉄腕のゴンザレス",
+      "type_id": 22207,
+      "tactical_assign_id": 110036,
+      "skills_id": 10046
+    },
+    {
+      "enemy_id": 33798,
+      "use_count": 2,
+      "label": "QPO_HandicapBattle_AnotherEX01_27_02_Enemy_01",
+      "name_best": "*sigh*",
+      "type_id": 23369,
+      "tactical_assign_id": 110036,
+      "skills_id": 10046
+    },
+    {
+      "enemy_id": 34151,
+      "use_count": 2,
+      "label": "QPO_HandicapBattle_AnotherEX03_40_03_Enemy_01",
+      "name_best": "*sigh*",
+      "type_id": 23662,
+      "tactical_assign_id": 110036,
+      "skills_id": 10046
+    },
+    {
+      "enemy_id": 5012,
+      "use_count": 2,
+      "label": "Power_Boss_Chapter1_02_01",
+      "name_best": "使用人アル",
+      "type_id": 10014,
+      "tactical_assign_id": 10005,
+      "skills_id": 10011
+    },
+    {
+      "enemy_id": 15012,
+      "use_count": 2,
+      "label": "Power_Boss_Chapter1_02_01__B5012",
+      "name_best": "Did you hear that!?\nSomeone finally recognized my work!",
+      "type_id": 110014,
+      "tactical_assign_id": 110005,
+      "skills_id": 10011
+    },
+    {
+      "enemy_id": 31114,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0020_r001Ex001b_001",
+      "name_best": "煉業な使用人アル",
+      "type_id": 21373,
+      "tactical_assign_id": 110005,
+      "skills_id": 10011
+    },
+    {
+      "enemy_id": 31119,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0020_r001Ex002b_001",
+      "name_best": "煉業な使用人アル",
+      "type_id": 21378,
+      "tactical_assign_id": 110005,
+      "skills_id": 10011
+    },
+    {
+      "enemy_id": 31124,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0020_r001Ex003b_001",
+      "name_best": "煉業な使用人アル",
+      "type_id": 21383,
+      "tactical_assign_id": 110005,
+      "skills_id": 10011
+    },
+    {
+      "enemy_id": 31129,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0020_r001Ex004b_001",
+      "name_best": "煉業な使用人アル",
+      "type_id": 21388,
+      "tactical_assign_id": 110005,
+      "skills_id": 10011
+    },
+    {
+      "enemy_id": 31737,
+      "use_count": 2,
+      "label": "Dice_Power_Rank01_Boss01",
+      "name_best": "遊業な使用人アル",
+      "type_id": 21940,
+      "tactical_assign_id": 110005,
+      "skills_id": 10011
+    },
+    {
+      "enemy_id": 5025,
+      "use_count": 2,
+      "label": "Fame_Boss_Chapter1_01_01",
+      "name_best": "側近(前衛)",
+      "type_id": 10027,
+      "tactical_assign_id": 10008,
+      "skills_id": 10020
+    },
+    {
+      "enemy_id": 15025,
+      "use_count": 2,
+      "label": "Fame_Boss_Chapter1_01_01__B5025",
+      "name_best": "So we need to gather samples of\nliving creatures.",
+      "type_id": 110027,
+      "tactical_assign_id": 110008,
+      "skills_id": 10020
+    },
+    {
+      "enemy_id": 31112,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0020_r001Ex001a_001",
+      "name_best": "煉業な側近(前衛)",
+      "type_id": 21371,
+      "tactical_assign_id": 110008,
+      "skills_id": 10020
+    },
+    {
+      "enemy_id": 31117,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0020_r001Ex002a_001",
+      "name_best": "煉業な側近(前衛)",
+      "type_id": 21376,
+      "tactical_assign_id": 110008,
+      "skills_id": 10020
+    },
+    {
+      "enemy_id": 31122,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0020_r001Ex003a_001",
+      "name_best": "煉業な側近(前衛)",
+      "type_id": 21381,
+      "tactical_assign_id": 110008,
+      "skills_id": 10020
+    },
+    {
+      "enemy_id": 31127,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0020_r001Ex004a_001",
+      "name_best": "煉業な側近(前衛)",
+      "type_id": 21386,
+      "tactical_assign_id": 110008,
+      "skills_id": 10020
+    },
+    {
+      "enemy_id": 31749,
+      "use_count": 2,
+      "label": "Dice_Fame_Rank01_Boss01",
+      "name_best": "遊業な側近(前衛)",
+      "type_id": 21952,
+      "tactical_assign_id": 110008,
+      "skills_id": 10020
+    },
+    {
+      "enemy_id": 5026,
+      "use_count": 2,
+      "label": "Fame_Boss_Chapter1_02_01",
+      "name_best": "側近(後衛)",
+      "type_id": 10028,
+      "tactical_assign_id": 10009,
+      "skills_id": 10021
+    },
+    {
+      "enemy_id": 15026,
+      "use_count": 2,
+      "label": "Fame_Boss_Chapter1_02_01__B5026",
+      "name_best": "The goal of my study is to observe and\nultimately cross the boundaries between\nlife and death.",
+      "type_id": 110028,
+      "tactical_assign_id": 110009,
+      "skills_id": 10021
+    },
+    {
+      "enemy_id": 20288,
+      "use_count": 2,
+      "label": "ePC086_Chp3_Em02",
+      "name_best": "誘拐犯(杖)",
+      "type_id": 20318,
+      "tactical_assign_id": 110009,
+      "skills_id": 10021
+    },
+    {
+      "enemy_id": 20291,
+      "use_count": 2,
+      "label": "ePC086_Chp4_Em03",
+      "name_best": "誘拐犯(杖)",
+      "type_id": 20321,
+      "tactical_assign_id": 110009,
+      "skills_id": 10021
+    },
+    {
+      "enemy_id": 30784,
+      "use_count": 2,
+      "label": "PC0163_Chp3_Em02",
+      "name_best": "密儀参入者(杖)",
+      "type_id": 21042,
+      "tactical_assign_id": 30147,
+      "skills_id": 51105
+    },
+    {
+      "enemy_id": 31113,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0020_r001Ex001a_002",
+      "name_best": "煉業な側近(後衛)",
+      "type_id": 21372,
+      "tactical_assign_id": 110009,
+      "skills_id": 50994
+    },
+    {
+      "enemy_id": 31118,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0020_r001Ex002a_002",
+      "name_best": "煉業な側近(後衛)",
+      "type_id": 21377,
+      "tactical_assign_id": 110009,
+      "skills_id": 50994
+    },
+    {
+      "enemy_id": 31123,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0020_r001Ex003a_002",
+      "name_best": "煉業な側近(後衛)",
+      "type_id": 21382,
+      "tactical_assign_id": 110009,
+      "skills_id": 50994
+    },
+    {
+      "enemy_id": 31128,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0020_r001Ex004a_002",
+      "name_best": "煉業な側近(後衛)",
+      "type_id": 21387,
+      "tactical_assign_id": 110009,
+      "skills_id": 50994
+    },
+    {
+      "enemy_id": 31750,
+      "use_count": 2,
+      "label": "Dice_Fame_Rank01_Boss01a",
+      "name_best": "遊業な側近(後衛)",
+      "type_id": 21953,
+      "tactical_assign_id": 110009,
+      "skills_id": 10021
+    },
+    {
+      "enemy_id": 15024,
+      "use_count": 2,
+      "label": "Power_Boss_Chapter3_03_01__B5024",
+      "name_best": "You'll have the honor of assisting me with\nmy work. How can you say no to that?",
+      "type_id": 110026,
+      "tactical_assign_id": 110023,
+      "skills_id": 10044
+    },
+    {
+      "enemy_id": 31161,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0050_r001Ex001b_001",
+      "name_best": "煉業な雷剣将タイタス",
+      "type_id": 21420,
+      "tactical_assign_id": 110023,
+      "skills_id": 10044
+    },
+    {
+      "enemy_id": 31164,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0050_r001Ex002b_001",
+      "name_best": "煉業な雷剣将タイタス",
+      "type_id": 21423,
+      "tactical_assign_id": 110023,
+      "skills_id": 10044
+    },
+    {
+      "enemy_id": 31167,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0050_r001Ex003b_001",
+      "name_best": "煉業な雷剣将タイタス",
+      "type_id": 21426,
+      "tactical_assign_id": 110023,
+      "skills_id": 10044
+    },
+    {
+      "enemy_id": 31170,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0050_r001Ex004b_001",
+      "name_best": "煉業な雷剣将タイタス",
+      "type_id": 21429,
+      "tactical_assign_id": 110023,
+      "skills_id": 10044
+    },
+    {
+      "enemy_id": 15159,
+      "use_count": 2,
+      "label": "Power_Boss_Chapter3_03_02__B5159",
+      "name_best": "You'll have the honor of assisting me with\nmy work. How can you say no to that?",
+      "type_id": 110026,
+      "tactical_assign_id": 110082,
+      "skills_id": 10059
+    },
+    {
+      "enemy_id": 5084,
+      "use_count": 2,
+      "label": "B06_08_Boss_04",
+      "name_best": "女帝タトゥロック",
+      "type_id": 10091,
+      "tactical_assign_id": 10214,
+      "skills_id": 10094
+    },
+    {
+      "enemy_id": 15084,
+      "use_count": 2,
+      "label": "B06_08_Boss_04__B5084",
+      "name_best": "Therion. I'm a thief.",
+      "type_id": 110091,
+      "tactical_assign_id": 110214,
+      "skills_id": 10094
+    },
+    {
+      "enemy_id": 5131,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp6_01_01",
+      "name_best": "呪将ヘルミニア",
+      "type_id": 21782,
+      "tactical_assign_id": 30303,
+      "skills_id": 51511
+    },
+    {
+      "enemy_id": 15131,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp6_01_01__B5131",
+      "name_best": "鉄壁",
+      "type_id": 121782,
+      "tactical_assign_id": 130303,
+      "skills_id": 51511
+    },
+    {
+      "enemy_id": 32630,
+      "use_count": 2,
+      "label": "Rematch_Season18_Boss01_01",
+      "name_best": "鉄壁",
+      "type_id": 121782,
+      "tactical_assign_id": 130303,
+      "skills_id": 51511
+    },
+    {
+      "enemy_id": 33844,
+      "use_count": 2,
+      "label": "QPO_HandicapBattle_AnotherEX03_28_04_Enemy_01",
+      "name_best": "鉄壁",
+      "type_id": 23413,
+      "tactical_assign_id": 130303,
+      "skills_id": 51511
+    },
+    {
+      "enemy_id": 5132,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp6_02_01",
+      "name_best": "呪将アーギュスト",
+      "type_id": 21784,
+      "tactical_assign_id": 30294,
+      "skills_id": 51496
+    },
+    {
+      "enemy_id": 15132,
+      "use_count": 2,
+      "label": "AGM_Boss_Chp6_02_01__B5132",
+      "name_best": "集中",
+      "type_id": 121784,
+      "tactical_assign_id": 130294,
+      "skills_id": 51496
+    },
+    {
+      "enemy_id": 32631,
+      "use_count": 2,
+      "label": "Rematch_Season20_Boss01_01",
+      "name_best": "集中",
+      "type_id": 121784,
+      "tactical_assign_id": 130294,
+      "skills_id": 51496
+    },
+    {
+      "enemy_id": 98386,
+      "use_count": 2,
+      "label": "FC_Enemy_014_01",
+      "name_best": "ロッソ",
+      "type_id": 98168,
+      "tactical_assign_id": 30599,
+      "skills_id": 55471
+    },
+    {
+      "enemy_id": 98387,
+      "use_count": 2,
+      "label": "FC_Enemy_015_01",
+      "name_best": "ロッソ",
+      "type_id": 98169,
+      "tactical_assign_id": 30599,
+      "skills_id": 55472
+    },
+    {
+      "enemy_id": 30010,
+      "use_count": 2,
+      "label": "ePC072_Chp4_Em01",
+      "name_best": "狡猾なギガンティアス",
+      "type_id": 20478,
+      "tactical_assign_id": 200,
+      "skills_id": 20241
+    },
+    {
+      "enemy_id": 33619,
+      "use_count": 2,
+      "label": "QPSWilderness_N0_1001_A1_BossEnemy_06_001",
+      "name_best": "逢夜の古代神兵",
+      "type_id": 23274,
+      "tactical_assign_id": 30741,
+      "skills_id": 52496
+    },
+    {
+      "enemy_id": 5184,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter3_01_01_02",
+      "name_best": "Think of it as a show of good faith.",
+      "type_id": 110007,
+      "tactical_assign_id": 10070,
+      "skills_id": 10049
+    },
+    {
+      "enemy_id": 5185,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter3_01_01_03",
+      "name_best": "Think of it as a show of good faith.",
+      "type_id": 110007,
+      "tactical_assign_id": 10071,
+      "skills_id": 10050
+    },
+    {
+      "enemy_id": 20323,
+      "use_count": 2,
+      "label": "D_Enemy_Forest_UniqueP_Rosso",
+      "name_best": "Think of it as a show of good faith.",
+      "type_id": 110007,
+      "tactical_assign_id": 10071,
+      "skills_id": 10050
+    },
+    {
+      "enemy_id": 31396,
+      "use_count": 2,
+      "label": "D_Enemy_Forest_UniqueP_Rosso_02",
+      "name_best": "ロッソ",
+      "type_id": 21653,
+      "tactical_assign_id": 10071,
+      "skills_id": 50865
+    },
+    {
+      "enemy_id": 30647,
+      "use_count": 2,
+      "label": "StrBk_00037_001",
+      "name_best": "Think of it as a show of good faith.",
+      "type_id": 20915,
+      "tactical_assign_id": 10071,
+      "skills_id": 50865
+    },
+    {
+      "enemy_id": 132301,
+      "use_count": 2,
+      "label": "Rematch_Season10_Boss01_01",
+      "name_best": "Think of it as a show of good faith.",
+      "type_id": 110007,
+      "tactical_assign_id": 10071,
+      "skills_id": 51766
+    },
+    {
+      "enemy_id": 33797,
+      "use_count": 2,
+      "label": "QPO_HandicapBattle_AnotherEX01_27_01_Enemy_01",
+      "name_best": "Think of it as a show of good faith.",
+      "type_id": 23368,
+      "tactical_assign_id": 10071,
+      "skills_id": 51766
+    },
+    {
+      "enemy_id": 199047,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_LS01_1",
+      "name_best": "Think of it as a show of good faith.",
+      "type_id": 91047,
+      "tactical_assign_id": 10071,
+      "skills_id": 51766
+    },
+    {
+      "enemy_id": 99195,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_LS01_1_easy",
+      "name_best": "Think of it as a show of good faith.",
+      "type_id": 91047,
+      "tactical_assign_id": 10071,
+      "skills_id": 51766
+    },
+    {
+      "enemy_id": 99328,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_LS01_1_hard",
+      "name_best": "Think of it as a show of good faith.",
+      "type_id": 91047,
+      "tactical_assign_id": 10071,
+      "skills_id": 51766
+    },
+    {
+      "enemy_id": 5149,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter3_02_01_03",
+      "name_best": "Forging good relationships could help you\nget back in the community's good graces.",
+      "type_id": 110009,
+      "tactical_assign_id": 10076,
+      "skills_id": 10055
+    },
+    {
+      "enemy_id": 30686,
+      "use_count": 2,
+      "label": "StrBk_00052_001",
+      "name_best": "Forging good relationships could help you\nget back in the community's good graces.",
+      "type_id": 20953,
+      "tactical_assign_id": 10076,
+      "skills_id": 10055
+    },
+    {
+      "enemy_id": 30688,
+      "use_count": 2,
+      "label": "StrBk_00053_001",
+      "name_best": "Forging good relationships could help you\nget back in the community's good graces.",
+      "type_id": 20955,
+      "tactical_assign_id": 10076,
+      "skills_id": 10055
+    },
+    {
+      "enemy_id": 30690,
+      "use_count": 2,
+      "label": "StrBk_00054_001",
+      "name_best": "Forging good relationships could help you\nget back in the community's good graces.",
+      "type_id": 20957,
+      "tactical_assign_id": 10076,
+      "skills_id": 10055
+    },
+    {
+      "enemy_id": 31072,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0040_r001a_001",
+      "name_best": "煉業な大富豪ヘルミニア",
+      "type_id": 21330,
+      "tactical_assign_id": 10076,
+      "skills_id": 10055
+    },
+    {
+      "enemy_id": 32181,
+      "use_count": 2,
+      "label": "Rematch_Season02_Boss01_01",
+      "name_best": "Forging good relationships could help you\nget back in the community's good graces.",
+      "type_id": 22347,
+      "tactical_assign_id": 10076,
+      "skills_id": 10055
+    },
+    {
+      "enemy_id": 199102,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_Boss02_1_1",
+      "name_best": "Forging good relationships could help you\nget back in the community's good graces.",
+      "type_id": 91102,
+      "tactical_assign_id": 10076,
+      "skills_id": 10055
+    },
+    {
+      "enemy_id": 99206,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_Boss02_1_1_easy",
+      "name_best": "Forging good relationships could help you\nget back in the community's good graces.",
+      "type_id": 91102,
+      "tactical_assign_id": 10076,
+      "skills_id": 10055
+    },
+    {
+      "enemy_id": 99339,
+      "use_count": 2,
+      "label": "RogueLike_Enemy_Boss02_1_1_hard",
+      "name_best": "Forging good relationships could help you\nget back in the community's good graces.",
+      "type_id": 91102,
+      "tactical_assign_id": 10076,
+      "skills_id": 10055
+    },
+    {
+      "enemy_id": 34108,
+      "use_count": 2,
+      "label": "QPO_HandicapBattle_AnotherEX03_38_2_03_Enemy_01",
+      "name_best": "Forging good relationships could help you\nget back in the community's good graces.",
+      "type_id": 23641,
+      "tactical_assign_id": 10076,
+      "skills_id": 10055
+    },
+    {
+      "enemy_id": 5186,
+      "use_count": 2,
+      "label": "Power_Boss_Chapter3_01_01_02",
+      "name_best": "I was trying to buy the necessary\nresources from that merchant earlier,\nbut you saw how that went...",
+      "type_id": 110024,
+      "tactical_assign_id": 10072,
+      "skills_id": 10051
+    },
+    {
+      "enemy_id": 5187,
+      "use_count": 2,
+      "label": "Power_Boss_Chapter3_01_01_03",
+      "name_best": "I was trying to buy the necessary\nresources from that merchant earlier,\nbut you saw how that went...",
+      "type_id": 110024,
+      "tactical_assign_id": 10073,
+      "skills_id": 10052
+    },
+    {
+      "enemy_id": 15004,
+      "use_count": 2,
+      "label": "Wealth_Boss_Chapter2_01_01__B5004",
+      "name_best": "What, so you can evaluate me?\nHe's the one interested in me, remember?",
+      "type_id": 110004,
+      "tactical_assign_id": 10007,
+      "skills_id": 10005
+    },
+    {
+      "enemy_id": 31133,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0030_r001Ex001b_001",
+      "name_best": "煉業なソニア",
+      "type_id": 21392,
+      "tactical_assign_id": 10007,
+      "skills_id": 10005
+    },
+    {
+      "enemy_id": 31136,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0030_r001Ex002b_001",
+      "name_best": "煉業なソニア",
+      "type_id": 21395,
+      "tactical_assign_id": 10007,
+      "skills_id": 10005
+    },
+    {
+      "enemy_id": 31139,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0030_r001Ex003b_001",
+      "name_best": "煉業なソニア",
+      "type_id": 21398,
+      "tactical_assign_id": 10007,
+      "skills_id": 10005
+    },
+    {
+      "enemy_id": 31142,
+      "use_count": 2,
+      "label": "Enemy_Tower_f0030_r001Ex004b_001",
+      "name_best": "煉業なソニア",
+      "type_id": 21401,
+      "tactical_assign_id": 10007,
+      "skills_id": 10005
+    }
+  ],
+  "top_skills": {
+    "612636": {
+      "skill_id": 612636,
+      "use_count": 12,
+      "name_id": 104291,
+      "name_best": "瘴気が深くなる……",
+      "detail_id": 0,
+      "detail_best": "no data.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        78747,
+        78748,
+        78749,
+        78750,
+        78816,
+        78751,
+        78752,
+        78753,
+        78754,
+        78817,
+        79117,
+        79118,
+        79112,
+        79109,
+        79115,
+        79116
+      ]
+    },
+    "612638": {
+      "skill_id": 612638,
+      "use_count": 10,
+      "name_id": 104291,
+      "name_best": "瘴気が深くなる……",
+      "detail_id": 0,
+      "detail_best": "no data.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        79119,
+        79120,
+        79121,
+        79122,
+        79123,
+        79124,
+        79125,
+        79126,
+        79127,
+        79128,
+        79113,
+        79338,
+        79339,
+        79340
+      ]
+    },
+    "612640": {
+      "skill_id": 612640,
+      "use_count": 8,
+      "name_id": 104291,
+      "name_best": "瘴気が深くなる……",
+      "detail_id": 0,
+      "detail_best": "no data.",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        79129,
+        79130,
+        79131,
+        79132,
+        79133,
+        79134,
+        79135,
+        79136,
+        79114,
+        79341,
+        79342,
+        79343,
+        79110,
+        79111
+      ]
+    },
+    "52118": {
+      "skill_id": 52118,
+      "use_count": 1,
+      "name_id": 96657,
+      "name_best": "聖炎の詩・贖罪",
+      "detail_id": 96687,
+      "detail_best": "<skl_target_type>に<skl_attribute_name><skl_calc_type>攻撃(威力 <skl_avail_value>)\n火弱点を突ける(ダメージ計算は光属性)\n対象の状態効果アイコンの数に応じて威力が変化\n6個以上:威力が1.5倍\n12個以上:威力が2.0倍\n※威力倍率が高いほうのみ適用される",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        67245
+      ]
+    },
+    "52123": {
+      "skill_id": 52123,
+      "use_count": 1,
+      "name_id": 96657,
+      "name_best": "聖炎の詩・贖罪",
+      "detail_id": 96687,
+      "detail_best": "<skl_target_type>に<skl_attribute_name><skl_calc_type>攻撃(威力 <skl_avail_value>)\n火弱点を突ける(ダメージ計算は光属性)\n対象の状態効果アイコンの数に応じて威力が変化\n6個以上:威力が1.5倍\n12個以上:威力が2.0倍\n※威力倍率が高いほうのみ適用される",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        67245
+      ]
+    },
+    "606981": {
+      "skill_id": 606981,
+      "use_count": 1,
+      "name_id": 99343,
+      "name_best": "荒療治",
+      "detail_id": 99354,
+      "detail_best": "<skl_target_type>に<skl_attribute_name><skl_calc_type>攻撃(威力 <skl_avail_value>)\n対象の状態効果アイコンの数に応じて威力が変化\n6個以上:威力が1.5倍\n12個以上:威力が2.0倍\n※威力倍率が高いほうのみ適用される",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        172292
+      ]
+    },
+    "610290": {
+      "skill_id": 610290,
+      "use_count": 1,
+      "name_id": 0,
+      "name_best": "no data.",
+      "detail_id": 101734,
+      "detail_best": "5ターン目以内の攻撃開始時:自身に\n1度だけ、自動復活させる効果を付与(回復量 最大HPの<skl_ailment_value>％)\n(バトルアビリティとの復活効果回数の重複可能)\n※5ターン目のターン終了時に解除される<battle_hide>\n\nこの先は危険だぜ…",
+      "enemies_that_can_use_skill_count": 0,
+      "enemies_that_can_use_skill_sample": [],
+      "avails": [
+        175298
+      ]
+    }
+  },
+  "enemy_groups": {
+    "9313": {
+      "enemy_group_id": 9313,
+      "use_count": 7,
+      "label": "AllMaster_Boss_ENG13",
+      "formation": 95,
+      "bgm": 107,
+      "event_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "enemy_ids": [
+        5054
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp8_03_01"
+      ],
+      "enemy_names_best": [
+        "碩学王パーディス"
+      ]
+    },
+    "19313": {
+      "enemy_group_id": 19313,
+      "use_count": 7,
+      "label": "AllMaster_Boss_ENG13__B9313",
+      "formation": 95,
+      "bgm": 107,
+      "event_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "enemy_ids": [
+        15054
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp8_03_01__B5054"
+      ],
+      "enemy_names_best": [
+        "I told you, I'm not great with women, okay?"
+      ]
+    },
+    "199367": {
+      "enemy_group_id": 199367,
+      "use_count": 7,
+      "label": "AllMaster_Boss_ENG13__Arena",
+      "formation": 95,
+      "bgm": 107,
+      "event_indices": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "enemy_ids": [
+        5054
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp8_03_01"
+      ],
+      "enemy_names_best": [
+        "碩学王パーディス"
+      ]
+    },
+    "72083": {
+      "enemy_group_id": 72083,
+      "use_count": 4,
+      "label": "RagasaLH_Chp5_EmGr01",
+      "formation": 72,
+      "bgm": 102524,
+      "event_indices": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "enemy_ids": [
+        132353
+      ],
+      "enemy_labels": [
+        "RagasaLH_Chp5_Em01"
+      ],
+      "enemy_names_best": [
+        "魔王オディオ・Ｓ"
+      ]
+    },
+    "199274": {
+      "enemy_group_id": 199274,
+      "use_count": 4,
+      "label": "RagasaLH_Chp5_EmGr01",
+      "formation": 72,
+      "bgm": 102524,
+      "event_indices": [
+        51,
+        52,
+        53,
+        54
+      ],
+      "enemy_ids": [
+        132353
+      ],
+      "enemy_labels": [
+        "RagasaLH_Chp5_Em01"
+      ],
+      "enemy_names_best": [
+        "魔王オディオ・Ｓ"
+      ]
+    },
+    "98045": {
+      "enemy_group_id": 98045,
+      "use_count": 3,
+      "label": "TOWN05_01_EnemyGroup_01",
+      "formation": 113,
+      "bgm": 107330,
+      "event_indices": [
+        108,
+        119,
+        120
+      ],
+      "enemy_ids": [
+        98591
+      ],
+      "enemy_labels": [
+        "Town_05_01_Em01"
+      ],
+      "enemy_names_best": [
+        "蒼翠の大狼"
+      ]
+    },
+    "73484": {
+      "enemy_group_id": 73484,
+      "use_count": 3,
+      "label": "Gr_QPS_Boss_CP09_06",
+      "formation": 59,
+      "bgm": 113751,
+      "event_indices": [
+        109,
+        110,
+        111,
+        112
+      ],
+      "enemy_ids": [
+        33568
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP9_Enemy_06_01"
+      ],
+      "enemy_names_best": [
+        "黒呪帝セイル"
+      ]
+    },
+    "199458": {
+      "enemy_group_id": 199458,
+      "use_count": 3,
+      "label": "TOWN05_01_EnemyGroup_01__Arena",
+      "formation": 113,
+      "bgm": 107330,
+      "event_indices": [
+        108,
+        119,
+        120
+      ],
+      "enemy_ids": [
+        98591
+      ],
+      "enemy_labels": [
+        "Town_05_01_Em01"
+      ],
+      "enemy_names_best": [
+        "蒼翠の大狼"
+      ]
+    },
+    "12016": {
+      "enemy_group_id": 12016,
+      "use_count": 2,
+      "label": "GM_Fame_Chap3_Boss_ENG03",
+      "formation": 122,
+      "bgm": 93,
+      "event_indices": [
+        17,
+        18,
+        19
+      ],
+      "enemy_ids": [
+        5102
+      ],
+      "enemy_labels": [
+        "NPC_Unq_Lybrac"
+      ],
+      "enemy_names_best": [
+        "魔女リブラック"
+      ]
+    },
+    "112016": {
+      "enemy_group_id": 112016,
+      "use_count": 2,
+      "label": "GM_Fame_Chap3_Boss_ENG03__B12016",
+      "formation": 122,
+      "bgm": 93,
+      "event_indices": [
+        17,
+        18,
+        19
+      ],
+      "enemy_ids": [
+        15102
+      ],
+      "enemy_labels": [
+        "NPC_Unq_Lybrac__B5102"
+      ],
+      "enemy_names_best": [
+        "H-hey...!"
+      ]
+    },
+    "71940": {
+      "enemy_group_id": 71940,
+      "use_count": 2,
+      "label": "ENG_Seeds_01_04_002",
+      "formation": 166,
+      "bgm": 95977,
+      "event_indices": [
+        34,
+        35,
+        44
+      ],
+      "enemy_ids": [
+        32168
+      ],
+      "enemy_labels": [
+        "Seeds_Enemy_01_04_001"
+      ],
+      "enemy_names_best": [
+        "黒衣の影"
+      ]
+    },
+    "72057": {
+      "enemy_group_id": 72057,
+      "use_count": 2,
+      "label": "Rematch_Season07_BossGr05",
+      "formation": 122,
+      "bgm": 93,
+      "event_indices": [
+        17,
+        18,
+        19
+      ],
+      "enemy_ids": [
+        32294
+      ],
+      "enemy_labels": [
+        "Rematch_Season07_Boss05_01"
+      ],
+      "enemy_names_best": [
+        "H-hey...!"
+      ]
+    },
+    "73279": {
+      "enemy_group_id": 73279,
+      "use_count": 2,
+      "label": "Gr_QPS_Rematch_Boss_CP07_02_01",
+      "formation": 59,
+      "bgm": 132265,
+      "event_indices": [
+        94,
+        96,
+        98,
+        100
+      ],
+      "enemy_ids": [
+        33314
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP7_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "栄光のリュシアン"
+      ]
+    },
+    "73280": {
+      "enemy_group_id": 73280,
+      "use_count": 2,
+      "label": "Gr_QPS_Rematch_Boss_CP07_02_02",
+      "formation": 59,
+      "bgm": 36,
+      "event_indices": [
+        94,
+        96,
+        98,
+        100
+      ],
+      "enemy_ids": [
+        33351
+      ],
+      "enemy_labels": [
+        "QPS_Rematch_Boss_CP7_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "栄光のリュシアン"
+      ]
+    },
+    "199395": {
+      "enemy_group_id": 199395,
+      "use_count": 2,
+      "label": "GM_Fame_Chap3_Boss_ENG03__Arena",
+      "formation": 122,
+      "bgm": 93,
+      "event_indices": [
+        17,
+        18,
+        19
+      ],
+      "enemy_ids": [
+        5102
+      ],
+      "enemy_labels": [
+        "NPC_Unq_Lybrac"
+      ],
+      "enemy_names_best": [
+        "魔女リブラック"
+      ]
+    },
+    "9015": {
+      "enemy_group_id": 9015,
+      "use_count": 1,
+      "label": "Wealth_Boss_EnemyGroup_06",
+      "formation": 181,
+      "bgm": 94,
+      "event_indices": [
+        124
+      ],
+      "enemy_ids": [
+        5010
+      ],
+      "enemy_labels": [
+        "Wealth_Boss_Chapter3_03_01"
+      ],
+      "enemy_names_best": [
+        "狩王女ヘルミニア"
+      ]
+    },
+    "9016": {
+      "enemy_group_id": 9016,
+      "use_count": 1,
+      "label": "Wealth_Boss_EnemyGroup_06_02",
+      "formation": 181,
+      "bgm": 94,
+      "event_indices": [
+        124
+      ],
+      "enemy_ids": [
+        5151
+      ],
+      "enemy_labels": [
+        "Wealth_Boss_Chapter3_03_01_02"
+      ],
+      "enemy_names_best": [
+        "狩王女ヘルミニア"
+      ]
+    },
+    "9107": {
+      "enemy_group_id": 9107,
+      "use_count": 1,
+      "label": "Power_Boss_EnemyGroup_07",
+      "formation": 182,
+      "bgm": 94,
+      "event_indices": [
+        121
+      ],
+      "enemy_ids": [
+        5024
+      ],
+      "enemy_labels": [
+        "Power_Boss_Chapter3_03_01"
+      ],
+      "enemy_names_best": [
+        "雷剣将タイタス"
+      ]
+    },
+    "9114": {
+      "enemy_group_id": 9114,
+      "use_count": 1,
+      "label": "Power_Boss_EnemyGroup_07_02",
+      "formation": 182,
+      "bgm": 94,
+      "event_indices": [
+        121
+      ],
+      "enemy_ids": [
+        5159
+      ],
+      "enemy_labels": [
+        "Power_Boss_Chapter3_03_02"
+      ],
+      "enemy_names_best": [
+        "雷剣将タイタス"
+      ]
+    },
+    "9204": {
+      "enemy_group_id": 9204,
+      "use_count": 1,
+      "label": "Fame_Boss_EnemyGroup_04",
+      "formation": 183,
+      "bgm": 94,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        5031
+      ],
+      "enemy_labels": [
+        "Fame_Boss_Chapter3_02_01"
+      ],
+      "enemy_names_best": [
+        "盗公子アーギュスト"
+      ]
+    },
+    "9210": {
+      "enemy_group_id": 9210,
+      "use_count": 1,
+      "label": "Fame_Boss_EnemyGroup_04_02",
+      "formation": 183,
+      "bgm": 94,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        5167
+      ],
+      "enemy_labels": [
+        "Fame_Boss_Chapter3_02_02"
+      ],
+      "enemy_names_best": [
+        "盗公子アーギュスト"
+      ]
+    },
+    "9308": {
+      "enemy_group_id": 9308,
+      "use_count": 1,
+      "label": "AllMaster_Boss_ENG08",
+      "formation": 59,
+      "bgm": 107,
+      "event_indices": [
+        1
+      ],
+      "enemy_ids": [
+        5047
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp5_03_01"
+      ],
+      "enemy_names_best": [
+        "パーディス三世"
+      ]
+    },
+    "9312": {
+      "enemy_group_id": 9312,
+      "use_count": 1,
+      "label": "AllMaster_Boss_ENG12",
+      "formation": 96,
+      "bgm": 98,
+      "event_indices": [
+        2
+      ],
+      "enemy_ids": [
+        5053
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp8_02_01"
+      ],
+      "enemy_names_best": [
+        "パーディス三世"
+      ]
+    },
+    "9314": {
+      "enemy_group_id": 9314,
+      "use_count": 1,
+      "label": "AllMaster_Boss_ENG14",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        5055
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp8_04_01"
+      ],
+      "enemy_names_best": [
+        "全てを極めし者"
+      ]
+    },
+    "10012": {
+      "enemy_group_id": 10012,
+      "use_count": 1,
+      "label": "GM_Wealth_Chap3_Boss_ENG02",
+      "formation": 140,
+      "bgm": 130,
+      "event_indices": [
+        14
+      ],
+      "enemy_ids": [
+        5115
+      ],
+      "enemy_labels": [
+        "B05_001_Boss_02_01"
+      ],
+      "enemy_names_best": [
+        "持たざる者オスカ"
+      ]
+    },
+    "10013": {
+      "enemy_group_id": 10013,
+      "use_count": 1,
+      "label": "GM_Wealth_Chap3_Boss_ENG03",
+      "formation": 63,
+      "bgm": 130,
+      "event_indices": [
+        15,
+        16
+      ],
+      "enemy_ids": [
+        5107
+      ],
+      "enemy_labels": [
+        "B05_001_Boss_01_02"
+      ],
+      "enemy_names_best": [
+        "紳商伯オスカ"
+      ]
+    },
+    "11014": {
+      "enemy_group_id": 11014,
+      "use_count": 1,
+      "label": "GM_Power_Chap3_Boss_ENG04",
+      "formation": 149,
+      "bgm": 131,
+      "event_indices": [
+        123
+      ],
+      "enemy_ids": [
+        5110
+      ],
+      "enemy_labels": [
+        "B06_002_Boss_01_01"
+      ],
+      "enemy_names_best": [
+        "舞踏姫タトゥロック"
+      ]
+    },
+    "10019": {
+      "enemy_group_id": 10019,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap3_Boss_ENG04",
+      "formation": 157,
+      "bgm": 88696,
+      "event_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "enemy_ids": [
+        5123
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp3_02_01"
+      ],
+      "enemy_names_best": [
+        "呪王エリカ"
+      ]
+    },
+    "10020": {
+      "enemy_group_id": 10020,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap4_Boss_ENG01",
+      "formation": 158,
+      "bgm": 108,
+      "event_indices": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "enemy_ids": [
+        5126,
+        31766,
+        31715
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp4_01_01",
+        "AGM_Boss_Chp4_01_03",
+        "AGM_Boss_Chp4_01_02"
+      ],
+      "enemy_names_best": [
+        "聖火騎士ロンド",
+        "聖火",
+        "聖火"
+      ]
+    },
+    "98039": {
+      "enemy_group_id": 98039,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap7_Boss_ENG02",
+      "formation": 103,
+      "bgm": 88679,
+      "event_indices": [
+        109
+      ],
+      "enemy_ids": [
+        98544,
+        98040
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp7_03_01",
+        "AGM_Boss_Chp8_06_01"
+      ],
+      "enemy_names_best": [
+        "魔導機",
+        "枢機卿"
+      ]
+    },
+    "98040": {
+      "enemy_group_id": 98040,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap7_Boss_ENG03",
+      "formation": 103,
+      "bgm": 88679,
+      "event_indices": [
+        110
+      ],
+      "enemy_ids": [
+        98545,
+        99128
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp7_03_02",
+        "AGM_Boss_Chp8_06_01b"
+      ],
+      "enemy_names_best": [
+        "魔導機兵",
+        "枢機卿"
+      ]
+    },
+    "98041": {
+      "enemy_group_id": 98041,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap7_Boss_ENG04",
+      "formation": 104,
+      "bgm": 88679,
+      "event_indices": [
+        111
+      ],
+      "enemy_ids": [
+        98546,
+        99129,
+        98547
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp7_03_03",
+        "AGM_Boss_Chp8_06_01c",
+        "AGM_Boss_Chp7_03_04"
+      ],
+      "enemy_names_best": [
+        "古代遺物・金獣",
+        "枢機卿",
+        "古代遺物・金兵"
+      ]
+    },
+    "10029": {
+      "enemy_group_id": 10029,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG02",
+      "formation": 162,
+      "bgm": 88730,
+      "event_indices": [
+        50,
+        36,
+        37,
+        38
+      ],
+      "enemy_ids": [
+        5195
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_02_01"
+      ],
+      "enemy_names_best": [
+        "創造主オル・サザントス"
+      ]
+    },
+    "10030": {
+      "enemy_group_id": 10030,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03",
+      "formation": 169,
+      "bgm": 88731,
+      "event_indices": [
+        114,
+        46,
+        47,
+        115,
+        41,
+        56
+      ],
+      "enemy_ids": [
+        5196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01"
+      ],
+      "enemy_names_best": [
+        "全てを授けし者"
+      ]
+    },
+    "10031": {
+      "enemy_group_id": 10031,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG04",
+      "formation": 170,
+      "bgm": 88736,
+      "event_indices": [
+        118,
+        137
+      ],
+      "enemy_ids": [
+        32193
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_04_01"
+      ],
+      "enemy_names_best": [
+        "全てを授けし者"
+      ]
+    },
+    "98210": {
+      "enemy_group_id": 98210,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG07",
+      "formation": 197,
+      "bgm": 132266,
+      "event_indices": [
+        133,
+        134,
+        135,
+        136,
+        142,
+        143,
+        144
+      ],
+      "enemy_ids": [
+        98042
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_08_01"
+      ],
+      "enemy_names_best": [
+        "祖竜アマツカミノオロチ"
+      ]
+    },
+    "19308": {
+      "enemy_group_id": 19308,
+      "use_count": 1,
+      "label": "AllMaster_Boss_ENG08__B9308",
+      "formation": 59,
+      "bgm": 107,
+      "event_indices": [
+        1,
+        5
+      ],
+      "enemy_ids": [
+        15047
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp5_03_01__B5047"
+      ],
+      "enemy_names_best": [
+        "Besides, if I help save the world,\nthey'll be begging me to come back."
+      ]
+    },
+    "19312": {
+      "enemy_group_id": 19312,
+      "use_count": 1,
+      "label": "AllMaster_Boss_ENG12__B9312",
+      "formation": 96,
+      "bgm": 98,
+      "event_indices": [
+        2
+      ],
+      "enemy_ids": [
+        15053
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp8_02_01__B5053"
+      ],
+      "enemy_names_best": [
+        "...Don't mention it."
+      ]
+    },
+    "19314": {
+      "enemy_group_id": 19314,
+      "use_count": 1,
+      "label": "AllMaster_Boss_ENG14__B9314",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        15055
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp8_04_01__B5055"
+      ],
+      "enemy_names_best": [
+        "Rematch: Swordmaster Tikilen"
+      ]
+    },
+    "110012": {
+      "enemy_group_id": 110012,
+      "use_count": 1,
+      "label": "GM_Wealth_Chap3_Boss_ENG02__B10012",
+      "formation": 140,
+      "bgm": 130,
+      "event_indices": [
+        14
+      ],
+      "enemy_ids": [
+        15115
+      ],
+      "enemy_labels": [
+        "B05_001_Boss_02_01__B5115"
+      ],
+      "enemy_names_best": [
+        ""
+      ]
+    },
+    "110013": {
+      "enemy_group_id": 110013,
+      "use_count": 1,
+      "label": "GM_Wealth_Chap3_Boss_ENG03__B10013",
+      "formation": 63,
+      "bgm": 130,
+      "event_indices": [
+        15,
+        16
+      ],
+      "enemy_ids": [
+        15107
+      ],
+      "enemy_labels": [
+        "B05_001_Boss_01_02__B5107"
+      ],
+      "enemy_names_best": [
+        ""
+      ]
+    },
+    "110019": {
+      "enemy_group_id": 110019,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap3_Boss_ENG04__B10019",
+      "formation": 157,
+      "bgm": 95978,
+      "event_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "enemy_ids": [
+        15123
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp3_02_01__B5123"
+      ],
+      "enemy_names_best": [
+        "Sarisa!"
+      ]
+    },
+    "110020": {
+      "enemy_group_id": 110020,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap4_Boss_ENG01__B10020",
+      "formation": 158,
+      "bgm": 108,
+      "event_indices": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "enemy_ids": [
+        15126
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp4_01_01__B5126"
+      ],
+      "enemy_names_best": [
+        "敵単体に剣でダメージを２回与える"
+      ]
+    },
+    "110029": {
+      "enemy_group_id": 110029,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG02__B10029",
+      "formation": 162,
+      "bgm": 101176,
+      "event_indices": [
+        50,
+        36,
+        37,
+        38
+      ],
+      "enemy_ids": [
+        15195
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_02_01__B5195"
+      ],
+      "enemy_names_best": [
+        "味方単体に属攻アップの効果を\n<skl_turn_count>付与する"
+      ]
+    },
+    "110030": {
+      "enemy_group_id": 110030,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03__B10030",
+      "formation": 169,
+      "bgm": 101177,
+      "event_indices": [
+        45,
+        46,
+        47,
+        41,
+        56
+      ],
+      "enemy_ids": [
+        15196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01__B5196"
+      ],
+      "enemy_names_best": [
+        "味方単体に回避アップの効果を\n<skl_turn_count>付与する"
+      ]
+    },
+    "110031": {
+      "enemy_group_id": 110031,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG04__B10031",
+      "formation": 170,
+      "bgm": 101185,
+      "event_indices": [
+        42,
+        43
+      ],
+      "enemy_ids": [
+        132193
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_04_01__B32193"
+      ],
+      "enemy_names_best": [
+        "味方単体に回避アップの効果を\n<skl_turn_count>付与する"
+      ]
+    },
+    "173028": {
+      "enemy_group_id": 173028,
+      "use_count": 1,
+      "label": "Gr_Other_Atsani_Em02",
+      "formation": 63,
+      "bgm": 110308,
+      "event_indices": [
+        79,
+        80
+      ],
+      "enemy_ids": [
+        33158
+      ],
+      "enemy_labels": [
+        "Other_Atsani_Em01_02"
+      ],
+      "enemy_names_best": [
+        "幻獣タイタン"
+      ]
+    },
+    "173005": {
+      "enemy_group_id": 173005,
+      "use_count": 1,
+      "label": "ENG_JobTowerWar_f0005_r002EX_001",
+      "formation": 1183,
+      "bgm": 38,
+      "event_indices": [
+        71
+      ],
+      "enemy_ids": [
+        33146,
+        33147,
+        33148
+      ],
+      "enemy_labels": [
+        "Enemy_JobTowerWar_f0005_r002EX_001",
+        "Enemy_JobTowerWar_f0005_r002EX_002",
+        "Enemy_JobTowerWar_f0005_r002EX_003"
+      ],
+      "enemy_names_best": [
+        "試煉の剣士Ⅴ",
+        "魔導機",
+        "魔導機"
+      ]
+    },
+    "173006": {
+      "enemy_group_id": 173006,
+      "use_count": 1,
+      "label": "ENG_JobTowerHun_f0005_r002EX_001",
+      "formation": 155,
+      "bgm": 38,
+      "event_indices": [
+        75
+      ],
+      "enemy_ids": [
+        33100,
+        33101,
+        33101
+      ],
+      "enemy_labels": [
+        "Enemy_JobTowerHun_f0005_r002EX_001",
+        "Enemy_JobTowerHun_f0005_r002EX_002",
+        "Enemy_JobTowerHun_f0005_r002EX_002"
+      ],
+      "enemy_names_best": [
+        "試煉の大狩人",
+        "試煉の大狩人の弟子",
+        "試煉の大狩人の弟子"
+      ]
+    },
+    "173007": {
+      "enemy_group_id": 173007,
+      "use_count": 1,
+      "label": "ENG_JobTowerSch_f0005_r002EX_01",
+      "formation": 152,
+      "bgm": 38,
+      "event_indices": [
+        77
+      ],
+      "enemy_ids": [
+        33375
+      ],
+      "enemy_labels": [
+        "Enemy_JobTowerSch_f0005_r002EX_001"
+      ],
+      "enemy_names_best": [
+        "試煉の大学者"
+      ]
+    },
+    "173008": {
+      "enemy_group_id": 173008,
+      "use_count": 1,
+      "label": "ENG_JobTowerApo_f0005_r002EX_001",
+      "formation": 1180,
+      "bgm": 38,
+      "event_indices": [
+        74
+      ],
+      "enemy_ids": [
+        33104,
+        33105,
+        33106
+      ],
+      "enemy_labels": [
+        "Enemy_JobTowerApo_f0005_r002EX_001",
+        "Enemy_JobTowerApo_f0005_r002EX_002",
+        "Enemy_JobTowerApo_f0005_r002EX_003"
+      ],
+      "enemy_names_best": [
+        "試煉の大薬師",
+        "試煉の大薬師の弟子",
+        "試煉の大薬師の新弟子"
+      ]
+    },
+    "173009": {
+      "enemy_group_id": 173009,
+      "use_count": 1,
+      "label": "ENG_JobTowerDan_f0005_r002EX_001",
+      "formation": 40,
+      "bgm": 38,
+      "event_indices": [
+        78
+      ],
+      "enemy_ids": [
+        33254,
+        33255,
+        33256
+      ],
+      "enemy_labels": [
+        "Enemy_JobTowerDan_f0005_r002EX_001",
+        "Enemy_JobTowerDan_f0005_r002EX_002",
+        "Enemy_JobTowerDan_f0005_r002EX_003"
+      ],
+      "enemy_names_best": [
+        "試煉の大踊子",
+        "試煉の大踊子の弟子",
+        "試煉の大踊子の弟子"
+      ]
+    },
+    "173010": {
+      "enemy_group_id": 173010,
+      "use_count": 1,
+      "label": "ENG_JobTowerThi_f0005_r002EX_001",
+      "formation": 152,
+      "bgm": 38,
+      "event_indices": [
+        73
+      ],
+      "enemy_ids": [
+        33149,
+        33150
+      ],
+      "enemy_labels": [
+        "Enemy_JobTowerThi_f0005_r002EX_001",
+        "Enemy_JobTowerThi_f0005_r002EX_002"
+      ],
+      "enemy_names_best": [
+        "試煉の大盗賊",
+        "試煉の大盗賊の子分"
+      ]
+    },
+    "173011": {
+      "enemy_group_id": 173011,
+      "use_count": 1,
+      "label": "ENG_JobTowerCle_f0005_r002EX_001",
+      "formation": 63,
+      "bgm": 38,
+      "event_indices": [
+        76
+      ],
+      "enemy_ids": [
+        33376
+      ],
+      "enemy_labels": [
+        "Enemy_JobTowerCle_f0005_r002EX_001"
+      ],
+      "enemy_names_best": [
+        "試煉の大神官"
+      ]
+    },
+    "173012": {
+      "enemy_group_id": 173012,
+      "use_count": 1,
+      "label": "ENG_JobTowerMer_f0005_r002EX_001",
+      "formation": 175,
+      "bgm": 38,
+      "event_indices": [
+        72
+      ],
+      "enemy_ids": [
+        33257,
+        33258
+      ],
+      "enemy_labels": [
+        "Enemy_JobTowerMer_f0005_r002EX_001",
+        "Enemy_JobTowerMer_f0005_r002EX_002"
+      ],
+      "enemy_names_best": [
+        "試煉の大商人(兄)",
+        "試煉の大商人(弟)"
+      ]
+    },
+    "73894": {
+      "enemy_group_id": 73894,
+      "use_count": 1,
+      "label": "Gr_QPS_HB_RankEX02_028_02",
+      "formation": 67,
+      "bgm": 36,
+      "event_indices": [
+        126
+      ],
+      "enemy_ids": [
+        33312
+      ],
+      "enemy_labels": [
+        "QPS_Rematch_Boss_CP6_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "征服のアヴァル"
+      ]
+    },
+    "73284": {
+      "enemy_group_id": 73284,
+      "use_count": 1,
+      "label": "ENG_Seeds_16_01_001",
+      "formation": 1196,
+      "bgm": 93,
+      "event_indices": [
+        124
+      ],
+      "enemy_ids": [
+        33359,
+        33820,
+        33821
+      ],
+      "enemy_labels": [
+        "Seeds_Boss_16_01_Enemy_01",
+        "Seeds_Boss_16_01_Enemy_02",
+        "Seeds_Boss_16_01_Enemy_03"
+      ],
+      "enemy_names_best": [
+        "混沌の神獣ユルムング",
+        "no data.",
+        "no data."
+      ]
+    },
+    "71967": {
+      "enemy_group_id": 71967,
+      "use_count": 1,
+      "label": "Rematch_Season02_BossGr05",
+      "formation": 140,
+      "bgm": 130,
+      "event_indices": [
+        14
+      ],
+      "enemy_ids": [
+        32186
+      ],
+      "enemy_labels": [
+        "Rematch_Season02_Boss05_01"
+      ],
+      "enemy_names_best": [
+        ""
+      ]
+    },
+    "71968": {
+      "enemy_group_id": 71968,
+      "use_count": 1,
+      "label": "Rematch_Season02_BossGr06",
+      "formation": 63,
+      "bgm": 130,
+      "event_indices": [
+        15,
+        16
+      ],
+      "enemy_ids": [
+        32187
+      ],
+      "enemy_labels": [
+        "Rematch_Season02_Boss06_01"
+      ],
+      "enemy_names_best": [
+        ""
+      ]
+    },
+    "71999": {
+      "enemy_group_id": 71999,
+      "use_count": 1,
+      "label": "Rematch_Season06_BossGr01",
+      "formation": 96,
+      "bgm": 98,
+      "event_indices": [
+        2
+      ],
+      "enemy_ids": [
+        32237
+      ],
+      "enemy_labels": [
+        "Rematch_Season06_Boss01_01"
+      ],
+      "enemy_names_best": [
+        "...Don't mention it."
+      ]
+    },
+    "72000": {
+      "enemy_group_id": 72000,
+      "use_count": 1,
+      "label": "Rematch_Season06_BossGr02",
+      "formation": 95,
+      "bgm": 107,
+      "event_indices": [
+        55
+      ],
+      "enemy_ids": [
+        32238
+      ],
+      "enemy_labels": [
+        "Rematch_Season06_Boss02_01"
+      ],
+      "enemy_names_best": [
+        "I told you, I'm not great with women, okay?"
+      ]
+    },
+    "72001": {
+      "enemy_group_id": 72001,
+      "use_count": 1,
+      "label": "Rematch_Season06_BossGr03",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        32239
+      ],
+      "enemy_labels": [
+        "Rematch_Season06_Boss03_01"
+      ],
+      "enemy_names_best": [
+        "Rematch: Swordmaster Tikilen"
+      ]
+    },
+    "72065": {
+      "enemy_group_id": 72065,
+      "use_count": 1,
+      "label": "Rematch_Season10_BossGr04",
+      "formation": 157,
+      "bgm": 95978,
+      "event_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "enemy_ids": [
+        132304
+      ],
+      "enemy_labels": [
+        "Rematch_Season10_Boss04_01"
+      ],
+      "enemy_names_best": [
+        "Sarisa!"
+      ]
+    },
+    "72439": {
+      "enemy_group_id": 72439,
+      "use_count": 1,
+      "label": "Rematch_Season27_BossGr01",
+      "formation": 162,
+      "bgm": 101176,
+      "event_indices": [
+        50,
+        36,
+        37,
+        38
+      ],
+      "enemy_ids": [
+        32636
+      ],
+      "enemy_labels": [
+        "Rematch_Season27_Boss01_01"
+      ],
+      "enemy_names_best": [
+        "味方単体に属攻アップの効果を\n<skl_turn_count>付与する"
+      ]
+    },
+    "73651": {
+      "enemy_group_id": 73651,
+      "use_count": 1,
+      "label": "Handicap_Season27_BossGr01",
+      "formation": 162,
+      "bgm": 101176,
+      "event_indices": [
+        118,
+        117
+      ],
+      "enemy_ids": [
+        32636
+      ],
+      "enemy_labels": [
+        "Rematch_Season27_Boss01_01"
+      ],
+      "enemy_names_best": [
+        "味方単体に属攻アップの効果を\n<skl_turn_count>付与する"
+      ]
+    },
+    "72292": {
+      "enemy_group_id": 72292,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_Tutorial_01",
+      "formation": 69,
+      "bgm": 104250,
+      "event_indices": [
+        59
+      ],
+      "enemy_ids": [
+        32520
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP0_Enemy_01_01"
+      ],
+      "enemy_names_best": [
+        "ウォーウルフ"
+      ]
+    },
+    "72293": {
+      "enemy_group_id": 72293,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP01_01",
+      "formation": 67,
+      "bgm": 36,
+      "event_indices": [
+        60
+      ],
+      "enemy_ids": [
+        32521
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP1_Enemy_01_01"
+      ],
+      "enemy_names_best": [
+        "謎の男"
+      ]
+    },
+    "72755": {
+      "enemy_group_id": 72755,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP04_03",
+      "formation": 80,
+      "bgm": 36,
+      "event_indices": [
+        64
+      ],
+      "enemy_ids": [
+        32999,
+        133000,
+        33001
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP4_Enemy_03_01",
+        "QPS_Boss_CP4_Enemy_03_02",
+        "QPS_Boss_CP4_Enemy_03_03"
+      ],
+      "enemy_names_best": [
+        "血盟司教ガファウド",
+        "血盟教団信徒(祭司)",
+        "血盟教団信徒(補佐)"
+      ]
+    },
+    "173041": {
+      "enemy_group_id": 173041,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP06_02",
+      "formation": 67,
+      "bgm": 36,
+      "event_indices": [
+        81,
+        82
+      ],
+      "enemy_ids": [
+        33311
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP6_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "征服のアヴァル"
+      ]
+    },
+    "73234": {
+      "enemy_group_id": 73234,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP07_02",
+      "formation": 59,
+      "bgm": 132265,
+      "event_indices": [
+        83,
+        84,
+        85,
+        86
+      ],
+      "enemy_ids": [
+        33314
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP7_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "栄光のリュシアン"
+      ]
+    },
+    "73483": {
+      "enemy_group_id": 73483,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP09_05",
+      "formation": 59,
+      "bgm": 36,
+      "event_indices": [
+        106,
+        107,
+        108
+      ],
+      "enemy_ids": [
+        33567
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP9_Enemy_05_01"
+      ],
+      "enemy_names_best": [
+        "黒呪帝セイル"
+      ]
+    },
+    "73485": {
+      "enemy_group_id": 73485,
+      "use_count": 1,
+      "label": "Gr_QPS_Boss_CP09_07",
+      "formation": 1194,
+      "bgm": 113752,
+      "event_indices": [
+        113
+      ],
+      "enemy_ids": [
+        33569
+      ],
+      "enemy_labels": [
+        "QPS_Boss_CP9_Enemy_07_01"
+      ],
+      "enemy_names_best": [
+        "黒呪の魔神"
+      ]
+    },
+    "173074": {
+      "enemy_group_id": 173074,
+      "use_count": 1,
+      "label": "Gr_QPSFsF12_side05_01_Enemy_01",
+      "formation": 185,
+      "bgm": 104271,
+      "event_indices": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "enemy_ids": [
+        33180,
+        33319
+      ],
+      "enemy_labels": [
+        "QPSFsF12_side05_01_Enemy_01",
+        "QPSFsF12_side05_01_Enemy_01_01"
+      ],
+      "enemy_names_best": [
+        "引き寄せ体質の女性",
+        "名無し"
+      ]
+    },
+    "173013": {
+      "enemy_group_id": 173013,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Boss_CP04_03",
+      "formation": 80,
+      "bgm": 36,
+      "event_indices": [
+        64
+      ],
+      "enemy_ids": [
+        33054,
+        33055,
+        33056
+      ],
+      "enemy_labels": [
+        "QPS_Rematch_Boss_CP4_Enemy_03_01",
+        "QPS_Rematch_Boss_CP4_Enemy_03_02",
+        "QPS_Rematch_Boss_CP4_Enemy_03_03"
+      ],
+      "enemy_names_best": [
+        "血盟司教ガファウド",
+        "血盟教団信徒(祭司)",
+        "血盟教団信徒(補佐)"
+      ]
+    },
+    "73247": {
+      "enemy_group_id": 73247,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Boss_CP06_02",
+      "formation": 67,
+      "bgm": 36,
+      "event_indices": [
+        81,
+        82
+      ],
+      "enemy_ids": [
+        33312
+      ],
+      "enemy_labels": [
+        "QPS_Rematch_Boss_CP6_Enemy_02_01"
+      ],
+      "enemy_names_best": [
+        "征服のアヴァル"
+      ]
+    },
+    "173022": {
+      "enemy_group_id": 173022,
+      "use_count": 1,
+      "label": "Gr_KMQX_01_03_Enemy_03",
+      "formation": 71,
+      "bgm": 104302,
+      "event_indices": [
+        69
+      ],
+      "enemy_ids": [
+        33095
+      ],
+      "enemy_labels": [
+        "KMQX_01_03_Enemy_03"
+      ],
+      "enemy_names_best": [
+        "畏孵の死神・妬"
+      ]
+    },
+    "73272": {
+      "enemy_group_id": 73272,
+      "use_count": 1,
+      "label": "Gr_KMQX_02_03_Enemy_03",
+      "formation": 71,
+      "bgm": 104302,
+      "event_indices": [
+        87
+      ],
+      "enemy_ids": [
+        33348
+      ],
+      "enemy_labels": [
+        "KMQX_02_03_Enemy_03"
+      ],
+      "enemy_names_best": [
+        "畏孵の死神・承認"
+      ]
+    },
+    "199106": {
+      "enemy_group_id": 199106,
+      "use_count": 1,
+      "label": "RogueLike_EnemyGroup_02_007",
+      "formation": 96,
+      "bgm": 98,
+      "event_indices": [
+        2
+      ],
+      "enemy_ids": [
+        199109
+      ],
+      "enemy_labels": [
+        "RogueLike_Enemy_Boss03_1_1"
+      ],
+      "enemy_names_best": [
+        "...Don't mention it."
+      ]
+    },
+    "199107": {
+      "enemy_group_id": 199107,
+      "use_count": 1,
+      "label": "RogueLike_EnemyGroup_02_008",
+      "formation": 95,
+      "bgm": 107,
+      "event_indices": [
+        55
+      ],
+      "enemy_ids": [
+        199110
+      ],
+      "enemy_labels": [
+        "RogueLike_Enemy_Boss03_1_2"
+      ],
+      "enemy_names_best": [
+        "I told you, I'm not great with women, okay?"
+      ]
+    },
+    "199108": {
+      "enemy_group_id": 199108,
+      "use_count": 1,
+      "label": "RogueLike_EnemyGroup_02_009",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        199111
+      ],
+      "enemy_labels": [
+        "RogueLike_Enemy_Boss03_2_3"
+      ],
+      "enemy_names_best": [
+        "Rematch: Swordmaster Tikilen"
+      ]
+    },
+    "199176": {
+      "enemy_group_id": 199176,
+      "use_count": 1,
+      "label": "RogueLike_EnemyGroup_02_007_easy",
+      "formation": 96,
+      "bgm": 98,
+      "event_indices": [
+        2
+      ],
+      "enemy_ids": [
+        99240
+      ],
+      "enemy_labels": [
+        "RogueLike_Enemy_Boss03_1_1_easy"
+      ],
+      "enemy_names_best": [
+        "...Don't mention it."
+      ]
+    },
+    "199177": {
+      "enemy_group_id": 199177,
+      "use_count": 1,
+      "label": "RogueLike_EnemyGroup_02_008_easy",
+      "formation": 95,
+      "bgm": 107,
+      "event_indices": [
+        55
+      ],
+      "enemy_ids": [
+        99243
+      ],
+      "enemy_labels": [
+        "RogueLike_Enemy_Boss03_1_2_easy"
+      ],
+      "enemy_names_best": [
+        "I told you, I'm not great with women, okay?"
+      ]
+    },
+    "199178": {
+      "enemy_group_id": 199178,
+      "use_count": 1,
+      "label": "RogueLike_EnemyGroup_02_009_easy",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        99241
+      ],
+      "enemy_labels": [
+        "RogueLike_Enemy_Boss03_2_3_easy"
+      ],
+      "enemy_names_best": [
+        "Rematch: Swordmaster Tikilen"
+      ]
+    },
+    "199246": {
+      "enemy_group_id": 199246,
+      "use_count": 1,
+      "label": "RogueLike_EnemyGroup_02_007_hard",
+      "formation": 96,
+      "bgm": 98,
+      "event_indices": [
+        2
+      ],
+      "enemy_ids": [
+        99373
+      ],
+      "enemy_labels": [
+        "RogueLike_Enemy_Boss03_1_1_hard"
+      ],
+      "enemy_names_best": [
+        "...Don't mention it."
+      ]
+    },
+    "199247": {
+      "enemy_group_id": 199247,
+      "use_count": 1,
+      "label": "RogueLike_EnemyGroup_02_008_hard",
+      "formation": 95,
+      "bgm": 107,
+      "event_indices": [
+        55
+      ],
+      "enemy_ids": [
+        99376
+      ],
+      "enemy_labels": [
+        "RogueLike_Enemy_Boss03_1_2_hard"
+      ],
+      "enemy_names_best": [
+        "I told you, I'm not great with women, okay?"
+      ]
+    },
+    "199248": {
+      "enemy_group_id": 199248,
+      "use_count": 1,
+      "label": "RogueLike_EnemyGroup_02_009_hard",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        99374
+      ],
+      "enemy_labels": [
+        "RogueLike_Enemy_Boss03_2_3_hard"
+      ],
+      "enemy_names_best": [
+        "Rematch: Swordmaster Tikilen"
+      ]
+    },
+    "199262": {
+      "enemy_group_id": 199262,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03",
+      "formation": 169,
+      "bgm": 88731,
+      "event_indices": [
+        114,
+        46,
+        47,
+        115,
+        41,
+        56
+      ],
+      "enemy_ids": [
+        5196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01"
+      ],
+      "enemy_names_best": [
+        "全てを授けし者"
+      ]
+    },
+    "199263": {
+      "enemy_group_id": 199263,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG04",
+      "formation": 170,
+      "bgm": 88736,
+      "event_indices": [
+        118,
+        137
+      ],
+      "enemy_ids": [
+        32193
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_04_01"
+      ],
+      "enemy_names_best": [
+        "全てを授けし者"
+      ]
+    },
+    "199264": {
+      "enemy_group_id": 199264,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03__B10030",
+      "formation": 169,
+      "bgm": 101177,
+      "event_indices": [
+        45,
+        46,
+        47,
+        41,
+        56
+      ],
+      "enemy_ids": [
+        15196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01__B5196"
+      ],
+      "enemy_names_best": [
+        "味方単体に回避アップの効果を\n<skl_turn_count>付与する"
+      ]
+    },
+    "199265": {
+      "enemy_group_id": 199265,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG04__B10031",
+      "formation": 170,
+      "bgm": 101185,
+      "event_indices": [
+        42,
+        43
+      ],
+      "enemy_ids": [
+        132193
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_04_01__B32193"
+      ],
+      "enemy_names_best": [
+        "味方単体に回避アップの効果を\n<skl_turn_count>付与する"
+      ]
+    },
+    "199279": {
+      "enemy_group_id": 199279,
+      "use_count": 1,
+      "label": "Gr_Other_Atsani_Em02",
+      "formation": 63,
+      "bgm": 110308,
+      "event_indices": [
+        79,
+        80
+      ],
+      "enemy_ids": [
+        33158
+      ],
+      "enemy_labels": [
+        "Other_Atsani_Em01_02"
+      ],
+      "enemy_names_best": [
+        "幻獣タイタン"
+      ]
+    },
+    "73654": {
+      "enemy_group_id": 73654,
+      "use_count": 1,
+      "label": "Gr_Other_Danas_Em02",
+      "formation": 72,
+      "bgm": 117522,
+      "event_indices": [
+        119
+      ],
+      "enemy_ids": [
+        33718
+      ],
+      "enemy_labels": [
+        "Other_Danas_Em02"
+      ],
+      "enemy_names_best": [
+        "魔導アーマー"
+      ]
+    },
+    "73657": {
+      "enemy_group_id": 73657,
+      "use_count": 1,
+      "label": "Gr_Other_Danas_Em05",
+      "formation": 72,
+      "bgm": 117538,
+      "event_indices": [
+        120
+      ],
+      "enemy_ids": [
+        33722
+      ],
+      "enemy_labels": [
+        "Other_Danas_Em06_01"
+      ],
+      "enemy_names_best": [
+        "オルトロス"
+      ]
+    },
+    "73658": {
+      "enemy_group_id": 73658,
+      "use_count": 1,
+      "label": "Gr_Other_Danas_Em06",
+      "formation": 72,
+      "bgm": 117522,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        33724
+      ],
+      "enemy_labels": [
+        "Other_Danas_Em06_02"
+      ],
+      "enemy_names_best": [
+        "オルトロス"
+      ]
+    },
+    "73659": {
+      "enemy_group_id": 73659,
+      "use_count": 1,
+      "label": "Gr_Other_Danas_Em07",
+      "formation": 72,
+      "bgm": 117544,
+      "event_indices": [
+        123
+      ],
+      "enemy_ids": [
+        33723
+      ],
+      "enemy_labels": [
+        "Other_Danas_Em07"
+      ],
+      "enemy_names_best": [
+        "破壊神ゴンスカ"
+      ]
+    },
+    "74164": {
+      "enemy_group_id": 74164,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em03",
+      "formation": 72,
+      "bgm": 117538,
+      "event_indices": [
+        120
+      ],
+      "enemy_ids": [
+        34058
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em06_01"
+      ],
+      "enemy_names_best": [
+        "オルトロス"
+      ]
+    },
+    "74165": {
+      "enemy_group_id": 74165,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em04",
+      "formation": 72,
+      "bgm": 117522,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        34059
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em06_02"
+      ],
+      "enemy_names_best": [
+        "オルトロス"
+      ]
+    },
+    "74166": {
+      "enemy_group_id": 74166,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em05",
+      "formation": 72,
+      "bgm": 117544,
+      "event_indices": [
+        123
+      ],
+      "enemy_ids": [
+        34060
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em07"
+      ],
+      "enemy_names_best": [
+        "破壊神ゴンスカ"
+      ]
+    },
+    "198013": {
+      "enemy_group_id": 198013,
+      "use_count": 1,
+      "label": "HandicapBattle_EX01_02_04_CN",
+      "formation": 95,
+      "bgm": 107,
+      "event_indices": [
+        55
+      ],
+      "enemy_ids": [
+        99813
+      ],
+      "enemy_labels": [
+        "HandicapBattle_RankEX01_02_04_Enemy1"
+      ],
+      "enemy_names_best": [
+        "I told you, I'm not great with women, okay?"
+      ]
+    },
+    "199358": {
+      "enemy_group_id": 199358,
+      "use_count": 1,
+      "label": "Wealth_Boss_EnemyGroup_06__Arena",
+      "formation": 181,
+      "bgm": 94,
+      "event_indices": [
+        124
+      ],
+      "enemy_ids": [
+        5010
+      ],
+      "enemy_labels": [
+        "Wealth_Boss_Chapter3_03_01"
+      ],
+      "enemy_names_best": [
+        "狩王女ヘルミニア"
+      ]
+    },
+    "199359": {
+      "enemy_group_id": 199359,
+      "use_count": 1,
+      "label": "Wealth_Boss_EnemyGroup_06_02__Arena",
+      "formation": 181,
+      "bgm": 94,
+      "event_indices": [
+        124
+      ],
+      "enemy_ids": [
+        5151
+      ],
+      "enemy_labels": [
+        "Wealth_Boss_Chapter3_03_01_02"
+      ],
+      "enemy_names_best": [
+        "狩王女ヘルミニア"
+      ]
+    },
+    "199363": {
+      "enemy_group_id": 199363,
+      "use_count": 1,
+      "label": "AllMaster_Boss_ENG08__Arena",
+      "formation": 59,
+      "bgm": 107,
+      "event_indices": [
+        1
+      ],
+      "enemy_ids": [
+        5047
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp5_03_01"
+      ],
+      "enemy_names_best": [
+        "パーディス三世"
+      ]
+    },
+    "199366": {
+      "enemy_group_id": 199366,
+      "use_count": 1,
+      "label": "AllMaster_Boss_ENG12__Arena",
+      "formation": 96,
+      "bgm": 98,
+      "event_indices": [
+        2
+      ],
+      "enemy_ids": [
+        5053
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp8_02_01"
+      ],
+      "enemy_names_best": [
+        "パーディス三世"
+      ]
+    },
+    "199368": {
+      "enemy_group_id": 199368,
+      "use_count": 1,
+      "label": "AllMaster_Boss_ENG14__Arena",
+      "formation": 58,
+      "bgm": 92,
+      "event_indices": [
+        3,
+        4
+      ],
+      "enemy_ids": [
+        5055
+      ],
+      "enemy_labels": [
+        "AllMASTER_Boss_Chp8_04_01"
+      ],
+      "enemy_names_best": [
+        "全てを極めし者"
+      ]
+    },
+    "199377": {
+      "enemy_group_id": 199377,
+      "use_count": 1,
+      "label": "GM_Wealth_Chap3_Boss_ENG02__Arena",
+      "formation": 140,
+      "bgm": 130,
+      "event_indices": [
+        14
+      ],
+      "enemy_ids": [
+        5115
+      ],
+      "enemy_labels": [
+        "B05_001_Boss_02_01"
+      ],
+      "enemy_names_best": [
+        "持たざる者オスカ"
+      ]
+    },
+    "199378": {
+      "enemy_group_id": 199378,
+      "use_count": 1,
+      "label": "GM_Wealth_Chap3_Boss_ENG03__Arena",
+      "formation": 63,
+      "bgm": 130,
+      "event_indices": [
+        15,
+        16
+      ],
+      "enemy_ids": [
+        5107
+      ],
+      "enemy_labels": [
+        "B05_001_Boss_01_02"
+      ],
+      "enemy_names_best": [
+        "紳商伯オスカ"
+      ]
+    },
+    "199385": {
+      "enemy_group_id": 199385,
+      "use_count": 1,
+      "label": "GM_Power_Chap3_Boss_ENG04__Arena",
+      "formation": 149,
+      "bgm": 131,
+      "event_indices": [
+        123
+      ],
+      "enemy_ids": [
+        5110
+      ],
+      "enemy_labels": [
+        "B06_002_Boss_01_01"
+      ],
+      "enemy_names_best": [
+        "舞踏姫タトゥロック"
+      ]
+    },
+    "199401": {
+      "enemy_group_id": 199401,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap3_Boss_ENG04__Arena",
+      "formation": 157,
+      "bgm": 88696,
+      "event_indices": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "enemy_ids": [
+        5123
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp3_02_01"
+      ],
+      "enemy_names_best": [
+        "呪王エリカ"
+      ]
+    },
+    "199402": {
+      "enemy_group_id": 199402,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap4_Boss_ENG01__Arena",
+      "formation": 158,
+      "bgm": 108,
+      "event_indices": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "enemy_ids": [
+        5126,
+        31766,
+        31715
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp4_01_01",
+        "AGM_Boss_Chp4_01_03",
+        "AGM_Boss_Chp4_01_02"
+      ],
+      "enemy_names_best": [
+        "聖火騎士ロンド",
+        "聖火",
+        "聖火"
+      ]
+    },
+    "199420": {
+      "enemy_group_id": 199420,
+      "use_count": 1,
+      "label": "GM_GiveAll_Chap8_Boss_ENG03__Arena",
+      "formation": 169,
+      "bgm": 88731,
+      "event_indices": [
+        114
+      ],
+      "enemy_ids": [
+        5196
+      ],
+      "enemy_labels": [
+        "AGM_Boss_Chp8_03_01"
+      ],
+      "enemy_names_best": [
+        "全てを授けし者"
+      ]
+    },
+    "199514": {
+      "enemy_group_id": 199514,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em03__Arena",
+      "formation": 72,
+      "bgm": 117538,
+      "event_indices": [
+        120
+      ],
+      "enemy_ids": [
+        34058
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em06_01"
+      ],
+      "enemy_names_best": [
+        "オルトロス"
+      ]
+    },
+    "199515": {
+      "enemy_group_id": 199515,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em04__Arena",
+      "formation": 72,
+      "bgm": 117522,
+      "event_indices": [
+        122
+      ],
+      "enemy_ids": [
+        34059
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em06_02"
+      ],
+      "enemy_names_best": [
+        "オルトロス"
+      ]
+    },
+    "199516": {
+      "enemy_group_id": 199516,
+      "use_count": 1,
+      "label": "Gr_QPS_Rematch_Other_Danas_Em05__Arena",
+      "formation": 72,
+      "bgm": 117544,
+      "event_indices": [
+        123
+      ],
+      "enemy_ids": [
+        34060
+      ],
+      "enemy_labels": [
+        "Rematch_Other_Danas_Em07"
+      ],
+      "enemy_names_best": [
+        "破壊神ゴンスカ"
+      ]
+    }
+  },
+  "uses_sample": [
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 900,
+      "enemy_label": "Rare_Enemy_001",
+      "enemy_name_best": "キャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 901,
+      "enemy_label": "Rare_Enemy_002",
+      "enemy_name_best": "ジェントルキャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 902,
+      "enemy_label": "Rare_Enemy_003",
+      "enemy_name_best": "ブルジョワキャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 903,
+      "enemy_label": "Rare_Enemy_004",
+      "enemy_name_best": "キャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 904,
+      "enemy_label": "Rare_Enemy_005",
+      "enemy_name_best": "ジェントルキャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 905,
+      "enemy_label": "Rare_Enemy_006",
+      "enemy_name_best": "ブルジョワキャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 1900,
+      "enemy_label": "Rare_Enemy_001__B900",
+      "enemy_name_best": "I dance for myself.",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 1901,
+      "enemy_label": "Rare_Enemy_002__B901",
+      "enemy_name_best": "People of Sufrataljah!",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 1902,
+      "enemy_label": "Rare_Enemy_003__B902",
+      "enemy_name_best": "The lord may be dead, but you're not!\nWhich means you had best keep digging\nfor that gold!",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 1903,
+      "enemy_label": "Rare_Enemy_004__B903",
+      "enemy_name_best": "キャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 1904,
+      "enemy_label": "Rare_Enemy_005__B904",
+      "enemy_name_best": "ジェントルキャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 1905,
+      "enemy_label": "Rare_Enemy_006__B905",
+      "enemy_name_best": "ブルジョワキャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 771,
+      "enemy_label": "Rare_Enemy_ClbBD_001",
+      "enemy_name_best": "カプカプ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 772,
+      "enemy_label": "Rare_Enemy_ClbBD_002",
+      "enemy_name_best": "モグモグ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 773,
+      "enemy_label": "Rare_Enemy_ClbBD_003",
+      "enemy_name_best": "ガブガブ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 774,
+      "enemy_label": "Rare_Enemy_ClbBD_004",
+      "enemy_name_best": "ラージカプカプ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 861,
+      "enemy_label": "Rare_Enemy_Hell_001",
+      "enemy_name_best": "I need no reminders, sir...",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 862,
+      "enemy_label": "Rare_Enemy_Hell_002",
+      "enemy_name_best": "亡者ジェントルキャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30533,
+      "enemy_label": "ePC0184_ClbBD_Chp1_Em01",
+      "enemy_name_best": "カプカプ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30550,
+      "enemy_label": "ePC0184_ClbBD_Chp2_Em02",
+      "enemy_name_best": "カプカプ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30551,
+      "enemy_label": "ePC0184_ClbBD_Chp3_Em02",
+      "enemy_name_best": "カプカプ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30552,
+      "enemy_label": "ePC0184_ClbBD_Chp4_Em02",
+      "enemy_name_best": "カプカプ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30683,
+      "enemy_label": "PC0162_Chp4_Em03",
+      "enemy_name_best": "盗賊C",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 132399,
+      "enemy_label": "RagasaEnemy_01_01_005",
+      "enemy_name_best": "キャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 132406,
+      "enemy_label": "RagasaEnemy_01_02_005",
+      "enemy_name_best": "キャットリン・別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32413,
+      "enemy_label": "RagasaEnemy_01_03_005",
+      "enemy_name_best": "ジェントルキャットリン・別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32421,
+      "enemy_label": "RagasaEnemy_01_04_005",
+      "enemy_name_best": "ブルジョワキャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32428,
+      "enemy_label": "RagasaEnemy_01_05_005",
+      "enemy_name_best": "ブルジョワキャットリン・別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30503,
+      "enemy_label": "Enemy_ClbBD_Rank01_Zako5",
+      "enemy_name_best": "残虐なモグモグ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30508,
+      "enemy_label": "Enemy_ClbBD_Rank02_Zako5",
+      "enemy_name_best": "残虐なガブガブ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30514,
+      "enemy_label": "Enemy_ClbBD_Rank01_Rare1",
+      "enemy_name_best": "カプカプ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30527,
+      "enemy_label": "Enemy_ClbBD_Rank01_Zako5R",
+      "enemy_name_best": "モグモグ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30528,
+      "enemy_label": "Enemy_ClbBD_Rank02_Zako5R",
+      "enemy_name_best": "ガブガブ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30531,
+      "enemy_label": "Enemy_ClbBD_Rank02_Rare",
+      "enemy_name_best": "モグモグ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30532,
+      "enemy_label": "Enemy_ClbBD_Rank03_Rare",
+      "enemy_name_best": "ガブガブ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30563,
+      "enemy_label": "Enemy_ClbBD_Rank01_OPT",
+      "enemy_name_best": "カプカプ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30564,
+      "enemy_label": "Enemy_ClbBD_Rank02_OPT",
+      "enemy_name_best": "モグモグ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 30565,
+      "enemy_label": "Enemy_ClbBD_Rank03_OPT",
+      "enemy_name_best": "ガブガブ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32891,
+      "enemy_label": "Enemy_Jangmi_Rank01_Boss01",
+      "enemy_name_best": "残虐なカプカプ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32945,
+      "enemy_label": "Enemy_Jangmi_Rank01_Rare1",
+      "enemy_name_best": "モグモグ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32946,
+      "enemy_label": "Enemy_Jangmi_Rank01_Rare2",
+      "enemy_name_best": "カプカプ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32951,
+      "enemy_label": "Enemy_Jangmi_Rank02_Rare1",
+      "enemy_name_best": "ガブガブ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32952,
+      "enemy_label": "Enemy_Jangmi_Rank02_Rare2",
+      "enemy_name_best": "モグモグ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32958,
+      "enemy_label": "Enemy_Jangmi_Rank03_Rare2",
+      "enemy_name_best": "ガブガブ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32548,
+      "enemy_label": "QPS_Rare_Cat_01_Enemy_001_01",
+      "enemy_name_best": "キャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32642,
+      "enemy_label": "QPS_Rare_Cat_02_Enemy_001_01",
+      "enemy_name_best": "キャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32643,
+      "enemy_label": "QPS_Rare_Cat_03_Enemy_001_01",
+      "enemy_name_best": "ジェントルキャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32700,
+      "enemy_label": "QPS_Rare_Cat_01_Enemy_002_01",
+      "enemy_name_best": "キャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32701,
+      "enemy_label": "QPS_Rare_Cat_02_Enemy_002_01",
+      "enemy_name_best": "キャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32826,
+      "enemy_label": "QPS_Rare_Cat_02_Enemy_001_02",
+      "enemy_name_best": "キャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 32827,
+      "enemy_label": "QPS_Rare_Cat_03_Enemy_001_02",
+      "enemy_name_best": "ジェントルキャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33022,
+      "enemy_label": "QPS_Rare_Cat_02_Enemy_001_03",
+      "enemy_name_best": "キャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33023,
+      "enemy_label": "QPS_Rare_Cat_03_Enemy_001_03",
+      "enemy_name_best": "ジェントルキャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33197,
+      "enemy_label": "QPS_Rare_Cat_02_Enemy_001_04",
+      "enemy_name_best": "キャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33198,
+      "enemy_label": "QPS_Rare_Cat_03_Enemy_001_04",
+      "enemy_name_best": "ジェントルキャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33199,
+      "enemy_label": "QPS_Rare_Cat_04_Enemy_001_01",
+      "enemy_name_best": "ジェントルキャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33421,
+      "enemy_label": "QPS_Rare_Cat_03_Enemy_001_05",
+      "enemy_name_best": "ジェントルキャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33422,
+      "enemy_label": "QPS_Rare_Cat_04_Enemy_001_02",
+      "enemy_name_best": "ジェントルキャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33440,
+      "enemy_label": "QPS_Rare_Cat_05_Enemy_001_01",
+      "enemy_name_best": "The lord may be dead, but you're not!\nWhich means you had best keep digging\nfor that gold!",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33601,
+      "enemy_label": "QPS_Rare_Cat_04_Enemy_001_03",
+      "enemy_name_best": "ジェントルキャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33602,
+      "enemy_label": "QPS_Rare_Cat_05_Enemy_001_02",
+      "enemy_name_best": "The lord may be dead, but you're not!\nWhich means you had best keep digging\nfor that gold!",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33603,
+      "enemy_label": "QPSWilderness_Rare_Oct_Enemy_05_001",
+      "enemy_name_best": "逢夜のブルジョワキャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33725,
+      "enemy_label": "QPSWilderness_Rare_Oct_Enemy_05_001_a",
+      "enemy_name_best": "逢夜のブルジョワキャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33726,
+      "enemy_label": "QPSWilderness_Rare_Oct_Enemy_05_001_b",
+      "enemy_name_best": "逢夜のブルジョワキャットリン",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 99822,
+      "enemy_label": "HandicapBattle_RankEX02_05_01_Enemy2",
+      "enemy_name_best": "カプカプ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33945,
+      "enemy_label": "QPS_Rare_Cat_01_Enemy_001_03",
+      "enemy_name_best": "I dance for myself.",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33956,
+      "enemy_label": "QPS_Rare_Cat_02_Enemy_001_05",
+      "enemy_name_best": "キャットリン別種",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 892,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 892,
+      "tactical_action_id": 0,
+      "enemy_id": 33957,
+      "enemy_label": "QPS_Rare_Cat_03_Enemy_001_06",
+      "enemy_name_best": "People of Sufrataljah!",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 23144,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 23144,
+      "tactical_action_id": 0,
+      "enemy_id": 98216,
+      "enemy_label": "SE_Enemy_024_01",
+      "enemy_name_best": "獰猛なヨジョウグモ",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 5000,
+      "enemy_label": "Wealth_Boss_Chapter1_01_01",
+      "enemy_name_best": "屈強な黒服",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 20001,
+      "enemy_label": "Enemy_Duel_Test",
+      "enemy_name_best": "村人",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 15000,
+      "enemy_label": "Wealth_Boss_Chapter1_01_01__B5000",
+      "enemy_name_best": "Yes. I was sent by Sir Wossner.\nHe's taken a great interest in your work.",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 5178,
+      "enemy_label": "Wealth_Boss_Chapter1_01_01_02",
+      "enemy_name_best": "Yes. I was sent by Sir Wossner.\nHe's taken a great interest in your work.",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 5180,
+      "enemy_label": "Wealth_Boss_Chapter1_01_01_03",
+      "enemy_name_best": "Yes. I was sent by Sir Wossner.\nHe's taken a great interest in your work.",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 10105,
+      "enemy_label": "ePC028_Chp1_Em01",
+      "enemy_name_best": "海賊",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 120001,
+      "enemy_label": "Enemy_Duel_Test__B20001",
+      "enemy_name_best": "村人",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 31010,
+      "enemy_label": "Enemy_Tower_f0010_r001b_001",
+      "enemy_name_best": "煉業な屈強な黒服",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 31100,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex001a_001",
+      "enemy_name_best": "煉業な異常な暴漢",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 31101,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex001b_001",
+      "enemy_name_best": "煉業な屈強な黒服",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 31103,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex002a_001",
+      "enemy_name_best": "煉業な異常な暴漢",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 31104,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex002b_001",
+      "enemy_name_best": "煉業な屈強な黒服",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 31106,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex003a_001",
+      "enemy_name_best": "煉業な異常な暴漢",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 31107,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex003b_001",
+      "enemy_name_best": "煉業な屈強な黒服",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 31109,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex004a_001",
+      "enemy_name_best": "煉業な異常な暴漢",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 1,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10102,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10102,
+      "tactical_action_id": 0,
+      "enemy_id": 31110,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex004b_001",
+      "enemy_name_best": "煉業な屈強な黒服",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 5000,
+      "enemy_label": "Wealth_Boss_Chapter1_01_01",
+      "enemy_name_best": "屈強な黒服",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 20001,
+      "enemy_label": "Enemy_Duel_Test",
+      "enemy_name_best": "村人",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 15000,
+      "enemy_label": "Wealth_Boss_Chapter1_01_01__B5000",
+      "enemy_name_best": "Yes. I was sent by Sir Wossner.\nHe's taken a great interest in your work.",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 5178,
+      "enemy_label": "Wealth_Boss_Chapter1_01_01_02",
+      "enemy_name_best": "Yes. I was sent by Sir Wossner.\nHe's taken a great interest in your work.",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 5180,
+      "enemy_label": "Wealth_Boss_Chapter1_01_01_03",
+      "enemy_name_best": "Yes. I was sent by Sir Wossner.\nHe's taken a great interest in your work.",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 10105,
+      "enemy_label": "ePC028_Chp1_Em01",
+      "enemy_name_best": "海賊",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 120001,
+      "enemy_label": "Enemy_Duel_Test__B20001",
+      "enemy_name_best": "村人",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 31010,
+      "enemy_label": "Enemy_Tower_f0010_r001b_001",
+      "enemy_name_best": "煉業な屈強な黒服",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 31100,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex001a_001",
+      "enemy_name_best": "煉業な異常な暴漢",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 31101,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex001b_001",
+      "enemy_name_best": "煉業な屈強な黒服",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 31103,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex002a_001",
+      "enemy_name_best": "煉業な異常な暴漢",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 31104,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex002b_001",
+      "enemy_name_best": "煉業な屈強な黒服",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 31106,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex003a_001",
+      "enemy_name_best": "煉業な異常な暴漢",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 31107,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex003b_001",
+      "enemy_name_best": "煉業な屈強な黒服",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    },
+    {
+      "condition_id": 800,
+      "param": 2,
+      "slot": 0,
+      "subsystem": "TacticalList",
+      "owner_table": "TacticalList",
+      "owner_row_id": 10103,
+      "ailment_type": 0,
+      "status_type": 0,
+      "weapon_type": 0,
+      "magic_type": 0,
+      "equipment": 0,
+      "tactical_list_id": 10103,
+      "tactical_action_id": 0,
+      "enemy_id": 31109,
+      "enemy_label": "Enemy_Tower_f0010_r001Ex004a_001",
+      "enemy_name_best": "煉業な異常な暴漢",
+      "enemy_group_id": 0,
+      "enemy_group_label": "",
+      "enemy_group_enemies": null,
+      "skill_id": 0,
+      "skill_index": -1,
+      "skill_avail_id": 0,
+      "skill_condition_list_id": 0,
+      "condition_ref_field": "",
+      "select_type": -1,
+      "turn_count": -1,
+      "group_index": -1,
+      "friendly_index": -999,
+      "priority_skill": -999,
+      "co_conditions_in_row": []
+    }
+  ]
+}
