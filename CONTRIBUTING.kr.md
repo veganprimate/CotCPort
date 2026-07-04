@@ -1,5 +1,5 @@
 # 기여
-## **LANGUAGE:**  [English](CONTRIBUTING.md) | [日本語](CONTRIBUTING.jp.md) | [中文](CONTRIBUTING.zh.md) | [한국어](CONTRIBUTING.kr.md)
+## **LANGUAGE:**  [English](CONTRIBUTING.md) | [日本語](CONTRIBUTING.jp.md) | [中文](CONTRIBUTING.zh.md) | **한국어**
 
 누구나 이 프로젝트에 기여할 수 있습니다. 본 저장소에는 pak 외에도, 모드의 각 요소가 어떻게 동작하는지에 대한 상세 문서, **『옥토패스 트래블러 0』** 모딩 전반에 대한 문서, 그리고 아직 완료되지 않은 작업 목록(진행 방향에 대한 간단한 논의 포함)이 포함되어 있습니다.
 
