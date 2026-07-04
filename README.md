@@ -521,7 +521,7 @@ The visible add-member effect is **suppressed** for already recruited characters
 
 
 ## Contact
-You can reach me in the **BravelyPath Modular** Discord server in the **#cotc-characters-mod** channel, where I am joined by several other contributors and modders. You can join the server via this link: https://discord.gg/7YmAFJ3h5Z
+You can reach me in the **BravelyPath Modular** Discord server in the **#cotc-characters-mod** channel, where I am joined by several other contributors and modders. My name there is **veganprimate**. You can join the server via this link: https://discord.gg/7YmAFJ3h5Z
 
 ## Acknowledgements
 Thanks to:
