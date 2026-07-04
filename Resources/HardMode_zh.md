@@ -1,5 +1,5 @@
 # （可选）困难模式版本
-## **LANGUAGE:**  [English](HardMode_en.md) | [日本語](HardMode_jp.md) | [中文](HardMode_zh.md) | [한국어](HardMode_kr.md)
+## **LANGUAGE:**  [English](HardMode_en.md) | [日本語](HardMode_jp.md) | **中文** | [한국어](HardMode_kr.md)
 由于本 MOD 会修改 `EnemyID` 等多个资产（asset），因此会与任何同样修改这些资产的 MOD 不兼容。为方便想要将两者结合使用的玩家，我们制作了本 MOD 的困难模式版本（文件名带 `_hard` 后缀）。改动如下（标有 **(WIP)** 的项目尚未完全实现或尚未实现）：
 - **普通敌人**的 HP 变为 **2 倍**，**Boss** 的 HP 变为 **3 倍**
 - 普通敌人的各项属性（物攻、物防、属攻、属防、速度、命中、暴击、暴击防御以及最大护盾数）提高 **25%**，Boss 对应属性提高 **50%**
