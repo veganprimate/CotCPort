@@ -5,7 +5,7 @@
 
 <p align="center">
 <a href="#installation"><img alt="Installation" src="https://img.shields.io/badge/INSTALLATION-10363D?style=for-the-badge&logo=github&logoColor=white"></a>
-<a href="https://github.com/veganprimate/CotCPort_Canary/blob/main/Resources/HardMode_en.md"><img alt="Hard Mode" src="https://img.shields.io/badge/HARD%20MODE-880808?style=for-the-badge&logo=undertale&logoColor=white"></a>
+<a href="https://github.com/veganprimate/CotCPort/blob/main/Resources/HardMode_en.md"><img alt="Hard Mode" src="https://img.shields.io/badge/HARD%20MODE-880808?style=for-the-badge&logo=undertale&logoColor=white"></a>
 <a href="#how-to-recruit-the-new-travelers"><img alt="Recruit Travelers" src="https://img.shields.io/badge/RECRUIT%20TRAVELERS-10363D?style=for-the-badge&logo=bookstack&logoColor=white"></a>
 </p>
 <p align="center">
@@ -69,7 +69,7 @@ Currently **work in progress (WIP) / unfinished / planned** features of the mod 
 - A **seamless real-time** day/night switch that works **even on Orsterra maps**. For Orsterra's night maps, I have planned **custom NPC presets** faithful to Octopath Traveler lore
 - **500+** new maps reconstructed from their CotC, OT1, and OT2 counterparts, this includes **new worldmaps** for **Solistia** and **Dreadborn Orsterra**
 - **OT0-ified** versions of **side-quests** from Octopath Traveler 1 and 2
-- An _optional_ **hard-mode** version that significantly increases the difficulty of the **base game** as well as **added content** from **CotC, OT1, and OT2**. See [Hard Mode Version](https://github.com/veganprimate/CotCPort_Canary/blob/main/Resources/HardMode_en.md) for more info
+- An _optional_ **hard-mode** version that significantly increases the difficulty of the **base game** as well as **added content** from **CotC, OT1, and OT2**. See [Hard Mode Version](https://github.com/veganprimate/CotCPort/blob/main/Resources/HardMode_en.md) for more info
 - A **custom questline** revolving around Kit Crossford, heavily inspired by Octopath Traveler 1, including **custom boss fights**
 - **Custom C++ mods** to implement larger CotC subsystems with, such as:
   - **Divine Beasts**-related battle options
