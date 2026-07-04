@@ -438,6 +438,8 @@ CotCPort_DataBase
  3. 모든 모드 캐릭터 영입 해제
  4. 모든 모드 캐릭터를 위시베일에서 제거
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26b2bbef-698c-4d4a-95f6-1b14b5391ec4" />
+
 모드 업데이트로 신규 플레이어블 캐릭터가 추가되면, `RecruitEvent_p.pak`가 pak 폴더에 있는 한 **같은 NPC에게 다시 말을 걸어** 영입할 수 있습니다.
 이미 영입된 캐릭터의 경우 `EntryPlayerCharacter`가 `false`를 반환하므로 눈에 보이는 가입 연출은 **억제**됩니다. 또한 opcode `10029  EvCmAddPartyMember`는 대사를 강제하지 않습니다. 그렇다고 이미 영입된 캐릭터에 대해 `10029`가 건너뛰어진다는 뜻은 아닙니다. 실제로 하는 일이 거의 없을 뿐입니다. 이미 영입된 플레이어도 처리 대상이 되어 HP/SP 회복, 파티 내 위치 지정, 활성 파티 cue sheet 갱신 등이 일어날 수 있습니다. 장비나 장착 스킬을 잃거나, 스탯이 초기화되거나, 두 번 영입되지는 **않습니다**.
 
