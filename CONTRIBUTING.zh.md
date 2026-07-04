@@ -1,5 +1,5 @@
 # 贡献
-## **LANGUAGE:**  [English](CONTRIBUTING.md) | [日本語](CONTRIBUTING.jp.md) | [中文](CONTRIBUTING.zh.md) | [한국어](CONTRIBUTING.kr.md)
+## **LANGUAGE:**  [English](CONTRIBUTING.md) | [日本語](CONTRIBUTING.jp.md) | **中文** | [한국어](CONTRIBUTING.kr.md)
 欢迎任何人参与本项目。除 pak 文件外，本仓库还包含大量文档：详细说明本 MOD 各部分的工作原理、**Octopath Traveler 0** 的通用 MOD 制作资料，以及尚待完成的任务列表（附有对可行推进路径的简要讨论）。
 
 以下是尚未从**《大陆的霸者》**移植的功能列表。每一项链接到本仓库中说明其当前进度的 markdown 文件：
