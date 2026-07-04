@@ -108,36 +108,38 @@ OCTOPATH TRAVELER 0/
     └── Content/
         └── Paks/
 ```        
-The goal is that the files from the archive should readily **merge into** the existing `Octopath_Traveler0` folder. Do not accidentally create an extra nested folder such as:
+The files from the archive readily **merge into** the existing `Octopath_Traveler0` folder. Extract them into `OCTOPATH TRAVELER 0/`, see the sections **below** for details on where to find this folder depending on your platform and what to look out for.
+
+Do **not** accidentally create an **extra nested folder** such as:
 ```
 Octopath_Traveler0/Octopath_Traveler0/...
 ```
-or:
+or
 ```
 Octopath_Traveler0/CotCPort_Base/Octopath_Traveler0/...
 ```
 The **final** game folder layout should be **roughly** like this:
 ```
 Octopath_Traveler0/
-└── Binaries/
-    └── Win64/
-        ├── Octopath_Traveler0-Win64-Shipping.exe
-        ├── (+other non-mod files)
-        ├── dwmapi.dll
-        ├── OT0KingshipLoader.dll
-        ├── libwinpthread-1.dll
-        ├── (+MinGW DLLs if needed)
-        ├── KingshipConfig/
-            └── (DLL mod .ini config files)
-        └── KingshipMods/
-            └── (DLL mods)
+├── Binaries/
+│   └── Win64/
+│       ├── Octopath_Traveler0-Win64-Shipping.exe
+│       ├── (+other non-mod files)
+│       ├── dwmapi.dll
+│       ├── OT0KingshipLoader.dll
+│       ├── libwinpthread-1.dll
+│       ├── (+extra MinGW DLLs if needed)
+│       ├── KingshipConfig/
+│       │   └── (DLL mod .ini config files)
+│       └── KingshipMods/
+│           └── (DLL mods)
 └── Content/
     └── Paks/
         ├── pakchunk0-[your platform].pak
         └── (pak mods)
 ```
 
-For more details on the files within both archives, see the section "Layout of the archives" in the release notes for [v1.1.0-pre](https://github.com/veganprimate/CotCPort/releases/tag/v1.1.0-pre).
+_For more details on the files within both archives, see the section **Layout of the archives** in the release notes for [v1.1.0-pre](https://github.com/veganprimate/CotCPort/releases/tag/v1.1.0-pre)._
 
 Installation may require you to **replace** a number of DLLs under `Binaries/Win64/`, please also ensure `CotCPort_notex_p.pak` from v1.0.0 of the CotCPort is **removed** from `Content/Paks/` before starting the game as `CotCPort_DataBase_p.pak` is supposed replace it but due to differing filenames, won't do that on its own.
 
@@ -148,9 +150,41 @@ It is **untested** whether the C++ mod loader is **compatible** with the Microso
 Nintendo Switch and MS Store players will possibly have to **constrain** themselves **to only using the paks** from the prerelease, more info below.
  
 ### Steam
-Extract the archive(s) under `steamapps\common\OCTOPATH TRAVELER 0\Octopath_Traveler0\`.
+Extract the archive(s) under `steamapps\common\OCTOPATH TRAVELER 0\`.
 
-**Note for Linux users:** If the C++ mod loader is **not initializing** on your end despite having followed the installation instructions for `Binaries/Win64/`, you can try the following launch options:
+To find the folder of your OCTOPATH TRAVELER 0 installtaion
+
+1. Open **Steam**.
+2. Go to your **Library**.
+3. Right-click **OCTOPATH TRAVELER 0**.
+4. Select **Manage** → **Browse local files**.
+5. Steam will open the **game's installation folder**.
+
+a typical **Windows** path may be
+```bash
+C:\Program Files (x86)\Steam\steamapps\common\OCTOPATH TRAVELER 0\
+```
+
+a common **Linux** path is:
+
+```bash
+~/.local/share/Steam/steamapps/common/OCTOPATH TRAVELER 0/
+```
+
+or
+
+```bash
+~/.steam/steam/steamapps/common/OCTOPATH TRAVELER 0/
+```
+
+or for **Steam Deck** users who have installed OCTOPATH TRAVELER 0 on a **microSD card**
+
+```bash
+/run/media/deck/<SD-card-name>/steamapps/common/OCTOPATH TRAVELER 0/
+```
+
+#### Note for Linux users
+If the C++ mod loader is **not initializing** on your end despite having followed the installation instructions for `Binaries/Win64/`, you can try the following launch options:
 ```bash
 WINEDLLOVERRIDES="dwmapi=n,b" %command%
 ```
