@@ -129,6 +129,31 @@ Nintendo Switch and MS Store players will possibly have to **constrain** themsel
 ### Steam
 Extract the archive(s) under `steamapps\common\OCTOPATH TRAVELER 0\Octopath_Traveler0\`.
 
+**Note for Linux users:** If the C++ mod loader is **not initializing** on your end despite having followed the installation instructions for `Binaries/Win64/`, you can try the following launch options:
+```bash
+WINEDLLOVERRIDES="dwmapi=n,b" %command%
+```
+Wine interprets `n,b` as native first, then builtin. Without this override, Proton _may_ select its builtin `dwmapi.dll` instead of my proxy beside the executable. That means the game launches normally, but my `dwmapi.dll` never executes and `OT0KingshipLoader.dll` is never loaded.
+
+You can also set this override in the** Wine prefix** you are using directly:
+```bash
+PREFIX="/path/to/your/wine-prefix"
+
+WINEPREFIX="$PREFIX" wine reg add \
+  'HKCU\Software\Wine\DllOverrides' \
+  /v dwmapi \
+  /t REG_SZ \
+  /d native,builtin \
+  /f
+```
+you can remove it by running
+```bash
+WINEPREFIX="/path/to/your/wine-prefix" wine reg delete \
+  'HKCU\Software\Wine\DllOverrides' \
+  /v dwmapi \
+  /f
+```
+
 ### Microsoft Store
 1. Rename the pak suffix from lowercase `_p` to uppercase `_P` for all of the paks
 2. Open the **Xbox App** on your PC, right-click **OCTOPATH TRAVELER 0** in your installed games list on the left sidebar, and select **Manage**
