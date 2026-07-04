@@ -67,8 +67,8 @@ A mod for **Octopath Traveler 0** that aims to integrate as much content as poss
 Currently **work in progress (WIP) / unfinished / planned** features of the mod include but are not limited to:
 
 - A **seamless real-time** day/night switch that works **even on Orsterra maps**. For Orsterra's night maps, I have planned **custom NPC presets** faithful to Octopath Traveler lore
-- **500+** new maps reconstructed from their CotC, OT1, and OT2 counterparts, this includes **new worldmaps** for **Solistia** and **Dreadborn Orsterra**
-- **OT0-ified** versions of **side-quests** from Octopath Traveler 1 and 2
+- **500+** new maps reconstructed from their CotC, OT1, and OT2 counterparts, this includes **new worldmaps** for **Solistia** and **Dreadborn Orsterra** (OT1 and OT2-exclusive maps have not yet been ported at all, and CotC-exclusive locations are currently at best visually complete)
+- **OT0-ified** versions of **side-quests** from Octopath Traveler 1 and 2, this will include e.g. an **OT0-ified superboss version** of **Heathcote's Rival**
 - An _optional_ **hard-mode** version that significantly increases the difficulty of the **base game** as well as **added content** from **CotC, OT1, and OT2**. See [Hard Mode Version](https://github.com/veganprimate/CotCPort/blob/main/Resources/HardMode_en.md) for more info
 - A **custom questline** revolving around Kit Crossford, heavily inspired by Octopath Traveler 1, including **custom boss fights**
 - **Custom C++ mods** to implement larger CotC subsystems with, such as:
