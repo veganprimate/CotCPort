@@ -157,7 +157,10 @@ sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks
 ```
 将**除了 `CotCPort_BluePrints_p.pak` 之外**的所有 pak 放入其中：
 ```
-sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_BluePrints_p.pak sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_Maps_p.pak sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_Sounds_p.pak sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_Textures_p.pak
+sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_BluePrints_p.pak
+sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_Maps_p.pak
+sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_Sounds_p.pak
+sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_Textures_p.pak
 ```
 `CotCPort_Extras.7z` 中的所有 pak 也兼容。
 
