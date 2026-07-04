@@ -1,5 +1,5 @@
 # Hard Mode Version
-## **LANGUAGE:**  [English](HardMode_en.md) | [日本語](HardMode_jp.md) | [中文](HardMode_zh.md) | [한국어](HardMode_kr.md)
+## **LANGUAGE:**  **English** | [日本語](HardMode_jp.md) | [中文](HardMode_zh.md) | [한국어](HardMode_kr.md)
 Given that this mod changes the `EnemyID` asset among several others and would therefore be incompatible with any mod that also edits these assets, a hard mode version of this mod was created for anyone wishing to combine these two, denoted with the `_hard` suffix. Changes are as follows (changes marked with **(WIP)** are not fully implemented yet if at all):
 - **Normal enemies** now have **2x** the HP, **bosses** **3x** the HP
 - The stats of normal enemies (Phys. Atk., Phys. Def., Elem. Atk., Elem. Def., Speed, Accuracy, Crit. and Crit. Def. and max shield count) were increased by **25%**, while those of bosses were increased by **50%**
