@@ -128,6 +128,7 @@ Octopath_Traveler0/
         ├── libwinpthread-1.dll
         ├── (+MinGW DLLs if needed)
         ├── KingshipConfig/
+            └── (DLL mod .ini config files)
         └── KingshipMods/
             └── (DLL mods)
 └── Content/
