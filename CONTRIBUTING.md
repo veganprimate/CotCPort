@@ -1,5 +1,5 @@
 # Contributions
-## **LANGUAGE:**  [English](CONTRIBUTING.md) | [日本語](CONTRIBUTING.jp.md) | [中文](CONTRIBUTING.zh.md) | [한국어](CONTRIBUTING.kr.md)
+## **LANGUAGE:**  **English** | [日本語](CONTRIBUTING.jp.md) | [中文](CONTRIBUTING.zh.md) | [한국어](CONTRIBUTING.kr.md)
 
 Everyone is welcome to contribute to this project. Besides the releases, this repository contains extensive documentation on how the various aspects of the mod work, general modding documentation for **Octopath Traveler 0**, and a list of tasks yet to be completed, along with brief discussions on viable paths for progress.
 Below is a list of the features that have yet to be ported from **Champions of the Continent**. Each feature links to a markdown file in this repository that explains the current progress on it:
