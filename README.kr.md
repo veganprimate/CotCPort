@@ -157,7 +157,10 @@ sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks
 ```
 그 안에 **`CotCPort_BluePrints_p.pak`를 제외한** 모든 pak를 넣으세요.
 ```
-sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_BluePrints_p.pak sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_Maps_p.pak sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_Sounds_p.pak sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_Textures_p.pak
+sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_BluePrints_p.pak
+sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_Maps_p.pak
+sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_Sounds_p.pak
+sdmc:/atmosphere/contents/01005270232F2000/romfs/Octopath_Traveler0/Content/Paks/CotCPort_Textures_p.pak
 ```
 `CotCPort_Extras.7z` 안의 모든 pak도 호환됩니다.
 
