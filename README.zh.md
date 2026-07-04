@@ -438,6 +438,8 @@ CotCPort_DataBase
  3. 解除所有 MOD 角色的招募
  4. 将所有 MOD 角色从许愿谷移除
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26b2bbef-698c-4d4a-95f6-1b14b5391ec4" />
+
 当 MOD 更新加入新的可操作角色时，只要 `RecruitEvent_p.pak` 位于你的 pak 文件夹中，就可以通过**再次与同一 NPC 对话**来招募他们。
 对于已经招募过的角色，可见的加人效果会被**抑制**，因为 `EntryPlayerCharacter` 会返回 `false`，且 opcode `10029  EvCmAddPartyMember` 不会强制弹出对话。但这并不意味着 `10029` 会对已招募角色跳过。只是它所做的事情非常轻微：已招募玩家仍可能被处理、HP/SP 被恢复、在队伍中被定位、刷新当前队伍 cue sheet 等。他们**不会**丢失装备或已装备技能，属性不会重置，也不会被重复招募。
 
