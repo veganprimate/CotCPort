@@ -116,6 +116,26 @@ or:
 ```
 Octopath_Traveler0/CotCPort_Base/Octopath_Traveler0/...
 ```
+The **final** game folder layout should be **roughly** like this:
+```
+Octopath_Traveler0/
+└── Binaries/
+    └── Win64/
+        ├── Octopath_Traveler0-Win64-Shipping.exe
+        ├── (+other non-mod files)
+        ├── dwmapi.dll
+        ├── OT0KingshipLoader.dll
+        ├── libwinpthread-1.dll
+        ├── (+MinGW DLLs if needed)
+        ├── KingshipConfig/
+        └── KingshipMods/
+            └── (DLL mods)
+└── Content/
+    └── Paks/
+        ├── pakchunk0-[your platform].pak
+        └── (pak mods)
+```
+
 For more details on the files within both archives, see the section "Layout of the archives" in the release notes for [v1.1.0-pre](https://github.com/veganprimate/CotCPort/releases/tag/v1.1.0-pre).
 
 Installation may require you to **replace** a number of DLLs under `Binaries/Win64/`, please also ensure `CotCPort_notex_p.pak` from v1.0.0 of the CotCPort is **removed** from `Content/Paks/` before starting the game as `CotCPort_DataBase_p.pak` is supposed replace it but due to differing filenames, won't do that on its own.
