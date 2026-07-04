@@ -1,5 +1,5 @@
 # （任意）ハードモード版
-## **LANGUAGE:**  [English](HardMode_en.md) | [日本語](HardMode_jp.md) | [中文](HardMode_zh.md) | [한국어](HardMode_kr.md)
+## **LANGUAGE:**  [English](HardMode_en.md) | **日本語** | [中文](HardMode_zh.md) | [한국어](HardMode_kr.md)
 
 本MODは `EnemyID` アセットをはじめ複数のアセットを変更しているため、同じアセットを編集する他のMODとは互換性がありません。併用したい方向けに、ファイル名に `_hard` サフィックスが付いたハードモード版を用意しました。
 
