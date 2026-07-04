@@ -509,7 +509,7 @@ A prompt with **four options** will pop up:
  3. Unrecruit all mod characters
  4. Remove all mod characters from Wishvale
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2e9260c4-ba3c-4a38-a28a-371aa0b694fb" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26b2bbef-698c-4d4a-95f6-1b14b5391ec4" />
 
 
 When an update to the mod introduces new playable characters, you can recruit them by **talking to the same NPC again** provided `RecruitEvent_p.pak` is in your paks folder.
