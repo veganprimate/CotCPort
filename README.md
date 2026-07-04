@@ -526,7 +526,7 @@ You can reach me in the **BravelyPath Modular** Discord server in the **#cotc-ch
 ## Acknowledgements
 Thanks to:
 - **BoltGSR** and **MarvinCx886** for providing me with data of CotC JP 
-- **Oersted** for providing me with data of CotC CN, complete skillsheets, spritesheets, and ideas for custom units, as well as for helping me with 
+- **Oersted** for providing me with data of CotC CN, complete skillsheets, spritesheets, and ideas for custom units, as well as for helping me with testing the mod extensively
 - **Vat** for providing me with expanded spritesheets of characters and enemies, as well as cooking many of the textures to appear crystal clear in-game
 - **Solo Traveler** for helping me playtest a large variety of features, giving me ideas for the Hard Mode version of the mod, and detailed descriptions of custom arena fights
 - **igoticecream** for generating an SDK for Octopath Traveler 0 which I referenced frequently
