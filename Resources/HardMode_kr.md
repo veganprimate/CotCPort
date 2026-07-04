@@ -1,5 +1,5 @@
 # (선택 사항) 하드 모드 버전
-## **LANGUAGE:**  [English](HardMode_en.md) | [日本語](HardMode_jp.md) | [中文](HardMode_zh.md) | [한국어](HardMode_kr.md)
+## **LANGUAGE:**  [English](HardMode_en.md) | [日本語](HardMode_jp.md) | [中文](HardMode_zh.md) | **한국어**
 
 본 모드는 `EnemyID` 에셋을 비롯한 여러 에셋을 변경하므로, 동일한 에셋을 수정하는 다른 모드와 호환되지 않습니다. 병용하고 싶은 분들을 위해, 파일명에 `_hard` 접미사가 붙은 하드 모드 버전을 별도로 제작하였습니다.
 
