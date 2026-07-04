@@ -1,5 +1,5 @@
 # 開発への参加
-## **LANGUAGE:**  [English](CONTRIBUTING.md) | [日本語](CONTRIBUTING.jp.md) | [中文](CONTRIBUTING.zh.md) | [한국어](CONTRIBUTING.kr.md)
+## **LANGUAGE:**  [English](CONTRIBUTING.md) | **日本語** | [中文](CONTRIBUTING.zh.md) | [한국어](CONTRIBUTING.kr.md)
 
 このプロジェクトへの貢献はどなたでも歓迎します。本リポジトリにはpakのほか、MODの各要素の仕組みに関する詳細ドキュメント、『オクトパストラベラー0』の一般的なMOD制作ドキュメント、そして未完了タスクの一覧（進め方として有力なアプローチの簡潔な議論付き）が含まれています。
 
