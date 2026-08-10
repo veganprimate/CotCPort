@@ -4,8 +4,10 @@
 # OT0 Kingship Modding API — Nintendo Switch Support Architecture and Porting Plan
 
 **Status:** Engineering design / feasibility plan ; the completion of the PC Modding API is prioritized, will likely not also include OT1 and OT2 support
+
 **Current Plan:** ship the first Switch version as **one injected `subsdkN` NSO containing the Kingship runtime plus a compile-time set of built-in mods**, but make those built-in mods enter through the same **stable v3 host/mod ABI** that a later dynamically loaded NRO would use. 
-**The reason for this document:** This is not only to explain the relevant architectural questions, but also to lay out my plan in detail in case I later on give up on the Switch support and someone else is willing to develop the support themselves. It is like a guide for adding Switch Support.
+
+**The meaning of this document:** This is not only to explain the relevant architectural questions, but also to lay out my plan in detail in case I later on give up on the Switch support and someone else is willing to develop the support themselves. It is like a guide for adding Switch Support.
 
 ---
 
