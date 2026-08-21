@@ -2,7 +2,11 @@
 ## **LANGUAGE:**  **English** | [日本語](CONTRIBUTING.jp.md) | [中文](CONTRIBUTING.zh.md) | [한국어](CONTRIBUTING.kr.md)
 
 Everyone is welcome to contribute to this project. Besides the releases, this repository contains extensive documentation on how the various aspects of the mod work, general modding documentation for **Octopath Traveler 0**, and a list of tasks yet to be completed, along with brief discussions on viable paths for progress.
-Below is a list of the features that have yet to be ported from **Champions of the Continent**. Each feature links to a markdown file in this repository that explains the current progress on it:
+
+Below is a list of the features that have yet to be ported from **Champions of the Continent**. Each feature links to a markdown file in this repository that explains the current progress on it.
+
+Please first read my short [**explanation of what "porting" content from CotC means**](Resources/ExplainingPorting_en.md) because it is a big misconception to think that just because OT0 is based on CotC that this would make porting trivial
+
 - [~~Quests and Events~~ (SOLVED)](Resources/QuestEvent_Prog_en.md)
 - [Effects and Animations](Resources/Animations_Prog_en.md)
 - [~~Objects~~ (SOLVED)](Resources/Objects_Prog_en.md)
