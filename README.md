@@ -59,7 +59,7 @@
 A mod for **OCTOPATH TRAVELER 0** that aims to integrate as much content as possible from **OCTOPATH TRAVELER: Champions of the Continent** (Global, Japanese, and Chinese versions) and the **other Octopath games too** into OCTOPATH TRAVELER 0.
 - Play all **280+ characters** from CotC complete with skill boards, voicelines, character art, and custom Wishvale integration, including **20+ fully custom playable characters**
 
-![All the different playable characters in `v1.1.0-pre.3-hotfix2`](https://github.com/user-attachments/assets/88e7a927-889b-43bd-9be6-5b92d16d8223)
+[All the different playable characters in `v1.1.0-pre.3-hotfix2`](https://github.com/user-attachments/assets/88e7a927-889b-43bd-9be6-5b92d16d8223)
 
 <details>
 <summary><strong>All new characters from CotC</strong> (v1.1.0-pre.3-hotfix-2)</summary>
