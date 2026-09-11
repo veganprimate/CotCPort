@@ -3,7 +3,11 @@
 
 Everyone is welcome to contribute to this project. Besides the releases, this repository contains extensive documentation on how the various aspects of the mod work, general modding documentation for **Octopath Traveler 0**, and a list of tasks yet to be completed, along with brief discussions on viable paths for progress.
 
-Below is a list of the features that have yet to be ported from **Champions of the Continent**. Each feature links to a markdown file in this repository that explains the current progress on it.
+Below is a list of the features that have yet to be ported from **Champions of the Continent**. Each feature links to a markdown file in this repository that explains the ~~current~~ progress on it.
+
+> [!CAUTION]
+> **Warning:** The documents linked below have not been updated in **months**, the most recently updated one is _[How to add or modify skills, ailments, and avails](Resources/customskills_en.md)_ which itself is 3 months old; many are likely 5+ months old. 
+> The git history / `.git` folder was overwritten when I synced this repo with my local Canary one.
 
 Please first read my short [**explanation of what "porting" content from CotC means**](Resources/ExplainingPorting_en.md) because it is a big misconception to think that just because OT0 is based on CotC that this would make porting trivial
 
